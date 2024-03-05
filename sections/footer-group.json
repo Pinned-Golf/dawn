@@ -8,7 +8,7 @@
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "<em><strong>Pinned Golf<\/strong><\/em>",
+            "heading": "<strong>Pinned Golf<\/strong>",
             "menu": "footer-1"
           }
         }
