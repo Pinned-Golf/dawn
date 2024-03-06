@@ -27,7 +27,7 @@
             "swatch_shape": "square"
           }
         },
-        "quantity_selector": {
+        "quantity_selector_a4gife": {
           "type": "quantity_selector",
           "settings": {
           }
@@ -68,7 +68,7 @@
         "caption",
         "price",
         "variant_picker",
-        "quantity_selector",
+        "quantity_selector_a4gife",
         "buy_buttons",
         "description",
         "share",
