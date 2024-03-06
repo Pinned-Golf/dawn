@@ -53,7 +53,7 @@
           "type": "icon-with-text",
           "settings": {
             "layout": "horizontal",
-            "icon_1": "heart",
+            "icon_1": "none",
             "heading_1": "Heading",
             "icon_2": "return",
             "heading_2": "Heading",
