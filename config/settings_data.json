@@ -130,6 +130,70 @@
     "content_for_index": [
 
     ],
+    "blocks": {
+      "3667842014806057753": {
+        "type": "shopify:\/\/apps\/one-click-upsell-zipify-ocu\/blocks\/app-embed\/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "11349500561483629931": {
+        "type": "shopify:\/\/apps\/notify-back-in-stock-preorder\/blocks\/app-embed\/b399b727-6c85-44fc-9e21-63114bd72054",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "17676059084223943535": {
+        "type": "shopify:\/\/apps\/triplewhale\/blocks\/triple_pixel_snippet\/483d496b-3f1a-4609-aea7-8eee3b6b7a2a",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "6810535121229352664": {
+        "type": "shopify:\/\/apps\/monster-cart-upsell-free-gifts\/blocks\/app-embed\/a1b8e58a-bf1d-4e0f-8768-a387c3f643c0",
+        "disabled": false,
+        "settings": {
+          "markets_rounding": false,
+          "send_gtag_atc": false,
+          "disable_tiktok_tracking": false,
+          "disable_klaviyo_tracking": false,
+          "stop_cart_page": false,
+          "apply_discount_before_checkout": false,
+          "bag_selector": "",
+          "hide_when_opened": "",
+          "show_item_properties": false,
+          "stop_shopify_rate": false,
+          "dev_mode": false,
+          "beta_version": false,
+          "custom_code": "<script>\n    \/\/ custom code here\n<\/script>"
+        }
+      },
+      "17368511000352060744": {
+        "type": "shopify:\/\/apps\/goaffpro-affiliate-marketing\/blocks\/goaffpro-embedded-pixel\/2f4d802b-86c2-47e4-8096-ae1aa3efbab2",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "14060646107696862457": {
+        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "12120936241911852800": {
+        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/reviews_tab\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": true,
+        "settings": {
+          "position": "right"
+        }
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
