@@ -228,7 +228,7 @@
         "buttons_97WpHk": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Speakers",
+            "button_label_1": "Shop Bundles",
             "button_link_1": "",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -242,6 +242,7 @@
         "buttons_97WpHk"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/DSC09402_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
