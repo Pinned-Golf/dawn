@@ -35,7 +35,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSC09514.jpg",
+        "image": "shopify:\/\/shop_images\/DSC09581.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "middle-center",
@@ -146,7 +146,7 @@
         "buttons_hWngpB": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "Shop Rangefinders",
             "button_link_1": "",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -160,6 +160,7 @@
         "buttons_hWngpB"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/DSC09224_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
@@ -186,7 +187,7 @@
         "buttons_dcMzy7": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "Shop Speakers",
             "button_link_1": "",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -200,6 +201,7 @@
         "buttons_dcMzy7"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/DSC09269_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
@@ -226,7 +228,7 @@
         "buttons_97WpHk": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "Shop Speakers",
             "button_link_1": "",
             "button_style_secondary_1": false,
             "button_label_2": "",
