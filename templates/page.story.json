@@ -32,12 +32,23 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "row_4ttM4C": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "row_9cTqLC",
         "row_gkHVYr",
-        "row_MKxY43"
+        "row_MKxY43",
+        "row_4ttM4C"
       ],
       "settings": {
         "image_height": "medium",
