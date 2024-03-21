@@ -129,9 +129,9 @@
         "buttons_hWngpB"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSC09224_1.jpg",
-        "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image": "shopify:\/\/shop_images\/Pinned6250.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
