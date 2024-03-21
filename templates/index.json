@@ -13,8 +13,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "Superior golf technology trusted by 100,000+ golfers.",
-            "text_style": "body"
+            "text": "<em>Golf technology trusted by 100,000+ golfers.<\/em>",
+            "text_style": "caption-with-letter-spacing"
           }
         },
         "button": {
@@ -35,8 +35,8 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSC09581.jpg",
-        "image_overlay_opacity": 40,
+        "image": "shopify:\/\/shop_images\/Pinned6303.jpg",
+        "image_overlay_opacity": 30,
         "image_height": "large",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
