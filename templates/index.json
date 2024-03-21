@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Lower scores, better vibes.",
+            "heading": "<strong>Lower scores, better vibes.<\/strong>",
             "heading_size": "h0"
           }
         },
@@ -104,6 +104,13 @@
             "heading_size": "h0"
           }
         },
+        "text_qfBrAA": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
         "buttons_hWngpB": {
           "type": "buttons",
           "settings": {
@@ -118,6 +125,7 @@
       },
       "block_order": [
         "heading_zNWix9",
+        "text_qfBrAA",
         "buttons_hWngpB"
       ],
       "settings": {
