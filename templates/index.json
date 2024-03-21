@@ -108,7 +108,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop",
-            "button_link_1": "",
+            "button_link_1": "shopify:\/\/collections\/the-prism",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -170,7 +170,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop",
-            "button_link_1": "",
+            "button_link_1": "shopify:\/\/collections\/speakers",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -232,7 +232,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop",
-            "button_link_1": "",
+            "button_link_1": "shopify:\/\/collections\/combos",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
