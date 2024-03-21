@@ -13,7 +13,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "Golf technology trusted by over 100,000 golfers.",
+            "text": "Superior golf technology trusted by 100,000+ golfers.",
             "text_style": "body"
           }
         },
@@ -112,17 +112,31 @@
         "show_text_below": false
       }
     },
+    "rich_text_zyHeCk": {
+      "type": "rich-text",
+      "blocks": {
+        "text_FdmhTY": {
+          "type": "text",
+          "settings": {
+            "text": "<p> <\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_FdmhTY"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "image_banner_wEgHG3": {
       "type": "image-banner",
       "blocks": {
-        "heading_xFDWFE": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
         "buttons_dcMzy7": {
           "type": "buttons",
           "settings": {
@@ -136,7 +150,6 @@
         }
       },
       "block_order": [
-        "heading_xFDWFE",
         "buttons_dcMzy7"
       ],
       "settings": {
@@ -153,17 +166,31 @@
         "show_text_below": false
       }
     },
+    "rich_text_GaqYge": {
+      "type": "rich-text",
+      "blocks": {
+        "text_LYQe9L": {
+          "type": "text",
+          "settings": {
+            "text": "<p> <\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_LYQe9L"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "image_banner_WkQCpb": {
       "type": "image-banner",
       "blocks": {
-        "heading_yPYkiG": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
         "buttons_97WpHk": {
           "type": "buttons",
           "settings": {
@@ -177,7 +204,6 @@
         }
       },
       "block_order": [
-        "heading_yPYkiG",
         "buttons_97WpHk"
       ],
       "settings": {
@@ -194,17 +220,31 @@
         "show_text_below": false
       }
     },
+    "rich_text_96PAjk": {
+      "type": "rich-text",
+      "blocks": {
+        "text_HUBdiw": {
+          "type": "text",
+          "settings": {
+            "text": "<p> <\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_HUBdiw"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "image_banner_FdxwLK": {
       "type": "image-banner",
       "blocks": {
-        "heading_UMkF8w": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
         "buttons_NTPEC6": {
           "type": "buttons",
           "settings": {
@@ -218,7 +258,6 @@
         }
       },
       "block_order": [
-        "heading_UMkF8w",
         "buttons_NTPEC6"
       ],
       "settings": {
@@ -239,8 +278,11 @@
     "image_banner",
     "rich_text",
     "image_banner_pBGm9t",
+    "rich_text_zyHeCk",
     "image_banner_wEgHG3",
+    "rich_text_GaqYge",
     "image_banner_WkQCpb",
+    "rich_text_96PAjk",
     "image_banner_FdxwLK"
   ]
 }
