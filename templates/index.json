@@ -99,16 +99,15 @@
       "blocks": {
         "heading_zNWix9": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
+            "heading": "Rangefinders",
+            "heading_size": "h0"
           }
         },
         "buttons_hWngpB": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Rangefinders",
+            "button_label_1": "Shop",
             "button_link_1": "",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -160,10 +159,17 @@
     "image_banner_wEgHG3": {
       "type": "image-banner",
       "blocks": {
+        "heading_XBhaqB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Speakers",
+            "heading_size": "h0"
+          }
+        },
         "buttons_dcMzy7": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Speakers",
+            "button_label_1": "Shop",
             "button_link_1": "",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -173,16 +179,17 @@
         }
       },
       "block_order": [
+        "heading_XBhaqB",
         "buttons_dcMzy7"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DSC09269_1.jpg",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 30,
         "image_height": "large",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-3",
         "image_behavior": "fixed",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -214,10 +221,17 @@
     "image_banner_WkQCpb": {
       "type": "image-banner",
       "blocks": {
+        "heading_AwGkFg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Combos",
+            "heading_size": "h0"
+          }
+        },
         "buttons_97WpHk": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Bundles",
+            "button_label_1": "Shop",
             "button_link_1": "",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -227,16 +241,17 @@
         }
       },
       "block_order": [
+        "heading_AwGkFg",
         "buttons_97WpHk"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DSC09514.jpg",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 30,
         "image_height": "large",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-3",
         "image_behavior": "fixed",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
