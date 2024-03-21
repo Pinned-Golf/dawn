@@ -62,6 +62,7 @@
       "block_order": [
         "heading"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -69,6 +70,28 @@
         "full_width": true,
         "padding_top": 24,
         "padding_bottom": 24
+      }
+    },
+    "rich_text_zyHeCk": {
+      "type": "rich-text",
+      "blocks": {
+        "text_FdmhTY": {
+          "type": "text",
+          "settings": {
+            "text": "<p> <\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_FdmhTY"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "image_banner_pBGm9t": {
@@ -106,16 +129,16 @@
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-4",
-        "image_behavior": "none",
+        "image_behavior": "fixed",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": false
       }
     },
-    "rich_text_zyHeCk": {
+    "rich_text_9MXNHh": {
       "type": "rich-text",
       "blocks": {
-        "text_FdmhTY": {
+        "text_8BaRDh": {
           "type": "text",
           "settings": {
             "text": "<p> <\/p><p><\/p>"
@@ -123,7 +146,7 @@
         }
       },
       "block_order": [
-        "text_FdmhTY"
+        "text_8BaRDh"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -160,7 +183,7 @@
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-4",
-        "image_behavior": "none",
+        "image_behavior": "fixed",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": false
@@ -214,7 +237,7 @@
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-4",
-        "image_behavior": "none",
+        "image_behavior": "fixed",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": false
@@ -277,8 +300,9 @@
   "order": [
     "image_banner",
     "rich_text",
-    "image_banner_pBGm9t",
     "rich_text_zyHeCk",
+    "image_banner_pBGm9t",
+    "rich_text_9MXNHh",
     "image_banner_wEgHG3",
     "rich_text_GaqYge",
     "image_banner_WkQCpb",
