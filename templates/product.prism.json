@@ -100,6 +100,38 @@
         "padding_bottom": 12
       }
     },
+    "image_banner_fUEkPB": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Trusted_y_619cc38a-b71f-4fae-9eb9-f368f6e69956.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "image_banner_8wLKUY": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Comparison.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "multirow_W73Wwq": {
       "type": "multirow",
       "blocks": {
@@ -161,43 +193,6 @@
         "image_layout": "alternate-left",
         "section_color_scheme": "",
         "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image-with-text": {
-      "type": "image-with-text",
-      "blocks": {
-        "image-with-text-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "image-with-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "image-with-text-0",
-        "image-with-text-1"
-      ],
-      "settings": {
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "scheme-2",
-        "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
@@ -279,48 +274,15 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "image_banner_fUEkPB": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Trusted_y.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "image_banner_8wLKUY": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Comparison.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
     "main",
+    "image_banner_fUEkPB",
+    "image_banner_8wLKUY",
     "multirow_W73Wwq",
-    "image-with-text",
     "171097642479029af9",
     "multicolumn",
-    "related-products",
-    "image_banner_fUEkPB",
-    "image_banner_8wLKUY"
+    "related-products"
   ]
 }
