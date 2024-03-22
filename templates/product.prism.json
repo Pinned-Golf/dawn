@@ -283,9 +283,9 @@
     "image_banner_fUEkPB": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_1.jpg",
+        "image": "shopify:\/\/shop_images\/Trusted_y.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
