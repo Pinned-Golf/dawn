@@ -71,6 +71,15 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "collapsible_tab_VdDEnh": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "box",
+            "content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -83,7 +92,8 @@
         "buy_buttons",
         "description",
         "icon_with_text_UWmnYD",
-        "share"
+        "share",
+        "collapsible_tab_VdDEnh"
       ],
       "settings": {
         "enable_sticky_info": true,
