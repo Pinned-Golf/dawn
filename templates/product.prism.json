@@ -8,17 +8,17 @@
           "settings": {
           }
         },
-        "judge_me_reviews_preview_badge_XWYAkn": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        },
         "caption": {
           "type": "text",
           "disabled": true,
           "settings": {
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle"
+          }
+        },
+        "judge_me_reviews_preview_badge_XWYAkn": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
           }
         },
         "price": {
@@ -31,12 +31,6 @@
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector_a4gife": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {
           }
         },
         "buy_buttons": {
@@ -58,19 +52,12 @@
             "icon_1": "none",
             "image_1": "shopify:\/\/shop_images\/1_f566ca30-628a-4dec-9858-da70ead17dd2.jpg",
             "heading_1": "Free Shipping",
-            "icon_2": "none",
-            "image_2": "shopify:\/\/shop_images\/Untitled_design_20.png",
+            "icon_2": "box",
+            "image_2": "shopify:\/\/shop_images\/2_c0b7a380-c7d2-4ff6-8e2b-0fe2df48f4de.jpg",
             "heading_2": "60 Day Returns",
             "icon_3": "truck",
             "image_3": "shopify:\/\/shop_images\/5_d31e8e02-3601-4ba7-810d-96c7ca29ad75.jpg",
             "heading_3": "Two Year Warranty"
-          }
-        },
-        "share": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
           }
         },
         "collapsible_tab_VdDEnh": {
@@ -81,20 +68,28 @@
             "content": "",
             "page": ""
           }
+        },
+        "collapsible_tab_RHA8Dw": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Technical Specs",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "title",
-        "judge_me_reviews_preview_badge_XWYAkn",
         "caption",
+        "judge_me_reviews_preview_badge_XWYAkn",
         "price",
         "variant_picker",
-        "quantity_selector_a4gife",
         "buy_buttons",
         "description",
         "icon_with_text_UWmnYD",
-        "share",
-        "collapsible_tab_VdDEnh"
+        "collapsible_tab_VdDEnh",
+        "collapsible_tab_RHA8Dw"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -213,7 +208,7 @@
         "row_color_scheme": "",
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "image_banner_8wLKUY": {
@@ -335,52 +330,9 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column-0": {
-          "type": "column",
-          "settings": {
-            "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column-0",
-        "column-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -412,7 +364,6 @@
     "image_banner_fUEkPB",
     "171097642479029af9",
     "collapsible_content_Ldqyzf",
-    "multicolumn",
     "related-products",
     "17114775594ebf2711"
   ]
