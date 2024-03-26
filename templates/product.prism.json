@@ -60,19 +60,19 @@
             "heading_3": "Two Year Warranty"
           }
         },
-        "collapsible_tab_VdDEnh": {
+        "collapsible_tab_RHA8Dw": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "What's in the box?",
+            "heading": "Features",
             "icon": "none",
             "content": "",
             "page": ""
           }
         },
-        "collapsible_tab_RHA8Dw": {
+        "collapsible_tab_VdDEnh": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Technical Specs",
+            "heading": "What's in the box?",
             "icon": "none",
             "content": "",
             "page": ""
@@ -88,8 +88,8 @@
         "buy_buttons",
         "description",
         "icon_with_text_UWmnYD",
-        "collapsible_tab_VdDEnh",
-        "collapsible_tab_RHA8Dw"
+        "collapsible_tab_RHA8Dw",
+        "collapsible_tab_VdDEnh"
       ],
       "settings": {
         "enable_sticky_info": true,
