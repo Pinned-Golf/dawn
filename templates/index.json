@@ -107,7 +107,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "full_width": true,
         "padding_top": 0,
         "padding_bottom": 0
@@ -116,7 +116,7 @@
     "image_banner_wEgHG3": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Speakers_frame.jpg",
+        "image": "shopify:\/\/shop_images\/Speakers_whtie.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -192,7 +192,7 @@
     "image_banner_XHUCQB": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Accessories_c7ee43eb-1e41-461e-81b8-67cf6d145688.jpg",
+        "image": "shopify:\/\/shop_images\/accessories_white.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
