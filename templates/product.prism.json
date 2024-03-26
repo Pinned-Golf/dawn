@@ -171,27 +171,29 @@
         "row_TFfnLL": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
+            "image": "shopify:\/\/shop_images\/Pinned_Prism_red.180.jpg",
+            "caption": "65 Round",
             "heading": "Rechargeable Battery",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         },
         "row_FYWn9r": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
+            "image": "shopify:\/\/shop_images\/Pinned_Prism_navy.2.jpg",
+            "caption": "Never before seen",
             "heading": "First Target Acquisition",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         },
         "row_a8qNHt": {
           "type": "row",
           "settings": {
-            "caption": "",
+            "caption": "True playing distance",
             "heading": "Slope Technology",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button_label": "Button label",
@@ -201,7 +203,7 @@
         "row_W76Ln8": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
+            "caption": "Super Strong",
             "heading": "Built-In Magnet",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button_label": "Button label",
@@ -216,15 +218,15 @@
         "row_W76Ln8"
       ],
       "settings": {
-        "image_height": "medium",
+        "image_height": "large",
         "desktop_image_width": "medium",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "text_style": "body",
         "button_style": "secondary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "image_layout": "alternate-left",
-        "section_color_scheme": "",
+        "section_color_scheme": "scheme-1",
         "row_color_scheme": "",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -245,6 +247,77 @@
       ],
       "settings": {
         "include_margins": true
+      }
+    },
+    "collapsible_content_Ldqyzf": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_9yPfTJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When will my order ship?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_cxrGkh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is there a money back guarantee?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_m4aByT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is slope technology?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_wzeQnP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is the magnet strong?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_RwtbmT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does the battery last?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_9yPfTJ",
+        "collapsible_row_cxrGkh",
+        "collapsible_row_m4aByT",
+        "collapsible_row_wzeQnP",
+        "collapsible_row_RwtbmT"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "multicolumn": {
@@ -273,6 +346,7 @@
         "column-0",
         "column-1"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -316,6 +390,7 @@
     "image_banner_8wLKUY",
     "multirow_W73Wwq",
     "171097642479029af9",
+    "collapsible_content_Ldqyzf",
     "multicolumn",
     "related-products"
   ]
