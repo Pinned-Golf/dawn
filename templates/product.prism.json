@@ -83,7 +83,7 @@
           "settings": {
             "heading": "Shipping",
             "icon": "none",
-            "content": "",
+            "content": "<p>Orders are typically fulfilled and shipped Monday through Friday within <em><strong>24 hours of being placed<\/strong><\/em>.<\/p><p>We offer a few domestic and international shipping options based on your budget and how quickly you want to get dialed in!<\/p>",
             "page": ""
           }
         }
