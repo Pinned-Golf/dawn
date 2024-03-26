@@ -75,10 +75,22 @@
         "collapsible_tab_VdDEnh": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "box",
+            "heading": "What's in the box?",
+            "icon": "none",
             "content": "",
             "page": ""
+          }
+        },
+        "icon_with_text_DeA6Pj": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "heading_1": "Heading",
+            "icon_2": "return",
+            "heading_2": "Heading",
+            "icon_3": "box",
+            "heading_3": "Heading"
           }
         }
       },
@@ -93,7 +105,8 @@
         "description",
         "icon_with_text_UWmnYD",
         "share",
-        "collapsible_tab_VdDEnh"
+        "collapsible_tab_VdDEnh",
+        "icon_with_text_DeA6Pj"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -168,7 +181,7 @@
     "image_banner_WBxJG3": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/PDP_features_page.jpg",
+        "image": "shopify:\/\/shop_images\/features_smaller.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
