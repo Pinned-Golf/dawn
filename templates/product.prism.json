@@ -124,23 +124,6 @@
         "padding_bottom": 12
       }
     },
-    "image_banner_fUEkPB": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/partners_image.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "rich_text_xhixjc": {
       "type": "rich-text",
       "blocks": {
@@ -161,23 +144,6 @@
         "full_width": true,
         "padding_top": 4,
         "padding_bottom": 0
-      }
-    },
-    "image_banner_WBxJG3": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/features_smaller.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "multirow_W73Wwq": {
@@ -273,6 +239,22 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "image_banner_fUEkPB": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/partners_image.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "171097642479029af9": {
@@ -433,11 +415,10 @@
   },
   "order": [
     "main",
-    "image_banner_fUEkPB",
     "rich_text_xhixjc",
-    "image_banner_WBxJG3",
     "multirow_W73Wwq",
     "image_banner_8wLKUY",
+    "image_banner_fUEkPB",
     "171097642479029af9",
     "collapsible_content_Ldqyzf",
     "multicolumn",
