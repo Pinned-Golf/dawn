@@ -116,6 +116,28 @@
         "show_text_below": false
       }
     },
+    "rich_text_xhixjc": {
+      "type": "rich-text",
+      "blocks": {
+        "text_3zb4dx": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_3zb4dx"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 0
+      }
+    },
     "image_banner_8wLKUY": {
       "type": "image-banner",
       "settings": {
@@ -139,7 +161,7 @@
           "type": "row",
           "settings": {
             "caption": "Caption",
-            "heading": "Row",
+            "heading": "Rechargeable Battery",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button_label": "Button label",
             "button_link": ""
@@ -149,7 +171,7 @@
           "type": "row",
           "settings": {
             "caption": "Caption",
-            "heading": "Row",
+            "heading": "First Target Acquisition",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button_label": "Button label",
             "button_link": ""
@@ -159,7 +181,7 @@
           "type": "row",
           "settings": {
             "caption": "Caption",
-            "heading": "Row",
+            "heading": "Slope Technology",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button_label": "Button label",
             "button_link": ""
@@ -169,7 +191,7 @@
           "type": "row",
           "settings": {
             "caption": "Caption",
-            "heading": "Row",
+            "heading": "Built-In Magnet",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button_label": "Button label",
             "button_link": ""
@@ -279,6 +301,7 @@
   "order": [
     "main",
     "image_banner_fUEkPB",
+    "rich_text_xhixjc",
     "image_banner_8wLKUY",
     "multirow_W73Wwq",
     "171097642479029af9",
