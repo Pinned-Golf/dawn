@@ -277,7 +277,7 @@
           "settings": {
             "heading": "When will my order ship?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>We offer a few domestic and international shipping options based on your budget and how badly you want to get dialed in.<\/p><p>Orders are typically fulfilled and shipped Monday through Friday within 24 hours of being placed. (Orders placed before 1 p.m. EST will be processed the same day. Orders placed after 1 p.m. EST will be processed the next business day.)<\/p><p>Our fulfillment centers are closed on weekends and all major U.S. holidays. Please keep this in mind when selecting your shipping option.<\/p><p>While we do our best to fulfill and ship your orders within 24 hours Monday through Friday, sometimes delays occur during shipping because of invalid shipping addresses, weather, technical difficulties or Customs.<\/p>",
             "page": ""
           }
         },
