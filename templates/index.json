@@ -13,8 +13,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<em>Golf technology trusted by 100,000+ golfers.<\/em>",
-            "text_style": "caption-with-letter-spacing"
+            "text": "<em><strong>Golf technology trusted by 100,000+ golfers.<\/strong><\/em>",
+            "text_style": "subtitle"
           }
         },
         "button": {
