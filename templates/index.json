@@ -96,41 +96,9 @@
     },
     "image_banner_pBGm9t": {
       "type": "image-banner",
-      "blocks": {
-        "heading_zNWix9": {
-          "type": "heading",
-          "settings": {
-            "heading": "Rangefinders",
-            "heading_size": "h0"
-          }
-        },
-        "text_qfBrAA": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
-        "buttons_hWngpB": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop",
-            "button_link_1": "shopify:\/\/collections\/the-prism",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_zNWix9",
-        "text_qfBrAA",
-        "buttons_hWngpB"
-      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSC09224_1.jpg",
-        "image_overlay_opacity": 30,
+        "image": "shopify:\/\/shop_images\/Frame_22.jpg",
+        "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
@@ -166,33 +134,9 @@
     },
     "image_banner_wEgHG3": {
       "type": "image-banner",
-      "blocks": {
-        "heading_XBhaqB": {
-          "type": "heading",
-          "settings": {
-            "heading": "Speakers",
-            "heading_size": "h0"
-          }
-        },
-        "buttons_dcMzy7": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop",
-            "button_link_1": "shopify:\/\/collections\/speakers",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_XBhaqB",
-        "buttons_dcMzy7"
-      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSC09269_1.jpg",
-        "image_overlay_opacity": 30,
+        "image": "shopify:\/\/shop_images\/Speakers_frame.jpg",
+        "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
@@ -228,33 +172,47 @@
     },
     "image_banner_WkQCpb": {
       "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/COmbos_frame.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "rich_text_De3btP": {
+      "type": "rich-text",
       "blocks": {
-        "heading_AwGkFg": {
-          "type": "heading",
+        "text_8tEE3U": {
+          "type": "text",
           "settings": {
-            "heading": "Combos",
-            "heading_size": "h0"
-          }
-        },
-        "buttons_97WpHk": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop",
-            "button_link_1": "shopify:\/\/collections\/combos",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p> <\/p><p><\/p>"
           }
         }
       },
       "block_order": [
-        "heading_AwGkFg",
-        "buttons_97WpHk"
+        "text_8tEE3U"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSC09514.jpg",
-        "image_overlay_opacity": 30,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_XHUCQB": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Accessories_c7ee43eb-1e41-461e-81b8-67cf6d145688.jpg",
+        "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
@@ -314,6 +272,8 @@
     "image_banner_wEgHG3",
     "rich_text_GaqYge",
     "image_banner_WkQCpb",
+    "rich_text_De3btP",
+    "image_banner_XHUCQB",
     "rich_text_96PAjk",
     "image_banner_FdxwLK"
   ]
