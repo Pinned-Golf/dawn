@@ -40,7 +40,7 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/hero.jpg",
+        "image": "shopify:\/\/shop_images\/Hero111.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -230,7 +230,7 @@
     "image_banner_FdxwLK": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/partners_image.jpg",
+        "image": "shopify:\/\/shop_images\/Frame_2006.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
