@@ -25,6 +25,7 @@
       "block_order": [
         "slide_y6Vizm"
       ],
+      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
@@ -50,30 +51,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Lower Scores, Better Vibes.",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 24,
-        "padding_bottom": 24
       }
     },
     "rich_text_zyHeCk": {
@@ -270,7 +247,6 @@
   "order": [
     "slideshow_4t63MF",
     "image_banner",
-    "rich_text",
     "rich_text_zyHeCk",
     "image_banner_pBGm9t",
     "rich_text_9MXNHh",
