@@ -15,7 +15,7 @@
         "paragraph_fHh8pr": {
           "type": "paragraph",
           "settings": {
-            "text": "<p><em>Be the first to hear about huge discounts, new products & giveaways.<\/em><\/p>"
+            "text": "<p><em>Be the first to hear about discounts, new products & giveaways.<\/em><\/p>"
           }
         },
         "email_form_XUxpkm": {
@@ -42,7 +42,7 @@
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "<strong>Always Dialed In. <\/strong>",
+            "heading": "<strong>Pinned Golf<\/strong>",
             "menu": "footer-1"
           }
         }
