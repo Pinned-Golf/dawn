@@ -8,6 +8,13 @@
           "settings": {
           }
         },
+        "text_HzgL4i": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Rangefinders trusted by 100,000+ golfers.<\/strong>",
+            "text_style": "uppercase"
+          }
+        },
         "caption": {
           "type": "text",
           "disabled": true,
@@ -90,6 +97,7 @@
       },
       "block_order": [
         "title",
+        "text_HzgL4i",
         "caption",
         "judge_me_reviews_preview_badge_XWYAkn",
         "price",
