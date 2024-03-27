@@ -242,6 +242,28 @@
         "stack_images_on_mobile": true,
         "show_text_below": false
       }
+    },
+    "rich_text_kXUUjK": {
+      "type": "rich-text",
+      "blocks": {
+        "text_xVtcVD": {
+          "type": "text",
+          "settings": {
+            "text": "<p> <\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_xVtcVD"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -256,6 +278,7 @@
     "rich_text_De3btP",
     "image_banner_XHUCQB",
     "rich_text_96PAjk",
-    "image_banner_FdxwLK"
+    "image_banner_FdxwLK",
+    "rich_text_kXUUjK"
   ]
 }
