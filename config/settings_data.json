@@ -114,6 +114,9 @@
     "show_vendor": false,
     "show_cart_note": true,
     "cart_drawer_collection": "upsells",
+    "checkout_accent_color": "#000000",
+    "checkout_button_color": "#000000",
+    "checkout_error_color": "#ff0000",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
