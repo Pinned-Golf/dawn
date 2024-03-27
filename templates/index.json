@@ -116,7 +116,7 @@
     "image_banner_wEgHG3": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_4092.jpg",
+        "image": "shopify:\/\/shop_images\/goodmusic.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -192,7 +192,7 @@
     "image_banner_XHUCQB": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Accessories_Hero.jpg",
+        "image": "shopify:\/\/shop_images\/acces.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
