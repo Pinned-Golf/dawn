@@ -210,6 +210,7 @@
         "slide_mC9RVy",
         "slide_dBk89F"
       ],
+      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
@@ -322,7 +323,7 @@
     "image_banner_fUEkPB": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/trusted_byPDP.jpg",
+        "image": "shopify:\/\/shop_images\/smaller_trusted_by.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
