@@ -335,38 +335,6 @@
         "show_text_below": false
       }
     },
-    "image_banner_hx8zwx": {
-      "type": "image-banner",
-      "blocks": {
-        "buttons_bHbEFE": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "",
-            "button_link_1": "shopify:\/\/pages\/ftk-landing",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "buttons_bHbEFE"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Fore_The_Kids.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "171097642479029af9": {
       "type": "apps",
       "blocks": {
@@ -505,7 +473,6 @@
     "multirow_W73Wwq",
     "image_banner_8wLKUY",
     "image_banner_fUEkPB",
-    "image_banner_hx8zwx",
     "171097642479029af9",
     "collapsible_content_Ldqyzf",
     "related-products",
