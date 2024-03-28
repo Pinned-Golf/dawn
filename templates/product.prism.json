@@ -223,6 +223,7 @@
     },
     "image_banner_m7HbAW": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/features_smaller.jpg",
         "image_overlay_opacity": 0,
