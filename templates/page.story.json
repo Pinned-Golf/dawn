@@ -77,10 +77,46 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_RRWUdQ": {
+      "type": "rich-text",
+      "blocks": {
+        "text_mL3Aeh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join us in making golf more enjoyable and play your best. Explore our products and start elevating your game today!<\/p>"
+          }
+        },
+        "button_giXKzN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_mL3Aeh",
+        "button_giXKzN"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "multirow_qpAPhg",
-    "main"
+    "main",
+    "rich_text_RRWUdQ"
   ]
 }
