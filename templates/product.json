@@ -41,6 +41,7 @@
         },
         "quantity_selector_a4gife": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
