@@ -13,6 +13,13 @@
           "settings": {
           }
         },
+        "text_8pA7Hq": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Rangefinders trusted by 100,000 golfers.<\/strong>",
+            "text_style": "uppercase"
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -75,6 +82,7 @@
       "block_order": [
         "title",
         "judge_me_reviews_preview_badge_tAHRwe",
+        "text_8pA7Hq",
         "caption",
         "price",
         "variant_picker",
