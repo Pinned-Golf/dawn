@@ -55,6 +55,22 @@
     },
     "image_banner_pBGm9t": {
       "type": "image-banner",
+      "blocks": {
+        "buttons_wNDncA": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "shopify:\/\/products\/prism-rangefinder",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "buttons_wNDncA"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Prism_rangefinder_a2dd8a94-1192-4682-a1cf-73c432181910.jpg",
         "image_overlay_opacity": 0,
