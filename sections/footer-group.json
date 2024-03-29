@@ -46,10 +46,19 @@
             "heading": "<strong>Pinned Golf<\/strong>",
             "menu": "new-dawn-footer"
           }
+        },
+        "image_tBdAEC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lines.jpg",
+            "image_width": 550,
+            "alignment": "center"
+          }
         }
       },
       "block_order": [
-        "footer-0"
+        "footer-0",
+        "image_tBdAEC"
       ],
       "settings": {
         "color_scheme": "scheme-3",
