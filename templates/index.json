@@ -39,6 +39,7 @@
     },
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_7886.jpg",
         "image_overlay_opacity": 0,
@@ -296,6 +297,7 @@
         "text_TKhdF9",
         "button_hLH7A6"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Untitled_design_3.jpg",
         "height": "adapt",
