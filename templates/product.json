@@ -77,6 +77,33 @@
             "image_3": "shopify:\/\/shop_images\/5_d31e8e02-3601-4ba7-810d-96c7ca29ad75.jpg",
             "heading_3": "Top Tier Support"
           }
+        },
+        "collapsible_tab_mFpMHC": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "<ul><li>Slope<\/li><li>Battery<\/li><li>Case<\/li><li>Charge<\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_ULUXpP": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_LEjyQf": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -90,7 +117,10 @@
         "buy_buttons",
         "description",
         "share",
-        "icon_with_text_UWmnYD"
+        "icon_with_text_UWmnYD",
+        "collapsible_tab_mFpMHC",
+        "collapsible_tab_ULUXpP",
+        "collapsible_tab_LEjyQf"
       ],
       "settings": {
         "enable_sticky_info": true,
