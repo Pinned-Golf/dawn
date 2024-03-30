@@ -203,50 +203,12 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_fNmcmP": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Heading_2.jpg",
-            "heading": "Bushnell Who?",
-            "heading_size": "h2",
-            "subheading": "<em>“I have used the new Pinned rangefinder for 10 rounds now...will never use anything else. So easy to use and the speed of the reading is amazing!” <\/em>Baron J.",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-3",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_NTtJq7": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Heading_3.jpg",
-            "heading": "More Confident",
-            "heading_size": "h2",
-            "subheading": "“Since I started using the Prism, I have been playing with more confidence by making better club choices. Knowing the exact distance has helped me in ways I didn’t know was possible.”",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-3",
-            "text_alignment_mobile": "left"
-          }
         }
       },
       "block_order": [
         "slide_MLyAkz",
         "slide_mC9RVy",
-        "slide_dBk89F",
-        "slide_fNmcmP",
-        "slide_NTtJq7"
+        "slide_dBk89F"
       ],
       "settings": {
         "layout": "grid",
@@ -377,7 +339,7 @@
     "image_banner_8wLKUY": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Comparisonfinal.jpg",
+        "image": "shopify:\/\/shop_images\/kko.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
