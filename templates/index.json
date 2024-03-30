@@ -110,7 +110,7 @@
     "image_banner_wEgHG3": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_48.jpg",
+        "image": "shopify:\/\/shop_images\/sepaker_hero.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -148,7 +148,7 @@
     "image_banner_WkQCpb": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_49.jpg",
+        "image": "shopify:\/\/shop_images\/Combo_hearo.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -186,7 +186,7 @@
     "image_banner_XHUCQB": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_50.jpg",
+        "image": "shopify:\/\/shop_images\/Soeakers_hero.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
