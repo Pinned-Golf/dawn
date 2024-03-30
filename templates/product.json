@@ -310,10 +310,10 @@
         "padding_bottom": 36
       }
     },
-    "image_banner_yQpQWU": {
+    "image_banner_YTFPAp": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/lloo0.jpg",
+        "image": "shopify:\/\/shop_images\/Comparisonfinal.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -326,10 +326,10 @@
         "show_text_below": true
       }
     },
-    "image_banner_YTFPAp": {
+    "image_banner_yQpQWU": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Comparisonfinal.jpg",
+        "image": "shopify:\/\/shop_images\/lloo0.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -366,8 +366,8 @@
     "slideshow_k4XPdW",
     "image_banner_AgN8Rt",
     "multirow_DgY64M",
-    "image_banner_yQpQWU",
     "image_banner_YTFPAp",
+    "image_banner_yQpQWU",
     "related-products"
   ]
 }
