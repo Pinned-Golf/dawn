@@ -139,99 +139,6 @@
         "padding_bottom": 12
       }
     },
-    "slideshow_k4XPdW": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_H3JU3e": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_30b4a492-f0ac-4a5a-ab5f-b5e8d5af0a87.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_PzEcAC": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3_74371191-a1bb-4e2e-a9a1-c1bee1fd7ed1.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_QjhyNW": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_97e09356-6797-44c1-bddb-57145eeb85db.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_4iwR66": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Heading_3.jpg",
-            "heading": "More confidence",
-            "heading_size": "h2",
-            "subheading": "“Since I started using the Prism, I have been playing with more confidence by making better club choices. Knowing the exact distance has helped me in ways I didn’t know was possible.”",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-4",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_H3JU3e",
-        "slide_PzEcAC",
-        "slide_QjhyNW",
-        "slide_4iwR66"
-      ],
-      "settings": {
-        "layout": "grid",
-        "slide_height": "adapt_image",
-        "slider_visual": "dots",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "image_banner_AgN8Rt": {
       "type": "image-banner",
       "settings": {
@@ -362,6 +269,99 @@
         "show_text_below": true
       }
     },
+    "slideshow_k4XPdW": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_H3JU3e": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_30b4a492-f0ac-4a5a-ab5f-b5e8d5af0a87.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_PzEcAC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_74371191-a1bb-4e2e-a9a1-c1bee1fd7ed1.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_QjhyNW": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_97e09356-6797-44c1-bddb-57145eeb85db.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_4iwR66": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Heading_3.jpg",
+            "heading": "More confidence",
+            "heading_size": "h2",
+            "subheading": "“Since I started using the Prism, I have been playing with more confidence by making better club choices. Knowing the exact distance has helped me in ways I didn’t know was possible.”",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-4",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_H3JU3e",
+        "slide_PzEcAC",
+        "slide_QjhyNW",
+        "slide_4iwR66"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "image_banner_yQpQWU": {
       "type": "image-banner",
       "disabled": true,
@@ -447,10 +447,10 @@
   },
   "order": [
     "main",
-    "slideshow_k4XPdW",
     "image_banner_AgN8Rt",
     "multirow_DgY64M",
     "image_banner_YTFPAp",
+    "slideshow_k4XPdW",
     "image_banner_yQpQWU",
     "image_with_text_EDRhQ4",
     "related-products"
