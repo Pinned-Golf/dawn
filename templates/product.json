@@ -311,7 +311,7 @@
         "slide_QjhyNW": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_97e09356-6797-44c1-bddb-57145eeb85db.jpg",
+            "image": "shopify:\/\/shop_images\/3_00a2e0e2-c596-4e5c-ac37-121b0e1b7d50.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -326,13 +326,13 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_4iwR66": {
+        "slide_fbiABa": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Heading_3.jpg",
-            "heading": "More confidence",
-            "heading_size": "h2",
-            "subheading": "“Since I started using the Prism, I have been playing with more confidence by making better club choices. Knowing the exact distance has helped me in ways I didn’t know was possible.”",
+            "image": "shopify:\/\/shop_images\/6_b83caeb4-fcd3-4f5e-9ed0-bbb07a8b6cb4.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -340,7 +340,25 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-4",
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_wGwwmR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8_2ec95c76-15d6-47a9-b4dd-fcaa1745799e.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         }
@@ -349,7 +367,8 @@
         "slide_H3JU3e",
         "slide_PzEcAC",
         "slide_QjhyNW",
-        "slide_4iwR66"
+        "slide_fbiABa",
+        "slide_wGwwmR"
       ],
       "settings": {
         "layout": "grid",
