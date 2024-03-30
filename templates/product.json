@@ -347,6 +347,7 @@
       "blocks": {
         "heading_C4xyht": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "<strong>Rangefinder Trade-in Program<\/strong>",
             "heading_size": "h1"
@@ -381,8 +382,8 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "scheme-af529a53-b94b-40d0-9746-399d6ccf1927",
+        "color_scheme": "scheme-af529a53-b94b-40d0-9746-399d6ccf1927",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
