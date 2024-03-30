@@ -328,6 +328,7 @@
     },
     "image_banner_yQpQWU": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/lloo0.jpg",
         "image_overlay_opacity": 0,
