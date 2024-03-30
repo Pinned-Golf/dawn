@@ -195,12 +195,31 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_4iwR66": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Heading_3.jpg",
+            "heading": "More confidence",
+            "heading_size": "h2",
+            "subheading": "“Since I started using the Prism, I have been playing with more confidence by making better club choices. Knowing the exact distance has helped me in ways I didn’t know was possible.”",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-4",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_H3JU3e",
         "slide_PzEcAC",
-        "slide_QjhyNW"
+        "slide_QjhyNW",
+        "slide_4iwR66"
       ],
       "settings": {
         "layout": "full_bleed",
