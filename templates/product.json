@@ -259,7 +259,7 @@
         "image": "shopify:\/\/shop_images\/kko_25c00ce4-e6ee-4321-aceb-33e28132bfa3.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "bottom-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "",
@@ -415,7 +415,7 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "scheme-af529a53-b94b-40d0-9746-399d6ccf1927",
@@ -514,6 +514,22 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "171176697446b6f676": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_MqhpFj": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_MqhpFj"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -525,6 +541,7 @@
     "image_banner_yQpQWU",
     "image_with_text_EDRhQ4",
     "related-products",
-    "collapsible_content_3AyFLq"
+    "collapsible_content_3AyFLq",
+    "171176697446b6f676"
   ]
 }
