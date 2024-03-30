@@ -82,27 +82,27 @@
         "collapsible_tab_mFpMHC": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "<ul><li>Slope<\/li><li>Battery<\/li><li>Case<\/li><li>Charge<\/li><\/ul>",
+            "heading": "Features",
+            "icon": "none",
+            "content": "<ul><li>Slope Technology<\/li><li>Built-In Magnet<\/li><li>USB-C Charged<\/li><li>60 Round Battery Life<\/li><li>Initial Target Acquisition<\/li><li>MagClose Hard Cover Case<\/li><li>PinnedLock Vibration<\/li><li>4K OLED Display<\/li><li>USGA Tournament Legal<\/li><li>IP54 Resistant<\/li><li>Two Year Warranty<\/li><\/ul>",
             "page": ""
           }
         },
         "collapsible_tab_ULUXpP": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
+            "heading": "What's in the box?",
+            "icon": "none",
+            "content": "<ul><li>Prism+ Rangefinder<\/li><li>MagClose Hard Cover Case<\/li><li>USB-C Charging Cord<\/li><li>Pinned Ball Marker<\/li><li>Pinned Sticker<\/li><li>Bag Clip Carabiner<\/li><li>Lens Cleaning Cloth<\/li><li>Instruction Manual<\/li><li>Device Registration Guide<\/li><\/ul>",
             "page": ""
           }
         },
         "collapsible_tab_LEjyQf": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
+            "heading": "Shipping",
+            "icon": "none",
+            "content": "<p>Orders are typically fulfilled and shipped Monday through Friday within <em><strong>24 hours of being placed<\/strong><\/em>.<\/p><p>We offer a few domestic and international shipping options based on your budget and how quickly you want to get dialed in!<\/p>",
             "page": ""
           }
         }
