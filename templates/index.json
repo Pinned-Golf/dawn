@@ -25,6 +25,14 @@
       "block_order": [
         "slide_y6Vizm"
       ],
+      "custom_css": [
+        ".slideshow__controls {bottom: 0rem; left: 0; right: 0; color: white !important; z-index: 999; position: absolute;}",
+        ".slideshow__controls .slider-button {color: white;}",
+        ".dot {background-color: white; width: 2rem; border-radius: 0.25rem;}",
+        ".slider-counter__link--active .dot {background-color: #ffb000;}",
+        ".banner__buttons {display: grid;}",
+        ".banner__text,.banner__heading {color: #fff; text-shadow: 0 0 3px #000;}"
+      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
