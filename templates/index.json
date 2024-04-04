@@ -7,7 +7,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design_6.jpg",
-            "heading": "<strong>Better golf, better vibes.<\/strong>",
+            "heading": "<strong>Better golf. Better vibes.<\/strong>",
             "heading_size": "h0",
             "subheading": "Golf tech trusted by 100,000+ golfers.",
             "button_label": "Shop Now",
@@ -42,23 +42,6 @@
         "image_behavior": "none",
         "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "image_banner": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_7886.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
       }
     },
     "image_banner_pBGm9t": {
@@ -314,11 +297,107 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "slideshow_A6tJy6": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_gbEFnj": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_mR3q6J": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_cwjqfy": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_gbEFnj",
+        "slide_mR3q6J",
+        "slide_cwjqfy"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "collection_list_LMyCyM": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_9HpcnB": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-prism"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_9HpcnB"
+      ],
+      "settings": {
+        "title": "Explore",
+        "heading_size": "h1",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "slideshow_4t63MF",
-    "image_banner",
     "image_banner_pBGm9t",
     "rich_text_9MXNHh",
     "image_banner_wEgHG3",
@@ -329,6 +408,8 @@
     "rich_text_96PAjk",
     "image_banner_FdxwLK",
     "rich_text_kXUUjK",
-    "image_with_text_y7h7ad"
+    "image_with_text_y7h7ad",
+    "slideshow_A6tJy6",
+    "collection_list_LMyCyM"
   ]
 }
