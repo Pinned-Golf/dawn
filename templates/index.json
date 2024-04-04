@@ -353,6 +353,67 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collapsible_content_rT76Q4": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_q8xcaM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Elevate Your Game",
+            "icon": "heart",
+            "row_content": "<p>Whether you’re an avid golf addict or just getting started, our products aim to impress. They're accurate, user-friendly, and packed with top-of-the-line features.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CtrEpK": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Style That Turns Heads",
+            "icon": "fire",
+            "row_content": "<p>Golf gear doesn't have to be boring. We've focused on creating products with vibrant colors, captivating designs, and a modern, sleek style guaranteed to turn heads on the course.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_hFPCH8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Push The Envelop",
+            "icon": "lightning_bolt",
+            "row_content": "<p>Innovation fuels us. We're constantly exploring new frontiers in golf technology to give you a competitive edge. When you choose a Pinned product, you're investing in the latest and greatest the industry has to offer.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CnpitJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Stand The Test Of Time",
+            "icon": "stopwatch",
+            "row_content": "<p>We're committed to durability and longevity. Pinned products are crafted with the toughest materials and rigorous testing to withstand any battle on they face on the course. This ensures they're on the course with you round after round, season after season.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_q8xcaM",
+        "collapsible_row_CtrEpK",
+        "collapsible_row_hFPCH8",
+        "collapsible_row_CnpitJ"
+      ],
+      "settings": {
+        "caption": "We won’t release a product unless it hits the mark on all 4 of our core value drivers.",
+        "heading": "The Pinned Promise",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -368,6 +429,7 @@
     "image_banner_FdxwLK",
     "rich_text_kXUUjK",
     "image_with_text_y7h7ad",
-    "multicolumn_bE7ELq"
+    "multicolumn_bE7ELq",
+    "collapsible_content_rT76Q4"
   ]
 }
