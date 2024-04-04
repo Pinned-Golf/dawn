@@ -304,7 +304,8 @@
         "column_QrLCE4": {
           "type": "column",
           "settings": {
-            "title": "Bushnell Who?!",
+            "image": "shopify:\/\/shop_images\/Pinned_Prism_navy.12.jpg",
+            "title": "<em>Bushnell Who?!<\/em>",
             "text": "<p>“Value nearly unparalleled. Performs as well as if not better than higher price point devices. Customer support...A+.”<\/p><p><em>Jason<\/em><\/p>",
             "link_label": "",
             "link": ""
@@ -313,6 +314,7 @@
         "column_BMiAm6": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Pinned_Prism_red.17.jpg",
             "title": "Caddies Approved",
             "text": "<p>“Excellent product. Clear and accurate readings. Those caddies knew what they were talking about in their review.”<\/p><p><em>Keith<\/em><\/p>",
             "link_label": "",
@@ -322,6 +324,7 @@
         "column_T4RaKA": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Pinned_Prism_black.8.jpg",
             "title": "Pinned 4 Life",
             "text": "<p>“Great products and even greater customer service! Will always keep pinned in the bag!”<\/p>",
             "link_label": "",
