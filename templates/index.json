@@ -298,97 +298,53 @@
         "padding_bottom": 36
       }
     },
-    "slideshow_A6tJy6": {
-      "type": "slideshow",
+    "multicolumn_bE7ELq": {
+      "type": "multicolumn",
       "blocks": {
-        "slide_gbEFnj": {
-          "type": "slide",
+        "column_QrLCE4": {
+          "type": "column",
           "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
+            "title": "Bushnell Who?!",
+            "text": "<p>“Value nearly unparalleled. Performs as well as if not better than higher price point devices. Customer support...A+.”<\/p><p><em>Jason<\/em><\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "slide_mR3q6J": {
-          "type": "slide",
+        "column_BMiAm6": {
+          "type": "column",
           "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
+            "title": "Caddies Approved",
+            "text": "<p>“Excellent product. Clear and accurate readings. Those caddies knew what they were talking about in their review.”<\/p><p><em>Keith<\/em><\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "slide_cwjqfy": {
-          "type": "slide",
+        "column_T4RaKA": {
+          "type": "column",
           "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
+            "title": "Pinned 4 Life",
+            "text": "<p>“Great products and even greater customer service! Will always keep pinned in the bag!”<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "slide_gbEFnj",
-        "slide_mR3q6J",
-        "slide_cwjqfy"
+        "column_QrLCE4",
+        "column_BMiAm6",
+        "column_T4RaKA"
       ],
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "collection_list_LMyCyM": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_9HpcnB": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "the-prism"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_9HpcnB"
-      ],
-      "settings": {
-        "title": "Explore",
-        "heading_size": "h1",
+        "title": "Their words, not ours...",
+        "heading_size": "h2",
+        "image_width": "third",
         "image_ratio": "adapt",
-        "columns_desktop": 1,
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "",
-        "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
@@ -409,7 +365,6 @@
     "image_banner_FdxwLK",
     "rich_text_kXUUjK",
     "image_with_text_y7h7ad",
-    "slideshow_A6tJy6",
-    "collection_list_LMyCyM"
+    "multicolumn_bE7ELq"
   ]
 }
