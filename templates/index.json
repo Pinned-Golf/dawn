@@ -240,8 +240,8 @@
         "column_QrLCE4": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Pinned_Prism_navy.12.jpg",
-            "title": "Bushnell Who?!",
+            "image": "shopify:\/\/shop_images\/Untitled_design_23.png",
+            "title": "Michael Breed, PGA Teacher of the Year",
             "text": "<p>“Value nearly unparalleled. Performs as well as if not better than higher price point devices. Customer support...A+.”<\/p><p><em>Jason<\/em><\/p>",
             "link_label": "",
             "link": ""
@@ -250,9 +250,9 @@
         "column_BMiAm6": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Pinned_Prism_red.17.jpg",
-            "title": "Caddies Approved",
-            "text": "<p>“Excellent product. Clear and accurate readings. Those caddies knew what they were talking about in their review.”<\/p><p><em>Keith<\/em><\/p>",
+            "image": "shopify:\/\/shop_images\/3_1ee73caf-fb9a-429d-a19e-5b0ce37496b9.png",
+            "title": "Olivia Mitchell, 2-Time National Champion",
+            "text": "<p>\"Just as if not more accurate than other rangefinders i've used in the past. It gives me the confidence in my game and keeps me dialed in from tee to green!<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -260,8 +260,8 @@
         "column_T4RaKA": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Pinned_Prism_black.8.jpg",
-            "title": "Pinned 4 Life",
+            "image": "shopify:\/\/shop_images\/2_0bb3a52b-d01b-4af5-ba1a-5ec948227cee.png",
+            "title": "Jake Hutt, PGA Class A Teacher",
             "text": "<p>“Great products and even greater customer service! Will always keep pinned in the bag!”<\/p>",
             "link_label": "",
             "link": ""
@@ -277,7 +277,7 @@
         "title": "Their words, not ours...",
         "heading_size": "h2",
         "image_width": "third",
-        "image_ratio": "adapt",
+        "image_ratio": "circle",
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
