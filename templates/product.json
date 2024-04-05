@@ -253,6 +253,33 @@
         "show_text_below": true
       }
     },
+    "rich_text_rk9B8n": {
+      "type": "rich-text",
+      "blocks": {
+        "button_JY4HTi": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy The Prism+",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_JY4HTi"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "slideshow_k4XPdW": {
       "type": "slideshow",
       "blocks": {
@@ -540,6 +567,7 @@
     "image_banner_AgN8Rt",
     "multirow_DgY64M",
     "image_banner_YTFPAp",
+    "rich_text_rk9B8n",
     "slideshow_k4XPdW",
     "image_banner_yQpQWU",
     "image_with_text_EDRhQ4",
