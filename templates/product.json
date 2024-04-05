@@ -239,22 +239,6 @@
     },
     "image_banner_YTFPAp": {
       "type": "image-banner",
-      "blocks": {
-        "buttons_Q3cK3W": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop The Prism+",
-            "button_link_1": "shopify:\/\/products\/prism-rangefinder",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "buttons_Q3cK3W"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/kko_25c00ce4-e6ee-4321-aceb-33e28132bfa3.jpg",
         "image_overlay_opacity": 0,
@@ -262,7 +246,7 @@
         "desktop_content_position": "bottom-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
