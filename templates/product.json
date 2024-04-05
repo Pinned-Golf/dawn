@@ -118,9 +118,9 @@
         "complementary_VWp4fW": {
           "type": "complementary",
           "settings": {
-            "block_heading": "Customization",
+            "block_heading": "Personalization",
             "make_collapsible_row": true,
-            "icon": "none",
+            "icon": "star",
             "product_list_limit": 10,
             "products_per_page": 3,
             "pagination_style": "counter",
