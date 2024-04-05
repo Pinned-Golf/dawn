@@ -105,6 +105,35 @@
             "content": "<p>Orders are typically fulfilled and shipped Monday through Friday within <em><strong>24 hours of being placed<\/strong><\/em>.<\/p><p>We offer a few domestic and international shipping options based on your budget and how quickly you want to get dialed in!<\/p>",
             "page": ""
           }
+        },
+        "collapsible_tab_jYVmxd": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "complementary_VWp4fW": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Customization",
+            "make_collapsible_row": true,
+            "icon": "none",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
+        },
+        "popup_YymdwD": {
+          "type": "popup",
+          "settings": {
+            "text": "Customize Your Prism+",
+            "page": "caddy-combo"
+          }
         }
       },
       "block_order": [
@@ -121,7 +150,10 @@
         "icon_with_text_UWmnYD",
         "collapsible_tab_mFpMHC",
         "collapsible_tab_ULUXpP",
-        "collapsible_tab_LEjyQf"
+        "collapsible_tab_LEjyQf",
+        "collapsible_tab_jYVmxd",
+        "complementary_VWp4fW",
+        "popup_YymdwD"
       ],
       "settings": {
         "enable_sticky_info": true,
