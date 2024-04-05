@@ -126,6 +126,15 @@
             "text": "Customize Your Prism+",
             "page": ""
           }
+        },
+        "collapsible_tab_ydzdBh": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "The Pinned Promise",
+            "icon": "none",
+            "content": "<p>We don't release a product unless it hits on these 4 core values... <\/p><ol><li>Elevate your game<\/li><li>Style that turns heads<\/li><li>Push the envelop<\/li><li>Stand the test of time<\/li><\/ol>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -144,7 +153,8 @@
         "collapsible_tab_ULUXpP",
         "collapsible_tab_LEjyQf",
         "complementary_G4gnMw",
-        "popup_YymdwD"
+        "popup_YymdwD",
+        "collapsible_tab_ydzdBh"
       ],
       "settings": {
         "enable_sticky_info": true,
