@@ -242,7 +242,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design_23.png",
             "title": "Michael Breed, PGA Teacher of the Year",
-            "text": "<p>“Value nearly unparalleled. Performs as well as if not better than higher price point devices. Customer support...A+.”<\/p><p><em>Jason<\/em><\/p>",
+            "text": "<p>“Value nearly unparalleled. Performs as well as if not better than higher price point devices. Customer support...A+.”<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -353,8 +353,8 @@
         "collapsible_row_CnpitJ"
       ],
       "settings": {
-        "caption": "We won’t release a product unless it hits all 4 of our core values.",
-        "heading": "The Pinned Promise",
+        "caption": "We won’t release a product unless it hits the",
+        "heading": "Pinned Promise.",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
