@@ -514,6 +514,67 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "collapsible_content_gX9cRk": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_67BY3f": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Elevate Your Game",
+            "icon": "heart",
+            "row_content": "<p>Whether you’re an avid golf addict or just getting started, our products aim to impress. They're accurate, user-friendly, and packed with top-of-the-line features.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_iD3Cj3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Style That Turns Heads",
+            "icon": "fire",
+            "row_content": "<p>Golf gear doesn't have to be boring. We've focused on creating products with vibrant colors, captivating designs, and a modern, sleek style guaranteed to turn heads on the course.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4rwNC8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Push The Envelop",
+            "icon": "lightning_bolt",
+            "row_content": "<p>Innovation fuels us. We're constantly exploring new frontiers in golf technology to give you a competitive edge. When you choose a Pinned product, you're investing in the latest and greatest the industry has to offer.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fbw9z7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Stand The Test Of Time",
+            "icon": "stopwatch",
+            "row_content": "<p>We're committed to durability and longevity. Pinned products are crafted with the toughest materials and rigorous testing to withstand any battle on they face on the course. This ensures they're on the course with you round after round, season after season.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_67BY3f",
+        "collapsible_row_iD3Cj3",
+        "collapsible_row_4rwNC8",
+        "collapsible_row_fbw9z7"
+      ],
+      "settings": {
+        "caption": "We won’t release a product unless it hits the",
+        "heading": "Pinned Promise",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -529,6 +590,7 @@
     "collapsible_content_Ldqyzf",
     "related-products",
     "17114775594ebf2711",
-    "1711501765ece1ed73"
+    "1711501765ece1ed73",
+    "collapsible_content_gX9cRk"
   ]
 }
