@@ -106,24 +106,11 @@
             "page": ""
           }
         },
-        "complementary_r8teEd": {
-          "type": "complementary",
-          "settings": {
-            "block_heading": "Personalization",
-            "make_collapsible_row": false,
-            "icon": "price_tag",
-            "product_list_limit": 10,
-            "products_per_page": 3,
-            "pagination_style": "counter",
-            "image_ratio": "portrait",
-            "enable_quick_add": true
-          }
-        },
         "popup_YymdwD": {
           "type": "popup",
           "settings": {
             "text": "Customize Your Prism+",
-            "page": "caddy-combo"
+            "page": ""
           }
         }
       },
@@ -142,7 +129,6 @@
         "collapsible_tab_mFpMHC",
         "collapsible_tab_ULUXpP",
         "collapsible_tab_LEjyQf",
-        "complementary_r8teEd",
         "popup_YymdwD"
       ],
       "settings": {
