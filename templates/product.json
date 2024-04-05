@@ -106,14 +106,6 @@
             "page": ""
           }
         },
-        "popup_YymdwD": {
-          "type": "popup",
-          "disabled": true,
-          "settings": {
-            "text": "Customize Your Prism+",
-            "page": ""
-          }
-        },
         "complementary_G4gnMw": {
           "type": "complementary",
           "settings": {
@@ -125,6 +117,14 @@
             "pagination_style": "counter",
             "image_ratio": "square",
             "enable_quick_add": true
+          }
+        },
+        "popup_YymdwD": {
+          "type": "popup",
+          "disabled": true,
+          "settings": {
+            "text": "Customize Your Prism+",
+            "page": ""
           }
         }
       },
@@ -143,8 +143,8 @@
         "collapsible_tab_mFpMHC",
         "collapsible_tab_ULUXpP",
         "collapsible_tab_LEjyQf",
-        "popup_YymdwD",
-        "complementary_G4gnMw"
+        "complementary_G4gnMw",
+        "popup_YymdwD"
       ],
       "settings": {
         "enable_sticky_info": true,
