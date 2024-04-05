@@ -108,6 +108,7 @@
         },
         "popup_YymdwD": {
           "type": "popup",
+          "disabled": true,
           "settings": {
             "text": "Customize Your Prism+",
             "page": ""
