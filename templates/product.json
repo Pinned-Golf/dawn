@@ -112,6 +112,19 @@
             "text": "Customize Your Prism+",
             "page": ""
           }
+        },
+        "complementary_G4gnMw": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Personalization",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
         }
       },
       "block_order": [
@@ -129,7 +142,8 @@
         "collapsible_tab_mFpMHC",
         "collapsible_tab_ULUXpP",
         "collapsible_tab_LEjyQf",
-        "popup_YymdwD"
+        "popup_YymdwD",
+        "complementary_G4gnMw"
       ],
       "settings": {
         "enable_sticky_info": true,
