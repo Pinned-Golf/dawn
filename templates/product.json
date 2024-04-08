@@ -119,20 +119,19 @@
             "enable_quick_add": true
           }
         },
-        "popup_YymdwD": {
-          "type": "popup",
-          "disabled": true,
-          "settings": {
-            "text": "Customize Your Prism+",
-            "page": ""
-          }
-        },
         "collapsible_tab_ydzdBh": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "The Pinned Promise",
             "icon": "none",
             "content": "<p>We don't release a product unless it hits on these 4 core values... <\/p><ol><li>Elevates your game<\/li><li>Styled to turn heads<\/li><li>Pushes the envelop<\/li><li>Stands the test of time<\/li><\/ol>",
+            "page": ""
+          }
+        },
+        "popup_YymdwD": {
+          "type": "popup",
+          "settings": {
+            "text": "Customize Your Prism+",
             "page": ""
           }
         }
@@ -153,8 +152,8 @@
         "collapsible_tab_ULUXpP",
         "collapsible_tab_LEjyQf",
         "complementary_G4gnMw",
-        "popup_YymdwD",
-        "collapsible_tab_ydzdBh"
+        "collapsible_tab_ydzdBh",
+        "popup_YymdwD"
       ],
       "settings": {
         "enable_sticky_info": true,
