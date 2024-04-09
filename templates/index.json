@@ -400,19 +400,19 @@
         "button_7inzYK"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/8_5817ab92-c16d-4046-bfdc-d4c15007cb3f.jpg",
-        "height": "small",
+        "image": "shopify:\/\/shop_images\/9_c4332d3b-9779-4b68-aa8c-170069e9ceb2.png",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "image_with_text_yKGtPw": {
@@ -421,22 +421,22 @@
         "heading_BX4Bkq": {
           "type": "heading",
           "settings": {
-            "heading": "Rangefinders",
+            "heading": "Speakers",
             "heading_size": "h1"
           }
         },
         "text_WqRTDg": {
           "type": "text",
           "settings": {
-            "text": "<p>Get dialed in this season.<\/p>",
+            "text": "<p>Good Music. Good Golf.<\/p>",
             "text_style": "subtitle"
           }
         },
         "button_x3HL4H": {
           "type": "button",
           "settings": {
-            "button_label": "Shop Rangefinders",
-            "button_link": "shopify:\/\/products\/prism-rangefinder",
+            "button_label": "Shop Speakers",
+            "button_link": "shopify:\/\/products\/the-dart-2-0",
             "button_style_secondary": false
           }
         }
@@ -447,67 +447,19 @@
         "button_x3HL4H"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/The_Prism_2.png",
-        "height": "small",
+        "image": "shopify:\/\/shop_images\/The_Prism_1080_x_720_px.jpg",
+        "height": "medium",
         "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_banner_KKEh6H": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_V33YYP": {
-          "type": "heading",
-          "settings": {
-            "heading": "Rangefinders",
-            "heading_size": "h1"
-          }
-        },
-        "text_mmyAyP": {
-          "type": "text",
-          "settings": {
-            "text": "Get dialed in this season.",
-            "text_style": "body"
-          }
-        },
-        "buttons_gFDKcj": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/products\/prism-rangefinder",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_V33YYP",
-        "text_mmyAyP",
-        "buttons_gFDKcj"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/8_f56c1196-3e0e-4f69-b5fa-33095f2a67cf.png",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
+        "layout": "text_first",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
@@ -526,7 +478,6 @@
     "multicolumn_bE7ELq",
     "collapsible_content_rT76Q4",
     "image_with_text_BUADyn",
-    "image_with_text_yKGtPw",
-    "image_banner_KKEh6H"
+    "image_with_text_yKGtPw"
   ]
 }
