@@ -16,7 +16,7 @@
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 10,
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
@@ -31,7 +31,7 @@
         ".dot {background-color: white; width: 2rem; border-radius: 0.25rem;}",
         ".slider-counter__link--active .dot {background-color: #ffb000;}",
         ".banner__buttons {display: grid;}",
-        ".banner__text,.banner__heading {color: #fff; text-shadow: 0 0 3px #000;}"
+        ".banner__text,.banner__heading {color: #fff; text-shadow: 0 0 0px #000;}"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -41,7 +41,7 @@
         "change_slides_speed": 5,
         "image_behavior": "none",
         "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand"
+        "accessibility_info": "Pinned Golf- Superior Golf Technology"
       }
     },
     "image_banner_pBGm9t": {
