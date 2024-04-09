@@ -392,12 +392,21 @@
             "button_link": "shopify:\/\/products\/prism-rangefinder",
             "button_style_secondary": false
           }
+        },
+        "caption_6Lm7tr": {
+          "type": "caption",
+          "settings": {
+            "caption": "6 different color options",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
         }
       },
       "block_order": [
         "heading_8e6q3X",
         "text_39BCRE",
-        "button_7inzYK"
+        "button_7inzYK",
+        "caption_6Lm7tr"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/9_c4332d3b-9779-4b68-aa8c-170069e9ceb2.png",
@@ -439,12 +448,21 @@
             "button_link": "shopify:\/\/products\/the-dart-2-0",
             "button_style_secondary": false
           }
+        },
+        "caption_QDQEmb": {
+          "type": "caption",
+          "settings": {
+            "caption": "6 different color options",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
         }
       },
       "block_order": [
         "heading_BX4Bkq",
         "text_WqRTDg",
-        "button_x3HL4H"
+        "button_x3HL4H",
+        "caption_QDQEmb"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/The_Prism_1080_x_720_px.jpg",
