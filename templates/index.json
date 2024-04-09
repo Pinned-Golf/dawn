@@ -374,7 +374,7 @@
         "heading_8e6q3X": {
           "type": "heading",
           "settings": {
-            "heading": "Rangefinders",
+            "heading": "<strong>Rangefinders<\/strong>",
             "heading_size": "h1"
           }
         },
@@ -430,7 +430,7 @@
         "heading_BX4Bkq": {
           "type": "heading",
           "settings": {
-            "heading": "Speakers",
+            "heading": "<strong>Speakers<\/strong>",
             "heading_size": "h1"
           }
         },
@@ -486,7 +486,7 @@
         "heading_3FVbU4": {
           "type": "heading",
           "settings": {
-            "heading": "Combos",
+            "heading": "<strong>Combos<\/strong>",
             "heading_size": "h1"
           }
         },
@@ -521,7 +521,7 @@
         "caption_ccV3Dt"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/The_Prism_1080_x_720_px.jpg",
+        "image": "shopify:\/\/shop_images\/11_969b7683-a1a7-48fc-9c16-5914806001c5.png",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
