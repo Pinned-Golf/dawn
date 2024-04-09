@@ -400,7 +400,7 @@
         "button_7inzYK"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Pinned_Prism_green.10_ccd6227f-fc6f-4ace-8159-6e17e6d5b5bf.jpg",
+        "image": "shopify:\/\/shop_images\/8_5817ab92-c16d-4046-bfdc-d4c15007cb3f.jpg",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -413,6 +413,101 @@
         "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "image_with_text_yKGtPw": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BX4Bkq": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rangefinders",
+            "heading_size": "h1"
+          }
+        },
+        "text_WqRTDg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get dialed in this season.<\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "button_x3HL4H": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Rangefinders",
+            "button_link": "shopify:\/\/products\/prism-rangefinder",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_BX4Bkq",
+        "text_WqRTDg",
+        "button_x3HL4H"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/The_Prism_2.png",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_KKEh6H": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_V33YYP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rangefinders",
+            "heading_size": "h1"
+          }
+        },
+        "text_mmyAyP": {
+          "type": "text",
+          "settings": {
+            "text": "Get dialed in this season.",
+            "text_style": "body"
+          }
+        },
+        "buttons_gFDKcj": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/products\/prism-rangefinder",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_V33YYP",
+        "text_mmyAyP",
+        "buttons_gFDKcj"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/8_f56c1196-3e0e-4f69-b5fa-33095f2a67cf.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
@@ -430,6 +525,8 @@
     "image_banner_FdxwLK",
     "multicolumn_bE7ELq",
     "collapsible_content_rT76Q4",
-    "image_with_text_BUADyn"
+    "image_with_text_BUADyn",
+    "image_with_text_yKGtPw",
+    "image_banner_KKEh6H"
   ]
 }
