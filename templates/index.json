@@ -388,8 +388,8 @@
         "button_7inzYK": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Shop Rangefinders",
+            "button_link": "shopify:\/\/products\/prism-rangefinder",
             "button_style_secondary": false
           }
         }
