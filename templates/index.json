@@ -44,183 +44,62 @@
         "accessibility_info": "Pinned Golf- Superior Golf Technology"
       }
     },
-    "rich_text_pDF4b3": {
-      "type": "rich-text",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "image_with_text_BUADyn": {
-      "type": "image-with-text",
+    "multirow_GehmqX": {
+      "type": "multirow",
       "blocks": {
-        "heading_8e6q3X": {
-          "type": "heading",
+        "row_kHGpxC": {
+          "type": "row",
           "settings": {
-            "heading": "<strong>Rangefinders<\/strong>",
-            "heading_size": "h1"
+            "image": "shopify:\/\/shop_images\/8_5817ab92-c16d-4046-bfdc-d4c15007cb3f.jpg",
+            "caption": "Get dialed in this season.",
+            "heading": "Rangefinders",
+            "text": "",
+            "button_label": "Shop",
+            "button_link": "shopify:\/\/products\/prism-rangefinder"
           }
         },
-        "text_39BCRE": {
-          "type": "text",
+        "row_mTGVeR": {
+          "type": "row",
           "settings": {
-            "text": "<p>Get dialed in this season.<\/p>",
-            "text_style": "subtitle"
+            "image": "shopify:\/\/shop_images\/10_e87faea8-509c-40d4-8ebd-758b476e899f.png",
+            "caption": "Good Music. Good Golf.",
+            "heading": "Speakers",
+            "text": "",
+            "button_label": "Shop",
+            "button_link": "shopify:\/\/products\/the-dart-2-0"
           }
         },
-        "button_7inzYK": {
-          "type": "button",
+        "row_tUPCUr": {
+          "type": "row",
           "settings": {
-            "button_label": "Shop Rangefinders",
-            "button_link": "shopify:\/\/products\/prism-rangefinder",
-            "button_style_secondary": false
-          }
-        },
-        "caption_6Lm7tr": {
-          "type": "caption",
-          "settings": {
-            "caption": "6 different color options",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
+            "image": "shopify:\/\/shop_images\/The_Prism.jpg",
+            "caption": "Best of both worlds.",
+            "heading": "Combos",
+            "text": "",
+            "button_label": "Shop",
+            "button_link": "shopify:\/\/collections\/combos"
           }
         }
       },
       "block_order": [
-        "heading_8e6q3X",
-        "text_39BCRE",
-        "button_7inzYK",
-        "caption_6Lm7tr"
+        "row_kHGpxC",
+        "row_mTGVeR",
+        "row_tUPCUr"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/9_c4332d3b-9779-4b68-aa8c-170069e9ceb2.png",
-        "height": "medium",
+        "image_height": "medium",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "heading_size": "h0",
+        "text_style": "body",
+        "button_style": "secondary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "image_with_text_yKGtPw": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_BX4Bkq": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Speakers<\/strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_WqRTDg": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Good Music. Good Golf.<\/p>",
-            "text_style": "subtitle"
-          }
-        },
-        "button_x3HL4H": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop Speakers",
-            "button_link": "shopify:\/\/products\/the-dart-2-0",
-            "button_style_secondary": false
-          }
-        },
-        "caption_QDQEmb": {
-          "type": "caption",
-          "settings": {
-            "caption": "6 different color options",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        }
-      },
-      "block_order": [
-        "heading_BX4Bkq",
-        "text_WqRTDg",
-        "button_x3HL4H",
-        "caption_QDQEmb"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/The_Prism_1080_x_720_px.jpg",
-        "height": "medium",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "image_with_text_zXkypA": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_3FVbU4": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Combos<\/strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_JVatxV": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Best of both worlds.<\/p>",
-            "text_style": "subtitle"
-          }
-        },
-        "button_F78TYW": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop Combos",
-            "button_link": "shopify:\/\/products\/tech-stack",
-            "button_style_secondary": false
-          }
-        },
-        "caption_ccV3Dt": {
-          "type": "caption",
-          "settings": {
-            "caption": "36 different color options",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        }
-      },
-      "block_order": [
-        "heading_3FVbU4",
-        "text_JVatxV",
-        "button_F78TYW",
-        "caption_ccV3Dt"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/11_969b7683-a1a7-48fc-9c16-5914806001c5.png",
-        "height": "medium",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
+        "row_color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_banner_pBGm9t": {
@@ -555,72 +434,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "multirow_GehmqX": {
-      "type": "multirow",
-      "blocks": {
-        "row_kHGpxC": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/8_5817ab92-c16d-4046-bfdc-d4c15007cb3f.jpg",
-            "caption": "Get dialed in this season.",
-            "heading": "Rangefinders",
-            "text": "",
-            "button_label": "Shop",
-            "button_link": "shopify:\/\/products\/prism-rangefinder"
-          }
-        },
-        "row_mTGVeR": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/10_e87faea8-509c-40d4-8ebd-758b476e899f.png",
-            "caption": "Good Music. Good Golf.",
-            "heading": "Speakers",
-            "text": "",
-            "button_label": "Shop",
-            "button_link": "shopify:\/\/products\/the-dart-2-0"
-          }
-        },
-        "row_tUPCUr": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/The_Prism.jpg",
-            "caption": "Best of both worlds.",
-            "heading": "Combos",
-            "text": "",
-            "button_label": "Shop",
-            "button_link": "shopify:\/\/collections\/combos"
-          }
-        }
-      },
-      "block_order": [
-        "row_kHGpxC",
-        "row_mTGVeR",
-        "row_tUPCUr"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h0",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
-        "row_color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "slideshow_4t63MF",
-    "rich_text_pDF4b3",
-    "image_with_text_BUADyn",
-    "image_with_text_yKGtPw",
-    "image_with_text_zXkypA",
+    "multirow_GehmqX",
     "image_banner_pBGm9t",
     "rich_text_9MXNHh",
     "image_banner_wEgHG3",
@@ -632,7 +450,6 @@
     "rich_text_kXUUjK",
     "image_banner_FdxwLK",
     "multicolumn_bE7ELq",
-    "collapsible_content_rT76Q4",
-    "multirow_GehmqX"
+    "collapsible_content_rT76Q4"
   ]
 }
