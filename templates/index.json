@@ -67,7 +67,7 @@
         ".slideshow__controls {bottom: 0rem; left: 0; right: 0; color: white !important; z-index: 999; position: absolute;}",
         ".slideshow__controls .slider-button {color: white;}",
         ".dot {background-color: white; width: 2rem; border-radius: 0.25rem;}",
-        ".slider-counter__link--active .dot {background-color: #FF0000;}",
+        ".slider-counter__link--active .dot {background-color: #ff0000;}",
         ".banner__buttons {display: grid;}",
         ".banner__text,.banner__heading {color: #fff; text-shadow: 0 0 0px #000;}"
       ],
@@ -135,8 +135,8 @@
         "image_layout": "alternate-left",
         "section_color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
         "row_color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
-        "mobile_content_alignment": "center",
-        "padding_top": 36,
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
