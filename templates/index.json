@@ -555,6 +555,75 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multirow_GehmqX": {
+      "type": "multirow",
+      "blocks": {
+        "row_kHGpxC": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8_f56c1196-3e0e-4f69-b5fa-33095f2a67cf.png",
+            "caption": "Get dialed in this season.",
+            "heading": "Rangefinders",
+            "text": "",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/prism-rangefinder"
+          }
+        },
+        "row_mTGVeR": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10_e87faea8-509c-40d4-8ebd-758b476e899f.png",
+            "caption": "Good Music. Good Golf.",
+            "heading": "Speakers",
+            "text": "",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_tUPCUr": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/The_Prism.jpg",
+            "caption": "Best of both worlds.",
+            "heading": "Combos",
+            "text": "",
+            "button_label": "Button label",
+            "button_link": "shopify:\/\/collections\/combos"
+          }
+        },
+        "row_A3hx6j": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_kHGpxC",
+        "row_mTGVeR",
+        "row_tUPCUr",
+        "row_A3hx6j"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -574,6 +643,7 @@
     "rich_text_kXUUjK",
     "image_banner_FdxwLK",
     "multicolumn_bE7ELq",
-    "collapsible_content_rT76Q4"
+    "collapsible_content_rT76Q4",
+    "multirow_GehmqX"
   ]
 }
