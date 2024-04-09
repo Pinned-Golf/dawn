@@ -401,7 +401,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Pinned_Prism_green.10_ccd6227f-fc6f-4ace-8159-6e17e6d5b5bf.jpg",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -410,7 +410,7 @@
         "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
