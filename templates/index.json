@@ -566,7 +566,7 @@
             "caption": "Get dialed in this season.",
             "heading": "Rangefinders",
             "text": "",
-            "button_label": "Shop Now",
+            "button_label": "Shop",
             "button_link": "shopify:\/\/products\/prism-rangefinder"
           }
         },
@@ -577,8 +577,8 @@
             "caption": "Good Music. Good Golf.",
             "heading": "Speakers",
             "text": "",
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Shop",
+            "button_link": "shopify:\/\/products\/the-dart-2-0"
           }
         },
         "row_tUPCUr": {
@@ -588,7 +588,7 @@
             "caption": "Best of both worlds.",
             "heading": "Combos",
             "text": "",
-            "button_label": "Button label",
+            "button_label": "Shop",
             "button_link": "shopify:\/\/collections\/combos"
           }
         }
