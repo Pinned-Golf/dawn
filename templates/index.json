@@ -44,330 +44,6 @@
         "accessibility_info": "Pinned Golf- Superior Golf Technology"
       }
     },
-    "image_banner_pBGm9t": {
-      "type": "image-banner",
-      "blocks": {
-        "buttons_wNDncA": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "",
-            "button_link_1": "shopify:\/\/products\/prism-rangefinder",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "shopify:\/\/products\/prism-rangefinder",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "buttons_wNDncA"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/rangefinder_hero_51.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
-      }
-    },
-    "rich_text_9MXNHh": {
-      "type": "rich-text",
-      "blocks": {
-        "text_8BaRDh": {
-          "type": "text",
-          "settings": {
-            "text": "<p> <\/p><p><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_8BaRDh"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "image_banner_wEgHG3": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/sepaker_hero.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
-      }
-    },
-    "rich_text_GaqYge": {
-      "type": "rich-text",
-      "blocks": {
-        "text_LYQe9L": {
-          "type": "text",
-          "settings": {
-            "text": "<p> <\/p><p><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_LYQe9L"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "image_banner_WkQCpb": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Combo_hearo.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
-      }
-    },
-    "rich_text_De3btP": {
-      "type": "rich-text",
-      "blocks": {
-        "text_8tEE3U": {
-          "type": "text",
-          "settings": {
-            "text": "<p> <\/p><p><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_8tEE3U"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "image_banner_XHUCQB": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Soeakers_hero.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
-      }
-    },
-    "rich_text_96PAjk": {
-      "type": "rich-text",
-      "blocks": {
-        "text_HUBdiw": {
-          "type": "text",
-          "settings": {
-            "text": "<p> <\/p><p><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_HUBdiw"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "rich_text_kXUUjK": {
-      "type": "rich-text",
-      "blocks": {
-        "text_xVtcVD": {
-          "type": "text",
-          "settings": {
-            "text": "<p> <\/p><p><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_xVtcVD"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "image_banner_FdxwLK": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/smaller_trusted_by.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
-      }
-    },
-    "multicolumn_bE7ELq": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_QrLCE4": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_23.png",
-            "title": "Michael Breed, PGA Teacher of the Year",
-            "text": "<p>“Value nearly unparalleled. Performs as well as if not better than higher price point devices. Customer support...A+.”<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_BMiAm6": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3_1ee73caf-fb9a-429d-a19e-5b0ce37496b9.png",
-            "title": "Olivia Mitchell, 2-Time National Champion",
-            "text": "<p>\"Just as if not more accurate than other rangefinders i've used in the past. It gives me the confidence in my game and keeps me dialed in from tee to green!<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_T4RaKA": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_0bb3a52b-d01b-4af5-ba1a-5ec948227cee.png",
-            "title": "Jake Hutt, PGA Class A Teacher",
-            "text": "<p>“Great products and even greater customer service! Will always keep pinned in the bag!”<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_QrLCE4",
-        "column_BMiAm6",
-        "column_T4RaKA"
-      ],
-      "settings": {
-        "title": "Their words, not ours...",
-        "heading_size": "h2",
-        "image_width": "third",
-        "image_ratio": "circle",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 16
-      }
-    },
-    "collapsible_content_rT76Q4": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_q8xcaM": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Elevate Your Game",
-            "icon": "heart",
-            "row_content": "<p>Whether you’re an avid golf addict or just getting started, our products aim to impress. They're accurate, user-friendly, and packed with top-of-the-line features.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_CtrEpK": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Style That Turns Heads",
-            "icon": "fire",
-            "row_content": "<p>Golf gear doesn't have to be boring. We've focused on creating products with vibrant colors, captivating designs, and a modern, sleek style guaranteed to turn heads on the course.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_hFPCH8": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Push The Envelop",
-            "icon": "lightning_bolt",
-            "row_content": "<p>Innovation fuels us. We're constantly exploring new frontiers in golf technology to give you a competitive edge. When you choose a Pinned product, you're investing in the latest and greatest the industry has to offer.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_CnpitJ": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Stand The Test Of Time",
-            "icon": "stopwatch",
-            "row_content": "<p>We're committed to durability and longevity. Pinned products are crafted with the toughest materials and rigorous testing to withstand any battle on they face on the course. This ensures they're on the course with you round after round, season after season.<\/p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_q8xcaM",
-        "collapsible_row_CtrEpK",
-        "collapsible_row_hFPCH8",
-        "collapsible_row_CnpitJ"
-      ],
-      "disabled": true,
-      "settings": {
-        "caption": "We won’t release a product unless it hits the",
-        "heading": "Pinned Promise.",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": true,
-        "image_ratio": "large",
-        "desktop_layout": "image_first",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_with_text_BUADyn": {
       "type": "image-with-text",
       "blocks": {
@@ -535,10 +211,346 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "image_banner_pBGm9t": {
+      "type": "image-banner",
+      "blocks": {
+        "buttons_wNDncA": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "shopify:\/\/products\/prism-rangefinder",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "shopify:\/\/products\/prism-rangefinder",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "buttons_wNDncA"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/rangefinder_hero_51.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "rich_text_9MXNHh": {
+      "type": "rich-text",
+      "blocks": {
+        "text_8BaRDh": {
+          "type": "text",
+          "settings": {
+            "text": "<p> <\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_8BaRDh"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_wEgHG3": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sepaker_hero.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "rich_text_GaqYge": {
+      "type": "rich-text",
+      "blocks": {
+        "text_LYQe9L": {
+          "type": "text",
+          "settings": {
+            "text": "<p> <\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_LYQe9L"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_WkQCpb": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Combo_hearo.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "rich_text_De3btP": {
+      "type": "rich-text",
+      "blocks": {
+        "text_8tEE3U": {
+          "type": "text",
+          "settings": {
+            "text": "<p> <\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_8tEE3U"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_XHUCQB": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Soeakers_hero.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "rich_text_96PAjk": {
+      "type": "rich-text",
+      "blocks": {
+        "text_HUBdiw": {
+          "type": "text",
+          "settings": {
+            "text": "<p> <\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_HUBdiw"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_kXUUjK": {
+      "type": "rich-text",
+      "blocks": {
+        "text_xVtcVD": {
+          "type": "text",
+          "settings": {
+            "text": "<p> <\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_xVtcVD"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_FdxwLK": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/smaller_trusted_by.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "multicolumn_bE7ELq": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_QrLCE4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_23.png",
+            "title": "Michael Breed, PGA Teacher of the Year",
+            "text": "<p>“Value nearly unparalleled. Performs as well as if not better than higher price point devices. Customer support...A+.”<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BMiAm6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_1ee73caf-fb9a-429d-a19e-5b0ce37496b9.png",
+            "title": "Olivia Mitchell, 2-Time National Champion",
+            "text": "<p>\"Just as if not more accurate than other rangefinders i've used in the past. It gives me the confidence in my game and keeps me dialed in from tee to green!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_T4RaKA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_0bb3a52b-d01b-4af5-ba1a-5ec948227cee.png",
+            "title": "Jake Hutt, PGA Class A Teacher",
+            "text": "<p>“Great products and even greater customer service! Will always keep pinned in the bag!”<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_QrLCE4",
+        "column_BMiAm6",
+        "column_T4RaKA"
+      ],
+      "settings": {
+        "title": "Their words, not ours...",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "circle",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 16
+      }
+    },
+    "collapsible_content_rT76Q4": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_q8xcaM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Elevate Your Game",
+            "icon": "heart",
+            "row_content": "<p>Whether you’re an avid golf addict or just getting started, our products aim to impress. They're accurate, user-friendly, and packed with top-of-the-line features.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CtrEpK": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Style That Turns Heads",
+            "icon": "fire",
+            "row_content": "<p>Golf gear doesn't have to be boring. We've focused on creating products with vibrant colors, captivating designs, and a modern, sleek style guaranteed to turn heads on the course.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_hFPCH8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Push The Envelop",
+            "icon": "lightning_bolt",
+            "row_content": "<p>Innovation fuels us. We're constantly exploring new frontiers in golf technology to give you a competitive edge. When you choose a Pinned product, you're investing in the latest and greatest the industry has to offer.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CnpitJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Stand The Test Of Time",
+            "icon": "stopwatch",
+            "row_content": "<p>We're committed to durability and longevity. Pinned products are crafted with the toughest materials and rigorous testing to withstand any battle on they face on the course. This ensures they're on the course with you round after round, season after season.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_q8xcaM",
+        "collapsible_row_CtrEpK",
+        "collapsible_row_hFPCH8",
+        "collapsible_row_CnpitJ"
+      ],
+      "disabled": true,
+      "settings": {
+        "caption": "We won’t release a product unless it hits the",
+        "heading": "Pinned Promise.",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": true,
+        "image_ratio": "large",
+        "desktop_layout": "image_first",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "slideshow_4t63MF",
+    "image_with_text_BUADyn",
+    "image_with_text_yKGtPw",
+    "image_with_text_zXkypA",
     "image_banner_pBGm9t",
     "rich_text_9MXNHh",
     "image_banner_wEgHG3",
@@ -550,9 +562,6 @@
     "rich_text_kXUUjK",
     "image_banner_FdxwLK",
     "multicolumn_bE7ELq",
-    "collapsible_content_rT76Q4",
-    "image_with_text_BUADyn",
-    "image_with_text_yKGtPw",
-    "image_with_text_zXkypA"
+    "collapsible_content_rT76Q4"
   ]
 }
