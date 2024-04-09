@@ -56,12 +56,31 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_e8rB77": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_6093.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_y6Vizm",
         "slide_wCRTjP",
-        "slide_PrK7dx"
+        "slide_PrK7dx",
+        "slide_e8rB77"
       ],
       "custom_css": [
         ".slideshow__controls {bottom: 0rem; left: 0; right: 0; color: white !important; z-index: 999; position: absolute;}",
@@ -136,7 +155,7 @@
         "section_color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
         "row_color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
         "mobile_content_alignment": "left",
-        "padding_top": 0,
+        "padding_top": 12,
         "padding_bottom": 0
       }
     },
