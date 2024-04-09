@@ -9,7 +9,7 @@
             "image": "shopify:\/\/shop_images\/DSC00708.jpg",
             "heading": "<strong>Better Golf. Better Vibes.<\/strong>",
             "heading_size": "h0",
-            "subheading": "<em>Golf tech trusted by 100,000+ golfers.<\/em>",
+            "subheading": "Golf tech trusted by 100,000+ golfers.",
             "button_label": "Shop Now",
             "link": "shopify:\/\/collections\/shop-all",
             "button_style_secondary": true,
@@ -18,7 +18,7 @@
             "text_alignment": "right",
             "image_overlay_opacity": 10,
             "color_scheme": "",
-            "text_alignment_mobile": "left"
+            "text_alignment_mobile": "right"
           }
         }
       },
@@ -42,6 +42,17 @@
         "image_behavior": "none",
         "show_text_below": false,
         "accessibility_info": "Pinned Golf- Superior Golf Technology"
+      }
+    },
+    "rich_text_pDF4b3": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "image_with_text_BUADyn": {
@@ -548,6 +559,7 @@
   },
   "order": [
     "slideshow_4t63MF",
+    "rich_text_pDF4b3",
     "image_with_text_BUADyn",
     "image_with_text_yKGtPw",
     "image_with_text_zXkypA",
