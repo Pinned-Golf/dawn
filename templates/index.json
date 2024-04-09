@@ -479,6 +479,62 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "image_with_text_zXkypA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_3FVbU4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Combos",
+            "heading_size": "h1"
+          }
+        },
+        "text_JVatxV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Best of both worlds.<\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "button_F78TYW": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Combos",
+            "button_link": "shopify:\/\/products\/tech-stack",
+            "button_style_secondary": false
+          }
+        },
+        "caption_ccV3Dt": {
+          "type": "caption",
+          "settings": {
+            "caption": "36 different color options",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3FVbU4",
+        "text_JVatxV",
+        "button_F78TYW",
+        "caption_ccV3Dt"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/The_Prism_1080_x_720_px.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -496,6 +552,7 @@
     "multicolumn_bE7ELq",
     "collapsible_content_rT76Q4",
     "image_with_text_BUADyn",
-    "image_with_text_yKGtPw"
+    "image_with_text_yKGtPw",
+    "image_with_text_zXkypA"
   ]
 }
