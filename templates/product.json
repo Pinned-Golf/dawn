@@ -108,6 +108,7 @@
         },
         "complementary_G4gnMw": {
           "type": "complementary",
+          "disabled": true,
           "settings": {
             "block_heading": "Personalization",
             "make_collapsible_row": false,
