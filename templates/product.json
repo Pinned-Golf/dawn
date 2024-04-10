@@ -106,33 +106,12 @@
             "page": ""
           }
         },
-        "complementary_G4gnMw": {
-          "type": "complementary",
-          "disabled": true,
-          "settings": {
-            "block_heading": "Personalization",
-            "make_collapsible_row": false,
-            "icon": "star",
-            "product_list_limit": 1,
-            "products_per_page": 1,
-            "pagination_style": "counter",
-            "image_ratio": "square",
-            "enable_quick_add": true
-          }
-        },
         "collapsible_tab_ydzdBh": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "The Pinned Promise",
             "icon": "none",
             "content": "<p>We don't release a product unless it hits on these 4 core values... <\/p><ol><li>Elevates your game<\/li><li>Styled to turn heads<\/li><li>Pushes the envelop<\/li><li>Stands the test of time<\/li><\/ol>",
-            "page": ""
-          }
-        },
-        "popup_YymdwD": {
-          "type": "popup",
-          "settings": {
-            "text": "Customize Your Prism+",
             "page": ""
           }
         }
@@ -152,9 +131,7 @@
         "collapsible_tab_mFpMHC",
         "collapsible_tab_ULUXpP",
         "collapsible_tab_LEjyQf",
-        "complementary_G4gnMw",
-        "collapsible_tab_ydzdBh",
-        "popup_YymdwD"
+        "collapsible_tab_ydzdBh"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -175,7 +152,7 @@
     "image_banner_AgN8Rt": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/smaller_trusted_by.jpg",
+        "image": "shopify:\/\/shop_images\/trusted_byhp.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
