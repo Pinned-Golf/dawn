@@ -118,7 +118,7 @@
         "row_mTGVeR": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/10_e87faea8-509c-40d4-8ebd-758b476e899f.png",
+            "image": "shopify:\/\/shop_images\/The_Prism_4.jpg",
             "caption": "Good Music. Good Golf.",
             "heading": "Speakers",
             "text": "",
@@ -166,7 +166,7 @@
         "image_layout": "alternate-left",
         "section_color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
         "row_color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 12,
         "padding_bottom": 0
       }
