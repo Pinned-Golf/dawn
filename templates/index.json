@@ -3,46 +3,10 @@
     "slideshow_4t63MF": {
       "type": "slideshow",
       "blocks": {
-        "slide_y6Vizm": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/side_cart_59.png",
-            "heading": "Better Golf. Better Vibes.",
-            "heading_size": "h0",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify:\/\/collections\/shop-all",
-            "button_style_secondary": true,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_wCRTjP": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/back_cart.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_PrK7dx": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/dope_view.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -77,9 +41,7 @@
         }
       },
       "block_order": [
-        "slide_y6Vizm",
         "slide_wCRTjP",
-        "slide_PrK7dx",
         "slide_e8rB77"
       ],
       "custom_css": [
