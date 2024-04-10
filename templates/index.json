@@ -335,7 +335,7 @@
     "image_banner_FdxwLK": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/smaller_trusted_by.jpg",
+        "image": "shopify:\/\/shop_images\/trusted_byhp.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -389,12 +389,12 @@
       ],
       "settings": {
         "title": "Their words, not ours...",
-        "heading_size": "h2",
+        "heading_size": "h0",
         "image_width": "third",
         "image_ratio": "circle",
         "columns_desktop": 3,
         "column_alignment": "center",
-        "background_style": "none",
+        "background_style": "primary",
         "button_label": "",
         "button_link": "",
         "color_scheme": "",
@@ -450,9 +450,8 @@
         "collapsible_row_hFPCH8",
         "collapsible_row_CnpitJ"
       ],
-      "disabled": true,
       "settings": {
-        "caption": "We won’t release a product unless it hits the",
+        "caption": "ALl of our products are made with the",
         "heading": "Pinned Promise.",
         "heading_size": "h1",
         "heading_alignment": "center",
