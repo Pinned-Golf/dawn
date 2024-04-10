@@ -111,7 +111,7 @@
             "caption": "Get dialed in this season.",
             "heading": "Rangefinders",
             "text": "",
-            "button_label": "Shop",
+            "button_label": "Shop Rangefinders",
             "button_link": "shopify:\/\/products\/prism-rangefinder"
           }
         },
@@ -122,7 +122,7 @@
             "caption": "Good Music. Good Golf.",
             "heading": "Speakers",
             "text": "",
-            "button_label": "Shop",
+            "button_label": "Shop Speakers",
             "button_link": "shopify:\/\/products\/the-dart-2-0"
           }
         },
@@ -133,7 +133,7 @@
             "caption": "Best of both worlds.",
             "heading": "Combos",
             "text": "",
-            "button_label": "Shop",
+            "button_label": "Shop Combos",
             "button_link": "shopify:\/\/collections\/combos"
           }
         },
@@ -144,7 +144,7 @@
             "caption": "A little bit of everything.",
             "heading": "Accessories",
             "text": "",
-            "button_label": "Shop",
+            "button_label": "Shop Accessories",
             "button_link": "shopify:\/\/products\/the-dart-2-0"
           }
         }
