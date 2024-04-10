@@ -136,12 +136,24 @@
             "button_label": "Shop",
             "button_link": "shopify:\/\/collections\/combos"
           }
+        },
+        "row_iJTrfd": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/The_Prism_2.jpg",
+            "caption": "A little bit of everything.",
+            "heading": "Accessories",
+            "text": "",
+            "button_label": "Shop",
+            "button_link": "shopify:\/\/products\/the-dart-2-0"
+          }
         }
       },
       "block_order": [
         "row_kHGpxC",
         "row_mTGVeR",
-        "row_tUPCUr"
+        "row_tUPCUr",
+        "row_iJTrfd"
       ],
       "settings": {
         "image_height": "medium",
