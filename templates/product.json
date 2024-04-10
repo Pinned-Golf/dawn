@@ -396,7 +396,7 @@
         "slide_height": "adapt_image",
         "slider_visual": "dots",
         "auto_rotate": true,
-        "change_slides_speed": 5,
+        "change_slides_speed": 3,
         "image_behavior": "none",
         "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
@@ -570,6 +570,82 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "collage_BckdEg": {
+      "type": "collage",
+      "blocks": {
+        "image_cENgTq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_3000_x_2500_px.jpg"
+          }
+        },
+        "image_XbyAnh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_00a2e0e2-c596-4e5c-ac37-121b0e1b7d50.jpg"
+          }
+        },
+        "image_aPcjD7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_b83caeb4-fcd3-4f5e-9ed0-bbb07a8b6cb4.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_cENgTq",
+        "image_XbyAnh",
+        "image_aPcjD7"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 16
+      }
+    },
+    "collage_tcaNLP": {
+      "type": "collage",
+      "blocks": {
+        "image_tNhy4d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8_2ec95c76-15d6-47a9-b4dd-fcaa1745799e.jpg"
+          }
+        },
+        "image_iyagxd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00664.jpg"
+          }
+        },
+        "image_QJJyGn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00638.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_tNhy4d",
+        "image_iyagxd",
+        "image_QJJyGn"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -583,6 +659,8 @@
     "image_with_text_EDRhQ4",
     "collapsible_content_3AyFLq",
     "171176697446b6f676",
-    "related-products"
+    "related-products",
+    "collage_BckdEg",
+    "collage_tcaNLP"
   ]
 }
