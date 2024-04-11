@@ -84,8 +84,8 @@
           "settings": {
             "heading": "Features",
             "icon": "none",
-            "content": "<ul><li>Detachable Bag Carabiner<\/li><li>Built-In Magnet<\/li><li>USB-C Charged<\/li><li>10 Hour+ Battery Life<\/li><li>IPX7 Resistant<\/li><li>One Year Warranty<\/li><\/ul>",
-            "page": ""
+            "content": "",
+            "page": "dart-features"
           }
         },
         "collapsible_tab_ULUXpP": {
