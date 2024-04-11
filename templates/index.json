@@ -119,6 +119,9 @@
         "row_tUPCUr",
         "row_iJTrfd"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
@@ -191,7 +194,7 @@
         "column_T4RaKA"
       ],
       "settings": {
-        "title": "<strong>Their words, not ours.<\/strong>",
+        "title": "<strong>Their words. Not ours.<\/strong>",
         "heading_size": "h0",
         "image_width": "third",
         "image_ratio": "circle",
