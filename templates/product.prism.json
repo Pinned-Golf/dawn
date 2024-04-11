@@ -440,27 +440,27 @@
         "collapsible_row_4VXbwM": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Can I use any USB-C charger?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Please use the USB-C charging cord that comes with your Prism+.<\/p>",
             "page": ""
           }
         },
         "collapsible_row_yG8QjR": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "How do I use my rangefinder?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Please head over to our tutorial section to learn how to use your device.<\/p>",
             "page": ""
           }
         },
         "collapsible_row_Nt36Ki": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Should I register my device?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>You do not have to but it is strongly encouraged to register your device once you have received it.<\/p>",
             "page": ""
           }
         }
