@@ -422,18 +422,18 @@
         "collapsible_row_qdXMcJ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Can you turn slope on and off?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Yes, The Prism+ golf rangefinder comes with a slope switch that allows you to turn the slope on and off. This means that our golf rangefinder is completely tournament legal.<\/p>",
             "page": ""
           }
         },
         "collapsible_row_EABUcy": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "How do I know it's fully charged?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>One 45 minute charge when you receive it and you will be good for the entire season! When fully charged, the green light will be lit.<\/p>",
             "page": ""
           }
         },
