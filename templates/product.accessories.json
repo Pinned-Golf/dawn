@@ -13,13 +13,6 @@
           "settings": {
           }
         },
-        "text_8pA7Hq": {
-          "type": "text",
-          "settings": {
-            "text": "Our rangefinders are trusted by 100,000+ golfers.",
-            "text_style": "uppercase"
-          }
-        },
         "caption": {
           "type": "text",
           "settings": {
@@ -101,7 +94,6 @@
       "block_order": [
         "judge_me_reviews_preview_badge_tAHRwe",
         "title",
-        "text_8pA7Hq",
         "caption",
         "price",
         "variant_picker",
