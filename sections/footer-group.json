@@ -50,7 +50,7 @@
         "image_tBdAEC": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/lines.jpg",
+            "image": "shopify:\/\/shop_images\/colors_1.png",
             "image_width": 550,
             "alignment": "center"
           }
