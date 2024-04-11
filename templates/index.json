@@ -73,7 +73,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/8_5817ab92-c16d-4046-bfdc-d4c15007cb3f.jpg",
             "caption": "Get dialed in this season.",
-            "heading": "Rangefinders",
+            "heading": "<strong>Rangefinders<\/strong>",
             "text": "",
             "button_label": "Shop Rangefinders",
             "button_link": "shopify:\/\/products\/prism-rangefinder"
@@ -84,7 +84,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/The_Prism_4.jpg",
             "caption": "Good Music. Good Golf.",
-            "heading": "Speakers",
+            "heading": "<strong>Speakers<\/strong>",
             "text": "",
             "button_label": "Shop Speakers",
             "button_link": "shopify:\/\/products\/the-dart-2-0"
@@ -95,7 +95,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/The_Prism.jpg",
             "caption": "Best of both worlds.",
-            "heading": "Combos",
+            "heading": "<strong>Combos<\/strong>",
             "text": "",
             "button_label": "Shop Combos",
             "button_link": "shopify:\/\/collections\/combos"
@@ -106,7 +106,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/The_Prism_2.jpg",
             "caption": "A little bit of everything.",
-            "heading": "Accessories",
+            "heading": "<strong>Accessories<\/strong>",
             "text": "",
             "button_label": "Shop Accessories",
             "button_link": "shopify:\/\/products\/the-dart-2-0"
@@ -194,7 +194,7 @@
         "column_T4RaKA"
       ],
       "settings": {
-        "title": "Their words. Not ours.",
+        "title": "<strong>Their words. Not ours.<\/strong>",
         "heading_size": "h0",
         "image_width": "third",
         "image_ratio": "circle",
