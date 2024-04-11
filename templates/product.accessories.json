@@ -79,24 +79,6 @@
             "heading_3": "Top Tier Support"
           }
         },
-        "collapsible_tab_mFpMHC": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Features",
-            "icon": "none",
-            "content": "<ul><li>Slope Technology<\/li><li>Built-In Magnet<\/li><li>USB-C Charged<\/li><li>60 Round Battery Life<\/li><li>Initial Target Acquisition<\/li><li>MagClose Hard Cover Case<\/li><li>PinnedLock Vibration<\/li><li>4K OLED Display<\/li><li>USGA Tournament Legal<\/li><li>IP54 Resistant<\/li><li>Two Year Warranty<\/li><\/ul>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_ULUXpP": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "What's in the box?",
-            "icon": "none",
-            "content": "<ul><li>Prism+ Rangefinder<\/li><li>MagClose Hard Cover Case<\/li><li>USB-C Charging Cord<\/li><li>Pinned Ball Marker<\/li><li>Pinned Sticker<\/li><li>Bag Clip Carabiner<\/li><li>Lens Cleaning Cloth<\/li><li>Instruction Manual<\/li><li>Device Registration Guide<\/li><\/ul>",
-            "page": ""
-          }
-        },
         "collapsible_tab_LEjyQf": {
           "type": "collapsible_tab",
           "settings": {
@@ -128,8 +110,6 @@
         "description",
         "share",
         "icon_with_text_UWmnYD",
-        "collapsible_tab_mFpMHC",
-        "collapsible_tab_ULUXpP",
         "collapsible_tab_LEjyQf",
         "collapsible_tab_ydzdBh"
       ],
