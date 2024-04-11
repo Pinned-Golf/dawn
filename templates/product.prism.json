@@ -337,7 +337,7 @@
         "image_cENgTq": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_3000_x_2500_px.jpg"
+            "image": "shopify:\/\/shop_images\/Untitled_design_6.jpg"
           }
         },
         "image_XbyAnh": {
@@ -375,14 +375,14 @@
         "heading_C4xyht": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>It’s simple.<\/strong>",
+            "heading": "<strong>Fore The Kids.<\/strong>",
             "heading_size": "h2"
           }
         },
         "text_eYc9Ny": {
           "type": "text",
           "settings": {
-            "text": "<p>Send us any rangefinder.<\/p><p>The brand does not matter.<\/p><p>We’ll refurbish & clean it up.<\/p><p>We’ll donate it to First Tee.<\/p><p>You’ll receive a massive discount. <\/p><p>The Prism+ Rangefinder for $199.<\/p><p><em>A win, win. <\/em><\/p>",
+            "text": "<p><em>It's simple.<\/em><\/p><p>Send us any rangefinder.<\/p><p>The brand does not matter.<\/p><p>We’ll refurbish & clean it up.<\/p><p>We’ll donate it to First Tee.<\/p><p>You’ll receive a massive discount. <\/p><p>The Prism+ Rangefinder for $199.<\/p><p><em>A win, win. <\/em><\/p>",
             "text_style": "body"
           }
         },
@@ -401,7 +401,7 @@
         "button_KzeyAE"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Fore_The_Kids_Final_nobackground_2_2.png",
+        "image": "shopify:\/\/shop_images\/Frame_4079.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
