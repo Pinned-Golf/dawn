@@ -529,6 +529,22 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "image_banner_HkpbKA": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/The_Prism_1080_x_720_px.gif",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -543,6 +559,7 @@
     "collapsible_content_3AyFLq",
     "171176697446b6f676",
     "related-products",
-    "custom_liquid_PRJMPr"
+    "custom_liquid_PRJMPr",
+    "image_banner_HkpbKA"
   ]
 }
