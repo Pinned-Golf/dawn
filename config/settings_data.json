@@ -263,10 +263,65 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text": "#121212",
+          "text": "#000000",
           "button": "#121212",
           "button_label": "#ffffff",
           "secondary_button_label": "#000000",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-52017920-19b1-4003-9742-3ad11c86b6db": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text": "#ff0000",
+          "button": "#121212",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#ffffff",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-c0798240-f91b-417c-b76f-2452d300ad24": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text": "#004604",
+          "button": "#121212",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#ffffff",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-e7fbf9f7-7567-4d96-b3ab-bb6b0bd1fa16": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text": "#001858",
+          "button": "#121212",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#ffffff",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-d75f153a-540a-4740-9624-52324e6b001f": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text": "#fed7ff",
+          "button": "#121212",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#ffffff",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-56b16015-6d34-44ab-a29d-927cd0bec0a3": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text": "#d2d2d2",
+          "button": "#121212",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#ffffff",
           "shadow": "#121212"
         }
       }
