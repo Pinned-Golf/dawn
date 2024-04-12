@@ -435,8 +435,8 @@
         "button_KzeyAE"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_47009.png",
-        "height": "small",
+        "image": "shopify:\/\/shop_images\/Frame_47e9.png",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
