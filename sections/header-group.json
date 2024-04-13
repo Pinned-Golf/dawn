@@ -26,13 +26,29 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our house party!",
+            "text": "Free shipping on all orders.",
+            "link": ""
+          }
+        },
+        "announcement_DMb4qc": {
+          "type": "announcement",
+          "settings": {
+            "text": "Join The Pinned Family.",
+            "link": ""
+          }
+        },
+        "announcement_EBAxcE": {
+          "type": "announcement",
+          "settings": {
+            "text": "Shop The New Prism+ Rangefinder.",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_DMb4qc",
+        "announcement_EBAxcE"
       ],
       "settings": {
         "color_scheme": "",
