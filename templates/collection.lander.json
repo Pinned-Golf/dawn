@@ -18,6 +18,7 @@
     },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
@@ -26,6 +27,7 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 3,
@@ -43,11 +45,225 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "featured_product_bKLyR4": {
+      "type": "featured-product",
+      "blocks": {
+        "text_xyUckc": {
+          "type": "text",
+          "settings": {
+            "text": "Trusted by 100,000+ golfers.",
+            "text_style": "uppercase"
+          }
+        },
+        "rating_wDmc6B": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "title_yCDLFJ": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_BbWhq9": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_mjWjNk": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_EyiXmx": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_YyUP6Q": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        }
+      },
+      "block_order": [
+        "text_xyUckc",
+        "rating_wDmc6B",
+        "title_yCDLFJ",
+        "price_BbWhq9",
+        "variant_picker_mjWjNk",
+        "quantity_selector_EyiXmx",
+        "buy_buttons_YyUP6Q"
+      ],
+      "settings": {
+        "product": "prism-rangefinder",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_WEmMdw": {
+      "type": "featured-product",
+      "blocks": {
+        "text_bLgUnT": {
+          "type": "text",
+          "settings": {
+            "text": "Trusted by 50,000+ golfers.",
+            "text_style": "uppercase"
+          }
+        },
+        "rating_cpwDyB": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "title_7E3DYg": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_k4FVqK": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_nY3La3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_kFWNDq": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_AfyrmW": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        }
+      },
+      "block_order": [
+        "text_bLgUnT",
+        "rating_cpwDyB",
+        "title_7E3DYg",
+        "price_k4FVqK",
+        "variant_picker_nY3La3",
+        "quantity_selector_kFWNDq",
+        "buy_buttons_AfyrmW"
+      ],
+      "settings": {
+        "product": "the-dart-2-0",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_xQ38T6": {
+      "type": "featured-product",
+      "blocks": {
+        "text_K3NbhW": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "uppercase"
+          }
+        },
+        "title_9e8Hka": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_ET98ng": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_FQWcbf": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_NrtpjF": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_9yd4pq": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_g6gfMR": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_K3NbhW",
+        "title_9e8Hka",
+        "price_ET98ng",
+        "variant_picker_FQWcbf",
+        "quantity_selector_NrtpjF",
+        "buy_buttons_9yd4pq",
+        "share_g6gfMR"
+      ],
+      "settings": {
+        "product": "",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner_Rmjip3",
     "banner",
-    "product-grid"
+    "product-grid",
+    "featured_product_bKLyR4",
+    "featured_product_WEmMdw",
+    "featured_product_xQ38T6"
   ]
 }
