@@ -7,11 +7,11 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_481.png",
-            "heading": "Better Golf. Better Vibes.",
+            "heading": "<strong>Better Golf. Better Vibes.<\/strong>",
             "heading_size": "h0",
             "subheading": "Golf tech trusted by 100,000+ golfers.",
             "button_label": "Shop",
-            "link": "",
+            "link": "shopify:\/\/products\/prism-rangefinder",
             "button_style_secondary": false,
             "box_align": "top-center",
             "show_text_box": false,
