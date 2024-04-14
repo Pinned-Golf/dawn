@@ -304,6 +304,22 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "image_banner_QMgQCn": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -312,6 +328,7 @@
     "image_banner_FdxwLK",
     "multicolumn_bE7ELq",
     "collapsible_content_rT76Q4",
-    "newsletter_qzCyW7"
+    "newsletter_qzCyW7",
+    "image_banner_QMgQCn"
   ]
 }
