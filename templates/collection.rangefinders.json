@@ -2,18 +2,30 @@
   "sections": {
     "image_banner_Rmjip3": {
       "type": "image-banner",
+      "blocks": {
+        "heading_8yFyfc": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Shop",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yFyfc"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_55.jpg",
+        "image": "shopify:\/\/shop_images\/DSC00633.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "medium",
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "mobile_content_alignment": "right",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "banner": {
