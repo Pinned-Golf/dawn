@@ -122,6 +122,62 @@
         "padding_bottom": 36
       }
     },
+    "multirow_nYrCnq": {
+      "type": "multirow",
+      "blocks": {
+        "row_tKXPUQ": {
+          "type": "row",
+          "settings": {
+            "caption": "How to use your",
+            "heading": "Prism+ Rangefinder",
+            "text": "<p>Here is a quick little tutorial video on how to use your Prism+ rangefinder. <\/p>",
+            "button_label": "Watch Tutorial",
+            "button_link": "shopify:\/\/pages\/contact-us"
+          }
+        },
+        "row_QJHXCY": {
+          "type": "row",
+          "settings": {
+            "caption": "How to use your",
+            "heading": "Dart 2.0 Speaker",
+            "text": "<p>Here is a quick little tutorial video on how to use your Dart 2.0 speaker. <\/p>",
+            "button_label": "Watch Tutorial",
+            "button_link": "shopify:\/\/pages\/caddy-combo"
+          }
+        },
+        "row_JrUFEw": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "caption": "How to use your",
+            "heading": "Sound Stick Speaker",
+            "text": "<p>Here is a quick little tutorial video on how to use your Sound Stick speaker. <\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_tKXPUQ",
+        "row_QJHXCY",
+        "row_JrUFEw"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-1",
+        "row_color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_WPEKn4": {
       "type": "multicolumn",
       "blocks": {
@@ -167,50 +223,6 @@
         "padding_bottom": 36
       }
     },
-    "multirow_nYrCnq": {
-      "type": "multirow",
-      "blocks": {
-        "row_tKXPUQ": {
-          "type": "row",
-          "settings": {
-            "caption": "How to use your",
-            "heading": "Prism+ Rangefinder",
-            "text": "<p>Here is a quick little tutorial video on how to use your Prism+ rangefinder. <\/p>",
-            "button_label": "Watch Tutorial",
-            "button_link": "shopify:\/\/pages\/contact-us"
-          }
-        },
-        "row_QJHXCY": {
-          "type": "row",
-          "settings": {
-            "caption": "How to use your",
-            "heading": "Dart 2.0 Speaker",
-            "text": "<p>Here is a quick little tutorial video on how to use your Dart 2.0 speaker. <\/p>",
-            "button_label": "Watch Tutorial",
-            "button_link": "shopify:\/\/pages\/caddy-combo"
-          }
-        }
-      },
-      "block_order": [
-        "row_tKXPUQ",
-        "row_QJHXCY"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "primary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "scheme-1",
-        "row_color_scheme": "scheme-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_collection_33RiJE": {
       "type": "featured-collection",
       "settings": {
@@ -245,8 +257,8 @@
     "form",
     "rich_text_LgYhRC",
     "collapsible_content_dwnXxx",
-    "multicolumn_WPEKn4",
     "multirow_nYrCnq",
+    "multicolumn_WPEKn4",
     "featured_collection_33RiJE"
   ]
 }
