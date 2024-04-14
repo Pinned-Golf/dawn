@@ -130,8 +130,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/8_5817ab92-c16d-4046-bfdc-d4c15007cb3f.jpg",
             "title": "The Prism+ Rangefinder",
-            "text": "<p>Learn how to use your Prism+ rangefinder. Use the link below to watch our tutorial video.<\/p>",
-            "link_label": "Tutorial Video",
+            "text": "",
+            "link_label": "Digital User Manual",
             "link": ""
           }
         },
@@ -140,8 +140,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/The_Prism_4.jpg",
             "title": "The Dart 2.0 Speaker",
-            "text": "<p>Learn how to use your Dart 2.0 Speaker. Use the link below to watch our tutorial video.<\/p>",
-            "link_label": "Tutorial Video",
+            "text": "",
+            "link_label": "Digital User Manual",
             "link": ""
           }
         }
@@ -151,7 +151,7 @@
         "column_8JNhqN"
       ],
       "settings": {
-        "title": "Tutorials",
+        "title": "User Manuals",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -194,6 +194,61 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multirow_nYrCnq": {
+      "type": "multirow",
+      "blocks": {
+        "row_tKXPUQ": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_QJHXCY": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_HR9AGe": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_tKXPUQ",
+        "row_QJHXCY",
+        "row_HR9AGe"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -202,6 +257,7 @@
     "rich_text_LgYhRC",
     "collapsible_content_dwnXxx",
     "multicolumn_WPEKn4",
-    "featured_collection_33RiJE"
+    "featured_collection_33RiJE",
+    "multirow_nYrCnq"
   ]
 }
