@@ -158,8 +158,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/8_5817ab92-c16d-4046-bfdc-d4c15007cb3f.jpg",
             "title": "The Prism+ Rangefinder",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
+            "text": "<p>Learn how to use your Prism+ rangefinder. Use the link below to watch our tutorial video.<\/p>",
+            "link_label": "Tutorial Video",
             "link": ""
           }
         },
@@ -168,25 +168,15 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/The_Prism_4.jpg",
             "title": "The Dart 2.0 Speaker",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_qXfMY4": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
+            "text": "<p>Learn how to use your Dart 2.0 Speaker. Use the link below to watch our tutorial video.<\/p>",
+            "link_label": "Tutorial Video",
             "link": ""
           }
         }
       },
       "block_order": [
         "column_zHWCdG",
-        "column_8JNhqN",
-        "column_qXfMY4"
+        "column_8JNhqN"
       ],
       "settings": {
         "title": "Tutorials",
@@ -198,7 +188,7 @@
         "background_style": "none",
         "button_label": "Button label",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-af529a53-b94b-40d0-9746-399d6ccf1927",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
