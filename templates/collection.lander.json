@@ -49,11 +49,10 @@
     "featured_product_bKLyR4": {
       "type": "featured-product",
       "blocks": {
-        "text_xyUckc": {
-          "type": "text",
+        "title_yCDLFJ": {
+          "type": "title",
           "settings": {
-            "text": "Trusted by 100,000+ golfers.",
-            "text_style": "uppercase"
+            "heading_size": "h1"
           }
         },
         "rating_wDmc6B": {
@@ -61,10 +60,11 @@
           "settings": {
           }
         },
-        "title_yCDLFJ": {
-          "type": "title",
+        "text_xyUckc": {
+          "type": "text",
           "settings": {
-            "heading_size": "h1"
+            "text": "Trusted by 100,000+ golfers.",
+            "text_style": "uppercase"
           }
         },
         "price_BbWhq9": {
@@ -93,9 +93,9 @@
         }
       },
       "block_order": [
-        "text_xyUckc",
-        "rating_wDmc6B",
         "title_yCDLFJ",
+        "rating_wDmc6B",
+        "text_xyUckc",
         "price_BbWhq9",
         "variant_picker_mjWjNk",
         "quantity_selector_EyiXmx",
@@ -178,7 +178,7 @@
         "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "media_position": "left",
+        "media_position": "right",
         "image_zoom": "none",
         "hide_variants": false,
         "enable_video_looping": false,
@@ -202,6 +202,11 @@
             "heading_size": "h1"
           }
         },
+        "rating_yHP67g": {
+          "type": "rating",
+          "settings": {
+          }
+        },
         "price_ET98ng": {
           "type": "price",
           "settings": {
@@ -214,33 +219,21 @@
             "swatch_shape": "circle"
           }
         },
-        "quantity_selector_NrtpjF": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
         "buy_buttons_9yd4pq": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
           }
-        },
-        "share_g6gfMR": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
         "text_K3NbhW",
         "title_9e8Hka",
+        "rating_yHP67g",
         "price_ET98ng",
         "variant_picker_FQWcbf",
-        "quantity_selector_NrtpjF",
-        "buy_buttons_9yd4pq",
-        "share_g6gfMR"
+        "buy_buttons_9yd4pq"
       ],
       "settings": {
         "product": "tech-stack",
