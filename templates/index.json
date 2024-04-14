@@ -13,7 +13,7 @@
             "button_label": "Shop",
             "link": "shopify:\/\/products\/prism-rangefinder",
             "button_style_secondary": true,
-            "box_align": "top-center",
+            "box_align": "bottom-right",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
