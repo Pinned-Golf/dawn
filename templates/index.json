@@ -23,6 +23,7 @@
         },
         "slide_e8rB77": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_6093.png",
             "heading": "",
