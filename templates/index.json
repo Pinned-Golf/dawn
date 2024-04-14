@@ -52,7 +52,7 @@
         ".slider-counter__link--active .dot {background-color: #ff0000;}",
         ".banner__buttons {display: grid;}",
         ".banner__text,.banner__heading {color: #fff; text-shadow: 0 0 0px #000;}",
-        ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 49rem;}"
+        ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 48rem;}"
       ],
       "settings": {
         "layout": "full_bleed",
