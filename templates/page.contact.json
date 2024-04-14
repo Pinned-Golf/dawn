@@ -61,6 +61,67 @@
         "padding_bottom": 52
       }
     },
+    "collapsible_content_dwnXxx": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_bRQ78j": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_NDVcBt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_KWzJGU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_A7bgRN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_bRQ78j",
+        "collapsible_row_NDVcBt",
+        "collapsible_row_KWzJGU",
+        "collapsible_row_A7bgRN"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_33RiJE": {
       "type": "featured-collection",
       "settings": {
@@ -88,12 +149,69 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_WPEKn4": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_zHWCdG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8_5817ab92-c16d-4046-bfdc-d4c15007cb3f.jpg",
+            "title": "The Prism+ Rangefinder",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8JNhqN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/The_Prism_4.jpg",
+            "title": "The Dart 2.0 Speaker",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qXfMY4": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_zHWCdG",
+        "column_8JNhqN",
+        "column_qXfMY4"
+      ],
+      "settings": {
+        "title": "Tutorials",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "form",
     "rich_text_LgYhRC",
-    "featured_collection_33RiJE"
+    "collapsible_content_dwnXxx",
+    "featured_collection_33RiJE",
+    "multicolumn_WPEKn4"
   ]
 }
