@@ -12,6 +12,14 @@
             "menu": "new-dawn-footer"
           }
         },
+        "image_Cw3Dca": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_33.png",
+            "image_width": 200,
+            "alignment": "center"
+          }
+        },
         "image_tBdAEC": {
           "type": "image",
           "settings": {
@@ -23,6 +31,7 @@
       },
       "block_order": [
         "footer-0",
+        "image_Cw3Dca",
         "image_tBdAEC"
       ],
       "settings": {
