@@ -450,10 +450,10 @@
         "buttons_EJHyeW": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_1": "Shop",
+            "button_link_1": "shopify:\/\/collections",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -466,7 +466,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Frame_480.png",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 10,
         "image_height": "large",
         "desktop_content_position": "bottom-left",
         "show_text_box": true,
