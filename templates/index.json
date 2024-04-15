@@ -7,18 +7,18 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_0482.png",
-            "heading": "",
+            "heading": "<strong>Better Golf. Better Vibes.  <\/strong>",
             "heading_size": "h0",
             "subheading": "",
             "button_label": "Shop",
             "link": "shopify:\/\/products\/prism-rangefinder",
             "button_style_secondary": true,
-            "box_align": "bottom-right",
+            "box_align": "bottom-left",
             "show_text_box": false,
-            "text_alignment": "center",
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-1",
-            "text_alignment_mobile": "right"
+            "text_alignment_mobile": "left"
           }
         },
         "slide_e8rB77": {
@@ -63,6 +63,29 @@
         "image_behavior": "none",
         "show_text_below": false,
         "accessibility_info": "Pinned Golf- Superior Golf Technology"
+      }
+    },
+    "rich_text_m8Bbyy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KmEJ7Q": {
+          "type": "heading",
+          "settings": {
+            "heading": "Golf tech trusted by over 100,000 golfers.",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KmEJ7Q"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "multirow_GehmqX": {
@@ -324,6 +347,7 @@
   },
   "order": [
     "slideshow_4t63MF",
+    "rich_text_m8Bbyy",
     "multirow_GehmqX",
     "image_banner_FdxwLK",
     "multicolumn_bE7ELq",
