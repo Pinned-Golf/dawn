@@ -56,6 +56,7 @@
       "blocks": {
         "slide_wCRTjP": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_0482.png",
             "heading": "",
