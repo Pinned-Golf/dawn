@@ -1,5 +1,56 @@
 {
   "sections": {
+    "image_banner_iWr6ta": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_NwY4V9": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Better Golf. Better Vibes.<\/strong>",
+            "heading_size": "h0"
+          }
+        },
+        "text_pTPFVz": {
+          "type": "text",
+          "settings": {
+            "text": "Golf technology trusted by 100,000+ golfers.",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "buttons_EJHyeW": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop",
+            "button_link_1": "shopify:\/\/collections",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_NwY4V9",
+        "text_pTPFVz",
+        "buttons_EJHyeW"
+      ],
+      "custom_css": [
+        ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 48rem;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Frame_480.png",
+        "image_overlay_opacity": 10,
+        "image_height": "large",
+        "desktop_content_position": "bottom-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "slideshow_4t63MF": {
       "type": "slideshow",
       "blocks": {
@@ -429,57 +480,10 @@
         "padding_top": 36,
         "padding_bottom": 0
       }
-    },
-    "image_banner_iWr6ta": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_NwY4V9": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Better Golf. Better Vibes.<\/strong>",
-            "heading_size": "h0"
-          }
-        },
-        "text_pTPFVz": {
-          "type": "text",
-          "settings": {
-            "text": "Golf technology trusted by 100,000+ golfers.",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "buttons_EJHyeW": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop",
-            "button_link_1": "shopify:\/\/collections",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_NwY4V9",
-        "text_pTPFVz",
-        "buttons_EJHyeW"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_480.png",
-        "image_overlay_opacity": 10,
-        "image_height": "large",
-        "desktop_content_position": "bottom-left",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
     }
   },
   "order": [
+    "image_banner_iWr6ta",
     "slideshow_4t63MF",
     "rich_text_m8Bbyy",
     "multirow_GehmqX",
@@ -488,7 +492,6 @@
     "collapsible_content_rT76Q4",
     "newsletter_qzCyW7",
     "image_banner_QMgQCn",
-    "multicolumn_g7UQzM",
-    "image_banner_iWr6ta"
+    "multicolumn_g7UQzM"
   ]
 }
