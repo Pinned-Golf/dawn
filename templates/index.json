@@ -7,10 +7,10 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_0482.png",
-            "heading": "<strong>Better Golf. Better Vibes.  <\/strong>",
+            "heading": "",
             "heading_size": "h0",
             "subheading": "",
-            "button_label": "Shop",
+            "button_label": "",
             "link": "shopify:\/\/products\/prism-rangefinder",
             "button_style_secondary": true,
             "box_align": "bottom-left",
@@ -71,8 +71,8 @@
         "heading_KmEJ7Q": {
           "type": "heading",
           "settings": {
-            "heading": "Golf tech trusted by over 100,000 golfers.",
-            "heading_size": "h0"
+            "heading": "<em><strong>Golf technology trusted by 100,000+ golfers.<\/strong><\/em>",
+            "heading_size": "h2"
           }
         }
       },
@@ -81,7 +81,7 @@
       ],
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "left",
+        "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
@@ -343,6 +343,92 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "multicolumn_g7UQzM": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_nCExPq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_3.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_J7VWEM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_q1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CD89k7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_5.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cf6VBT": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_z3bfp9": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RbD6Ga": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_nCExPq",
+        "column_J7VWEM",
+        "column_CD89k7",
+        "column_cf6VBT",
+        "column_z3bfp9",
+        "column_RbD6Ga"
+      ],
+      "settings": {
+        "title": "Trusted by",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -353,6 +439,7 @@
     "multicolumn_bE7ELq",
     "collapsible_content_rT76Q4",
     "newsletter_qzCyW7",
-    "image_banner_QMgQCn"
+    "image_banner_QMgQCn",
+    "multicolumn_g7UQzM"
   ]
 }
