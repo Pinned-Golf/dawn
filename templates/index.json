@@ -377,6 +377,16 @@
     "multicolumn_g7UQzM": {
       "type": "multicolumn",
       "blocks": {
+        "column_8HHEgC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/imagea_4.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_nCExPq": {
           "type": "column",
           "settings": {
@@ -410,7 +420,8 @@
         "column_cf6VBT": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/2q0.png",
+            "title": "",
             "text": "",
             "link_label": "",
             "link": ""
@@ -419,7 +430,8 @@
         "column_z3bfp9": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/image_156.png",
+            "title": "",
             "text": "",
             "link_label": "",
             "link": ""
@@ -428,7 +440,18 @@
         "column_RbD6Ga": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/a.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_733czn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_157.png",
+            "title": "",
             "text": "",
             "link_label": "",
             "link": ""
@@ -436,19 +459,22 @@
         }
       },
       "block_order": [
+        "column_8HHEgC",
         "column_nCExPq",
         "column_J7VWEM",
         "column_CD89k7",
         "column_cf6VBT",
         "column_z3bfp9",
-        "column_RbD6Ga"
+        "column_RbD6Ga",
+        "column_733czn"
       ],
+      "disabled": true,
       "settings": {
         "title": "Trusted by",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 6,
+        "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
