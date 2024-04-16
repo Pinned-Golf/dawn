@@ -8,6 +8,13 @@
           "settings": {
           }
         },
+        "text_icGT6c": {
+          "type": "text",
+          "settings": {
+            "text": "<em><strong>New 2024 Product<\/strong><\/em>",
+            "text_style": "body"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -118,6 +125,7 @@
       },
       "block_order": [
         "judge_me_reviews_preview_badge_tAHRwe",
+        "text_icGT6c",
         "title",
         "text_8pA7Hq",
         "caption",
