@@ -197,22 +197,22 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text": "#121212",
-          "button": "#121212",
+          "text": "#000000",
+          "button": "#000000",
           "button_label": "#ffffff",
           "secondary_button_label": "#ffffff",
-          "shadow": "#121212"
+          "shadow": "#000000"
         }
       },
       "scheme-2": {
         "settings": {
           "background": "#f3f3f3",
           "background_gradient": "",
-          "text": "#121212",
-          "button": "#121212",
+          "text": "#000000",
+          "button": "#000000",
           "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
-          "shadow": "#121212"
+          "secondary_button_label": "#000000",
+          "shadow": "#000000"
         }
       },
       "scheme-3": {
@@ -223,18 +223,18 @@
           "button": "#ffffff",
           "button_label": "#000000",
           "secondary_button_label": "#ffffff",
-          "shadow": "#121212"
+          "shadow": "#000000"
         }
       },
       "scheme-4": {
         "settings": {
-          "background": "#121212",
+          "background": "#000000",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
-          "button_label": "#121212",
+          "button_label": "#000000",
           "secondary_button_label": "#ffffff",
-          "shadow": "#121212"
+          "shadow": "#000000"
         }
       },
       "scheme-5": {
@@ -256,7 +256,7 @@
           "button": "#000000",
           "button_label": "#ffffff",
           "secondary_button_label": "#000000",
-          "shadow": "#121212"
+          "shadow": "#000000"
         }
       },
       "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1": {
@@ -264,10 +264,10 @@
           "background": "#ffffff",
           "background_gradient": "",
           "text": "#000000",
-          "button": "#121212",
+          "button": "#000000",
           "button_label": "#ffffff",
           "secondary_button_label": "#000000",
-          "shadow": "#121212"
+          "shadow": "#000000"
         }
       },
       "scheme-52017920-19b1-4003-9742-3ad11c86b6db": {
