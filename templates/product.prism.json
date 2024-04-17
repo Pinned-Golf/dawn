@@ -548,6 +548,7 @@
     },
     "custom_liquid_PRJMPr": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<a id=\"scroll-to-top\" href=\"#\">Buy The Prism<\/a>\n<script>\n  document.getElementById('scroll-to-top').addEventListener('click', (evt) => {\n    evt.preventDefault();\n    evt.stopPropagation();\n    document.querySelector('form[data-type=\"add-to-cart-form\"]').scrollIntoView({ behavior: \"smooth\", block: \"end\", inline: \"nearest\" })\n  });\n<\/script>",
         "color_scheme": "",
