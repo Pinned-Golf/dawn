@@ -423,45 +423,45 @@
         "collapsible_row_qdXMcJ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Can you remove the bag clip?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Yes! Our bag clip is completely detachable.<\/p>",
             "page": ""
           }
         },
         "collapsible_row_EABUcy": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Can you pair two Dart speakers together?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Yes! Our Dual Dart Pairing feature allows you to connect two Darts together to amplify your own tunes or share with the other cart.<\/p>",
             "page": ""
           }
         },
         "collapsible_row_4VXbwM": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Is the magnet strong?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Yes! Our Dart 2.0 golf speakers are built with N52 magnets, which are the strongest grade magnet you can find. It's not falling off!<\/p>",
             "page": ""
           }
         },
         "collapsible_row_yG8QjR": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Is it waterproof?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Yes! Our Dart 2.0 golf speaker is completely waterproof and can even be submerged for 30 minutes. <\/p>",
             "page": ""
           }
         },
         "collapsible_row_Nt36Ki": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Can I use any USB-C cord to charge?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Please use the USB-C charging cord that comes with your Dart 2.0 golf speaker.<\/p>",
             "page": ""
           }
         }
