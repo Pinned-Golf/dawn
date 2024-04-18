@@ -89,6 +89,7 @@
         },
         "collapsible_tab_mFpMHC": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Features",
             "icon": "none",
@@ -99,9 +100,9 @@
         "collapsible_tab_ULUXpP": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "What's in the box?",
+            "heading": "What's included?",
             "icon": "none",
-            "content": "<ul><li>Prism+ Rangefinder<\/li><li>MagClose Hard Cover Case<\/li><li>USB-C Charging Cord<\/li><li>Pinned Ball Marker<\/li><li>Pinned Sticker<\/li><li>Bag Clip Carabiner<\/li><li>Lens Cleaning Cloth<\/li><li>Instruction Manual<\/li><li>Device Registration Guide<\/li><\/ul>",
+            "content": "<ul><li>Prism+ Rangefinder<\/li><li>Dart 2.0 Magnetic Speaker<\/li><li>Portable Charger<\/li><\/ul>",
             "page": ""
           }
         },
