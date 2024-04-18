@@ -571,6 +571,7 @@
         "column_izVDBj",
         "column_RddxiE"
       ],
+      "disabled": true,
       "settings": {
         "title": "Pinned Playlists",
         "heading_size": "h1",
