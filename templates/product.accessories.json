@@ -179,6 +179,7 @@
         "image_iyagxd",
         "image_QJJyGn"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h2",
@@ -246,6 +247,7 @@
         "collapsible_row_yG8QjR",
         "collapsible_row_Nt36Ki"
       ],
+      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "Frequently Asked Questions",
