@@ -39,7 +39,7 @@
         ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 48rem;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_480.png",
+        "image": "shopify:\/\/shop_images\/Frame_Home480.png",
         "image_overlay_opacity": 10,
         "image_height": "large",
         "desktop_content_position": "top-center",
