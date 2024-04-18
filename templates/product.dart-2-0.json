@@ -406,6 +406,21 @@
         "padding_bottom": 36
       }
     },
+    "video_QEMecD": {
+      "type": "video",
+      "settings": {
+        "heading": "Good Music. Good Vibes. Good Golf.",
+        "heading_size": "h0",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/Untitled design.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collapsible_content_3AyFLq": {
       "type": "collapsible-content",
       "blocks": {
@@ -572,21 +587,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "video_QEMecD": {
-      "type": "video",
-      "settings": {
-        "heading": "Good Music. Good Vibes. Good Golf.",
-        "heading_size": "h0",
-        "enable_video_looping": false,
-        "video": "shopify:\/\/files\/videos\/Untitled design.mp4",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -598,11 +598,11 @@
     "collage_tcaNLP",
     "collage_BckdEg",
     "image_with_text_EDRhQ4",
+    "video_QEMecD",
     "collapsible_content_3AyFLq",
     "171176697446b6f676",
     "related-products",
     "custom_liquid_PRJMPr",
-    "multicolumn_de7U3E",
-    "video_QEMecD"
+    "multicolumn_de7U3E"
   ]
 }
