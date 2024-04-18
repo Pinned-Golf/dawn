@@ -387,53 +387,6 @@
         "padding_bottom": 12
       }
     },
-    "image_with_text_EDRhQ4": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_C4xyht": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Fore The Kids.<\/strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_eYc9Ny": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em><strong>It's simple.<\/strong><\/em><\/p><p>Send us any rangefinder.<\/p><p>The brand does not matter.<\/p><p>We’ll refurbish & clean it up.<\/p><p>We’ll donate it to First Tee.<\/p><p>You’ll receive a massive discount. <\/p><p>The Prism+ Rangefinder for $199.<\/p><p><em><strong>A win, win. <\/strong><\/em><\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_KzeyAE": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "shopify:\/\/pages\/forethekids",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_C4xyht",
-        "text_eYc9Ny",
-        "button_KzeyAE"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_47e9.png",
-        "height": "medium",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-af529a53-b94b-40d0-9746-399d6ccf1927",
-        "color_scheme": "scheme-af529a53-b94b-40d0-9746-399d6ccf1927",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "collapsible_content_3AyFLq": {
       "type": "collapsible-content",
       "blocks": {
@@ -560,7 +513,6 @@
     "rich_text_rk9B8n",
     "collage_tcaNLP",
     "collage_BckdEg",
-    "image_with_text_EDRhQ4",
     "collapsible_content_3AyFLq",
     "171176697446b6f676",
     "related-products",
