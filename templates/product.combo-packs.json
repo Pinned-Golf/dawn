@@ -403,7 +403,7 @@
         "collapsible_row_EABUcy": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How do I know it's fully charged?",
+            "heading": "How do I know they're fully charged?",
             "icon": "check_mark",
             "row_content": "<p>One 45 minute charge when you receive it and you will be good for the entire season! When fully charged, the green light will be lit.<\/p>",
             "page": ""
@@ -430,7 +430,7 @@
         "collapsible_row_Nt36Ki": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Should I register my device?",
+            "heading": "Should I register my devices?",
             "icon": "check_mark",
             "row_content": "<p>You do not have to but it is strongly encouraged to register your device once you have received it.<\/p>",
             "page": ""
