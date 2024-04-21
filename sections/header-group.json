@@ -30,25 +30,25 @@
             "link": "shopify:\/\/collections\/pinned-golf-shop"
           }
         },
-        "announcement_DMb4qc": {
-          "type": "announcement",
-          "settings": {
-            "text": "Join The Pinned Family.",
-            "link": "shopify:\/\/collections\/pinned-golf-shop"
-          }
-        },
         "announcement_EBAxcE": {
           "type": "announcement",
           "settings": {
             "text": "Shop The New Prism+ Rangefinder.",
             "link": "shopify:\/\/products\/prismplus-rangefinder"
           }
+        },
+        "announcement_DMb4qc": {
+          "type": "announcement",
+          "settings": {
+            "text": "Join The Pinned Family.",
+            "link": "shopify:\/\/collections\/pinned-golf-shop"
+          }
         }
       },
       "block_order": [
         "announcement-bar-0",
-        "announcement_DMb4qc",
-        "announcement_EBAxcE"
+        "announcement_EBAxcE",
+        "announcement_DMb4qc"
       ],
       "settings": {
         "color_scheme": "",
