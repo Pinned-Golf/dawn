@@ -411,7 +411,7 @@
       "settings": {
         "heading": "Good Music. Good Vibes. Good Golf.",
         "heading_size": "h0",
-        "enable_video_looping": false,
+        "enable_video_looping": true,
         "video": "shopify:\/\/files\/videos\/Untitled design.mp4",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
