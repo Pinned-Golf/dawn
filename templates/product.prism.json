@@ -121,6 +121,12 @@
             "content": "<p>We don't release a product unless it hits on these 4 core values... <\/p><ol><li>Elevates your game<\/li><li>Styled to turn heads<\/li><li>Pushes the envelop<\/li><li>Stands the test of time<\/li><\/ol>",
             "page": ""
           }
+        },
+        "custom_liquid_qJqAgc": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"klaviyo-form-YjnwzK\"><\/div>"
+          }
         }
       },
       "block_order": [
@@ -139,7 +145,8 @@
         "collapsible_tab_mFpMHC",
         "collapsible_tab_ULUXpP",
         "collapsible_tab_LEjyQf",
-        "collapsible_tab_ydzdBh"
+        "collapsible_tab_ydzdBh",
+        "custom_liquid_qJqAgc"
       ],
       "settings": {
         "enable_sticky_info": true,
