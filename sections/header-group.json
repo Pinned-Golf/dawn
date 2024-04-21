@@ -43,20 +43,12 @@
             "text": "Join The Pinned Family.",
             "link": "shopify:\/\/collections\/pinned-golf-shop"
           }
-        },
-        "announcement_ytJm9b": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "announcement-bar-0",
         "announcement_EBAxcE",
-        "announcement_DMb4qc",
-        "announcement_ytJm9b"
+        "announcement_DMb4qc"
       ],
       "settings": {
         "color_scheme": "",
