@@ -124,8 +124,20 @@
       "blocks": {
         "row_kHGpxC": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/The_Prism_8.jpg",
+            "caption": "Get dialed in this season.",
+            "heading": "Rangefinders",
+            "text": "",
+            "button_label": "Shop Lower Scores",
+            "button_link": "shopify:\/\/products\/prismplus-rangefinder"
+          }
+        },
+        "row_gCPQ9V": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/The_Prism_17.png",
             "caption": "Get dialed in this season.",
             "heading": "Rangefinders",
             "text": "",
@@ -169,6 +181,7 @@
       },
       "block_order": [
         "row_kHGpxC",
+        "row_gCPQ9V",
         "row_mTGVeR",
         "row_tUPCUr",
         "row_iJTrfd"
