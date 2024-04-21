@@ -32,6 +32,7 @@
         },
         "announcement_EBAxcE": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Brand New Prism+ Rangefinder launches 4\/23",
             "link": "shopify:\/\/products\/prismplus-rangefinder"
