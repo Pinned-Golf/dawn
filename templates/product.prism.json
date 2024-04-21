@@ -558,19 +558,17 @@
     },
     "171374037927d8d761": {
       "type": "apps",
-      "blocks": {
-        "klaviyo_email_marketing_sms_form_embed_block_WG8kpa": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
-          "settings": {
-            "formId": "<div class=\"klaviyo-form-YjnwzK\"><\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "klaviyo_email_marketing_sms_form_embed_block_WG8kpa"
-      ],
       "settings": {
         "include_margins": true
+      }
+    },
+    "custom_liquid_wVHABY": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-YjnwzK\"><\/div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -588,6 +586,7 @@
     "171176697446b6f676",
     "related-products",
     "custom_liquid_PRJMPr",
-    "171374037927d8d761"
+    "171374037927d8d761",
+    "custom_liquid_wVHABY"
   ]
 }
