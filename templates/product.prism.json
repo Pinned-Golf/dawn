@@ -166,6 +166,7 @@
     },
     "custom_liquid_wVHABY": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"klaviyo-form-YjnwzK\"><\/div>",
         "color_scheme": "",
