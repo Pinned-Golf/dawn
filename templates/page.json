@@ -42,6 +42,7 @@
         "text_DBPTyV",
         "buttons_wMLkb6"
       ],
+      "disabled": true,
       "settings": {
         "image_overlay_opacity": 0,
         "image_height": "medium",
@@ -94,6 +95,7 @@
         "row_rfKPmk",
         "row_mptqNe"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
