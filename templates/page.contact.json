@@ -107,6 +107,7 @@
         "collapsible_row_KWzJGU",
         "collapsible_row_A7bgRN"
       ],
+      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "Frequently Asked Questions",
@@ -162,6 +163,7 @@
         "row_QJHXCY",
         "row_JrUFEw"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
@@ -227,7 +229,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Trending",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -244,7 +246,7 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": true,
+        "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
