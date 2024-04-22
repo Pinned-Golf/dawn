@@ -11,7 +11,7 @@
     "custom_liquid_ngpdnA": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "https:\/\/auth.govx.com\/shopify\/verify?shop=pinned-golf.myshopify.com&utm_source=shopify&utm_medium=govxid&utm_campaign=custom_link",
+        "custom_liquid": "",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
