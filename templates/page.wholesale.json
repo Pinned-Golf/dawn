@@ -7,6 +7,28 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_Pj7kmL": {
+      "type": "rich-text",
+      "blocks": {
+        "text_73gmri": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our custom & wholesale programs have helped thousands of clubs, pro shops, outings, tournaments, etc. in creating an unforgettable experience using Pinned Golf's. Interested in getting an order started? Fill out the form below and let’s start planning to make your next unforgettable event!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_73gmri"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
     "collage_AqAPzR": {
       "type": "collage",
       "blocks": {
@@ -45,26 +67,57 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_Pj7kmL": {
-      "type": "rich-text",
+    "multicolumn_cnqdYn": {
+      "type": "multicolumn",
       "blocks": {
-        "text_73gmri": {
-          "type": "text",
+        "column_fGLq4e": {
+          "type": "column",
           "settings": {
-            "text": "<p>Our custom & wholesale programs have helped thousands of clubs, pro shops, outings, tournaments, etc. in creating an unforgettable experience using Pinned Golf's. Interested in getting an order started? Fill out the form below and let’s start planning to make your next unforgettable event!<\/p>"
+            "title": "Up to 50% discount",
+            "text": "<p>Our wholesale pricing is affordable for any budget around the world. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wfDjaW": {
+          "type": "column",
+          "settings": {
+            "title": "24 hour mock ups",
+            "text": "<p>Looking for a mock up quickly? We got you covered. Have a mockup in your inbox within 24 hours.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WYzQzd": {
+          "type": "column",
+          "settings": {
+            "title": "Two week turnaround",
+            "text": "<p>Custom logo'd unit or an order for your shop, we'll get you your order within 14 days.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "text_73gmri"
+        "column_fGLq4e",
+        "column_wfDjaW",
+        "column_WYzQzd"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 52
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 8
       }
     },
     "custom_liquid_YeVTxQ": {
@@ -113,67 +166,14 @@
         "padding_top": 4,
         "padding_bottom": 36
       }
-    },
-    "multicolumn_cnqdYn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_fGLq4e": {
-          "type": "column",
-          "settings": {
-            "title": "Up to 50% discount",
-            "text": "<p>Our wholesale pricing is affordable for any budget around the world. <\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_wfDjaW": {
-          "type": "column",
-          "settings": {
-            "title": "24 hour mock ups",
-            "text": "<p>Looking for a mock up quickly? We got you covered. Have a mockup in your inbox within 24 hours.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_WYzQzd": {
-          "type": "column",
-          "settings": {
-            "title": "Two week turnaround",
-            "text": "<p>Custom logo'd unit or an order for your shop, we'll get you your order within 14 days.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_fGLq4e",
-        "column_wfDjaW",
-        "column_WYzQzd"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
-    "collage_AqAPzR",
     "rich_text_Pj7kmL",
+    "collage_AqAPzR",
+    "multicolumn_cnqdYn",
     "custom_liquid_YeVTxQ",
-    "collage_xYp7iF",
-    "multicolumn_cnqdYn"
+    "collage_xYp7iF"
   ]
 }
