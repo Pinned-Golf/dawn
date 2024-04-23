@@ -7,37 +7,6 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_Pj7kmL": {
-      "type": "rich-text",
-      "blocks": {
-        "text_73gmri": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Our custom & wholesale programs have helped thousands of clubs, pro shops, outings, tournaments, etc. in creating an unforgettable experience using Pinned Golf's. Interested in getting an order started? Fill out the form below and let’s start planning to make your next unforgettable event!<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_73gmri"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 52
-      }
-    },
-    "custom_liquid_YeVTxQ": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-WfCKt7\"><\/div>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "collage_AqAPzR": {
       "type": "collage",
       "blocks": {
@@ -73,7 +42,38 @@
         "card_styles": "product-card-wrapper",
         "color_scheme": "",
         "padding_top": 36,
-        "padding_bottom": 4
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_Pj7kmL": {
+      "type": "rich-text",
+      "blocks": {
+        "text_73gmri": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our custom & wholesale programs have helped thousands of clubs, pro shops, outings, tournaments, etc. in creating an unforgettable experience using Pinned Golf's. Interested in getting an order started? Fill out the form below and let’s start planning to make your next unforgettable event!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_73gmri"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_YeVTxQ": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-WfCKt7\"><\/div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "collage_xYp7iF": {
@@ -117,9 +117,9 @@
   },
   "order": [
     "main",
+    "collage_AqAPzR",
     "rich_text_Pj7kmL",
     "custom_liquid_YeVTxQ",
-    "collage_AqAPzR",
     "collage_xYp7iF"
   ]
 }
