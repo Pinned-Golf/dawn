@@ -116,6 +116,7 @@
     "show_vendor": false,
     "show_cart_note": true,
     "cart_drawer_collection": "upsells",
+    "checkout_logo_image": "shopify:\/\/shop_images\/1_9f00bff9-bb5a-4e9b-abd0-9de3d4b47cc2.png",
     "checkout_accent_color": "#000000",
     "checkout_button_color": "#000000",
     "checkout_error_color": "#ff0000",
