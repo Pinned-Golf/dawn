@@ -2,16 +2,28 @@
   "sections": {
     "image_banner_Rmjip3": {
       "type": "image-banner",
+      "blocks": {
+        "heading_xp3XNC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Accessories",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xp3XNC"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_55.jpg",
+        "image": "shopify:\/\/shop_images\/DSC00633.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "desktop_content_position": "bottom-right",
+        "show_text_box": false,
+        "desktop_content_alignment": "right",
         "color_scheme": "",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "right",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
@@ -36,7 +48,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
-        "enable_quick_add": false,
+        "quick_add": "none",
         "enable_filtering": false,
         "filter_type": "horizontal",
         "enable_sorting": false,
