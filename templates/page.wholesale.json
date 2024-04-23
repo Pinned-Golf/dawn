@@ -166,6 +166,97 @@
         "padding_top": 4,
         "padding_bottom": 36
       }
+    },
+    "collapsible_content_dYUQTh": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_LpXYnF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I see a mockup?",
+            "icon": "check_mark",
+            "row_content": "<p>Of course! Our design team will have a mockup sent to you within 24 hours of receiving your logo.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8tAHUX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you have a minimum for custom logos?",
+            "icon": "check_mark",
+            "row_content": "<p>For custom logo units our minimum is 24 units. For stock units, our minimum is 6 units. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_dkYWdY": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you have a set up fee?",
+            "icon": "check_mark",
+            "row_content": "<p>No, we do not have a set up fee for custom logo'd units.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6dhxJm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What type of logo file do you need?",
+            "icon": "check_mark",
+            "row_content": "<p>Our designers will work with any type of file you have. Preferably .jpeg, .ai, .png, .pdf. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6kmnTM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How fast will I get my order?",
+            "icon": "check_mark",
+            "row_content": "<p>Typically you will have your order within 14 days of purchase regardless of quantities. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_43ceNp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you ship internationally?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes, we ship all of the world! <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3X6hNH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is your return policy?",
+            "icon": "check_mark",
+            "row_content": "<p>For custom units, all sales are final.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_LpXYnF",
+        "collapsible_row_8tAHUX",
+        "collapsible_row_dkYWdY",
+        "collapsible_row_6dhxJm",
+        "collapsible_row_6kmnTM",
+        "collapsible_row_43ceNp",
+        "collapsible_row_3X6hNH"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -174,6 +265,7 @@
     "collage_AqAPzR",
     "multicolumn_cnqdYn",
     "custom_liquid_YeVTxQ",
-    "collage_xYp7iF"
+    "collage_xYp7iF",
+    "collapsible_content_dYUQTh"
   ]
 }
