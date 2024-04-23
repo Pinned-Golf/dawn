@@ -120,8 +120,8 @@
         "column_fGLq4e": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Up to 50% discount",
+            "text": "<p>Our wholesale pricing is affordable for any budget around the world. <\/p>",
             "link_label": "",
             "link": ""
           }
@@ -129,8 +129,8 @@
         "column_wfDjaW": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "24 hour mock ups",
+            "text": "<p>Looking for a mock up quickly? We got you covered. Have a mockup in your inbox within 24 hours.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -138,8 +138,8 @@
         "column_WYzQzd": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Two week turnaround",
+            "text": "<p>Custom logo'd unit or an order for your shop, we'll get you your order within 14 days.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -151,13 +151,13 @@
         "column_WYzQzd"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "",
