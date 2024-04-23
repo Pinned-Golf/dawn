@@ -8,10 +8,10 @@
           "settings": {
           }
         },
-        "text_icGT6c": {
+        "text_3TMaQ3": {
           "type": "text",
           "settings": {
-            "text": "<em><strong>Available 4\/23\/24 at 12p EST<\/strong><\/em>",
+            "text": "<strong>New 2024 Product<\/strong>",
             "text_style": "body"
           }
         },
@@ -131,7 +131,7 @@
       },
       "block_order": [
         "judge_me_reviews_preview_badge_tAHRwe",
-        "text_icGT6c",
+        "text_3TMaQ3",
         "title",
         "text_8pA7Hq",
         "caption",
