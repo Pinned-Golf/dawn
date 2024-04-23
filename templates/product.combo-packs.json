@@ -8,12 +8,11 @@
           "settings": {
           }
         },
-        "text_icGT6c": {
+        "text_t9HXeJ": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<em><strong>New 2024 Product<\/strong><\/em>",
-            "text_style": "body"
+            "text": "<strong>New 2024 Product<\/strong>",
+            "text_style": "uppercase"
           }
         },
         "title": {
@@ -123,18 +122,11 @@
             "content": "<p>We don't release a product unless it hits on these 4 core values... <\/p><ol><li>Elevates your game<\/li><li>Styled to turn heads<\/li><li>Pushes the envelop<\/li><li>Stands the test of time<\/li><\/ol>",
             "page": ""
           }
-        },
-        "text_t9HXeJ": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>New 2024 Product<\/strong>",
-            "text_style": "uppercase"
-          }
         }
       },
       "block_order": [
         "judge_me_reviews_preview_badge_tAHRwe",
-        "text_icGT6c",
+        "text_t9HXeJ",
         "title",
         "text_8pA7Hq",
         "caption",
@@ -148,8 +140,7 @@
         "collapsible_tab_mFpMHC",
         "collapsible_tab_ULUXpP",
         "collapsible_tab_LEjyQf",
-        "collapsible_tab_ydzdBh",
-        "text_t9HXeJ"
+        "collapsible_tab_ydzdBh"
       ],
       "settings": {
         "enable_sticky_info": true,
