@@ -231,6 +231,7 @@
         "row_i6JpJg",
         "row_6YCPxg"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
@@ -249,6 +250,7 @@
     },
     "image_banner_YTFPAp": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Compa9rison.jpg",
         "image_overlay_opacity": 0,
@@ -281,6 +283,7 @@
       "block_order": [
         "buttons_Eka9kf"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/The_Prism_1080_x_720_px_1080_x_500_px_1500_x_750_px_1500_x_1600_px.gif",
         "image_overlay_opacity": 0,
@@ -354,6 +357,7 @@
         "image_iyagxd",
         "image_QJJyGn"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h2",
@@ -392,6 +396,7 @@
         "image_XbyAnh",
         "image_aPcjD7"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -434,6 +439,7 @@
         "text_eYc9Ny",
         "button_KzeyAE"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Frame_47e9.png",
         "height": "medium",
@@ -557,6 +563,7 @@
     },
     "custom_liquid_PRJMPr": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<a id=\"scroll-to-top\" href=\"#\">Buy The Prism<\/a>\n<script>\n  document.getElementById('scroll-to-top').addEventListener('click', (evt) => {\n    evt.preventDefault();\n    evt.stopPropagation();\n    document.querySelector('form[data-type=\"add-to-cart-form\"]').scrollIntoView({ behavior: \"smooth\", block: \"end\", inline: \"nearest\" })\n  });\n<\/script>",
         "color_scheme": "",
