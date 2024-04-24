@@ -16,13 +16,15 @@
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="page-width page-width--narrow section-{{ section.id }}-padding">
-    <h2 class="page-title {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-      {%- if section.settings.page.title != blank -%}
-        {{ section.settings.page.title | escape }}
-      {%- else -%}
-        {{ 'sections.page.title' | t }}
-      {%- endif -%}
-    </h2>
+    {%- unless section.settings.page.metafields.custom.show_title.value -%}
+      <h2 class="page-title {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        {%- if section.settings.page.title != blank -%}
+          {{ section.settings.page.title | escape }}
+        {%- else -%}
+          {{ 'sections.page.title' | t }}
+        {%- endif -%}
+      </h2>
+    {%- endunless -%}
     <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       {%- if section.settings.page.content != blank -%}
         {{ section.settings.page.content }}
@@ -41,10 +43,7 @@
   "tag": "section",
   "class": "section",
   "disabled_on": {
-    "groups": [
-      "header",
-      "footer"
-    ]
+    "groups": ["header", "footer"]
   },
   "settings": [
     {
