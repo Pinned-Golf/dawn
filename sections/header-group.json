@@ -36,19 +36,11 @@
             "text": "Free shipping on all orders.",
             "link": "shopify:\/\/collections\/pinned-golf-shop"
           }
-        },
-        "announcement_DMb4qc": {
-          "type": "announcement",
-          "settings": {
-            "text": "Join The Pinned Family.",
-            "link": "shopify:\/\/collections\/pinned-golf-shop"
-          }
         }
       },
       "block_order": [
         "announcement_EBAxcE",
-        "announcement-bar-0",
-        "announcement_DMb4qc"
+        "announcement-bar-0"
       ],
       "settings": {
         "color_scheme": "",
