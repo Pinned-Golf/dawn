@@ -57,6 +57,7 @@
         "text_HLwR6R",
         "button_yaW463"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -69,6 +70,16 @@
     "multirow_DTJLYr": {
       "type": "multirow",
       "blocks": {
+        "row_aqbn4a": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
         "row_nfmMGy": {
           "type": "row",
           "settings": {
@@ -111,11 +122,13 @@
         }
       },
       "block_order": [
+        "row_aqbn4a",
         "row_nfmMGy",
         "row_M4CpTT",
         "row_xWcUjE",
         "row_RPiedh"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
@@ -174,6 +187,7 @@
         "slide_gX9BtN",
         "slide_AMhxdM"
       ],
+      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
@@ -184,6 +198,15 @@
         "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "custom_liquid_cXUd3q": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div data-tf-live=\"01HWNXYWDDAC61PRF4409HAF1A\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -191,6 +214,7 @@
     "image_banner_Tx8xqn",
     "rich_text_dffWJy",
     "multirow_DTJLYr",
-    "slideshow_c6QzwE"
+    "slideshow_c6QzwE",
+    "custom_liquid_cXUd3q"
   ]
 }
