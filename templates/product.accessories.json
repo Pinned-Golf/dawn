@@ -105,6 +105,9 @@
         "collapsible_tab_LEjyQf",
         "collapsible_tab_ydzdBh"
       ],
+      "custom_css": [
+        "span[data-selected-swatch-value] {font-weight: 600;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
