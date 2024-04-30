@@ -46,9 +46,29 @@
       endcase
     endfor
 
+    # Custom Swatch Image from Variants
+    assign option_key = 'option' | append: option.position
+    assign variant_for_option = product.variants | where: option_key, value | first
+    assign variant_swatch_image1 = variant_for_option.metafields.pdp.swatch_image
+    assign variant_swatch_image2 = variant_for_option.metafields.pdp.swatch_image2
+    assign variant_swatch_image3 = variant_for_option.metafields.pdp.swatch_image3
+    assign variant_swatch_image = ''
+    case option.position
+      when 1
+        assign variant_swatch_image = variant_swatch_image1
+      when 2
+        assign variant_swatch_image = variant_swatch_image2
+      when 3
+        assign variant_swatch_image = variant_swatch_image3
+    endcase
+    assign swatch_image = value.swatch.image | default: variant_swatch_image
+    # end custom swatch image
+
     assign swatch_focal_point = null
-    if value.swatch.image
-      assign image_url = value.swatch.image | image_url: width: 50
+    # TODO: Put this back and remove next line: if value.swatch.image
+    if swatch_image
+      # TODO: assign image_url = value.swatch.image | image_url: width: 50
+      assign image_url = swatch_image | image_url: width: 50
       assign swatch_value = 'url(' | append: image_url | append: ')'
       assign swatch_focal_point = value.swatch.image.presentation.focal_point
     elsif value.swatch.color
@@ -90,6 +110,7 @@
       visually_disabled: option_disabled,
       shape: block.settings.swatch_shape,
       help_text: help_text
+      custom_value: swatch_value
     %}
   {%- elsif picker_type == 'button' -%}
     <input

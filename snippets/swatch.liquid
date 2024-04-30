@@ -12,7 +12,7 @@
 {% endcomment %}
 
 {%- liquid
-  assign swatch_value = null
+  assign swatch_value = custom_value
   if swatch.image
     assign image_url = swatch.image | image_url: width: 50
     assign swatch_value = 'url(' | append: image_url | append: ')'
