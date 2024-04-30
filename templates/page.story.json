@@ -90,8 +90,8 @@
         "button_giXKzN": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Shop Best Sellers",
+            "button_link": "shopify:\/\/collections\/pinned-golf-shop",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -103,7 +103,6 @@
         "text_mL3Aeh",
         "button_giXKzN"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
