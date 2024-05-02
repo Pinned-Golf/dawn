@@ -240,6 +240,7 @@
     },
     "image_banner_YTFPAp": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/kko_25c00ce4-e6ee-4321-aceb-33e28132bfa3.jpg",
         "image_overlay_opacity": 0,
@@ -349,6 +350,7 @@
         "image_XbyAnh",
         "image_aPcjD7"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -391,6 +393,7 @@
         "text_eYc9Ny",
         "button_KzeyAE"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Fore_The_Kids_Final_nobackground_2_2.png",
         "height": "adapt",
