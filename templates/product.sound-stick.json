@@ -41,7 +41,6 @@
         },
         "quantity_selector_a4gife": {
           "type": "quantity_selector",
-          "disabled": true,
           "settings": {
           }
         },
@@ -55,13 +54,6 @@
         "description": {
           "type": "description",
           "settings": {
-          }
-        },
-        "share": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
           }
         },
         "icon_with_text_UWmnYD": {
@@ -93,7 +85,7 @@
           "settings": {
             "heading": "What's in the box?",
             "icon": "none",
-            "content": "<ul><li>Prism+ Rangefinder<\/li><li>MagClose Hard Cover Case<\/li><li>USB-C Charging Cord<\/li><li>Pinned Ball Marker<\/li><li>Pinned Sticker<\/li><li>Bag Clip Carabiner<\/li><li>Lens Cleaning Cloth<\/li><li>Instruction Manual<\/li><li>Device Registration Guide<\/li><\/ul>",
+            "content": "<ul><li>Sound Stick Speaker<\/li><li>USB-C Charging Cord<\/li><li>Pinned Sticker<\/li><li>Instruction Manual<\/li><li>Device Registration Guide<\/li><li>Pinned Playlist QR Code<\/li><\/ul>",
             "page": ""
           }
         },
@@ -126,7 +118,6 @@
         "quantity_selector_a4gife",
         "buy_buttons",
         "description",
-        "share",
         "icon_with_text_UWmnYD",
         "collapsible_tab_mFpMHC",
         "collapsible_tab_ULUXpP",
