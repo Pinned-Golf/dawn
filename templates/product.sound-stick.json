@@ -205,6 +205,7 @@
         },
         "row_6YCPxg": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Pinned_Prism_pink.2.jpg",
             "caption": "Completely",
@@ -258,6 +259,13 @@
     "rich_text_rk9B8n": {
       "type": "rich-text",
       "blocks": {
+        "heading_xJ6wMB": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Better Music. Better Vibes. Better Golf.<\/strong>",
+            "heading_size": "h0"
+          }
+        },
         "button_JY4HTi": {
           "type": "button",
           "settings": {
@@ -271,6 +279,7 @@
         }
       },
       "block_order": [
+        "heading_xJ6wMB",
         "button_JY4HTi"
       ],
       "custom_css": [
