@@ -183,6 +183,7 @@
         },
         "row_i6JpJg": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Sound_Stick_Launch_9.png",
             "caption": "150 Foot",
