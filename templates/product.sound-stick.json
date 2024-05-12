@@ -184,7 +184,7 @@
         "row_hqhrD3": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Sound_Stick_Launch.jpg",
+            "image": "shopify:\/\/shop_images\/Sound_Stick_Launch_6.png",
             "caption": "15+ Hour",
             "heading": "Battery Life",
             "text": "<p>The tunes never have to stop. Packed with an incredible 15+ hours of battery life, one charge will keep you jamming out for multiple rounds!<\/p>",
@@ -205,7 +205,6 @@
         },
         "row_6YCPxg": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Pinned_Prism_pink.2.jpg",
             "caption": "Completely",
