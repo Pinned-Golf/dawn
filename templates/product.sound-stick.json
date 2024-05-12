@@ -181,17 +181,6 @@
             "button_link": ""
           }
         },
-        "row_hqhrD3": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Sound_Stick_Launch_7.png",
-            "caption": "15+ Hour",
-            "heading": "Battery Life",
-            "text": "<p>The tunes never have to stop. Packed with an incredible 15+ hours of battery life, one charge will keep you jamming out for multiple rounds!<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "row_i6JpJg": {
           "type": "row",
           "settings": {
@@ -199,6 +188,17 @@
             "caption": "150 Foot",
             "heading": "Connection Range",
             "text": "<p>You'll never be out of bounds with the super far 150 range of our Sound Sticks. Jam out on the fairway, on the green, or in the woods! <\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_hqhrD3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sound_Stick_Launch_7.png",
+            "caption": "15+ Hour",
+            "heading": "Battery Life",
+            "text": "<p>The tunes never have to stop. Packed with an incredible 15+ hours of battery life, one charge will keep you jamming out for multiple rounds!<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -218,8 +218,8 @@
       "block_order": [
         "row_xyYV8h",
         "row_dHXDxk",
-        "row_hqhrD3",
         "row_i6JpJg",
+        "row_hqhrD3",
         "row_6YCPxg"
       ],
       "settings": {
