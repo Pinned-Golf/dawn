@@ -125,7 +125,7 @@
         "collapsible_tab_ydzdBh"
       ],
       "custom_css": [
-        ".swatch {aspect-ratio: 1 \/ 1.8}"
+        ".swatch {aspect-ratio: 1 \/ 1 ;}"
       ],
       "settings": {
         "enable_sticky_info": true,
