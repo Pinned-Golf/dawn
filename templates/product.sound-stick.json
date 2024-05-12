@@ -450,9 +450,9 @@
         "collapsible_row_yG8QjR": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Can I use this for things other than golf?",
+            "heading": "Is this golf specific?",
             "icon": "check_mark",
-            "row_content": "<p>Yes! We have a number of customers who bring their Sound Stick on the boat, to the beach, in the pool and so many others.<\/p>",
+            "row_content": "<p>No! We have a number of customers who bring their Sound Stick on the boat, to the beach, in the pool and so many others activities off the course.<\/p>",
             "page": ""
           }
         }
