@@ -184,7 +184,7 @@
         "row_hqhrD3": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Sound_Stick_Launch_6.png",
+            "image": "shopify:\/\/shop_images\/Sound_Stick_Launch_7.png",
             "caption": "15+ Hour",
             "heading": "Battery Life",
             "text": "<p>The tunes never have to stop. Packed with an incredible 15+ hours of battery life, one charge will keep you jamming out for multiple rounds!<\/p>",
@@ -223,7 +223,7 @@
         "row_6YCPxg"
       ],
       "settings": {
-        "image_height": "medium",
+        "image_height": "large",
         "desktop_image_width": "medium",
         "heading_size": "h2",
         "text_style": "body",
