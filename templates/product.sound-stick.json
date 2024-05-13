@@ -126,7 +126,7 @@
       ],
       "custom_css": [
         ".swatch {aspect-ratio: 1 \/ 1;}",
-        "span[data-selected-swatch-value] {font-weight: 60;}"
+        "span[data-selected-swatch-value] {font-weight: 600;}"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -180,7 +180,7 @@
             "image": "shopify:\/\/shop_images\/Instagram_soud_stick_-_1.png",
             "caption": "Connect",
             "heading": "Two Speakers",
-            "text": "<p>Party mode or surround sound... your choice. Connect two Sound Sticks and turn up the vibes during your round.<\/p>",
+            "text": "<p>Party mode or surround sound... your choice! Connect two Sound Sticks and turn up the vibes during your round.<\/p>",
             "button_label": "",
             "button_link": ""
           }
