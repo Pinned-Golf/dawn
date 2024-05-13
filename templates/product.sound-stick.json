@@ -125,7 +125,8 @@
         "collapsible_tab_ydzdBh"
       ],
       "custom_css": [
-        ".swatch {aspect-ratio: 1 \/ 1;}"
+        ".swatch {aspect-ratio: 1 \/ 1;}",
+        "span[data-selected-swatch-value] {font-weight: 60;}"
       ],
       "settings": {
         "enable_sticky_info": true,
