@@ -2,21 +2,9 @@
   "sections": {
     "image_banner_Rmjip3": {
       "type": "image-banner",
-      "blocks": {
-        "heading_H6g6RQ": {
-          "type": "heading",
-          "settings": {
-            "heading": "The Shop",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_H6g6RQ"
-      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSC00633.jpg",
-        "image_overlay_opacity": 10,
+        "image": "shopify:\/\/shop_images\/Untitled_design_11_224498dc-a79a-45ff-ad88-43c774b53397.jpg",
+        "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
