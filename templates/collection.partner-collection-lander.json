@@ -3,15 +3,15 @@
     "image_banner_Rmjip3": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Untitled_design_11_224498dc-a79a-45ff-ad88-43c774b53397.jpg",
+        "image": "shopify:\/\/shop_images\/Untitled_design_12_8ba6cb9d-481e-49d3-8dcb-3d9a4ad564c0.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
-        "desktop_content_alignment": "right",
+        "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
         "image_behavior": "none",
-        "mobile_content_alignment": "right",
+        "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
