@@ -42,12 +42,12 @@
         "image": "shopify:\/\/shop_images\/Frame_a488.png",
         "image_overlay_opacity": 10,
         "image_height": "large",
-        "desktop_content_position": "top-center",
+        "desktop_content_position": "top-left",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "scheme-3",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "left",
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
