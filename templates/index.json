@@ -6,14 +6,14 @@
         "heading_NwY4V9": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Better Golf. Better Vibes.<\/strong>",
+            "heading": "<strong>Our salute to lower scores.<\/strong>",
             "heading_size": "h0"
           }
         },
         "text_pTPFVz": {
           "type": "text",
           "settings": {
-            "text": "Golf technology trusted by 100,000+ golfers.",
+            "text": "Memorial Day Collection Now Available!",
             "text_style": "caption-with-letter-spacing"
           }
         },
@@ -39,7 +39,7 @@
         ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 49rem;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_Home480.png",
+        "image": "shopify:\/\/shop_images\/Frame_488.png",
         "image_overlay_opacity": 10,
         "image_height": "large",
         "desktop_content_position": "top-center",
