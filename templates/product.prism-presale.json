@@ -173,6 +173,7 @@
     },
     "custom_liquid_GXEULY": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"klaviyo-form-YjnwzK\"><\/div>",
         "color_scheme": "",
@@ -202,10 +203,10 @@
         "row_hqhrD3": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_035301c7-2b20-4607-b62d-6c96f25b2ad1.jpg",
-            "caption": "65 Round",
-            "heading": "Rechargeable Battery",
-            "text": "<p>No more batteries. One 45 minute charge will have your Prism+ dialed in for 65 rounds. So long are the days of a dead battery on the course.<\/p>",
+            "image": "shopify:\/\/shop_images\/1_2494897c-1ba5-4802-8a92-cf347d6ffc66.jpg",
+            "caption": "",
+            "heading": "No More Batteries",
+            "text": "<p>One hour charge will have your Prism dialed in for 60 rounds. So long are the days of a dead battery on the course.<\/p>",
             "button_label": "",
             "button_link": ""
           }
