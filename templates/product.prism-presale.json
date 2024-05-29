@@ -11,7 +11,7 @@
         "text_icGT6c": {
           "type": "text",
           "settings": {
-            "text": "<strong>Exclusive VIP Presale Event<\/strong>",
+            "text": "<strong>Father's Day Sale<\/strong>",
             "text_style": "body"
           }
         },
@@ -42,7 +42,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button",
+            "picker_type": "swatch",
             "swatch_shape": "square"
           }
         },
@@ -100,7 +100,7 @@
           "settings": {
             "heading": "What's in the box?",
             "icon": "none",
-            "content": "<ul><li>Prism+ Rangefinder<\/li><li>MagClose Hard Cover Case<\/li><li>USB-C Charging Cord<\/li><li>Pinned Ball Marker<\/li><li>Pinned Sticker<\/li><li>Bag Clip Carabiner<\/li><li>Lens Cleaning Cloth<\/li><li>Instruction Manual<\/li><li>Device Registration Guide<\/li><\/ul>",
+            "content": "<ul><li>Prism Rangefinder<\/li><li>Hard Cover Case<\/li><li>USB-C Charging Cord<\/li><li>Pinned Ball Marker<\/li><li>Pinned Sticker<\/li><li>Bag Clip Carabiner<\/li><li>Lens Cleaning Cloth<\/li><li>Instruction Manual<\/li><\/ul>",
             "page": ""
           }
         },
