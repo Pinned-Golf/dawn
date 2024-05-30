@@ -13,8 +13,8 @@
         "text_ReHTTx": {
           "type": "text",
           "settings": {
-            "text": "Get a FREE Dart 2.0 Speaker with rangefinder purchase",
-            "text_style": "subtitle"
+            "text": "Get a <strong>FREE Dart 2.0 Speaker <\/strong>when you purchase a rangefinder.",
+            "text_style": "caption-with-letter-spacing"
           }
         }
       },
