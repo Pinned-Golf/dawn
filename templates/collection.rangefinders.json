@@ -6,24 +6,32 @@
         "heading_8yFyfc": {
           "type": "heading",
           "settings": {
-            "heading": "The Shop",
+            "heading": "Rangefinders",
             "heading_size": "h1"
+          }
+        },
+        "text_ReHTTx": {
+          "type": "text",
+          "settings": {
+            "text": "Get a FREE Dart 2.0 Speaker with rangefinder purchase",
+            "text_style": "subtitle"
           }
         }
       },
       "block_order": [
-        "heading_8yFyfc"
+        "heading_8yFyfc",
+        "text_ReHTTx"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSC00633.jpg",
-        "image_overlay_opacity": 10,
+        "image": "shopify:\/\/shop_images\/5_e292f192-0012-4124-8dcb-8974b127c9db.png",
+        "image_overlay_opacity": 30,
         "image_height": "medium",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "middle-left",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "scheme-3",
         "image_behavior": "none",
-        "mobile_content_alignment": "right",
+        "mobile_content_alignment": "left",
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
@@ -48,7 +56,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
-        "enable_quick_add": false,
+        "quick_add": "none",
         "enable_filtering": false,
         "filter_type": "horizontal",
         "enable_sorting": false,
