@@ -7,7 +7,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Get Dad Dialed In.<\/strong>",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
         "text_pTPFVz": {
@@ -40,7 +40,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Frame_4a89.jpg",
-        "image_overlay_opacity": 10,
+        "image_overlay_opacity": 20,
         "image_height": "large",
         "desktop_content_position": "top-center",
         "show_text_box": false,
