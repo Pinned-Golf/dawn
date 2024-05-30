@@ -44,13 +44,6 @@
           "settings": {
           }
         },
-        "text_Ywr83M": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>Launch Sale<\/strong> | <em><strong>20% Off<\/strong><\/em><em> <\/em>| <strong>Code: Stick<\/strong>",
-            "text_style": "body"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -123,7 +116,6 @@
         "price",
         "variant_picker",
         "quantity_selector_a4gife",
-        "text_Ywr83M",
         "buy_buttons",
         "description",
         "icon_with_text_UWmnYD",
