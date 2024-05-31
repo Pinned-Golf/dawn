@@ -37,7 +37,7 @@
         "text_8BgptK": {
           "type": "text",
           "settings": {
-            "text": "<strong>Father's Day Sale | <\/strong>Buy Prism+ Get Dart 2.0 Speaker Free",
+            "text": "<em><strong>Father's Day Sale <\/strong><\/em><strong>| <\/strong>Buy Prism+ Get Dart 2.0 Speaker Free",
             "text_style": "body"
           }
         },
