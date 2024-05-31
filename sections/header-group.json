@@ -25,6 +25,7 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Free shipping on all orders.",
             "link": "shopify:\/\/collections\/pinned-golf-shop"
