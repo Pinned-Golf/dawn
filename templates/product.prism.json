@@ -150,7 +150,8 @@
         "collapsible_tab_ydzdBh"
       ],
       "custom_css": [
-        "span[data-selected-swatch-value] {font-weight: 600;}"
+        "span[data-selected-swatch-value] {font-weight: 600;}",
+        "p.product__text.inline-richtext.subtitle + p {color: red;}"
       ],
       "settings": {
         "enable_sticky_info": true,
