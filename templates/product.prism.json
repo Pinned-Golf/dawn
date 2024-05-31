@@ -34,6 +34,13 @@
             "text_style": "subtitle"
           }
         },
+        "text_8BgptK": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Father's Day Sale | <\/strong>Buy Prism+ Get Dart 2.0 Speaker Free",
+            "text_style": "body"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -57,13 +64,6 @@
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
-          }
-        },
-        "text_8BgptK": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>Father's Day Sale | <\/strong>Buy Prism+ Get Dart 2.0 Speaker Free",
-            "text_style": "subtitle"
           }
         },
         "description": {
@@ -136,11 +136,11 @@
         "title",
         "text_8pA7Hq",
         "caption",
+        "text_8BgptK",
         "price",
         "variant_picker",
         "quantity_selector_a4gife",
         "buy_buttons",
-        "text_8BgptK",
         "description",
         "share",
         "icon_with_text_UWmnYD",
