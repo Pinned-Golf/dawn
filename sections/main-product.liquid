@@ -66,8 +66,10 @@
   {%- endif -%}
 
   {%- liquid
-    assign variant_attached_images = product.images | where: 'attached_to_variant?', true | map: 'src'
-    assign variant_images = product.selected_or_first_available_variant.metafields.pdp.media.value | default: variant_attached_images
+    assign variant_images = product.selected_or_first_available_variant.metafields.pdp.media.value | map: 'src'
+    if variant_images == blank
+      assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src'
+    endif
   -%}
   <div class="page-width">
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
