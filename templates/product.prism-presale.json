@@ -148,7 +148,7 @@
         "complementary_iYLVh9"
       ],
       "custom_css": [
-        "p.product__text.inline-richtext.subtitle + p {color: red;}"
+        "div.product__title + p +p {color: red;}"
       ],
       "settings": {
         "enable_sticky_info": true,
