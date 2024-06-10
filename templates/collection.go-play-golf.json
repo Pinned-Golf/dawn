@@ -51,7 +51,7 @@
         "go_play_golf_gift_card_redemption_form_PEJVep": {
           "type": "shopify:\/\/apps\/go-play-golf-gift-card\/blocks\/redemption_form\/63bb2c4c-fba4-40d6-9d3c-aafbd84719ce",
           "settings": {
-            "submit_label": "Redeem",
+            "submit_label": "Redeem Your Go Play Golf Gift Card",
             "placeholder": "Enter Gift Card"
           }
         }
