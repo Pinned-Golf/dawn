@@ -17,6 +17,10 @@
     assign single_media_visible = true
   endif
 
+  if use_fallback_media
+    assign media_items = product.media
+  endif
+
   if limit == 1
     assign single_media_visible = true
   endif
