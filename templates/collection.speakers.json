@@ -1,5 +1,50 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
+    "image_banner_3Dwbyh": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_pdWbzD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Speakers",
+            "heading_size": "h1"
+          }
+        },
+        "text_AjNKcK": {
+          "type": "text",
+          "settings": {
+            "text": "Better Music. Better Vibes. Better Golf.",
+            "text_style": "caption-with-letter-spacing"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pdWbzD",
+        "text_AjNKcK"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_15_8574048d-e72c-4083-849e-eea9dee556d9.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-right",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -30,6 +75,7 @@
     }
   },
   "order": [
+    "image_banner_3Dwbyh",
     "banner",
     "product-grid"
   ]
