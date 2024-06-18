@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner_Rmjip3": {
@@ -9,14 +18,22 @@
             "heading": "Accessories",
             "heading_size": "h1"
           }
+        },
+        "text_Tk34T7": {
+          "type": "text",
+          "settings": {
+            "text": "Little bit of everything!",
+            "text_style": "caption-with-letter-spacing"
+          }
         }
       },
       "block_order": [
-        "heading_xp3XNC"
+        "heading_xp3XNC",
+        "text_Tk34T7"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DSC00633.jpg",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 20,
         "image_height": "medium",
         "desktop_content_position": "bottom-right",
         "show_text_box": false,
