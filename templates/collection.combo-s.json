@@ -22,7 +22,7 @@
         "text_ReHTTx": {
           "type": "text",
           "settings": {
-            "text": "Get dialed in while jamming to your favorite tunes!",
+            "text": "<strong>Get dialed in while jamming to your favorite tunes!<\/strong>",
             "text_style": "caption-with-letter-spacing"
           }
         }
