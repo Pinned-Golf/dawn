@@ -209,6 +209,12 @@
           "beta_version": false,
           "custom_code": "<script>\n  let pathname = window.location.pathname;\n  if(pathname.includes('\/cart') && !pathname.includes('products') && !pathname.includes('pages')) {\n    window.location.href = '\/#cart'\n  }\n<\/script>"
         }
+      },
+      "17824471530847535147": {
+        "type": "shopify:\/\/apps\/web-accessibility-by-accessibe\/blocks\/accessiBe\/149b77a2-0170-42f6-9355-0bef39587b09",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
