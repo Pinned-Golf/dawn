@@ -2572,7 +2572,7 @@ menu-drawer + .header__search {
 }
 
 .header__search {
-  display: inline-flex;
+  display: none !important;
   line-height: 0;
 }
 
