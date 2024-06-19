@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -147,7 +156,7 @@
         "text_zgUBYb": {
           "type": "text",
           "settings": {
-            "text": "<p>We offer a few domestic and international shipping options based on your budget and how badly you want to get dialed in.<\/p><p>Orders are typically fulfilled and shipped Monday through Friday within 24 hours of being placed. (Orders placed before 1 p.m. EST will be processed the same day. Orders placed after 1 p.m. EST will be processed the next business day.)<\/p><p>Our fulfillment centers are closed on weekends and all major U.S. holidays. Please keep this in mind when selecting your shipping option.<\/p><p>While we do our best to fulfill and ship your orders within 24 hours Monday through Friday, sometimes delays occur during shipping because of invalid shipping addresses, weather, technical difficulties or Customs.<br\/><br\/>If your package hasn’t arrived within the estimated timeframe, we suggest you do the following:<\/p><ul><li>Check the tracking information to see if it has been delivered. If it has been delivered and you didn’t receive it, check with your neighbors, family members, mailroom, etc. Sometimes deliveries are mistakenly delivered to a neighbor or buried in a mailroom.<\/li><li>Contact your local post office for additional information. UPS and FedEx sometimes partner with local postal service to make the final deliveries. In this case, your tracking information will indicate a transfer to the local post office.<\/li><li>Pinned Golf is not responsible for any lost or stolen packages. Please contact the carrier for more info and to file a claim.<\/li><\/ul>"
+            "text": "<p>We offer a few domestic and international shipping options based on your budget and how badly you want to get dialed in.<\/p><p>Orders are typically fulfilled and shipped Monday through Friday within 24 hours of being placed. (Orders placed before 1 p.m. EST will be processed the same day. Orders placed after 1 p.m. EST will be processed the next business day.) <\/p><p>Our fulfillment centers are closed on weekends and all major U.S. holidays. Please keep this in mind when selecting your shipping option.<\/p><p>While we do our best to fulfill and ship your orders within 24 hours Monday through Friday, sometimes delays occur during shipping because of invalid shipping addresses, weather, technical difficulties or Customs. Please note the customer is responsible for any duty & taxes associated with their order.<br\/><br\/>If your package hasn’t arrived within the estimated timeframe, we suggest you do the following:<\/p><ul><li>Check the tracking information to see if it has been delivered. If it has been delivered and you didn’t receive it, check with your neighbors, family members, mailroom, etc. Sometimes deliveries are mistakenly delivered to a neighbor or buried in a mailroom.<\/li><li>Contact your local post office for additional information. UPS and FedEx sometimes partner with local postal service to make the final deliveries. In this case, your tracking information will indicate a transfer to the local post office.<\/li><li>Pinned Golf is not responsible for any lost or stolen packages. Please contact the carrier for more info and to file a claim.<\/li><\/ul>"
           }
         },
         "button_6bghp3": {
