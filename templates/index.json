@@ -15,14 +15,14 @@
         "heading_NwY4V9": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Get Dad Dialed In.<\/strong>",
-            "heading_size": "h1"
+            "heading": "<strong>Better Vibes. Better Golf.<\/strong>",
+            "heading_size": "h0"
           }
         },
         "text_pTPFVz": {
           "type": "text",
           "settings": {
-            "text": "Father's Day Sale Is Live!",
+            "text": "Golf Technology Trusted by 150,000+ Golfers.",
             "text_style": "caption-with-letter-spacing"
           }
         },
@@ -48,7 +48,7 @@
         ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 49rem;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_4a89.jpg",
+        "image": "shopify:\/\/shop_images\/Frame_480.png",
         "image_overlay_opacity": 20,
         "image_height": "large",
         "desktop_content_position": "top-center",
