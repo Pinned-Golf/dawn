@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner_Rmjip3": {
@@ -13,7 +22,7 @@
         "text_ReHTTx": {
           "type": "text",
           "settings": {
-            "text": "Get a <strong>FREE Dart 2.0 Speaker <\/strong>when you purchase a rangefinder.",
+            "text": "",
             "text_style": "caption-with-letter-spacing"
           }
         }
