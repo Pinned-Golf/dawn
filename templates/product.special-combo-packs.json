@@ -339,19 +339,19 @@
         "image_cENgTq": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_6.jpg"
+            "image": "shopify:\/\/shop_images\/PinnedGolf_June2024_CirilliPhoto-6805_1.png"
           }
         },
         "image_XbyAnh": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_00a2e0e2-c596-4e5c-ac37-121b0e1b7d50.jpg"
+            "image": "shopify:\/\/shop_images\/Pinned_June26th_Cirilliphoto-2_1.png"
           }
         },
         "image_aPcjD7": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_36.png"
+            "image": "shopify:\/\/shop_images\/IMG_0350a_1.jpg"
           }
         }
       },
@@ -360,7 +360,6 @@
         "image_XbyAnh",
         "image_aPcjD7"
       ],
-      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
