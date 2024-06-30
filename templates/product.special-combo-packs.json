@@ -295,36 +295,6 @@
         "show_text_below": true
       }
     },
-    "rich_text_rk9B8n": {
-      "type": "rich-text",
-      "blocks": {
-        "button_JY4HTi": {
-          "type": "button",
-          "settings": {
-            "button_label": "Buy Caddie Combo+",
-            "button_link": "shopify:\/\/collections\/combos",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "button_JY4HTi"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "collage_tcaNLP": {
       "type": "collage",
       "blocks": {
@@ -535,7 +505,6 @@
     "image_banner_YTFPAp",
     "image_banner_H8xNth",
     "image_banner_HkpbKA",
-    "rich_text_rk9B8n",
     "collage_tcaNLP",
     "collage_BckdEg",
     "collapsible_content_3AyFLq",
