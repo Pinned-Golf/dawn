@@ -29,8 +29,8 @@
         "buttons_EJHyeW": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Get Dialed In",
-            "button_link_1": "shopify:\/\/collections\/pinned-golf-shop",
+            "button_label_1": "Shop Collection",
+            "button_link_1": "shopify:\/\/collections\/memorial-day-collection",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
