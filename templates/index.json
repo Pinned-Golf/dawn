@@ -15,15 +15,15 @@
         "heading_NwY4V9": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Better Vibes. Better Golf.<\/strong>",
-            "heading_size": "h0"
+            "heading": "<strong>Red, White & Get Dialed In. <\/strong>",
+            "heading_size": "h1"
           }
         },
         "text_pTPFVz": {
           "type": "text",
           "settings": {
-            "text": "Golf Technology Trusted by 150,000+ Golfers.",
-            "text_style": "caption-with-letter-spacing"
+            "text": "Our USA Collection Is Now Available.",
+            "text_style": "body"
           }
         },
         "buttons_EJHyeW": {
@@ -48,7 +48,7 @@
         ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 49rem;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_480.png",
+        "image": "shopify:\/\/shop_images\/Frame_492.jpg",
         "image_overlay_opacity": 20,
         "image_height": "large",
         "desktop_content_position": "top-center",
