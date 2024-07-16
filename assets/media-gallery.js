@@ -8,6 +8,7 @@ if (!customElements.get('media-gallery')) {
           liveRegion: this.querySelector('[id^="GalleryStatus"]'),
           viewer: this.querySelector('[id^="GalleryViewer"]'),
           thumbnails: this.querySelector('[id^="GalleryThumbnails"]'),
+          style: this.querySelector('[id^="GalleryStyle"]'),
         };
         this.mql = window.matchMedia('(min-width: 750px)');
         if (!this.elements.thumbnails) return;
@@ -19,16 +20,23 @@ if (!customElements.get('media-gallery')) {
             .addEventListener('click', this.setActiveMedia.bind(this, mediaToSwitch.dataset.target));
         });
         if (this.dataset.desktopLayout.includes('thumbnail') && this.mql.matches) this.removeListSemantic();
+        this.updateVisibleThumbnails();
+      }
+
+      updateVisibleThumbnails() {
+        this.dataset.selectedVariantId = document.getElementsByName('id')['0'].value;
+        this.elements.style.innerText = `#${this.id} .thumbnail-list  li[data-variant-id="${this.dataset.selectedVariantId}"] { display: list-item; }`;
       }
 
       onSlideChanged(event) {
         const thumbnail = this.elements.thumbnails.querySelector(
-          `[data-target="${event.detail.currentElement.dataset.mediaId}"]`
+          `[data-target="${event.detail.currentElement.dataset.mediaId}"]`,
         );
         this.setActiveThumbnail(thumbnail);
       }
 
       setActiveMedia(mediaId) {
+        this.updateVisibleThumbnails();
         const activeMedia =
           this.elements.viewer.querySelector(`[data-media-id="${mediaId}"]`) ||
           this.elements.viewer.querySelector('[data-media-id]');
@@ -101,6 +109,6 @@ if (!customElements.get('media-gallery')) {
         this.elements.viewer.slider.setAttribute('role', 'presentation');
         this.elements.viewer.sliderItems.forEach((slide) => slide.setAttribute('role', 'presentation'));
       }
-    }
+    },
   );
 }
