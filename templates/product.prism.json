@@ -418,13 +418,6 @@
     "image_with_text_EDRhQ4": {
       "type": "image-with-text",
       "blocks": {
-        "heading_C4xyht": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Fore The Kids.<\/strong>",
-            "heading_size": "h1"
-          }
-        },
         "text_eYc9Ny": {
           "type": "text",
           "settings": {
@@ -442,15 +435,13 @@
         }
       },
       "block_order": [
-        "heading_C4xyht",
         "text_eYc9Ny",
         "button_KzeyAE"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_47e9.png",
-        "height": "medium",
-        "desktop_image_width": "medium",
+        "image": "shopify:\/\/shop_images\/Frame_6141.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
