@@ -567,7 +567,7 @@
       ],
       "settings": {
         "custom_liquid": "<a id=\"scroll-to-top\" class=\"button button--primary\" href=\"#\">Buy The {{product.title}}<\/a>\n<script>\n  document.getElementById('scroll-to-top').addEventListener('click', (evt) => {\n    evt.preventDefault();\n    evt.stopPropagation();\n    document.querySelector('form[data-type=\"add-to-cart-form\"]').scrollIntoView({ behavior: \"smooth\", block: \"end\", inline: \"nearest\" })\n  });\n<\/script>",
-        "color_scheme": "",
+        "color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
         "padding_top": 40,
         "padding_bottom": 52
       }
