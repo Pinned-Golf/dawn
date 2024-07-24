@@ -64,7 +64,9 @@ if (!customElements.get('media-gallery')) {
         if (!this.elements.thumbnails) return;
         const activeThumbnail = this.elements.thumbnails.querySelector(`[data-target="${mediaId}"]`);
         this.setActiveThumbnail(activeThumbnail);
-        this.announceLiveRegion(activeMedia, activeThumbnail.dataset.mediaPosition);
+        if (activeThumbnail) {
+          this.announceLiveRegion(activeMedia, activeThumbnail.dataset.mediaPosition);
+        }
       }
 
       setActiveThumbnail(thumbnail) {
