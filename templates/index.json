@@ -15,7 +15,7 @@
         "heading_NwY4V9": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Our Salute to Team USA.<\/strong>",
+            "heading": "<strong>Our Salute to Team USA<\/strong>",
             "heading_size": "h1"
           }
         },
@@ -48,13 +48,13 @@
         ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 49rem;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_492.jpg",
-        "image_overlay_opacity": 0,
+        "image": "shopify:\/\/shop_images\/1920x1080ax1.png",
+        "image_overlay_opacity": 10,
         "image_height": "large",
-        "desktop_content_position": "top-center",
+        "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-e7fbf9f7-7567-4d96-b3ab-bb6b0bd1fa16",
+        "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
