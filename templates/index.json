@@ -15,15 +15,15 @@
         "heading_NwY4V9": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Our Salute to Team USA<\/strong>",
+            "heading": "<strong>Our Salute to Team USA.<\/strong>",
             "heading_size": "h0"
           }
         },
-        "text_pTPFVz": {
+        "text_zLE9tM": {
           "type": "text",
           "settings": {
             "text": "<strong>Up To 50% Off USA Collection.<\/strong>",
-            "text_style": "subtitle"
+            "text_style": "body"
           }
         },
         "buttons_EJHyeW": {
@@ -40,7 +40,7 @@
       },
       "block_order": [
         "heading_NwY4V9",
-        "text_pTPFVz",
+        "text_zLE9tM",
         "buttons_EJHyeW"
       ],
       "custom_css": [
