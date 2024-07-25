@@ -36,15 +36,23 @@
           "type": "announcement",
           "settings": {
             "text": "Free shipping on all orders.",
-            "link": "shopify:\/\/collections\/pinned-golf-shop"
+            "link": ""
+          }
+        },
+        "announcement_3n6nca": {
+          "type": "announcement",
+          "settings": {
+            "text": "Summer Game Special 🇺🇸",
+            "link": "shopify:\/\/collections\/usa-collection"
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_3n6nca"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-5",
         "show_line_separator": false,
         "show_social": false,
         "auto_rotate": true,
