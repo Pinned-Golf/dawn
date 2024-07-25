@@ -38,19 +38,10 @@
             "text": "Free shipping on all orders.",
             "link": "shopify:\/\/collections\/pinned-golf-shop"
           }
-        },
-        "announcement_t6HFt4": {
-          "type": "announcement",
-          "disabled": true,
-          "settings": {
-            "text": "USA Collection Now Available 🇺🇸",
-            "link": "shopify:\/\/collections\/usa-collection"
-          }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "announcement_t6HFt4"
+        "announcement-bar-0"
       ],
       "settings": {
         "color_scheme": "",
