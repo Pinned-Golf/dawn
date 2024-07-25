@@ -16,7 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Our Salute to Team USA<\/strong>",
-            "heading_size": "h0"
+            "heading_size": "h2"
           }
         },
         "text_pTPFVz": {
@@ -51,7 +51,7 @@
         "image": "shopify:\/\/shop_images\/1080x108a0x3.png",
         "image_overlay_opacity": 10,
         "image_height": "large",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "left",
         "color_scheme": "scheme-3",
