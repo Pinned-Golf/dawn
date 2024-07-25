@@ -31,7 +31,7 @@
           "settings": {
             "button_label_1": "Shop Collection",
             "button_link_1": "shopify:\/\/collections\/usa-collection",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -53,8 +53,8 @@
         "image_height": "large",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
+        "desktop_content_alignment": "right",
+        "color_scheme": "scheme-d75f153a-540a-4740-9624-52324e6b001f",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": false,

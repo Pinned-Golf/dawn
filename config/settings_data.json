@@ -332,10 +332,10 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text": "#fed7ff",
-          "button": "#121212",
+          "text": "#ffffff",
+          "button": "#ff0000",
           "button_label": "#ffffff",
-          "secondary_button_label": "#ffffff",
+          "secondary_button_label": "#ff0000",
           "shadow": "#121212"
         }
       },
