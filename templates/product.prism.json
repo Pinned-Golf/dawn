@@ -46,14 +46,14 @@
         "text_a7pip3": {
           "type": "text",
           "settings": {
-            "text": "<strong>NATIONAL GOLF MONTH SALE | FREE GIFT WITH EVERY RANGEFINDER PURCHASE<\/strong>",
+            "text": "<strong>NATIONAL GOLF MONTH SALE<\/strong>",
             "text_style": "uppercase"
           }
         },
         "text_WYXrGX": {
           "type": "text",
           "settings": {
-            "text": "<strong>FREE GIFT WITH PURCHASE<\/strong>",
+            "text": "<strong>FREE GIFT WITH EVERY PURCHASE<\/strong>",
             "text_style": "uppercase"
           }
         },
