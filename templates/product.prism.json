@@ -43,12 +43,18 @@
             "text_style": "subtitle"
           }
         },
-        "text_8BgptK": {
+        "text_a7pip3": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<em><strong>Father's Day Sale <\/strong><\/em><strong>| <\/strong>Buy Prism+ Get Dart 2.0 Speaker Free",
-            "text_style": "body"
+            "text": "<strong>NATIONAL GOLF MONTH SALE - FREE GIFT WITH PURCHASE<\/strong>",
+            "text_style": "uppercase"
+          }
+        },
+        "text_WYXrGX": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>FREE GIFT WITH PURCHASE<\/strong>",
+            "text_style": "uppercase"
           }
         },
         "price": {
@@ -146,7 +152,8 @@
         "title",
         "text_8pA7Hq",
         "caption",
-        "text_8BgptK",
+        "text_a7pip3",
+        "text_WYXrGX",
         "price",
         "variant_picker",
         "quantity_selector_a4gife",
