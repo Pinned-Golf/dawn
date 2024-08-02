@@ -50,13 +50,6 @@
             "text_style": "uppercase"
           }
         },
-        "text_WYXrGX": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>FREE GIFT WITH EVERY PURCHASE<\/strong>",
-            "text_style": "uppercase"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -153,7 +146,6 @@
         "text_8pA7Hq",
         "caption",
         "text_a7pip3",
-        "text_WYXrGX",
         "price",
         "variant_picker",
         "quantity_selector_a4gife",
