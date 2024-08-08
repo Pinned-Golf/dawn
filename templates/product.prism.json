@@ -80,6 +80,13 @@
           "settings": {
           }
         },
+        "text_q4QtEN": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>NOTE: USA PRISM+ WILL SHIP WEEK OF 8\/19<\/strong>",
+            "text_style": "subtitle"
+          }
+        },
         "share": {
           "type": "share",
           "disabled": true,
@@ -151,6 +158,7 @@
         "quantity_selector_a4gife",
         "buy_buttons",
         "description",
+        "text_q4QtEN",
         "share",
         "icon_with_text_UWmnYD",
         "collapsible_tab_mFpMHC",
