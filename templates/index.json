@@ -15,14 +15,14 @@
         "heading_NwY4V9": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Our Salute to Team USA.<\/strong>",
+            "heading": "<strong>Celebrate National Golf Month!<\/strong>",
             "heading_size": "h0"
           }
         },
         "text_zLE9tM": {
           "type": "text",
           "settings": {
-            "text": "<strong>Up To 50% Off USA Collection.<\/strong>",
+            "text": "<strong>Up To 50% Off + Free Gift!<\/strong>",
             "text_style": "subtitle"
           }
         },
@@ -30,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Collection",
-            "button_link_1": "shopify:\/\/collections\/usa-collection",
+            "button_link_1": "shopify:\/\/collections\/national-golf-month",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -50,7 +50,7 @@
         "h2,p {text-shadow: 0 2px 8px #000;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/1080x1w080x3.jpg",
+        "image": "shopify:\/\/shop_images\/Frame_6154.jpg",
         "image_overlay_opacity": 20,
         "image_height": "large",
         "desktop_content_position": "middle-center",
