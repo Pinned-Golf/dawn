@@ -58,7 +58,7 @@
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-d75f153a-540a-4740-9624-52324e6b001f",
         "image_behavior": "none",
-        "mobile_content_alignment": "right",
+        "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
