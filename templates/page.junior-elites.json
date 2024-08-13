@@ -204,7 +204,6 @@
     "image_banner_TGGfCn": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/FTK_lnader.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -220,7 +219,6 @@
     "image_banner_KkLTU7": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_4a43.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
