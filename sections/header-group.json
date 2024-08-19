@@ -45,11 +45,19 @@
             "text": "National Golf Month Sale! ⛳️",
             "link": "shopify:\/\/collections\/national-golf-month"
           }
+        },
+        "announcement_dpfap7": {
+          "type": "announcement",
+          "settings": {
+            "text": "Camo Prism+ Now Available",
+            "link": "shopify:\/\/products\/camo-prism-rangefinder"
+          }
         }
       },
       "block_order": [
         "announcement-bar-0",
-        "announcement_3n6nca"
+        "announcement_3n6nca",
+        "announcement_dpfap7"
       ],
       "settings": {
         "color_scheme": "scheme-5",
