@@ -51,14 +51,14 @@
         "heading_zk6mwm": {
           "type": "heading",
           "settings": {
-            "heading": "Interested?",
+            "heading": "Benefits Of PJE",
             "heading_size": "h1"
           }
         },
         "text_hNdPKQ": {
           "type": "text",
           "settings": {
-            "text": "<p>Apply below! <\/p>",
+            "text": "<p>1. Pinned Golf welcome package.<\/p>",
             "text_style": "body"
           }
         }
@@ -248,6 +248,48 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "rich_text_YNn6GN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ar834y": {
+          "type": "heading",
+          "settings": {
+            "heading": "Benefits of PJE",
+            "heading_size": "h1"
+          }
+        },
+        "text_cjPPxz": {
+          "type": "text",
+          "settings": {
+            "text": "<ol><li>Pinned Golf welcome package. <\/li><li>Access to exclusive free products.<\/li><li>Special PJE discounts.<\/li><li>Social Media shoutouts.<\/li><li>Junior Golfer of the Month entries.<\/li><li>Connect with PJE members all around the world.<\/li><li>Introduction to other partner golf brands.<\/li><\/ol>"
+          }
+        },
+        "button_q6YeK7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ar834y",
+        "text_cjPPxz",
+        "button_q6YeK7"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -257,6 +299,7 @@
     "main",
     "multirow_DTJLYr",
     "slideshow_c6QzwE",
-    "custom_liquid_cXUd3q"
+    "custom_liquid_cXUd3q",
+    "rich_text_YNn6GN"
   ]
 }
