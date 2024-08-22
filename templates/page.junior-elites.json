@@ -51,14 +51,14 @@
         "heading_mANrLp": {
           "type": "heading",
           "settings": {
-            "heading": "PJE Benefits",
+            "heading": "<strong>PJE Benefits<\/strong>",
             "heading_size": "h1"
           }
         },
         "text_wXATLw": {
           "type": "text",
           "settings": {
-            "text": "<h3>Pinned Golf welcome package. <\/h3><h3>Access to exclusive free products.<\/h3><h3>Special PJE discounts.<\/h3><h3>Social Media shoutouts.<\/h3><h3>Junior Golfer of the Month entries.<\/h3><h3>Connect with PJE members all around the world.<\/h3><h3>Introduction to other partner golf brands.<\/h3>",
+            "text": "<h4>Pinned Golf welcome package. <\/h4><h4>Access to exclusive free products.<\/h4><h4>Special PJE discounts.<\/h4><h4>Social Media shoutouts.<\/h4><h4>Junior Golfer of the Month entries.<\/h4><h4>Connect with PJE members all around the world.<\/h4><h4>Introduction to other partner golf brands.<\/h4>",
             "text_style": "body"
           }
         }
