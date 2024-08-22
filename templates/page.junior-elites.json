@@ -9,55 +9,48 @@
 */
 {
   "sections": {
+    "image_banner_rcmgpM": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_BnHkQh": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Pinned Junior Elites<\/strong>",
+            "heading_size": "h0"
+          }
+        },
+        "text_DRjxia": {
+          "type": "text",
+          "settings": {
+            "text": "On the hunt for the next generation of golfers.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BnHkQh",
+        "text_DRjxia"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Frame_4a89.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
-      }
-    },
-    "rich_text_dffWJy": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_xyFCbg": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Fore The Kids<\/strong>",
-            "heading_size": "h0"
-          }
-        },
-        "text_HLwR6R": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "button_yaW463": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_xyFCbg",
-        "text_HLwR6R",
-        "button_yaW463"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "multirow_DTJLYr": {
@@ -200,31 +193,13 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "image_banner_rcmgpM": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_4a42.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
+    "image_banner_rcmgpM",
     "main",
-    "rich_text_dffWJy",
     "multirow_DTJLYr",
     "slideshow_c6QzwE",
-    "custom_liquid_cXUd3q",
-    "image_banner_rcmgpM"
+    "custom_liquid_cXUd3q"
   ]
 }
