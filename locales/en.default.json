@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "password_page": {
@@ -365,6 +374,10 @@
       "min_error": "This item has a minimum of {{ min }}",
       "max_error": "This item has a maximum of {{ max }}",
       "step_error": "You can only add this item in increments of {{ step }}"
+    },
+    "wonderment-featured-collection": {
+      "sold_out": "Sold Out",
+      "sale": "Sale"
     }
   },
   "localization": {
@@ -522,6 +535,14 @@
   "shopify": {
     "links": {
       "powered_by_shopify": "| Boston, MA"
+    },
+    "checkout": {
+      "marketing": {
+        "accept_marketing_checkbox_label": "Email me exclusive offers & updates",
+        "post_accept_marketing_checkbox_label": "You're signed up to receive exclusive offers & updates",
+        "pending_accept_marketing_checkbox_label": "Please check your inbox to confirm exclusive offers & updates",
+        "accept_sms_checkbox_label": "Text me exclusive offers & updates"
+      }
     }
   },
   "pagefly": {
