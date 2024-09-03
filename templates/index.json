@@ -12,20 +12,6 @@
     "image_banner_iWr6ta": {
       "type": "image-banner",
       "blocks": {
-        "heading_NwY4V9": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Celebrate National Golf Month!<\/strong>",
-            "heading_size": "h0"
-          }
-        },
-        "text_zLE9tM": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>Up To 50% Off + Free Gift!<\/strong>",
-            "text_style": "subtitle"
-          }
-        },
         "buttons_EJHyeW": {
           "type": "buttons",
           "settings": {
@@ -39,8 +25,6 @@
         }
       },
       "block_order": [
-        "heading_NwY4V9",
-        "text_zLE9tM",
         "buttons_EJHyeW"
       ],
       "custom_css": [
@@ -50,13 +34,13 @@
         "h2,p {text-shadow: 0 2px 8px #000;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_6a154.jpg",
-        "image_overlay_opacity": 20,
+        "image": "shopify:\/\/shop_images\/Frame_6161.jpg",
+        "image_overlay_opacity": 0,
         "image_height": "large",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-d75f153a-540a-4740-9624-52324e6b001f",
+        "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
