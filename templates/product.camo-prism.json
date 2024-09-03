@@ -45,6 +45,7 @@
         },
         "text_a7pip3": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>NATIONAL GOLF MONTH SALE | <\/strong>FREE GIFT WITH EVERY PURCHASE",
             "text_style": "uppercase"
