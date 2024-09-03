@@ -83,6 +83,7 @@
         },
         "text_q4QtEN": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>NOTE: USA PRISM+ WILL SHIP WEEK OF 8\/19<\/strong>",
             "text_style": "subtitle"
