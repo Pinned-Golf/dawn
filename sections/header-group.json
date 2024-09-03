@@ -39,13 +39,6 @@
             "link": ""
           }
         },
-        "announcement_3n6nca": {
-          "type": "announcement",
-          "settings": {
-            "text": "National Golf Month Sale! ⛳️",
-            "link": "shopify:\/\/collections\/national-golf-month"
-          }
-        },
         "announcement_dpfap7": {
           "type": "announcement",
           "settings": {
@@ -56,7 +49,6 @@
       },
       "block_order": [
         "announcement-bar-0",
-        "announcement_3n6nca",
         "announcement_dpfap7"
       ],
       "settings": {
