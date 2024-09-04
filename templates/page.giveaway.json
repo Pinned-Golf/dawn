@@ -25,10 +25,76 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "rich_text_hHeR7L": {
+      "type": "rich-text",
+      "blocks": {
+        "text_cxyXeq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Terms and Conditions<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_cxyXeq"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_AqYVRH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7X4MV8": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Grand Prize Includes",
+            "heading_size": "h2"
+          }
+        },
+        "text_kTnFQ3": {
+          "type": "text",
+          "settings": {
+            "text": "<ol><li>Pinned Golf: Prism+ Rangefinder<\/li><li>Pinned Golf: Sound Stick Speaker<\/li><li>Stix Golf: Set of irons<\/li><li>Sunday Golf Co: Red+White Loma Bag<br\/><\/li><li>Pins and Aces: 3 Polos<\/li><li>GrooveIt: GrooveIt Wet Brush<\/li><li>iRange Sports: iRange Stick<\/li><li>BagBoy: Nitron Pushcart<\/li><li>Cayce Golf: Set of covers<\/li><li>TrueLinks: LuxG Golf Shoes<\/li><li>D.Hudson: 5 Hats<\/li><li>RipIt Grips: Set of club grips<\/li><li>Hyperrice: Venom 2 Back & Hypervolt Go 2 Golf Pack<\/li><li>CMD Golf Co: Putter<\/li><li>BirdieBall: 2x10 Putting Mat & Dozen BirdieBalls<\/li><li>Tee Number Thirty Three: 30 Pack of Flavored Tee Picks<\/li><li>Fore the Girls: Magnetic Towels and Bucket Hat<\/li><\/ol>"
+          }
+        },
+        "button_jGwkY9": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_7X4MV8",
+        "text_kTnFQ3",
+        "button_jGwkY9"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "custom_liquid_fUdMJC"
+    "custom_liquid_fUdMJC",
+    "rich_text_hHeR7L",
+    "rich_text_AqYVRH"
   ]
 }
