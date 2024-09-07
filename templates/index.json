@@ -28,7 +28,7 @@
         "buttons_EJHyeW"
       ],
       "custom_css": [
-        ".banner__content {align-items: middle;}",
+        ".banner__content {align-items: flex-end;}",
         ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 49rem;}",
         ".subtitle {color: rgba(var(--color-foreground), 1);}",
         "h2,p {text-shadow: 0 2px 8px #000;}"
