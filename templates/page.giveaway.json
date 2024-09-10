@@ -29,6 +29,23 @@
     "slideshow_8wzPw4": {
       "type": "slideshow",
       "blocks": {
+        "slide_HFB3FX": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h0",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_3MDyt8": {
           "type": "slide",
           "settings": {
@@ -50,7 +67,7 @@
         "slide_gbrnVn": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_301.png",
+            "image": "shopify:\/\/shop_images\/Frame_280.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -68,7 +85,7 @@
         "slide_gTnedq": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_302.png",
+            "image": "shopify:\/\/shop_images\/Frame_298a.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -103,11 +120,13 @@
         }
       },
       "block_order": [
+        "slide_HFB3FX",
         "slide_3MDyt8",
         "slide_gbrnVn",
         "slide_gTnedq",
         "slide_ygzRnm"
       ],
+      "disabled": true,
       "settings": {
         "layout": "grid",
         "slide_height": "adapt_image",
