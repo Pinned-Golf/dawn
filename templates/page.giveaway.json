@@ -26,73 +26,6 @@
         "padding_bottom": 52
       }
     },
-    "rich_text_AqYVRH": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_7X4MV8": {
-          "type": "heading",
-          "settings": {
-            "heading": "The Grand Prize Includes",
-            "heading_size": "h2"
-          }
-        },
-        "text_kTnFQ3": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pinned Golf: Prism+ Rangefinder<\/p><p>Pinned Golf: Sound Stick Speaker<\/p><p>Stix Golf: Set of irons<\/p><p>Sunday Golf Co: Red+White Loma Bag<\/p><p>Pins and Aces: 3 Polos<\/p><p>GrooveIt: GrooveIt Wet Brush<\/p><p>iRange Sports: iRange Stick<\/p><p>BagBoy: Nitron Pushcart<\/p><p>Cayce Golf: Set of covers<\/p><p>TrueLinks: LuxG Golf Shoes<\/p><p>D.Hudson: 5 Hats<\/p><p>RipIt Grips: Set of club grips<\/p><p>Hyperrice: Venom 2 Back & Hypervolt Go 2 Golf Pack<\/p><p>CMD Golf Co: Putter<\/p><p>BirdieBall: 2x10 Putting Mat & Dozen BirdieBalls<\/p><p>Tee Number Thirty Three: 30 Pack of Flavored Tee Picks<\/p><p>Fore the Girls: Magnetic Towels and Bucket Hat<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_7X4MV8",
-        "text_kTnFQ3"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "rich_text_YnEzmj": {
-      "type": "rich-text",
-      "blocks": {
-        "text_bLVygW": {
-          "type": "text",
-          "settings": {
-            "text": "<p><a href=\"https:\/\/pinnedgolf.com\/pages\/giveaway-terms-and-conditions\" title=\"https:\/\/pinnedgolf.com\/pages\/giveaway-terms-and-conditions\">Contest Terms and Conditions<\/a><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_bLVygW"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "image_banner_FDkbj4": {
-      "type": "image-banner",
-      "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "slideshow_8wzPw4": {
       "type": "slideshow",
       "blocks": {
@@ -185,14 +118,65 @@
         "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "rich_text_AqYVRH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7X4MV8": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Grand Prize Includes",
+            "heading_size": "h2"
+          }
+        },
+        "text_kTnFQ3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pinned Golf: Prism+ Rangefinder<\/p><p>Pinned Golf: Sound Stick Speaker<\/p><p>Stix Golf: Set of irons<\/p><p>Sunday Golf Co: Red+White Loma Bag<\/p><p>Pins and Aces: 3 Polos<\/p><p>GrooveIt: GrooveIt Wet Brush<\/p><p>iRange Sports: iRange Stick<\/p><p>BagBoy: Nitron Pushcart<\/p><p>Cayce Golf: Set of covers<\/p><p>TrueLinks: LuxG Golf Shoes<\/p><p>D.Hudson: 5 Hats<\/p><p>RipIt Grips: Set of club grips<\/p><p>Hyperrice: Venom 2 Back & Hypervolt Go 2 Golf Pack<\/p><p>CMD Golf Co: Putter<\/p><p>BirdieBall: 2x10 Putting Mat & Dozen BirdieBalls<\/p><p>Tee Number Thirty Three: 30 Pack of Flavored Tee Picks<\/p><p>Fore the Girls: Magnetic Towels and Bucket Hat<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7X4MV8",
+        "text_kTnFQ3"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_YnEzmj": {
+      "type": "rich-text",
+      "blocks": {
+        "text_bLVygW": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https:\/\/pinnedgolf.com\/pages\/giveaway-terms-and-conditions\" title=\"https:\/\/pinnedgolf.com\/pages\/giveaway-terms-and-conditions\">Contest Terms and Conditions<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_bLVygW"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "custom_liquid_fUdMJC",
+    "slideshow_8wzPw4",
     "rich_text_AqYVRH",
-    "rich_text_YnEzmj",
-    "image_banner_FDkbj4",
-    "slideshow_8wzPw4"
+    "rich_text_YnEzmj"
   ]
 }
