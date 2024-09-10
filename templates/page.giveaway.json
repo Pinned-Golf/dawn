@@ -32,7 +32,7 @@
         "slide_3MDyt8": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_298.png",
+            "image": "shopify:\/\/shop_images\/Frame_278.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -110,7 +110,7 @@
       ],
       "settings": {
         "layout": "grid",
-        "slide_height": "large",
+        "slide_height": "adapt_image",
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 3,
