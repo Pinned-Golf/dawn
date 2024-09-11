@@ -20,7 +20,7 @@
         "text_t9HXeJ": {
           "type": "text",
           "settings": {
-            "text": "<strong>2024 Limited Edition<\/strong>",
+            "text": "<strong>One Week Special<\/strong>",
             "text_style": "uppercase"
           }
         },
@@ -32,7 +32,7 @@
         "text_8pA7Hq": {
           "type": "text",
           "settings": {
-            "text": "Our products are trusted by 100,000+ golfers.",
+            "text": "Our speakers are trusted by 75,000+ golfers.",
             "text_style": "uppercase"
           }
         },
@@ -78,13 +78,6 @@
           "disabled": true,
           "settings": {
             "share_label": "Share"
-          }
-        },
-        "text_6VtYFt": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>NOTE: USA PRISM+ WILL SHIP WEEK OF 8\/19<\/strong>",
-            "text_style": "body"
           }
         },
         "icon_with_text_UWmnYD": {
@@ -152,7 +145,6 @@
         "buy_buttons",
         "description",
         "share",
-        "text_6VtYFt",
         "icon_with_text_UWmnYD",
         "collapsible_tab_mFpMHC",
         "collapsible_tab_ULUXpP",
@@ -199,6 +191,7 @@
       "blocks": {
         "row_hqhrD3": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/PinnedPrism_USA.83.jpg",
             "caption": "Brand New",
