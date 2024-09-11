@@ -32,7 +32,7 @@
         "text_AjNKcK"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_6166.jpg",
+        "image": "shopify:\/\/shop_images\/Frame_6166_c31c28ba-d43d-4b77-81a0-0e4a21ecfee2.jpg",
         "image_overlay_opacity": 20,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -40,8 +40,8 @@
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
         "image_behavior": "none",
-        "mobile_content_alignment": "right",
-        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
         "show_text_below": false
       }
     },
