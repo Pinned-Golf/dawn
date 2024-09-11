@@ -149,12 +149,12 @@
             "offer_c_title": "Trio",
             "offer_c_subtitle": "You save 20%",
             "offer_c_label": "Best Price ⚡",
-            "highlight_color": "#5A75F8",
-            "highlight_text_color": "#FFF",
-            "secondary_color": "#D7DEFF",
-            "secondary_text_color": "#000",
-            "highlight_border_color": "#5A75F8",
-            "secondary_border_color": "#5A75F8",
+            "highlight_color": "#5a75f8",
+            "highlight_text_color": "#ffffff",
+            "secondary_color": "#d7deff",
+            "secondary_text_color": "#000000",
+            "highlight_border_color": "#5a75f8",
+            "secondary_border_color": "#5a75f8",
             "block_curves": 9
           }
         }
@@ -581,6 +581,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "Trending",
         "heading_size": "h2",
