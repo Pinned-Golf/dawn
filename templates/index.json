@@ -12,6 +12,20 @@
     "image_banner_iWr6ta": {
       "type": "image-banner",
       "blocks": {
+        "heading_dyjLPQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Buy One, Get One Free Sound Sticks",
+            "heading_size": "h1"
+          }
+        },
+        "text_rCpYbD": {
+          "type": "text",
+          "settings": {
+            "text": "THIS WEEK ONLY!",
+            "text_style": "subtitle"
+          }
+        },
         "buttons_EJHyeW": {
           "type": "buttons",
           "settings": {
@@ -25,6 +39,8 @@
         }
       },
       "block_order": [
+        "heading_dyjLPQ",
+        "text_rCpYbD",
         "buttons_EJHyeW"
       ],
       "custom_css": [
@@ -34,7 +50,7 @@
         "h2,p {text-shadow: 0 2px 8px #000;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_6161.jpg",
+        "image": "shopify:\/\/shop_images\/fbogo_sound_sticks.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
