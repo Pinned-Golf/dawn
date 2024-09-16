@@ -16,14 +16,14 @@
           "type": "heading",
           "settings": {
             "heading": "Buy One, Get One Free Sound Sticks",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_rCpYbD": {
           "type": "text",
           "settings": {
             "text": "Flash Sale | This week only!",
-            "text_style": "subtitle"
+            "text_style": "caption-with-letter-spacing"
           }
         },
         "buttons_EJHyeW": {
@@ -50,7 +50,7 @@
         "h2,p {text-shadow: 0 2px 8px #000;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_6lll169.jpg",
+        "image": "shopify:\/\/shop_images\/Frame_616ll9.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
