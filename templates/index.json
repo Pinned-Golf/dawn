@@ -22,15 +22,15 @@
         "text_rCpYbD": {
           "type": "text",
           "settings": {
-            "text": "THIS WEEK ONLY!",
+            "text": "This week only!",
             "text_style": "subtitle"
           }
         },
         "buttons_EJHyeW": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Camo Collection",
-            "button_link_1": "shopify:\/\/collections\/camo-collection",
+            "button_label_1": "Shop BOGO",
+            "button_link_1": "shopify:\/\/products\/bogo-sound-sticks",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
