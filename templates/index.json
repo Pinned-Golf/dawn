@@ -23,7 +23,7 @@
           "type": "text",
           "settings": {
             "text": "Flash Sale | This week only!",
-            "text_style": "caption-with-letter-spacing"
+            "text_style": "subtitle"
           }
         },
         "buttons_EJHyeW": {
