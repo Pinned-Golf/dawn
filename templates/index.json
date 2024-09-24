@@ -15,14 +15,14 @@
         "heading_dyjLPQ": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Buy One Sound Stick, Get One Free<\/strong>",
+            "heading": "<strong>Buy One Sound Stick, Get One Free</strong>",
             "heading_size": "h1"
           }
         },
         "text_rCpYbD": {
           "type": "text",
           "settings": {
-            "text": "Flash Sale Ends Tomorrow Sept. 22nd",
+            "text": "Flash Sale Extended",
             "text_style": "caption-with-letter-spacing"
           }
         },
@@ -30,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop BOGO",
-            "button_link_1": "shopify:\/\/products\/bogo-sound-sticks",
+            "button_link_1": "shopify://products/bogo-sound-sticks",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -50,7 +50,7 @@
         "h2,p {text-shadow: 0 2px 8px #000;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_6z169.jpg",
+        "image": "shopify://shop_images/Frame_6z169.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
@@ -70,12 +70,12 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_0482.png",
+            "image": "shopify://shop_images/Frame_0482.png",
             "heading": "",
             "heading_size": "h0",
             "subheading": "",
             "button_label": "",
-            "link": "shopify:\/\/products\/prismplus-rangefinder",
+            "link": "shopify://products/prismplus-rangefinder",
             "button_style_secondary": true,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -89,7 +89,7 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_6093.png",
+            "image": "shopify://shop_images/Frame_6093.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -136,45 +136,45 @@
         "row_kHGpxC": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/The_Prism_8.jpg",
+            "image": "shopify://shop_images/The_Prism_8.jpg",
             "caption": "Get dialed in this season.",
             "heading": "Rangefinders",
             "text": "",
             "button_label": "Shop Lower Scores",
-            "button_link": "shopify:\/\/products\/prismplus-rangefinder"
+            "button_link": "shopify://products/prismplus-rangefinder"
           }
         },
         "row_mTGVeR": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/The_Prism_14.png",
+            "image": "shopify://shop_images/The_Prism_14.png",
             "caption": "Good Music. Good Golf.",
             "heading": "Speakers",
             "text": "",
             "button_label": "Shop Better Vibes",
-            "button_link": "shopify:\/\/collections\/speakers"
+            "button_link": "shopify://collections/speakers"
           }
         },
         "row_tUPCUr": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/The_Prism_16.png",
+            "image": "shopify://shop_images/The_Prism_16.png",
             "caption": "Best of both worlds.",
             "heading": "Combos",
             "text": "",
             "button_label": "Shop Total Packages",
-            "button_link": "shopify:\/\/collections\/combos"
+            "button_link": "shopify://collections/combos"
           }
         },
         "row_iJTrfd": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/The_Prism_8.png",
+            "image": "shopify://shop_images/The_Prism_8.png",
             "caption": "A little bit of everything.",
             "heading": "Accessories",
             "text": "",
             "button_label": "Shop Swag",
-            "button_link": "shopify:\/\/collections\/accessories"
+            "button_link": "shopify://collections/accessories"
           }
         }
       },
@@ -206,7 +206,7 @@
     "image_banner_FdxwLK": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_46.jpg",
+        "image": "shopify://shop_images/Frame_46.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -225,9 +225,9 @@
         "column_QrLCE4": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/The_Prism_19.png",
+            "image": "shopify://shop_images/The_Prism_19.png",
             "title": "Michael Breed, PGA Teacher of the Year",
-            "text": "<p>\"Top notch product & top notch people. I’ve been using their products for a few years now and couldn't be happier I decided to join the Pinned Family. \"<\/p>",
+            "text": "<p>\"Top notch product & top notch people. I’ve been using their products for a few years now and couldn't be happier I decided to join the Pinned Family. \"</p>",
             "link_label": "",
             "link": ""
           }
@@ -235,9 +235,9 @@
         "column_BMiAm6": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_4327.jpg",
+            "image": "shopify://shop_images/IMG_4327.jpg",
             "title": "Jeff Hamley, PGA Tour Caddie",
-            "text": "<p>\"When we prepare for each week’s PGA Tour event, I trust Pinned Golf’s range finger to help me dial in our strategy.\"<\/p>",
+            "text": "<p>\"When we prepare for each week’s PGA Tour event, I trust Pinned Golf’s range finger to help me dial in our strategy.\"</p>",
             "link_label": "",
             "link": ""
           }
@@ -245,9 +245,9 @@
         "column_T4RaKA": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_0bb3a52b-d01b-4af5-ba1a-5ec948227cee.png",
+            "image": "shopify://shop_images/2_0bb3a52b-d01b-4af5-ba1a-5ec948227cee.png",
             "title": "Jake Hutt, PGA Class A Teacher",
-            "text": "<p>\"Have been rocking with Pinned's rangefinder for years now. They keep getting better and better every year.”<\/p>",
+            "text": "<p>\"Have been rocking with Pinned's rangefinder for years now. They keep getting better and better every year.”</p>",
             "link_label": "",
             "link": ""
           }
@@ -283,7 +283,7 @@
           "settings": {
             "heading": "Elevate Your Game",
             "icon": "heart",
-            "row_content": "<p>Whether you’re an avid golf addict or just getting started, our products aim to impress. They're accurate, user-friendly, and packed with top-of-the-line features.<\/p>",
+            "row_content": "<p>Whether you’re an avid golf addict or just getting started, our products aim to impress. They're accurate, user-friendly, and packed with top-of-the-line features.</p>",
             "page": ""
           }
         },
@@ -292,7 +292,7 @@
           "settings": {
             "heading": "Style That Turns Heads",
             "icon": "fire",
-            "row_content": "<p>Golf gear doesn't have to be boring. We've focused on creating products with vibrant colors, captivating designs, and a modern, sleek style guaranteed to turn heads on the course.<\/p>",
+            "row_content": "<p>Golf gear doesn't have to be boring. We've focused on creating products with vibrant colors, captivating designs, and a modern, sleek style guaranteed to turn heads on the course.</p>",
             "page": ""
           }
         },
@@ -301,7 +301,7 @@
           "settings": {
             "heading": "Push The Envelop",
             "icon": "lightning_bolt",
-            "row_content": "<p>Innovation fuels us. We're constantly exploring new frontiers in golf technology to give you a competitive edge. When you choose a Pinned product, you're investing in the latest and greatest the industry has to offer.<\/p>",
+            "row_content": "<p>Innovation fuels us. We're constantly exploring new frontiers in golf technology to give you a competitive edge. When you choose a Pinned product, you're investing in the latest and greatest the industry has to offer.</p>",
             "page": ""
           }
         },
@@ -310,7 +310,7 @@
           "settings": {
             "heading": "Stand The Test Of Time",
             "icon": "stopwatch",
-            "row_content": "<p>We're committed to durability and longevity. Pinned products are crafted with the toughest materials and rigorous testing to withstand any battle they face on the course. This ensures they're on the course with you round after round, season after season.<\/p>",
+            "row_content": "<p>We're committed to durability and longevity. Pinned products are crafted with the toughest materials and rigorous testing to withstand any battle they face on the course. This ensures they're on the course with you round after round, season after season.</p>",
             "page": ""
           }
         }
@@ -349,7 +349,7 @@
         "paragraph_63UtRm": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be first in line for new products, special deals, & free stuff! <\/p>"
+            "text": "<p>Be first in line for new products, special deals, & free stuff! </p>"
           }
         },
         "email_form_GjbXrG": {
@@ -392,7 +392,7 @@
         "column_8HHEgC": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/imagea_4.png",
+            "image": "shopify://shop_images/imagea_4.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -402,7 +402,7 @@
         "column_nCExPq": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_3.png",
+            "image": "shopify://shop_images/image_3.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -412,7 +412,7 @@
         "column_J7VWEM": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_q1.png",
+            "image": "shopify://shop_images/image_q1.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -422,7 +422,7 @@
         "column_CD89k7": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_5.png",
+            "image": "shopify://shop_images/image_5.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -432,7 +432,7 @@
         "column_cf6VBT": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2q0.png",
+            "image": "shopify://shop_images/2q0.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -442,7 +442,7 @@
         "column_z3bfp9": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_156.png",
+            "image": "shopify://shop_images/image_156.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -452,7 +452,7 @@
         "column_RbD6Ga": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/a.png",
+            "image": "shopify://shop_images/a.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -462,7 +462,7 @@
         "column_733czn": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_157.png",
+            "image": "shopify://shop_images/image_157.png",
             "title": "",
             "text": "",
             "link_label": "",
