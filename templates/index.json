@@ -15,22 +15,22 @@
         "heading_dyjLPQ": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Buy One Sound Stick, Get One Free</strong>",
+            "heading": "",
             "heading_size": "h1"
           }
         },
         "text_rCpYbD": {
           "type": "text",
           "settings": {
-            "text": "Flash Sale Extended",
+            "text": "Only 250 Made!",
             "text_style": "caption-with-letter-spacing"
           }
         },
         "buttons_EJHyeW": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop BOGO",
-            "button_link_1": "shopify://products/bogo-sound-sticks",
+            "button_label_1": "Shop Camo Collection",
+            "button_link_1": "shopify://collections/camo-collection",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -50,7 +50,7 @@
         "h2,p {text-shadow: 0 2px 8px #000;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Frame_6z169.jpg",
+        "image": "shopify://shop_images/Frame_6161.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
