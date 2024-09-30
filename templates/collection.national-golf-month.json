@@ -12,7 +12,7 @@
     "image_banner_Rmjip3": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/970x250_1300_x_600_px_2600_x_1200_px_2600_x_750_px.jpg",
+        "image": "shopify://shop_images/9_4ab9be46-da4c-4027-848c-e615f9a37888.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "bottom-center",
