@@ -34,7 +34,7 @@
         "h2,p {text-shadow: 0 2px 8px #000;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/A_portion_of_every_pink_item_purchased_this_October_will_go_to_the_National_Breast_Cancer_Foundation_Inc._3000_x_2300_px_2500_x_2000_px_3500_x_2000_px_1.jpg",
+        "image": "shopify://shop_images/A_portion_of_every_pink_item_purchased_this_October_will_go_to_the_National_Breast_Cancer_Foundation_Inc._3000_x_2300_px_2500_x_2000_px_3500_x_2000_px.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
