@@ -12,25 +12,11 @@
     "image_banner_iWr6ta": {
       "type": "image-banner",
       "blocks": {
-        "heading_dyjLPQ": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "text_rCpYbD": {
-          "type": "text",
-          "settings": {
-            "text": "Only 250 Made!",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
         "buttons_EJHyeW": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Camo Collection",
-            "button_link_1": "shopify://collections/camo-collection",
+            "button_label_1": "Shop Collection",
+            "button_link_1": "shopify://collections/breast-cancer-awareness-month",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -39,8 +25,6 @@
         }
       },
       "block_order": [
-        "heading_dyjLPQ",
-        "text_rCpYbD",
         "buttons_EJHyeW"
       ],
       "custom_css": [
@@ -50,7 +34,7 @@
         "h2,p {text-shadow: 0 2px 8px #000;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Frame_6161.jpg",
+        "image": "shopify://shop_images/A_portion_of_every_pink_item_purchased_this_October_will_go_to_the_National_Breast_Cancer_Foundation_Inc._3000_x_2300_px.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
