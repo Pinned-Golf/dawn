@@ -15,7 +15,7 @@
         "buttons_EJHyeW": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Collection",
+            "button_label_1": "Shop Pink RIbbon Collection",
             "button_link_1": "shopify://collections/breast-cancer-awareness-month",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -34,7 +34,7 @@
         "h2,p {text-shadow: 0 2px 8px #000;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/A_portion_of_every_pink_item_purchased_this_October_will_go_to_the_National_Breast_Cancer_Foundation_Inc._3000_x_2300_px.png",
+        "image": "shopify://shop_images/A_portion_of_every_pink_item_purchased_this_October_will_go_to_the_National_Breast_Cancer_Foundation_Inc._3000_x_2300_px_1.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
