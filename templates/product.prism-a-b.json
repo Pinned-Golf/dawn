@@ -1,0 +1,540 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "judge_me_reviews_preview_badge_tAHRwe": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "text_8pA7Hq": {
+          "type": "text",
+          "settings": {
+            "text": "Our products are trusted by 100,000+ golfers.",
+            "text_style": "uppercase"
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "swatch",
+            "swatch_shape": "square"
+          }
+        },
+        "quantity_selector_a4gife": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "icon_with_text_UWmnYD": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "none",
+            "image_1": "shopify://shop_images/1_f566ca30-628a-4dec-9858-da70ead17dd2.jpg",
+            "heading_1": "Free Shipping",
+            "icon_2": "none",
+            "image_2": "shopify://shop_images/2_c0b7a380-c7d2-4ff6-8e2b-0fe2df48f4de.jpg",
+            "heading_2": "60 Day Returns",
+            "icon_3": "none",
+            "image_3": "shopify://shop_images/5_d31e8e02-3601-4ba7-810d-96c7ca29ad75.jpg",
+            "heading_3": "Top Tier Support"
+          }
+        },
+        "collapsible_tab_LEjyQf": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "icon": "none",
+            "content": "<p>Orders are typically fulfilled and shipped Monday through Friday within <em><strong>24 hours of being placed</strong></em>.</p><p>We offer a few domestic and international shipping options based on your budget and how quickly you want to get dialed in!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_ydzdBh": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "The Pinned Promise",
+            "icon": "none",
+            "content": "<p>We don't release a product unless it hits on these 4 core values... </p><ol><li>Elevates your game</li><li>Styled to turn heads</li><li>Pushes the envelop</li><li>Stands the test of time</li></ol>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_preview_badge_tAHRwe",
+        "title",
+        "text_8pA7Hq",
+        "caption",
+        "price",
+        "variant_picker",
+        "quantity_selector_a4gife",
+        "buy_buttons",
+        "description",
+        "share",
+        "icon_with_text_UWmnYD",
+        "collapsible_tab_LEjyQf",
+        "collapsible_tab_ydzdBh"
+      ],
+      "custom_css": [
+        "span[data-selected-swatch-value] {font-weight: 600;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "show",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "image_banner_AgN8Rt": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Frame_46.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "multirow_DgY64M": {
+      "type": "multirow",
+      "blocks": {
+        "row_hqhrD3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/4_b8be9f7b-5cba-47c8-b708-2b708ff351db.jpg",
+            "caption": "65 Round",
+            "heading": "Rechargeable Battery",
+            "text": "<p>No more batteries. One 45 minute charge will have your Prism+ dialed in for 65 rounds. So long are the days of a dead battery on the course.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_dHXDxk": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Pinned_Prism_pink.2.jpg",
+            "caption": "Never before seen",
+            "heading": "First Target Acquisition",
+            "text": "<p>Distance to the flag every time. No more getting distances of the trees behind the flag. Be dialed in every single swing. </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_xyYV8h": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/1_18cd16d8-826c-4be2-80e2-884af2a08192.jpg",
+            "caption": "Super Strong",
+            "heading": "Built-In Magnet",
+            "text": "<p>Getting dialed in is always within reach. Sticking your Prism+ to the cart bar or a club will allow for easy and quick access. </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_i6JpJg": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/2_817d2819-89e8-4747-925e-afd44c993964.jpg",
+            "caption": "True playing distance",
+            "heading": "Slope Technology",
+            "text": "<p>Play the true playing distance every shot <em>(if you want to)</em>. We'll do the math for you regardless of your lie and tell you how far your next shot truly is <em>(if you want us to)</em>. Club up or down with confidence. Or turn the slope off with the slope switch to make your Prism+ completely USGA legal.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_6YCPxg": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/3_a07c938e-c130-4350-bc36-d46e2dce5643.jpg",
+            "caption": "Extremely",
+            "heading": "Easy To Use",
+            "text": "<p>Combining one click readings, first target acquisition on a 4K OLED screen, some are saying this is the easiest rangefinder to use regardless of your handicap.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_hqhrD3",
+        "row_dHXDxk",
+        "row_xyYV8h",
+        "row_i6JpJg",
+        "row_6YCPxg"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-1",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "image_banner_YTFPAp": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Compa9rison.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_QBCYNd": {
+      "type": "image-banner",
+      "blocks": {
+        "buttons_Eka9kf": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify://products/prismplus-rangefinder",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "buttons_Eka9kf"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/The_Prism_1080_x_720_px_1080_x_500_px_1500_x_750_px_1500_x_1600_px.gif",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_rk9B8n": {
+      "type": "rich-text",
+      "blocks": {
+        "button_JY4HTi": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Buy The Prism+",
+            "button_link": "shopify://products/prismplus-rangefinder",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_JY4HTi"
+      ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "collage_tcaNLP": {
+      "type": "collage",
+      "blocks": {
+        "image_tNhy4d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC00638.jpg"
+          }
+        },
+        "image_iyagxd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC00664.jpg"
+          }
+        },
+        "image_QJJyGn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/8_2ec95c76-15d6-47a9-b4dd-fcaa1745799e.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_tNhy4d",
+        "image_iyagxd",
+        "image_QJJyGn"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 16,
+        "padding_bottom": 8
+      }
+    },
+    "collage_BckdEg": {
+      "type": "collage",
+      "blocks": {
+        "image_cENgTq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_3000_x_2500_px.jpg"
+          }
+        },
+        "image_XbyAnh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_00a2e0e2-c596-4e5c-ac37-121b0e1b7d50.jpg"
+          }
+        },
+        "image_aPcjD7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_b83caeb4-fcd3-4f5e-9ed0-bbb07a8b6cb4.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_cENgTq",
+        "image_XbyAnh",
+        "image_aPcjD7"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 8,
+        "padding_bottom": 12
+      }
+    },
+    "image_with_text_EDRhQ4": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_C4xyht": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Fore The Kids.</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_eYc9Ny": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It's simple.</p><p>Send us any rangefinder.</p><p>The brand does not matter.</p><p>We’ll refurbish & clean it up.</p><p>We’ll donate it to First Tee.</p><p>You’ll receive a huge discount. </p><p>The Prism+ for less than $200.</p><p><em>A win, win. </em></p>",
+            "text_style": "body"
+          }
+        },
+        "button_KzeyAE": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify://pages/forethekids",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_C4xyht",
+        "text_eYc9Ny",
+        "button_KzeyAE"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Frame_47e9.png",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-af529a53-b94b-40d0-9746-399d6ccf1927",
+        "color_scheme": "scheme-af529a53-b94b-40d0-9746-399d6ccf1927",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "171176697446b6f676": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_MqhpFj": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_MqhpFj"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "Trending",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "custom_liquid_PRJMPr": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<a id=\"scroll-to-top\" href=\"#\">Buy The Prism</a>\n<script>\n  document.getElementById('scroll-to-top').addEventListener('click', (evt) => {\n    evt.preventDefault();\n    evt.stopPropagation();\n    document.querySelector('form[data-type=\"add-to-cart-form\"]').scrollIntoView({ behavior: \"smooth\", block: \"end\", inline: \"nearest\" })\n  });\n</script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "featured_collection_Lcz8RN": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Trending",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "pinned-golf-shop",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_AgN8Rt",
+    "multirow_DgY64M",
+    "image_banner_YTFPAp",
+    "image_banner_QBCYNd",
+    "rich_text_rk9B8n",
+    "collage_tcaNLP",
+    "collage_BckdEg",
+    "image_with_text_EDRhQ4",
+    "171176697446b6f676",
+    "related-products",
+    "custom_liquid_PRJMPr",
+    "featured_collection_Lcz8RN"
+  ]
+}
