@@ -43,14 +43,6 @@
             "text_style": "subtitle"
           }
         },
-        "text_a7pip3": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<strong>NATIONAL GOLF MONTH SALE | </strong>FREE GIFT WITH EVERY PURCHASE",
-            "text_style": "uppercase"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -79,14 +71,6 @@
         "description": {
           "type": "description",
           "settings": {
-          }
-        },
-        "text_q4QtEN": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<strong>NOTE: USA PRISM+ WILL SHIP WEEK OF 8/19</strong>",
-            "text_style": "subtitle"
           }
         },
         "share": {
@@ -123,7 +107,7 @@
         "collapsible_tab_ULUXpP": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "What's in the box?",
+            "heading": "Included WIth Purchase",
             "icon": "none",
             "content": "<ul><li>Prism+ Rangefinder</li><li>FREE MagClose Hard Cover Case ($25 Value)</li><li>USB-C Charging Cord ($10 Value)</li><li>Pinned Ball Marker ($20 Value)</li><li>Pinned Sticker</li><li>Bag Clip Carabiner</li><li>Lens Cleaning Cloth</li><li>Instruction Manual</li><li>Device Registration Guide</li></ul>",
             "page": ""
@@ -154,13 +138,11 @@
         "title",
         "text_8pA7Hq",
         "caption",
-        "text_a7pip3",
         "price",
         "variant_picker",
         "quantity_selector_a4gife",
         "buy_buttons",
         "description",
-        "text_q4QtEN",
         "share",
         "icon_with_text_UWmnYD",
         "collapsible_tab_mFpMHC",
