@@ -118,7 +118,11 @@
   </div>
   {%- if show_badges -%}
     <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
-      {{ 'products.product.on_sale' | t }}
+      {%- if show_amount_off_in_badge -%}
+        {{ compare_at_price | minus: price | money }} Off
+      {%- else -%}
+        {{ 'products.product.on_sale' | t }}
+      {%- endif -%}
     </span>
 
     <span class="badge price__badge-sold-out color-{{ settings.sold_out_badge_color_scheme }}">
