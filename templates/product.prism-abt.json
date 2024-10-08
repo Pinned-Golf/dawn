@@ -11,6 +11,7 @@
   "sections": {
     "image_banner_JGVVrw": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Memorial_Day_Collection_5.png",
         "image_overlay_opacity": 0,
