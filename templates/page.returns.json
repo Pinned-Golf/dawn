@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -30,7 +30,7 @@
         "text_GND6Hx": {
           "type": "text",
           "settings": {
-            "text": "<p>Orders can be returned within 60 days from the date of delivery. To qualify for a refund, returned items must be in their original condition with no evidence of wear-and-tear. All accessories included in the original order must also be returned. (For example, our rangefinder comes with a hard cover case, lanyard, clip, ball marker, sticker, charging cord, etc.)<\/p><p>All returns are inspected once we receive them. <em>This process can take up to 5-7 business days<\/em>. For orders over $150, a $10 restocking fee will be deducted from your refund amount. For orders less than $150, a $7 restocking fee will be deducted from your refund amount. If your return does not pass inspection and additional amount will be deducted from your refund.<\/p><p>For orders placed through our website, please fill out the form below and a member of our team will reach out shortly. We will provide a return shipping label* and the cost of the label will be deducted from your refund when we receive your return.<\/p><p><em>*For international orders, you are responsible for shipping the returned item(s) back to us as we do not have the ability to generate international return labels.<\/em><\/p><p>Once we’ve inspected your returned item, your refund will be processed and returned to the card used for purchase. <em>This may take up to 5-7 business days.<\/em><\/p><p>To initiate a return please fill out the form at the bottom of this page.<\/p>"
+            "text": "<p>Orders can be returned within 60 days from the date of delivery. To qualify for a refund, returned items must be in their original condition with no evidence of wear-and-tear. All accessories included in the original order must also be returned. (For example, our rangefinder comes with a hard cover case, lanyard, clip, ball marker, sticker, charging cord, etc.)</p><p>All returns are inspected once we receive them. <em>This process can take up to 5-7 business days</em>. For orders over $150, a $10 restocking fee will be deducted from your refund amount. For orders less than $150, a $7 restocking fee will be deducted from your refund amount. If your return does not pass inspection and additional amount will be deducted from your refund.</p><p>For orders placed through our website, please fill out the form below and a member of our team will reach out shortly. We will provide a return shipping label* and the cost of the label will be deducted from your refund when we receive your return.</p><p><em>*For international orders, you are responsible for shipping the returned item(s) back to us as we do not have the ability to generate international return labels.</em></p><p>Once we’ve inspected your returned item, your refund will be processed and returned to the card used for purchase. <em>This may take up to 5-7 business days.</em></p><p>To initiate a return please fill out the form at the bottom of this page.</p>"
           }
         },
         "button_VJgRGP": {
@@ -72,7 +72,7 @@
         "text_EhbYrc": {
           "type": "text",
           "settings": {
-            "text": "<p>If you would like to exchange your product for a different color, you can exchange your order within 15 days from the date you receive your order.<\/p><p>To qualify for an exchange, returned items must be in their original working condition with no evidence of wear-and-tear and purchased on the Pinned Golf website. All accessories included in the original order must also be returned.  Return shipping cost will be incurred.   <\/p><p>All exchanges are inspected upon receipt. <em>This process may take 5-7 business days to complete.<\/em> If your returned product does not pass inspection, your exchange will be treated like a return.<\/p><p>To initiate an exchange, please fill out the form below.  An email will be sent with the shipping address.<\/p><p>Once your return is inspected and approved, your new item will be shipped.<\/p><p>To initiate an exchange please fill out the form at the bottom of this page.<\/p>"
+            "text": "<p>If you would like to exchange your product for a different color, you can exchange your order within 15 days from the date you receive your order.</p><p>To qualify for an exchange, returned items must be in their original working condition with no evidence of wear-and-tear and purchased on the Pinned Golf website. All accessories included in the original order must also be returned.  Return shipping cost will be incurred.   </p><p>All exchanges are inspected upon receipt. <em>This process may take 5-7 business days to complete.</em> If your returned product does not pass inspection, your exchange will be treated like a return.</p><p>To initiate an exchange, please fill out the form below.  An email will be sent with the shipping address.</p><p>Once your return is inspected and approved, your new item will be shipped.</p><p>To initiate an exchange please fill out the form at the bottom of this page.</p>"
           }
         },
         "button_P6FPXm": {
@@ -114,7 +114,7 @@
         "text_TRYGxF": {
           "type": "text",
           "settings": {
-            "text": "<p>If you purchased a Pinned Golf product from a retailer, please contact them directly for a return.<\/p>"
+            "text": "<p>If you purchased a Pinned Golf product from a retailer, please contact them directly for a return.</p>"
           }
         },
         "button_GPb7QR": {
@@ -156,7 +156,7 @@
         "text_zgUBYb": {
           "type": "text",
           "settings": {
-            "text": "<p>We offer a few domestic and international shipping options based on your budget and how badly you want to get dialed in.<\/p><p>Orders are typically fulfilled and shipped Monday through Friday within 24 hours of being placed. (Orders placed before 1 p.m. EST will be processed the same day. Orders placed after 1 p.m. EST will be processed the next business day.) <\/p><p>Our fulfillment centers are closed on weekends and all major U.S. holidays. Please keep this in mind when selecting your shipping option.<\/p><p>While we do our best to fulfill and ship your orders within 24 hours Monday through Friday, sometimes delays occur during shipping because of invalid shipping addresses, weather, technical difficulties or Customs. Please note the customer is responsible for any duty & taxes associated with their order.<br\/><br\/>If your package hasn’t arrived within the estimated timeframe, we suggest you do the following:<\/p><ul><li>Check the tracking information to see if it has been delivered. If it has been delivered and you didn’t receive it, check with your neighbors, family members, mailroom, etc. Sometimes deliveries are mistakenly delivered to a neighbor or buried in a mailroom.<\/li><li>Contact your local post office for additional information. UPS and FedEx sometimes partner with local postal service to make the final deliveries. In this case, your tracking information will indicate a transfer to the local post office.<\/li><li>Pinned Golf is not responsible for any lost or stolen packages. Please contact the carrier for more info and to file a claim.<\/li><\/ul>"
+            "text": "<p>We offer a few domestic and international shipping options based on your budget and how badly you want to get dialed in.</p><p>Orders are typically fulfilled and shipped Monday through Friday within 24 hours of being placed. (Orders placed before 1 p.m. EST will be processed the same day. Orders placed after 1 p.m. EST will be processed the next business day.) </p><p>Our fulfillment centers are closed on weekends and all major U.S. holidays. Please keep this in mind when selecting your shipping option.</p><p>While we do our best to fulfill and ship your orders within 24 hours Monday through Friday, sometimes delays occur during shipping because of invalid shipping addresses, weather, technical difficulties or Customs. Please note the customer is responsible for any duty & taxes associated with their order.</p><p>A $15 <em>shipping </em>surcharge on domestic orders applies to purchases <em>shipped </em>outside the contiguous United States:<em> Hawaii, Alaska, Puerto Rico, Guam, American Samoa, Micronesia, Marshall Islands, North Mariana Islands and Palau.</em><br/><br/>If your package hasn’t arrived within the estimated timeframe, we suggest you do the following:</p><ul><li>Check the tracking information to see if it has been delivered. If it has been delivered and you didn’t receive it, check with your neighbors, family members, mailroom, etc. Sometimes deliveries are mistakenly delivered to a neighbor or buried in a mailroom.</li><li>Contact your local post office for additional information. UPS and FedEx sometimes partner with local postal service to make the final deliveries. In this case, your tracking information will indicate a transfer to the local post office.</li><li>Pinned Golf is not responsible for any lost or stolen packages. Please contact the carrier for more info and to file a claim.</li></ul>"
           }
         },
         "button_6bghp3": {
@@ -188,7 +188,7 @@
     "custom_liquid_3xAKkg": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-Wt8iXk\"><\/div>",
+        "custom_liquid": "<div class=\"klaviyo-form-Wt8iXk\"></div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
