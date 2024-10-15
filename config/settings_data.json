@@ -1,17 +1,17 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Pinned_Logo_8.png",
+    "logo": "shopify://shop_images/Pinned_Logo_8.png",
     "logo_width": 50,
-    "favicon": "shopify:\/\/shop_images\/1_9f00bff9-bb5a-4e9b-abd0-9de3d4b47cc2.png",
+    "favicon": "shopify://shop_images/1_9f00bff9-bb5a-4e9b-abd0-9de3d4b47cc2.png",
     "type_header_font": "poppins_n6",
     "heading_scale": 105,
     "type_body_font": "poppins_n4",
@@ -29,13 +29,13 @@
     "buttons_shadow_horizontal_offset": 4,
     "buttons_shadow_vertical_offset": 4,
     "buttons_shadow_blur": 5,
-    "variant_pills_border_thickness": 1,
+    "variant_pills_border_thickness": 0,
     "variant_pills_border_opacity": 55,
     "variant_pills_radius": 40,
     "variant_pills_shadow_opacity": 0,
     "variant_pills_shadow_horizontal_offset": 0,
     "variant_pills_shadow_vertical_offset": 4,
-    "variant_pills_shadow_blur": 5,
+    "variant_pills_shadow_blur": 0,
     "inputs_border_thickness": 1,
     "inputs_border_opacity": 55,
     "inputs_radius": 0,
@@ -107,11 +107,11 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "scheme-5",
     "sold_out_badge_color_scheme": "scheme-3",
-    "brand_image": "shopify:\/\/shop_images\/1_9f00bff9-bb5a-4e9b-abd0-9de3d4b47cc2.png",
-    "social_facebook_link": "https:\/\/www.facebook.com\/pinnedgolf\/",
-    "social_instagram_link": "https:\/\/www.instagram.com\/pinnedgolf\/?hl=en",
+    "brand_image": "shopify://shop_images/1_9f00bff9-bb5a-4e9b-abd0-9de3d4b47cc2.png",
+    "social_facebook_link": "https://www.facebook.com/pinnedgolf/",
+    "social_instagram_link": "https://www.instagram.com/pinnedgolf/?hl=en",
     "social_youtube_link": "",
-    "social_tiktok_link": "https:\/\/www.tiktok.com\/@pinnedgolf?lang=en",
+    "social_tiktok_link": "https://www.tiktok.com/@pinnedgolf?lang=en",
     "social_twitter_link": "",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
@@ -125,7 +125,7 @@
     "show_vendor": false,
     "show_cart_note": true,
     "cart_drawer_collection": "upsells",
-    "checkout_logo_image": "shopify:\/\/shop_images\/1_9f00bff9-bb5a-4e9b-abd0-9de3d4b47cc2.png",
+    "checkout_logo_image": "shopify://shop_images/1_9f00bff9-bb5a-4e9b-abd0-9de3d4b47cc2.png",
     "checkout_accent_color": "#000000",
     "checkout_button_color": "#000000",
     "checkout_error_color": "#ff0000",
@@ -148,50 +148,50 @@
     ],
     "blocks": {
       "3667842014806057753": {
-        "type": "shopify:\/\/apps\/one-click-upsell-zipify-ocu\/blocks\/app-embed\/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
+        "type": "shopify://apps/one-click-upsell-zipify-ocu/blocks/app-embed/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
         "disabled": false,
         "settings": {
         }
       },
       "17676059084223943535": {
-        "type": "shopify:\/\/apps\/triplewhale\/blocks\/triple_pixel_snippet\/483d496b-3f1a-4609-aea7-8eee3b6b7a2a",
+        "type": "shopify://apps/triplewhale/blocks/triple_pixel_snippet/483d496b-3f1a-4609-aea7-8eee3b6b7a2a",
         "disabled": false,
         "settings": {
         }
       },
       "17368511000352060744": {
-        "type": "shopify:\/\/apps\/goaffpro-affiliate-marketing\/blocks\/goaffpro-embedded-pixel\/2f4d802b-86c2-47e4-8096-ae1aa3efbab2",
+        "type": "shopify://apps/goaffpro-affiliate-marketing/blocks/goaffpro-embedded-pixel/2f4d802b-86c2-47e4-8096-ae1aa3efbab2",
         "disabled": false,
         "settings": {
         }
       },
       "12120936241911852800": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/reviews_tab\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/reviews_tab/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": true,
         "settings": {
           "position": "right"
         }
       },
       "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {
         }
       },
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
         }
       },
       "11349500561483629931": {
-        "type": "shopify:\/\/apps\/notify-me-preorder\/blocks\/app-embed\/b399b727-6c85-44fc-9e21-63114bd72054",
+        "type": "shopify://apps/notify-me-preorder/blocks/app-embed/b399b727-6c85-44fc-9e21-63114bd72054",
         "disabled": false,
         "settings": {
         }
       },
       "6810535121229352664": {
-        "type": "shopify:\/\/apps\/monster-cart-upsell-free-gifts\/blocks\/app-embed\/a1b8e58a-bf1d-4e0f-8768-a387c3f643c0",
+        "type": "shopify://apps/monster-cart-upsell-free-gifts/blocks/app-embed/a1b8e58a-bf1d-4e0f-8768-a387c3f643c0",
         "disabled": false,
         "settings": {
           "markets_rounding": false,
@@ -207,11 +207,11 @@
           "stop_shopify_rate": false,
           "dev_mode": false,
           "beta_version": false,
-          "custom_code": "<script>\n  let pathname = window.location.pathname;\n  if(pathname.includes('\/cart') && !pathname.includes('products') && !pathname.includes('pages')) {\n    window.location.href = '\/#cart'\n  }\n<\/script>"
+          "custom_code": "<script>\n  let pathname = window.location.pathname;\n  if(pathname.includes('/cart') && !pathname.includes('products') && !pathname.includes('pages')) {\n    window.location.href = '/#cart'\n  }\n</script>"
         }
       },
       "17824471530847535147": {
-        "type": "shopify:\/\/apps\/web-accessibility-by-accessibe\/blocks\/accessiBe\/149b77a2-0170-42f6-9355-0bef39587b09",
+        "type": "shopify://apps/web-accessibility-by-accessibe/blocks/accessiBe/149b77a2-0170-42f6-9355-0bef39587b09",
         "disabled": false,
         "settings": {
         }
