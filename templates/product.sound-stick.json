@@ -1,19 +1,19 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-product",
       "blocks": {
         "judge_me_reviews_preview_badge_tAHRwe": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
@@ -45,7 +45,7 @@
           "type": "variant_picker",
           "settings": {
             "picker_type": "swatch",
-            "swatch_shape": "square"
+            "swatch_shape": "circle"
           }
         },
         "quantity_selector_a4gife": {
@@ -70,13 +70,13 @@
           "settings": {
             "layout": "horizontal",
             "icon_1": "none",
-            "image_1": "shopify:\/\/shop_images\/1_f566ca30-628a-4dec-9858-da70ead17dd2.jpg",
+            "image_1": "shopify://shop_images/1_f566ca30-628a-4dec-9858-da70ead17dd2.jpg",
             "heading_1": "Free Shipping",
             "icon_2": "none",
-            "image_2": "shopify:\/\/shop_images\/2_c0b7a380-c7d2-4ff6-8e2b-0fe2df48f4de.jpg",
+            "image_2": "shopify://shop_images/2_c0b7a380-c7d2-4ff6-8e2b-0fe2df48f4de.jpg",
             "heading_2": "60 Day Returns",
             "icon_3": "none",
-            "image_3": "shopify:\/\/shop_images\/5_d31e8e02-3601-4ba7-810d-96c7ca29ad75.jpg",
+            "image_3": "shopify://shop_images/5_d31e8e02-3601-4ba7-810d-96c7ca29ad75.jpg",
             "heading_3": "Top Tier Support"
           }
         },
@@ -94,7 +94,7 @@
           "settings": {
             "heading": "What's in the box?",
             "icon": "none",
-            "content": "<ul><li>Sound Stick Speaker<\/li><li>USB-C Charging Cord<\/li><li>Pinned Sticker<\/li><li>Instruction Manual<\/li><li>Device Registration Guide<\/li><li>Pinned Playlist QR Code<\/li><\/ul>",
+            "content": "<ul><li>Sound Stick Speaker</li><li>USB-C Charging Cord</li><li>Pinned Sticker</li><li>Instruction Manual</li><li>Device Registration Guide</li><li>Pinned Playlist QR Code</li></ul>",
             "page": ""
           }
         },
@@ -103,7 +103,7 @@
           "settings": {
             "heading": "Shipping",
             "icon": "none",
-            "content": "<p>Orders are typically fulfilled and shipped Monday through Friday within <em><strong>24 hours of being placed<\/strong><\/em>.<\/p><p>We offer a few domestic and international shipping options based on your budget and how quickly you want to get dialed in!<\/p>",
+            "content": "<p>Orders are typically fulfilled and shipped Monday through Friday within <em><strong>24 hours of being placed</strong></em>.</p><p>We offer a few domestic and international shipping options based on your budget and how quickly you want to get dialed in!</p>",
             "page": ""
           }
         },
@@ -112,7 +112,7 @@
           "settings": {
             "heading": "The Pinned Promise",
             "icon": "none",
-            "content": "<p>We don't release a product unless it hits on these 4 core values... <\/p><ol><li>Elevates your game<\/li><li>Styled to turn heads<\/li><li>Pushes the envelop<\/li><li>Stands the test of time<\/li><\/ol>",
+            "content": "<p>We don't release a product unless it hits on these 4 core values... </p><ol><li>Elevates your game</li><li>Styled to turn heads</li><li>Pushes the envelop</li><li>Stands the test of time</li></ol>",
             "page": ""
           }
         }
@@ -134,7 +134,7 @@
         "collapsible_tab_ydzdBh"
       ],
       "custom_css": [
-        ".swatch {aspect-ratio: 1 \/ 1;}",
+        ".swatch {aspect-ratio: 1 / 1;}",
         "span[data-selected-swatch-value] {font-weight: 600;}"
       ],
       "settings": {
@@ -156,7 +156,7 @@
     "image_banner_AgN8Rt": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_46.jpg",
+        "image": "shopify://shop_images/Frame_46.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -175,10 +175,10 @@
         "row_xyYV8h": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Sound_Stick_Launch_3.jpg",
+            "image": "shopify://shop_images/Sound_Stick_Launch_3.jpg",
             "caption": "Super Strong",
             "heading": "Built-In Magnet",
-            "text": "<p>Easily attach your Sound Stick to the cart bar for easy access to turn up the volume on your round!<\/p>",
+            "text": "<p>Easily attach your Sound Stick to the cart bar for easy access to turn up the volume on your round!</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -186,10 +186,10 @@
         "row_dHXDxk": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_soud_stick_-_1.png",
+            "image": "shopify://shop_images/Instagram_soud_stick_-_1.png",
             "caption": "Connect",
             "heading": "Two Speakers",
-            "text": "<p>Party mode or surround sound... your choice! Connect two Sound Sticks and turn up the vibes during your round.<\/p>",
+            "text": "<p>Party mode or surround sound... your choice! Connect two Sound Sticks and turn up the vibes during your round.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -198,10 +198,10 @@
           "type": "row",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Sound_Stick_Launch_9.png",
+            "image": "shopify://shop_images/Sound_Stick_Launch_9.png",
             "caption": "150 Foot",
             "heading": "Connection Range",
-            "text": "<p>You'll never be out of bounds with the super far 150 range of our Sound Sticks. Jam out on the fairway, on the green, or in the woods! <\/p>",
+            "text": "<p>You'll never be out of bounds with the super far 150 range of our Sound Sticks. Jam out on the fairway, on the green, or in the woods! </p>",
             "button_label": "",
             "button_link": ""
           }
@@ -209,10 +209,10 @@
         "row_hqhrD3": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Sound_Stick_Launch_7.png",
+            "image": "shopify://shop_images/Sound_Stick_Launch_7.png",
             "caption": "15+ Hour",
             "heading": "Battery Life",
-            "text": "<p>The tunes never have to stop. Packed with an incredible 15+ hours of battery life, one charge will keep you jamming out for multiple rounds!<\/p>",
+            "text": "<p>The tunes never have to stop. Packed with an incredible 15+ hours of battery life, one charge will keep you jamming out for multiple rounds!</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -220,10 +220,10 @@
         "row_6YCPxg": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Sound_Stick_Launch_8.png",
+            "image": "shopify://shop_images/Sound_Stick_Launch_8.png",
             "caption": "Unmatched",
             "heading": "Sound Quality",
-            "text": "<p>Crystal clear sound quality all round long. The dual driver bass system will have the vibes at an all time high.<\/p>",
+            "text": "<p>Crystal clear sound quality all round long. The dual driver bass system will have the vibes at an all time high.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -256,7 +256,7 @@
       "type": "image-banner",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/kko_25c00ce4-e6ee-4321-aceb-33e28132bfa3.jpg",
+        "image": "shopify://shop_images/kko_25c00ce4-e6ee-4321-aceb-33e28132bfa3.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "bottom-center",
@@ -275,7 +275,7 @@
         "heading_xJ6wMB": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Better Music. Better Vibes. Better Golf.<\/strong>",
+            "heading": "<strong>Better Music. Better Vibes. Better Golf.</strong>",
             "heading_size": "h0"
           }
         },
@@ -283,7 +283,7 @@
           "type": "button",
           "settings": {
             "button_label": "Buy The Sound Stick",
-            "button_link": "shopify:\/\/products\/sound-stick-speaker-presale",
+            "button_link": "shopify://products/sound-stick-speaker-presale",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -313,19 +313,19 @@
         "image_tNhy4d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC00638.jpg"
+            "image": "shopify://shop_images/DSC00638.jpg"
           }
         },
         "image_iyagxd": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC09417_1.jpg"
+            "image": "shopify://shop_images/DSC09417_1.jpg"
           }
         },
         "image_QJJyGn": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Sound_Stick_Launch_1.jpg"
+            "image": "shopify://shop_images/Sound_Stick_Launch_1.jpg"
           }
         }
       },
@@ -351,19 +351,19 @@
         "image_cENgTq": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Sound_Stick_Launch_2.jpg"
+            "image": "shopify://shop_images/Sound_Stick_Launch_2.jpg"
           }
         },
         "image_XbyAnh": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Sound_Stick_Launch_3.png"
+            "image": "shopify://shop_images/Sound_Stick_Launch_3.png"
           }
         },
         "image_aPcjD7": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Sound_Stick_Launch_1.png"
+            "image": "shopify://shop_images/Sound_Stick_Launch_1.png"
           }
         }
       },
@@ -389,8 +389,8 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": true,
-        "video": "shopify:\/\/files\/videos\/Untitled design (2).mp4",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video": "shopify://files/videos/Untitled design (2).mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "",
@@ -404,14 +404,14 @@
         "heading_C4xyht": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>It’s simple.<\/strong>",
+            "heading": "<strong>It’s simple.</strong>",
             "heading_size": "h2"
           }
         },
         "text_eYc9Ny": {
           "type": "text",
           "settings": {
-            "text": "<p>Send us any rangefinder.<\/p><p>The brand does not matter.<\/p><p>We’ll refurbish & clean it up.<\/p><p>We’ll donate it to First Tee.<\/p><p>You’ll receive a massive discount. <\/p><p>The Prism+ Rangefinder for $199.<\/p><p><em>A win, win. <\/em><\/p>",
+            "text": "<p>Send us any rangefinder.</p><p>The brand does not matter.</p><p>We’ll refurbish & clean it up.</p><p>We’ll donate it to First Tee.</p><p>You’ll receive a massive discount. </p><p>The Prism+ Rangefinder for $199.</p><p><em>A win, win. </em></p>",
             "text_style": "body"
           }
         },
@@ -419,7 +419,7 @@
           "type": "button",
           "settings": {
             "button_label": "Learn More",
-            "button_link": "shopify:\/\/pages\/forethekids",
+            "button_link": "shopify://pages/forethekids",
             "button_style_secondary": true
           }
         }
@@ -431,7 +431,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Fore_The_Kids_Final_nobackground_2_2.png",
+        "image": "shopify://shop_images/Fore_The_Kids_Final_nobackground_2_2.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -454,7 +454,7 @@
           "settings": {
             "heading": "Does it read you yardages?",
             "icon": "check_mark",
-            "row_content": "<p>No. The Sound Stick is strictly a speaker that plays music. No need to complicate things.<\/p>",
+            "row_content": "<p>No. The Sound Stick is strictly a speaker that plays music. No need to complicate things.</p>",
             "page": ""
           }
         },
@@ -463,7 +463,7 @@
           "settings": {
             "heading": "How does it sound?",
             "icon": "check_mark",
-            "row_content": "<p>Amazing. Simply put. <\/p>",
+            "row_content": "<p>Amazing. Simply put. </p>",
             "page": ""
           }
         },
@@ -472,7 +472,7 @@
           "settings": {
             "heading": "How strong is the magnet?",
             "icon": "check_mark",
-            "row_content": "<p>The magnet has been tested by numerous 3rd party partners and never fell off the cart regardless of the landscape.<\/p>",
+            "row_content": "<p>The magnet has been tested by numerous 3rd party partners and never fell off the cart regardless of the landscape.</p>",
             "page": ""
           }
         },
@@ -481,7 +481,7 @@
           "settings": {
             "heading": "Is it only for golf?",
             "icon": "check_mark",
-            "row_content": "<p>No! We have a number of customers who bring their Sound Stick on the boat, to the beach, in the pool and so many others activities off the course.<\/p>",
+            "row_content": "<p>No! We have a number of customers who bring their Sound Stick on the boat, to the beach, in the pool and so many others activities off the course.</p>",
             "page": ""
           }
         }
@@ -511,7 +511,7 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_review_widget_MqhpFj": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
@@ -546,7 +546,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<a id=\"scroll-to-top\" href=\"#\">Buy The Prism<\/a>\n<script>\n  document.getElementById('scroll-to-top').addEventListener('click', (evt) => {\n    evt.preventDefault();\n    evt.stopPropagation();\n    document.querySelector('form[data-type=\"add-to-cart-form\"]').scrollIntoView({ behavior: \"smooth\", block: \"end\", inline: \"nearest\" })\n  });\n<\/script>",
+        "custom_liquid": "<a id=\"scroll-to-top\" href=\"#\">Buy The Prism</a>\n<script>\n  document.getElementById('scroll-to-top').addEventListener('click', (evt) => {\n    evt.preventDefault();\n    evt.stopPropagation();\n    document.querySelector('form[data-type=\"add-to-cart-form\"]').scrollIntoView({ behavior: \"smooth\", block: \"end\", inline: \"nearest\" })\n  });\n</script>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
