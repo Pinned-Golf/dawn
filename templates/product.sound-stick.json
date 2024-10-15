@@ -146,7 +146,7 @@
         "gallery_layout": "columns",
         "media_position": "left",
         "image_zoom": "none",
-        "mobile_thumbnails": "columns",
+        "mobile_thumbnails": "hide",
         "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 36,
