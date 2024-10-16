@@ -545,7 +545,7 @@
           "settings": {
             "image": "shopify://shop_images/oliviamitchell.webp",
             "title": "Olivia Mitchell",
-            "text": "<p>I absolutely love my Pinned Rangefinder. I used it all throughout school.</p>",
+            "text": "<p><em><strong>2023 NCAA Champion</strong></em></p><p>I absolutely love my Pinned Rangefinder. I used it all throughout school.</p>",
             "link_label": "",
             "link": ""
           }
@@ -555,7 +555,7 @@
           "settings": {
             "image": "shopify://shop_images/Instagrampost-32.png",
             "title": "Alec Lorenzo",
-            "text": "",
+            "text": "<p>I get dialed in so much i can't believe it.</p>",
             "link_label": "",
             "link": ""
           }
