@@ -212,6 +212,7 @@
         },
         "row_xyYV8h": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Untitleddesign-2023-09-11T135345.329_37f45015-9c24-4a82-8c0e-de2733c035fc.png",
             "caption": "Long Lasting",
