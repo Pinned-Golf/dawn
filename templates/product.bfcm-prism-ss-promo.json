@@ -535,7 +535,7 @@
           "settings": {
             "image": "shopify://shop_images/Michael_Breed_1000_x_800_px_1080_x_1080_px.jpg",
             "title": "Michael Breed",
-            "text": "<p><em><strong>PGA Teacher Of  Year </strong></em><em><br/>\"Pinned Rangefinders are by go to rangefinder and it's not even close. I </em></p>",
+            "text": "<p><em><strong>PGA Teacher Of  Year </strong></em><em><br/>\"Pinned Rangefinders are by go to rangefinder and it's not even close. I 've been using them for years and couldn't be happier.</em></p>",
             "link_label": "",
             "link": ""
           }
@@ -544,8 +544,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/oliviamitchell.webp",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Olivia Mitchell",
+            "text": "<p>I absolutely love my Pinned Rangefinder. I used it all throughout school.</p>",
             "link_label": "",
             "link": ""
           }
@@ -554,17 +554,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Instagrampost-32.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_U67KB6": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Alec Lorenzo",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -573,8 +564,7 @@
       "block_order": [
         "column_khaUAm",
         "column_Ty8qTc",
-        "column_NaA3DW",
-        "column_U67KB6"
+        "column_NaA3DW"
       ],
       "settings": {
         "title": "<strong>Trusted </strong>",
