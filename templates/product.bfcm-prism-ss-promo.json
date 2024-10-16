@@ -193,7 +193,7 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/Pinned_Prism_navy.11.jpg",
-            "caption": "Brand New",
+            "caption": "Get Dialed in with the",
             "heading": "Prism+ Rangefinder",
             "text": "<p>Our brand new laser rangefinder ia packed with new cutting edge software, a dialed in performance aesthetic and never before seen features. The Prism+ is a stylish testament to our commitment to innovation and making the game of golf more fun. </p>",
             "button_label": "",
@@ -204,7 +204,7 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/Untitled_design_16_c903dea4-78d6-40df-8dda-702403922615.jpg",
-            "caption": "Brand New",
+            "caption": "Turn up the vibes with",
             "heading": "Sound Stick Speaker",
             "text": "<p>Turn your golf experience up a notch with The Sound Stick! The perfect speaker for golf lovers looking to unleash their inner DJ out on the course. The Sound Stick comes in 6 different colors, has a built-in magnet and a battery that lasts 15+ hours! Better Music. Better Vibes. Better Golf.</p>",
             "button_label": "",
@@ -390,7 +390,6 @@
         "image_XbyAnh",
         "image_aPcjD7"
       ],
-      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
