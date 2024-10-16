@@ -20,8 +20,13 @@
         "text_t9HXeJ": {
           "type": "text",
           "settings": {
-            "text": "<strong>Early Access Black Friday Special | </strong>Free Sound Stick Speaker For First 1,000 Customers.",
+            "text": "<strong>Early Access Black Friday Special </strong>Free Sound Stick Speaker For First 1,000 Customers.",
             "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
           }
         },
         "text_8pA7Hq": {
@@ -29,11 +34,6 @@
           "settings": {
             "text": "<strong>Free</strong> Sound Stick Speaker For First 1,000 Customers.",
             "text_style": "uppercase"
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
           }
         },
         "caption": {
@@ -136,8 +136,8 @@
       "block_order": [
         "judge_me_reviews_preview_badge_tAHRwe",
         "text_t9HXeJ",
-        "text_8pA7Hq",
         "title",
+        "text_8pA7Hq",
         "caption",
         "price",
         "variant_picker",
