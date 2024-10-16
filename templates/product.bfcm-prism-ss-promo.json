@@ -83,7 +83,7 @@
         "icon_with_text_UWmnYD": {
           "type": "icon-with-text",
           "settings": {
-            "layout": "horizontal",
+            "layout": "vertical",
             "icon_1": "none",
             "image_1": "shopify://shop_images/1_f566ca30-628a-4dec-9858-da70ead17dd2.jpg",
             "heading_1": "Free Shipping",
