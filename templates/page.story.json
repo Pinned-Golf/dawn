@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "multirow_qpAPhg": {
@@ -6,10 +15,10 @@
         "row_n4RM87": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_7886.jpg",
+            "image": "shopify://shop_images/IMG_9165.heic",
             "caption": "Our",
             "heading": "Story",
-            "text": "<p>We were three recent college grads who loved golf but couldn't understand why the game was so expensive and stuffy. When we realized that most golf technology was dull and expensive, we knew they had to change the vibe. So, we started Pinned to have better vibes and lower scores out on the course.<\/p>",
+            "text": "<p>We were three recent college grads who loved golf but couldn't understand why the game was so expensive and stuffy. When we realized that most golf technology was dull and expensive, we knew they had to change the vibe. So, we started Pinned to have better vibes and lower scores out on the course.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -17,10 +26,10 @@
         "row_9cTqLC": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Pinned6303.jpg",
+            "image": "shopify://shop_images/Pinned6303.jpg",
             "caption": "Our",
             "heading": "Why",
-            "text": "<p>We believe that life should be fun, and golf should be no different. Our mission is simple: to make golf more enjoyable by helping you play better. When you're having fun out on the course, it's not just your game that gets a boost – it's your whole life! When you're buying Pinned, you're choosing to make every swing, every round, and every moment on the course an absolute blast!<\/p>",
+            "text": "<p>We believe that life should be fun, and golf should be no different. Our mission is simple: to make golf more enjoyable by helping you play better. When you're having fun out on the course, it's not just your game that gets a boost – it's your whole life! When you're buying Pinned, you're choosing to make every swing, every round, and every moment on the course an absolute blast!</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -28,10 +37,10 @@
         "row_gkHVYr": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Heading_1.jpg",
+            "image": "shopify://shop_images/Heading_1.jpg",
             "caption": "Our",
             "heading": "Strategy",
-            "text": "<p>As golfers ourselves, our experiences on the course inspire everything we create. We launched this company because we've been there - losing a bet and paying for lunch because you guessed the wrong distance on that par 3,  wanting a QUALITY rangefinder without breaking the bank, and recognizing that those 18 holes are a hell of a lot more fun when the music is cranking and the cooler is stocked. That's why we've created products that are designed to make every golfer's experience better.<\/p>",
+            "text": "<p>As golfers ourselves, our experiences on the course inspire everything we create. We launched this company because we've been there - losing a bet and paying for lunch because you guessed the wrong distance on that par 3,  wanting a QUALITY rangefinder without breaking the bank, and recognizing that those 18 holes are a hell of a lot more fun when the music is cranking and the cooler is stocked. That's why we've created products that are designed to make every golfer's experience better.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -39,10 +48,10 @@
         "row_MKxY43": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_21.png",
+            "image": "shopify://shop_images/Untitled_design_21.png",
             "caption": "Our",
             "heading": "Products",
-            "text": "<p>We won’t release a product unless it hits the mark on all 4 of our core value drivers.<\/p><ol><li><strong>Elevate the game of EVERY Golfer: <\/strong>Whether you’re an avid golf addict or just getting started, our products aim to impress. They're accurate, user-friendly, and packed with top-of-the-line features.<\/li><li><strong>Style that Turns Heads:<\/strong> Golf gear doesn't have to be boring. We've focused on creating products with vibrant colors, captivating designs, and a modern, sleek style guaranteed to turn heads on the course.<\/li><li><strong> Push the Envelope: <\/strong>Innovation fuels us. We're constantly exploring new frontiers in golf technology to give you a competitive edge. When you choose a Pinned product, you're investing in the latest and greatest the industry has to offer.<\/li><li><strong>Stand the Test of Time: <\/strong>We're committed to durability and longevity. Pinned products are crafted with the toughest materials and rigorous testing to withstand any battle on they face on the course. This ensures they're on the course with you round after round, season after season.<\/li><\/ol>",
+            "text": "<p>We won’t release a product unless it hits the mark on all 4 of our core value drivers.</p><ol><li><strong>Elevate the game of EVERY Golfer: </strong>Whether you’re an avid golf addict or just getting started, our products aim to impress. They're accurate, user-friendly, and packed with top-of-the-line features.</li><li><strong>Style that Turns Heads:</strong> Golf gear doesn't have to be boring. We've focused on creating products with vibrant colors, captivating designs, and a modern, sleek style guaranteed to turn heads on the course.</li><li><strong> Push the Envelope: </strong>Innovation fuels us. We're constantly exploring new frontiers in golf technology to give you a competitive edge. When you choose a Pinned product, you're investing in the latest and greatest the industry has to offer.</li><li><strong>Stand the Test of Time: </strong>We're committed to durability and longevity. Pinned products are crafted with the toughest materials and rigorous testing to withstand any battle on they face on the course. This ensures they're on the course with you round after round, season after season.</li></ol>",
             "button_label": "",
             "button_link": ""
           }
@@ -84,14 +93,14 @@
         "text_mL3Aeh": {
           "type": "text",
           "settings": {
-            "text": "<p>Join us in making golf more enjoyable and play your best. Explore our products and start elevating your game today!<\/p>"
+            "text": "<p>Join us in making golf more enjoyable and play your best. Explore our products and start elevating your game today!</p>"
           }
         },
         "button_giXKzN": {
           "type": "button",
           "settings": {
             "button_label": "Shop Best Sellers",
-            "button_link": "shopify:\/\/collections\/pinned-golf-shop",
+            "button_link": "shopify://collections/pinned-golf-shop",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -118,7 +127,7 @@
         "column_tGVJwE": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_5782ece4-9c02-4abb-ae81-27ddb4639313.png",
+            "image": "shopify://shop_images/3_5782ece4-9c02-4abb-ae81-27ddb4639313.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -128,7 +137,7 @@
         "column_tcJYJL": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_1e786210-32fd-40d7-b05f-b2415a90dc02.png",
+            "image": "shopify://shop_images/2_1e786210-32fd-40d7-b05f-b2415a90dc02.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -138,7 +147,7 @@
         "column_D8UQ3F": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_1e25c4b4-23f0-4db4-b9fc-9ad72eccfd1a.png",
+            "image": "shopify://shop_images/4_1e25c4b4-23f0-4db4-b9fc-9ad72eccfd1a.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -148,7 +157,7 @@
         "column_PRNpeT": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_72613178-2c2b-428e-8279-c02ea55a691e.png",
+            "image": "shopify://shop_images/1_72613178-2c2b-428e-8279-c02ea55a691e.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -158,7 +167,7 @@
         "column_KH8cKV": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_e292f192-0012-4124-8dcb-8974b127c9db.png",
+            "image": "shopify://shop_images/5_e292f192-0012-4124-8dcb-8974b127c9db.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -182,7 +191,7 @@
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "Shop 2024 Prism+ Rangefinder",
-        "button_link": "shopify:\/\/products\/prismplus-rangefinder",
+        "button_link": "shopify://products/prismplus-rangefinder",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
