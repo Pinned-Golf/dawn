@@ -19,6 +19,7 @@
         },
         "text_GjKwKK": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>Early Access Black Friday Special</strong>",
             "text_style": "uppercase"
