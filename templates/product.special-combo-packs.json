@@ -315,7 +315,7 @@
         "image_QJJyGn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/1080x1w080x3.jpg"
+            "image": "shopify://shop_images/PinnedGolf_June2024_CirilliPhoto-6805_1_eb1ea7e5-65bf-462a-a106-f754474ee99d.png"
           }
         }
       },
@@ -362,6 +362,7 @@
         "image_XbyAnh",
         "image_aPcjD7"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
