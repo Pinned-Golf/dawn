@@ -48,6 +48,7 @@
         },
         "announcement_qHNjyt": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Shop Early Access Black Friday Sale",
             "link": "shopify://collections/early-access-black-friday"
