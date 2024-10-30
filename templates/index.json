@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner_iWr6ta": {
@@ -481,6 +481,24 @@
         "padding_top": 36,
         "padding_bottom": 52
       }
+    },
+    "1730301771a79b1aa4": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_mVcaHd": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_mVcaHd"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -492,6 +510,7 @@
     "collapsible_content_rT76Q4",
     "newsletter_qzCyW7",
     "image_banner_QMgQCn",
-    "multicolumn_g7UQzM"
+    "multicolumn_g7UQzM",
+    "1730301771a79b1aa4"
   ]
 }
