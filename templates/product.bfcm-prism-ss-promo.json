@@ -718,22 +718,31 @@
     "image_with_text_LUEwYF": {
       "type": "image-with-text",
       "blocks": {
+        "caption_eLnRpP": {
+          "type": "caption",
+          "settings": {
+            "caption": "Never before seen",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "heading_V4jA3F": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "First Target Acquisition",
+            "heading_size": "h2"
           }
         },
         "text_CjaCTz": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Distance to the flag every time. No more getting distances of the tree behind the flag. Be dialed in every single shot.</p>",
             "text_style": "body"
           }
         }
       },
       "block_order": [
+        "caption_eLnRpP",
         "heading_V4jA3F",
         "text_CjaCTz"
       ],
@@ -755,22 +764,31 @@
     "image_with_text_ehcUCR": {
       "type": "image-with-text",
       "blocks": {
+        "caption_RYYW9f": {
+          "type": "caption",
+          "settings": {
+            "caption": "Super Strong",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "heading_4ztEYq": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "Built-In Magnet",
+            "heading_size": "h2"
           }
         },
         "text_Mx9jhQ": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Getting dialed in is always within reach. Sticking your Prism+ to the cart bar or a club will allow for easy and quick access.</p>",
             "text_style": "body"
           }
         }
       },
       "block_order": [
+        "caption_RYYW9f",
         "heading_4ztEYq",
         "text_Mx9jhQ"
       ],
@@ -778,6 +796,52 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_JQqbYW": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_4DBK8N": {
+          "type": "caption",
+          "settings": {
+            "caption": "True playing Distance",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_NCF7mt": {
+          "type": "heading",
+          "settings": {
+            "heading": "Slope Technology",
+            "heading_size": "h2"
+          }
+        },
+        "text_rXVFtf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Play the true playing distance every shot. We'll do the math for you regardless of your lie and tell you how far your next shot truly is. Club up or down with confidence.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_4DBK8N",
+        "heading_NCF7mt",
+        "text_rXVFtf"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -808,6 +872,7 @@
     "multicolumn_yJVCJc",
     "image_with_text_nmVmwG",
     "image_with_text_LUEwYF",
-    "image_with_text_ehcUCR"
+    "image_with_text_ehcUCR",
+    "image_with_text_JQqbYW"
   ]
 }
