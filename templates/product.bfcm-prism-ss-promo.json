@@ -559,87 +559,6 @@
         "padding_bottom": 12
       }
     },
-    "collapsible_content_3AyFLq": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_qdXMcJ": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Can you turn slope on and off?",
-            "icon": "check_mark",
-            "row_content": "<p>Yes, The Prism+ golf rangefinder comes with a slope switch that allows you to turn the slope on and off. This means that our golf rangefinder is completely tournament legal.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_EABUcy": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I know they're fully charged?",
-            "icon": "check_mark",
-            "row_content": "<p>One 45 minute charge when you receive it and you will be good for the entire season! When fully charged, the green light will be lit.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_4VXbwM": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Can I use any USB-C charger?",
-            "icon": "check_mark",
-            "row_content": "<p>Please use the USB-C charging cord that comes with your Prism+.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_yG8QjR": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I use my rangefinder?",
-            "icon": "check_mark",
-            "row_content": "<p>Please head over to our tutorial section to learn how to use your device.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_Nt36Ki": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Should I register my devices?",
-            "icon": "check_mark",
-            "row_content": "<p>You do not have to but it is strongly encouraged to register your device once you have received it.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_9UCtJm": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I use my Speaker?",
-            "icon": "check_mark",
-            "row_content": "<p>Please head over to our tutorial section to learn how to use your device.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_qdXMcJ",
-        "collapsible_row_EABUcy",
-        "collapsible_row_4VXbwM",
-        "collapsible_row_yG8QjR",
-        "collapsible_row_Nt36Ki",
-        "collapsible_row_9UCtJm"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Frequently Asked Questions",
-        "heading_size": "h2",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multirow_QTLczm": {
       "type": "multirow",
       "blocks": {
@@ -724,6 +643,87 @@
       ],
       "settings": {
         "include_margins": true
+      }
+    },
+    "collapsible_content_3AyFLq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_qdXMcJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can you turn slope on and off?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes, The Prism+ golf rangefinder comes with a slope switch that allows you to turn the slope on and off. This means that our golf rangefinder is completely tournament legal.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EABUcy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I know they're fully charged?",
+            "icon": "check_mark",
+            "row_content": "<p>One 45 minute charge when you receive it and you will be good for the entire season! When fully charged, the green light will be lit.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4VXbwM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I use any USB-C charger?",
+            "icon": "check_mark",
+            "row_content": "<p>Please use the USB-C charging cord that comes with your Prism+.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yG8QjR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I use my rangefinder?",
+            "icon": "check_mark",
+            "row_content": "<p>Please head over to our tutorial section to learn how to use your device.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Nt36Ki": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Should I register my devices?",
+            "icon": "check_mark",
+            "row_content": "<p>You do not have to but it is strongly encouraged to register your device once you have received it.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9UCtJm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I use my Speaker?",
+            "icon": "check_mark",
+            "row_content": "<p>Please head over to our tutorial section to learn how to use your device.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_qdXMcJ",
+        "collapsible_row_EABUcy",
+        "collapsible_row_4VXbwM",
+        "collapsible_row_yG8QjR",
+        "collapsible_row_Nt36Ki",
+        "collapsible_row_9UCtJm"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "related-products": {
@@ -825,9 +825,9 @@
     "rich_text_rk9B8n",
     "collage_tcaNLP",
     "collage_BckdEg",
-    "collapsible_content_3AyFLq",
     "multirow_QTLczm",
     "171176697446b6f676",
+    "collapsible_content_3AyFLq",
     "related-products",
     "custom_liquid_PRJMPr",
     "multicolumn_yJVCJc"
