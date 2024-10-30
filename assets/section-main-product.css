@@ -305,6 +305,11 @@ a.product__text {
   text-align: center;
 }
 
+.caption-tiny {
+  font-size: 0.875rem;
+}
+
+
 .product--no-media .product__media-wrapper,
 .product--no-media .product__info-wrapper {
   padding: 0;
