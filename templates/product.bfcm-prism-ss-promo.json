@@ -323,23 +323,6 @@
         "show_text_below": true
       }
     },
-    "image_banner_HkpbKA": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/The_Prism_1080_x_720_px_1080_x_500_px_1500_x_750_px_1500_x_1600_px_1.gif",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "rich_text_rk9B8n": {
       "type": "rich-text",
       "blocks": {
@@ -376,19 +359,19 @@
         "image_tNhy4d": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Sound_Stick_Launch_1.png"
+            "image": "shopify://shop_images/Untitled_design_19_bcd822d0-0b11-4cbd-ada0-3efff49f964b.jpg"
           }
         },
         "image_iyagxd": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Sound_Stick_Launch_2.jpg"
+            "image": "shopify://shop_images/1_76587910-63eb-4298-87f3-0b8ac6ff77f0.jpg"
           }
         },
         "image_QJJyGn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Sound_Stick_Launch_1.jpg"
+            "image": "shopify://shop_images/2_71ea40db-159e-4862-bd4c-54e33302ce14.jpg"
           }
         }
       },
@@ -443,6 +426,65 @@
         "card_styles": "none",
         "color_scheme": "",
         "padding_top": 8,
+        "padding_bottom": 12
+      }
+    },
+    "multirow_Bn3Lt9": {
+      "type": "multirow",
+      "blocks": {
+        "row_aAXdpq": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Pinned_Prism_navy.11.jpg",
+            "caption": "Get Dialed in with the",
+            "heading": "Prism+ Rangefinder",
+            "text": "<p>Our brand new laser rangefinder is packed with new cutting edge software, a dialed in performance aesthetic and never before seen features. The Prism+ is a stylish testament to our commitment to innovation and making the game of golf more fun. </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_qTRQEQ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Frame_6a6.jpg",
+            "caption": "Top Tier",
+            "heading": "Features",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_gbGUQM": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Untitleddesign-2023-09-11T135345.329_37f45015-9c24-4a82-8c0e-de2733c035fc.png",
+            "caption": "Long Lasting",
+            "heading": "Portable Charger",
+            "text": "<p>Never let either of your Caddie Combo+ products die out on the course. Toss this compact portable charger in your bag and never worry about a dead battery again! </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_aAXdpq",
+        "row_qTRQEQ",
+        "row_gbGUQM"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
         "padding_bottom": 12
       }
     },
@@ -626,6 +668,126 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_nmVmwG": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_ayJWwQ": {
+          "type": "caption",
+          "settings": {
+            "caption": "70 Round",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_qnXcm4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rechargable Battery",
+            "heading_size": "h2"
+          }
+        },
+        "text_KgwMfe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>No more batteries. One 45 minute charge will have your Prism+ dialed in for 70+ rounds. So long are the days of a dead battery on the course.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_ayJWwQ",
+        "heading_qnXcm4",
+        "text_KgwMfe"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_LUEwYF": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_V4jA3F": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_CjaCTz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_V4jA3F",
+        "text_CjaCTz"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_ehcUCR": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_4ztEYq": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_Mx9jhQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4ztEYq",
+        "text_Mx9jhQ"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -635,14 +797,17 @@
     "multirow_DgY64M",
     "image_banner_YTFPAp",
     "image_banner_H8xNth",
-    "image_banner_HkpbKA",
     "rich_text_rk9B8n",
     "collage_tcaNLP",
     "collage_BckdEg",
+    "multirow_Bn3Lt9",
     "collapsible_content_3AyFLq",
     "171176697446b6f676",
     "related-products",
     "custom_liquid_PRJMPr",
-    "multicolumn_yJVCJc"
+    "multicolumn_yJVCJc",
+    "image_with_text_nmVmwG",
+    "image_with_text_LUEwYF",
+    "image_with_text_ehcUCR"
   ]
 }
