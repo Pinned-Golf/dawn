@@ -94,8 +94,16 @@
             "show_gift_card_recipient": true
           }
         },
+        "text_wgmkd6": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Limited Time Only. Sell out risk is very high.</strong>",
+            "text_style": "uppercase"
+          }
+        },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
@@ -189,6 +197,7 @@
         "variant_picker",
         "quantity_selector_a4gife",
         "buy_buttons",
+        "text_wgmkd6",
         "description",
         "share",
         "icon_with_text_UWmnYD",
