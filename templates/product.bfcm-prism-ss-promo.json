@@ -947,6 +947,42 @@
         "padding_top": 12,
         "padding_bottom": 12
       }
+    },
+    "collage_FfGFC9": {
+      "type": "collage",
+      "blocks": {
+        "image_BVa636": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BFCM_Ads_1080x1080_3.jpg"
+          }
+        },
+        "image_RMmzrD": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "image_zT6Q7r": {
+          "type": "image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "image_BVa636",
+        "image_RMmzrD",
+        "image_zT6Q7r"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -970,6 +1006,7 @@
     "image_with_text_LUEwYF",
     "image_with_text_ehcUCR",
     "image_with_text_JQqbYW",
-    "multirow_t9LbC9"
+    "multirow_t9LbC9",
+    "collage_FfGFC9"
   ]
 }
