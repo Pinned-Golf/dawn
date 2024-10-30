@@ -96,8 +96,16 @@
         },
         "text_wgmkd6": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>Limited Time Only. Sell out risk is very high.</strong>",
+            "text_style": "uppercase"
+          }
+        },
+        "text_ATeUbW": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Ships for free in 1-2 Business days.</strong>",
             "text_style": "uppercase"
           }
         },
@@ -207,6 +215,7 @@
         "quantity_selector_a4gife",
         "buy_buttons",
         "text_wgmkd6",
+        "text_ATeUbW",
         "description",
         "share",
         "icon_with_text_UWmnYD",
