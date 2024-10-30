@@ -41,6 +41,11 @@
             "text_style": "uppercase"
           }
         },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
         "text_8pA7Hq": {
           "type": "text",
           "settings": {
@@ -48,21 +53,9 @@
             "text_style": "uppercase"
           }
         },
-        "title": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "text_Brm8gY": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<strong>Two gifts for the price of one.</strong>",
-            "text_style": "uppercase"
-          }
-        },
         "caption": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle"
@@ -205,9 +198,8 @@
       "block_order": [
         "judge_me_reviews_preview_badge_tAHRwe",
         "text_t9HXeJ",
-        "text_8pA7Hq",
         "title",
-        "text_Brm8gY",
+        "text_8pA7Hq",
         "caption",
         "price",
         "variant_picker",
