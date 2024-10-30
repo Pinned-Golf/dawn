@@ -213,7 +213,7 @@
         "mobile_thumbnails": "show",
         "hide_variants": false,
         "enable_video_looping": false,
-        "padding_top": 0,
+        "padding_top": 12,
         "padding_bottom": 12
       }
     },
@@ -559,65 +559,6 @@
         "padding_bottom": 12
       }
     },
-    "multirow_Bn3Lt9": {
-      "type": "multirow",
-      "blocks": {
-        "row_aAXdpq": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Pinned_Prism_navy.11.jpg",
-            "caption": "Get Dialed in with the",
-            "heading": "Prism+ Rangefinder",
-            "text": "<p>Our brand new laser rangefinder is packed with new cutting edge software, a dialed in performance aesthetic and never before seen features. The Prism+ is a stylish testament to our commitment to innovation and making the game of golf more fun. </p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_qTRQEQ": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Frame_6a6.jpg",
-            "caption": "Top Tier",
-            "heading": "Features",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_gbGUQM": {
-          "type": "row",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Untitleddesign-2023-09-11T135345.329_37f45015-9c24-4a82-8c0e-de2733c035fc.png",
-            "caption": "Long Lasting",
-            "heading": "Portable Charger",
-            "text": "<p>Never let either of your Caddie Combo+ products die out on the course. Toss this compact portable charger in your bag and never worry about a dead battery again! </p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_aAXdpq",
-        "row_qTRQEQ",
-        "row_gbGUQM"
-      ],
-      "settings": {
-        "image_height": "adapt",
-        "desktop_image_width": "medium",
-        "heading_size": "h2",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 12
-      }
-    },
     "collapsible_content_3AyFLq": {
       "type": "collapsible-content",
       "blocks": {
@@ -697,6 +638,76 @@
         "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "multirow_QTLczm": {
+      "type": "multirow",
+      "blocks": {
+        "row_VcwdAa": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Sound_Stick_Launch_3_7eda0bfb-04de-43de-9b02-2f6b2f9c15ed.jpg",
+            "caption": "Super Strong",
+            "heading": "Built-In Magnet",
+            "text": "<p>Getting dialed in is always within reach. Sticking your Prism+ to the cart bar or a club will allow for easy and quick access.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_NKy3Eg": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Instagram_soud_stick_-_1_cc54870d-de22-4e22-a8da-890ed64dfa35.png",
+            "caption": "Connect",
+            "heading": "Two Speakers",
+            "text": "<p>Party mode or surround sound... your choice! Connect two Sound Sticks and turn up the vibes during your round.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_jCPnBt": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Sound_Stick_Launch_7_d9600246-baea-4c35-8112-864621ab8716.png",
+            "caption": "15+ Hour",
+            "heading": "Battery Life",
+            "text": "<p>The tunes never have to stop. Packed with an incredible 15+ hours of battery life, one charge will keep you jamming out for multiple rounds!</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_xxXfqj": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Sound_Stick_Launch_8_745365b2-f32b-419a-9d3f-6cb6fa0247cf.png",
+            "caption": "Unmatched",
+            "heading": "Sound Quality",
+            "text": "<p>Crystal clear sound quality all round long. The dual driver bass system will have the vibes at an all time high.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_VcwdAa",
+        "row_NKy3Eg",
+        "row_jCPnBt",
+        "row_xxXfqj"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "171176697446b6f676": {
@@ -799,194 +810,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "image_with_text_nmVmwG": {
-      "type": "image-with-text",
-      "blocks": {
-        "caption_ayJWwQ": {
-          "type": "caption",
-          "settings": {
-            "caption": "70 Round",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "heading_qnXcm4": {
-          "type": "heading",
-          "settings": {
-            "heading": "Rechargable Battery",
-            "heading_size": "h2"
-          }
-        },
-        "text_KgwMfe": {
-          "type": "text",
-          "settings": {
-            "text": "<p>No more batteries. One 45 minute charge will have your Prism+ dialed in for 70+ rounds. So long are the days of a dead battery on the course.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "caption_ayJWwQ",
-        "heading_qnXcm4",
-        "text_KgwMfe"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/4_50d8d877-76c7-4934-9029-9b10cbaae9c6.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "image_with_text_LUEwYF": {
-      "type": "image-with-text",
-      "blocks": {
-        "caption_eLnRpP": {
-          "type": "caption",
-          "settings": {
-            "caption": "Never before seen",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "heading_V4jA3F": {
-          "type": "heading",
-          "settings": {
-            "heading": "First Target Acquisition",
-            "heading_size": "h2"
-          }
-        },
-        "text_CjaCTz": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Distance to the flag every time. No more getting distances of the tree behind the flag. Be dialed in every single shot.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "caption_eLnRpP",
-        "heading_V4jA3F",
-        "text_CjaCTz"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Pinned_Prism_white.2_d0999fa3-e6ae-43a1-8bc0-01f7a9cd0e2e.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "image_with_text_ehcUCR": {
-      "type": "image-with-text",
-      "blocks": {
-        "caption_RYYW9f": {
-          "type": "caption",
-          "settings": {
-            "caption": "Super Strong",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "heading_4ztEYq": {
-          "type": "heading",
-          "settings": {
-            "heading": "Built-In Magnet",
-            "heading_size": "h2"
-          }
-        },
-        "text_Mx9jhQ": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Getting dialed in is always within reach. Sticking your Prism+ to the cart bar or a club will allow for easy and quick access.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "caption_RYYW9f",
-        "heading_4ztEYq",
-        "text_Mx9jhQ"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/1_94608931-91fe-4657-98e1-e007981bd409.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "image_with_text_JQqbYW": {
-      "type": "image-with-text",
-      "blocks": {
-        "caption_4DBK8N": {
-          "type": "caption",
-          "settings": {
-            "caption": "True playing Distance",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "heading_NCF7mt": {
-          "type": "heading",
-          "settings": {
-            "heading": "Slope Technology",
-            "heading_size": "h2"
-          }
-        },
-        "text_rXVFtf": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Play the true playing distance every shot. We'll do the math for you regardless of your lie and tell you how far your next shot truly is. Club up or down with confidence.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "caption_4DBK8N",
-        "heading_NCF7mt",
-        "text_rXVFtf"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/2_00333b61-6a8c-49ae-a13c-4cd7fe77dac0.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
@@ -1002,15 +825,11 @@
     "rich_text_rk9B8n",
     "collage_tcaNLP",
     "collage_BckdEg",
-    "multirow_Bn3Lt9",
     "collapsible_content_3AyFLq",
+    "multirow_QTLczm",
     "171176697446b6f676",
     "related-products",
     "custom_liquid_PRJMPr",
-    "multicolumn_yJVCJc",
-    "image_with_text_nmVmwG",
-    "image_with_text_LUEwYF",
-    "image_with_text_ehcUCR",
-    "image_with_text_JQqbYW"
+    "multicolumn_yJVCJc"
   ]
 }
