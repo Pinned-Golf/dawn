@@ -48,9 +48,8 @@
         },
         "text_8pA7Hq": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<strong>Free Sound Stick Speaker to first 1,000 customers.</strong>",
+            "text": "Free Sound Stick Speaker to first 1,000 customers.",
             "text_style": "uppercase"
           }
         },
