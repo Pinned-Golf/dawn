@@ -36,6 +36,14 @@
             "text_style": "uppercase"
           }
         },
+        "text_Brm8gY": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<strong>Two gifts for the price of one.</strong>",
+            "text_style": "uppercase"
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -46,13 +54,6 @@
         "price": {
           "type": "price",
           "settings": {
-          }
-        },
-        "text_Brm8gY": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>Two gifts for the price of one.</strong>",
-            "text_style": "uppercase"
           }
         },
         "variant_picker": {
@@ -164,9 +165,9 @@
         "text_t9HXeJ",
         "title",
         "text_8pA7Hq",
+        "text_Brm8gY",
         "caption",
         "price",
-        "text_Brm8gY",
         "variant_picker",
         "quantity_selector_a4gife",
         "buy_buttons",
