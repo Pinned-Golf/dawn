@@ -830,6 +830,30 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collage_aPVTyi": {
+      "type": "collage",
+      "blocks": {
+        "image_xye64H": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BFCM_Ads_1080x1080_4.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_xye64H"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -850,6 +874,7 @@
     "collapsible_content_3AyFLq",
     "related-products",
     "custom_liquid_PRJMPr",
-    "multicolumn_yJVCJc"
+    "multicolumn_yJVCJc",
+    "collage_aPVTyi"
   ]
 }
