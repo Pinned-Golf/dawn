@@ -31,8 +31,9 @@
         },
         "text_8pA7Hq": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "Biggest sale in our company history.",
+            "text": "<strong>Two gifts for the price of one.</strong>",
             "text_style": "uppercase"
           }
         },
@@ -46,6 +47,13 @@
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "text_Brm8gY": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Two gifts for the price of one.</strong>",
+            "text_style": "uppercase"
           }
         },
         "variant_picker": {
@@ -159,6 +167,7 @@
         "text_8pA7Hq",
         "caption",
         "price",
+        "text_Brm8gY",
         "variant_picker",
         "quantity_selector_a4gife",
         "buy_buttons",
