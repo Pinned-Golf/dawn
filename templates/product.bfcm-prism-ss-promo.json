@@ -203,7 +203,7 @@
     "image_banner_RhUHFT": {
       "type": "image-banner",
       "custom_css": [
-        "@media only screen and (max-width: 749px) {.banner {min-height: 50vh; /* }"
+
       ],
       "settings": {
         "image": "shopify://shop_images/UP_2048_x_1365_px_4.jpg",
