@@ -53,16 +53,9 @@
             "text_style": "uppercase"
           }
         },
-        "text_Brm8gY": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<strong>Two gifts for the price of one.</strong>",
-            "text_style": "uppercase"
-          }
-        },
         "caption": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle"
@@ -207,7 +200,6 @@
         "text_t9HXeJ",
         "title",
         "text_8pA7Hq",
-        "text_Brm8gY",
         "caption",
         "price",
         "variant_picker",
