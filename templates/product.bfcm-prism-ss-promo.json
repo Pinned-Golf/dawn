@@ -931,9 +931,7 @@
     "image_banner_RhUHFT": {
       "type": "image-banner",
       "custom_css": [
-        "@media only screen and (max-width: 749px) {.banner {min-height: 62vh; /* Adjust this height as needed */ } .banner__media {height: 100%; width: 100%; object-fit: cover; }}",
-        ".banner__content {align-items: flex-end;}",
-        ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 49rem;}"
+        "@media only screen and (max-width: 749px) {.banner {min-height: 62vh; /* }"
       ],
       "settings": {
         "image": "shopify://shop_images/UP_2048_x_1365_px_4.jpg",
