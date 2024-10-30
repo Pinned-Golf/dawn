@@ -131,6 +131,24 @@
             "content": "<p>We don't release a product unless it hits on these 4 core values... </p><ol><li>Elevates your game</li><li>Styled to turn heads</li><li>Pushes the envelop</li><li>Stands the test of time</li></ol>",
             "page": ""
           }
+        },
+        "collapsible_tab_9njXHr": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Prism+ Description",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_qR8n9A": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Sound Stick Description",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -149,7 +167,9 @@
         "collapsible_tab_mFpMHC",
         "collapsible_tab_ULUXpP",
         "collapsible_tab_LEjyQf",
-        "collapsible_tab_ydzdBh"
+        "collapsible_tab_ydzdBh",
+        "collapsible_tab_9njXHr",
+        "collapsible_tab_qR8n9A"
       ],
       "custom_css": [
         "span[data-selected-swatch-value] {font-weight: 600;}"
