@@ -89,16 +89,8 @@
         },
         "text_wgmkd6": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<strong>Limited Time Only. Sell out risk is very high.</strong>",
-            "text_style": "uppercase"
-          }
-        },
-        "text_ATeUbW": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>Ships for free in 1-2 Business days.</strong>",
             "text_style": "uppercase"
           }
         },
@@ -207,7 +199,6 @@
         "quantity_selector_a4gife",
         "buy_buttons",
         "text_wgmkd6",
-        "text_ATeUbW",
         "description",
         "share",
         "icon_with_text_UWmnYD",
@@ -342,7 +333,7 @@
             "image": "shopify://shop_images/3_e086adca-9d53-4466-a810-cd369f74b68b.jpg",
             "caption": "Get Dialed in with the",
             "heading": "Prism+ Rangefinder",
-            "text": "<p>Our brand new laser rangefinder is packed with new cutting edge software, a dialed in performance aesthetic and never before seen features. The Prism+ is a stylish testament to our commitment to innovation and making the game of golf more fun. </p>",
+            "text": "<p>This laser rangefinder is packed with new cutting edge software, a dialed in performance aesthetic and never before seen features. The Prism+ is a stylish testament to our commitment to innovation and making the game of golf more fun. </p>",
             "button_label": "",
             "button_link": ""
           }
