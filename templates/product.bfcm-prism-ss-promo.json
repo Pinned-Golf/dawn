@@ -788,16 +788,7 @@
           "settings": {
             "heading": "Can I use any USB-C charger?",
             "icon": "check_mark",
-            "row_content": "<p>Please use the USB-C charging cord that comes with your Prism+.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_yG8QjR": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I use my rangefinder?",
-            "icon": "check_mark",
-            "row_content": "<p>Please head over to our tutorial section to learn how to use your device.</p>",
+            "row_content": "<p>Please use the USB-C charging cord that comes with your Prism+ or Sound Stick.</p>",
             "page": ""
           }
         },
@@ -810,12 +801,30 @@
             "page": ""
           }
         },
+        "collapsible_row_yG8QjR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does the speaker give yardages?",
+            "icon": "check_mark",
+            "row_content": "<p>No. The Sound Stick is strictly a speaker that plays music. No need to complicate things.</p>",
+            "page": ""
+          }
+        },
         "collapsible_row_9UCtJm": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How do I use my Speaker?",
+            "heading": "How does the speaker sound?",
             "icon": "check_mark",
-            "row_content": "<p>Please head over to our tutorial section to learn how to use your device.</p>",
+            "row_content": "<p>Amazing. Simply put.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_N6KwrL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How strong are the magnets?",
+            "icon": "check_mark",
+            "row_content": "<p>The magnets has been tested by numerous 3rd party partners and never fell off the cart regardless of the landscape. They are N52 magnets which are the strongest magnet on the market.</p>",
             "page": ""
           }
         }
@@ -824,9 +833,10 @@
         "collapsible_row_qdXMcJ",
         "collapsible_row_EABUcy",
         "collapsible_row_4VXbwM",
-        "collapsible_row_yG8QjR",
         "collapsible_row_Nt36Ki",
-        "collapsible_row_9UCtJm"
+        "collapsible_row_yG8QjR",
+        "collapsible_row_9UCtJm",
+        "collapsible_row_N6KwrL"
       ],
       "settings": {
         "caption": "",
