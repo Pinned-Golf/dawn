@@ -623,6 +623,7 @@
     },
     "image_banner_YTFPAp": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Compa9rison.jpg",
         "image_overlay_opacity": 0,
