@@ -799,7 +799,7 @@
           "settings": {
             "heading": "Biggest Sale Ever",
             "icon": "price_tag",
-            "row_content": "<p>This is the best deal for a rangefinder out there. You can go look around at the other brands but you simply will not find a better deal </p>",
+            "row_content": "<p>This is the best deal for a rangefinder out there. You can go look around at the other brands but you simply will not find a better deal. You get <strong>TWO</strong> gifts for the price of <strong>ONE</strong>!</p>",
             "page": ""
           }
         },
@@ -808,7 +808,7 @@
           "settings": {
             "heading": "1,000's Of Reviews",
             "icon": "star",
-            "row_content": "",
+            "row_content": "<p>Trusted by golfers all over the world. From PGA Professionals to D1 College Golfers to the Weekend Warrior to the newbie. Golfers fall in love with our products because they are made by golfers for golfers. </p>",
             "page": ""
           }
         },
@@ -817,16 +817,16 @@
           "settings": {
             "heading": "Our Pinned Family",
             "icon": "heart",
-            "row_content": "",
+            "row_content": "<p>When you buy one of our products, you become family. And more specifically, you join our Pinned Family and we treat everyone like an actual member of our family. </p>",
             "page": ""
           }
         },
         "collapsible_row_a4NhM4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "As Good As Big Boys",
+            "heading": "As Good As It Gets",
             "icon": "fire",
-            "row_content": "",
+            "row_content": "<p>We've compared our products to all of our competitors and let me tell you, we're just as good... if not better. </p>",
             "page": ""
           }
         }
