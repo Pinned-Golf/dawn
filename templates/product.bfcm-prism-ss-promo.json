@@ -258,24 +258,8 @@
         "mobile_layout": "collage",
         "card_styles": "none",
         "color_scheme": "",
-        "padding_top": 0,
+        "padding_top": 24,
         "padding_bottom": 0
-      }
-    },
-    "image_banner_w8Rjbn": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify://shop_images/Frame_46.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
       }
     },
     "multirow_t9LbC9": {
@@ -332,6 +316,7 @@
         "row_3PhHKW",
         "row_9Lk8cG"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
@@ -390,31 +375,30 @@
         "section_color_scheme": "",
         "row_color_scheme": "",
         "mobile_content_alignment": "left",
-        "padding_top": 24,
-        "padding_bottom": 12
+        "padding_top": 44,
+        "padding_bottom": 4
+      }
+    },
+    "image_banner_w8Rjbn": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Frame_46.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
       }
     },
     "image_banner_YTFPAp": {
       "type": "image-banner",
       "settings": {
         "image": "shopify://shop_images/Compa9rison.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image_banner_H8xNth": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/dart_comparison.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "bottom-center",
@@ -608,6 +592,7 @@
         "row_jCPnBt",
         "row_xxXfqj"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "adapt",
         "desktop_image_width": "medium",
@@ -811,11 +796,10 @@
     "image_banner_xDCbLJ",
     "main",
     "collage_aPVTyi",
-    "image_banner_w8Rjbn",
     "multirow_t9LbC9",
     "multirow_DgY64M",
+    "image_banner_w8Rjbn",
     "image_banner_YTFPAp",
-    "image_banner_H8xNth",
     "rich_text_rk9B8n",
     "image_banner_RhUHFT",
     "collage_tcaNLP",
