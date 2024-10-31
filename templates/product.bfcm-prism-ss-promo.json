@@ -90,7 +90,7 @@
         "text_wgmkd6": {
           "type": "text",
           "settings": {
-            "text": "<strong>Limited Time Only. Sell out risk is very high.</strong>",
+            "text": "<strong>Limited Time Only. </strong>Sell out risk is very high.",
             "text_style": "uppercase"
           }
         },
