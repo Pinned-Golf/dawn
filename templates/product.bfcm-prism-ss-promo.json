@@ -923,10 +923,21 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "row_NRQ9N7": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
-        "row_TzxMxC"
+        "row_TzxMxC",
+        "row_NRQ9N7"
       ],
       "settings": {
         "image_height": "adapt",
@@ -935,11 +946,51 @@
         "text_style": "body",
         "button_style": "secondary",
         "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
+        "desktop_content_alignment": "center",
+        "image_layout": "align-left",
         "section_color_scheme": "",
         "row_color_scheme": "",
         "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_twa4Ln": {
+      "type": "collage",
+      "blocks": {
+        "image_KE6mmi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BFCM_Ads_1080x1080_6.jpg"
+          }
+        },
+        "product_mKQbVB": {
+          "type": "product",
+          "settings": {
+            "product": "prismplus-rangefinder",
+            "second_image": false
+          }
+        },
+        "product_EU6KbG": {
+          "type": "product",
+          "settings": {
+            "product": "free-sound-stick-speaker",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": [
+        "image_KE6mmi",
+        "product_mKQbVB",
+        "product_EU6KbG"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -966,6 +1017,7 @@
     "custom_liquid_PRJMPr",
     "multicolumn_yJVCJc",
     "171176697446b6f676",
-    "multirow_EaPGpe"
+    "multirow_EaPGpe",
+    "collage_twa4Ln"
   ]
 }
