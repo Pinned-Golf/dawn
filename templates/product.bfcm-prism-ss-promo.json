@@ -627,77 +627,6 @@
         "padding_bottom": 12
       }
     },
-    "multirow_QTLczm": {
-      "type": "multirow",
-      "blocks": {
-        "row_VcwdAa": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Sound_Stick_Launch_3_7eda0bfb-04de-43de-9b02-2f6b2f9c15ed.jpg",
-            "caption": "Super Strong",
-            "heading": "Built-In Magnet",
-            "text": "<p>Getting dialed in is always within reach. Sticking your Prism+ to the cart bar or a club will allow for easy and quick access.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_NKy3Eg": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Instagram_soud_stick_-_1_cc54870d-de22-4e22-a8da-890ed64dfa35.png",
-            "caption": "Connect",
-            "heading": "Two Speakers",
-            "text": "<p>Party mode or surround sound... your choice! Connect two Sound Sticks and turn up the vibes during your round.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_jCPnBt": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Sound_Stick_Launch_7_d9600246-baea-4c35-8112-864621ab8716.png",
-            "caption": "15+ Hour",
-            "heading": "Battery Life",
-            "text": "<p>The tunes never have to stop. Packed with an incredible 15+ hours of battery life, one charge will keep you jamming out for multiple rounds!</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_xxXfqj": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Sound_Stick_Launch_8_745365b2-f32b-419a-9d3f-6cb6fa0247cf.png",
-            "caption": "Unmatched",
-            "heading": "Sound Quality",
-            "text": "<p>Crystal clear sound quality all round long. The dual driver bass system will have the vibes at an all time high.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_VcwdAa",
-        "row_NKy3Eg",
-        "row_jCPnBt",
-        "row_xxXfqj"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_height": "adapt",
-        "desktop_image_width": "medium",
-        "heading_size": "h2",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "collapsible_content_3AyFLq": {
       "type": "collapsible-content",
       "blocks": {
@@ -1052,6 +981,8 @@
     "multirow_t9LbC9",
     "multirow_DgY64M",
     "image_banner_w8Rjbn",
+    "multicolumn_qeyTb3",
+    "multicolumn_Ehkjba",
     "collapsible_content_mEfG3e",
     "rich_text_rk9B8n",
     "image_banner_YTFPAp",
@@ -1059,14 +990,11 @@
     "image_banner_RhUHFT",
     "collage_tcaNLP",
     "collage_BckdEg",
-    "multirow_QTLczm",
     "collapsible_content_3AyFLq",
     "related-products",
     "rich_text_HFfnaL",
     "custom_liquid_PRJMPr",
     "multicolumn_yJVCJc",
-    "171176697446b6f676",
-    "multicolumn_qeyTb3",
-    "multicolumn_Ehkjba"
+    "171176697446b6f676"
   ]
 }
