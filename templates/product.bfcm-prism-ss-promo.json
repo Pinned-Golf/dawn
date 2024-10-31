@@ -983,6 +983,36 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "rich_text_7XNfat": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yRD3eY": {
+          "type": "heading",
+          "settings": {
+            "heading": "We asked ChatGPT to summarize every Prism+ review we've received and here is what it said...",
+            "heading_size": "h2"
+          }
+        },
+        "text_dgdUkp": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Here’s what people are saying about the Prism+ rangefinder:</em></p><p><strong>Performance</strong>: Most users rave about its accuracy, mentioning that distances are “spot on” and reliable.<br/><strong>Ease of Use</strong>: A frequent highlight is how easy and intuitive the rangefinder is to use, especially when quickly locking onto the target or pin.<br/><strong>Value for Money</strong>: Many are impressed with the quality relative to its price, often comparing it favorably to higher-end models but at a fraction of the cost.<br/><strong>Design and Build</strong>: Users appreciate the sleek and durable build, mentioning that the product feels high-end and solid in hand.<br/><strong>Specific Features</strong>: The “Prism” functionality stands out, with many customers finding it effective in various conditions.</p><p>Overall, the rangefinder receives praise for being a well-rounded, cost-effective tool for golfers, with performance and reliability as standout features. If you’re looking for a high-quality rangefinder without breaking the bank, this seems to be a solid choice.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yRD3eY",
+        "text_dgdUkp"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -1006,6 +1036,7 @@
     "rich_text_HFfnaL",
     "custom_liquid_PRJMPr",
     "multicolumn_yJVCJc",
-    "171176697446b6f676"
+    "171176697446b6f676",
+    "rich_text_7XNfat"
   ]
 }
