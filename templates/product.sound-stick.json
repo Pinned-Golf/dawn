@@ -17,6 +17,13 @@
           "settings": {
           }
         },
+        "text_zBzBye": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Early Access Black Friday Sale</strong>",
+            "text_style": "uppercase"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -24,6 +31,7 @@
         },
         "text_8pA7Hq": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Our speakers are trusted by 50,000+ golfers.",
             "text_style": "uppercase"
@@ -119,6 +127,7 @@
       },
       "block_order": [
         "judge_me_reviews_preview_badge_tAHRwe",
+        "text_zBzBye",
         "title",
         "text_8pA7Hq",
         "caption",
