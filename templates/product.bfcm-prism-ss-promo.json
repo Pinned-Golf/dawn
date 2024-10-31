@@ -444,7 +444,7 @@
         "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "Buy Prism+ Now",
+        "button_label": "",
         "button_link": "shopify://products/black-friday-prism-bundle",
         "color_scheme": "",
         "columns_mobile": "1",
