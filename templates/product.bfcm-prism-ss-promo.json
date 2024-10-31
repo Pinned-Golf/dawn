@@ -910,7 +910,7 @@
           "settings": {
             "image": "shopify://shop_images/Michael_Breed_1000_x_800_px_1080_x_1080_px.jpg",
             "title": "Michael Breed",
-            "text": "<p><em><strong>PGA Teacher Of  Year </strong></em><em><br/>\"Pinned Rangefinders are by go to rangefinder and it's not even close. I 've been using them for years and couldn't be happier.</em></p>",
+            "text": "<p><em><strong>PGA Teacher Of  Year </strong></em><em><br/>\"Pinned Rangefinders are by go to rangefinder and it's not even close. The accuracy is unmatched.\"</em></p>",
             "link_label": "",
             "link": ""
           }
@@ -918,9 +918,9 @@
         "column_Ty8qTc": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/oliviamitchell.webp",
-            "title": "Olivia Mitchell",
-            "text": "<p><em><strong>2023 NCAA Champion</strong></em></p><p>I absolutely love my Pinned Rangefinder. I used it all throughout school.</p>",
+            "image": "shopify://shop_images/Untitled_design_25_dd27095e-3aeb-48f1-8a27-0d013812acbe.jpg",
+            "title": "Jeff Hamley",
+            "text": "<p><em><strong>PGA Tour Caddie</strong></em></p><p><em>\"When we prepare for each week’s PGA Tour event, I trust Pinned Golf’s range finger to help me dial in our strategy.\"</em></p>",
             "link_label": "",
             "link": ""
           }
@@ -928,9 +928,9 @@
         "column_NaA3DW": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Instagrampost-32.png",
-            "title": "Alec Lorenzo",
-            "text": "<p>I get dialed in so much i can't believe it.</p>",
+            "image": "shopify://shop_images/Untitled_design_26_a4b30e45-7b4f-4465-9a8a-8eff20dccc98.jpg",
+            "title": "Jake Hutt",
+            "text": "<p><em><strong>PGA Class A Teacher</strong></em></p><p><em>\"Have been rocking with Pinned's rangefinder for years now. They keep getting better and better every year.”</em></p>",
             "link_label": "",
             "link": ""
           }
@@ -942,7 +942,7 @@
         "column_NaA3DW"
       ],
       "settings": {
-        "title": "<strong>Trusted </strong>",
+        "title": "<strong>Trusted By</strong>",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
