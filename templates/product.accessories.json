@@ -1,19 +1,19 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-product",
       "blocks": {
         "judge_me_reviews_preview_badge_tAHRwe": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
@@ -71,13 +71,13 @@
           "settings": {
             "layout": "horizontal",
             "icon_1": "none",
-            "image_1": "shopify:\/\/shop_images\/1_f566ca30-628a-4dec-9858-da70ead17dd2.jpg",
+            "image_1": "shopify://shop_images/1_f566ca30-628a-4dec-9858-da70ead17dd2.jpg",
             "heading_1": "Free Shipping",
             "icon_2": "none",
-            "image_2": "shopify:\/\/shop_images\/2_c0b7a380-c7d2-4ff6-8e2b-0fe2df48f4de.jpg",
+            "image_2": "shopify://shop_images/2_c0b7a380-c7d2-4ff6-8e2b-0fe2df48f4de.jpg",
             "heading_2": "60 Day Returns",
             "icon_3": "none",
-            "image_3": "shopify:\/\/shop_images\/5_d31e8e02-3601-4ba7-810d-96c7ca29ad75.jpg",
+            "image_3": "shopify://shop_images/5_d31e8e02-3601-4ba7-810d-96c7ca29ad75.jpg",
             "heading_3": "Top Tier Support"
           }
         },
@@ -86,7 +86,7 @@
           "settings": {
             "heading": "Shipping",
             "icon": "none",
-            "content": "<p>Orders are typically fulfilled and shipped Monday through Friday within <em><strong>24 hours of being placed<\/strong><\/em>.<\/p><p>We offer a few domestic and international shipping options based on your budget and how quickly you want to get dialed in!<\/p>",
+            "content": "<p>We ship <strong>FAST</strong>.<br/><br/>Fulfilled within 24 business hours. 90% of orders arrive early.<br/><br/>Expedited options if your next tee time is coming up.</p>",
             "page": ""
           }
         },
@@ -95,7 +95,7 @@
           "settings": {
             "heading": "The Pinned Promise",
             "icon": "none",
-            "content": "<p>We don't release a product unless it hits on these 4 core values... <\/p><ol><li>Elevates your game<\/li><li>Styled to turn heads<\/li><li>Pushes the envelop<\/li><li>Stands the test of time<\/li><\/ol>",
+            "content": "<p>We don't release a product unless it hits on these 4 core values... </p><ol><li>Elevates your game</li><li>Styled to turn heads</li><li>Pushes the envelop</li><li>Stands the test of time</li></ol>",
             "page": ""
           }
         }
@@ -140,7 +140,7 @@
           "type": "button",
           "settings": {
             "button_label": "Buy The Prism+",
-            "button_link": "shopify:\/\/products\/prismplus-rangefinder",
+            "button_link": "shopify://products/prismplus-rangefinder",
             "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -170,19 +170,19 @@
         "image_tNhy4d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC00638.jpg"
+            "image": "shopify://shop_images/DSC00638.jpg"
           }
         },
         "image_iyagxd": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC00664.jpg"
+            "image": "shopify://shop_images/DSC00664.jpg"
           }
         },
         "image_QJJyGn": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/8_2ec95c76-15d6-47a9-b4dd-fcaa1745799e.jpg"
+            "image": "shopify://shop_images/8_2ec95c76-15d6-47a9-b4dd-fcaa1745799e.jpg"
           }
         }
       },
@@ -279,7 +279,7 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_review_widget_MqhpFj": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
@@ -314,7 +314,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<a id=\"scroll-to-top\" href=\"#\">Buy The Prism<\/a>\n<script>\n  document.getElementById('scroll-to-top').addEventListener('click', (evt) => {\n    evt.preventDefault();\n    evt.stopPropagation();\n    document.querySelector('form[data-type=\"add-to-cart-form\"]').scrollIntoView({ behavior: \"smooth\", block: \"end\", inline: \"nearest\" })\n  });\n<\/script>",
+        "custom_liquid": "<a id=\"scroll-to-top\" href=\"#\">Buy The Prism</a>\n<script>\n  document.getElementById('scroll-to-top').addEventListener('click', (evt) => {\n    evt.preventDefault();\n    evt.stopPropagation();\n    document.querySelector('form[data-type=\"add-to-cart-form\"]').scrollIntoView({ behavior: \"smooth\", block: \"end\", inline: \"nearest\" })\n  });\n</script>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
