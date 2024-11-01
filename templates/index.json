@@ -15,9 +15,9 @@
         "buttons_EJHyeW": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Pink Ribbon Collection",
-            "button_link_1": "shopify://collections/breast-cancer-awareness-month",
-            "button_style_secondary_1": false,
+            "button_label_1": "Shop Early Access Sale",
+            "button_link_1": "shopify://collections/early-access-black-friday",
+            "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
