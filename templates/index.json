@@ -28,13 +28,13 @@
         "buttons_EJHyeW"
       ],
       "custom_css": [
+        "@media only screen and (max-width: 749px) {.banner {min-height: 63vh; /* Adjust this height as needed */ } .banner__media {height: 100%; width: 100%; object-fit: cover; }}",
         ".banner__content {align-items: flex-end;}",
-        ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 49rem;}",
-        ".subtitle {color: rgba(var(--color-foreground), 1);}",
-        "h2,p {text-shadow: 0 2px 8px #000;}"
+        ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50rem;}",
+        "@media screen and (min-width: 750px) {.banner--large:not(.banner--adapt) {min-height: 90rem; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/A_portion_of_every_pink_item_purchased_this_October_will_go_to_the_National_Breast_Cancer_Foundation_Inc._3000_x_2300_px_2500_x_2000_px_3500_x_2000_px.png",
+        "image": "shopify://shop_images/UP_2048_x_1365_px_7.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
@@ -114,47 +114,52 @@
         "accessibility_info": "Pinned Golf- Superior Golf Technology"
       }
     },
+    "image_banner_QMgQCn": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Memorial_Day_Collection_5.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "multirow_GehmqX": {
       "type": "multirow",
       "blocks": {
         "row_kHGpxC": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/The_Prism_8.jpg",
-            "caption": "Get dialed in this season.",
-            "heading": "Rangefinders",
+            "image": "shopify://shop_images/Free.png",
+            "caption": "buy a rangefinder, get a",
+            "heading": "Free Speaker",
             "text": "",
-            "button_label": "Shop Lower Scores",
-            "button_link": "shopify://products/prismplus-rangefinder"
+            "button_label": "Shop Our Best Deal Ever",
+            "button_link": "shopify://products/black-friday-prism-bundle"
           }
         },
         "row_mTGVeR": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/The_Prism_14.png",
-            "caption": "Good Music. Good Golf.",
+            "image": "shopify://shop_images/Dart_speakers_-_Combinations_-_USA_Red_80623d97-b9b5-41a6-92ac-783767c0ec43.jpg",
+            "caption": "Up to 25% off",
             "heading": "Speakers",
             "text": "",
             "button_label": "Shop Better Vibes",
             "button_link": "shopify://collections/speakers"
           }
         },
-        "row_tUPCUr": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/The_Prism_16.png",
-            "caption": "Best of both worlds.",
-            "heading": "Combos",
-            "text": "",
-            "button_label": "Shop Total Packages",
-            "button_link": "shopify://collections/combos"
-          }
-        },
         "row_iJTrfd": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/The_Prism_8.png",
-            "caption": "A little bit of everything.",
+            "image": "shopify://shop_images/1_72fa0c38-bba5-4ce7-bdd1-846c9a214296.jpg",
+            "caption": "up to 50% off",
             "heading": "Accessories",
             "text": "",
             "button_label": "Shop Swag",
@@ -165,14 +170,13 @@
       "block_order": [
         "row_kHGpxC",
         "row_mTGVeR",
-        "row_tUPCUr",
         "row_iJTrfd"
       ],
       "custom_css": [
-
+        ".image-with-text__text--caption {font-size: large; font-weight: 500;}"
       ],
       "settings": {
-        "image_height": "large",
+        "image_height": "adapt",
         "desktop_image_width": "medium",
         "heading_size": "h0",
         "text_style": "body",
@@ -245,8 +249,8 @@
       "settings": {
         "title": "Their words... Not ours.",
         "heading_size": "h0",
-        "image_width": "third",
-        "image_ratio": "circle",
+        "image_width": "half",
+        "image_ratio": "square",
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
@@ -314,10 +318,11 @@
         "color_scheme": "",
         "container_color_scheme": "",
         "open_first_collapsible_row": true,
+        "image": "shopify://shop_images/Frame_2a5.jpg",
         "image_ratio": "adapt",
         "desktop_layout": "image_first",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 16,
+        "padding_bottom": 16
       }
     },
     "newsletter_qzCyW7": {
@@ -348,137 +353,9 @@
         "email_form_GjbXrG"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "image_banner_QMgQCn": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "multicolumn_g7UQzM": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_8HHEgC": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/imagea_4.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_nCExPq": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/image_3.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_J7VWEM": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/image_q1.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_CD89k7": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/image_5.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_cf6VBT": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/2q0.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_z3bfp9": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/image_156.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_RbD6Ga": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/a.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_733czn": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/image_157.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_8HHEgC",
-        "column_nCExPq",
-        "column_J7VWEM",
-        "column_CD89k7",
-        "column_cf6VBT",
-        "column_z3bfp9",
-        "column_RbD6Ga",
-        "column_733czn"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Trusted by",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
         "padding_bottom": 52
       }
     },
@@ -487,9 +364,8 @@
       "blocks": {
         "judge_me_reviews_featured_carousel_mVcaHd": {
           "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "disabled": true,
           "settings": {
-            "maxwidth": 1080
+            "maxwidth": 2500
           }
         }
       },
@@ -504,13 +380,12 @@
   "order": [
     "image_banner_iWr6ta",
     "slideshow_4t63MF",
+    "image_banner_QMgQCn",
     "multirow_GehmqX",
     "image_banner_FdxwLK",
     "multicolumn_bE7ELq",
     "collapsible_content_rT76Q4",
     "newsletter_qzCyW7",
-    "image_banner_QMgQCn",
-    "multicolumn_g7UQzM",
     "1730301771a79b1aa4"
   ]
 }
