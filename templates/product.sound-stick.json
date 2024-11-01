@@ -401,6 +401,7 @@
         "enable_video_looping": true,
         "video": "shopify://files/videos/Untitled design (2).mp4",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify://shop_images/UP_2048_x_1365_px_2048_x_1080_px_1.jpg",
         "description": "",
         "full_width": false,
         "color_scheme": "",
