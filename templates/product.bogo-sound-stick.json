@@ -384,13 +384,13 @@
         "image_XbyAnh": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/9_fa641254-d1c8-48ea-8d98-3cdd37766a51.jpg"
+            "image": "shopify://shop_images/Untitled_Instagram_Post.jpg"
           }
         },
         "image_aPcjD7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Sound_Stick_Launch_1.png"
+            "image": "shopify://shop_images/Untitled_design_20_23ec1b7c-62fb-47ae-b987-4488d7dc1ad2.jpg"
           }
         }
       },
@@ -418,6 +418,7 @@
         "enable_video_looping": true,
         "video": "shopify://files/videos/Untitled design (2).mp4",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify://shop_images/UP_2048_x_1365_px_2048_x_1080_px_1.jpg",
         "description": "",
         "full_width": false,
         "color_scheme": "",
