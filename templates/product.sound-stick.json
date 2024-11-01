@@ -19,7 +19,6 @@
         },
         "text_zBzBye": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<strong>Early Access Black Friday Sale</strong>",
             "text_style": "uppercase"
@@ -32,7 +31,6 @@
         },
         "text_8pA7Hq": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "Our speakers are trusted by 50,000+ golfers.",
             "text_style": "uppercase"
