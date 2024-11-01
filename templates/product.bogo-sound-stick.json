@@ -71,6 +71,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
@@ -161,6 +162,22 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
+      }
+    },
+    "image_banner_8KYUJR": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Memorial_Day_Collection_6.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "image_banner_AgN8Rt": {
@@ -323,7 +340,7 @@
         "image_tNhy4d": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/DSC00638.jpg"
+            "image": "shopify://shop_images/7_3f1406f2-4d84-4b16-8378-95ded32bb9f3.jpg"
           }
         },
         "image_iyagxd": {
@@ -335,7 +352,7 @@
         "image_QJJyGn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Sound_Stick_Launch_1.jpg"
+            "image": "shopify://shop_images/8_d369d6a9-32ca-44ff-a9ab-24a7c1013f16.jpg"
           }
         }
       },
@@ -361,13 +378,13 @@
         "image_cENgTq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Sound_Stick_Launch_2.jpg"
+            "image": "shopify://shop_images/9_d8ddf339-fd39-4b16-a513-6485a754d064.jpg"
           }
         },
         "image_XbyAnh": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Sound_Stick_Launch_3.png"
+            "image": "shopify://shop_images/9_fa641254-d1c8-48ea-8d98-3cdd37766a51.jpg"
           }
         },
         "image_aPcjD7": {
@@ -589,26 +606,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "image_banner_8KYUJR": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify://shop_images/Memorial_Day_Collection_6.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
     "main",
+    "image_banner_8KYUJR",
     "image_banner_AgN8Rt",
     "multirow_DgY64M",
     "image_banner_YTFPAp",
@@ -621,7 +623,6 @@
     "171176697446b6f676",
     "related-products",
     "custom_liquid_PRJMPr",
-    "featured_collection_8nTe6c",
-    "image_banner_8KYUJR"
+    "featured_collection_8nTe6c"
   ]
 }
