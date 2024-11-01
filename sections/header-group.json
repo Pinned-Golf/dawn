@@ -16,21 +16,21 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Free shipping on all orders.",
             "link": ""
           }
         },
-        "announcement_dpfap7": {
-          "type": "announcement",
-          "settings": {
-            "text": "Camo Prism+ Now Available",
-            "link": "shopify://products/camo-prism-rangefinder"
-          }
-        },
         "announcement_qHNjyt": {
           "type": "announcement",
-          "disabled": true,
+          "settings": {
+            "text": "Shop Early Access Black Friday Sale",
+            "link": "shopify://collections/early-access-black-friday"
+          }
+        },
+        "announcement_LazwgC": {
+          "type": "announcement",
           "settings": {
             "text": "Shop Early Access Black Friday Sale",
             "link": "shopify://collections/early-access-black-friday"
@@ -39,8 +39,8 @@
       },
       "block_order": [
         "announcement-bar-0",
-        "announcement_dpfap7",
-        "announcement_qHNjyt"
+        "announcement_qHNjyt",
+        "announcement_LazwgC"
       ],
       "settings": {
         "color_scheme": "scheme-5",
