@@ -19,6 +19,7 @@
         },
         "text_zBzBye": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>Early Access Black Friday Sale</strong>",
             "text_style": "uppercase"
