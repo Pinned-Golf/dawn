@@ -878,8 +878,8 @@
         "button_w9hfRb": {
           "type": "button",
           "settings": {
-            "button_label": "Buy The Prism+",
-            "button_link": "shopify://products/black-friday-prism-bundle",
+            "button_label": "",
+            "button_link": "",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -1013,6 +1013,15 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "custom_liquid_VQaJEA": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -1037,6 +1046,7 @@
     "custom_liquid_PRJMPr",
     "multicolumn_yJVCJc",
     "rich_text_7XNfat",
-    "171176697446b6f676"
+    "171176697446b6f676",
+    "custom_liquid_VQaJEA"
   ]
 }
