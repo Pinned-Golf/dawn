@@ -42,16 +42,16 @@
             "text_style": "uppercase"
           }
         },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
         "text_8pA7Hq": {
           "type": "text",
           "settings": {
             "text": "<strong>Free Sound Stick Speaker to first 1,000 customers.</strong>",
             "text_style": "uppercase"
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
           }
         },
         "caption": {
@@ -191,8 +191,8 @@
       "block_order": [
         "judge_me_reviews_preview_badge_tAHRwe",
         "text_t9HXeJ",
-        "text_8pA7Hq",
         "title",
+        "text_8pA7Hq",
         "caption",
         "price",
         "variant_picker",
