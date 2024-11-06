@@ -54,13 +54,6 @@
             "text_style": "uppercase"
           }
         },
-        "text_wgmkd6": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>Limited Time Only. </strong>Sell out risk is very high.",
-            "text_style": "uppercase"
-          }
-        },
         "caption": {
           "type": "text",
           "disabled": true,
@@ -88,17 +81,18 @@
             "show_gift_card_recipient": true
           }
         },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "share": {
           "type": "share",
           "disabled": true,
           "settings": {
             "share_label": "Share"
+          }
+        },
+        "text_wgmkd6": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Limited Time Only. </strong>Sell out risk is very high.",
+            "text_style": "uppercase"
           }
         },
         "icon_with_text_UWmnYD": {
@@ -187,13 +181,12 @@
         "text_t9HXeJ",
         "title",
         "text_8pA7Hq",
-        "text_wgmkd6",
         "caption",
         "price",
         "variant_picker",
         "buy_buttons",
-        "description",
         "share",
+        "text_wgmkd6",
         "icon_with_text_UWmnYD",
         "collapsible_tab_mFpMHC",
         "collapsible_tab_ULUXpP",
