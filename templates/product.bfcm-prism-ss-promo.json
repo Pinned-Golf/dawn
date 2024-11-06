@@ -1004,7 +1004,7 @@
     "custom_liquid_wPWb9N": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<script>\nArray.from(document.getElementsByTagName('a')).filter((a) => a.url === '#top').forEach((a) => a.addEventListener('click', (e) => {e.preventDefault(); document.body.scrollIntoView({block: 'start', behavior: 'smooth'}); }))\n</script>",
+        "custom_liquid": "<script>\nArray.from(document.getElementsByTagName('a')).filter((a) => a.hash === '#top').forEach((a) => a.addEventListener('click', (e) => {e.preventDefault(); document.body.scrollIntoView({block: 'start', behavior: 'smooth'}); }))\n</script>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
