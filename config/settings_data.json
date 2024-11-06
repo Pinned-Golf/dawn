@@ -190,9 +190,15 @@
         "settings": {
         }
       },
+      "17824471530847535147": {
+        "type": "shopify://apps/web-accessibility-by-accessibe/blocks/accessiBe/149b77a2-0170-42f6-9355-0bef39587b09",
+        "disabled": false,
+        "settings": {
+        }
+      },
       "6810535121229352664": {
         "type": "shopify://apps/monster-cart-upsell-free-gifts/blocks/app-embed/a1b8e58a-bf1d-4e0f-8768-a387c3f643c0",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "markets_rounding": false,
           "send_gtag_atc": false,
@@ -204,16 +210,11 @@
           "bag_selector": "",
           "hide_when_opened": "",
           "show_item_properties": false,
+          "show_private_properties": false,
           "stop_shopify_rate": false,
           "dev_mode": false,
           "beta_version": false,
           "custom_code": "<script>\n  let pathname = window.location.pathname;\n  if(pathname.includes('/cart') && !pathname.includes('products') && !pathname.includes('pages')) {\n    window.location.href = '/#cart'\n  }\n</script>"
-        }
-      },
-      "17824471530847535147": {
-        "type": "shopify://apps/web-accessibility-by-accessibe/blocks/accessiBe/149b77a2-0170-42f6-9355-0bef39587b09",
-        "disabled": false,
-        "settings": {
         }
       }
     },
