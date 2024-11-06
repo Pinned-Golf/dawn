@@ -151,7 +151,8 @@
         "collapsible_tab_ydzdBh"
       ],
       "custom_css": [
-        "span[data-selected-swatch-value] {font-weight: 600;}"
+        "span[data-selected-swatch-value] {font-weight: 600;}",
+        ".product-form__input--swatch .swatch-input__input + .swatch-input__label {margin: 0.7rem 2.3rem 0.2rem 0;}"
       ],
       "settings": {
         "enable_sticky_info": true,
