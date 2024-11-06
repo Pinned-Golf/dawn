@@ -54,6 +54,13 @@
             "text_style": "uppercase"
           }
         },
+        "text_wgmkd6": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Limited Time Only. </strong>Sell out risk is very high.",
+            "text_style": "uppercase"
+          }
+        },
         "caption": {
           "type": "text",
           "disabled": true,
@@ -74,24 +81,11 @@
             "swatch_shape": "square"
           }
         },
-        "quantity_selector_a4gife": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
-          }
-        },
-        "text_wgmkd6": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>Limited Time Only. </strong>Sell out risk is very high.",
-            "text_style": "uppercase"
           }
         },
         "description": {
@@ -193,12 +187,11 @@
         "text_t9HXeJ",
         "title",
         "text_8pA7Hq",
+        "text_wgmkd6",
         "caption",
         "price",
         "variant_picker",
-        "quantity_selector_a4gife",
         "buy_buttons",
-        "text_wgmkd6",
         "description",
         "share",
         "icon_with_text_UWmnYD",
