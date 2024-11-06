@@ -1000,6 +1000,15 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "custom_liquid_wPWb9N": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script>\ndocument.getElementsByTagName('a').filter((a) => a.url === '#top').forEach((a) => a.addEventListener('click', (e) => {e.preventDefault(); document.body.scrollIntoView({block: 'start', behavior: 'smooth'}); }))\n</script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -1024,6 +1033,7 @@
     "custom_liquid_PRJMPr",
     "multicolumn_yJVCJc",
     "rich_text_7XNfat",
-    "171176697446b6f676"
+    "171176697446b6f676",
+    "custom_liquid_wPWb9N"
   ]
 }
