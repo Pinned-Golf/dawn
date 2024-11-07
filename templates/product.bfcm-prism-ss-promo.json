@@ -984,22 +984,13 @@
         "include_margins": true
       }
     },
-    "custom_liquid_wPWb9N": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<script>\nArray.from(document.getElementsByTagName('a')).filter((a) => a.hash === '#top').forEach((a) => a.addEventListener('click', (e) => {e.preventDefault(); document.body.scrollIntoView({block: 'start', behavior: 'smooth'}); }))\n</script>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "rich_text_JPzbER": {
       "type": "rich-text",
       "blocks": {
         "button_rLk4KG": {
           "type": "button",
           "settings": {
-            "button_label": "Buy Prism+",
+            "button_label": "Buy Prism+ Rangefinder",
             "button_link": "#top",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -1018,6 +1009,15 @@
         "full_width": true,
         "padding_top": 0,
         "padding_bottom": 20
+      }
+    },
+    "custom_liquid_wPWb9N": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script>\nArray.from(document.getElementsByTagName('a')).filter((a) => a.hash === '#top').forEach((a) => a.addEventListener('click', (e) => {e.preventDefault(); document.body.scrollIntoView({block: 'start', behavior: 'smooth'}); }))\n</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
