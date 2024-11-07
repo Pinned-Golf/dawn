@@ -291,7 +291,7 @@
           "type": "button",
           "settings": {
             "button_label": "Buy The Sound Stick",
-            "button_link": "shopify://products/sound-stick-speaker-presale",
+            "button_link": "#top",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -552,16 +552,6 @@
         "padding_bottom": 28
       }
     },
-    "custom_liquid_PRJMPr": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<a id=\"scroll-to-top\" href=\"#\">Buy The Prism</a>\n<script>\n  document.getElementById('scroll-to-top').addEventListener('click', (evt) => {\n    evt.preventDefault();\n    evt.stopPropagation();\n    document.querySelector('form[data-type=\"add-to-cart-form\"]').scrollIntoView({ behavior: \"smooth\", block: \"end\", inline: \"nearest\" })\n  });\n</script>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "featured_collection_8nTe6c": {
       "type": "featured-collection",
       "settings": {
@@ -589,6 +579,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_liquid_PRJMPr": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script>\nArray.from(document.getElementsByTagName('a')).filter((a) => a.hash === '#top').forEach((a) => a.addEventListener('click', (e) => {e.preventDefault(); document.body.scrollIntoView({block: 'start', behavior: 'smooth'}); }))\n</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -604,7 +603,7 @@
     "collapsible_content_3AyFLq",
     "171176697446b6f676",
     "related-products",
-    "custom_liquid_PRJMPr",
-    "featured_collection_8nTe6c"
+    "featured_collection_8nTe6c",
+    "custom_liquid_PRJMPr"
   ]
 }
