@@ -568,7 +568,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<a id=\"scroll-to-top\" href=\"#\">Buy The Dart 2.0</a>\n<script>\n  document.getElementById('scroll-to-top').addEventListener('click', (evt) => {\n    evt.preventDefault();\n    evt.stopPropagation();\n    document.querySelector('form[data-type=\"add-to-cart-form\"]').scrollIntoView({ behavior: \"smooth\", block: \"end\", inline: \"nearest\" })\n  });\n</script>",
+        "custom_liquid": "<script>\nArray.from(document.getElementsByTagName('a')).filter((a) => a.hash === '#top').forEach((a) => a.addEventListener('click', (e) => {e.preventDefault(); document.body.scrollIntoView({block: 'start', behavior: 'smooth'}); }))\n</script>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
