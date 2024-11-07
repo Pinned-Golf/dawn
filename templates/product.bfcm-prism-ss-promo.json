@@ -989,8 +989,35 @@
       "settings": {
         "custom_liquid": "<script>\nArray.from(document.getElementsByTagName('a')).filter((a) => a.hash === '#top').forEach((a) => a.addEventListener('click', (e) => {e.preventDefault(); document.body.scrollIntoView({block: 'start', behavior: 'smooth'}); }))\n</script>",
         "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_JPzbER": {
+      "type": "rich-text",
+      "blocks": {
+        "button_rLk4KG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Prism+",
+            "button_link": "#top",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_rLk4KG"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 20
       }
     }
   },
@@ -1016,6 +1043,7 @@
     "multicolumn_yJVCJc",
     "rich_text_7XNfat",
     "171176697446b6f676",
-    "custom_liquid_wPWb9N"
+    "custom_liquid_wPWb9N",
+    "rich_text_JPzbER"
   ]
 }
