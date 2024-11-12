@@ -14,8 +14,7 @@
       "blocks": {
         "judge_me_reviews_preview_badge_tAHRwe": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         },
         "text_t9HXeJ": {
           "type": "text",
@@ -27,13 +26,12 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "text_8pA7Hq": {
           "type": "text",
           "settings": {
-            "text": "<strong>Free Sound Stick Speaker to first 1,000 customers.</strong>",
+            "text": "<strong>Only 321/1000 Free Sound Stick Left!</strong>",
             "text_style": "uppercase"
           }
         },
@@ -47,8 +45,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -579,9 +576,7 @@
         "button_JY4HTi"
       ],
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -639,9 +634,7 @@
     "image_banner_RhUHFT": {
       "type": "image-banner",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/UP_2048_x_1365_px_6.jpg",
         "image_overlay_opacity": 0,
@@ -848,7 +841,7 @@
         "button_w9hfRb": {
           "type": "button",
           "settings": {
-            "button_label": "Buy Prism+",
+            "button_label": "Buy Prism+ Rangefinder",
             "button_link": "#top",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -860,9 +853,7 @@
       "block_order": [
         "button_w9hfRb"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -973,8 +964,7 @@
       "blocks": {
         "judge_me_reviews_review_widget_MqhpFj": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
