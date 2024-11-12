@@ -202,6 +202,11 @@
           "beta_version": false,
           "custom_code": "<script>\n  let pathname = window.location.pathname;\n  if(pathname.includes('/cart') && !pathname.includes('products') && !pathname.includes('pages')) {\n    window.location.href = '/#cart'\n  }\n</script>"
         }
+      },
+      "14952540001915115444": {
+        "type": "shopify://apps/upcart-cart-drawer/blocks/app-embed/af3da5fb-f5f7-40ec-8273-41bf50059d4b",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
