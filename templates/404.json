@@ -1,10 +1,64 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
-      "type": "main-404"
+      "type": "main-404",
+      "disabled": true,
+      "settings": {}
+    },
+    "rich_text_HDD7n8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_i34qgM": {
+          "type": "heading",
+          "settings": {
+            "heading": "404 Page Not Found",
+            "heading_size": "h1"
+          }
+        },
+        "text_ANg9dF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whoops, looks like you came to a page that's no longer active. </p>"
+          }
+        },
+        "button_qW6BDX": {
+          "type": "button",
+          "settings": {
+            "button_label": "Return To Shop",
+            "button_link": "shopify://collections/early-access-black-friday",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_i34qgM",
+        "text_ANg9dF",
+        "button_qW6BDX"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_HDD7n8"
   ]
 }
