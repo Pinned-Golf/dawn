@@ -1,9 +1,18 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner_Rmjip3": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_481.png",
+        "image": "shopify://shop_images/Frame_481.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -37,7 +46,6 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
-        "enable_quick_add": false,
         "enable_filtering": false,
         "filter_type": "horizontal",
         "enable_sorting": false,
@@ -57,8 +65,7 @@
         },
         "rating_wDmc6B": {
           "type": "rating",
-          "settings": {
-          }
+          "settings": {}
         },
         "text_xyUckc": {
           "type": "text",
@@ -69,8 +76,7 @@
         },
         "price_BbWhq9": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker_mjWjNk": {
           "type": "variant_picker",
@@ -81,8 +87,7 @@
         },
         "quantity_selector_EyiXmx": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons_YyUP6Q": {
           "type": "buy_buttons",
@@ -102,7 +107,7 @@
         "buy_buttons_YyUP6Q"
       ],
       "settings": {
-        "product": "prismplus-rangefinder",
+        "product": "prismplus-rangefinder-hidden",
         "color_scheme": "",
         "secondary_background": false,
         "media_size": "small",
@@ -119,7 +124,7 @@
     "image_banner_GyCkgL": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSC00664.jpg",
+        "image": "shopify://shop_images/DSC00664.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -144,8 +149,7 @@
         },
         "rating_cpwDyB": {
           "type": "rating",
-          "settings": {
-          }
+          "settings": {}
         },
         "title_7E3DYg": {
           "type": "title",
@@ -155,8 +159,7 @@
         },
         "price_k4FVqK": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker_nY3La3": {
           "type": "variant_picker",
@@ -167,8 +170,7 @@
         },
         "quantity_selector_kFWNDq": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons_AfyrmW": {
           "type": "buy_buttons",
@@ -220,13 +222,11 @@
         },
         "rating_yHP67g": {
           "type": "rating",
-          "settings": {
-          }
+          "settings": {}
         },
         "price_ET98ng": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker_FQWcbf": {
           "type": "variant_picker",

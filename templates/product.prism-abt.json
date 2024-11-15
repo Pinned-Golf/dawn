@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner_JGVVrw": {
@@ -31,8 +31,7 @@
       "blocks": {
         "judge_me_reviews_preview_badge_tAHRwe": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         },
         "text_3TMaQ3": {
           "type": "text",
@@ -43,8 +42,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "text_8pA7Hq": {
           "type": "text",
@@ -62,8 +60,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -81,8 +78,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "share": {
           "type": "share",
@@ -317,7 +313,7 @@
           "type": "button",
           "settings": {
             "button_label": "Buy The Prism+",
-            "button_link": "shopify://products/prismplus-rangefinder",
+            "button_link": "shopify://products/prismplus-rangefinder-hidden",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -328,9 +324,7 @@
       "block_order": [
         "button_JY4HTi"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -531,8 +525,7 @@
       "blocks": {
         "judge_me_reviews_review_widget_MqhpFj": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [

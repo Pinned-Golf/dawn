@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -14,13 +14,11 @@
       "blocks": {
         "judge_me_reviews_preview_badge_tAHRwe": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "text_8pA7Hq": {
           "type": "text",
@@ -38,8 +36,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -51,8 +48,7 @@
         "quantity_selector_a4gife": {
           "type": "quantity_selector",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -63,8 +59,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "share": {
           "type": "share",
@@ -264,7 +259,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "shopify://products/prismplus-rangefinder",
+            "button_link_1": "shopify://products/prismplus-rangefinder-hidden",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -298,7 +293,7 @@
           "disabled": true,
           "settings": {
             "button_label": "Buy The Prism+",
-            "button_link": "shopify://products/prismplus-rangefinder",
+            "button_link": "shopify://products/prismplus-rangefinder-hidden",
             "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -310,9 +305,7 @@
         "button_JY4HTi"
       ],
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -453,8 +446,7 @@
       "blocks": {
         "judge_me_reviews_review_widget_MqhpFj": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
