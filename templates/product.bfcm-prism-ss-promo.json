@@ -500,7 +500,7 @@
           "settings": {
             "heading": "Biggest Sale Ever",
             "icon": "price_tag",
-            "row_content": "<p>If you're looking for a rangefinder, you won't find a better deal. Please, go ahead and look around but you simply will not find a better deal. You get <strong>TWO</strong> gifts for the price of <strong>ONE</strong>!</p>",
+            "row_content": "<p>If you're looking for a rangefinder, you won't find a better deal. Please, go ahead and look around but you simply will not find a better one. You get <strong>TWO</strong> gifts for the price of <strong>ONE</strong>!</p>",
             "page": ""
           }
         },
@@ -556,7 +556,7 @@
         "layout": "none",
         "color_scheme": "",
         "container_color_scheme": "",
-        "open_first_collapsible_row": false,
+        "open_first_collapsible_row": true,
         "image_ratio": "small",
         "desktop_layout": "image_second",
         "padding_top": 36,
