@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -17,131 +17,10 @@
         "padding_bottom": 28
       }
     },
-    "custom_liquid_fUdMJC": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-XXGdnG\"><\/div>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "slideshow_8wzPw4": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_HFB3FX": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h0",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_3MDyt8": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_278.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_gbrnVn": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_280.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_gTnedq": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_298a.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_ygzRnm": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_303.png",
-            "heading": "",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_HFB3FX",
-        "slide_3MDyt8",
-        "slide_gbrnVn",
-        "slide_gTnedq",
-        "slide_ygzRnm"
-      ],
-      "disabled": true,
-      "settings": {
-        "layout": "grid",
-        "slide_height": "adapt_image",
-        "slider_visual": "dots",
-        "auto_rotate": true,
-        "change_slides_speed": 3,
-        "image_behavior": "none",
-        "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "image_banner_6BwAAL": {
+    "image_banner_hEqrzC": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_306_1.jpg",
+        "image": "shopify://shop_images/Memorial_Day_Collection_2240_x_300_px.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -154,54 +33,11 @@
         "show_text_below": true
       }
     },
-    "rich_text_AqYVRH": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_7X4MV8": {
-          "type": "heading",
-          "settings": {
-            "heading": "The Grand Prize Includes",
-            "heading_size": "h1"
-          }
-        },
-        "text_kTnFQ3": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Pinned Golf: <\/strong>Prism+ Rangefinder<\/p><p><strong>Pinned Golf:<\/strong> Sound Stick Speaker<\/p><p><strong>Stix Golf:<\/strong> Set of irons<\/p><p><strong>Sunday Golf Co:<\/strong> Red+White Loma Bag<\/p><p><strong>Pins and Aces: <\/strong>3 Polos<\/p><p><strong>GrooveIt: <\/strong>GrooveIt Wet Brush<\/p><p><strong>iRange Sports: <\/strong>iRange Stick<\/p><p><strong>BagBoy:<\/strong> Nitron Pushcart<\/p><p><strong>Cayce Golf:<\/strong> Set of covers<\/p><p><strong>TrueLinks:<\/strong> LuxG Golf Shoes<\/p><p><strong>D.Hudson:<\/strong> 5 Hats<\/p><p><strong>RipIt Grips: <\/strong>Set of club grips<\/p><p><strong>Hyperice:<\/strong> Venom 2 Back & Hypervolt Go 2 Golf Pack<\/p><p><strong>CMD Golf Co:<\/strong> Putter<\/p><p><strong>BirdieBall: <\/strong>2x10 Putting Mat & Dozen BirdieBalls<\/p><p><strong>Tee Number Thirty Three: <\/strong>30 Pack of Flavored Tee Picks<\/p><p><strong>Fore the Girls: <\/strong>Magnetic Towels and Bucket Hat<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_7X4MV8",
-        "text_kTnFQ3"
-      ],
+    "custom_liquid_fUdMJC": {
+      "type": "custom-liquid",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "custom_liquid": "<div class=\"klaviyo-form-XXGdnG\"></div>",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "rich_text_YnEzmj": {
-      "type": "rich-text",
-      "blocks": {
-        "text_bLVygW": {
-          "type": "text",
-          "settings": {
-            "text": "<h5><a href=\"https:\/\/pinnedgolf.com\/pages\/giveaway-terms-and-conditions\" title=\"https:\/\/pinnedgolf.com\/pages\/giveaway-terms-and-conditions\">Contest Terms and Conditions<\/a><\/h5>"
-          }
-        }
-      },
-      "block_order": [
-        "text_bLVygW"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-2",
-        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -209,10 +45,7 @@
   },
   "order": [
     "main",
-    "custom_liquid_fUdMJC",
-    "slideshow_8wzPw4",
-    "image_banner_6BwAAL",
-    "rich_text_AqYVRH",
-    "rich_text_YnEzmj"
+    "image_banner_hEqrzC",
+    "custom_liquid_fUdMJC"
   ]
 }
