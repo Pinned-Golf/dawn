@@ -16,9 +16,8 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "Free shipping on all orders.",
+            "text": "Products trusted by 150,000+ golfers.",
             "link": ""
           }
         },
