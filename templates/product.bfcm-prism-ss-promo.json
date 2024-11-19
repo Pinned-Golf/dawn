@@ -112,12 +112,17 @@
         },
         "collapsible_tab_9njXHr": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Prism+ Overview",
             "icon": "none",
             "content": "",
             "page": "features"
           }
+        },
+        "description_VXQGyf": {
+          "type": "description",
+          "settings": {}
         },
         "collapsible_tab_qR8n9A": {
           "type": "collapsible_tab",
@@ -171,6 +176,7 @@
         "collapsible_tab_mFpMHC",
         "collapsible_tab_ULUXpP",
         "collapsible_tab_9njXHr",
+        "description_VXQGyf",
         "collapsible_tab_qR8n9A",
         "collapsible_tab_LEjyQf",
         "collapsible_tab_ydzdBh",
