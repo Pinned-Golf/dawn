@@ -131,7 +131,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Sound Stick Overview",
-            "default_open": true,
+            "default_open": false,
             "icon": "none",
             "content": "",
             "page": "sound-stick-features"
