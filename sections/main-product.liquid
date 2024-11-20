@@ -214,14 +214,14 @@
                 <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
                   <details
                     id="Details-{{ block.id }}-{{ section.id }}"
-                    {%- if block.settings.default_open -%}
+                    {% if block.settings.default_open %}
                       open
-                    {%- endif -%}
+                    {% endif %}
                   >
                     <summary
-                      {%- if block.settings.default_open -%}
+                      {% if block.settings.default_open %}
                         aria-expanded="true"
-                      {%- endif -%}
+                      {% endif %}
                     >
                       <div class="summary__title">
                         {% render 'icon-accordion', icon: block.settings.icon %}
