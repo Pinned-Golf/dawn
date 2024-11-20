@@ -31,7 +31,7 @@
         "text_8pA7Hq": {
           "type": "text",
           "settings": {
-            "text": "<strong>Less Than 25 Free Sound Sticks Left!</strong>",
+            "text": "<strong>Less Than 100 Free Sound Sticks Left!</strong>",
             "text_style": "uppercase"
           }
         },
@@ -95,7 +95,6 @@
           "disabled": true,
           "settings": {
             "heading": "Features",
-            "default_open": false,
             "icon": "none",
             "content": "",
             "page": "features"
@@ -106,7 +105,6 @@
           "disabled": true,
           "settings": {
             "heading": "What's included?",
-            "default_open": false,
             "icon": "none",
             "content": "<ul><li>Prism+ Rangefinder</li><li><strong>FREE</strong> Sound Stick Speaker ($150 Value)</li></ul>",
             "page": ""
@@ -117,7 +115,6 @@
           "disabled": true,
           "settings": {
             "heading": "Prism+ Overview",
-            "default_open": false,
             "icon": "none",
             "content": "",
             "page": "features"
@@ -131,7 +128,6 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Sound Stick Overview",
-            "default_open": false,
             "icon": "none",
             "content": "",
             "page": "sound-stick-features"
@@ -141,7 +137,6 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Shipping",
-            "default_open": false,
             "icon": "none",
             "content": "<p>We ship <strong>FAST</strong>.<br/><br/>Fulfilled within 24 business hours. 90% of orders arrive early.<br/><br/>Expedited options if your next tee time is coming up.</p>",
             "page": ""
@@ -151,7 +146,6 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "The Pinned Promise",
-            "default_open": false,
             "icon": "none",
             "content": "<p>We don't release a product unless it hits on these 4 core values... </p><ol><li>Elevates your game</li><li>Styled to turn heads</li><li>Pushes the envelop</li><li>Stands the test of time</li></ol>",
             "page": ""
@@ -161,7 +155,6 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Early Access Black Friday",
-            "default_open": false,
             "icon": "none",
             "content": "<p>This is the best deal in the history of Pinned Golf. </p><p>We are giving away a <strong>FREE</strong> Sound Stick Speaker <em>($150 Value)</em> to the first 1,000 customers who buy a Prism+. To say our CFO isn't thrilled is an understatement.</p><p>This is a limited time offer so please do not wait as sell out risk is very high.</p>",
             "page": ""
@@ -616,6 +609,97 @@
         "show_text_below": true
       }
     },
+    "collapsible_content_3AyFLq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_qdXMcJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can you turn slope on and off?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes, The Prism+ golf rangefinder comes with a slope switch that allows you to turn the slope on and off. This means that our golf rangefinder is completely tournament legal.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EABUcy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I know they're fully charged?",
+            "icon": "check_mark",
+            "row_content": "<p>One 45 minute charge when you receive it and you will be good for the entire season! When fully charged, the green light will be lit.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4VXbwM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I use any USB-C charger?",
+            "icon": "check_mark",
+            "row_content": "<p>Please use the USB-C charging cord that comes with your Prism+ or Sound Stick.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Nt36Ki": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Should I register my devices?",
+            "icon": "check_mark",
+            "row_content": "<p>You do not have to but it is strongly encouraged to register your device once you have received it.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yG8QjR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does the speaker give yardages?",
+            "icon": "check_mark",
+            "row_content": "<p>No. The Sound Stick is strictly a speaker that plays music. No need to complicate things.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9UCtJm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does the speaker sound?",
+            "icon": "check_mark",
+            "row_content": "<p>Amazing. Simply put.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_N6KwrL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How strong are the magnets?",
+            "icon": "check_mark",
+            "row_content": "<p>The magnets has been tested by numerous 3rd party partners and never fell off the cart regardless of the landscape. They are N52 magnets which are the strongest magnet on the market.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_qdXMcJ",
+        "collapsible_row_EABUcy",
+        "collapsible_row_4VXbwM",
+        "collapsible_row_Nt36Ki",
+        "collapsible_row_yG8QjR",
+        "collapsible_row_9UCtJm",
+        "collapsible_row_N6KwrL"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_6zJBWr": {
       "type": "rich-text",
       "blocks": {
@@ -736,97 +820,6 @@
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 12
-      }
-    },
-    "collapsible_content_3AyFLq": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_qdXMcJ": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Can you turn slope on and off?",
-            "icon": "check_mark",
-            "row_content": "<p>Yes, The Prism+ golf rangefinder comes with a slope switch that allows you to turn the slope on and off. This means that our golf rangefinder is completely tournament legal.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_EABUcy": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I know they're fully charged?",
-            "icon": "check_mark",
-            "row_content": "<p>One 45 minute charge when you receive it and you will be good for the entire season! When fully charged, the green light will be lit.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_4VXbwM": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Can I use any USB-C charger?",
-            "icon": "check_mark",
-            "row_content": "<p>Please use the USB-C charging cord that comes with your Prism+ or Sound Stick.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_Nt36Ki": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Should I register my devices?",
-            "icon": "check_mark",
-            "row_content": "<p>You do not have to but it is strongly encouraged to register your device once you have received it.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_yG8QjR": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Does the speaker give yardages?",
-            "icon": "check_mark",
-            "row_content": "<p>No. The Sound Stick is strictly a speaker that plays music. No need to complicate things.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_9UCtJm": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How does the speaker sound?",
-            "icon": "check_mark",
-            "row_content": "<p>Amazing. Simply put.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_N6KwrL": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How strong are the magnets?",
-            "icon": "check_mark",
-            "row_content": "<p>The magnets has been tested by numerous 3rd party partners and never fell off the cart regardless of the landscape. They are N52 magnets which are the strongest magnet on the market.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_qdXMcJ",
-        "collapsible_row_EABUcy",
-        "collapsible_row_4VXbwM",
-        "collapsible_row_Nt36Ki",
-        "collapsible_row_yG8QjR",
-        "collapsible_row_9UCtJm",
-        "collapsible_row_N6KwrL"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Frequently Asked Questions",
-        "heading_size": "h2",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "related-products": {
@@ -1032,14 +1025,14 @@
     "image_banner_w8Rjbn",
     "multicolumn_qeyTb3",
     "multicolumn_Ehkjba",
-    "collapsible_content_mEfG3e",
     "rich_text_rk9B8n",
     "image_banner_YTFPAp",
+    "collapsible_content_3AyFLq",
     "rich_text_6zJBWr",
     "image_banner_RhUHFT",
     "collage_tcaNLP",
     "collage_BckdEg",
-    "collapsible_content_3AyFLq",
+    "collapsible_content_mEfG3e",
     "related-products",
     "rich_text_HFfnaL",
     "custom_liquid_PRJMPr",
