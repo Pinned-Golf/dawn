@@ -14,8 +14,7 @@
       "blocks": {
         "judge_me_reviews_preview_badge_tAHRwe": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         },
         "text_zBzBye": {
           "type": "text",
@@ -26,8 +25,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "text_8pA7Hq": {
           "type": "text",
@@ -45,8 +43,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -57,8 +54,7 @@
         },
         "quantity_selector_a4gife": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -69,8 +65,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "icon_with_text_UWmnYD": {
           "type": "icon-with-text",
@@ -91,6 +86,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Features",
+            "default_open": true,
             "icon": "none",
             "content": "",
             "page": "sound-stick-features"
@@ -100,6 +96,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "What's in the box?",
+            "default_open": false,
             "icon": "none",
             "content": "<ul><li>Sound Stick Speaker</li><li>USB-C Charging Cord</li><li>Pinned Sticker</li><li>Instruction Manual</li><li>Device Registration Guide</li><li>Pinned Playlist QR Code</li></ul>",
             "page": ""
@@ -109,6 +106,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Shipping",
+            "default_open": false,
             "icon": "none",
             "content": "<p>We ship <strong>FAST</strong>.<br/><br/>Fulfilled within 24 business hours. 90% of orders arrive early.<br/><br/>Expedited options if your next tee time is coming up.</p>",
             "page": ""
@@ -118,6 +116,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "The Pinned Promise",
+            "default_open": false,
             "icon": "none",
             "content": "<p>We don't release a product unless it hits on these 4 core values... </p><ol><li>Elevates your game</li><li>Styled to turn heads</li><li>Pushes the envelop</li><li>Stands the test of time</li></ol>",
             "page": ""
@@ -303,9 +302,7 @@
         "heading_xJ6wMB",
         "button_JY4HTi"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -522,8 +519,7 @@
       "blocks": {
         "judge_me_reviews_review_widget_MqhpFj": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
