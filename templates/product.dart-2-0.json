@@ -14,8 +14,7 @@
       "blocks": {
         "judge_me_reviews_preview_badge_tAHRwe": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         },
         "text_WpWmM3": {
           "type": "text",
@@ -26,8 +25,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "text_8pA7Hq": {
           "type": "text",
@@ -45,8 +43,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -58,8 +55,7 @@
         "quantity_selector_a4gife": {
           "type": "quantity_selector",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -68,10 +64,16 @@
             "show_gift_card_recipient": true
           }
         },
+        "text_FhqQ3r": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>🔥</strong><em><strong> 1,209 bought in last 30 days</strong></em>",
+            "text_style": "uppercase"
+          }
+        },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "share": {
           "type": "share",
@@ -99,6 +101,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Features",
+            "default_open": false,
             "icon": "none",
             "content": "",
             "page": "dart-features"
@@ -108,6 +111,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "What's in the box?",
+            "default_open": false,
             "icon": "none",
             "content": "<ul><li>Dart 2.0 Speaker</li><li>Bag Clip Carabiner</li><li>USB-C Charging Cord</li><li>Pinned Playlist Flyer</li><li>Instruction Manual</li><li>Device Registration Guide</li></ul>",
             "page": ""
@@ -117,6 +121,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Shipping",
+            "default_open": false,
             "icon": "none",
             "content": "<p>We ship <strong>FAST</strong>.<br/><br/>Fulfilled within 24 business hours. 90% of orders arrive early.<br/><br/>Expedited options if your next tee time is coming up.</p>",
             "page": ""
@@ -126,6 +131,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "The Pinned Promise",
+            "default_open": false,
             "icon": "none",
             "content": "<p>We don't release a product unless it hits on these 4 core values... </p><ol><li>Elevates your game</li><li>Styled to turn heads</li><li>Pushes the envelop</li><li>Stands the test of time</li></ol>",
             "page": ""
@@ -142,6 +148,7 @@
         "variant_picker",
         "quantity_selector_a4gife",
         "buy_buttons",
+        "text_FhqQ3r",
         "description",
         "share",
         "icon_with_text_UWmnYD",
@@ -306,9 +313,7 @@
       "block_order": [
         "button_JY4HTi"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -534,8 +539,7 @@
       "blocks": {
         "judge_me_reviews_review_widget_MqhpFj": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
