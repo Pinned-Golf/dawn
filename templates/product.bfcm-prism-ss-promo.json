@@ -95,6 +95,7 @@
           "disabled": true,
           "settings": {
             "heading": "Features",
+            "default_open": false,
             "icon": "none",
             "content": "",
             "page": "features"
@@ -105,6 +106,7 @@
           "disabled": true,
           "settings": {
             "heading": "What's included?",
+            "default_open": false,
             "icon": "none",
             "content": "<ul><li>Prism+ Rangefinder</li><li><strong>FREE</strong> Sound Stick Speaker ($150 Value)</li></ul>",
             "page": ""
@@ -115,6 +117,7 @@
           "disabled": true,
           "settings": {
             "heading": "Prism+ Overview",
+            "default_open": false,
             "icon": "none",
             "content": "",
             "page": "features"
@@ -128,6 +131,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Sound Stick Overview",
+            "default_open": false,
             "icon": "none",
             "content": "",
             "page": "sound-stick-features"
@@ -137,6 +141,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Shipping",
+            "default_open": false,
             "icon": "none",
             "content": "<p>We ship <strong>FAST</strong>.<br/><br/>Fulfilled within 24 business hours. 90% of orders arrive early.<br/><br/>Expedited options if your next tee time is coming up.</p>",
             "page": ""
@@ -146,6 +151,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "The Pinned Promise",
+            "default_open": false,
             "icon": "none",
             "content": "<p>We don't release a product unless it hits on these 4 core values... </p><ol><li>Elevates your game</li><li>Styled to turn heads</li><li>Pushes the envelop</li><li>Stands the test of time</li></ol>",
             "page": ""
@@ -155,6 +161,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Early Access Black Friday",
+            "default_open": false,
             "icon": "none",
             "content": "<p>This is the best deal in the history of Pinned Golf. </p><p>We are giving away a <strong>FREE</strong> Sound Stick Speaker <em>($150 Value)</em> to the first 1,000 customers who buy a Prism+. To say our CFO isn't thrilled is an understatement.</p><p>This is a limited time offer so please do not wait as sell out risk is very high.</p>",
             "page": ""
@@ -492,77 +499,6 @@
         "padding_bottom": 36
       }
     },
-    "collapsible_content_mEfG3e": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_y7dHWn": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Biggest Sale Ever",
-            "icon": "price_tag",
-            "row_content": "<p>If you're looking for a rangefinder, you won't find a better deal. Please, go ahead and look around but you simply will not find a better one. You get <strong>TWO</strong> gifts for the price of <strong>ONE</strong>!</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_xY6tmU": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Thousands Of Reviews",
-            "icon": "star",
-            "row_content": "<p>Trusted by golfers all over the world. From PGA Professionals to Collegiate Golfers to the Weekend Warrior to everyone in between. Golfers love our products because they are made by golfers for golfers. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_CpaGaa": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Our Pinned Family",
-            "icon": "heart",
-            "row_content": "<p>When you buy one of our products, you become family. More specifically, you join our Pinned Family. and we treat everyone like an actual member of our family. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_a4NhM4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "As Good As It Gets",
-            "icon": "fire",
-            "row_content": "<p>Countless tests against the competition and let me tell you, we're just as good... if not better. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_tAtXCK": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Love It Or Return It",
-            "icon": "return",
-            "row_content": "<p>With our extended holiday return window, they will essentially be able to try the rangefinder on before they buy it. </p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_y7dHWn",
-        "collapsible_row_xY6tmU",
-        "collapsible_row_CpaGaa",
-        "collapsible_row_a4NhM4",
-        "collapsible_row_tAtXCK"
-      ],
-      "settings": {
-        "caption": "the perfect gift for your golfer and here are",
-        "heading": "Five Reasons Why.",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": true,
-        "image_ratio": "small",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "rich_text_rk9B8n": {
       "type": "rich-text",
       "blocks": {
@@ -822,6 +758,77 @@
         "padding_bottom": 12
       }
     },
+    "collapsible_content_mEfG3e": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_y7dHWn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Biggest Sale Ever",
+            "icon": "price_tag",
+            "row_content": "<p>If you're looking for a rangefinder, you won't find a better deal. Please, go ahead and look around but you simply will not find a better one. You get <strong>TWO</strong> gifts for the price of <strong>ONE</strong>!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xY6tmU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Thousands Of Reviews",
+            "icon": "star",
+            "row_content": "<p>Trusted by golfers all over the world. From PGA Professionals to Collegiate Golfers to the Weekend Warrior to everyone in between. Golfers love our products because they are made by golfers for golfers. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CpaGaa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Our Pinned Family",
+            "icon": "heart",
+            "row_content": "<p>When you buy one of our products, you become family. More specifically, you join our Pinned Family. and we treat everyone like an actual member of our family. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_a4NhM4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "As Good As It Gets",
+            "icon": "fire",
+            "row_content": "<p>Countless tests against the competition and let me tell you, we're just as good... if not better. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_tAtXCK": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Love It Or Return It",
+            "icon": "return",
+            "row_content": "<p>With our extended holiday return window, they will essentially be able to try the rangefinder on before they buy it. </p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_y7dHWn",
+        "collapsible_row_xY6tmU",
+        "collapsible_row_CpaGaa",
+        "collapsible_row_a4NhM4",
+        "collapsible_row_tAtXCK"
+      ],
+      "settings": {
+        "caption": "the perfect gift for your golfer and here are",
+        "heading": "Five Reasons Why.",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": true,
+        "image_ratio": "small",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -956,6 +963,7 @@
         "heading_yRD3eY",
         "text_dgdUkp"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "left",
