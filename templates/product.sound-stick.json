@@ -63,6 +63,13 @@
             "show_gift_card_recipient": true
           }
         },
+        "text_tnYkBM": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>🔥</strong><em><strong> 1,543 bought in last 30 days</strong></em>",
+            "text_style": "uppercase"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {}
@@ -133,6 +140,7 @@
         "variant_picker",
         "quantity_selector_a4gife",
         "buy_buttons",
+        "text_tnYkBM",
         "description",
         "icon_with_text_UWmnYD",
         "collapsible_tab_mFpMHC",
