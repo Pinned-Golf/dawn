@@ -704,12 +704,6 @@
     "collage_LVp4JP": {
       "type": "collage",
       "blocks": {
-        "image_H3kRPT": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Comparkison.png"
-          }
-        },
         "image_FTbYVB": {
           "type": "image",
           "settings": {
@@ -721,17 +715,23 @@
           "settings": {
             "image": "shopify://shop_images/Comparison.png"
           }
+        },
+        "image_H3kRPT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Comparkison.png"
+          }
         }
       },
       "block_order": [
-        "image_H3kRPT",
         "image_FTbYVB",
-        "image_jQqepX"
+        "image_jQqepX",
+        "image_H3kRPT"
       ],
       "settings": {
         "heading": "",
         "heading_size": "h2",
-        "desktop_layout": "left",
+        "desktop_layout": "right",
         "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
         "color_scheme": "",
