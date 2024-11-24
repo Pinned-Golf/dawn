@@ -216,10 +216,24 @@
           "settings": {
             "image": "shopify://shop_images/BFCM_Ads_1080x1080_7.jpg"
           }
+        },
+        "image_iyFwX6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/40_fa843d08-b131-47a0-a49b-4854fcb54b80.jpg"
+          }
+        },
+        "image_BCVxiQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/47_e1b1c839-3202-4d1e-b883-357612e5f42d.jpg"
+          }
         }
       },
       "block_order": [
-        "image_xye64H"
+        "image_xye64H",
+        "image_iyFwX6",
+        "image_BCVxiQ"
       ],
       "settings": {
         "heading": "",
