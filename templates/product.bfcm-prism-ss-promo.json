@@ -219,12 +219,14 @@
         },
         "image_iyFwX6": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/40_fa843d08-b131-47a0-a49b-4854fcb54b80.jpg"
           }
         },
         "image_BCVxiQ": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/47_e1b1c839-3202-4d1e-b883-357612e5f42d.jpg"
           }
