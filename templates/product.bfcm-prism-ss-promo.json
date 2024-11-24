@@ -994,6 +994,33 @@
         "padding_bottom": 20
       }
     },
+    "rich_text_W893Fz": {
+      "type": "rich-text",
+      "blocks": {
+        "button_QpPNgQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Prism+ Rangefinder",
+            "button_link": "#top",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_QpPNgQ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
     "custom_liquid_wPWb9N": {
       "type": "custom-liquid",
       "settings": {
@@ -1019,6 +1046,7 @@
     "collage_tcaNLP",
     "collage_BckdEg",
     "collage_LVp4JP",
+    "rich_text_JPzbER",
     "collapsible_content_mEfG3e",
     "related-products",
     "rich_text_HFfnaL",
@@ -1026,7 +1054,7 @@
     "multicolumn_yJVCJc",
     "rich_text_7XNfat",
     "171176697446b6f676",
-    "rich_text_JPzbER",
+    "rich_text_W893Fz",
     "custom_liquid_wPWb9N"
   ]
 }
