@@ -782,14 +782,26 @@
           "settings": {
             "image": "shopify://shop_images/Comparisobushnn.png"
           }
+        },
+        "image_jQqepX": {
+          "type": "image",
+          "disabled": true,
+          "settings": {}
+        },
+        "image_FTbYVB": {
+          "type": "image",
+          "disabled": true,
+          "settings": {}
         }
       },
       "block_order": [
-        "image_H3kRPT"
+        "image_H3kRPT",
+        "image_jQqepX",
+        "image_FTbYVB"
       ],
       "settings": {
         "heading": "",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "column",
         "card_styles": "product-card-wrapper",
