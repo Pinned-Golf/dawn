@@ -219,16 +219,14 @@
         },
         "image_iyFwX6": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/40_fa843d08-b131-47a0-a49b-4854fcb54b80.jpg"
+            "image": "shopify://shop_images/1x1.png"
           }
         },
         "image_BCVxiQ": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/47_e1b1c839-3202-4d1e-b883-357612e5f42d.jpg"
+            "image": "shopify://shop_images/1x1-1.png"
           }
         }
       },
@@ -246,77 +244,6 @@
         "color_scheme": "",
         "padding_top": 24,
         "padding_bottom": 0
-      }
-    },
-    "multirow_t9LbC9": {
-      "type": "multirow",
-      "blocks": {
-        "row_dbpGeR": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/4_1991cbd8-6bf6-4226-b907-2a1b548a6c46.jpg",
-            "caption": "70 Round",
-            "heading": "Rechargeable Battery",
-            "text": "<p>No more batteries. One 45 minute charge will have your Prism+ dialed in for 70+ rounds. So long are the days of a dead battery on the course.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_qyHF9M": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Pinned_Prism_white.2_d0999fa3-e6ae-43a1-8bc0-01f7a9cd0e2e.jpg",
-            "caption": "Never before seen",
-            "heading": "First Target Acquisition",
-            "text": "<p>Distance to the flag every time. No more getting distances of the tree behind the flag. Be dialed in every single shot.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_3PhHKW": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/1_94608931-91fe-4657-98e1-e007981bd409.jpg",
-            "caption": "Super Strong",
-            "heading": "Built-In Magnet",
-            "text": "<p>Getting dialed in is always within reach. Sticking your Prism+ to the cart bar or a club will allow for easy and quick access.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_9Lk8cG": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/2_00333b61-6a8c-49ae-a13c-4cd7fe77dac0.jpg",
-            "caption": "True playing distance",
-            "heading": "Slope Technology",
-            "text": "<p>Play the true playing distance every shot. We'll do the math for you regardless of your lie and tell you how far your next shot truly is. Club up or down with confidence.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_dbpGeR",
-        "row_qyHF9M",
-        "row_3PhHKW",
-        "row_9Lk8cG"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h2",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 12,
-        "padding_bottom": 12
       }
     },
     "multirow_DgY64M": {
@@ -1080,7 +1007,6 @@
   "order": [
     "main",
     "collage_aPVTyi",
-    "multirow_t9LbC9",
     "multirow_DgY64M",
     "image_banner_w8Rjbn",
     "multicolumn_qeyTb3",
