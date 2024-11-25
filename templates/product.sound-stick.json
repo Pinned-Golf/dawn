@@ -67,7 +67,7 @@
           "type": "text",
           "settings": {
             "text": "<strong>🔥</strong><em><strong> 1,543 bought in last 30 days</strong></em>",
-            "text_style": "uppercase"
+            "text_style": "body"
           }
         },
         "description": {
