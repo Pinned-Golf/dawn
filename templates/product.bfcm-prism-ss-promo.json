@@ -71,7 +71,7 @@
         "text_7Kmaaf": {
           "type": "text",
           "settings": {
-            "text": "<strong>🔥 2,457 Bought In Last 30 Days</strong>",
+            "text": "<strong>🔥 </strong><em><strong>2,457 bought in last 30 days</strong></em>",
             "text_style": "body"
           }
         },
