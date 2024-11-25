@@ -23,14 +23,6 @@
             "text_style": "uppercase"
           }
         },
-        "text_t9HXeJ": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<strong>Early Access Black Friday Special</strong>",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {}
@@ -46,6 +38,13 @@
         "price": {
           "type": "price",
           "settings": {}
+        },
+        "text_wgmkd6": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Black Friday Only. </strong>Sell out risk is very high.",
+            "text_style": "uppercase"
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -73,13 +72,6 @@
           "settings": {
             "text": "<strong>🔥 </strong><em><strong>2,457 bought in last 30 days</strong></em>",
             "text_style": "body"
-          }
-        },
-        "text_wgmkd6": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>Black Friday Only. </strong>Sell out risk is very high.",
-            "text_style": "uppercase"
           }
         },
         "icon_with_text_UWmnYD": {
@@ -178,15 +170,14 @@
       "block_order": [
         "judge_me_reviews_preview_badge_tAHRwe",
         "text_8pA7Hq",
-        "text_t9HXeJ",
         "title",
         "caption",
         "price",
+        "text_wgmkd6",
         "variant_picker",
         "buy_buttons",
         "share",
         "text_7Kmaaf",
-        "text_wgmkd6",
         "icon_with_text_UWmnYD",
         "collapsible_tab_mFpMHC",
         "collapsible_tab_ULUXpP",
