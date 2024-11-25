@@ -27,19 +27,11 @@
             "text": "Black Friday Sale! Shop Now",
             "link": "shopify://collections/early-access-black-friday"
           }
-        },
-        "announcement_LazwgC": {
-          "type": "announcement",
-          "settings": {
-            "text": "Less Than 25 Free Sound Stick Left!",
-            "link": "shopify://products/prism-rangefinder-blackfriday-bundle"
-          }
         }
       },
       "block_order": [
         "announcement-bar-0",
-        "announcement_qHNjyt",
-        "announcement_LazwgC"
+        "announcement_qHNjyt"
       ],
       "settings": {
         "color_scheme": "scheme-5",
