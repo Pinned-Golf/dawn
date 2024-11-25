@@ -16,16 +16,23 @@
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
-        "text_8pA7Hq": {
+        "text_wgmkd6": {
           "type": "text",
           "settings": {
-            "text": "FREE SPEAKER WITH RANGEFINDER PURCHASE",
+            "text": "<strong>Black Friday Sale</strong>",
             "text_style": "uppercase"
           }
         },
         "title": {
           "type": "title",
           "settings": {}
+        },
+        "text_8pA7Hq": {
+          "type": "text",
+          "settings": {
+            "text": "FREE SPEAKER WITH RANGEFINDER PURCHASE",
+            "text_style": "uppercase"
+          }
         },
         "caption": {
           "type": "text",
@@ -44,13 +51,6 @@
           "settings": {
             "picker_type": "swatch",
             "swatch_shape": "square"
-          }
-        },
-        "text_wgmkd6": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>Black Friday Only. </strong>Sell out risk is very high.",
-            "text_style": "uppercase"
           }
         },
         "buy_buttons": {
@@ -169,12 +169,12 @@
       },
       "block_order": [
         "judge_me_reviews_preview_badge_tAHRwe",
-        "text_8pA7Hq",
+        "text_wgmkd6",
         "title",
+        "text_8pA7Hq",
         "caption",
         "price",
         "variant_picker",
-        "text_wgmkd6",
         "buy_buttons",
         "share",
         "text_7Kmaaf",
