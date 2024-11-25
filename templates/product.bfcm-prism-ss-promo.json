@@ -68,16 +68,11 @@
             "share_label": "Share"
           }
         },
-        "icon_with_text_jy4BQY": {
-          "type": "icon-with-text",
+        "text_7Kmaaf": {
+          "type": "text",
           "settings": {
-            "layout": "horizontal",
-            "icon_1": "fire",
-            "heading_1": "2,475 Bought In Last 30 Days",
-            "icon_2": "none",
-            "heading_2": "",
-            "icon_3": "none",
-            "heading_3": ""
+            "text": "<strong>🔥 2,457 Bought In Last 30 Days</strong>",
+            "text_style": "body"
           }
         },
         "text_wgmkd6": {
@@ -190,7 +185,7 @@
         "variant_picker",
         "buy_buttons",
         "share",
-        "icon_with_text_jy4BQY",
+        "text_7Kmaaf",
         "text_wgmkd6",
         "icon_with_text_UWmnYD",
         "collapsible_tab_mFpMHC",
