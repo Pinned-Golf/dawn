@@ -16,6 +16,13 @@
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
+        "text_8pA7Hq": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>BLACK FRIDAY BOGO SALE!</strong>",
+            "text_style": "uppercase"
+          }
+        },
         "text_t9HXeJ": {
           "type": "text",
           "disabled": true,
@@ -27,13 +34,6 @@
         "title": {
           "type": "title",
           "settings": {}
-        },
-        "text_8pA7Hq": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>BLACK FRIDAY SALE!</strong>",
-            "text_style": "uppercase"
-          }
         },
         "caption": {
           "type": "text",
@@ -170,9 +170,9 @@
       },
       "block_order": [
         "judge_me_reviews_preview_badge_tAHRwe",
+        "text_8pA7Hq",
         "text_t9HXeJ",
         "title",
-        "text_8pA7Hq",
         "caption",
         "price",
         "variant_picker",
