@@ -289,7 +289,7 @@
     "image_banner_YTFPAp": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify://shop_images/Compa9rison.jpg",
+        "image": "shopify://shop_images/Comparisonmiddle.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "bottom-center",
@@ -611,6 +611,44 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collage_UbcL7P": {
+      "type": "collage",
+      "blocks": {
+        "image_gm6AzT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Comparisonmiddle.png"
+          }
+        },
+        "image_EGRqUg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Comparisontr.png"
+          }
+        },
+        "image_AfyJe7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Comparisoklln.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_gm6AzT",
+        "image_EGRqUg",
+        "image_AfyJe7"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -628,6 +666,7 @@
     "related-products",
     "custom_liquid_PRJMPr",
     "171374037927d8d761",
-    "featured_collection_3mUgBK"
+    "featured_collection_3mUgBK",
+    "collage_UbcL7P"
   ]
 }
