@@ -165,6 +165,19 @@
             "content": "<p>This is the best deal in the history of Pinned Golf. </p><p>We are giving away a <strong>FREE</strong> Sound Stick Speaker <em>($150 Value)</em> when you buy a Prism+ rangefinder. To say our CFO isn't thrilled would be an understatement.</p><p>This is a limited time offer so please do not wait as sell out risk is very high.</p>",
             "page": ""
           }
+        },
+        "complementary_4TCram": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
         }
       },
       "block_order": [
@@ -186,7 +199,8 @@
         "collapsible_tab_qR8n9A",
         "collapsible_tab_LEjyQf",
         "collapsible_tab_ydzdBh",
-        "collapsible_tab_BG7CiE"
+        "collapsible_tab_BG7CiE",
+        "complementary_4TCram"
       ],
       "custom_css": [
         "span[data-selected-swatch-value] {font-weight: 600;}"
