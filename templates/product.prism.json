@@ -111,7 +111,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Features",
-            "default_open": false,
+            "default_open": true,
             "icon": "none",
             "content": "",
             "page": "features"
@@ -133,7 +133,7 @@
             "heading": "Shipping",
             "default_open": false,
             "icon": "none",
-            "content": "<p>Orders are typically fulfilled and shipped Monday through Friday within <em><strong>24 hours of being placed</strong></em>.</p><p>We offer a few domestic and international shipping options based on your budget and how quickly you want to get dialed in!</p>",
+            "content": "<p>We ship <strong>FAST</strong>.<br/><br/>Fulfilled within 24 business hours. 90% of orders arrive early.<br/><br/>Expedited options if your next tee time is coming up.</p>",
             "page": ""
           }
         },
