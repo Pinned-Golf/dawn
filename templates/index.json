@@ -34,7 +34,7 @@
         "@media screen and (min-width: 750px) {.banner--large:not(.banner--adapt) {min-height: 90rem; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/UP_2048_x_1365_px_1200_x_600_px_3072_x_2048_px.png",
+        "image": "shopify://shop_images/UP_2048_x_1365_px_1200_x_600_px_3072_x_2048_px_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -50,7 +50,7 @@
     "image_banner_QMgQCn": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify://shop_images/Memorial_Day_Collection_9.jpg",
+        "image": "shopify://shop_images/Memorial_Day_Collection_9.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
