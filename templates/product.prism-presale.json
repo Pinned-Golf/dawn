@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -15,19 +15,17 @@
         "text_cfdjnc": {
           "type": "text",
           "settings": {
-            "text": "<strong>Limited Edition | Only 250 Made<\/strong>",
+            "text": "<strong>CYBER MONDAY CLOSEOUT SALE</strong>",
             "text_style": "uppercase"
           }
         },
         "judge_me_reviews_preview_badge_tAHRwe": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "text_8pA7Hq": {
           "type": "text",
@@ -38,8 +36,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -57,21 +54,20 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "icon_with_text_UWmnYD": {
           "type": "icon-with-text",
           "settings": {
             "layout": "horizontal",
             "icon_1": "none",
-            "image_1": "shopify:\/\/shop_images\/1_f566ca30-628a-4dec-9858-da70ead17dd2.jpg",
+            "image_1": "shopify://shop_images/1_f566ca30-628a-4dec-9858-da70ead17dd2.jpg",
             "heading_1": "Free Shipping",
             "icon_2": "none",
-            "image_2": "shopify:\/\/shop_images\/2_c0b7a380-c7d2-4ff6-8e2b-0fe2df48f4de.jpg",
+            "image_2": "shopify://shop_images/2_c0b7a380-c7d2-4ff6-8e2b-0fe2df48f4de.jpg",
             "heading_2": "60 Day Returns",
             "icon_3": "none",
-            "image_3": "shopify:\/\/shop_images\/5_d31e8e02-3601-4ba7-810d-96c7ca29ad75.jpg",
+            "image_3": "shopify://shop_images/5_d31e8e02-3601-4ba7-810d-96c7ca29ad75.jpg",
             "heading_3": "Top Tier Support"
           }
         },
@@ -79,8 +75,9 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Features",
+            "default_open": false,
             "icon": "none",
-            "content": "<ul><li>Slope Technology<\/li><li>USB-C Rechargeable Battery<\/li><li>60 Round Battery Life<\/li><li>Built-In Magnet<\/li><li>PinnedLock Vibration<\/li><li>Two Year Warranty<\/li><\/ul>",
+            "content": "<ul><li>Slope Technology</li><li>USB-C Rechargeable Battery</li><li>60 Round Battery Life</li><li>Built-In Magnet</li><li>PinnedLock Vibration</li><li>Two Year Warranty</li></ul>",
             "page": ""
           }
         },
@@ -88,8 +85,9 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "What's in the box?",
+            "default_open": false,
             "icon": "none",
-            "content": "<ul><li>Prism Rangefinder<\/li><li>Hard Cover Case<\/li><li>USB-C Charging Cord<\/li><li>Pinned Ball Marker<\/li><li>Pinned Sticker<\/li><li>Bag Clip Carabiner<\/li><li>Lens Cleaning Cloth<\/li><li>Instruction Manual<\/li><\/ul>",
+            "content": "<ul><li>Prism Rangefinder</li><li>Hard Cover Case</li><li>USB-C Charging Cord</li><li>Pinned Ball Marker</li><li>Pinned Sticker</li><li>Bag Clip Carabiner</li><li>Lens Cleaning Cloth</li><li>Instruction Manual</li></ul>",
             "page": ""
           }
         },
@@ -97,8 +95,9 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Shipping",
+            "default_open": false,
             "icon": "none",
-            "content": "<p>Orders are typically fulfilled and shipped Monday through Friday within <em><strong>24 hours of being placed<\/strong><\/em>.<\/p><p>We offer a few domestic and international shipping options based on your budget and how quickly you want to get dialed in!<\/p>",
+            "content": "<p>Orders are typically fulfilled and shipped Monday through Friday within <em><strong>24 hours of being placed</strong></em>.</p><p>We offer a few domestic and international shipping options based on your budget and how quickly you want to get dialed in!</p>",
             "page": ""
           }
         },
@@ -106,56 +105,17 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "The Pinned Promise",
+            "default_open": false,
             "icon": "none",
-            "content": "<p>We don't release a product unless it hits on these 4 core values... <\/p><ol><li>Elevates your game<\/li><li>Styled to turn heads<\/li><li>Pushes the envelop<\/li><li>Stands the test of time<\/li><\/ol>",
+            "content": "<p>We don't release a product unless it hits on these 4 core values... </p><ol><li>Elevates your game</li><li>Styled to turn heads</li><li>Pushes the envelop</li><li>Stands the test of time</li></ol>",
             "page": ""
           }
         },
-        "complementary_iYLVh9": {
-          "type": "complementary",
+        "text_bJ3MHz": {
+          "type": "text",
           "settings": {
-            "block_heading": "Father's Day Special",
-            "make_collapsible_row": false,
-            "icon": "price_tag",
-            "product_list_limit": 10,
-            "products_per_page": 3,
-            "pagination_style": "counter",
-            "image_ratio": "square",
-            "enable_quick_add": true
-          }
-        },
-        "monster_cart_upsell_free_gifts_monster_deals_MXPxq4": {
-          "type": "shopify:\/\/apps\/monster-cart-upsell-free-gifts\/blocks\/monster-deals\/a1b8e58a-bf1d-4e0f-8768-a387c3f643c0",
-          "disabled": true,
-          "settings": {
-            "offer_collection": [
-
-            ],
-            "offer_product": [
-              "camo-prism-rangefinder"
-            ],
-            "hide_product_variants": true,
-            "show_variants": true,
-            "reward_type": "percentage",
-            "offer_a_title": "Single",
-            "offer_a_subtitle": "Standard price",
-            "offer_b_quantity": 2,
-            "offer_b_price_value": 10,
-            "offer_b_title": "Duo",
-            "offer_b_subtitle": "You save 10%",
-            "offer_b_label": "Popular",
-            "offer_c_quantity": 3,
-            "offer_c_price_value": 20,
-            "offer_c_title": "Trio",
-            "offer_c_subtitle": "You save 20%",
-            "offer_c_label": "Best Price ⚡",
-            "highlight_color": "#5a75f8",
-            "highlight_text_color": "#ffffff",
-            "secondary_color": "#d7deff",
-            "secondary_text_color": "#000000",
-            "highlight_border_color": "#5a75f8",
-            "secondary_border_color": "#5a75f8",
-            "block_curves": 9
+            "text": "PLEASE NOTE: THIS RANGEFINDER DOES NOT INCLUDE A FREE SOUND STICK SPEAKER.",
+            "text_style": "body"
           }
         }
       },
@@ -173,8 +133,7 @@
         "collapsible_tab_ULUXpP",
         "collapsible_tab_LEjyQf",
         "collapsible_tab_ydzdBh",
-        "complementary_iYLVh9",
-        "monster_cart_upsell_free_gifts_monster_deals_MXPxq4"
+        "text_bJ3MHz"
       ],
       "custom_css": [
         "div.product__title + p + p {color: red;}"
@@ -199,7 +158,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-YjnwzK\"><\/div>",
+        "custom_liquid": "<div class=\"klaviyo-form-YjnwzK\"></div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -208,7 +167,7 @@
     "image_banner_AgN8Rt": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/trusted_byhp.jpg",
+        "image": "shopify://shop_images/trusted_byhp.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -227,10 +186,10 @@
         "row_hqhrD3": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_2494897c-1ba5-4802-8a92-cf347d6ffc66.jpg",
+            "image": "shopify://shop_images/1_2494897c-1ba5-4802-8a92-cf347d6ffc66.jpg",
             "caption": "No More Batteries",
             "heading": "USB-C Rechargeable",
-            "text": "<p>One hour charge will have your Prism dialed in for 60 rounds. So long are the days of a dead battery on the course.<\/p>",
+            "text": "<p>One hour charge will have your Prism dialed in for 60 rounds. So long are the days of a dead battery on the course.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -239,10 +198,10 @@
           "type": "row",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Pinned_Prism_white.2.jpg",
+            "image": "shopify://shop_images/Pinned_Prism_white.2.jpg",
             "caption": "Never before seen",
             "heading": "First Target Acquisition",
-            "text": "<p>Distance to the flag every time. No more getting distances of the tree behind the flag. Be dialed in every single shot. <\/p>",
+            "text": "<p>Distance to the flag every time. No more getting distances of the tree behind the flag. Be dialed in every single shot. </p>",
             "button_label": "",
             "button_link": ""
           }
@@ -250,10 +209,10 @@
         "row_xyYV8h": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_19f87ff5-62f3-448f-b102-aeddeced789f.jpg",
+            "image": "shopify://shop_images/3_19f87ff5-62f3-448f-b102-aeddeced789f.jpg",
             "caption": "Super Strong",
             "heading": "Built-In Magnet",
-            "text": "<p>Simply attach your Prism to the cart bar or a club for quick and convenient access.<\/p>",
+            "text": "<p>Simply attach your Prism to the cart bar or a club for quick and convenient access.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -261,10 +220,10 @@
         "row_i6JpJg": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_1080_x_1080_px.jpg",
+            "image": "shopify://shop_images/Untitled_1080_x_1080_px.jpg",
             "caption": "True playing distance",
             "heading": "Slope Technology",
-            "text": "<p>Experience the true playing distance for every shot. We handle the calculations for you, no matter your lie, providing the exact distance for your next shot. Adjust your club selection with confidence.<\/p>",
+            "text": "<p>Experience the true playing distance for every shot. We handle the calculations for you, no matter your lie, providing the exact distance for your next shot. Adjust your club selection with confidence.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -273,10 +232,10 @@
           "type": "row",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_a07c938e-c130-4350-bc36-d46e2dce5643.jpg",
+            "image": "shopify://shop_images/3_a07c938e-c130-4350-bc36-d46e2dce5643.jpg",
             "caption": "Extremely",
             "heading": "Easy To Use",
-            "text": "<p>Combining one click readings, first target acquisition on a 4K screen, some are saying this is the easiest rangefinder to use on the market regardless of your handicap.<\/p>",
+            "text": "<p>Combining one click readings, first target acquisition on a 4K screen, some are saying this is the easiest rangefinder to use on the market regardless of your handicap.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -308,7 +267,7 @@
     "image_banner_YTFPAp": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Prismvsp.jpg",
+        "image": "shopify://shop_images/Prismvsp.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "bottom-center",
@@ -325,7 +284,7 @@
       "type": "image-banner",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/The_Prism_1080_x_720_px_1080_x_500_px_1500_x_750_px_1500_x_1600_px.gif",
+        "image": "shopify://shop_images/The_Prism_1080_x_720_px_1080_x_500_px_1500_x_750_px_1500_x_1600_px.gif",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -345,7 +304,7 @@
           "type": "button",
           "settings": {
             "button_label": "Buy The Prism",
-            "button_link": "shopify:\/\/products\/the-prism24",
+            "button_link": "shopify://products/the-prism24",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -356,9 +315,7 @@
       "block_order": [
         "button_JY4HTi"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -374,19 +331,19 @@
         "image_tNhy4d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_59.jpg"
+            "image": "shopify://shop_images/Untitled_design_59.jpg"
           }
         },
         "image_iyagxd": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_4c8c021d-7b49-4b72-9913-db96113298bf.jpg"
+            "image": "shopify://shop_images/4_4c8c021d-7b49-4b72-9913-db96113298bf.jpg"
           }
         },
         "image_QJJyGn": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_84_430x_717db64f-a81c-4f2a-9cac-b07cb8bcb4ef.webp"
+            "image": "shopify://shop_images/Untitled_design_84_430x_717db64f-a81c-4f2a-9cac-b07cb8bcb4ef.webp"
           }
         }
       },
@@ -412,19 +369,19 @@
         "image_cENgTq": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-08-18_at_1.43.47_PM_430x_46ee9dd7-4105-4b9f-92fb-31ebdf54a95c.webp"
+            "image": "shopify://shop_images/Screenshot_2023-08-18_at_1.43.47_PM_430x_46ee9dd7-4105-4b9f-92fb-31ebdf54a95c.webp"
           }
         },
         "image_XbyAnh": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Pinned_1_of_11_1_1.png"
+            "image": "shopify://shop_images/Pinned_1_of_11_1_1.png"
           }
         },
         "image_aPcjD7": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Dart_website_pics_7.jpg"
+            "image": "shopify://shop_images/Dart_website_pics_7.jpg"
           }
         }
       },
@@ -450,14 +407,14 @@
         "heading_C4xyht": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Fore The Kids.<\/strong>",
+            "heading": "<strong>Fore The Kids.</strong>",
             "heading_size": "h1"
           }
         },
         "text_eYc9Ny": {
           "type": "text",
           "settings": {
-            "text": "<p><em><strong>It's simple.<\/strong><\/em><\/p><p>Send us any rangefinder.<\/p><p>The brand does not matter.<\/p><p>We’ll refurbish & clean it up.<\/p><p>We’ll donate it to First Tee.<\/p><p>You’ll receive a massive discount. <\/p><p>The Prism+ Rangefinder for $199.<\/p><p><em><strong>A win, win. <\/strong><\/em><\/p>",
+            "text": "<p><em><strong>It's simple.</strong></em></p><p>Send us any rangefinder.</p><p>The brand does not matter.</p><p>We’ll refurbish & clean it up.</p><p>We’ll donate it to First Tee.</p><p>You’ll receive a massive discount. </p><p>The Prism+ Rangefinder for $199.</p><p><em><strong>A win, win. </strong></em></p>",
             "text_style": "body"
           }
         },
@@ -465,7 +422,7 @@
           "type": "button",
           "settings": {
             "button_label": "Learn More",
-            "button_link": "shopify:\/\/pages\/forethekids",
+            "button_link": "shopify://pages/forethekids",
             "button_style_secondary": true
           }
         }
@@ -477,7 +434,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_47e9.png",
+        "image": "shopify://shop_images/Frame_47e9.png",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -500,7 +457,7 @@
           "settings": {
             "heading": "Can you turn slope on and off?",
             "icon": "check_mark",
-            "row_content": "<p>Yes, The Prism+ golf rangefinder comes with a slope switch that allows you to turn the slope on and off. This means that our golf rangefinder is completely tournament legal.<\/p>",
+            "row_content": "<p>Yes, The Prism+ golf rangefinder comes with a slope switch that allows you to turn the slope on and off. This means that our golf rangefinder is completely tournament legal.</p>",
             "page": ""
           }
         },
@@ -509,7 +466,7 @@
           "settings": {
             "heading": "How do I know it's fully charged?",
             "icon": "check_mark",
-            "row_content": "<p>One 45 minute charge when you receive it and you will be good for the entire season! When fully charged, the green light will be lit.<\/p>",
+            "row_content": "<p>One 45 minute charge when you receive it and you will be good for the entire season! When fully charged, the green light will be lit.</p>",
             "page": ""
           }
         },
@@ -518,7 +475,7 @@
           "settings": {
             "heading": "Can I use any USB-C charger?",
             "icon": "check_mark",
-            "row_content": "<p>Please use the USB-C charging cord that comes with your Prism+.<\/p>",
+            "row_content": "<p>Please use the USB-C charging cord that comes with your Prism+.</p>",
             "page": ""
           }
         },
@@ -527,7 +484,7 @@
           "settings": {
             "heading": "How do I use my rangefinder?",
             "icon": "check_mark",
-            "row_content": "<p>Please head over to our tutorial section to learn how to use your device.<\/p>",
+            "row_content": "<p>Please head over to our tutorial section to learn how to use your device.</p>",
             "page": ""
           }
         },
@@ -536,7 +493,7 @@
           "settings": {
             "heading": "Should I register my device?",
             "icon": "check_mark",
-            "row_content": "<p>You do not have to but it is strongly encouraged to register your device once you have received it.<\/p>",
+            "row_content": "<p>You do not have to but it is strongly encouraged to register your device once you have received it.</p>",
             "page": ""
           }
         }
@@ -567,9 +524,8 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_review_widget_MqhpFj": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         }
       },
       "block_order": [
@@ -602,7 +558,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<a id=\"scroll-to-top\" href=\"#\">Buy The Prism<\/a>\n<script>\n  document.getElementById('scroll-to-top').addEventListener('click', (evt) => {\n    evt.preventDefault();\n    evt.stopPropagation();\n    document.querySelector('form[data-type=\"add-to-cart-form\"]').scrollIntoView({ behavior: \"smooth\", block: \"end\", inline: \"nearest\" })\n  });\n<\/script>",
+        "custom_liquid": "<a id=\"scroll-to-top\" href=\"#\">Buy The Prism</a>\n<script>\n  document.getElementById('scroll-to-top').addEventListener('click', (evt) => {\n    evt.preventDefault();\n    evt.stopPropagation();\n    document.querySelector('form[data-type=\"add-to-cart-form\"]').scrollIntoView({ behavior: \"smooth\", block: \"end\", inline: \"nearest\" })\n  });\n</script>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -612,7 +568,7 @@
       "type": "apps",
       "blocks": {
         "klaviyo_email_marketing_sms_form_embed_block_zG3Gxk": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
           "settings": {
             "formId": ""
           }
