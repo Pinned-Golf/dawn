@@ -114,7 +114,7 @@
         "text_bJ3MHz": {
           "type": "text",
           "settings": {
-            "text": "PLEASE NOTE: THIS RANGEFINDER DOES NOT INCLUDE A FREE SOUND STICK SPEAKER.",
+            "text": "<strong>PLEASE NOTE: THIS RANGEFINDER DOES NOT INCLUDE A FREE SOUND STICK SPEAKER.</strong>",
             "text_style": "body"
           }
         }
