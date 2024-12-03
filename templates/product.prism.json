@@ -524,6 +524,15 @@
             "row_content": "<p>You do not have to but it is strongly encouraged to register your device once you have received it.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_fx4MhC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How Strong are the magnets?",
+            "icon": "check_mark",
+            "row_content": "<p>The magnets have been tested by numerous 3rd party partners and never fell off the cart regardless of the landscape. They are N52 magnets which are the strongest magnet on the market.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -531,7 +540,8 @@
         "collapsible_row_EABUcy",
         "collapsible_row_4VXbwM",
         "collapsible_row_yG8QjR",
-        "collapsible_row_Nt36Ki"
+        "collapsible_row_Nt36Ki",
+        "collapsible_row_fx4MhC"
       ],
       "settings": {
         "caption": "",
