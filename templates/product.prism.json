@@ -98,10 +98,10 @@
             "layout": "horizontal",
             "icon_1": "none",
             "image_1": "shopify://shop_images/1_f566ca30-628a-4dec-9858-da70ead17dd2.jpg",
-            "heading_1": "Free Shipping",
+            "heading_1": "Fast & Free Shipping",
             "icon_2": "none",
             "image_2": "shopify://shop_images/2_c0b7a380-c7d2-4ff6-8e2b-0fe2df48f4de.jpg",
-            "heading_2": "60 Day Returns",
+            "heading_2": "Extended Returns",
             "icon_3": "none",
             "image_3": "shopify://shop_images/5_d31e8e02-3601-4ba7-810d-96c7ca29ad75.jpg",
             "heading_3": "Top Tier Support"
@@ -302,6 +302,44 @@
         "show_text_below": true
       }
     },
+    "collage_UbcL7P": {
+      "type": "collage",
+      "blocks": {
+        "image_EGRqUg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Comparison-1.png"
+          }
+        },
+        "image_AfyJe7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Comparisoklln.png"
+          }
+        },
+        "image_gm6AzT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Comparisonmiddle.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_EGRqUg",
+        "image_AfyJe7",
+        "image_gm6AzT"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_rk9B8n": {
       "type": "rich-text",
       "blocks": {
@@ -442,44 +480,6 @@
         "color_scheme": "scheme-af529a53-b94b-40d0-9746-399d6ccf1927",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collage_UbcL7P": {
-      "type": "collage",
-      "blocks": {
-        "image_EGRqUg": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Comparison-1.png"
-          }
-        },
-        "image_AfyJe7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Comparisoklln.png"
-          }
-        },
-        "image_gm6AzT": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Comparisonmiddle.png"
-          }
-        }
-      },
-      "block_order": [
-        "image_EGRqUg",
-        "image_AfyJe7",
-        "image_gm6AzT"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "desktop_layout": "right",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
