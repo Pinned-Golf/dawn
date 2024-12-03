@@ -279,22 +279,6 @@
         "padding_bottom": 12
       }
     },
-    "image_banner_HkpbKA": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify://shop_images/The_Prism_1080_x_720_px_1080_x_500_px_1500_x_750_px_1500_x_1600_px.gif",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "collage_UbcL7P": {
       "type": "collage",
       "blocks": {
@@ -367,7 +351,7 @@
         "image_tNhy4d": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/DSC00638.jpg"
+            "image": "shopify://shop_images/Untitled_design_23_f8b9554d-5fd7-476f-8efd-11d4a39bb608.jpg"
           }
         },
         "image_iyagxd": {
@@ -379,7 +363,7 @@
         "image_QJJyGn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PinnedGolf_June2024_CirilliPhoto-6805_1.png"
+            "image": "shopify://shop_images/1_32459041-d9e7-41d2-84ad-39805a31f154.jpg"
           }
         }
       },
@@ -411,7 +395,7 @@
         "image_XbyAnh": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/3_00a2e0e2-c596-4e5c-ac37-121b0e1b7d50.jpg"
+            "image": "shopify://shop_images/3_27467522-cad6-446b-9c67-5d0ecb14ea6f.jpg"
           }
         },
         "image_aPcjD7": {
@@ -633,7 +617,6 @@
     "main",
     "image_banner_AgN8Rt",
     "multirow_DgY64M",
-    "image_banner_HkpbKA",
     "collage_UbcL7P",
     "rich_text_rk9B8n",
     "collage_tcaNLP",
