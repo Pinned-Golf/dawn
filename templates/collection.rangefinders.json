@@ -45,7 +45,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
-        "quick_add": "standard",
+        "quick_add": "none",
         "enable_filtering": false,
         "filter_type": "horizontal",
         "enable_sorting": false,
@@ -68,6 +68,7 @@
       "block_order": [
         "product_mUpFE4"
       ],
+      "disabled": true,
       "settings": {
         "heading": "#1 Only Prism+",
         "heading_size": "h2",
@@ -93,6 +94,7 @@
       "block_order": [
         "product_yBnTw4"
       ],
+      "disabled": true,
       "settings": {
         "heading": "#2 Free Speaker Bundle",
         "heading_size": "h2",
@@ -157,6 +159,7 @@
         "quantity_selector_BKDCQc",
         "buy_buttons_7jJjXA"
       ],
+      "disabled": true,
       "settings": {
         "product": "prismplus-holiday-sale",
         "color_scheme": "scheme-af529a53-b94b-40d0-9746-399d6ccf1927",
@@ -219,6 +222,7 @@
         "variant_picker_XtBYdt",
         "buy_buttons_yt88aR"
       ],
+      "disabled": true,
       "settings": {
         "product": "prism-rangefinder-blackfriday-bundle",
         "color_scheme": "scheme-af529a53-b94b-40d0-9746-399d6ccf1927",
@@ -233,11 +237,72 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_tRtUmb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3HFwxr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pick Your Deal",
+            "heading_size": "h1"
+          }
+        },
+        "text_3ADmpr": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pick between two deals</p><p>$60 off the Prism+ </p><p>Prism+ and FREE speaker bundle</p>"
+          }
+        },
+        "button_iqWXTR": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "heading_9db8L8": {
+          "type": "heading",
+          "settings": {
+            "heading": "$60 off Prism+",
+            "heading_size": "h2"
+          }
+        },
+        "heading_JB69DV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Free Speaker Bundle",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3HFwxr",
+        "text_3ADmpr",
+        "button_iqWXTR",
+        "heading_9db8L8",
+        "heading_JB69DV"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "image_banner_Rmjip3",
     "banner",
+    "rich_text_tRtUmb",
     "product-grid",
     "collage_t4i7YD",
     "collage_XkE9nE",
