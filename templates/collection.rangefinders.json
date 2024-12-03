@@ -1,40 +1,20 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner_Rmjip3": {
       "type": "image-banner",
-      "blocks": {
-        "heading_8yFyfc": {
-          "type": "heading",
-          "settings": {
-            "heading": "Rangefinders",
-            "heading_size": "h1"
-          }
-        },
-        "text_ReHTTx": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "caption-with-letter-spacing"
-          }
-        }
-      },
-      "block_order": [
-        "heading_8yFyfc",
-        "text_ReHTTx"
-      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/5_e292f192-0012-4124-8dcb-8974b127c9db.png",
-        "image_overlay_opacity": 30,
-        "image_height": "medium",
+        "image": "shopify://shop_images/holidaty_dale_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
