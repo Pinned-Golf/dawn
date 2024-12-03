@@ -70,6 +70,12 @@
             "heading_size": "h2"
           }
         },
+        "text_pNhei9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>or</p>"
+          }
+        },
         "heading_JB69DV": {
           "type": "heading",
           "settings": {
@@ -83,6 +89,7 @@
         "text_3ADmpr",
         "button_iqWXTR",
         "heading_9db8L8",
+        "text_pNhei9",
         "heading_JB69DV"
       ],
       "settings": {
