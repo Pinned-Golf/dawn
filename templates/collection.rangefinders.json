@@ -71,6 +71,14 @@
             "text_style": "body"
           }
         },
+        "caption_NjhPHT": {
+          "type": "caption",
+          "settings": {
+            "caption": "the biggest sale we've ever run on the Prism+ rangefinder.",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "button_8xKVXh": {
           "type": "button",
           "settings": {
@@ -78,21 +86,13 @@
             "button_link": "shopify://products/prismplus-holiday-sale",
             "button_style_secondary": false
           }
-        },
-        "caption_NjhPHT": {
-          "type": "caption",
-          "settings": {
-            "caption": "Add a tagline",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
         }
       },
       "block_order": [
         "heading_JtiCPL",
         "text_Jf4bRe",
-        "button_8xKVXh",
-        "caption_NjhPHT"
+        "caption_NjhPHT",
+        "button_8xKVXh"
       ],
       "settings": {
         "image": "shopify://shop_images/Untitled_design_27_dbdda26c-9c9b-4a17-b0ab-1da8460b7d44.jpg",
