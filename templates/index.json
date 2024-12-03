@@ -77,6 +77,17 @@
             "button_link": "shopify://products/black-friday-prism-bundle"
           }
         },
+        "row_W7eLzB": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Pinned_Prism_red.17_ed1ccb94-a75f-4245-87da-ccaa4fd27ad8.jpg",
+            "caption": "Our Lowest Price Ever On",
+            "heading": "The Prism +",
+            "text": "",
+            "button_label": "Shop $199 Rangefinder",
+            "button_link": "shopify://products/prismplus-holiday-sale"
+          }
+        },
         "row_mTGVeR": {
           "type": "row",
           "settings": {
@@ -102,6 +113,7 @@
       },
       "block_order": [
         "row_kHGpxC",
+        "row_W7eLzB",
         "row_mTGVeR",
         "row_iJTrfd"
       ],
