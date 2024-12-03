@@ -81,10 +81,10 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/Pinned_Prism_red.17_ed1ccb94-a75f-4245-87da-ccaa4fd27ad8.jpg",
-            "caption": "Lowest Price Ever On",
+            "caption": "$199 Lowest Price Ever On",
             "heading": "The Prism +",
             "text": "",
-            "button_label": "Shop $199 Rangefinder",
+            "button_label": "Get Dialed In For Less",
             "button_link": "shopify://products/prismplus-holiday-sale"
           }
         },
