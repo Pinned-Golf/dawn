@@ -55,6 +55,31 @@
         "padding_bottom": 36
       }
     },
+    "collage_XkE9nE": {
+      "type": "collage",
+      "blocks": {
+        "product_yBnTw4": {
+          "type": "product",
+          "settings": {
+            "product": "prism-rangefinder-blackfriday-bundle",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": [
+        "product_yBnTw4"
+      ],
+      "settings": {
+        "heading": "Rangefinder Deal #2",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_product_zp8fzB": {
       "type": "featured-product",
       "blocks": {
@@ -215,40 +240,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "collage_XkE9nE": {
-      "type": "collage",
-      "blocks": {
-        "product_yBnTw4": {
-          "type": "product",
-          "settings": {
-            "product": "prism-rangefinder-blackfriday-bundle",
-            "second_image": false
-          }
-        }
-      },
-      "block_order": [
-        "product_yBnTw4"
-      ],
-      "settings": {
-        "heading": "Rangefinder Deal #2",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "image_banner_Rmjip3",
     "banner",
     "product-grid",
-    "featured_product_zp8fzB",
-    "featured_product_hJ43wH",
     "collage_t4i7YD",
-    "collage_XkE9nE"
+    "collage_XkE9nE",
+    "featured_product_zp8fzB",
+    "featured_product_hJ43wH"
   ]
 }
