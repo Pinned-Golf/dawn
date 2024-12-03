@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -41,7 +41,7 @@
         "text_3pcGdD": {
           "type": "text",
           "settings": {
-            "text": "<p>Looking to get in touch with us? Shoot us an email and we'll get back to you within 24 hours Monday-Friday!<\/p><p><em><strong>support@pinnedgolf.com<\/strong><\/em><strong> <\/strong><\/p><p>If you have not received a response within 24 hours, please check your spam folder. <\/p>"
+            "text": "<p>Looking to get in touch with us? Shoot us an email and we'll get back to you within 24 hours Monday-Friday!</p><p><em><strong>support@pinnedgolf.com</strong></em><strong> </strong></p><p>If you have not received a response within 24 hours, please check your spam folder. </p>"
           }
         },
         "button_Xpibq9": {
@@ -140,9 +140,9 @@
           "settings": {
             "caption": "How to use your",
             "heading": "Prism+ Rangefinder",
-            "text": "<p>Here is a quick little tutorial video on how to use your Prism+ rangefinder. <\/p>",
+            "text": "<p>Here is a quick little tutorial video on how to use your Prism+ rangefinder. </p>",
             "button_label": "Watch Tutorial",
-            "button_link": "shopify:\/\/pages\/contact-us"
+            "button_link": "shopify://pages/contact-us"
           }
         },
         "row_QJHXCY": {
@@ -150,9 +150,9 @@
           "settings": {
             "caption": "How to use your",
             "heading": "Dart 2.0 Speaker",
-            "text": "<p>Here is a quick little tutorial video on how to use your Dart 2.0 speaker. <\/p>",
+            "text": "<p>Here is a quick little tutorial video on how to use your Dart 2.0 speaker. </p>",
             "button_label": "Watch Tutorial",
-            "button_link": "shopify:\/\/pages\/caddy-combo"
+            "button_link": "shopify://pages/caddy-combo"
           }
         },
         "row_JrUFEw": {
@@ -160,7 +160,7 @@
           "settings": {
             "caption": "How to use your",
             "heading": "Sound Stick Speaker",
-            "text": "<p>Here is a quick little tutorial video on how to use your Sound Stick speaker. <\/p>",
+            "text": "<p>Here is a quick little tutorial video on how to use your Sound Stick speaker. </p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -194,31 +194,31 @@
         "column_zHWCdG": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/8_5817ab92-c16d-4046-bfdc-d4c15007cb3f.jpg",
+            "image": "shopify://shop_images/8_5817ab92-c16d-4046-bfdc-d4c15007cb3f.jpg",
             "title": "The Prism+ Rangefinder",
             "text": "",
             "link_label": "Digital User Manual",
-            "link": "shopify:\/\/pages\/prism-manual-2"
+            "link": "shopify://pages/prism-manual-2"
           }
         },
         "column_8JNhqN": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/The_Prism_4.jpg",
+            "image": "shopify://shop_images/The_Prism_4.jpg",
             "title": "The Dart 2.0 Speaker",
             "text": "",
             "link_label": "Digital User Manual",
-            "link": "https:\/\/www.pinnedgolf.com\/pages\/dart-2-0-user-manual"
+            "link": "https://www.pinnedgolf.com/pages/dart-2-0-user-manual"
           }
         },
         "column_7eErAg": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_16_c903dea4-78d6-40df-8dda-702403922615.jpg",
+            "image": "shopify://shop_images/Untitled_design_16_c903dea4-78d6-40df-8dda-702403922615.jpg",
             "title": "The Sound Stick Speaker",
             "text": "",
             "link_label": "Digital User Manual",
-            "link": "shopify:\/\/pages\/sound-stick-manual"
+            "link": "shopify://pages/sound-stick-manual"
           }
         }
       },
@@ -246,6 +246,7 @@
     },
     "featured_collection_33RiJE": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Trending",
         "heading_size": "h2",
