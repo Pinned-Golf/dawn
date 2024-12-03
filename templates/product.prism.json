@@ -671,9 +671,18 @@
         "collapsible_row_X9eV6U": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "As Good As It Gets",
+            "icon": "fire",
+            "row_content": "<p>Countless tests against the competition and let me tell you, we're just as good... if not better. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3RTHwb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Love It Or Return It",
+            "icon": "return",
+            "row_content": "<p>With our extended holiday return window, they will essentially be able to try the rangefinder on before they buy it. </p>",
             "page": ""
           }
         }
@@ -682,7 +691,8 @@
         "collapsible_row_LgaRjn",
         "collapsible_row_n9qCA6",
         "collapsible_row_APan9x",
-        "collapsible_row_X9eV6U"
+        "collapsible_row_X9eV6U",
+        "collapsible_row_3RTHwb"
       ],
       "settings": {
         "caption": "the perfect gift for your golfer and here are",
