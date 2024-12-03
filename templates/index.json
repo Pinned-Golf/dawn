@@ -15,9 +15,9 @@
         "buttons_EJHyeW": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Biggest Sale Ever",
-            "button_link_1": "shopify://products/prism-rangefinder-blackfriday-bundle",
-            "button_style_secondary_1": true,
+            "button_label_1": "Shop Holiday Sale",
+            "button_link_1": "shopify://collections/holiday-sale",
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -34,13 +34,13 @@
         "@media screen and (min-width: 750px) {.banner--large:not(.banner--adapt) {min-height: 90rem; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/UP_2048_x_1365_px_1200_x_600_px_3072_x_2048_px_1.jpg",
+        "image": "shopify://shop_images/UP_2048_x_1365_px_1200_x_600_px_3072_x_2048_px_3.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-4",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
