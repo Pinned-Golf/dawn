@@ -54,69 +54,17 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_mKf3D4": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_JtiCPL": {
-          "type": "heading",
-          "settings": {
-            "heading": "Prism+ Rangefinder",
-            "heading_size": "h1"
-          }
-        },
-        "text_Jf4bRe": {
-          "type": "text",
-          "settings": {
-            "text": "<h4><strong>Only $199.99</strong></h4>",
-            "text_style": "body"
-          }
-        },
-        "caption_NjhPHT": {
-          "type": "caption",
-          "settings": {
-            "caption": "the biggest sale we've ever run on the Prism+ rangefinder.",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "button_8xKVXh": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop Prism+ Only",
-            "button_link": "shopify://products/prismplus-holiday-sale",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_JtiCPL",
-        "text_Jf4bRe",
-        "caption_NjhPHT",
-        "button_8xKVXh"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Untitled_design_27_dbdda26c-9c9b-4a17-b0ab-1da8460b7d44.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_product_zp8fzB": {
       "type": "featured-product",
       "blocks": {
+        "rating_YAtiWw": {
+          "type": "rating",
+          "settings": {}
+        },
         "text_CNJqHD": {
           "type": "text",
           "settings": {
-            "text": "{{ section.settings.product.vendor }}",
+            "text": "<strong>2024 Holiday Sale</strong>",
             "text_style": "uppercase"
           }
         },
@@ -139,6 +87,7 @@
         },
         "quantity_selector_BKDCQc": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {}
         },
         "buy_buttons_7jJjXA": {
@@ -147,25 +96,81 @@
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
           }
-        },
-        "share_6L9ctx": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
+        "rating_YAtiWw",
         "text_CNJqHD",
         "title_Q3xirJ",
         "price_LmNtRi",
         "variant_picker_9QkaNG",
         "quantity_selector_BKDCQc",
-        "buy_buttons_7jJjXA",
-        "share_6L9ctx"
+        "buy_buttons_7jJjXA"
       ],
       "settings": {
         "product": "prismplus-holiday-sale",
+        "color_scheme": "scheme-af529a53-b94b-40d0-9746-399d6ccf1927",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_hJ43wH": {
+      "type": "featured-product",
+      "blocks": {
+        "rating_3wLdQM": {
+          "type": "rating",
+          "settings": {}
+        },
+        "text_EXE7Lm": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>VOTED 2024 Best Deal</strong>",
+            "text_style": "uppercase"
+          }
+        },
+        "title_9d8tQh": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_DRDzLe": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_XtBYdt": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown",
+            "swatch_shape": "circle"
+          }
+        },
+        "buy_buttons_yt88aR": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        }
+      },
+      "block_order": [
+        "rating_3wLdQM",
+        "text_EXE7Lm",
+        "title_9d8tQh",
+        "price_DRDzLe",
+        "variant_picker_XtBYdt",
+        "buy_buttons_yt88aR"
+      ],
+      "settings": {
+        "product": "prism-rangefinder-blackfriday-bundle",
         "color_scheme": "scheme-af529a53-b94b-40d0-9746-399d6ccf1927",
         "secondary_background": false,
         "media_size": "medium",
@@ -184,7 +189,7 @@
     "image_banner_Rmjip3",
     "banner",
     "product-grid",
-    "image_with_text_mKf3D4",
-    "featured_product_zp8fzB"
+    "featured_product_zp8fzB",
+    "featured_product_hJ43wH"
   ]
 }
