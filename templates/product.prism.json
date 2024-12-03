@@ -72,17 +72,11 @@
             "show_gift_card_recipient": true
           }
         },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {}
-        },
         "text_q4QtEN": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<strong>NOTE: USA PRISM+ WILL SHIP WEEK OF 8/19</strong>",
-            "text_style": "subtitle"
+            "text": "<strong>🔥 </strong><em><strong>2,679 bought in last 30 days</strong></em>",
+            "text_style": "body"
           }
         },
         "share": {
@@ -159,7 +153,6 @@
         "variant_picker",
         "quantity_selector_a4gife",
         "buy_buttons",
-        "description",
         "text_q4QtEN",
         "share",
         "icon_with_text_UWmnYD",
