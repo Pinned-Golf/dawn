@@ -111,7 +111,7 @@
       "settings": {
         "product": "prismplus-holiday-sale",
         "color_scheme": "scheme-af529a53-b94b-40d0-9746-399d6ccf1927",
-        "secondary_background": false,
+        "secondary_background": true,
         "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
@@ -173,7 +173,7 @@
       "settings": {
         "product": "prism-rangefinder-blackfriday-bundle",
         "color_scheme": "scheme-af529a53-b94b-40d0-9746-399d6ccf1927",
-        "secondary_background": false,
+        "secondary_background": true,
         "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
@@ -184,6 +184,62 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collage_t4i7YD": {
+      "type": "collage",
+      "blocks": {
+        "product_mUpFE4": {
+          "type": "product",
+          "settings": {
+            "product": "prismplus-holiday-sale",
+            "second_image": false
+          }
+        },
+        "image_knmpmM": {
+          "type": "image",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "product_mUpFE4",
+        "image_knmpmM"
+      ],
+      "settings": {
+        "heading": "Rangefinder Deal #1",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_XkE9nE": {
+      "type": "collage",
+      "blocks": {
+        "product_yBnTw4": {
+          "type": "product",
+          "settings": {
+            "product": "prism-rangefinder-blackfriday-bundle",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": [
+        "product_yBnTw4"
+      ],
+      "settings": {
+        "heading": "Rangefinder Deal #2",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -191,6 +247,8 @@
     "banner",
     "product-grid",
     "featured_product_zp8fzB",
-    "featured_product_hJ43wH"
+    "featured_product_hJ43wH",
+    "collage_t4i7YD",
+    "collage_XkE9nE"
   ]
 }
