@@ -24,8 +24,8 @@
         "announcement_qHNjyt": {
           "type": "announcement",
           "settings": {
-            "text": "Cyber Monday Sale! Up To 60% Off!",
-            "link": "shopify://collections/cyber-monday"
+            "text": "Holiday Sale! Up To 60% Off!",
+            "link": "shopify://collections/holiday-sale"
           }
         }
       },
