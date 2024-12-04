@@ -252,6 +252,7 @@
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
+    {{ 'customizations.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
       {% comment %}theme-check-disable AssetPreload{% endcomment %}
@@ -407,26 +408,11 @@
     <!-- }); -->
     <!-- </script> -->
 
-
-
-
-
-
-
-<style>
-.jdgm-prev-badge__text {text-decoration: underline !important; font-size: 15px !important}
-</style>
-
-
-
-
-
-
-
-
-
-
-
-    
+    <style>
+      .jdgm-prev-badge__text {
+        text-decoration: underline !important;
+        font-size: 15px !important;
+      }
+    </style>
   </body>
 </html>
