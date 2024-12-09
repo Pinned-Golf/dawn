@@ -27,11 +27,19 @@
             "text": "Holiday Sale! Up To 60% Off!",
             "link": "shopify://collections/holiday-sale"
           }
+        },
+        "announcement_fKDt3U": {
+          "type": "announcement",
+          "settings": {
+            "text": "Order By 12/18 For Holiday Delivery",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "announcement-bar-0",
-        "announcement_qHNjyt"
+        "announcement_qHNjyt",
+        "announcement_fKDt3U"
       ],
       "settings": {
         "color_scheme": "scheme-c0798240-f91b-417c-b76f-2452d300ad24",
