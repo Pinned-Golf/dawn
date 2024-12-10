@@ -128,22 +128,22 @@
         "text_7e7XfA": {
           "type": "text",
           "settings": {
-            "text": "<strong>Shop Our Lowest Price Ever</strong>",
+            "text": "<strong>Shop Our Lowest Price Ever On</strong>",
             "text_style": "caption-with-letter-spacing"
           }
         },
         "heading_caUAbP": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Prism+ Rangefinder.</strong>",
+            "heading": "<strong>The Prism+.</strong>",
             "heading_size": "h1"
           }
         },
         "buttons_FiLCzj": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Pinned Family Reviews",
-            "button_link_1": "shopify://pages/reviews",
+            "button_label_1": "Shop $199 Rangefinder",
+            "button_link_1": "shopify://products/prismplus-holiday-sale",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
