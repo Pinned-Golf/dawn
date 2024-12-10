@@ -284,8 +284,8 @@
         "text_9LcTpP": {
           "type": "text",
           "settings": {
-            "text": "Trusted by 150,000+ golfers all around the world.",
-            "text_style": "body"
+            "text": "<em><strong>Trusted by 150,000+ golfers all over the world.</strong></em>",
+            "text_style": "caption-with-letter-spacing"
           }
         },
         "buttons_LBnm4e": {
@@ -415,7 +415,7 @@
         "column_jX6AEE": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_23_f8b9554d-5fd7-476f-8efd-11d4a39bb608.jpg",
+            "image": "shopify://shop_images/1_7c365987-0366-4b2b-86df-9a56ca6477f1.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -445,8 +445,29 @@
         "column_fY6xLm": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/7_3f1406f2-4d84-4b16-8378-95ded32bb9f3.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_B7NeMR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/8_12e23400-d218-4576-892f-29b9033abc55.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DRPAHM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/4_a7ca4bcf-479d-4194-a568-47939fb90399.jpg",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -456,21 +477,62 @@
         "column_jX6AEE",
         "column_cXY3Pi",
         "column_88fTcT",
-        "column_fY6xLm"
+        "column_fY6xLm",
+        "column_B7NeMR",
+        "column_DRPAHM"
       ],
+      "disabled": true,
       "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "image_width": "half",
-        "image_ratio": "adapt",
+        "title": "We golf, you follow.",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "portrait",
         "columns_desktop": 5,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "none",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_BBmpyn": {
+      "type": "collage",
+      "blocks": {
+        "image_MyxQmx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_26_6f269424-0f32-4969-bcf5-6667fad10408.jpg"
+          }
+        },
+        "image_WVq8hH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_19_bcd822d0-0b11-4cbd-ada0-3efff49f964b.jpg"
+          }
+        },
+        "image_6hcpKK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Pinned_Augsust-8.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_MyxQmx",
+        "image_WVq8hH",
+        "image_6hcpKK"
+      ],
+      "settings": {
+        "heading": "We golf, you follow.",
+        "heading_size": "h0",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -487,6 +549,7 @@
     "1730301771a79b1aa4",
     "newsletter_qzCyW7",
     "collage_zD3YpU",
-    "multicolumn_AzFUgQ"
+    "multicolumn_AzFUgQ",
+    "collage_BBmpyn"
   ]
 }
