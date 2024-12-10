@@ -505,19 +505,19 @@
         "image_MyxQmx": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_26_6f269424-0f32-4969-bcf5-6667fad10408.jpg"
+            "image": "shopify://shop_images/1_2dcf1ea4-e7d9-4e18-ab77-cb8c31932bf6.jpg"
           }
         },
         "image_WVq8hH": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_19_bcd822d0-0b11-4cbd-ada0-3efff49f964b.jpg"
+            "image": "shopify://shop_images/9_ed6693f7-cb79-4313-b189-8208ef096e67.jpg"
           }
         },
         "image_6hcpKK": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Pinned_Augsust-8.jpg"
+            "image": "shopify://shop_images/10_7975055b-5605-4e2a-86ee-18d8d6e5eca8.jpg"
           }
         }
       },
@@ -527,13 +527,51 @@
         "image_6hcpKK"
       ],
       "settings": {
-        "heading": "We golf, you follow.",
+        "heading": "'Tis the season... to golf.",
         "heading_size": "h0",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "collage_fmDCkM": {
+      "type": "collage",
+      "blocks": {
+        "image_VB4hQP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_b6bb1aaa-edd1-4c1d-980b-17ff42d6ca01.jpg"
+          }
+        },
+        "image_PjKn96": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/12_4c257976-9ef7-48df-be48-b3c2f870c5a8.jpg"
+          }
+        },
+        "image_ycEbJt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/13_2e61e480-29b3-43a1-898f-8f1623ce1b0b.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_VB4hQP",
+        "image_PjKn96",
+        "image_ycEbJt"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
         "color_scheme": "",
-        "padding_top": 36,
+        "padding_top": 4,
         "padding_bottom": 36
       }
     }
@@ -550,6 +588,7 @@
     "newsletter_qzCyW7",
     "collage_zD3YpU",
     "multicolumn_AzFUgQ",
-    "collage_BBmpyn"
+    "collage_BBmpyn",
+    "collage_fmDCkM"
   ]
 }
