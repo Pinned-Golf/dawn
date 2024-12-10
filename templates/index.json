@@ -63,6 +63,172 @@
         "show_text_below": false
       }
     },
+    "image_banner_rft3CR": {
+      "type": "image-banner",
+      "blocks": {
+        "text_7Kf6iC": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Turn Up The Vibes With Our</strong>",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "heading_xmxqFF": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Speakers.</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "buttons_JjRAMK": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Up To 30% Off",
+            "button_link_1": "shopify://collections/bf-speakers",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_7Kf6iC",
+        "heading_xmxqFF",
+        "buttons_JjRAMK"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/10_f07955c7-49a9-4315-92ab-597136fe909e.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "rich_text_wt4TNx": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "image_banner_4ac4Cg": {
+      "type": "image-banner",
+      "blocks": {
+        "text_9LcTpP": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>BUY A RANGEFINDER</strong>",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "heading_EEx7x3": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Get A Free Speaker.</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "buttons_LBnm4e": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Best Deal Ever.",
+            "button_link_1": "shopify://products/prism-rangefinder-blackfriday-bundle",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_9LcTpP",
+        "heading_EEx7x3",
+        "buttons_LBnm4e"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/12_e63d98a3-4100-4d27-8577-058f8f920809.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "rich_text_A9w3Lk": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "image_banner_QJMVBf": {
+      "type": "image-banner",
+      "blocks": {
+        "text_7e7XfA": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Shop Our Lowest Price Ever</strong>",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "heading_caUAbP": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Prism+ Rangefinder.</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "buttons_FiLCzj": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Pinned Family Reviews",
+            "button_link_1": "shopify://pages/reviews",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_7e7XfA",
+        "heading_caUAbP",
+        "buttons_FiLCzj"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/11_a577b5e8-a2cc-49d8-af51-4699a480cffc.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "multirow_GehmqX": {
       "type": "multirow",
       "blocks": {
@@ -117,6 +283,7 @@
         "row_mTGVeR",
         "row_iJTrfd"
       ],
+      "disabled": true,
       "custom_css": [
         ".image-with-text__text--caption {font-size: large; font-weight: 500;}"
       ],
@@ -347,24 +514,24 @@
         "padding_bottom": 36
       }
     },
-    "image_banner_4ac4Cg": {
+    "image_banner_8Dbhdr": {
       "type": "image-banner",
       "blocks": {
-        "heading_EEx7x3": {
+        "heading_4Nd4m3": {
           "type": "heading",
           "settings": {
             "heading": "Our Pinned Family Rolls Deep.",
             "heading_size": "h1"
           }
         },
-        "text_9LcTpP": {
+        "text_teNUyB": {
           "type": "text",
           "settings": {
             "text": "<em><strong>Trusted by 150,000+ golfers all over the world.</strong></em>",
             "text_style": "caption-with-letter-spacing"
           }
         },
-        "buttons_LBnm4e": {
+        "buttons_UXmBhC": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Pinned Family Reviews",
@@ -377,9 +544,9 @@
         }
       },
       "block_order": [
-        "heading_EEx7x3",
-        "text_9LcTpP",
-        "buttons_LBnm4e"
+        "heading_4Nd4m3",
+        "text_teNUyB",
+        "buttons_UXmBhC"
       ],
       "settings": {
         "image": "shopify://shop_images/UP_2048_x_1365_px_2048_x_1080_px_1.jpg",
@@ -574,21 +741,38 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "rich_text_fFehrF": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
     }
   },
   "order": [
     "image_banner_iWr6ta",
     "image_banner_QMgQCn",
+    "image_banner_rft3CR",
+    "rich_text_wt4TNx",
+    "image_banner_4ac4Cg",
+    "rich_text_A9w3Lk",
+    "image_banner_QJMVBf",
     "multirow_GehmqX",
     "image_banner_FdxwLK",
     "multicolumn_bE7ELq",
     "collapsible_content_rT76Q4",
     "collage_BBmpyn",
     "collage_fmDCkM",
-    "image_banner_4ac4Cg",
+    "image_banner_8Dbhdr",
     "newsletter_qzCyW7",
     "collage_zD3YpU",
     "multicolumn_AzFUgQ",
-    "1730301771a79b1aa4"
+    "1730301771a79b1aa4",
+    "rich_text_fFehrF"
   ]
 }
