@@ -332,6 +332,7 @@
       "block_order": [
         "judge_me_reviews_featured_carousel_mVcaHd"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
@@ -407,6 +408,72 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_AzFUgQ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_jX6AEE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_23_f8b9554d-5fd7-476f-8efd-11d4a39bb608.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cXY3Pi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_26_6f269424-0f32-4969-bcf5-6667fad10408.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_88fTcT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_25_d6c2dadc-9b64-422b-872d-4840c4fed0d1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fY6xLm": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_jX6AEE",
+        "column_cXY3Pi",
+        "column_88fTcT",
+        "column_fY6xLm"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -419,6 +486,7 @@
     "image_banner_4ac4Cg",
     "1730301771a79b1aa4",
     "newsletter_qzCyW7",
-    "collage_zD3YpU"
+    "collage_zD3YpU",
+    "multicolumn_AzFUgQ"
   ]
 }
