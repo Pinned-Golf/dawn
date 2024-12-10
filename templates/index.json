@@ -271,6 +271,82 @@
         "padding_bottom": 76
       }
     },
+    "collage_BBmpyn": {
+      "type": "collage",
+      "blocks": {
+        "image_MyxQmx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_2dcf1ea4-e7d9-4e18-ab77-cb8c31932bf6.jpg"
+          }
+        },
+        "image_WVq8hH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9_ed6693f7-cb79-4313-b189-8208ef096e67.jpg"
+          }
+        },
+        "image_6hcpKK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/10_7975055b-5605-4e2a-86ee-18d8d6e5eca8.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_MyxQmx",
+        "image_WVq8hH",
+        "image_6hcpKK"
+      ],
+      "settings": {
+        "heading": "'Tis the season... to golf.",
+        "heading_size": "h0",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "collage_fmDCkM": {
+      "type": "collage",
+      "blocks": {
+        "image_VB4hQP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_b6bb1aaa-edd1-4c1d-980b-17ff42d6ca01.jpg"
+          }
+        },
+        "image_PjKn96": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/12_4c257976-9ef7-48df-be48-b3c2f870c5a8.jpg"
+          }
+        },
+        "image_ycEbJt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/13_2e61e480-29b3-43a1-898f-8f1623ce1b0b.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_VB4hQP",
+        "image_PjKn96",
+        "image_ycEbJt"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 4,
+        "padding_bottom": 36
+      }
+    },
     "image_banner_4ac4Cg": {
       "type": "image-banner",
       "blocks": {
@@ -317,24 +393,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
-      }
-    },
-    "1730301771a79b1aa4": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_featured_carousel_mVcaHd": {
-          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 2500
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_featured_carousel_mVcaHd"
-      ],
-      "disabled": true,
-      "settings": {
-        "include_margins": true
       }
     },
     "newsletter_qzCyW7": {
@@ -499,80 +557,22 @@
         "padding_bottom": 36
       }
     },
-    "collage_BBmpyn": {
-      "type": "collage",
+    "1730301771a79b1aa4": {
+      "type": "apps",
       "blocks": {
-        "image_MyxQmx": {
-          "type": "image",
+        "judge_me_reviews_featured_carousel_mVcaHd": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "image": "shopify://shop_images/1_2dcf1ea4-e7d9-4e18-ab77-cb8c31932bf6.jpg"
-          }
-        },
-        "image_WVq8hH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/9_ed6693f7-cb79-4313-b189-8208ef096e67.jpg"
-          }
-        },
-        "image_6hcpKK": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/10_7975055b-5605-4e2a-86ee-18d8d6e5eca8.jpg"
+            "maxwidth": 2500
           }
         }
       },
       "block_order": [
-        "image_MyxQmx",
-        "image_WVq8hH",
-        "image_6hcpKK"
+        "judge_me_reviews_featured_carousel_mVcaHd"
       ],
+      "disabled": true,
       "settings": {
-        "heading": "'Tis the season... to golf.",
-        "heading_size": "h0",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "none",
-        "color_scheme": "",
-        "padding_top": 24,
-        "padding_bottom": 0
-      }
-    },
-    "collage_fmDCkM": {
-      "type": "collage",
-      "blocks": {
-        "image_VB4hQP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/4_b6bb1aaa-edd1-4c1d-980b-17ff42d6ca01.jpg"
-          }
-        },
-        "image_PjKn96": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/12_4c257976-9ef7-48df-be48-b3c2f870c5a8.jpg"
-          }
-        },
-        "image_ycEbJt": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/13_2e61e480-29b3-43a1-898f-8f1623ce1b0b.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "image_VB4hQP",
-        "image_PjKn96",
-        "image_ycEbJt"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "",
-        "padding_top": 4,
-        "padding_bottom": 36
+        "include_margins": true
       }
     }
   },
@@ -583,12 +583,12 @@
     "image_banner_FdxwLK",
     "multicolumn_bE7ELq",
     "collapsible_content_rT76Q4",
+    "collage_BBmpyn",
+    "collage_fmDCkM",
     "image_banner_4ac4Cg",
-    "1730301771a79b1aa4",
     "newsletter_qzCyW7",
     "collage_zD3YpU",
     "multicolumn_AzFUgQ",
-    "collage_BBmpyn",
-    "collage_fmDCkM"
+    "1730301771a79b1aa4"
   ]
 }
