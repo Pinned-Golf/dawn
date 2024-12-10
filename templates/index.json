@@ -63,6 +63,54 @@
         "show_text_below": false
       }
     },
+    "image_banner_4ac4Cg": {
+      "type": "image-banner",
+      "blocks": {
+        "text_9LcTpP": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>BUY A RANGEFINDER</strong>",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "heading_EEx7x3": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Get A Free Speaker.</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "buttons_LBnm4e": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Best Deal Ever.",
+            "button_link_1": "shopify://products/prism-rangefinder-blackfriday-bundle",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_9LcTpP",
+        "heading_EEx7x3",
+        "buttons_LBnm4e"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/12_e63d98a3-4100-4d27-8577-058f8f920809.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "image_banner_rft3CR": {
       "type": "image-banner",
       "blocks": {
@@ -120,54 +168,6 @@
         "full_width": true,
         "padding_top": 4,
         "padding_bottom": 4
-      }
-    },
-    "image_banner_4ac4Cg": {
-      "type": "image-banner",
-      "blocks": {
-        "text_9LcTpP": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>BUY A RANGEFINDER</strong>",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "heading_EEx7x3": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Get A Free Speaker.</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "buttons_LBnm4e": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Best Deal Ever.",
-            "button_link_1": "shopify://products/prism-rangefinder-blackfriday-bundle",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "text_9LcTpP",
-        "heading_EEx7x3",
-        "buttons_LBnm4e"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/12_e63d98a3-4100-4d27-8577-058f8f920809.jpg",
-        "image_overlay_opacity": 10,
-        "image_height": "large",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-4",
-        "image_behavior": "fixed",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
       }
     },
     "rich_text_A9w3Lk": {
@@ -757,11 +757,11 @@
   "order": [
     "image_banner_iWr6ta",
     "image_banner_QMgQCn",
-    "image_banner_rft3CR",
-    "rich_text_wt4TNx",
     "image_banner_4ac4Cg",
-    "rich_text_A9w3Lk",
+    "rich_text_wt4TNx",
     "image_banner_QJMVBf",
+    "rich_text_A9w3Lk",
+    "image_banner_rft3CR",
     "multirow_GehmqX",
     "image_banner_FdxwLK",
     "multicolumn_bE7ELq",
