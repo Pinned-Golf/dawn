@@ -111,54 +111,6 @@
         "show_text_below": false
       }
     },
-    "image_banner_rft3CR": {
-      "type": "image-banner",
-      "blocks": {
-        "text_7Kf6iC": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>Turn Up The Vibes With Our</strong>",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "heading_xmxqFF": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Speakers.</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "buttons_JjRAMK": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Up To 30% Off",
-            "button_link_1": "shopify://collections/bf-speakers",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "text_7Kf6iC",
-        "heading_xmxqFF",
-        "buttons_JjRAMK"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/10_f07955c7-49a9-4315-92ab-597136fe909e.jpg",
-        "image_overlay_opacity": 10,
-        "image_height": "large",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-4",
-        "image_behavior": "fixed",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "rich_text_wt4TNx": {
       "type": "rich-text",
       "settings": {
@@ -166,18 +118,7 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 4,
-        "padding_bottom": 4
-      }
-    },
-    "rich_text_A9w3Lk": {
-      "type": "rich-text",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 4,
+        "padding_top": 12,
         "padding_bottom": 4
       }
     },
@@ -217,6 +158,65 @@
       ],
       "settings": {
         "image": "shopify://shop_images/11_a577b5e8-a2cc-49d8-af51-4699a480cffc.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "rich_text_A9w3Lk": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "image_banner_rft3CR": {
+      "type": "image-banner",
+      "blocks": {
+        "text_7Kf6iC": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Turn Up The Vibes With Our</strong>",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "heading_xmxqFF": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Speakers.</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "buttons_JjRAMK": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Up To 30% Off",
+            "button_link_1": "shopify://collections/bf-speakers",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_7Kf6iC",
+        "heading_xmxqFF",
+        "buttons_JjRAMK"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/10_f07955c7-49a9-4315-92ab-597136fe909e.jpg",
         "image_overlay_opacity": 10,
         "image_height": "large",
         "desktop_content_position": "middle-center",
