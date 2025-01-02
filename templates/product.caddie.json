@@ -226,7 +226,7 @@
         "row_hqhrD3": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Frame_929.jpg",
+            "image": "shopify://shop_images/Frame_929_deb7eadf-64ad-4768-bdb3-215e7e3f9430.jpg",
             "caption": "Smart",
             "heading": "FCB Distances",
             "text": "<p>Get live front, back, center distances regardless of where you are on the course</p>",
@@ -299,7 +299,7 @@
         "row_9Df9ib"
       ],
       "settings": {
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_image_width": "medium",
         "heading_size": "h2",
         "text_style": "body",
