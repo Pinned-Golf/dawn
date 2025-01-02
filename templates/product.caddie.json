@@ -456,7 +456,7 @@
         "heading_8cTYaX": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Your </strong><em><strong>personal caddie</strong></em><strong>.</strong>",
+            "heading": "<strong>Your </strong><em><strong>personal </strong></em><strong>caddie.</strong>",
             "heading_size": "h1"
           }
         }
