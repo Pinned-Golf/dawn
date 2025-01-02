@@ -570,6 +570,30 @@
         "padding_bottom": 36
       }
     },
+    "collage_RBkzxK": {
+      "type": "collage",
+      "blocks": {
+        "image_h3zWMC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_9525.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_h3zWMC"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collapsible_content_3AyFLq": {
       "type": "collapsible-content",
       "blocks": {
@@ -750,6 +774,7 @@
     "related-products",
     "custom_liquid_PRJMPr",
     "collapsible_content_j6wfqJ",
+    "collage_RBkzxK",
     "collage_nciEHT",
     "collage_7xmBeb",
     "collage_WxqWfN",
