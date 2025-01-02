@@ -197,16 +197,39 @@
         "show_text_below": false
       }
     },
+    "rich_text_Pzp6bP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XRfijK": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>The </strong><em><strong>future</strong></em><strong> of golf is here.</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XRfijK"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
     "multirow_DgY64M": {
       "type": "multirow",
       "blocks": {
         "row_hqhrD3": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/4_035301c7-2b20-4607-b62d-6c96f25b2ad1.jpg",
-            "caption": "70 Round",
-            "heading": "Rechargeable Battery",
-            "text": "<p>No more batteries. One 45 minute charge will have your Prism+ dialed in for 70+ rounds. So long are the days of a dead battery on the course.</p>",
+            "image": "shopify://shop_images/Frame_929.jpg",
+            "caption": "Smart",
+            "heading": "FCB Distances",
+            "text": "<p>Get live front, back, center distances regardless of where you are on the course</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -214,10 +237,10 @@
         "row_dHXDxk": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Pinned_Prism_white.2.jpg",
-            "caption": "Never before seen",
-            "heading": "First Target Acquisition",
-            "text": "<p>Distance to the flag every time. No more getting distances of the tree behind the flag. Be dialed in every single shot. </p>",
+            "image": "shopify://shop_images/Frame_924_a6c4cc3b-9fbc-4c61-b57f-f6a90fe70506.jpg",
+            "caption": "Smart",
+            "heading": "Hazard Distances",
+            "text": "<p>Get live front, back, center distances regardless of where you are on the course</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -226,9 +249,9 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/1_18cd16d8-826c-4be2-80e2-884af2a08192.jpg",
-            "caption": "Super Strong",
-            "heading": "Built-In Magnet",
-            "text": "<p>Getting dialed in is always within reach. Sticking your Prism+ to the cart bar or a club will allow for easy and quick access. </p>",
+            "caption": "Maps From",
+            "heading": "45,000+ Courses",
+            "text": "<p>Get live front, back, center distances regardless of where you are on the course</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -237,9 +260,9 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/2_817d2819-89e8-4747-925e-afd44c993964.jpg",
-            "caption": "True playing distance",
-            "heading": "Slope Technology",
-            "text": "<p>Play the true playing distance every shot. We'll do the math for you regardless of your lie and tell you how far your next shot truly is. Club up or down with confidence. </p>",
+            "caption": "Super Strong",
+            "heading": "Built-In Magnet",
+            "text": "<p>Getting dialed in is always within reach. Sticking your Prism+ to the cart bar or a club will allow for easy and quick access.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -249,8 +272,19 @@
           "settings": {
             "image": "shopify://shop_images/3_a07c938e-c130-4350-bc36-d46e2dce5643.jpg",
             "caption": "Extremely",
-            "heading": "Easy To Use",
-            "text": "<p>Combining one click readings, first target acquisition on a 4K OLED screen, some are saying this is the easiest rangefinder to use regardless of your handicap.</p>",
+            "heading": "Portable",
+            "text": "<p>Bring Caddie up to the tee box, or to the fairway. Get distances wherever you're on the course.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_9Df9ib": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/2_817d2819-89e8-4747-925e-afd44c993964.jpg",
+            "caption": "Battle Tested",
+            "heading": "Weatherproof",
+            "text": "<p>Rain or shine, Caddie will be there every shot of the way. Play with confidence regardless of the weather.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -261,7 +295,8 @@
         "row_dHXDxk",
         "row_xyYV8h",
         "row_i6JpJg",
-        "row_6YCPxg"
+        "row_6YCPxg",
+        "row_9Df9ib"
       ],
       "settings": {
         "image_height": "medium",
@@ -506,41 +541,18 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "rich_text_Pzp6bP": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_XRfijK": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>The </strong><em><strong>future</strong></em><strong> of golf is here.</strong>",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_XRfijK"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "main",
     "image_banner_AgN8Rt",
+    "rich_text_Pzp6bP",
     "multirow_DgY64M",
     "image_banner_d7RLd3",
     "rich_text_rk9B8n",
     "collapsible_content_3AyFLq",
     "related-products",
     "custom_liquid_PRJMPr",
-    "collapsible_content_j6wfqJ",
-    "rich_text_Pzp6bP"
+    "collapsible_content_j6wfqJ"
   ]
 }
