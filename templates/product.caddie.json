@@ -450,6 +450,53 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_W8aYrn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8cTYaX": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Your </strong><em><strong>personal caddie</strong></em><strong>.</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8cTYaX"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "collage_RBkzxK": {
+      "type": "collage",
+      "blocks": {
+        "image_h3zWMC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_9525.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_h3zWMC"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collage_nciEHT": {
       "type": "collage",
       "blocks": {
@@ -558,30 +605,6 @@
       },
       "block_order": [
         "image_cKdbHM"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "none",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collage_RBkzxK": {
-      "type": "collage",
-      "blocks": {
-        "image_h3zWMC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Frame_9525.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "image_h3zWMC"
       ],
       "settings": {
         "heading": "",
@@ -774,6 +797,7 @@
     "related-products",
     "custom_liquid_PRJMPr",
     "collapsible_content_j6wfqJ",
+    "rich_text_W8aYrn",
     "collage_RBkzxK",
     "collage_nciEHT",
     "collage_7xmBeb",
