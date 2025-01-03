@@ -589,5 +589,9 @@
       "signup_form_success": "We will send you an email right before we open!",
       "password_link": "Enter using password"
     }
+  },
+  "giveaway": {
+    "entries_label": "Entries",
+    "pdp_message": "Don't Worry, Our System Will Automatically Track And Calculate All Of Your Entries!"
   }
 }

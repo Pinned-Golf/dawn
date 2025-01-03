@@ -114,7 +114,8 @@
                     use_variant: true,
                     show_badges: true,
                     show_amount_off_in_badge: true,
-                    price_class: 'price--large'
+                    price_class: 'price--large',
+                    show_entries: settings.giveaway_show_entries_on_pdp
                   -%}
                 </div>
                 {%- if product.quantity_price_breaks_configured? -%}
@@ -695,6 +696,29 @@
       </modal-dialog>
     {%- endfor -%}
 
+    {%- if settings.giveaway_active -%}
+      <modal-dialog id="PopupModal-giveaway-help" class="product-popup-modal">
+        <div
+          role="dialog"
+          aria-label="Giveaway Help"
+          aria-modal="true"
+          class="product-popup-modal__content"
+          tabindex="-1"
+        >
+          <button
+            id="ModalClose-giveaway-help"
+            type="button"
+            class="product-popup-modal__toggle"
+            aria-label="{{ 'accessibility.close' | t }}"
+          >
+            {% render 'icon-close' %}
+          </button>
+          <div class="product-popup-modal__content-info">
+            {{ settings.giveaway_help.content }}
+          </div>
+        </div>
+      </modal-dialog>
+    {%- endif -%}
     {%- if product.media.size > 0 -%}
       <script src="{{ 'product-modal.js' | asset_url }}" defer="defer"></script>
       <script src="{{ 'media-gallery.js' | asset_url }}" defer="defer"></script>

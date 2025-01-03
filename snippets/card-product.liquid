@@ -20,6 +20,7 @@
   {% render 'card-product', show_vendor: section.settings.show_vendor %}
 {% endcomment %}
 
+{{ 'component-card-product.css' | asset_url | stylesheet_tag }}
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 {{ 'component-volume-pricing.css' | asset_url | stylesheet_tag }}
 
@@ -142,6 +143,15 @@
           </div>
         </div>
       </div>
+      {%- if settings.giveaway_active and settings.giveaway_show_entries_on_collections -%}
+        {% assign giveaway_multiplier = product.metafields.giveaway.multiplier
+          | default: settings.giveaway_multiplier
+        %}
+        <div class="card__giveaway-entries">
+          {{ card_product.price | times: giveaway_multiplier | divided_by: 100 | round }}
+          {{ 'giveaway.entries_label' | t }}
+        </div>
+      {%- endif -%}
       <div class="card__content">
         <div class="card__information">
           <h3
@@ -202,6 +212,16 @@
                 </span>
               </p>
             {%- endif -%}
+
+            {%- unless card_product.metafields.collection.hide_variants -%}
+              <ul class="options">
+                {%- for variant in card_product.variants -%}
+                  {%- unless variant.metafields.pdp.swatch_image == blank -%}
+                    <li>{{ variant.metafields.pdp.swatch_image | image_url: width: 44 | image_tag }}</li>
+                  {%- endunless -%}
+                {%- endfor -%}
+              </ul>
+            {%- endunless -%}
 
             {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
             {%- if card_product.quantity_price_breaks_configured? -%}
@@ -416,7 +436,10 @@
                   {%- render 'loading-spinner' -%}
                 </button>
               </modal-opener>
-              <modal-dialog id="QuickAddBulk-{{ card_product.id }}" class="quick-add-modal color-{{ section.settings.color_scheme }}">
+              <modal-dialog
+                id="QuickAddBulk-{{ card_product.id }}"
+                class="quick-add-modal color-{{ section.settings.color_scheme }}"
+              >
                 <div
                   role="dialog"
                   aria-label="{{ 'products.product.choose_product_options' | t: product_name: card_product.title | escape }}"

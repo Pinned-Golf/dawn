@@ -1465,5 +1465,39 @@
         "default": "scheme-1"
       }
     ]
-  }
+  },
+  {
+    "name": "Giveaway",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "giveaway_active",
+        "label": "Active",
+        "default": false
+      },
+      {
+        "type": "number",
+        "id": "giveaway_multiplier",
+        "label": "Entry multiplier - visual only - setup actual entries in ViralSweep App",
+        "default": 1
+      },
+      {
+        "type": "page",
+        "id": "giveaway_help",
+        "label": "Giveaway Help"
+      },
+      {
+        "type": "checkbox",
+        "id": "giveaway_show_entries_on_collections",
+        "label": "Show Entries on Collections",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "giveaway_show_entries_on_pdp",
+        "label": "Show Entries on PDP",
+        "default": true
+      }
+    ]
+  },
 ]

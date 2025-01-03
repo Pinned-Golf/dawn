@@ -3,3 +3,70 @@
   font-weight: 600;
   color: red;
 }
+
+.giveaway-entries {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.giveaway-entries h3 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.giveaway-entries h3 button {
+  display: none;
+}
+
+product-info .giveaway-entries h3 button {
+  background: transparent;
+  border: 1px solid black;
+  padding: 0;
+  margin: 0;
+  border-radius: 50%;
+  padding: 0.5rem 0.85rem;
+  display: block;
+  scale: 0.75;
+  cursor: pointer;
+}
+
+.card-information .giveaway-entries img {
+  width: 1.5rem;
+}
+
+.card-information .giveaway-entries h3 {
+  font-size: small;
+}
+
+.card-information .price,
+.product .price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card__giveaway-entries {
+  position: absolute;
+  padding: 0.25rem 1rem;
+  background: black;
+  color: white;
+  margin: 1rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 749px) {
+  .card__giveaway-entries {
+    position: absolute;
+    padding: 0.125rem 0.25rem;
+    background: black;
+    color: white;
+    margin: 0.5rem;
+    font-weight: 500;
+    font-size: smaller;
+  }
+}

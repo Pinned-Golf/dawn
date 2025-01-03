@@ -7,6 +7,7 @@
   - show_badges: {Boolean} Renders 'Sale' and 'Sold Out' tags if the product matches the condition (optional)
   - price_class: {String} Adds a price class to the price element (optional)
   - show_compare_at_price: {Boolean} Renders the compare at price if the product matches the condition (optional)
+  - show_entries: {Boolean}
 
   Usage:
   {% render 'price', product: product %}
@@ -128,5 +129,29 @@
     <span class="badge price__badge-sold-out color-{{ settings.sold_out_badge_color_scheme }}">
       {{ 'products.product.sold_out' | t }}
     </span>
+  {%- endif -%}
+  {%- if show_entries and settings.giveaway_active -%}
+    {% assign giveaway_multiplier = product.metafields.giveaway.multiplier | default: settings.giveaway_multiplier %}
+    <div class="giveaway-entries">
+      <!-- <img loading="eager" width="50" src="{{ 'ticket.svg' | asset_url }}"> -->
+      <h3>
+        {{ price | times: giveaway_multiplier | divided_by: 100 | round }}
+        {{ 'giveaway.entries_label' | t }}
+
+        <modal-opener
+          class="product-popup-modal__opener no-js-hidden quick-add-hidden"
+          data-modal="#PopupModal-giveaway-help"
+        >
+          <button
+            id="ProductPopup-giveaway-help"
+            class=""
+            type="button"
+            aria-haspopup="dialog"
+          >
+            ?
+          </button>
+        </modal-opener>
+      </h3>
+    </div>
   {%- endif -%}
 </div>
