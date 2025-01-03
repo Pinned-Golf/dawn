@@ -629,87 +629,6 @@
         "padding_bottom": 36
       }
     },
-    "collapsible_content_3AyFLq": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_qdXMcJ": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Can I turn slope on and off?",
-            "icon": "check_mark",
-            "row_content": "<p>Yes, The Prism+ golf rangefinder comes with a slope switch that allows you to turn the slope on and off. This means that our golf rangefinder is completely USGA tournament legal.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_EABUcy": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I know it's fully charged?",
-            "icon": "check_mark",
-            "row_content": "<p>One 45 minute charge when you receive it and you will be good for the entire season! When fully charged, the green light will be lit.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_4VXbwM": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Can I use any USB-C charger?",
-            "icon": "check_mark",
-            "row_content": "<p>Please use the USB-C charging cord that comes with your Prism+.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_yG8QjR": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I use my rangefinder?",
-            "icon": "check_mark",
-            "row_content": "<p>Please head over to our tutorial section to learn how to use your device.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_Nt36Ki": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Should I register my device?",
-            "icon": "check_mark",
-            "row_content": "<p>You do not have to but it is strongly encouraged to register your device once you have received it.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_fx4MhC": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How Strong are the magnets?",
-            "icon": "check_mark",
-            "row_content": "<p>The magnets have been tested by numerous 3rd party partners and never fell off the cart regardless of the landscape. They are N52 magnets which are the strongest magnet on the market.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_qdXMcJ",
-        "collapsible_row_EABUcy",
-        "collapsible_row_4VXbwM",
-        "collapsible_row_yG8QjR",
-        "collapsible_row_Nt36Ki",
-        "collapsible_row_fx4MhC"
-      ],
-      "settings": {
-        "caption": "What other GOlfers are asking",
-        "heading": "Frequently Asked Questions",
-        "heading_size": "h2",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn_kpDfpN": {
       "type": "multicolumn",
       "blocks": {
@@ -869,6 +788,88 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collapsible_content_3AyFLq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_qdXMcJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I turn slope on and off?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes, The Prism+ golf rangefinder comes with a slope switch that allows you to turn the slope on and off. This means that our golf rangefinder is completely USGA tournament legal.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EABUcy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I know it's fully charged?",
+            "icon": "check_mark",
+            "row_content": "<p>One 45 minute charge when you receive it and you will be good for the entire season! When fully charged, the green light will be lit.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4VXbwM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I use any USB-C charger?",
+            "icon": "check_mark",
+            "row_content": "<p>Please use the USB-C charging cord that comes with your Prism+.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yG8QjR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I use my rangefinder?",
+            "icon": "check_mark",
+            "row_content": "<p>Please head over to our tutorial section to learn how to use your device.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Nt36Ki": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Should I register my device?",
+            "icon": "check_mark",
+            "row_content": "<p>You do not have to but it is strongly encouraged to register your device once you have received it.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fx4MhC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How Strong are the magnets?",
+            "icon": "check_mark",
+            "row_content": "<p>The magnets have been tested by numerous 3rd party partners and never fell off the cart regardless of the landscape. They are N52 magnets which are the strongest magnet on the market.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_qdXMcJ",
+        "collapsible_row_EABUcy",
+        "collapsible_row_4VXbwM",
+        "collapsible_row_yG8QjR",
+        "collapsible_row_Nt36Ki",
+        "collapsible_row_fx4MhC"
+      ],
+      "disabled": true,
+      "settings": {
+        "caption": "What other GOlfers are asking",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -887,8 +888,8 @@
     "collage_WxqWfN",
     "collage_fgFDfL",
     "collage_346tEm",
-    "collapsible_content_3AyFLq",
     "multicolumn_kpDfpN",
-    "collapsible_content_K3TTNR"
+    "collapsible_content_K3TTNR",
+    "collapsible_content_3AyFLq"
   ]
 }
