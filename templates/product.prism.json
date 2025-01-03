@@ -662,105 +662,6 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_cipXcd": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_FDUfzT": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Michael_Breed_1000_x_800_px_1080_x_1080_px_1_27bb0f91-afc7-476f-be0f-32536e0bca0f.jpg",
-            "title": "Michael Breed",
-            "text": "<p><em><strong>PGA Teacher Of  Year </strong></em><em><br/>\"Pinned Rangefinders are by go to rangefinder and it's not even close. The accuracy is unmatched.\"</em></p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_b7QaXQ": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Untitled_design_25_d6c2dadc-9b64-422b-872d-4840c4fed0d1.jpg",
-            "title": "Jeff Hamley",
-            "text": "<p><em><strong>PGA Tour Caddie</strong></em></p><p><em>\"When we prepare for each week’s PGA Tour event, I trust Pinned Golf’s range finger to help me dial in our strategy.\"</em></p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_xBQXj4": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Untitled_design_26_6f269424-0f32-4969-bcf5-6667fad10408.jpg",
-            "title": "Jake Hutt",
-            "text": "<p><em><strong>PGA Class A Teacher</strong></em></p><p><em>\"Have been rocking with Pinned's rangefinder for years now. They keep getting better and better every year.”</em></p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_FDUfzT",
-        "column_b7QaXQ",
-        "column_xBQXj4"
-      ],
-      "settings": {
-        "title": "Trusted By",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "171176697446b6f676": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_MqhpFj": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_MqhpFj"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "featured_collection_3mUgBK": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Other Holiday Sales",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "pinned-golf-shop",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multirow_NgfLC4": {
       "type": "multirow",
       "blocks": {
@@ -818,6 +719,72 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "171176697446b6f676": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_MqhpFj": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_MqhpFj"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "featured_collection_3mUgBK": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Other Holiday Sales",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "pinned-golf-shop",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_qHhfEC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VTziDz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Trusted by the best.",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VTziDz"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
     }
   },
   "order": [
@@ -835,9 +802,9 @@
     "related-products",
     "custom_liquid_PRJMPr",
     "collapsible_content_j6wfqJ",
-    "multicolumn_cipXcd",
+    "rich_text_qHhfEC",
+    "multirow_NgfLC4",
     "171176697446b6f676",
-    "featured_collection_3mUgBK",
-    "multirow_NgfLC4"
+    "featured_collection_3mUgBK"
   ]
 }
