@@ -232,7 +232,7 @@
           "settings": {
             "image": "shopify://shop_images/Frame_92lt9.jpg",
             "caption": "Smart",
-            "heading": "FCB Distances",
+            "heading": "<strong>FCB Distances</strong>",
             "text": "<p>Get live front, back, center distances regardless of where you are on the course</p>",
             "button_label": "",
             "button_link": ""
@@ -243,7 +243,7 @@
           "settings": {
             "image": "shopify://shop_images/Frame_924_a6c4cc3b-9fbc-4c61-b57f-f6a90fe70506.jpg",
             "caption": "Smart",
-            "heading": "Hazard Distances",
+            "heading": "<strong>Hazard Distances</strong>",
             "text": "<p>Get live front, back, center distances regardless of where you are on the course</p>",
             "button_label": "",
             "button_link": ""
@@ -254,7 +254,7 @@
           "settings": {
             "image": "shopify://shop_images/Frame_923.jpg",
             "caption": "Maps From",
-            "heading": "45,000+ Courses",
+            "heading": "<strong>45,000+ Courses</strong>",
             "text": "<p>Get live front, back, center distances regardless of where you are on the course</p>",
             "button_label": "",
             "button_link": ""
@@ -265,7 +265,7 @@
           "settings": {
             "image": "shopify://shop_images/Frame_927.jpg",
             "caption": "Super Strong",
-            "heading": "Built-In Magnet",
+            "heading": "<strong>Built-In Magnet</strong>",
             "text": "<p>Getting dialed in is always within reach. Sticking your Prism+ to the cart bar or a club will allow for easy and quick access.</p>",
             "button_label": "",
             "button_link": ""
@@ -276,7 +276,7 @@
           "settings": {
             "image": "shopify://shop_images/Frame_930.jpg",
             "caption": "Extremely",
-            "heading": "Portable",
+            "heading": "<strong>Portable</strong>",
             "text": "<p>Bring Caddie up to the tee box, or to the fairway. Get distances wherever you're on the course.</p>",
             "button_label": "",
             "button_link": ""
@@ -287,7 +287,7 @@
           "settings": {
             "image": "shopify://shop_images/Frame_928.jpg",
             "caption": "Battle Tested",
-            "heading": "Weatherproof",
+            "heading": "<strong>Weatherproof</strong>",
             "text": "<p>Rain or shine, Caddie will be there every shot of the way. Play with confidence regardless of the weather.</p>",
             "button_label": "",
             "button_link": ""
