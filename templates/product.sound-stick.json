@@ -615,7 +615,9 @@
       "blocks": {
         "image_JaACBq": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/UP_2048_x_1365_px_2048_x_1080_px_13.jpg"
+          }
         }
       },
       "block_order": [
@@ -626,7 +628,7 @@
         "heading_size": "h1",
         "desktop_layout": "left",
         "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
+        "card_styles": "none",
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
