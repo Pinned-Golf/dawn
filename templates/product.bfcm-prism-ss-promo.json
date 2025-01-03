@@ -213,26 +213,12 @@
         "image_xye64H": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/UP_2048_x_1365_px_2160_x_2160_px_1.jpg"
-          }
-        },
-        "image_iyFwX6": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/1x1.png"
-          }
-        },
-        "image_BCVxiQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/1x1-1.png"
+            "image": "shopify://shop_images/UP_2048_x_1365_px_2048_x_1080_px_1.png"
           }
         }
       },
       "block_order": [
-        "image_xye64H",
-        "image_iyFwX6",
-        "image_BCVxiQ"
+        "image_xye64H"
       ],
       "settings": {
         "heading": "",
