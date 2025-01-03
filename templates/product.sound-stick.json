@@ -306,8 +306,8 @@
         "heading_xJ6wMB": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Better Music. Better Vibes. Better Golf.</strong>",
-            "heading_size": "h0"
+            "heading": "<strong>Better </strong><em><strong>Music</strong></em><strong>. Better </strong><em><strong>Vibes</strong></em><strong>. Better </strong><em><strong>Golf</strong></em><strong>.</strong>",
+            "heading_size": "h1"
           }
         },
         "button_JY4HTi": {
@@ -401,6 +401,7 @@
         "image_XbyAnh",
         "image_aPcjD7"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
