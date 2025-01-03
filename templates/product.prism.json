@@ -304,6 +304,22 @@
         "padding_bottom": 12
       }
     },
+    "video_tmMjbU": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/Pinned vs Bushnell - HD 720p.mov",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify://shop_images/Untitled_design_68.png",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collage_UbcL7P": {
       "type": "collage",
       "blocks": {
@@ -331,6 +347,7 @@
         "image_AfyJe7",
         "image_gm6AzT"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h2",
@@ -743,22 +760,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "video_tmMjbU": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video": "shopify://files/videos/Pinned vs Bushnell - HD 720p.mov",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify://shop_images/Untitled_design_68.png",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -766,6 +767,7 @@
     "collage_NkgDJE",
     "image_banner_AgN8Rt",
     "multirow_DgY64M",
+    "video_tmMjbU",
     "collage_UbcL7P",
     "image_banner_d7RLd3",
     "rich_text_rk9B8n",
@@ -777,7 +779,6 @@
     "collapsible_content_j6wfqJ",
     "multicolumn_cipXcd",
     "171176697446b6f676",
-    "featured_collection_3mUgBK",
-    "video_tmMjbU"
+    "featured_collection_3mUgBK"
   ]
 }
