@@ -362,6 +362,21 @@
         "padding_bottom": 8
       }
     },
+    "video_QEMecD": {
+      "type": "video",
+      "settings": {
+        "heading": "<strong>Better </strong><em><strong>Music</strong></em><strong>. Better </strong><em><strong>Vibes</strong></em><strong>. Better </strong><em><strong>Golf</strong></em><strong>.</strong>",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video": "shopify://files/videos/Untitled design.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collage_BckdEg": {
       "type": "collage",
       "blocks": {
@@ -398,69 +413,6 @@
         "color_scheme": "",
         "padding_top": 8,
         "padding_bottom": 12
-      }
-    },
-    "image_with_text_EDRhQ4": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_C4xyht": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>It’s simple.</strong>",
-            "heading_size": "h2"
-          }
-        },
-        "text_eYc9Ny": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Send us any rangefinder.</p><p>The brand does not matter.</p><p>We’ll refurbish & clean it up.</p><p>We’ll donate it to First Tee.</p><p>You’ll receive a massive discount. </p><p>The Prism+ Rangefinder for $199.</p><p><em>A win, win. </em></p>",
-            "text_style": "body"
-          }
-        },
-        "button_KzeyAE": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "shopify://pages/forethekids",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_C4xyht",
-        "text_eYc9Ny",
-        "button_KzeyAE"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/Fore_The_Kids_Final_nobackground_2_2.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-af529a53-b94b-40d0-9746-399d6ccf1927",
-        "color_scheme": "scheme-af529a53-b94b-40d0-9746-399d6ccf1927",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video_QEMecD": {
-      "type": "video",
-      "settings": {
-        "heading": "<strong>Better </strong><em><strong>Music</strong></em><strong>. Better </strong><em><strong>Vibes</strong></em><strong>. Better </strong><em><strong>Golf</strong></em><strong>.</strong>",
-        "heading_size": "h1",
-        "enable_video_looping": true,
-        "video": "shopify://files/videos/Untitled design.mp4",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "collapsible_content_3AyFLq": {
@@ -568,34 +520,6 @@
         "padding_bottom": 28
       }
     },
-    "featured_collection_dPCaN7": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Black Friday Early Access Sale",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "early-access-black-friday",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "custom_liquid_PRJMPr": {
       "type": "custom-liquid",
       "settings": {
@@ -614,13 +538,11 @@
     "image_banner_YTFPAp",
     "rich_text_rk9B8n",
     "collage_tcaNLP",
-    "collage_BckdEg",
-    "image_with_text_EDRhQ4",
     "video_QEMecD",
+    "collage_BckdEg",
     "collapsible_content_3AyFLq",
     "171176697446b6f676",
     "related-products",
-    "featured_collection_dPCaN7",
     "custom_liquid_PRJMPr"
   ]
 }
