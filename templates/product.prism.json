@@ -333,7 +333,7 @@
         "full_width": false,
         "color_scheme": "",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 8
       }
     },
     "collage_UbcL7P": {
@@ -400,7 +400,7 @@
         "color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 40
+        "padding_bottom": 16
       }
     },
     "collapsible_content_3AyFLq": {
