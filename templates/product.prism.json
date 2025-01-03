@@ -718,6 +718,30 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collage_NkgDJE": {
+      "type": "collage",
+      "blocks": {
+        "image_MWhtWn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/UP_2048_x_1365_px_2048_x_1080_px_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_MWhtWn"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -735,6 +759,7 @@
     "collapsible_content_j6wfqJ",
     "multicolumn_cipXcd",
     "171176697446b6f676",
-    "featured_collection_3mUgBK"
+    "featured_collection_3mUgBK",
+    "collage_NkgDJE"
   ]
 }
