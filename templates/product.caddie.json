@@ -227,6 +227,17 @@
     "multirow_DgY64M": {
       "type": "multirow",
       "blocks": {
+        "row_ABLBeb": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_64.png",
+            "caption": "Make Any",
+            "heading": "<strong>Cart, Smart.</strong>",
+            "text": "<p>Now the luxury of using a screen to get your yardages isn't gatekeeped by a nice country club. Get the yardages how you want at any course, no matter how old the cart.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
         "row_hqhrD3": {
           "type": "row",
           "settings": {
@@ -252,7 +263,7 @@
         "row_xyYV8h": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Frame_923.jpg",
+            "image": "shopify://shop_images/Frame_9538.jpg",
             "caption": "Maps From",
             "heading": "<strong>45,000+ Courses</strong>",
             "text": "<p>Get live front, back, center distances regardless of where you are on the course</p>",
@@ -295,6 +306,7 @@
         }
       },
       "block_order": [
+        "row_ABLBeb",
         "row_hqhrD3",
         "row_dHXDxk",
         "row_xyYV8h",
