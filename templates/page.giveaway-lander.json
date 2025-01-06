@@ -94,14 +94,27 @@
         "heading_VtyEwG": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "<strong>Here's How To Enter</strong>",
+            "heading_size": "hxl"
+          }
+        },
+        "heading_ThWrcf": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>EVERY $1 SPENT = 1 ENTRY</strong>",
             "heading_size": "h1"
+          }
+        },
+        "text_qm3WeF": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>NO PURCHASE NECESSARY </em><a href=\"/pages/golf-trip-giveaway\" target=\"_blank\" title=\"Golf Trip Giveaway\"><em>VIEW TERMS & CONDITIONS</em></a></p>"
           }
         },
         "text_Bc68Yq": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>Simply shop our site and be magically entered into </p>"
           }
         },
         "button_4gDpRJ": {
@@ -118,6 +131,8 @@
       },
       "block_order": [
         "heading_VtyEwG",
+        "heading_ThWrcf",
+        "text_qm3WeF",
         "text_Bc68Yq",
         "button_4gDpRJ"
       ],
@@ -129,12 +144,78 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "collage_NznWLL": {
+      "type": "collage",
+      "blocks": {
+        "image_gGytdf": {
+          "type": "image",
+          "settings": {}
+        },
+        "image_bXDUE4": {
+          "type": "image",
+          "settings": {}
+        },
+        "image_JPRDm8": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "image_gGytdf",
+        "image_bXDUE4",
+        "image_JPRDm8"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 28,
+        "padding_bottom": 12
+      }
+    },
+    "collage_9cfNDU": {
+      "type": "collage",
+      "blocks": {
+        "image_rQPgDK": {
+          "type": "image",
+          "settings": {}
+        },
+        "image_jKDaWq": {
+          "type": "image",
+          "settings": {}
+        },
+        "image_gwd9NQ": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "image_rQPgDK",
+        "image_jKDaWq",
+        "image_gwd9NQ"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 8,
+        "padding_bottom": 40
+      }
     }
   },
   "order": [
     "main",
     "image_banner_TGGfCn",
     "multirow_rjtxw4",
-    "rich_text_CeW4hx"
+    "rich_text_CeW4hx",
+    "collage_NznWLL",
+    "collage_9cfNDU"
   ]
 }
