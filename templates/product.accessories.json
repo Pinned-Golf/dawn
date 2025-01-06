@@ -9,6 +9,22 @@
  */
 {
   "sections": {
+    "image_banner_BxiQBq": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/holidaty_dale_2.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -80,6 +96,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Shipping",
+            "default_open": false,
             "icon": "none",
             "content": "<p>We ship <strong>FAST</strong>.<br/><br/>Fulfilled within 24 business hours. 90% of orders arrive early.<br/><br/>Expedited options if your next tee time is coming up.</p>",
             "page": ""
@@ -89,6 +106,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "The Pinned Promise",
+            "default_open": false,
             "icon": "none",
             "content": "<p>We don't release a product unless it hits on these 4 core values... </p><ol><li>Elevates your game</li><li>Styled to turn heads</li><li>Pushes the envelop</li><li>Stands the test of time</li></ol>",
             "page": ""
@@ -342,6 +360,7 @@
     }
   },
   "order": [
+    "image_banner_BxiQBq",
     "main",
     "rich_text_rk9B8n",
     "collage_tcaNLP",
