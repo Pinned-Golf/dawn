@@ -135,7 +135,7 @@
           "type": "button",
           "settings": {
             "button_label": "Buy The Prism+",
-            "button_link": "shopify://products/prismplus-holiday-sale",
+            "button_link": "shopify://products/prism-plus-rangefinder",
             "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",

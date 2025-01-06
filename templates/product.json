@@ -277,7 +277,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "shopify://products/prismplus-holiday-sale",
+            "button_link_1": "shopify://products/prism-plus-rangefinder",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -311,7 +311,7 @@
           "disabled": true,
           "settings": {
             "button_label": "Buy The Prism+",
-            "button_link": "shopify://products/prismplus-holiday-sale",
+            "button_link": "shopify://products/prism-plus-rangefinder",
             "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",
