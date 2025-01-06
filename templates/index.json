@@ -555,11 +555,39 @@
         "card_styles": "product-card-wrapper",
         "color_scheme": "",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 8
+      }
+    },
+    "rich_text_fFehrF": {
+      "type": "rich-text",
+      "blocks": {
+        "button_F7D4QM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Pinned Family Reviews",
+            "button_link": "shopify://pages/reviews",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_F7D4QM"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 4
       }
     },
     "image_banner_FdxwLK": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Frame_46.jpg",
         "image_overlay_opacity": 0,
@@ -754,33 +782,6 @@
         "include_margins": true
       }
     },
-    "rich_text_fFehrF": {
-      "type": "rich-text",
-      "blocks": {
-        "button_F7D4QM": {
-          "type": "button",
-          "settings": {
-            "button_label": "Pinned Family Reviews",
-            "button_link": "shopify://pages/reviews",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "button_F7D4QM"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 4,
-        "padding_bottom": 4
-      }
-    },
     "featured_collection_UNUabC": {
       "type": "featured-collection",
       "disabled": true,
@@ -824,12 +825,12 @@
     "collage_fmDCkM",
     "image_banner_8Dbhdr",
     "collage_c4TaUk",
+    "rich_text_fFehrF",
     "image_banner_FdxwLK",
     "newsletter_qzCyW7",
     "collage_zD3YpU",
     "multicolumn_AzFUgQ",
     "1730301771a79b1aa4",
-    "rich_text_fFehrF",
     "featured_collection_UNUabC"
   ]
 }
