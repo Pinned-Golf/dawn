@@ -99,7 +99,7 @@
         "heading_ntbXzY": {
           "type": "heading",
           "settings": {
-            "heading": "Pebble Beach. PGA National. Trump National. Wolf Creek. Kiawah. TPC Scottsdale. TPC Sawgrass.",
+            "heading": "<strong>Pebble Beach. PGA National. Trump National. Wolf Creek. Kiawah. TPC Scottsdale. TPC Sawgrass.</strong>",
             "heading_size": "h1"
           }
         },
@@ -116,7 +116,7 @@
       ],
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "center",
+        "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 24,
@@ -151,7 +151,7 @@
         "image_JPRDm8"
       ],
       "settings": {
-        "heading": "<strong>Pebble Beach. PGA National. Trump National. Wolf Creek. Kiawah. TPC Scottsdale. TPC Sawgrass.</strong>",
+        "heading": "<strong>Pebble Beach. PGA National. Trump National. Wolf Creek. Kiawah. TPC Scottsdale. TPC Sawgrass & more!</strong>",
         "heading_size": "h1",
         "desktop_layout": "left",
         "mobile_layout": "collage",
