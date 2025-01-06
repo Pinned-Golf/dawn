@@ -18,6 +18,7 @@
         },
         "text_zBzBye": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>New Years Sale</strong>",
             "text_style": "uppercase"
@@ -171,7 +172,7 @@
     "image_banner_AgN8Rt": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify://shop_images/holidaty_dale_3.jpg",
+        "image": "shopify://shop_images/holidaty_dale_2.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",

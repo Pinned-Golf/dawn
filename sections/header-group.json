@@ -14,35 +14,27 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_WhAXbB": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Shipping on ALL orders!",
+            "link": ""
+          }
+        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
             "text": "Products trusted by 150,000+ golfers.",
             "link": ""
           }
-        },
-        "announcement_qHNjyt": {
-          "type": "announcement",
-          "settings": {
-            "text": "Holiday Sale! Up To 60% Off!",
-            "link": "shopify://collections/holiday-sale"
-          }
-        },
-        "announcement_fKDt3U": {
-          "type": "announcement",
-          "settings": {
-            "text": "Order By 12/18 For Holiday Delivery",
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "announcement_qHNjyt",
-        "announcement_fKDt3U"
+        "announcement_WhAXbB",
+        "announcement-bar-0"
       ],
       "settings": {
-        "color_scheme": "scheme-c0798240-f91b-417c-b76f-2452d300ad24",
+        "color_scheme": "scheme-5",
         "show_line_separator": false,
         "show_social": false,
         "auto_rotate": true,

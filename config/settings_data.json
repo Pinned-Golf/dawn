@@ -20,7 +20,7 @@
     "spacing_sections": 0,
     "spacing_grid_horizontal": 4,
     "spacing_grid_vertical": 8,
-    "animations_reveal_on_scroll": true,
+    "animations_reveal_on_scroll": false,
     "animations_hover_elements": "vertical-lift",
     "buttons_border_thickness": 2,
     "buttons_border_opacity": 100,
@@ -125,6 +125,8 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "early-access-black-friday",
+    "giveaway_active": false,
+    "giveaway_help": "golf-trip-giveaway",
     "checkout_logo_image": "shopify://shop_images/1_9f00bff9-bb5a-4e9b-abd0-9de3d4b47cc2.png",
     "checkout_accent_color": "#000000",
     "checkout_button_color": "#000000",
@@ -196,7 +198,7 @@
           "text": "#000000",
           "button": "#000000",
           "button_label": "#ffffff",
-          "secondary_button_label": "#ffffff",
+          "secondary_button_label": "#000000",
           "shadow": "#000000"
         }
       },
