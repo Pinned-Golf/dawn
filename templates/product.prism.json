@@ -18,6 +18,7 @@
         },
         "text_3TMaQ3": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>2024 HOLIDAY SALE </strong>",
             "text_style": "uppercase"
