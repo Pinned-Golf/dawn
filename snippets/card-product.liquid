@@ -20,7 +20,7 @@
   {% render 'card-product', show_vendor: section.settings.show_vendor %}
 {% endcomment %}
 
-{{ 'component-card-product.css' | asset_url | stylesheet_tag }}
+{% comment %} {{ 'component-card-product.css' | asset_url | stylesheet_tag }} {% endcomment %}
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 {{ 'component-volume-pricing.css' | asset_url | stylesheet_tag }}
 
@@ -213,15 +213,17 @@
               </p>
             {%- endif -%}
 
-            {%- unless card_product.metafields.collection.hide_variants -%}
-              <ul class="options">
-                {%- for variant in card_product.variants -%}
-                  {%- unless variant.metafields.pdp.swatch_image == blank -%}
-                    <li>{{ variant.metafields.pdp.swatch_image | image_url: width: 44 | image_tag }}</li>
-                  {%- endunless -%}
-                {%- endfor -%}
-              </ul>
-            {%- endunless -%}
+            {% comment %}
+              {%- unless card_product.metafields.collection.hide_variants -%}
+                <ul class="options">
+                  {%- for variant in card_product.variants -%}
+                    {%- unless variant.metafields.pdp.swatch_image == blank -%}
+                      <li>{{ variant.metafields.pdp.swatch_image | image_url: width: 44 | image_tag }}</li>
+                    {%- endunless -%}
+                  {%- endfor -%}
+                </ul>
+              {%- endunless -%}
+            {% endcomment %}
 
             {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
             {%- if card_product.quantity_price_breaks_configured? -%}
