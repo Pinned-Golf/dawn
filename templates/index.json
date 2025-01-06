@@ -71,6 +71,28 @@
         "show_text_below": false
       }
     },
+    "rich_text_wR6TAa": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "rich_text_GqENi6": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
     "image_banner_4ac4Cg": {
       "type": "image-banner",
       "blocks": {
@@ -815,8 +837,10 @@
   "order": [
     "image_banner_iWr6ta",
     "image_banner_QMgQCn",
+    "rich_text_wR6TAa",
     "image_banner_4ac4Cg",
     "image_banner_QJMVBf",
+    "rich_text_GqENi6",
     "image_banner_rft3CR",
     "multirow_GehmqX",
     "multicolumn_bE7ELq",
