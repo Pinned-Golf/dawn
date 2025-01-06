@@ -56,6 +56,7 @@
     },
     "image_banner_QMgQCn": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/holidaty_dale_1.png",
         "image_overlay_opacity": 0,
@@ -73,25 +74,18 @@
     "image_banner_4ac4Cg": {
       "type": "image-banner",
       "blocks": {
-        "text_9LcTpP": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>BUY A RANGEFINDER</strong>",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
         "heading_EEx7x3": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Get A Free Speaker.</strong>",
+            "heading": "<em><strong>Lower scores</strong></em><strong> await.</strong>",
             "heading_size": "h1"
           }
         },
         "buttons_LBnm4e": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Best Deal Ever.",
-            "button_link_1": "shopify://products/prism-rangefinder-blackfriday-bundle",
+            "button_label_1": "Shop Rangefinders",
+            "button_link_1": "shopify://products/prismplus-holiday-sale",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -100,14 +94,13 @@
         }
       },
       "block_order": [
-        "text_9LcTpP",
         "heading_EEx7x3",
         "buttons_LBnm4e"
       ],
       "settings": {
-        "image": "shopify://shop_images/12_e63d98a3-4100-4d27-8577-058f8f920809.jpg",
+        "image": "shopify://shop_images/UP_2048_x_1365_px_2048_x_1080_px_8.jpg",
         "image_overlay_opacity": 10,
-        "image_height": "large",
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
