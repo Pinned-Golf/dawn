@@ -56,7 +56,7 @@
         "text_qm3WeF": {
           "type": "text",
           "settings": {
-            "text": "<p><em>NO PURCHASE NECESSARY </em><a href=\"/pages/golf-trip-giveaway\" target=\"_blank\" title=\"Golf Trip Giveaway\"><em>VIEW TERMS & CONDITIONS</em></a></p>"
+            "text": ""
           }
         },
         "text_Bc68Yq": {
@@ -246,6 +246,48 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "rich_text_6heUYn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_n79HJ7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contest Terms & Conditions",
+            "heading_size": "h2"
+          }
+        },
+        "text_yLbrfd": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>NO PURCHASE NECESSARY </em><a href=\"/pages/golf-trip-giveaway\" target=\"_blank\" title=\"Golf Trip Giveaway\"><em>VIEW TERMS & CONDITIONS</em></a></p>"
+          }
+        },
+        "button_xNcezg": {
+          "type": "button",
+          "settings": {
+            "button_label": "View Terms",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_n79HJ7",
+        "text_yLbrfd",
+        "button_xNcezg"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -255,6 +297,7 @@
     "rich_text_DhDdVe",
     "collage_NznWLL",
     "collage_9cfNDU",
-    "image_banner_kDYRfV"
+    "image_banner_kDYRfV",
+    "rich_text_6heUYn"
   ]
 }
