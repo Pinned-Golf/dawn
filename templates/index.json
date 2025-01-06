@@ -420,6 +420,7 @@
         "image_WVq8hH",
         "image_6hcpKK"
       ],
+      "disabled": true,
       "settings": {
         "heading": "'Tis the season... to golf.",
         "heading_size": "h0",
@@ -458,6 +459,7 @@
         "image_PjKn96",
         "image_ycEbJt"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h2",
@@ -503,6 +505,7 @@
         "text_teNUyB",
         "buttons_UXmBhC"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/UP_2048_x_1365_px_2048_x_1080_px_1.jpg",
         "image_overlay_opacity": 10,
@@ -515,6 +518,44 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "collage_c4TaUk": {
+      "type": "collage",
+      "blocks": {
+        "image_pBc3r9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_9544.png"
+          }
+        },
+        "image_RJjCYG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/UP_2048_x_1365_px_2048_x_1080_px_12.jpg"
+          }
+        },
+        "image_pybBxK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_29_18bf4a77-ef7c-4b5a-a6a3-9b7e8427c4dc.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_pBc3r9",
+        "image_RJjCYG",
+        "image_pybBxK"
+      ],
+      "settings": {
+        "heading": "Our Pinned Family Rolls 200k+ Deep.",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_banner_FdxwLK": {
@@ -715,6 +756,22 @@
     },
     "rich_text_fFehrF": {
       "type": "rich-text",
+      "blocks": {
+        "button_F7D4QM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Pinned Family Reviews",
+            "button_link": "shopify://pages/reviews",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_F7D4QM"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -722,6 +779,35 @@
         "full_width": true,
         "padding_top": 4,
         "padding_bottom": 4
+      }
+    },
+    "featured_collection_UNUabC": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Trending",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "pinned-golf-shop",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -737,11 +823,13 @@
     "collage_BBmpyn",
     "collage_fmDCkM",
     "image_banner_8Dbhdr",
+    "collage_c4TaUk",
     "image_banner_FdxwLK",
     "newsletter_qzCyW7",
     "collage_zD3YpU",
     "multicolumn_AzFUgQ",
     "1730301771a79b1aa4",
-    "rich_text_fFehrF"
+    "rich_text_fFehrF",
+    "featured_collection_UNUabC"
   ]
 }
