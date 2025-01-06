@@ -23,7 +23,7 @@
         "}.banner__content {align-items: top;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Website_Hero_3.jpg",
+        "image": "shopify://shop_images/Website_Hero.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
