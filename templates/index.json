@@ -16,7 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Better </strong><em><strong>Vibes</strong></em><strong>. Better </strong><em><strong>Golf</strong></em><strong>.</strong>",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "buttons_EJHyeW": {
@@ -72,17 +72,6 @@
       }
     },
     "rich_text_wR6TAa": {
-      "type": "rich-text",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 4,
-        "padding_bottom": 4
-      }
-    },
-    "rich_text_GqENi6": {
       "type": "rich-text",
       "settings": {
         "desktop_content_position": "center",
@@ -180,6 +169,17 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "rich_text_GqENi6": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 4
       }
     },
     "image_banner_rft3CR": {
