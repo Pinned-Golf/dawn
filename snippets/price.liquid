@@ -133,7 +133,7 @@
   {%- if show_entries and settings.giveaway_active -%}
     {% assign giveaway_multiplier = product.metafields.giveaway.multiplier | default: settings.giveaway_multiplier %}
     <div class="giveaway-entries">
-      <!-- <img loading="eager" width="50" src="{{ 'ticket.svg' | asset_url }}"> -->
+      <img loading="eager" width="50" src="{{ 'ticket.png' | asset_url }}">
       <h3>
         {{ price | times: giveaway_multiplier | divided_by: 100 | round }}
         {{ 'giveaway.entries_label' | t }}
