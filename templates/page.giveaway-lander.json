@@ -33,6 +33,63 @@
         "show_text_below": true
       }
     },
+    "rich_text_CeW4hx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VtyEwG": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>HOW TO ENTER!</strong>",
+            "heading_size": "hxl"
+          }
+        },
+        "heading_ThWrcf": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>EVERY $1 SPENT = 1 ENTRY</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_qm3WeF": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>NO PURCHASE NECESSARY </em><a href=\"/pages/golf-trip-giveaway\" target=\"_blank\" title=\"Golf Trip Giveaway\"><em>VIEW TERMS & CONDITIONS</em></a></p>"
+          }
+        },
+        "text_Bc68Yq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Simply shop our site and be magically entered in to win! </p>"
+          }
+        },
+        "button_4gDpRJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/pinned-golf-shop",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_VtyEwG",
+        "heading_ThWrcf",
+        "text_qm3WeF",
+        "text_Bc68Yq",
+        "button_4gDpRJ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multirow_rjtxw4": {
       "type": "multirow",
       "blocks": {
@@ -86,63 +143,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "rich_text_CeW4hx": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_VtyEwG": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Here's How To Enter</strong>",
-            "heading_size": "hxl"
-          }
-        },
-        "heading_ThWrcf": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>EVERY $1 SPENT = 1 ENTRY</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_qm3WeF": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>NO PURCHASE NECESSARY </em><a href=\"/pages/golf-trip-giveaway\" target=\"_blank\" title=\"Golf Trip Giveaway\"><em>VIEW TERMS & CONDITIONS</em></a></p>"
-          }
-        },
-        "text_Bc68Yq": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Simply shop our site and be magically entered into </p>"
-          }
-        },
-        "button_4gDpRJ": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_VtyEwG",
-        "heading_ThWrcf",
-        "text_qm3WeF",
-        "text_Bc68Yq",
-        "button_4gDpRJ"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "collage_NznWLL": {
@@ -213,8 +213,8 @@
   "order": [
     "main",
     "image_banner_TGGfCn",
-    "multirow_rjtxw4",
     "rich_text_CeW4hx",
+    "multirow_rjtxw4",
     "collage_NznWLL",
     "collage_9cfNDU"
   ]
