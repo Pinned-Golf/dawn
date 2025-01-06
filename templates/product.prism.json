@@ -749,8 +749,8 @@
     "featured_collection_3mUgBK": {
       "type": "featured-collection",
       "settings": {
-        "title": "Other Holiday Sales",
-        "heading_size": "h2",
+        "title": "<strong>Trending</strong>",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
