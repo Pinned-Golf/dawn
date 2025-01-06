@@ -573,7 +573,7 @@
         "heading": "Our Pinned Family Rolls 200k+ Deep.",
         "heading_size": "h1",
         "desktop_layout": "left",
-        "mobile_layout": "column",
+        "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
         "color_scheme": "",
         "padding_top": 36,
@@ -604,7 +604,7 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 4,
-        "padding_bottom": 4
+        "padding_bottom": 24
       }
     },
     "image_banner_FdxwLK": {
