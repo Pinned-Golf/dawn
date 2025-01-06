@@ -20,9 +20,9 @@
     "image_banner_TGGfCn": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify://shop_images/Website_Hero_1.jpg",
+        "image": "shopify://shop_images/Website_Hero_3.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "large",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -90,61 +90,6 @@
         "padding_bottom": 52
       }
     },
-    "multirow_rjtxw4": {
-      "type": "multirow",
-      "blocks": {
-        "row_HfWXbp": {
-          "type": "row",
-          "settings": {
-            "caption": "Here's",
-            "heading": "How to enter",
-            "text": "<p><strong>Every $1 Spent = 1 Entry</strong></p><p><br/>Simply shop now and be entered to win! </p>",
-            "button_label": "Shop Now",
-            "button_link": "shopify://collections/pinned-golf-shop"
-          }
-        },
-        "row_jjxreF": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_kKFPtD": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_HfWXbp",
-        "row_jjxreF",
-        "row_kKFPtD"
-      ],
-      "settings": {
-        "image_height": "adapt",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "scheme-1",
-        "row_color_scheme": "scheme-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "collage_NznWLL": {
       "type": "collage",
       "blocks": {
@@ -208,14 +153,93 @@
         "padding_top": 8,
         "padding_bottom": 40
       }
+    },
+    "rich_text_DhDdVe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ntbXzY": {
+          "type": "heading",
+          "settings": {
+            "heading": "We're giving away a $10,000 golf trip.",
+            "heading_size": "h1"
+          }
+        },
+        "text_jBX34L": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pick from some of the nicest courses in all of the world for you and your buddies to go play. All on our dime!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ntbXzY",
+        "text_jBX34L"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_kDYRfV": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_cpxeE4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h2"
+          }
+        },
+        "text_CYNLRN": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_48JRLA": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_cpxeE4",
+        "text_CYNLRN",
+        "buttons_48JRLA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Website_Hero_2.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "main",
     "image_banner_TGGfCn",
     "rich_text_CeW4hx",
-    "multirow_rjtxw4",
     "collage_NznWLL",
-    "collage_9cfNDU"
+    "collage_9cfNDU",
+    "rich_text_DhDdVe",
+    "image_banner_kDYRfV"
   ]
 }
