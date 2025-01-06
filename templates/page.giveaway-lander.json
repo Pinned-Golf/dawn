@@ -233,6 +233,7 @@
         "text_wLRqif",
         "buttons_zBH6Rz"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Website_Hero_2.jpg",
         "image_overlay_opacity": 10,
@@ -267,7 +268,7 @@
           "type": "button",
           "settings": {
             "button_label": "View Terms",
-            "button_link": "",
+            "button_link": "shopify://pages/giveaway-terms-and-conditions",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
