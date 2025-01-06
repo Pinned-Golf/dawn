@@ -19,12 +19,15 @@
     },
     "image_banner_TGGfCn": {
       "type": "image-banner",
+      "custom_css": [
+        "}.banner__content {align-items: top;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/Website_Hero_3.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "",
         "image_behavior": "none",
@@ -87,7 +90,7 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 28
       }
     },
     "collage_NznWLL": {
@@ -95,15 +98,21 @@
       "blocks": {
         "image_gGytdf": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/image_50.png"
+          }
         },
         "image_bXDUE4": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/image_53.png"
+          }
         },
         "image_JPRDm8": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/image_54.png"
+          }
         }
       },
       "block_order": [
@@ -115,8 +124,8 @@
         "heading": "",
         "heading_size": "h1",
         "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
+        "mobile_layout": "collage",
+        "card_styles": "none",
         "color_scheme": "",
         "padding_top": 28,
         "padding_bottom": 12
@@ -127,15 +136,21 @@
       "blocks": {
         "image_rQPgDK": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/image_52.png"
+          }
         },
         "image_jKDaWq": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/image_51.png"
+          }
         },
         "image_gwd9NQ": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/image_49.png"
+          }
         }
       },
       "block_order": [
@@ -160,14 +175,14 @@
         "heading_ntbXzY": {
           "type": "heading",
           "settings": {
-            "heading": "We're giving away a $10,000 golf trip.",
-            "heading_size": "h1"
+            "heading": "Pebble Beach. Trump National. PGA National. Wolf Creek. TPC Scottsdale. Kiawah. TPC Sawgrass.",
+            "heading_size": "h0"
           }
         },
         "text_jBX34L": {
           "type": "text",
           "settings": {
-            "text": "<p>Pick from some of the nicest courses in all of the world for you and your buddies to go play. All on our dime!</p>"
+            "text": "<p>Just a few of the options of courses you can play!</p>"
           }
         }
       },
@@ -180,8 +195,8 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 24,
+        "padding_bottom": 20
       }
     },
     "image_banner_kDYRfV": {
@@ -190,24 +205,24 @@
         "heading_cpxeE4": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h2"
+            "heading": "<strong>GIVEAWAY</strong>",
+            "heading_size": "h0"
           }
         },
-        "text_CYNLRN": {
+        "text_wLRqif": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "<strong>We partnered up with GolfBreaks to giveaway the golf trip of a lifetime! Pick between some of the best courses all over the world for you and your buddies to play.</strong>",
             "text_style": "body"
           }
         },
-        "buttons_48JRLA": {
+        "buttons_zBH6Rz": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify://collections/pinned-golf-shop",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -215,17 +230,17 @@
       },
       "block_order": [
         "heading_cpxeE4",
-        "text_CYNLRN",
-        "buttons_48JRLA"
+        "text_wLRqif",
+        "buttons_zBH6Rz"
       ],
       "settings": {
         "image": "shopify://shop_images/Website_Hero_2.jpg",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 10,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -237,9 +252,9 @@
     "main",
     "image_banner_TGGfCn",
     "rich_text_CeW4hx",
+    "rich_text_DhDdVe",
     "collage_NznWLL",
     "collage_9cfNDU",
-    "rich_text_DhDdVe",
     "image_banner_kDYRfV"
   ]
 }
