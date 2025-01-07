@@ -56,7 +56,7 @@
         "heading_VtyEwG": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>HOW TO ENTER</strong>",
+            "heading": "<em><strong>HOW TO ENTER</strong></em>",
             "heading_size": "h1"
           }
         },
