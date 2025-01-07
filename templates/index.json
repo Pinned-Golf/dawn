@@ -12,27 +12,19 @@
     "image_banner_iWr6ta": {
       "type": "image-banner",
       "blocks": {
-        "heading_WahQnq": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Better </strong><em><strong>Vibes</strong></em><strong>. Better </strong><em><strong>Golf</strong></em><strong>.</strong>",
-            "heading_size": "h0"
-          }
-        },
         "buttons_EJHyeW": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
             "button_link_1": "shopify://collections/pinned-golf-shop",
             "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_label_2": "Learn More",
+            "button_link_2": "shopify://pages/golf-trip-giveaway-1",
             "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_WahQnq",
         "buttons_EJHyeW"
       ],
       "custom_css": [
