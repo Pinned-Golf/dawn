@@ -17,8 +17,15 @@
         "announcement_PpY4hQ": {
           "type": "announcement",
           "settings": {
-            "text": "WIN THE GOLF TRIP OF YOUR DREAMS!",
+            "text": "WIN A $10,000 GOLF TRIP!",
             "link": "shopify://pages/golf-trip-giveaway-1"
+          }
+        },
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Trusted by 200,000+ golfers.",
+            "link": ""
           }
         },
         "announcement_WhAXbB": {
@@ -27,19 +34,12 @@
             "text": "Free Shipping on ALL orders!",
             "link": ""
           }
-        },
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "Products trusted by 150,000+ golfers.",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "announcement_PpY4hQ",
-        "announcement_WhAXbB",
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_WhAXbB"
       ],
       "settings": {
         "color_scheme": "scheme-5",
