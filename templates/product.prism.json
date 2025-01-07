@@ -750,6 +750,7 @@
     },
     "featured_collection_3mUgBK": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "<strong>Trending</strong>",
         "heading_size": "h1",
