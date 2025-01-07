@@ -81,7 +81,7 @@
         "text_Bc68Yq": {
           "type": "text",
           "settings": {
-            "text": "<p>Simply shop our site and be magically entered in to win! </p>"
+            "text": "<p>Simply shop our site and be magically entered in to win! </p><p><em>See below for other ways to enter.</em></p>"
           }
         },
         "button_4gDpRJ": {
@@ -280,7 +280,7 @@
         "text_yLbrfd": {
           "type": "text",
           "settings": {
-            "text": "<p><em>NO PURCHASE NECESSARY </em><a href=\"/pages/golf-trip-giveaway\" target=\"_blank\" title=\"Golf Trip Giveaway\"><em>VIEW TERMS & CONDITIONS</em></a></p>"
+            "text": "<p><em>*NO PURCHASE NECESSARY </em><a href=\"/pages/golf-trip-giveaway\" target=\"_blank\" title=\"Golf Trip Giveaway\"><em>VIEW TERMS & CONDITIONS</em></a></p>"
           }
         },
         "button_xNcezg": {
