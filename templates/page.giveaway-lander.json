@@ -334,18 +334,6 @@
     },
     "image_banner_Fz6aXD": {
       "type": "image-banner",
-      "blocks": {
-        "text_zdqGyn": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "subtitle"
-          }
-        }
-      },
-      "block_order": [
-        "text_zdqGyn"
-      ],
       "settings": {
         "image": "shopify://shop_images/holidaty_dale_2240_x_300_px.jpg",
         "image_overlay_opacity": 0,
@@ -359,6 +347,28 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "rich_text_zWMkbW": {
+      "type": "rich-text",
+      "blocks": {
+        "text_W9tFza": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_W9tFza"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 8
+      }
     }
   },
   "order": [
@@ -371,6 +381,7 @@
     "featured_collection_RaQQJn",
     "image_banner_kDYRfV",
     "rich_text_6heUYn",
-    "image_banner_Fz6aXD"
+    "image_banner_Fz6aXD",
+    "rich_text_zWMkbW"
   ]
 }
