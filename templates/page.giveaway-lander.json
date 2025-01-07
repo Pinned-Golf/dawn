@@ -91,7 +91,7 @@
         "button_awJRLW"
       ],
       "settings": {
-        "image": "shopify://shop_images/Untitled_design_31_07070dc0-2a24-4d1a-84f4-d68db7ec61a3.jpg",
+        "image": "shopify://shop_images/Giveaway_Ads.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -101,7 +101,7 @@
         "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -392,6 +392,40 @@
         "padding_top": 40,
         "padding_bottom": 8
       }
+    },
+    "multirow_NRway4": {
+      "type": "multirow",
+      "blocks": {
+        "row_3d4KCU": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Giveaway_Ads.jpg",
+            "caption": "",
+            "heading": "<strong>HOW TO ENTER</strong>",
+            "text": "<h3><strong>EVERY $1 SPENT = 1 ENTRY*</strong></h3><p>Shop our site & be entered to win!</p>",
+            "button_label": "SHOP & ENTER",
+            "button_link": "shopify://collections/pinned-golf-shop"
+          }
+        }
+      },
+      "block_order": [
+        "row_3d4KCU"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -406,6 +440,7 @@
     "featured_collection_RaQQJn",
     "rich_text_6heUYn",
     "image_banner_Fz6aXD",
-    "rich_text_zWMkbW"
+    "rich_text_zWMkbW",
+    "multirow_NRway4"
   ]
 }
