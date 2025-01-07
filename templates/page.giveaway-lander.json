@@ -218,6 +218,34 @@
         "padding_bottom": 40
       }
     },
+    "featured_collection_RaQQJn": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Best Sellers",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "best-sellers",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner_kDYRfV": {
       "type": "image-banner",
       "blocks": {
@@ -324,34 +352,6 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
-    },
-    "featured_collection_RaQQJn": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Best Sellers",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "best-sellers",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -361,9 +361,9 @@
     "rich_text_DhDdVe",
     "collage_NznWLL",
     "collage_9cfNDU",
+    "featured_collection_RaQQJn",
     "image_banner_kDYRfV",
     "rich_text_6heUYn",
-    "image_banner_Fz6aXD",
-    "featured_collection_RaQQJn"
+    "image_banner_Fz6aXD"
   ]
 }
