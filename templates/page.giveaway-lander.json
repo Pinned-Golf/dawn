@@ -334,6 +334,18 @@
     },
     "image_banner_Fz6aXD": {
       "type": "image-banner",
+      "blocks": {
+        "text_zdqGyn": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_zdqGyn"
+      ],
       "settings": {
         "image": "shopify://shop_images/holidaty_dale_2240_x_300_px.jpg",
         "image_overlay_opacity": 0,
