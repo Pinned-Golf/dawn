@@ -659,6 +659,7 @@
         "collapsible_row_X9eV6U",
         "collapsible_row_3RTHwb"
       ],
+      "disabled": true,
       "settings": {
         "caption": "the perfect gift for your golfer and here are",
         "heading": "Five Reasons Why.",
@@ -717,7 +718,7 @@
         "row_y3dgKc"
       ],
       "settings": {
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_image_width": "medium",
         "heading_size": "h1",
         "text_style": "body",
