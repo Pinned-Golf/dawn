@@ -23,25 +23,13 @@
         "heading_JCKG6G": {
           "type": "heading",
           "settings": {
-            "heading": "<em><strong>WIN A $10,000 GOLF TRIP.</strong></em>",
+            "heading": "<em><strong>WIN THE GOLF TRIP OF YOUR DREAMS.</strong></em>",
             "heading_size": "h0"
-          }
-        },
-        "buttons_AawKYD": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify://collections/pinned-golf-shop",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_JCKG6G",
-        "buttons_AawKYD"
+        "heading_JCKG6G"
       ],
       "custom_css": [
         "@media only screen and (max-width: 749px) {.banner {min-height: 70vh; /* Adjust this height as needed */ } .banner__media {height: 100%; width: 100%; object-fit: cover; }}",
