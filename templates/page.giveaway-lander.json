@@ -50,58 +50,36 @@
         "show_text_below": false
       }
     },
-    "image_with_text_JCWxyi": {
-      "type": "image-with-text",
+    "multirow_NRway4": {
+      "type": "multirow",
       "blocks": {
-        "heading_7UgiBj": {
-          "type": "heading",
+        "row_3d4KCU": {
+          "type": "row",
           "settings": {
+            "image": "shopify://shop_images/Giveaway_Ads.jpg",
+            "caption": "Want to enter? Here's",
             "heading": "<strong>HOW TO ENTER</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_7EaDg8": {
-          "type": "text",
-          "settings": {
-            "text": "<h3><strong>EVERY $1 SPENT = 1 ENTRY*</strong></h3>",
-            "text_style": "body"
-          }
-        },
-        "caption_P4zfyn": {
-          "type": "caption",
-          "settings": {
-            "caption": "SHOP OUR SITE & BE ENTERED TO WIN!",
-            "text_style": "subtitle",
-            "text_size": "medium"
-          }
-        },
-        "button_awJRLW": {
-          "type": "button",
-          "settings": {
-            "button_label": "SHOP & ENTER NOW",
-            "button_link": "shopify://collections/pinned-golf-shop",
-            "button_style_secondary": false
+            "text": "<h3><strong>EVERY $1 SPENT = 1 ENTRY*</strong></h3><p>Shop our site & be entered to win!</p>",
+            "button_label": "SHOP & ENTER",
+            "button_link": "shopify://collections/pinned-golf-shop"
           }
         }
       },
       "block_order": [
-        "heading_7UgiBj",
-        "text_7EaDg8",
-        "caption_P4zfyn",
-        "button_awJRLW"
+        "row_3d4KCU"
       ],
       "settings": {
-        "image": "shopify://shop_images/Giveaway_Ads.jpg",
-        "height": "adapt",
+        "image_height": "medium",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "image_layout": "alternate-left",
         "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -392,46 +370,12 @@
         "padding_top": 40,
         "padding_bottom": 8
       }
-    },
-    "multirow_NRway4": {
-      "type": "multirow",
-      "blocks": {
-        "row_3d4KCU": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Giveaway_Ads.jpg",
-            "caption": "",
-            "heading": "<strong>HOW TO ENTER</strong>",
-            "text": "<h3><strong>EVERY $1 SPENT = 1 ENTRY*</strong></h3><p>Shop our site & be entered to win!</p>",
-            "button_label": "SHOP & ENTER",
-            "button_link": "shopify://collections/pinned-golf-shop"
-          }
-        }
-      },
-      "block_order": [
-        "row_3d4KCU"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
     "image_banner_TGGfCn",
-    "image_with_text_JCWxyi",
+    "multirow_NRway4",
     "rich_text_CeW4hx",
     "video_jmG8LH",
     "rich_text_DhDdVe",
@@ -440,7 +384,6 @@
     "featured_collection_RaQQJn",
     "rich_text_6heUYn",
     "image_banner_Fz6aXD",
-    "rich_text_zWMkbW",
-    "multirow_NRway4"
+    "rich_text_zWMkbW"
   ]
 }
