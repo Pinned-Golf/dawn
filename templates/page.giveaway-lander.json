@@ -333,7 +333,7 @@
           "type": "button",
           "settings": {
             "button_label": "View Terms",
-            "button_link": "shopify://pages/giveaway-terms-and-conditions",
+            "button_link": "shopify://pages/golf-trip-giveaway-rules",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
