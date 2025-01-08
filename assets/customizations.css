@@ -57,6 +57,7 @@ product-info .giveaway-entries h3 button {
   color: white;
   margin: 1rem;
   font-weight: bold;
+  border-radius: 0.5rem;
 }
 
 @media screen and (max-width: 749px) {
