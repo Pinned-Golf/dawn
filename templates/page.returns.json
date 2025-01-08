@@ -72,7 +72,7 @@
         "text_EhbYrc": {
           "type": "text",
           "settings": {
-            "text": "<p>If you would like to exchange your product for a different color, you can exchange your order within 15 days from the date you receive your order.</p><p>To qualify for an exchange, returned items must be in their original working condition with no evidence of wear-and-tear and purchased on the Pinned Golf website. All accessories included in the original order must also be returned.  Return shipping cost will be incurred.   </p><p>All exchanges are inspected upon receipt. <em>This process may take 5-7 business days to complete.</em> If your returned product does not pass inspection, your exchange will be treated like a return.</p><p>To initiate an exchange, please fill out the form below.  An email will be sent with the shipping address.</p><p>Once your return is inspected and approved, your new item will be shipped.</p><p>To initiate an exchange please fill out the form at the bottom of this page.</p>"
+            "text": "<p>If you would like to exchange your product for a different color, you can exchange your order within 15 days from the date you receive your order.</p><p>To qualify for an exchange, returned items must be in their original working condition with no evidence of wear-and-tear and purchased on the Pinned Golf website. Unauthorized 3rd party vendors null and void the warranty. For any exchange or return an order number or proof of purchase is needed. All accessories included in the original order must also be returned.  Return shipping cost will be incurred.   </p><p>All exchanges are inspected upon receipt. <em>This process may take 5-7 business days to complete.</em> If your returned product does not pass inspection, your exchange will be treated like a return.</p><p>To initiate an exchange, please fill out the form below.  An email will be sent with the shipping address.</p><p>Once your return is inspected and approved, your new item will be shipped.</p><p>To initiate an exchange please fill out the form at the bottom of this page.</p>"
           }
         },
         "button_P6FPXm": {
@@ -114,7 +114,7 @@
         "text_TRYGxF": {
           "type": "text",
           "settings": {
-            "text": "<p>If you purchased a Pinned Golf product from a retailer, please contact them directly for a return.</p>"
+            "text": "<p>If you purchased a Pinned Golf product from a retailer, please contact them directly for a return. Unauthorized 3rd party vendors null and void our warranty. </p>"
           }
         },
         "button_GPb7QR": {
