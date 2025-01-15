@@ -19,7 +19,7 @@
         "text_3TMaQ3": {
           "type": "text",
           "settings": {
-            "text": "<strong>*Brand New*</strong>",
+            "text": "<strong>*2025 Brand New Product*</strong>",
             "text_style": "uppercase"
           }
         },
@@ -83,15 +83,12 @@
           "type": "icon-with-text",
           "settings": {
             "layout": "horizontal",
-            "icon_1": "none",
-            "image_1": "shopify://shop_images/1_f566ca30-628a-4dec-9858-da70ead17dd2.jpg",
+            "icon_1": "truck",
             "heading_1": "Shipping In May",
-            "icon_2": "none",
-            "image_2": "shopify://shop_images/2_c0b7a380-c7d2-4ff6-8e2b-0fe2df48f4de.jpg",
+            "icon_2": "price_tag",
             "heading_2": "Presale 1,000 units",
-            "icon_3": "none",
-            "image_3": "shopify://shop_images/5_d31e8e02-3601-4ba7-810d-96c7ca29ad75.jpg",
-            "heading_3": "Top Tier Support"
+            "icon_3": "star",
+            "heading_3": "Never Before Seen"
           }
         },
         "collapsible_tab_mFpMHC": {
