@@ -768,7 +768,7 @@
           "settings": {
             "heading": "360° Hole View",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Get a complete picture of the hole, not just distances. Plan your shots with a bird’s-eye view and identify hazards, bunkers, and safe zones with ease.</p>",
             "page": ""
           }
         },
