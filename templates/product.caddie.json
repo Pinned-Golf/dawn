@@ -754,8 +754,8 @@
         "column_34PWE7": {
           "type": "column",
           "settings": {
-            "title": "<em>Effortless and Accurate</em>",
-            "text": "<p><em>“This tablet is so simple to use yet packed with features. Knowing yardages to every spot on the course has been a game-changer for my club selection.”</em></p>",
+            "title": "Effortless and Accurate",
+            "text": "<p><em>“This tablet is so simple to use yet packed with features. Knowing yardages to every spot on the course has been a game-changer for my club selection.”</em></p><p><strong>Chris L., Scottsdale, AZ</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -772,8 +772,8 @@
         "column_LLaAj4": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "<em>Confidence at new courses</em>",
+            "text": "<p><em>“The Caddie tablet has given me the confidence I need to commit to every shot. Its detailed course insights have helped me lower my scores round after round.”</em></p><p><strong>Megan R., Chicago, IL</strong></p>",
             "link_label": "",
             "link": ""
           }
