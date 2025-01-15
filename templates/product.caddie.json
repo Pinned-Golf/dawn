@@ -745,8 +745,8 @@
         "column_7E8hdq": {
           "type": "column",
           "settings": {
-            "title": "<em>Game Changer</em>",
-            "text": "<p><em>“The Caddie has completely changed how I play. It’s like having a personal caddie every round. Accurate yardages and an easy interface—love it!”</em></p><p><strong>Eddie M., Delray Beach, FL</strong></p>",
+            "title": "Game Changer",
+            "text": "<p><em>“The Caddie has completely changed how I play. It’s like having a personal caddie every round. Accurate yardages and an easy interface—love it!”</em></p><p><strong>Eddie, Delray Beach, FL</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -755,7 +755,7 @@
           "type": "column",
           "settings": {
             "title": "Effortless and Accurate",
-            "text": "<p><em>“This tablet is so simple to use yet packed with features. Knowing yardages to every spot on the course has been a game-changer for my club selection.”</em></p><p><strong>Chris L., Scottsdale, AZ</strong></p>",
+            "text": "<p><em>“This tablet is so simple to use yet packed with features. Knowing yardages to every spot on the course has been a game-changer for my club selection.”</em></p><p><strong>Chris, Scottsdale, AZ</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -763,8 +763,8 @@
         "column_iRQ3Vx": {
           "type": "column",
           "settings": {
-            "title": "<em>Worth Every Penny</em>",
-            "text": "<p><em>“The Caddie tablet is now a must-have in my bag. It’s reliable, lightweight, and has saved me strokes with precise distances every round.”</em></p><p><strong>Emily S., Palm Beach, FL</strong></p>",
+            "title": "Worth Every Penny",
+            "text": "<p><em>“The Caddie is now a must-have in my bag. It’s reliable, lightweight, and has saved me strokes with precise distances every round.”</em></p><p><strong>Emily, Palm Beach, FL</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -772,8 +772,8 @@
         "column_LLaAj4": {
           "type": "column",
           "settings": {
-            "title": "<em>Confidence at new courses</em>",
-            "text": "<p><em>“The Caddie tablet has given me the confidence I need to commit to every shot. Its detailed course insights have helped me lower my scores round after round.”</em></p><p><strong>Megan R., Chicago, IL</strong></p>",
+            "title": "Confidence at new courses",
+            "text": "<p><em>“The Caddie tablet has given me the confidence I need when playing a new course. I know exactly where everything on the course is like i've played it 100 times before.”</em></p><p><strong>Morgan, San Diego, CA</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -781,8 +781,8 @@
         "column_7j9MNE": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Perfect for Golfers of All Levels",
+            "text": "<p>“Whether you’re just starting out or a seasoned player, the Caddie is a fantastic tool. It’s intuitive, accurate, and perfect for every skill level.”</p><p><strong>Bryan, Austin, TX</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -790,8 +790,8 @@
         "column_LxCaqB": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Fly Over",
+            "text": "<p>\"<em>The flyover before the hole is the best part. It allows me to map out the hole and figure out what to avoid.\"</em></p><p><strong>Conner, Jupiter, FL</strong></p>",
             "link_label": "",
             "link": ""
           }
