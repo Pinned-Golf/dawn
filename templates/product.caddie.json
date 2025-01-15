@@ -784,18 +784,18 @@
         "collapsible_row_xHJXEJ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Game Mode",
+            "heading": "Multiple Game Mode",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Whether you’re playing stroke play, match play, or even a scramble, the Caddie has modes to enhance every format and keep things fun.</p>",
             "page": ""
           }
         },
         "collapsible_row_Jp9gi4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "USGA GHIN Integration",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Say goodbye to manual score entry. The Caddie syncs directly with your USGA GHIN account, automatically uploading your scores after each round. It’s effortless, accurate, and keeps your handicap up to date without any extra work.</p>",
             "page": ""
           }
         }
