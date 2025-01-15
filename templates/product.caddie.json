@@ -626,95 +626,6 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_kpDfpN": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_3iNtf9": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Frame_9364.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_6YAer6": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Frame_9364.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_Kwqt9h": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Frame_9364.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_EMBrMz": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Frame_9364.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_f4AYAJ": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Frame_9364.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_eEGMFf": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Frame_9364.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_3iNtf9",
-        "column_6YAer6",
-        "column_Kwqt9h",
-        "column_EMBrMz",
-        "column_f4AYAJ",
-        "column_eEGMFf"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 6,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "collapsible_content_K3TTNR": {
       "type": "collapsible-content",
       "blocks": {
@@ -786,84 +697,182 @@
         "padding_bottom": 36
       }
     },
-    "collapsible_content_3AyFLq": {
-      "type": "collapsible-content",
+    "rich_text_aQeAa3": {
+      "type": "rich-text",
       "blocks": {
-        "collapsible_row_qdXMcJ": {
-          "type": "collapsible_row",
+        "heading_DKxnkA": {
+          "type": "heading",
           "settings": {
-            "heading": "Can I turn slope on and off?",
-            "icon": "check_mark",
-            "row_content": "<p>Yes, The Prism+ golf rangefinder comes with a slope switch that allows you to turn the slope on and off. This means that our golf rangefinder is completely USGA tournament legal.</p>",
-            "page": ""
+            "heading": "Initial Feedback",
+            "heading_size": "h1"
           }
         },
-        "collapsible_row_EABUcy": {
-          "type": "collapsible_row",
+        "text_jmmE6i": {
+          "type": "text",
           "settings": {
-            "heading": "How do I know it's fully charged?",
-            "icon": "check_mark",
-            "row_content": "<p>One 45 minute charge when you receive it and you will be good for the entire season! When fully charged, the green light will be lit.</p>",
-            "page": ""
+            "text": "<p>We let over 50 golfers test The Caddie and here is some of their initial feedback.</p>"
           }
         },
-        "collapsible_row_4VXbwM": {
-          "type": "collapsible_row",
+        "button_cm6bnd": {
+          "type": "button",
           "settings": {
-            "heading": "Can I use any USB-C charger?",
-            "icon": "check_mark",
-            "row_content": "<p>Please use the USB-C charging cord that comes with your Prism+.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_yG8QjR": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I use my rangefinder?",
-            "icon": "check_mark",
-            "row_content": "<p>Please head over to our tutorial section to learn how to use your device.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_Nt36Ki": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Should I register my device?",
-            "icon": "check_mark",
-            "row_content": "<p>You do not have to but it is strongly encouraged to register your device once you have received it.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_fx4MhC": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How Strong are the magnets?",
-            "icon": "check_mark",
-            "row_content": "<p>The magnets have been tested by numerous 3rd party partners and never fell off the cart regardless of the landscape. They are N52 magnets which are the strongest magnet on the market.</p>",
-            "page": ""
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "collapsible_row_qdXMcJ",
-        "collapsible_row_EABUcy",
-        "collapsible_row_4VXbwM",
-        "collapsible_row_yG8QjR",
-        "collapsible_row_Nt36Ki",
-        "collapsible_row_fx4MhC"
+        "heading_DKxnkA",
+        "text_jmmE6i",
+        "button_cm6bnd"
       ],
-      "disabled": true,
       "settings": {
-        "caption": "What other GOlfers are asking",
-        "heading": "Frequently Asked Questions",
-        "heading_size": "h2",
-        "heading_alignment": "center",
-        "layout": "none",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_pHTL4n": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_7E8hdq": {
+          "type": "column",
+          "settings": {
+            "title": "<em>Game Changer</em>",
+            "text": "<p><em>“The Caddie has completely changed how I play. It’s like having a personal caddie every round. Accurate yardages and an easy interface—love it!”</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_34PWE7": {
+          "type": "column",
+          "settings": {
+            "title": "<em>Effortless and Accurate</em>",
+            "text": "<p><em>“This tablet is so simple to use yet packed with features. Knowing yardages to every spot on the course has been a game-changer for my club selection.”</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iRQ3Vx": {
+          "type": "column",
+          "settings": {
+            "title": "<em>Worth Every Penny</em>",
+            "text": "<p><em>“The Caddie tablet is now a must-have in my bag. It’s reliable, lightweight, and has saved me strokes with precise distances every round.”</em></p><p><strong>Emily S., Palm Beach, FL</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LLaAj4": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7j9MNE": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LxCaqB": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_7E8hdq",
+        "column_34PWE7",
+        "column_iRQ3Vx",
+        "column_LLaAj4",
+        "column_7j9MNE",
+        "column_LxCaqB"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
         "image_ratio": "adapt",
-        "desktop_layout": "image_second",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_JQCwPn": {
+      "type": "multirow",
+      "blocks": {
+        "row_6WBCip": {
+          "type": "row",
+          "settings": {
+            "caption": "Parker Petruney",
+            "heading": "Game changing",
+            "text": "<p>This product is an absolute game changer. I can't believe this didn't exist and I loved </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_64h7fX": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_HKGkRE": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_6WBCip",
+        "row_64h7fX",
+        "row_HKGkRE"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -885,8 +894,9 @@
     "collage_WxqWfN",
     "collage_fgFDfL",
     "collage_346tEm",
-    "multicolumn_kpDfpN",
     "collapsible_content_K3TTNR",
-    "collapsible_content_3AyFLq"
+    "rich_text_aQeAa3",
+    "multicolumn_pHTL4n",
+    "multirow_JQCwPn"
   ]
 }
