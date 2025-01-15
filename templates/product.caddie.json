@@ -626,77 +626,6 @@
         "padding_bottom": 36
       }
     },
-    "collapsible_content_K3TTNR": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_KTrHDj": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Size Matters",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_G8tpyb": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "360° Hole View",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_HBqL4e": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Advances Stats",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_xHJXEJ": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Game Mode",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_Jp9gi4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_KTrHDj",
-        "collapsible_row_G8tpyb",
-        "collapsible_row_HBqL4e",
-        "collapsible_row_xHJXEJ",
-        "collapsible_row_Jp9gi4"
-      ],
-      "settings": {
-        "caption": "5 REASONS WHY THE CADDIE IS",
-        "heading": "Better than a handheld GPS.",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": true,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "rich_text_aQeAa3": {
       "type": "rich-text",
       "blocks": {
@@ -811,7 +740,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
@@ -819,6 +748,77 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 8,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_K3TTNR": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_KTrHDj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Size Matters",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_G8tpyb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "360° Hole View",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_HBqL4e": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Advances Stats",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_xHJXEJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Game Mode",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_Jp9gi4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_KTrHDj",
+        "collapsible_row_G8tpyb",
+        "collapsible_row_HBqL4e",
+        "collapsible_row_xHJXEJ",
+        "collapsible_row_Jp9gi4"
+      ],
+      "settings": {
+        "caption": "5 REASONS WHY THE CADDIE IS",
+        "heading": "Better than a handheld GPS.",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
@@ -839,8 +839,8 @@
     "collage_WxqWfN",
     "collage_fgFDfL",
     "collage_346tEm",
-    "collapsible_content_K3TTNR",
     "rich_text_aQeAa3",
-    "multicolumn_pHTL4n"
+    "multicolumn_pHTL4n",
+    "collapsible_content_K3TTNR"
   ]
 }
