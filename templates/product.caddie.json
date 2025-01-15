@@ -821,61 +821,6 @@
         "padding_top": 8,
         "padding_bottom": 36
       }
-    },
-    "multirow_JQCwPn": {
-      "type": "multirow",
-      "blocks": {
-        "row_6WBCip": {
-          "type": "row",
-          "settings": {
-            "caption": "Parker Petruney",
-            "heading": "Game changing",
-            "text": "<p>This product is an absolute game changer. I can't believe this didn't exist and I loved </p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_64h7fX": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_HKGkRE": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_6WBCip",
-        "row_64h7fX",
-        "row_HKGkRE"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -896,7 +841,6 @@
     "collage_346tEm",
     "collapsible_content_K3TTNR",
     "rich_text_aQeAa3",
-    "multicolumn_pHTL4n",
-    "multirow_JQCwPn"
+    "multicolumn_pHTL4n"
   ]
 }
