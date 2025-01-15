@@ -777,7 +777,7 @@
           "settings": {
             "heading": "Advances Stats",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Track your game like never before. From driving accuracy to greens in regulation, the Caddie’s stats give you actionable insights to improve your play.</p>",
             "page": ""
           }
         },
