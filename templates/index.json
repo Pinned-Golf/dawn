@@ -49,9 +49,21 @@
     },
     "image_banner_QMgQCn": {
       "type": "image-banner",
+      "blocks": {
+        "heading_Afgqdy": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>The </strong><em><strong>future </strong></em><strong>of golf is here. </strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Afgqdy"
+      ],
       "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/holidaty_dale_1.png",
+        "image": "shopify://shop_images/UP_2048_x_1365_px_2048_x_1080_px_9.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
