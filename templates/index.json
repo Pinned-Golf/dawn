@@ -350,13 +350,24 @@
         "show_text_below": false
       }
     },
+    "rich_text_VdgCAW": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
     "image_banner_zydXMz": {
       "type": "image-banner",
       "blocks": {
         "heading_LVDk3m": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Our Family Rolls Deep</strong>",
+            "heading": "<strong>Our family rolls deep.</strong>",
             "heading_size": "h0"
           }
         },
@@ -583,6 +594,7 @@
     "collapsible_content_rT76Q4",
     "rich_text_wR6TAa",
     "image_banner_xTdKjF",
+    "rich_text_VdgCAW",
     "image_banner_zydXMz",
     "collage_c4TaUk",
     "rich_text_fFehrF",
