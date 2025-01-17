@@ -47,6 +47,47 @@
         "show_text_below": false
       }
     },
+    "image_banner_xTdKjF": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_CFjm3m": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>$10,000 golf trip giveaway</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "buttons_WhNgbr": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Learn More & Enter To Win!",
+            "button_link_2": "shopify://pages/golf-trip-giveaway-1",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_CFjm3m",
+        "buttons_WhNgbr"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Website_Hero_4.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "image_banner_QMgQCn": {
       "type": "image-banner",
       "blocks": {
@@ -839,6 +880,7 @@
   },
   "order": [
     "image_banner_iWr6ta",
+    "image_banner_xTdKjF",
     "image_banner_QMgQCn",
     "rich_text_wR6TAa",
     "image_banner_4ac4Cg",
