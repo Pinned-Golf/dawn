@@ -42,14 +42,6 @@
             "text_style": "subtitle"
           }
         },
-        "text_a7pip3": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<strong>NATIONAL GOLF MONTH SALE | </strong>FREE GIFT WITH EVERY PURCHASE",
-            "text_style": "uppercase"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {}
@@ -139,7 +131,6 @@
         "title",
         "text_8pA7Hq",
         "caption",
-        "text_a7pip3",
         "price",
         "variant_picker",
         "quantity_selector_a4gife",
