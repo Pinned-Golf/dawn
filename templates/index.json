@@ -350,6 +350,52 @@
         "show_text_below": false
       }
     },
+    "image_banner_zydXMz": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_LVDk3m": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Our Family Rolls Deep</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "buttons_UjE4at": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Learn More & Enter To Win!",
+            "button_link_1": "shopify://pages/golf-trip-giveaway-1",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_LVDk3m",
+        "buttons_UjE4at"
+      ],
+      "custom_css": [
+        "@media only screen and (max-width: 749px) {.banner {min-height: 70vh; /* Adjust this height as needed */ } .banner__media {height: 100%; width: 100%; object-fit: cover; }}",
+        ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50rem;}",
+        "@media screen and (min-width: 750px) {.banner--large:not(.banner--adapt) {min-height: 90rem; }}",
+        ".banner__content {align-items: flex-end;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Website_Hero_12.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "collage_c4TaUk": {
       "type": "collage",
       "blocks": {
@@ -378,7 +424,7 @@
         "image_pybBxK"
       ],
       "settings": {
-        "heading": "<strong>Our Pinned family rolls 200k+ deep.</strong>",
+        "heading": "",
         "heading_size": "h1",
         "desktop_layout": "left",
         "mobile_layout": "collage",
@@ -535,6 +581,7 @@
     "collapsible_content_rT76Q4",
     "rich_text_wR6TAa",
     "image_banner_xTdKjF",
+    "image_banner_zydXMz",
     "collage_c4TaUk",
     "rich_text_fFehrF",
     "featured_collection_GTncrW",
