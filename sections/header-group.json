@@ -34,12 +34,20 @@
             "text": "Free Shipping on ALL orders!",
             "link": ""
           }
+        },
+        "announcement_fXeqhB": {
+          "type": "announcement",
+          "settings": {
+            "text": "Shop The Future Of Golf.",
+            "link": "shopify://products/the-caddie-golf-tablet"
+          }
         }
       },
       "block_order": [
         "announcement_PpY4hQ",
         "announcement-bar-0",
-        "announcement_WhAXbB"
+        "announcement_WhAXbB",
+        "announcement_fXeqhB"
       ],
       "settings": {
         "color_scheme": "scheme-5",
