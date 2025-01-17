@@ -396,7 +396,7 @@
       "settings": {
         "image": "shopify://shop_images/Website_Hero_13.jpg",
         "image_overlay_opacity": 10,
-        "image_height": "large",
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -477,7 +477,7 @@
     "featured_collection_GTncrW": {
       "type": "featured-collection",
       "settings": {
-        "title": "<strong>Top Picks</strong>",
+        "title": "<strong>Trending</strong>",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
