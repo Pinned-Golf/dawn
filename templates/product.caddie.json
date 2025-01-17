@@ -204,7 +204,7 @@
         "heading_XRfijK": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>The </strong><em><strong>future</strong></em><strong> of golf is here.</strong>",
+            "heading": "<strong>The </strong><em><strong>future</strong></em><strong> of golf is </strong><em><strong>here</strong></em><strong>.</strong>",
             "heading_size": "h1"
           }
         }
