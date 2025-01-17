@@ -363,8 +363,8 @@
         "buttons_UjE4at": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Learn More & Enter To Win!",
-            "button_link_1": "shopify://pages/golf-trip-giveaway-1",
+            "button_label_1": "Customer Reviews",
+            "button_link_1": "shopify://pages/reviews",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -423,6 +423,7 @@
         "image_RJjCYG",
         "image_pybBxK"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -452,6 +453,7 @@
       "block_order": [
         "button_F7D4QM"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
