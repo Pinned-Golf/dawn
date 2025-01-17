@@ -14,18 +14,18 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_fXeqhB": {
+          "type": "announcement",
+          "settings": {
+            "text": "Shop The Future Of Golf.",
+            "link": "shopify://products/the-caddie-golf-tablet"
+          }
+        },
         "announcement_PpY4hQ": {
           "type": "announcement",
           "settings": {
             "text": "WIN A $10,000 GOLF TRIP!",
             "link": "shopify://pages/golf-trip-giveaway-1"
-          }
-        },
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "Trusted by 200,000+ golfers.",
-            "link": ""
           }
         },
         "announcement_WhAXbB": {
@@ -34,20 +34,12 @@
             "text": "Free Shipping on ALL orders!",
             "link": ""
           }
-        },
-        "announcement_fXeqhB": {
-          "type": "announcement",
-          "settings": {
-            "text": "Shop The Future Of Golf.",
-            "link": "shopify://products/the-caddie-golf-tablet"
-          }
         }
       },
       "block_order": [
+        "announcement_fXeqhB",
         "announcement_PpY4hQ",
-        "announcement-bar-0",
-        "announcement_WhAXbB",
-        "announcement_fXeqhB"
+        "announcement_WhAXbB"
       ],
       "settings": {
         "color_scheme": "scheme-5",
