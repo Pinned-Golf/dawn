@@ -46,7 +46,7 @@ product-info .giveaway-entries h3 button {
 .product .price {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   flex-wrap: wrap;
 }
 
