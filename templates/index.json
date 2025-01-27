@@ -19,6 +19,13 @@
             "heading_size": "h0"
           }
         },
+        "text_eeiHnW": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>2025 PGA SHOW NEW PRODUCT OF THE YEAR!</strong>",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
         "buttons_pVniPM": {
           "type": "buttons",
           "settings": {
@@ -33,6 +40,7 @@
       },
       "block_order": [
         "heading_Afgqdy",
+        "text_eeiHnW",
         "buttons_pVniPM"
       ],
       "custom_css": [
