@@ -484,6 +484,9 @@
     },
     "featured_collection_GTncrW": {
       "type": "featured-collection",
+      "custom_css": [
+        ".price {justify-content: center}"
+      ],
       "settings": {
         "title": "<strong>Trending</strong>",
         "heading_size": "h1",
