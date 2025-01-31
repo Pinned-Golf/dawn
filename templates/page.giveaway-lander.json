@@ -23,7 +23,7 @@
         "heading_JCKG6G": {
           "type": "heading",
           "settings": {
-            "heading": "<em><strong>WIN THE GOLF TRIP OF YOUR DREAMS</strong></em>",
+            "heading": "<em><strong>Win</strong></em><strong> the golf trip of y</strong><em><strong>our dreams</strong></em><strong>.</strong>",
             "heading_size": "h0"
           }
         }
@@ -375,8 +375,8 @@
   "order": [
     "main",
     "image_banner_TGGfCn",
-    "multirow_NRway4",
     "image_banner_Fz6aXD",
+    "multirow_NRway4",
     "rich_text_CeW4hx",
     "video_jmG8LH",
     "rich_text_DhDdVe",
