@@ -72,7 +72,11 @@
         "input {margin: 10px auto; height: 44px; display: block; width: 50%; min-width: 200px; padding: 1rem;}",
         "#results {width: 50%; max-height: 400px; overflow-y: scroll; min-width: 200px; padding: 1rem; margin: 0 auto;}"
       ],
-      "settings": {}
+      "settings": {
+        "title": "Search a course",
+        "heading_size": "h1",
+        "description": "<p>Check to see if your course is one of our 45,000. Chances are yes! </p>"
+      }
     }
   },
   "order": [
