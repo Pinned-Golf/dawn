@@ -1,0 +1,85 @@
+<style>
+  .result-item {
+    margin-bottom: 10px;
+  }
+  .result-item .name {
+    font-weight: bold;
+  }
+</style>
+
+<h1>Search for an Course</h1>
+<input type="text" id="searchInput" placeholder="Course name">
+<div id="results"></div>
+
+<script type="text/javascript">
+  document.getElementById('searchInput').addEventListener(
+    'input',
+    debounce(function (event) {
+      const searchTerm = event.target.value;
+      if (searchTerm) {
+        fetchResults(searchTerm);
+      } else {
+        clearResults();
+      }
+    }, 300),
+  );
+
+  function fetchResults(query) {
+    // Replace 'your-api-endpoint' with the actual endpoint
+    fetch(`https://pinned-golf-app.fly.dev/search/courses.json?course_name=${query}`)
+      .then((response) => response.json())
+      .then((data) => displayResults(data))
+      .catch((error) => console.error('Error fetching data:', error));
+  }
+
+  function displayResults(results) {
+    const resultsContainer = document.getElementById('results');
+    resultsContainer.innerHTML = ''; // Clear previous results
+
+    results.forEach((item) => {
+      const resultItem = document.createElement('div');
+      resultItem.classList.add('result-item');
+
+      const nameElement = document.createElement('div');
+      nameElement.classList.add('name');
+      nameElement.textContent = item.name;
+
+      const locationElement = document.createElement('div');
+      locationElement.textContent = `${item.city}, ${item.state}`;
+
+      resultItem.appendChild(nameElement);
+      resultItem.appendChild(locationElement);
+      resultsContainer.appendChild(resultItem);
+    });
+  }
+
+  function clearResults() {
+    const resultsContainer = document.getElementById('results');
+    resultsContainer.innerHTML = ''; // Clear previous results
+  }
+
+  function debounce(func, wait) {
+    let timeout;
+    return function (...args) {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => func.apply(this, args), wait);
+    };
+  }
+</script>
+
+{% schema %}
+{
+  "name": "Course Search",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [],
+  "presets": [
+    {
+      "name": "Course Search"
+    }
+  ]
+}
+{% endschema %}
