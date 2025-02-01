@@ -861,7 +861,7 @@
         "#results {width: 50%; max-height: 400px; overflow-y: scroll; min-width: 200px; padding: 1rem; margin: 0 auto;}"
       ],
       "settings": {
-        "title": "Search your course",
+        "title": "<strong>Search your course</strong>",
         "heading_size": "h1",
         "description": "<p>Check to see if it's one of our 45,000+. </p>"
       }
@@ -872,6 +872,7 @@
     "image_banner_AgN8Rt",
     "rich_text_Pzp6bP",
     "multirow_DgY64M",
+    "course_search_QWVePx",
     "rich_text_rk9B8n",
     "related-products",
     "custom_liquid_PRJMPr",
@@ -887,7 +888,6 @@
     "collage_346tEm",
     "rich_text_aQeAa3",
     "multicolumn_pHTL4n",
-    "collapsible_content_K3TTNR",
-    "course_search_QWVePx"
+    "collapsible_content_K3TTNR"
   ]
 }
