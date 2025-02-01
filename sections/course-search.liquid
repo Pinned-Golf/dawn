@@ -7,7 +7,8 @@
   }
 </style>
 
-<h1>Search for a Course</h1>
+<h1>{{ section.settings.title }}</h1>
+<div>{{ section.settings.description }}</div>
 <input type="text" id="searchInput" placeholder="Course name">
 <div id="results"></div>
 
@@ -78,7 +79,39 @@
   "disabled_on": {
     "groups": ["header", "footer"]
   },
-  "settings": [],
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "default": "Search For a Course",
+      "label": "Title"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description"
+    }
+  ],
   "presets": [
     {
       "name": "Course Search"
