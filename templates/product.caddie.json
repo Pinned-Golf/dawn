@@ -860,7 +860,11 @@
         "input {margin: 10px auto; height: 44px; display: block; width: 50%; min-width: 200px; padding: 1rem;}",
         "#results {width: 50%; max-height: 400px; overflow-y: scroll; min-width: 200px; padding: 1rem; margin: 0 auto;}"
       ],
-      "settings": {}
+      "settings": {
+        "title": "Search your course",
+        "heading_size": "h1",
+        "description": ""
+      }
     }
   },
   "order": [
