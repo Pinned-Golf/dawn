@@ -7,7 +7,7 @@
   }
 </style>
 
-<h1>Search for an Course</h1>
+<h1>Search for a Course</h1>
 <input type="text" id="searchInput" placeholder="Course name">
 <div id="results"></div>
 
@@ -25,6 +25,9 @@
   );
 
   function fetchResults(query) {
+    if (query.length < 5) {
+      return;
+    }
     // Replace 'your-api-endpoint' with the actual endpoint
     fetch(`https://pinned-golf-app.fly.dev/search/courses.json?course_name=${query}`)
       .then((response) => response.json())
