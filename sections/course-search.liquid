@@ -7,10 +7,14 @@
   }
 </style>
 
-<h1>{{ section.settings.title }}</h1>
-<div>{{ section.settings.description }}</div>
-<input type="text" id="searchInput" placeholder="Course name">
-<div id="results"></div>
+<div class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
+  <div class="page-width">
+    <h1>{{ section.settings.title }}</h1>
+    <div>{{ section.settings.description }}</div>
+    <input type="text" id="searchInput" placeholder="Course name">
+    <div id="results"></div>
+  </div>
+</div>
 
 <script type="text/javascript">
   document.getElementById('searchInput').addEventListener(
