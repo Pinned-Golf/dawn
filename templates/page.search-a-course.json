@@ -103,7 +103,39 @@
       "settings": {
         "title": "<strong>45,000+ Courses</strong>",
         "heading_size": "h1",
-        "description": "<p><em>Check to see if your course is one of our 45,000+ you have access to on our Caddie GPS Golf Tablets</em></p>"
+        "description": "<p><em>Check to see if your course is one of our 45,000+ you have access to on our Caddie GPS Golf Tablets</em></p>",
+        "additional_text": "",
+        "border_radius": 5,
+        "results_border_width": 1,
+        "results_border_radius": 5,
+        "title_alignment": "center",
+        "description_alignment": "center",
+        "additional_text_alignment": "center",
+        "image_behavior": "none",
+        "image_border_radius": 5,
+        "image_drop_shadow": "none"
+      }
+    },
+    "rich_text_NX7JDe": {
+      "type": "rich-text",
+      "blocks": {
+        "text_RcNdYg": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_RcNdYg"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
       }
     }
   },
@@ -111,6 +143,7 @@
     "main",
     "image_banner_ETfWpw",
     "image_banner_Am7JBE",
-    "course_search_fhadpy"
+    "course_search_fhadpy",
+    "rich_text_NX7JDe"
   ]
 }
