@@ -255,7 +255,7 @@
             "image": "shopify://shop_images/Frame_95348.jpg",
             "caption": "Maps From",
             "heading": "<strong>45,000+ Courses</strong>",
-            "text": "<p>With maps from over 45,000 courses worldwide, bring the Caddie anywhere your game takes you.</p>",
+            "text": "<p>With maps from over 45,000 courses worldwide, bring the Caddie anywhere your game takes you. Search your course below. </p>",
             "button_label": "",
             "button_link": ""
           }
@@ -317,6 +317,19 @@
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 12
+      }
+    },
+    "course_search_QWVePx": {
+      "type": "course-search",
+      "custom_css": [
+        "h1 {display: block; text-align: center; margin-bottom: 0;}",
+        "input {margin: 10px auto; height: 44px; display: block; width: 50%; min-width: 200px; padding: 1rem;}",
+        "#results {width: 50%; max-height: 400px; overflow-y: scroll; min-width: 200px; padding: 1rem; margin: 0 auto;}"
+      ],
+      "settings": {
+        "title": "<strong>Search your course</strong>",
+        "heading_size": "h1",
+        "description": "<p>Check to see if it's one of our 45,000+</p>"
       }
     },
     "rich_text_rk9B8n": {
@@ -790,7 +803,7 @@
           "settings": {
             "heading": "Size Matters",
             "icon": "check_mark",
-            "row_content": "<p>This 8in screen provides a crystal clear view, yet compact enough to stay out of your way. The Caddie’s slim design and built-in magnet make it the perfect on-course companion.</p>",
+            "row_content": "<p>This 8\" screen provides a crystal clear view, yet compact enough to stay out of your way. The Caddie’s slim design and built-in magnet make it the perfect on-course companio</p>",
             "page": ""
           }
         },
@@ -852,15 +865,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "course_search_QWVePx": {
-      "type": "course-search",
-      "custom_css": [
-        "h1 {display: block; text-align: center; margin-bottom: 0;}",
-        "input {margin: 10px auto; height: 44px; display: block; width: 50%; min-width: 200px; padding: 1rem;}",
-        "#results {width: 50%; max-height: 400px; overflow-y: scroll; min-width: 200px; padding: 1rem; margin: 0 auto;}"
-      ],
-      "settings": {}
     }
   },
   "order": [
@@ -868,6 +872,7 @@
     "image_banner_AgN8Rt",
     "rich_text_Pzp6bP",
     "multirow_DgY64M",
+    "course_search_QWVePx",
     "rich_text_rk9B8n",
     "related-products",
     "custom_liquid_PRJMPr",
@@ -883,7 +888,6 @@
     "collage_346tEm",
     "rich_text_aQeAa3",
     "multicolumn_pHTL4n",
-    "collapsible_content_K3TTNR",
-    "course_search_QWVePx"
+    "collapsible_content_K3TTNR"
   ]
 }
