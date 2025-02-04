@@ -189,7 +189,7 @@
       ],
       "settings": {
         "product": "the-caddie-golf-tablet",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "secondary_background": false,
         "media_size": "medium",
         "constrain_to_viewport": true,
