@@ -24,7 +24,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Search For Your Course</strong>",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         }
       },
