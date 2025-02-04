@@ -321,7 +321,9 @@
     },
     "course_search_QWVePx": {
       "type": "course-search",
-      "custom_css": [],
+      "custom_css": [
+        ".results {z-index: 999}"
+      ],
       "settings": {
         "title": "<strong>Search your course</strong>",
         "heading_size": "h1",
