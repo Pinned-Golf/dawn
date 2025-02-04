@@ -321,15 +321,21 @@
     },
     "course_search_QWVePx": {
       "type": "course-search",
-      "custom_css": [
-        "h1 {display: block; text-align: center; margin-bottom: 0;}",
-        "input {margin: 10px auto; height: 44px; display: block; width: 50%; min-width: 200px; padding: 1rem;}",
-        "#results {width: 50%; max-height: 400px; overflow-y: scroll; min-width: 200px; padding: 1rem; margin: 0 auto;}"
-      ],
+      "custom_css": [],
       "settings": {
         "title": "<strong>Search your course</strong>",
         "heading_size": "h1",
-        "description": "<p>Check to see if it's one of our 45,000+</p>"
+        "description": "<p>Check to see if it's one of our 45,000+</p>",
+        "additional_text": "",
+        "border_radius": 5,
+        "results_border_width": 1,
+        "results_border_radius": 5,
+        "title_alignment": "center",
+        "description_alignment": "center",
+        "additional_text_alignment": "center",
+        "image_behavior": "none",
+        "image_border_radius": 5,
+        "image_drop_shadow": "none"
       }
     },
     "rich_text_rk9B8n": {
