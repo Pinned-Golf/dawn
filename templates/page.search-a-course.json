@@ -17,6 +17,34 @@
         "padding_bottom": 28
       }
     },
+    "image_banner_ETfWpw": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_ATAptY": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Search Your Course</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ATAptY"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Website_Hero_15.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "image_banner_Am7JBE": {
       "type": "image-banner",
       "blocks": {
@@ -73,14 +101,15 @@
         "#results {width: 50%; max-height: 400px; overflow-y: scroll; min-width: 200px; padding: 1rem; margin: 0 auto;}"
       ],
       "settings": {
-        "title": "Search a course",
+        "title": "",
         "heading_size": "h1",
-        "description": "<p>Check to see if your course is one of our 45,000 we have on our Caddie GPS Golf Tablets. </p>"
+        "description": "<p>Check to see if your course is one of our 45,000+ you have access to on our Caddie GPS Golf Tablets</p>"
       }
     }
   },
   "order": [
     "main",
+    "image_banner_ETfWpw",
     "image_banner_Am7JBE",
     "course_search_fhadpy"
   ]
