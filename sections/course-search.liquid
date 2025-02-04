@@ -166,6 +166,18 @@
       timeout = setTimeout(() => func.apply(this, args), wait);
     };
   }
+  document.addEventListener('click', function (event) {
+    const searchInput = document.querySelector('.searchInput');
+    const resultsContainer = document.querySelector('.results');
+    if (
+      !searchInput.contains(event.target) &&
+      !resultsContainer.contains(event.target) &&
+      event.target !== searchInput &&
+      event.target !== resultsContainer
+    ) {
+      clearResults();
+    }
+  });
 </script>
 
 {% schema %}
