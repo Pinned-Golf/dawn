@@ -1,23 +1,116 @@
 <style>
-  .result-item {
+  .section-{{ section.id }} .result-item {
     margin-bottom: 10px;
   }
-  .result-item .name {
+  .section-{{ section.id }} .result-item .name {
     font-weight: bold;
+  }
+  .section-{{ section.id }} .searchInput {
+    border-radius: {{ section.settings.border_radius }}px;
+  }
+  .section-{{ section.id }} h1 {
+    display: block;
+    text-align: {{ section.settings.title_alignment }};
+    margin-bottom: 0;
+  }
+  .section-{{ section.id }} .description {
+    text-align: {{ section.settings.description_alignment }};
+  }
+  .section-{{ section.id }} .additional-text {
+    text-align: {{ section.settings.additional_text_alignment }};
+  }
+  .section-{{ section.id }} input {
+    margin: 10px auto;
+    height: 44px;
+    display: block;
+    width: 50%;
+    min-width: 200px;
+    padding: 1rem;
+  }
+  .section-{{ section.id }} .results {
+    background: #fff;
+    border-radius: {{ section.settings.results_border_radius }}px;
+    border-style: solid;
+    border-width: {{ section.settings.results_border_width }}px;
+    box-shadow: 0 0 3px;
+    margin: 0 auto;
+    max-height: 400px;
+    min-width: 200px;
+    overflow-y: scroll;
+    padding: 1rem;
+    position: absolute;
+  }
+  .section-{{ section.id }} .page-width {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-{{ section.id }} .content-wrapper {
+    width: 100%;
+    position: relative;
+  }
+  .section-{{ section.id }} .image-wrapper {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .section-{{ section.id }} .image-wrapper img {
+    width: 100%;
+    height: auto;
+    border-radius: {{ section.settings.image_border_radius }}px;
+    {%- unless section.settings.image_drop_shadow == blank -%}
+    box-shadow: {{ section.settings.image_drop_shadow }};
+    {%- endunless -%}
+  }
+
+  @media (min-width: 768px) {
+    .section-{{ section.id }} .page-width {
+      flex-direction: row;
+    }
+    .section-{{ section.id }} .image-wrapper {
+      margin-bottom: 0;
+    }
+    .section-{{ section.id }} .results {
+      left: 25%;
+      width: 50%;
+    }
   }
 </style>
 
-<div class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
+<div class="section-{{ section.id }} section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
   <div class="page-width">
-    <h1>{{ section.settings.title }}</h1>
-    <div>{{ section.settings.description }}</div>
-    <input type="text" id="searchInput" placeholder="Course name">
-    <div id="results"></div>
+    {%- if section.settings.image != blank -%}
+      <div class="image-wrapper">
+        {%- if section.settings.image_behavior == 'ambient' or section.settings.image_behavior == 'zoom-in' -%}
+          {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
+          {%- capture sizes -%}
+              (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
+              (min-width: 750px) calc((100vw - 130px) / 1.667), calc((100vw - 50px) / 1.667)
+            {%- endcapture -%}
+        {%- else -%}
+          {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+          {%- capture sizes -%}
+              (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+              (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+            {%- endcapture -%}
+        {%- endif -%}
+        {{
+          section.settings.image
+          | image_url: width: 1500
+          | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+        }}
+      </div>
+    {% endif %}
+    <div class="content-wrapper">
+      <h1>{{ section.settings.title }}</h1>
+      <div class="description">{{ section.settings.description }}</div>
+      <div class="additional-text">{{ section.settings.additional_text }}</div>
+      <input type="search" class="searchInput" placeholder="Course name">
+      <div class="results"></div>
+    </div>
   </div>
 </div>
 
 <script type="text/javascript">
-  document.getElementById('searchInput').addEventListener(
+  document.querySelector('.searchInput').addEventListener(
     'input',
     debounce(function (event) {
       const searchTerm = event.target.value;
@@ -33,7 +126,6 @@
     if (query.length < 5) {
       return;
     }
-    // Replace 'your-api-endpoint' with the actual endpoint
     fetch(`https://pinned-golf-app.fly.dev/search/courses.json?course_name=${query}`)
       .then((response) => response.json())
       .then((data) => displayResults(data))
@@ -41,7 +133,7 @@
   }
 
   function displayResults(results) {
-    const resultsContainer = document.getElementById('results');
+    const resultsContainer = document.querySelector('.results');
     resultsContainer.innerHTML = ''; // Clear previous results
 
     results.forEach((item) => {
@@ -62,7 +154,7 @@
   }
 
   function clearResults() {
-    const resultsContainer = document.getElementById('results');
+    const resultsContainer = document.querySelector('.results');
     resultsContainer.innerHTML = ''; // Clear previous results
   }
 
@@ -114,6 +206,150 @@
       "type": "richtext",
       "id": "description",
       "label": "Description"
+    },
+    {
+      "type": "richtext",
+      "id": "additional_text",
+      "label": "Additional Text"
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "default": 5,
+      "label": "Border Radius"
+    },
+    {
+      "type": "range",
+      "id": "results_border_width",
+      "min": 0,
+      "max": 10,
+      "step": 1,
+      "default": 1,
+      "label": "Results Border Width"
+    },
+    {
+      "type": "range",
+      "id": "results_border_radius",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "default": 5,
+      "label": "Results Border Radius"
+    },
+    {
+      "type": "select",
+      "id": "title_alignment",
+      "label": "Title Alignment",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        },
+        {
+          "value": "justify",
+          "label": "Justify"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "description_alignment",
+      "label": "Description Alignment",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        },
+        {
+          "value": "justify",
+          "label": "Justify"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "additional_text_alignment",
+      "label": "Additional Text Alignment",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        },
+        {
+          "value": "justify",
+          "label": "Justify"
+        }
+      ]
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "select",
+      "id": "image_behavior",
+      "options": [
+        {
+          "value": "none",
+          "label": "t:sections.all.animation.image_behavior.options__1.label"
+        },
+        {
+          "value": "ambient",
+          "label": "t:sections.all.animation.image_behavior.options__2.label"
+        },
+        {
+          "value": "zoom-in",
+          "label": "t:sections.all.animation.image_behavior.options__4.label"
+        }
+      ],
+      "default": "none",
+      "label": "t:sections.all.animation.image_behavior.label"
+    },
+    {
+      "type": "range",
+      "id": "image_border_radius",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "default": 5,
+      "label": "Image Border Radius"
+    },
+    {
+      "type": "text",
+      "id": "image_drop_shadow",
+      "default": "none",
+      "label": "Image Drop Shadow"
     }
   ],
   "presets": [
