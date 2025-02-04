@@ -322,7 +322,7 @@
     "course_search_QWVePx": {
       "type": "course-search",
       "custom_css": [
-        ".results {z-index: 999}"
+        ".results {z-index: 999;}"
       ],
       "settings": {
         "title": "<strong>Search your course</strong>",
@@ -811,7 +811,7 @@
           "settings": {
             "heading": "Size Matters",
             "icon": "check_mark",
-            "row_content": "<p>This 8\" screen provides a crystal clear view, yet compact enough to stay out of your way. The Caddie’s slim design and built-in magnet make it the perfect on-course companio</p>",
+            "row_content": "<p>This 8\" screen provides a crystal clear view, yet compact enough to stay out of your way. The Caddie’s slim design and built-in magnet make it the perfect on-course companion. </p>",
             "page": ""
           }
         },
@@ -844,6 +844,7 @@
         },
         "collapsible_row_Jp9gi4": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "USGA GHIN Integration",
             "icon": "check_mark",
@@ -860,7 +861,7 @@
         "collapsible_row_Jp9gi4"
       ],
       "settings": {
-        "caption": "5 REASONS WHY THE CADDIE IS",
+        "caption": "4 REASONS WHY THE CADDIE IS",
         "heading": "Better Than A Handheld GPS.",
         "heading_size": "h1",
         "heading_alignment": "center",
