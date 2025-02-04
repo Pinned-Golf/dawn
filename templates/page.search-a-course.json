@@ -266,6 +266,29 @@
         "padding_top": 4,
         "padding_bottom": 36
       }
+    },
+    "rich_text_CFaJgd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_V4wPca": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Say </strong><em><strong>hello</strong></em><strong> to your new personal </strong><em><strong>caddie</strong></em><strong>.</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_V4wPca"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -274,6 +297,7 @@
     "course_search_fhadpy",
     "rich_text_NX7JDe",
     "image_banner_rJDpmL",
+    "rich_text_CFaJgd",
     "featured_product_mF8xGC",
     "video_nc4gFV",
     "multirow_gPeRfh"
