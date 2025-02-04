@@ -54,7 +54,14 @@
   >
 {%- endif -%}
 
-{% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
+{% liquid
+  assign variant_images = product.images
+  if product.options.size > 0
+    assign variant_images = product.images | where: 'attached_to_variant?', true
+  endif
+
+  assign variant_images = variant_images | map: 'src'
+%}
 
 <section class="color-{{ section.settings.color_scheme }} {% if section.settings.secondary_background %}background-secondary{% else %}gradient{% endif %}">
   <div class="page-width section-{{ section.id }}-padding{% if section.settings.secondary_background %} isolate{% endif %}">
