@@ -23,8 +23,8 @@
         "heading_ATAptY": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Search Your Course</strong>",
-            "heading_size": "h1"
+            "heading": "<strong>Search For Your Course</strong>",
+            "heading_size": "h0"
           }
         }
       },
@@ -103,7 +103,7 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "description": "<p>Check to see if your course is one of our 45,000+ you have access to on our Caddie GPS Golf Tablets</p>"
+        "description": "<p><em>Check to see if your course is one of our 45,000+ you have access to on our Caddie GPS Golf Tablets</em></p>"
       }
     }
   },
