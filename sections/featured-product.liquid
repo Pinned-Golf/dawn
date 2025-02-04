@@ -55,28 +55,24 @@
 {%- endif -%}
 
 {% liquid
-  assign variant_images = product.images
-  if product.options.size > 1
-    assign variant_images = product.images | where: 'attached_to_variant?', true
+  assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src'
+  assign use_fallback = false
+  if variant_images.size == 0
+    assign use_fallback = true
   endif
-
-  assign variant_images = variant_images | map: 'src'
 %}
-
-<div style="display: none">
-  {{ product.options.size }}
-  ---
-  {{ variant_images }}
-  ---
-  {{ product.images }}
-</div>
 
 <section class="color-{{ section.settings.color_scheme }} {% if section.settings.secondary_background %}background-secondary{% else %}gradient{% endif %}">
   <div class="page-width section-{{ section.id }}-padding{% if section.settings.secondary_background %} isolate{% endif %}">
     <div class="featured-product product product--{{ section.settings.media_size }} grid grid--1-col gradient color-{{ section.settings.color_scheme }} product--{{ section.settings.media_position }}{% if section.settings.secondary_background == false %} isolate{% endif %} {% if product.media.size > 0 or section.settings.product == blank %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
       <div class="grid__item product__media-wrapper">
         {%- if section.settings.product != blank -%}
-          {% render 'product-media-gallery', product: product, variant_images: variant_images, limit: 1 %}
+          {% render 'product-media-gallery',
+            product: product,
+            variant_images: variant_images,
+            limit: 1,
+            use_fallback: use_fallback
+          %}
         {%- else -%}
           <div class="product__media-item">
             <div
