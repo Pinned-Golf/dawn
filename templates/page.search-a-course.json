@@ -168,6 +168,83 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multirow_gPeRfh": {
+      "type": "multirow",
+      "blocks": {
+        "row_8QJq98": {
+          "type": "row",
+          "settings": {
+            "caption": "Make any",
+            "heading": "Cart, Smart",
+            "text": "<p>Using a screen to get your yardages isn't reserved for fancy country clubs anymore. Get your distances when you need them, your way, regardless of how old the carts are.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_xxxfUQ": {
+          "type": "row",
+          "settings": {
+            "caption": "Dynamic",
+            "heading": "Distances",
+            "text": "<p>Get live front, back, center, hazards and touch distances all at the tap of a screen. Swing every swing with confidence regardless of where you are on the course.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_KMJbVx": {
+          "type": "row",
+          "settings": {
+            "caption": "Access to",
+            "heading": "45,000+ Courses",
+            "text": "<p>With maps from over 45,000 courses worldwide, bring the Caddie anywhere your game takes you.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_UCbxeL": {
+          "type": "row",
+          "settings": {
+            "caption": "Absolutely no",
+            "heading": "Subscription Fee",
+            "text": "<p>Get live distances and 360°<strong> </strong>hole views from  45,000+ courses all over the world with zero hiddne or extra charges. Save that money for greens fees. </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_PUcBPB": {
+          "type": "row",
+          "settings": {
+            "caption": "Battle Tested",
+            "heading": "Weatherproof",
+            "text": "<p>Play with confidence rain or shine. The Caddie is weather-tested, durable, and ready for any shot you take.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_8QJq98",
+        "row_xxxfUQ",
+        "row_KMJbVx",
+        "row_UCbxeL",
+        "row_PUcBPB"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -176,6 +253,7 @@
     "course_search_fhadpy",
     "rich_text_NX7JDe",
     "featured_product_mF8xGC",
-    "video_nc4gFV"
+    "video_nc4gFV",
+    "multirow_gPeRfh"
   ]
 }
