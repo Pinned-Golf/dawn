@@ -187,6 +187,7 @@
         "buy_buttons_KdDHEy",
         "share_4DaLdt"
       ],
+      "disabled": true,
       "settings": {
         "product": "the-caddie-golf-tablet",
         "color_scheme": "scheme-1",
@@ -208,7 +209,7 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video": "shopify://files/videos/Caddie PDPx2 - HD 1080p.mov",
+        "video": "shopify://files/videos/Caddie PDP - HD 1080p.mov",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
