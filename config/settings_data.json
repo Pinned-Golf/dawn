@@ -126,6 +126,7 @@
     "show_cart_note": false,
     "cart_drawer_collection": "early-access-black-friday",
     "giveaway_active": true,
+    "giveaway_multiplier": 2,
     "giveaway_help": "golf-trip-giveaway-rules",
     "checkout_logo_image": "shopify://shop_images/1_9f00bff9-bb5a-4e9b-abd0-9de3d4b47cc2.png",
     "checkout_accent_color": "#000000",
