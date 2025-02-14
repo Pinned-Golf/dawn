@@ -73,22 +73,8 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {}
-        },
-        "icon_with_text_UWmnYD": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "horizontal",
-            "icon_1": "none",
-            "image_1": "shopify://shop_images/1_f566ca30-628a-4dec-9858-da70ead17dd2.jpg",
-            "heading_1": "Free Shipping",
-            "icon_2": "none",
-            "image_2": "shopify://shop_images/2_c0b7a380-c7d2-4ff6-8e2b-0fe2df48f4de.jpg",
-            "heading_2": "60 Day Returns",
-            "icon_3": "none",
-            "image_3": "shopify://shop_images/5_d31e8e02-3601-4ba7-810d-96c7ca29ad75.jpg",
-            "heading_3": "Top Tier Support"
-          }
         },
         "collapsible_tab_mFpMHC": {
           "type": "collapsible_tab",
@@ -129,6 +115,21 @@
             "content": "<p>We don't release a product unless it hits on these 4 core values... </p><ol><li>Elevates your game</li><li>Styled to turn heads</li><li>Pushes the envelop</li><li>Stands the test of time</li></ol>",
             "page": ""
           }
+        },
+        "icon_with_text_UWmnYD": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "none",
+            "image_1": "shopify://shop_images/1_f566ca30-628a-4dec-9858-da70ead17dd2.jpg",
+            "heading_1": "Free Shipping",
+            "icon_2": "none",
+            "image_2": "shopify://shop_images/2_c0b7a380-c7d2-4ff6-8e2b-0fe2df48f4de.jpg",
+            "heading_2": "60 Day Returns",
+            "icon_3": "none",
+            "image_3": "shopify://shop_images/5_d31e8e02-3601-4ba7-810d-96c7ca29ad75.jpg",
+            "heading_3": "Top Tier Support"
+          }
         }
       },
       "block_order": [
@@ -143,11 +144,11 @@
         "buy_buttons",
         "text_tnYkBM",
         "description",
-        "icon_with_text_UWmnYD",
         "collapsible_tab_mFpMHC",
         "collapsible_tab_ULUXpP",
         "collapsible_tab_LEjyQf",
-        "collapsible_tab_ydzdBh"
+        "collapsible_tab_ydzdBh",
+        "icon_with_text_UWmnYD"
       ],
       "custom_css": [
         ".swatch {aspect-ratio: 1 / 1;}",
