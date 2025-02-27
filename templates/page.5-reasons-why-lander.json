@@ -116,80 +116,6 @@
         "show_text_below": true
       }
     },
-    "featured_product_mF8xGC": {
-      "type": "featured-product",
-      "blocks": {
-        "text_GwLXbB": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>PRESALE | </strong>Shipping in May",
-            "text_style": "uppercase"
-          }
-        },
-        "title_f6iw3x": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "text_MWf36b": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>Portable GPS Golf Tablet</strong>",
-            "text_style": "uppercase"
-          }
-        },
-        "price_4x8eEa": {
-          "type": "price",
-          "settings": {}
-        },
-        "buy_buttons_KdDHEy": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "text_ytJiWE": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Text block",
-            "text_style": "body"
-          }
-        },
-        "share_4DaLdt": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "text_GwLXbB",
-        "title_f6iw3x",
-        "text_MWf36b",
-        "price_4x8eEa",
-        "buy_buttons_KdDHEy",
-        "text_ytJiWE",
-        "share_4DaLdt"
-      ],
-      "settings": {
-        "product": "the-caddie-golf-tablet",
-        "color_scheme": "scheme-1",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": false,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "none",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "rich_text_CFaJgd": {
       "type": "rich-text",
       "blocks": {
@@ -333,7 +259,6 @@
     "course_search_fhadpy",
     "rich_text_NX7JDe",
     "image_banner_rJDpmL",
-    "featured_product_mF8xGC",
     "rich_text_CFaJgd",
     "video_nc4gFV",
     "multirow_gPeRfh",
