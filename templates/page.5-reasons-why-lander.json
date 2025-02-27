@@ -23,16 +23,24 @@
         "heading_ATAptY": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Search For Your Course</strong>",
+            "heading": "<strong>Top 5 reasons people bought the Caddie.</strong>",
             "heading_size": "h1"
+          }
+        },
+        "text_aRLzrA": {
+          "type": "text",
+          "settings": {
+            "text": "We surveyed everyone who bought and this is what they said.",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_ATAptY"
+        "heading_ATAptY",
+        "text_aRLzrA"
       ],
       "settings": {
-        "image": "shopify://shop_images/Website_Hero_15.jpg",
+        "image": "shopify://shop_images/Website_Hero_17.jpg",
         "image_overlay_opacity": 10,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -47,6 +55,7 @@
     },
     "course_search_fhadpy": {
       "type": "course-search",
+      "disabled": true,
       "custom_css": [
         "h1 {display: block; text-align: center; margin-bottom: 0;}",
         "input {margin: 10px auto; height: 44px; display: block; width: 50%; min-width: 200px; padding: 1rem;}",
@@ -105,29 +114,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "rich_text_CFaJgd": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_V4wPca": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Say </strong><em><strong>hello</strong></em><strong> to your new personal </strong><em><strong>caddie</strong></em><strong>.</strong>",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_V4wPca"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "featured_product_mF8xGC": {
@@ -202,6 +188,29 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "rich_text_CFaJgd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_V4wPca": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Say </strong><em><strong>hello</strong></em><strong> to your new personal </strong><em><strong>caddie</strong></em><strong>.</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_V4wPca"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "video_nc4gFV": {
