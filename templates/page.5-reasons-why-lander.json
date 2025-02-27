@@ -23,7 +23,7 @@
         "heading_ATAptY": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Top reasons people love the Caddie.</strong>",
+            "heading": "<strong>5 reasons people love the Caddie.</strong>",
             "heading_size": "h1"
           }
         },
@@ -171,7 +171,7 @@
         "row_xxxfUQ": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/5_dbb921f3-1396-432d-b7ac-bea89792a761.png",
+            "image": "shopify://shop_images/2024.jpg",
             "caption": "Two",
             "heading": "Bigger Screen",
             "text": "<p>Get live front, back, center, hazards and touch distances all at the tap of a screen. Swing every swing with confidence regardless of where you are on the course.</p>",
