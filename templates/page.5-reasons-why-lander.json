@@ -23,14 +23,14 @@
         "heading_ATAptY": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Top 5 reasons people bought the Caddie.</strong>",
+            "heading": "<strong>Top 5 reasons people love the Caddie.</strong>",
             "heading_size": "h1"
           }
         },
         "text_aRLzrA": {
           "type": "text",
           "settings": {
-            "text": "We surveyed everyone who bought and this is what they said.",
+            "text": "We asked our customers and here's what they said.",
             "text_style": "body"
           }
         }
