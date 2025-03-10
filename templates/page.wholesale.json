@@ -21,6 +21,7 @@
         },
         "text_fKtgxU": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<em>Our custom & wholesale programs have helped thousands of clubs, pro shops, outings, tournaments, etc. in creating an unforgettable experience using Pinned Golf's.</em>",
             "text_style": "body"
