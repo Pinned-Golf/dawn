@@ -51,7 +51,7 @@
         "text_RcNdYg": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Please be sure to spell the full course name. </em></p>"
+            "text": "<p><em>Be sure to spell the full course name. </em></p>"
           }
         }
       },
