@@ -38,6 +38,64 @@
         "padding_bottom": 52
       }
     },
+    "multirow_b7bWFd": {
+      "type": "multirow",
+      "blocks": {
+        "row_9hi4mR": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_89.png",
+            "caption": "up to",
+            "heading": "50% Discount",
+            "text": "<p>Our wholesale pricing is some of the best in the industry and affordable for any budget.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_f6U4Vr": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_87.png",
+            "caption": "24 hour",
+            "heading": "Mock Ups",
+            "text": "<p>Looking for a mock up quickly? Our designers will have a beautiful mockup in your inbox within 24 hours.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_B3TPJj": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_88.png",
+            "caption": "Two Week",
+            "heading": "Turnaround",
+            "text": "<p>We work fast! Custom logo'd unit or an order for your shop, we'll get you your order within 14 days.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_9hi4mR",
+        "row_f6U4Vr",
+        "row_B3TPJj"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collage_AqAPzR": {
       "type": "collage",
       "blocks": {
@@ -112,6 +170,7 @@
         "column_wfDjaW",
         "column_WYzQzd"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -127,64 +186,6 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 8
-      }
-    },
-    "multirow_b7bWFd": {
-      "type": "multirow",
-      "blocks": {
-        "row_9hi4mR": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Red_Box_Renlder.png",
-            "caption": "up to",
-            "heading": "50% Discount",
-            "text": "<p>Our wholesale pricing is some of the best in the industry and affordable for any budget.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_f6U4Vr": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Untitled_design_87.png",
-            "caption": "24 hour",
-            "heading": "Mock Ups",
-            "text": "<p>Looking for a mock up quickly? Our designers will have a beautiful mockup in your inbox within 24 hours.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_B3TPJj": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Untitled_design_88.png",
-            "caption": "Two Week",
-            "heading": "Turnaround",
-            "text": "<p>We work fast! Custom logo'd unit or an order for your shop, we'll get you your order within 14 days.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_9hi4mR",
-        "row_f6U4Vr",
-        "row_B3TPJj"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "custom_liquid_YeVTxQ": {
@@ -327,13 +328,34 @@
     },
     "image_banner_bcwfXh": {
       "type": "image-banner",
+      "blocks": {
+        "heading_CzK8pb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wholesale & Custom",
+            "heading_size": "h1"
+          }
+        },
+        "text_fKtgxU": {
+          "type": "text",
+          "settings": {
+            "text": "<em>Our custom & wholesale programs have helped thousands of clubs, pro shops, outings, tournaments, etc. in creating an unforgettable experience using Pinned Golf's.</em>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CzK8pb",
+        "text_fKtgxU"
+      ],
       "settings": {
-        "image_overlay_opacity": 0,
+        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_2.png",
+        "image_overlay_opacity": 30,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-4",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -344,9 +366,9 @@
   "order": [
     "main",
     "rich_text_Pj7kmL",
+    "multirow_b7bWFd",
     "collage_AqAPzR",
     "multicolumn_cnqdYn",
-    "multirow_b7bWFd",
     "custom_liquid_YeVTxQ",
     "collage_xYp7iF",
     "collapsible_content_dYUQTh",
