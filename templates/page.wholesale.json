@@ -9,8 +9,45 @@
  */
 {
   "sections": {
+    "image_banner_bcwfXh": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_CzK8pb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wholesale & Custom",
+            "heading_size": "h1"
+          }
+        },
+        "text_fKtgxU": {
+          "type": "text",
+          "settings": {
+            "text": "<em>Our custom & wholesale programs have helped thousands of clubs, pro shops, outings, tournaments, etc. in creating an unforgettable experience using Pinned Golf's.</em>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CzK8pb",
+        "text_fKtgxU"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_2.png",
+        "image_overlay_opacity": 30,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 0
@@ -29,6 +66,7 @@
       "block_order": [
         "text_73gmri"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "left",
@@ -325,45 +363,10 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "image_banner_bcwfXh": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_CzK8pb": {
-          "type": "heading",
-          "settings": {
-            "heading": "Wholesale & Custom",
-            "heading_size": "h1"
-          }
-        },
-        "text_fKtgxU": {
-          "type": "text",
-          "settings": {
-            "text": "<em>Our custom & wholesale programs have helped thousands of clubs, pro shops, outings, tournaments, etc. in creating an unforgettable experience using Pinned Golf's.</em>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_CzK8pb",
-        "text_fKtgxU"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_2.png",
-        "image_overlay_opacity": 30,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-4",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
+    "image_banner_bcwfXh",
     "main",
     "rich_text_Pj7kmL",
     "multirow_b7bWFd",
@@ -371,7 +374,6 @@
     "multicolumn_cnqdYn",
     "custom_liquid_YeVTxQ",
     "collage_xYp7iF",
-    "collapsible_content_dYUQTh",
-    "image_banner_bcwfXh"
+    "collapsible_content_dYUQTh"
   ]
 }
