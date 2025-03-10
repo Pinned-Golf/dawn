@@ -135,6 +135,7 @@
         "row_9hi4mR": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/Red_Box_Renlder.png",
             "caption": "up to",
             "heading": "50% Discount",
             "text": "<p>Our wholesale pricing is some of the best in the industry and affordable for any budget.</p>",
@@ -145,6 +146,7 @@
         "row_f6U4Vr": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/Untitled_design_87.png",
             "caption": "24 hour",
             "heading": "Mock Ups",
             "text": "<p>Looking for a mock up quickly? Our designers will have a beautiful mockup in your inbox within 24 hours.</p>",
@@ -155,6 +157,7 @@
         "row_B3TPJj": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/Untitled_design_88.png",
             "caption": "Two Week",
             "heading": "Turnaround",
             "text": "<p>We work fast! Custom logo'd unit or an order for your shop, we'll get you your order within 14 days.</p>",
