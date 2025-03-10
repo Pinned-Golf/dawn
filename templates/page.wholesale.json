@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -13,7 +22,7 @@
         "text_73gmri": {
           "type": "text",
           "settings": {
-            "text": "<p>Our custom & wholesale programs have helped thousands of clubs, pro shops, outings, tournaments, etc. in creating an unforgettable experience using Pinned Golf's. Interested in getting an order started? Fill out the form below and let’s start planning to make your next unforgettable event!<\/p>"
+            "text": "<p>Our custom & wholesale programs have helped thousands of clubs, pro shops, outings, tournaments, etc. in creating an unforgettable experience using Pinned Golf's. Interested in getting an order started? Fill out the form below and let’s start planning to make your next unforgettable event!</p>"
           }
         }
       },
@@ -35,19 +44,19 @@
         "image_3PAnan": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_38.png"
+            "image": "shopify://shop_images/Untitled_design_38.png"
           }
         },
         "image_YLjiT6": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Pinned_5_of_11_1.jpg"
+            "image": "shopify://shop_images/Pinned_5_of_11_1.jpg"
           }
         },
         "image_UAMKLd": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_2644.jpg"
+            "image": "shopify://shop_images/IMG_2644.jpg"
           }
         }
       },
@@ -74,7 +83,7 @@
           "type": "column",
           "settings": {
             "title": "Up to 50% discount",
-            "text": "<p>Our wholesale pricing is affordable for any budget around the world. <\/p>",
+            "text": "<p>Our wholesale pricing is affordable for any budget around the world. </p>",
             "link_label": "",
             "link": ""
           }
@@ -83,7 +92,7 @@
           "type": "column",
           "settings": {
             "title": "24 hour mock ups",
-            "text": "<p>Looking for a mock up quickly? We got you covered. Have a mockup in your inbox within 24 hours.<\/p>",
+            "text": "<p>Looking for a mock up quickly? We got you covered. Have a mockup in your inbox within 24 hours.</p>",
             "link_label": "",
             "link": ""
           }
@@ -92,7 +101,7 @@
           "type": "column",
           "settings": {
             "title": "Two week turnaround",
-            "text": "<p>Custom logo'd unit or an order for your shop, we'll get you your order within 14 days.<\/p>",
+            "text": "<p>Custom logo'd unit or an order for your shop, we'll get you your order within 14 days.</p>",
             "link_label": "",
             "link": ""
           }
@@ -120,10 +129,65 @@
         "padding_bottom": 8
       }
     },
+    "multirow_b7bWFd": {
+      "type": "multirow",
+      "blocks": {
+        "row_9hi4mR": {
+          "type": "row",
+          "settings": {
+            "caption": "up to",
+            "heading": "50% Discount",
+            "text": "<p>Our wholesale pricing is some of the best in the industry and affordable for any budget.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_f6U4Vr": {
+          "type": "row",
+          "settings": {
+            "caption": "24 hour",
+            "heading": "Mock Ups",
+            "text": "<p>Looking for a mock up quickly? Our designers will have a beautiful mockup in your inbox within 24 hours.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_B3TPJj": {
+          "type": "row",
+          "settings": {
+            "caption": "Two Week",
+            "heading": "Turnaround",
+            "text": "<p>We work fast! Custom logo'd unit or an order for your shop, we'll get you your order within 14 days.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_9hi4mR",
+        "row_f6U4Vr",
+        "row_B3TPJj"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "custom_liquid_YeVTxQ": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-WfCKt7\"><\/div>",
+        "custom_liquid": "<div class=\"klaviyo-form-WfCKt7\"></div>",
         "color_scheme": "",
         "padding_top": 12,
         "padding_bottom": 24
@@ -135,19 +199,19 @@
         "image_PqV4XD": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_1006_1.jpg"
+            "image": "shopify://shop_images/IMG_1006_1.jpg"
           }
         },
         "image_fa8kDV": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_39.png"
+            "image": "shopify://shop_images/Untitled_design_39.png"
           }
         },
         "image_4ExQna": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_40.png"
+            "image": "shopify://shop_images/Untitled_design_40.png"
           }
         }
       },
@@ -175,7 +239,7 @@
           "settings": {
             "heading": "Can I see a mockup?",
             "icon": "check_mark",
-            "row_content": "<p>Of course! Our design team will have a mockup sent to you within 24 hours of receiving your logo.<\/p>",
+            "row_content": "<p>Of course! Our design team will have a mockup sent to you within 24 hours of receiving your logo.</p>",
             "page": ""
           }
         },
@@ -184,7 +248,7 @@
           "settings": {
             "heading": "Do you have a minimum for custom logos?",
             "icon": "check_mark",
-            "row_content": "<p>For custom logo units our minimum is 24 units. For stock units, our minimum is 6 units. <\/p>",
+            "row_content": "<p>For custom logo units our minimum is 24 units. For stock units, our minimum is 6 units. </p>",
             "page": ""
           }
         },
@@ -193,7 +257,7 @@
           "settings": {
             "heading": "Do you have a set up fee?",
             "icon": "check_mark",
-            "row_content": "<p>No, we do not have a set up fee for custom logo'd units.<\/p>",
+            "row_content": "<p>No, we do not have a set up fee for custom logo'd units.</p>",
             "page": ""
           }
         },
@@ -202,7 +266,7 @@
           "settings": {
             "heading": "What type of logo file do you need?",
             "icon": "check_mark",
-            "row_content": "<p>Our designers will work with any type of file you have. Preferably .jpeg, .ai, .png, .pdf. <\/p>",
+            "row_content": "<p>Our designers will work with any type of file you have. Preferably .jpeg, .ai, .png, .pdf. </p>",
             "page": ""
           }
         },
@@ -211,7 +275,7 @@
           "settings": {
             "heading": "How fast will I get my order?",
             "icon": "check_mark",
-            "row_content": "<p>Typically you will have your order within 14 days of purchase regardless of quantities. <\/p>",
+            "row_content": "<p>Typically you will have your order within 14 days of purchase regardless of quantities. </p>",
             "page": ""
           }
         },
@@ -220,7 +284,7 @@
           "settings": {
             "heading": "Do you ship internationally?",
             "icon": "check_mark",
-            "row_content": "<p>Yes, we ship all of the world! <\/p>",
+            "row_content": "<p>Yes, we ship all of the world! </p>",
             "page": ""
           }
         },
@@ -229,7 +293,7 @@
           "settings": {
             "heading": "What is your return policy?",
             "icon": "check_mark",
-            "row_content": "<p>For custom units, all sales are final.<\/p>",
+            "row_content": "<p>For custom units, all sales are final.</p>",
             "page": ""
           }
         }
@@ -257,6 +321,21 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_banner_bcwfXh": {
+      "type": "image-banner",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -264,8 +343,10 @@
     "rich_text_Pj7kmL",
     "collage_AqAPzR",
     "multicolumn_cnqdYn",
+    "multirow_b7bWFd",
     "custom_liquid_YeVTxQ",
     "collage_xYp7iF",
-    "collapsible_content_dYUQTh"
+    "collapsible_content_dYUQTh",
+    "image_banner_bcwfXh"
   ]
 }
