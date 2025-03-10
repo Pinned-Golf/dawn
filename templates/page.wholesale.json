@@ -134,6 +134,15 @@
         "padding_bottom": 36
       }
     },
+    "custom_liquid_YeVTxQ": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-WfCKt7\"></div>",
+        "color_scheme": "",
+        "padding_top": 12,
+        "padding_bottom": 24
+      }
+    },
     "collage_AqAPzR": {
       "type": "collage",
       "blocks": {
@@ -146,7 +155,7 @@
         "image_YLjiT6": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Pinned_5_of_11_1.jpg"
+            "image": "shopify://shop_images/Untitled_design_90.png"
           }
         },
         "image_UAMKLd": {
@@ -172,76 +181,13 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_cnqdYn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_fGLq4e": {
-          "type": "column",
-          "settings": {
-            "title": "Up to 50% discount",
-            "text": "<p>Our wholesale pricing is affordable for any budget around the world. </p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_wfDjaW": {
-          "type": "column",
-          "settings": {
-            "title": "24 hour mock ups",
-            "text": "<p>Looking for a mock up quickly? We got you covered. Have a mockup in your inbox within 24 hours.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_WYzQzd": {
-          "type": "column",
-          "settings": {
-            "title": "Two week turnaround",
-            "text": "<p>Custom logo'd unit or an order for your shop, we'll get you your order within 14 days.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_fGLq4e",
-        "column_wfDjaW",
-        "column_WYzQzd"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 8
-      }
-    },
-    "custom_liquid_YeVTxQ": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-WfCKt7\"></div>",
-        "color_scheme": "",
-        "padding_top": 12,
-        "padding_bottom": 24
-      }
-    },
     "collage_xYp7iF": {
       "type": "collage",
       "blocks": {
         "image_PqV4XD": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_1006_1.jpg"
+            "image": "shopify://shop_images/Untitled_design_90.png"
           }
         },
         "image_fa8kDV": {
@@ -370,9 +316,8 @@
     "main",
     "rich_text_Pj7kmL",
     "multirow_b7bWFd",
-    "collage_AqAPzR",
-    "multicolumn_cnqdYn",
     "custom_liquid_YeVTxQ",
+    "collage_AqAPzR",
     "collage_xYp7iF",
     "collapsible_content_dYUQTh"
   ]
