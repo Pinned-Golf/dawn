@@ -58,6 +58,7 @@
       "block_order": [
         "text_RcNdYg"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -69,6 +70,7 @@
     },
     "course_search_fhadpy": {
       "type": "course-search",
+      "disabled": true,
       "custom_css": [
         "h1 {display: block; text-align: center; margin-bottom: 0;}",
         "input {margin: 10px auto; height: 60px; display: block; width: 50%; min-width: 200px; padding: 1rem;}",
@@ -225,7 +227,7 @@
         "row_8QJq98": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_64.png",
+            "image": "shopify://shop_images/IMG_7f419_1.png",
             "caption": "Make any",
             "heading": "Cart, Smart",
             "text": "<p>Using a screen to get your yardages isn't reserved for fancy country clubs anymore. Get your distances when you need them, your way, regardless of how old the carts are.</p>",
@@ -236,7 +238,7 @@
         "row_xxxfUQ": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/PFBC.png",
+            "image": "shopify://shop_images/IMG_0g921_1.png",
             "caption": "Dynamic",
             "heading": "Distances",
             "text": "<p>Get live front, back, center, hazards and touch distances all at the tap of a screen. Swing every swing with confidence regardless of where you are on the course.</p>",
@@ -247,7 +249,7 @@
         "row_KMJbVx": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Frame_9559_9ff6cf47-f3bf-4d76-bcb5-f328a805b56a.png",
+            "image": "shopify://shop_images/IMG_1038g_2_1.png",
             "caption": "Access to",
             "heading": "45,000+ Courses",
             "text": "<p>With maps from over 45,000 courses worldwide, bring the Caddie anywhere your game takes you.</p>",
