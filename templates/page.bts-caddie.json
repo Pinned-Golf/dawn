@@ -98,7 +98,7 @@
         "heading_V4wPca": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>2+ years of development</strong>",
+            "heading": "<strong>2+ years of development, 15+ protoypes, hundreds of hours of testing</strong>",
             "heading_size": "h1"
           }
         }
@@ -165,10 +165,21 @@
         "row_PUcBPB": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/6_81678e63-df63-4e2d-9b9b-b5fb7e1d9817.png",
+            "image": "shopify://shop_images/5_025204d1-1c3f-4012-b222-3c2020c4e0c6.png",
             "caption": "Battle Tested",
             "heading": "Weatherproof",
             "text": "<p>Play with confidence rain or shine. The Caddie is weather-tested, durable, and ready for any shot you take.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_jmWFFw": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/6_66c55d48-9164-4363-922c-0c5c7f60248f.png",
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -179,7 +190,8 @@
         "row_xxxfUQ",
         "row_KMJbVx",
         "row_UCbxeL",
-        "row_PUcBPB"
+        "row_PUcBPB",
+        "row_jmWFFw"
       ],
       "settings": {
         "image_height": "adapt",
