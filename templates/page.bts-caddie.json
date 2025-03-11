@@ -98,8 +98,8 @@
         "heading_V4wPca": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>2+ years of development, 15+ protoypes, hundreds of hours of testing</strong>",
-            "heading_size": "h1"
+            "heading": "<strong>2+ years, 15+ protoypes, 10,000+ testing hours, </strong>",
+            "heading_size": "h2"
           }
         }
       },
@@ -108,11 +108,11 @@
       ],
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "center",
+        "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 32
       }
     },
     "multirow_gPeRfh": {
