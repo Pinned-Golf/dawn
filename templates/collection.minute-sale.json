@@ -12,7 +12,7 @@
     "image_banner_Rmjip3": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify://shop_images/Memorial_Day_Collection_3.png",
+        "image": "shopify://shop_images/holidaty_dale_7.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "bottom-center",
@@ -45,7 +45,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
-        "quick_add": "none",
+        "quick_add": "standard",
         "enable_filtering": false,
         "filter_type": "horizontal",
         "enable_sorting": false,
