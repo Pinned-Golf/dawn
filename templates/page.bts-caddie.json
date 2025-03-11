@@ -209,6 +209,100 @@
         "padding_bottom": 36
       }
     },
+    "multirow_t3YfD3": {
+      "type": "multirow",
+      "blocks": {
+        "row_bURb8R": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/4_539ab245-ac4d-4841-ba27-dce6143e068e.png",
+            "caption": "",
+            "heading": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_4bCrDA": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/1_b2191014-b54c-455a-9766-206289a922ed.png",
+            "caption": "",
+            "heading": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_TNP6nJ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/3_410e7e69-baed-4b2d-8807-a6c824eca548.png",
+            "caption": "",
+            "heading": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_yBEgGT": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/2_d63ba7da-4597-4d40-a52a-8adf876af515.png",
+            "caption": "",
+            "heading": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_PMBDB6": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/5_025204d1-1c3f-4012-b222-3c2020c4e0c6.png",
+            "caption": "",
+            "heading": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_8dPGrw": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/6_66c55d48-9164-4363-922c-0c5c7f60248f.png",
+            "caption": "",
+            "heading": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_bURb8R",
+        "row_4bCrDA",
+        "row_TNP6nJ",
+        "row_yBEgGT",
+        "row_PMBDB6",
+        "row_8dPGrw"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h2",
+        "text_style": "subtitle",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "center",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
     "image_banner_TemCme": {
       "type": "image-banner",
       "settings": {
@@ -330,6 +424,105 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "multicolumn_N8jQMj": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_jcD8Xy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/4_539ab245-ac4d-4841-ba27-dce6143e068e.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mV7Bj6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2_d63ba7da-4597-4d40-a52a-8adf876af515.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ePpDYL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1_b2191014-b54c-455a-9766-206289a922ed.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nEWUqy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3_410e7e69-baed-4b2d-8807-a6c824eca548.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nqdbWf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/5_025204d1-1c3f-4012-b222-3c2020c4e0c6.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cWDrhP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/6_66c55d48-9164-4363-922c-0c5c7f60248f.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XppNaH": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_jcD8Xy",
+        "column_mV7Bj6",
+        "column_ePpDYL",
+        "column_nEWUqy",
+        "column_nqdbWf",
+        "column_cWDrhP",
+        "column_XppNaH"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -339,9 +532,11 @@
     "course_search_fhadpy",
     "rich_text_CFaJgd",
     "multirow_gPeRfh",
+    "multirow_t3YfD3",
     "image_banner_TemCme",
     "featured_product_mF8xGC",
     "video_nc4gFV",
-    "image_banner_rJDpmL"
+    "image_banner_rJDpmL",
+    "multicolumn_N8jQMj"
   ]
 }
