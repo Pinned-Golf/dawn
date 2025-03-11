@@ -1,0 +1,333 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_ETfWpw": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_ATAptY": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Search For Your Course</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ATAptY"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Website_Hero_15.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "rich_text_NX7JDe": {
+      "type": "rich-text",
+      "blocks": {
+        "text_RcNdYg": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Be sure to spell the full course name. </em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_RcNdYg"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "course_search_fhadpy": {
+      "type": "course-search",
+      "custom_css": [
+        "h1 {display: block; text-align: center; margin-bottom: 0;}",
+        "input {margin: 10px auto; height: 60px; display: block; width: 50%; min-width: 200px; padding: 1rem;}",
+        "#results {width: 50%; max-height: 400px; overflow-y: scroll; min-width: 200px; padding: 1rem; margin: 0 auto;}"
+      ],
+      "settings": {
+        "title": "<strong>45,000+ Courses</strong>",
+        "heading_size": "h1",
+        "description": "<p><em>Ssee if your course is one of the 45,000+ you'll have access to on the Caddie.</em></p>",
+        "additional_text": "",
+        "border_radius": 34,
+        "results_border_width": 2,
+        "results_border_radius": 7,
+        "title_alignment": "center",
+        "description_alignment": "center",
+        "additional_text_alignment": "center",
+        "image_behavior": "none",
+        "image_border_radius": 5,
+        "image_drop_shadow": "none"
+      }
+    },
+    "image_banner_rJDpmL": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Website_Hero_5.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "featured_product_mF8xGC": {
+      "type": "featured-product",
+      "blocks": {
+        "text_GwLXbB": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>PRESALE | </strong>Shipping in May",
+            "text_style": "uppercase"
+          }
+        },
+        "title_f6iw3x": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "text_MWf36b": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Portable GPS Golf Tablet</strong>",
+            "text_style": "uppercase"
+          }
+        },
+        "price_4x8eEa": {
+          "type": "price",
+          "settings": {}
+        },
+        "buy_buttons_KdDHEy": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "text_ytJiWE": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Text block",
+            "text_style": "body"
+          }
+        },
+        "share_4DaLdt": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_GwLXbB",
+        "title_f6iw3x",
+        "text_MWf36b",
+        "price_4x8eEa",
+        "buy_buttons_KdDHEy",
+        "text_ytJiWE",
+        "share_4DaLdt"
+      ],
+      "settings": {
+        "product": "the-caddie-golf-tablet",
+        "color_scheme": "scheme-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": false,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_CFaJgd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_V4wPca": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Say </strong><em><strong>hello</strong></em><strong> to your new personal </strong><em><strong>caddie</strong></em><strong>.</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_V4wPca"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_nc4gFV": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/Caddie PDP - HD 1080p.mov",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_gPeRfh": {
+      "type": "multirow",
+      "blocks": {
+        "row_8QJq98": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_64.png",
+            "caption": "Make any",
+            "heading": "Cart, Smart",
+            "text": "<p>Using a screen to get your yardages isn't reserved for fancy country clubs anymore. Get your distances when you need them, your way, regardless of how old the carts are.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_xxxfUQ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/PFBC.png",
+            "caption": "Dynamic",
+            "heading": "Distances",
+            "text": "<p>Get live front, back, center, hazards and touch distances all at the tap of a screen. Swing every swing with confidence regardless of where you are on the course.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_KMJbVx": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Frame_9559_9ff6cf47-f3bf-4d76-bcb5-f328a805b56a.png",
+            "caption": "Access to",
+            "heading": "45,000+ Courses",
+            "text": "<p>With maps from over 45,000 courses worldwide, bring the Caddie anywhere your game takes you.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_UCbxeL": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Frame_9560.png",
+            "caption": "Absolutely no",
+            "heading": "Subscription Fee",
+            "text": "<p>Get live distances and 360°<strong> </strong>hole views from  45,000+ courses all over the world with zero hiddne or extra charges. Save that money for greens fees. </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_PUcBPB": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/6_81678e63-df63-4e2d-9b9b-b5fb7e1d9817.png",
+            "caption": "Battle Tested",
+            "heading": "Weatherproof",
+            "text": "<p>Play with confidence rain or shine. The Caddie is weather-tested, durable, and ready for any shot you take.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_8QJq98",
+        "row_xxxfUQ",
+        "row_KMJbVx",
+        "row_UCbxeL",
+        "row_PUcBPB"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 4,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_TemCme": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Website_Hero_5.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_ETfWpw",
+    "rich_text_NX7JDe",
+    "course_search_fhadpy",
+    "image_banner_rJDpmL",
+    "featured_product_mF8xGC",
+    "rich_text_CFaJgd",
+    "video_nc4gFV",
+    "multirow_gPeRfh",
+    "image_banner_TemCme"
+  ]
+}
