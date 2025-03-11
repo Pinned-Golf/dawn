@@ -98,7 +98,7 @@
         "heading_V4wPca": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>2+ years, 15+ protoypes, 10,000+ testing hours, </strong>",
+            "heading": "4 3D Printed Samples, 15+ protoypes, 10,000+ testing hours, 2+ years later...",
             "heading_size": "h2"
           }
         }
@@ -113,6 +113,118 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 32
+      }
+    },
+    "slideshow_3YmTef": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_NFHmLE": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/4_539ab245-ac4d-4841-ba27-dce6143e068e.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_TkKrWQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1_b2191014-b54c-455a-9766-206289a922ed.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_DMCicW": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/2_d63ba7da-4597-4d40-a52a-8adf876af515.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_kCq7BT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/3_410e7e69-baed-4b2d-8807-a6c824eca548.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_aYQPQh": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/6_66c55d48-9164-4363-922c-0c5c7f60248f.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_NFHmLE",
+        "slide_TkKrWQ",
+        "slide_DMCicW",
+        "slide_kCq7BT",
+        "slide_aYQPQh"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "multirow_gPeRfh": {
@@ -524,118 +636,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "slideshow_3YmTef": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_NFHmLE": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/4_539ab245-ac4d-4841-ba27-dce6143e068e.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_TkKrWQ": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/1_b2191014-b54c-455a-9766-206289a922ed.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_DMCicW": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/2_d63ba7da-4597-4d40-a52a-8adf876af515.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_kCq7BT": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/3_410e7e69-baed-4b2d-8807-a6c824eca548.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_aYQPQh": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/6_66c55d48-9164-4363-922c-0c5c7f60248f.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_NFHmLE",
-        "slide_TkKrWQ",
-        "slide_DMCicW",
-        "slide_kCq7BT",
-        "slide_aYQPQh"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "large",
-        "slider_visual": "dots",
-        "auto_rotate": true,
-        "change_slides_speed": 3,
-        "image_behavior": "none",
-        "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand"
-      }
     }
   },
   "order": [
@@ -644,13 +644,13 @@
     "rich_text_NX7JDe",
     "course_search_fhadpy",
     "rich_text_CFaJgd",
+    "slideshow_3YmTef",
     "multirow_gPeRfh",
     "multirow_t3YfD3",
     "image_banner_TemCme",
     "featured_product_mF8xGC",
     "video_nc4gFV",
     "image_banner_rJDpmL",
-    "multicolumn_N8jQMj",
-    "slideshow_3YmTef"
+    "multicolumn_N8jQMj"
   ]
 }
