@@ -80,38 +80,6 @@
         "image_drop_shadow": "none"
       }
     },
-    "rich_text_CFaJgd": {
-      "type": "rich-text",
-      "blocks": {
-        "caption_CMygJP": {
-          "type": "caption",
-          "settings": {
-            "caption": "",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "heading_V4wPca": {
-          "type": "heading",
-          "settings": {
-            "heading": "3D Printed Samples, 15+ protoypes, 10,000+ testing hours, 2+ years later...",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "caption_CMygJP",
-        "heading_V4wPca"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 32
-      }
-    },
     "multirow_gPeRfh": {
       "type": "multirow",
       "blocks": {
@@ -119,9 +87,9 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/IMG_3490.jpg",
-            "caption": "Initial",
-            "heading": "Idea",
-            "text": "<p>We saw a gap in the market for a user-friendly, full-screen GPS device built specifically for golfers and had no idea why no one had created this yet.</p>",
+            "caption": "50% Off",
+            "heading": "Prism+ Rangefinder",
+            "text": "",
             "button_label": "",
             "button_link": ""
           }
@@ -130,9 +98,9 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/1_b2191014-b54c-455a-9766-206289a922ed.png",
-            "caption": "First",
-            "heading": "Prototype",
-            "text": "<p>We wanted to see how a tablet looked on the cart so we took a tablet we had and attached magnetic rangefinder straps to it.</p>",
+            "caption": "50% Off",
+            "heading": "Sound Stick Speaker",
+            "text": "",
             "button_label": "",
             "button_link": ""
           }
@@ -141,9 +109,9 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/4_539ab245-ac4d-4841-ba27-dce6143e068e.png",
-            "caption": "First",
-            "heading": "Industrial Design",
-            "text": "<p>We focused on a sleek, durable, and lightweight build with a high-visibility display, ergonomic form, and weather-resistant features for on-course reliability.</p>",
+            "caption": "50% Off",
+            "heading": "Dart 2.0 Speaker",
+            "text": "",
             "button_label": "",
             "button_link": ""
           }
@@ -152,86 +120,9 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/6_66c55d48-9164-4363-922c-0c5c7f60248f.png",
-            "caption": "App Build",
-            "heading": "Begins",
-            "text": "<p>We created both the hardware and software. We wanted a clean, intuitive interface with smooth navigation, easy-to-read course maps, and real-time GPS data.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_PUcBPB": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/5_025204d1-1c3f-4012-b222-3c2020c4e0c6.png",
-            "caption": "3D Printed",
-            "heading": "Samples",
-            "text": "<p>Our initial prototypes brought The Caddie to life, allowing us to test form, ergonomics, and button placement before refining for final production.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_jmWFFw": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Untitled_design_93.png",
-            "caption": "Initial",
-            "heading": "Hardware",
-            "text": "<p>These early non-functioning units were built to test <strong>magnet strength, weight, and overall feel</strong>, ensuring the design met our durability and usability standards</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_DRD7RL": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/6_66c55d48-9164-4363-922c-0c5c7f60248f.png",
-            "caption": "First",
-            "heading": "Working Prototype",
-            "text": "<p>Our first working units integrated the GPS module, display, and battery, allowing us to test performance, durability, and real-world functionality on the course.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_aCEKUd": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Frame_91f1.png",
-            "caption": "Big",
-            "heading": "App Updates",
-            "text": "<p>After extensive on-course testing and user feedback, we refined the app with <strong>improved GPS accuracy, smoother navigation, and enhanced usability</strong> for a better playing experience.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_NCaWXr": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Untitled_design_92.png",
-            "caption": "Final",
-            "heading": "Samples",
-            "text": "<p>After gathered feedback from testers, adjusted screen brightness, tweaked the interface, and refined hardware components we received final hardware samples.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_7KNG3j": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Untitled_design_92.png",
-            "caption": "Mass Production",
-            "heading": "Starts",
-            "text": "<p>After finalizing design and testing, we officially kicked off <strong>mass production</strong>, ensuring every unit met our quality standards before reaching our Pinned Family. </p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_kYzd4y": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/5_025204d1-1c3f-4012-b222-3c2020c4e0c6.png",
-            "caption": "Caddie Wins",
-            "heading": "New Product Of The Year!",
-            "text": "<p>The Caddie took home the <strong>New Product of the Year</strong> at the 2025 PGA Show, a huge win that proves this revolutionary product is changing the game.</p>",
+            "caption": "50% Off",
+            "heading": "Accessories",
+            "text": "",
             "button_label": "",
             "button_link": ""
           }
@@ -241,14 +132,7 @@
         "row_8QJq98",
         "row_xxxfUQ",
         "row_KMJbVx",
-        "row_UCbxeL",
-        "row_PUcBPB",
-        "row_jmWFFw",
-        "row_DRD7RL",
-        "row_aCEKUd",
-        "row_NCaWXr",
-        "row_7KNG3j",
-        "row_kYzd4y"
+        "row_UCbxeL"
       ],
       "settings": {
         "image_height": "adapt",
@@ -265,322 +149,6 @@
         "padding_top": 4,
         "padding_bottom": 36
       }
-    },
-    "multirow_t3YfD3": {
-      "type": "multirow",
-      "blocks": {
-        "row_bURb8R": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/4_539ab245-ac4d-4841-ba27-dce6143e068e.png",
-            "caption": "",
-            "heading": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_4bCrDA": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/1_b2191014-b54c-455a-9766-206289a922ed.png",
-            "caption": "",
-            "heading": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_TNP6nJ": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/3_410e7e69-baed-4b2d-8807-a6c824eca548.png",
-            "caption": "",
-            "heading": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_yBEgGT": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/2_d63ba7da-4597-4d40-a52a-8adf876af515.png",
-            "caption": "",
-            "heading": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_PMBDB6": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/5_025204d1-1c3f-4012-b222-3c2020c4e0c6.png",
-            "caption": "",
-            "heading": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_8dPGrw": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/6_66c55d48-9164-4363-922c-0c5c7f60248f.png",
-            "caption": "",
-            "heading": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_bURb8R",
-        "row_4bCrDA",
-        "row_TNP6nJ",
-        "row_yBEgGT",
-        "row_PMBDB6",
-        "row_8dPGrw"
-      ],
-      "settings": {
-        "image_height": "adapt",
-        "desktop_image_width": "medium",
-        "heading_size": "h2",
-        "text_style": "subtitle",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "center",
-        "padding_top": 4,
-        "padding_bottom": 4
-      }
-    },
-    "image_banner_TemCme": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify://shop_images/Website_Hero_5.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "featured_product_mF8xGC": {
-      "type": "featured-product",
-      "blocks": {
-        "text_GwLXbB": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>PRESALE | </strong>Shipping in May",
-            "text_style": "uppercase"
-          }
-        },
-        "title_f6iw3x": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "text_MWf36b": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>Portable GPS Golf Tablet</strong>",
-            "text_style": "uppercase"
-          }
-        },
-        "price_4x8eEa": {
-          "type": "price",
-          "settings": {}
-        },
-        "buy_buttons_KdDHEy": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "text_ytJiWE": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Text block",
-            "text_style": "body"
-          }
-        },
-        "share_4DaLdt": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "text_GwLXbB",
-        "title_f6iw3x",
-        "text_MWf36b",
-        "price_4x8eEa",
-        "buy_buttons_KdDHEy",
-        "text_ytJiWE",
-        "share_4DaLdt"
-      ],
-      "settings": {
-        "product": "the-caddie-golf-tablet",
-        "color_scheme": "scheme-1",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": false,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "none",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video_nc4gFV": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video": "shopify://files/videos/Caddie PDP - HD 1080p.mov",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_banner_rJDpmL": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/Website_Hero_5.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "multicolumn_N8jQMj": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_jcD8Xy": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/4_539ab245-ac4d-4841-ba27-dce6143e068e.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_mV7Bj6": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/2_d63ba7da-4597-4d40-a52a-8adf876af515.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_ePpDYL": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/1_b2191014-b54c-455a-9766-206289a922ed.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_nEWUqy": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/3_410e7e69-baed-4b2d-8807-a6c824eca548.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_nqdbWf": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/5_025204d1-1c3f-4012-b222-3c2020c4e0c6.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_cWDrhP": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/6_66c55d48-9164-4363-922c-0c5c7f60248f.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_XppNaH": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_jcD8Xy",
-        "column_mV7Bj6",
-        "column_ePpDYL",
-        "column_nEWUqy",
-        "column_nqdbWf",
-        "column_cWDrhP",
-        "column_XppNaH"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -588,13 +156,6 @@
     "image_banner_ETfWpw",
     "rich_text_NX7JDe",
     "course_search_fhadpy",
-    "rich_text_CFaJgd",
-    "multirow_gPeRfh",
-    "multirow_t3YfD3",
-    "image_banner_TemCme",
-    "featured_product_mF8xGC",
-    "video_nc4gFV",
-    "image_banner_rJDpmL",
-    "multicolumn_N8jQMj"
+    "multirow_gPeRfh"
   ]
 }
