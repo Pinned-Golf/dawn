@@ -763,7 +763,7 @@
           "type": "column",
           "settings": {
             "title": "Perfect for Golfers of All Levels",
-            "text": "<p>“Whether you’re just starting out or a seasoned player, the Caddie is a fantastic tool. It’s intuitive, accurate, and perfect for every skill level.”</p><p><strong>Bryan, Austin, TX</strong></p>",
+            "text": "<p><em>“Whether you’re just starting out or a seasoned player, the Caddie is a fantastic tool. It’s intuitive, accurate, and perfect for every skill level.”</em></p><p><strong>Bryan, Austin, TX</strong></p>",
             "link_label": "",
             "link": ""
           }
