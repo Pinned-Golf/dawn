@@ -23,7 +23,7 @@
         "heading_ATAptY": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>How the Caddie came to life...</strong>",
+            "heading": "<strong> From idea to new product of the year...</strong>",
             "heading_size": "h0"
           }
         }
@@ -234,8 +234,8 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/4_539ab245-ac4d-4841-ba27-dce6143e068e.png",
-            "caption": "Make any",
-            "heading": "Cart, Smart",
+            "caption": "Initial",
+            "heading": "Design",
             "text": "<p>Using a screen to get your yardages isn't reserved for fancy country clubs anymore. Get your distances when you need them, your way, regardless of how old the carts are.</p>",
             "button_label": "",
             "button_link": ""
