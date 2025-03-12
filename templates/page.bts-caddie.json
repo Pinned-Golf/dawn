@@ -23,7 +23,7 @@
         "heading_ATAptY": {
           "type": "heading",
           "settings": {
-            "heading": "<strong> From idea to new product of the year...</strong>",
+            "heading": "<strong> From an idea to new product of the year...</strong>",
             "heading_size": "h0"
           }
         }
@@ -269,7 +269,6 @@
         "caption_CMygJP",
         "heading_V4wPca"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "left",
@@ -277,23 +276,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 32
-      }
-    },
-    "image_banner_TemCme": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/Website_Hero_5.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "featured_product_mF8xGC": {
@@ -425,7 +407,6 @@
     "course_search_fhadpy",
     "multirow_gPeRfh",
     "rich_text_CFaJgd",
-    "image_banner_TemCme",
     "featured_product_mF8xGC",
     "video_89DxPV",
     "video_nc4gFV",
