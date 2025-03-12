@@ -120,6 +120,8 @@
       </div>
     {% endif %}
     <form class="content-wrapper" id="course-search-form-{{ section.id }}">
+      <h1>{{ section.settings.title }}</h1>
+      <div class="description">{{ section.settings.description }}</div>
       <div class="additional-text">{{ section.settings.additional_text }}</div>
       <div class="search-container">
         <input type="search" class="searchInput" placeholder="Course name">
