@@ -40,8 +40,8 @@
         "text_AiLWE3"
       ],
       "settings": {
-        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_4.png",
-        "image_overlay_opacity": 40,
+        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_3.png",
+        "image_overlay_opacity": 20,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
@@ -205,7 +205,7 @@
         "row_7KNG3j": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_96.png",
+            "image": "shopify://shop_images/2024_3.png",
             "caption": "Mass Production",
             "heading": "Starts",
             "text": "<p>After finalizing design and testing, we officially kicked off <strong>mass production</strong>, ensuring every unit met our quality standards before reaching our Pinned Family. </p>",
