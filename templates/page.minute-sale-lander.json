@@ -228,15 +228,6 @@
             "page": ""
           }
         },
-        "collapsible_row_iHiQNJ": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What happens if I'm late?",
-            "icon": "check_mark",
-            "row_content": "<p>SORRY! This sale will last one minute. From 4:00est to 4:01est. If you miss your chance, hate to tell you but your SOL. </p>",
-            "page": ""
-          }
-        },
         "collapsible_row_69nfG7": {
           "type": "collapsible_row",
           "settings": {
@@ -245,14 +236,23 @@
             "row_content": "<p>No limit! Buy however many of whatever you want! The more the merrier! </p>",
             "page": ""
           }
+        },
+        "collapsible_row_iHiQNJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What happens if I'm late?",
+            "icon": "check_mark",
+            "row_content": "<p>SORRY! This sale will last one minute. From 4:00est to 4:01est. If you miss your chance, hate to tell you but your SOL. </p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "collapsible_row_HyJADP",
         "collapsible_row_8LA7rU",
         "collapsible_row_8bGjAC",
-        "collapsible_row_iHiQNJ",
-        "collapsible_row_69nfG7"
+        "collapsible_row_69nfG7",
+        "collapsible_row_iHiQNJ"
       ],
       "settings": {
         "caption": "Please read before March 20th @ 4pm EST",
@@ -268,99 +268,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "multicolumn_y96KWR": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_6N8riK": {
-          "type": "column",
-          "settings": {
-            "title": "#1",
-            "text": "<p>Fill your cart ahead of time. </p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_TF9Dtx": {
-          "type": "column",
-          "settings": {
-            "title": "#2",
-            "text": "<p>Fill out your shipping info ahead of time.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_AXWzrE": {
-          "type": "column",
-          "settings": {
-            "title": "#3",
-            "text": "<p>Get your payment ready.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_qraWgR": {
-          "type": "column",
-          "settings": {
-            "title": "#4",
-            "text": "<p>Refresh your page as soon as the clock strikes <em><strong>4pm EASTERN STANDARD TIME</strong></em></p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_6N8riK",
-        "column_TF9Dtx",
-        "column_AXWzrE",
-        "column_qraWgR"
-      ],
-      "settings": {
-        "title": "How it works...",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich_text_iLdVDt": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_4RwP3L": {
-          "type": "heading",
-          "settings": {
-            "heading": "Fill Up Your Cart",
-            "heading_size": "h1"
-          }
-        },
-        "text_PQW3iM": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Don't wait. Please fill up your cart ahead of time so you aren't scrambling as the clock ticks down! </p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_4RwP3L",
-        "text_PQW3iM"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -369,8 +276,6 @@
     "course_search_fhadpy",
     "multirow_gPeRfh",
     "main",
-    "collapsible_content_7BzCwr",
-    "multicolumn_y96KWR",
-    "rich_text_iLdVDt"
+    "collapsible_content_7BzCwr"
   ]
 }
