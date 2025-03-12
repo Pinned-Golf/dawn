@@ -22,8 +22,8 @@
         "text_fKtgxU": {
           "type": "text",
           "settings": {
-            "text": "<em>Let us help you redefine your event, gifts or proshop with our beautifully crafted products.</em>",
-            "text_style": "body"
+            "text": "<em><strong>Elevate your event, gifts, or pro shop with our beautifully crafted, custom-branded products.</strong></em>",
+            "text_style": "caption-with-letter-spacing"
           }
         }
       },
