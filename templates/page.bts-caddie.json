@@ -40,8 +40,8 @@
         "text_AiLWE3"
       ],
       "settings": {
-        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_3.png",
-        "image_overlay_opacity": 20,
+        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_4.png",
+        "image_overlay_opacity": 40,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
@@ -337,6 +337,30 @@
         "padding_bottom": 36
       }
     },
+    "collage_rkwRRe": {
+      "type": "collage",
+      "blocks": {
+        "image_6Nyapc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_6Nyapc"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_product_mF8xGC": {
       "type": "featured-product",
       "blocks": {
@@ -421,30 +445,6 @@
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collage_rkwRRe": {
-      "type": "collage",
-      "blocks": {
-        "image_6Nyapc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_2.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "image_6Nyapc"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "none",
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
