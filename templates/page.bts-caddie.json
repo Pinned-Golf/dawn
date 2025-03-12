@@ -254,52 +254,87 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_CFaJgd": {
-      "type": "rich-text",
+    "multicolumn_iRqLwF": {
+      "type": "multicolumn",
       "blocks": {
-        "caption_CMygJP": {
-          "type": "caption",
+        "column_epKUY7": {
+          "type": "column",
           "settings": {
-            "caption": "All good things take time...",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
+            "title": "Game Changer",
+            "text": "<p><em>“The Caddie has completely changed how I play. It’s like having a personal caddie every round. Accurate yardages and an easy interface—love it!”</em></p><p><strong>Eddie, Delray Beach, FL</strong></p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "heading_V4wPca": {
-          "type": "heading",
+        "column_KwDbTj": {
+          "type": "column",
           "settings": {
-            "heading": "3D Printed Samples, 15+ protoypes, 10,000+ testing hours, 2+ years later...",
-            "heading_size": "h2"
+            "title": "Effortless & Accurate",
+            "text": "<p><em>“This tablet is so simple to use yet packed with features. Knowing yardages to every spot on the course has been a game-changer for my club selection.”</em></p><p><strong>Chris, Scottsdale, AZ</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QcyLcE": {
+          "type": "column",
+          "settings": {
+            "title": "Worth Every Penny",
+            "text": "<p><em>“The Caddie is now a must-have in my bag. It’s reliable, lightweight, and has saved me strokes with precise distances every round.”</em></p><p><strong>Emily, Palm Beach, FL</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_k8N4Fy": {
+          "type": "column",
+          "settings": {
+            "title": "Confidence at new courses",
+            "text": "<p><em>“The Caddie tablet has given me the confidence I need when playing a new course. I know exactly where everything on the course is like i've played it 100 times before.”</em></p><p><strong>Morgan, San Diego, CA</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HLXCHW": {
+          "type": "column",
+          "settings": {
+            "title": "Perfect for Golfers of All Levels",
+            "text": "<p><em>“Whether you’re just starting out or a seasoned player, the Caddie is a fantastic tool. It’s intuitive, accurate, and perfect for every skill level.”</em></p><p><strong>Bryan, Austin, TX</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_maMfDe": {
+          "type": "column",
+          "settings": {
+            "title": "Fly Over",
+            "text": "<p>\"<em>The flyover before the hole is the best part. It allows me to map out the hole and figure out what to avoid.\"</em></p><p><strong>Conner, Jupiter, FL</strong></p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "caption_CMygJP",
-        "heading_V4wPca"
+        "column_epKUY7",
+        "column_KwDbTj",
+        "column_QcyLcE",
+        "column_k8N4Fy",
+        "column_HLXCHW",
+        "column_maMfDe"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
+        "title": "Initial Feedback",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 32
-      }
-    },
-    "image_banner_XR8irA": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_2.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_product_mF8xGC": {
@@ -391,6 +426,30 @@
         "padding_bottom": 36
       }
     },
+    "collage_rkwRRe": {
+      "type": "collage",
+      "blocks": {
+        "image_6Nyapc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_6Nyapc"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "video_nc4gFV": {
       "type": "video",
       "settings": {
@@ -422,30 +481,6 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
-    },
-    "collage_rkwRRe": {
-      "type": "collage",
-      "blocks": {
-        "image_6Nyapc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_2.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "image_6Nyapc"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -454,12 +489,11 @@
     "rich_text_NX7JDe",
     "course_search_fhadpy",
     "multirow_gPeRfh",
-    "rich_text_CFaJgd",
-    "image_banner_XR8irA",
+    "multicolumn_iRqLwF",
+    "collage_rkwRRe",
     "featured_product_mF8xGC",
     "video_89DxPV",
     "video_nc4gFV",
-    "image_banner_rJDpmL",
-    "collage_rkwRRe"
+    "image_banner_rJDpmL"
   ]
 }
