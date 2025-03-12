@@ -21,9 +21,8 @@
         },
         "text_fKtgxU": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<em>Our custom & wholesale programs have helped thousands of clubs, pro shops, outings, tournaments, etc. in creating an unforgettable experience using Pinned Golf's.</em>",
+            "text": "<em>Create an unforgettable experience using our beautiful products.</em>",
             "text_style": "body"
           }
         }
@@ -33,9 +32,9 @@
         "text_fKtgxU"
       ],
       "settings": {
-        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_2.png",
-        "image_overlay_opacity": 30,
-        "image_height": "medium",
+        "image": "shopify://shop_images/59.png",
+        "image_overlay_opacity": 20,
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -105,7 +104,7 @@
         "row_B3TPJj": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_88.png",
+            "image": "shopify://shop_images/Untitled_design_91.png",
             "caption": "Two Week",
             "heading": "Turnaround",
             "text": "<p>We work fast! Custom logo'd unit or an order for your shop, we'll get you your order within 14 days.</p>",
