@@ -327,7 +327,7 @@
       "settings": {
         "title": "<strong>Search your course</strong>",
         "heading_size": "h1",
-        "description": "<p>Check to see if it's one of our 45,000+</p>",
+        "description": "<p><em>Check to see if it's one of our 45,000+</em></p>",
         "additional_text": "",
         "border_radius": 5,
         "results_border_width": 1,
@@ -486,6 +486,7 @@
       "block_order": [
         "heading_8cTYaX"
       ],
+      "custom_css": [],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
