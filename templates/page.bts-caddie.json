@@ -95,15 +95,24 @@
     "rich_text_CFaJgd": {
       "type": "rich-text",
       "blocks": {
+        "caption_CMygJP": {
+          "type": "caption",
+          "settings": {
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "heading_V4wPca": {
           "type": "heading",
           "settings": {
-            "heading": "4 3D Printed Samples, 15+ protoypes, 10,000+ testing hours, 2+ years later...",
+            "heading": "3D Printed Samples, 15+ protoypes, 10,000+ testing hours, 2+ years later...",
             "heading_size": "h2"
           }
         }
       },
       "block_order": [
+        "caption_CMygJP",
         "heading_V4wPca"
       ],
       "settings": {
@@ -233,10 +242,10 @@
         "row_8QJq98": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/4_539ab245-ac4d-4841-ba27-dce6143e068e.png",
+            "image": "shopify://shop_images/IMG_3490.jpg",
             "caption": "Initial",
-            "heading": "Design",
-            "text": "<p>Using a screen to get your yardages isn't reserved for fancy country clubs anymore. Get your distances when you need them, your way, regardless of how old the carts are.</p>",
+            "heading": "Idea",
+            "text": "<p>We saw a gap in the market for a user-friendly, full-screen GPS device built specifically for golfers and had no idea why no one had created this yet.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -245,9 +254,9 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/1_b2191014-b54c-455a-9766-206289a922ed.png",
-            "caption": "Dynamic",
-            "heading": "Distances",
-            "text": "<p>Get live front, back, center, hazards and touch distances all at the tap of a screen. Swing every swing with confidence regardless of where you are on the course.</p>",
+            "caption": "First",
+            "heading": "Prototype",
+            "text": "<p>We wanted to see how a tablet looked on the cart so we took a tablet we had and attached magnetic rangefinder straps to it.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -255,10 +264,10 @@
         "row_KMJbVx": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/3_410e7e69-baed-4b2d-8807-a6c824eca548.png",
-            "caption": "Access to",
-            "heading": "45,000+ Courses",
-            "text": "<p>With maps from over 45,000 courses worldwide, bring the Caddie anywhere your game takes you.</p>",
+            "image": "shopify://shop_images/4_539ab245-ac4d-4841-ba27-dce6143e068e.png",
+            "caption": "First",
+            "heading": "Industrial Design",
+            "text": "<p>We focused on a sleek, durable, and lightweight build with a high-visibility display, ergonomic form, and weather-resistant features for on-course reliability.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -266,10 +275,10 @@
         "row_UCbxeL": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/2_d63ba7da-4597-4d40-a52a-8adf876af515.png",
-            "caption": "Absolutely no",
-            "heading": "Subscription Fee",
-            "text": "<p>Get live distances and 360°<strong> </strong>hole views from  45,000+ courses all over the world with zero hiddne or extra charges. Save that money for greens fees. </p>",
+            "image": "shopify://shop_images/6_66c55d48-9164-4363-922c-0c5c7f60248f.png",
+            "caption": "App Build",
+            "heading": "Begins",
+            "text": "<p>We created both the hardware and software. We wanted a clean, intuitive interface with smooth navigation, easy-to-read course maps, and real-time GPS data.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -278,9 +287,9 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/5_025204d1-1c3f-4012-b222-3c2020c4e0c6.png",
-            "caption": "Battle Tested",
-            "heading": "Weatherproof",
-            "text": "<p>Play with confidence rain or shine. The Caddie is weather-tested, durable, and ready for any shot you take.</p>",
+            "caption": "3D Printed",
+            "heading": "Samples",
+            "text": "<p>Our initial prototypes brought The Caddie to life, allowing us to test form, ergonomics, and button placement before refining for final production.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -289,9 +298,64 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/6_66c55d48-9164-4363-922c-0c5c7f60248f.png",
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "caption": "Initial",
+            "heading": "Hardware",
+            "text": "<p>These early non-functioning units were built to test <strong>magnet strength, weight, and overall feel</strong>, ensuring the design met our durability and usability standards</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_DRD7RL": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/6_66c55d48-9164-4363-922c-0c5c7f60248f.png",
+            "caption": "First",
+            "heading": "Working Prototype",
+            "text": "<p>Our first working units integrated the GPS module, display, and battery, allowing us to test performance, durability, and real-world functionality on the course.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_aCEKUd": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Frame_91f1.png",
+            "caption": "Big",
+            "heading": "App Updates",
+            "text": "<p>After extensive on-course testing and user feedback, we refined the app with <strong>improved GPS accuracy, smoother navigation, and enhanced usability</strong> for a better playing experience.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_NCaWXr": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_92.png",
+            "caption": "Final",
+            "heading": "Samples",
+            "text": "<p>After gathered feedback from testers, adjusted screen brightness, tweaked the interface, and refined hardware components we received final hardware samples.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_7KNG3j": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_92.png",
+            "caption": "Mass Production",
+            "heading": "Starts",
+            "text": "<p>After finalizing design and testing, we officially kicked off <strong>mass production</strong>, ensuring every unit met our quality standards before reaching our Pinned Family. </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_kYzd4y": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/5_025204d1-1c3f-4012-b222-3c2020c4e0c6.png",
+            "caption": "Caddie Wins",
+            "heading": "New Product Of The Year!",
+            "text": "<p>The Caddie took home the <strong>New Product of the Year</strong> at the 2025 PGA Show, a huge win that proves this revolutionary product is changing the game.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -303,7 +367,12 @@
         "row_KMJbVx",
         "row_UCbxeL",
         "row_PUcBPB",
-        "row_jmWFFw"
+        "row_jmWFFw",
+        "row_DRD7RL",
+        "row_aCEKUd",
+        "row_NCaWXr",
+        "row_7KNG3j",
+        "row_kYzd4y"
       ],
       "settings": {
         "image_height": "adapt",
