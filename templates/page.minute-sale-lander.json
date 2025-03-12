@@ -268,12 +268,43 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_jG9fRy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EKKfBV": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>60 seconds...</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_h7NKrM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Don't miss your chance to get 50% off all rangefinder & speakers! </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EKKfBV",
+        "text_h7NKrM"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "image_banner_ETfWpw",
     "rich_text_NX7JDe",
     "course_search_fhadpy",
+    "rich_text_jG9fRy",
     "multirow_gPeRfh",
     "main",
     "collapsible_content_7BzCwr"
