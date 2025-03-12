@@ -204,45 +204,45 @@
         "collapsible_row_HyJADP": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Fill your cart ahead of time",
+            "heading": "Can I fill my cart ahead of time?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Yes! That is recommended. Once the clock hits 4pm EST, refresh the page and the price will change.</p>",
             "page": ""
           }
         },
         "collapsible_row_8LA7rU": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Should I fill out my shipping info before?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Yes! This is also recommended. Once the clock hits 4pm EST, refresh the page and your info will stay loaded. </p>",
             "page": ""
           }
         },
         "collapsible_row_8bGjAC": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Can I prepay?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>No. But if you read the two points above this, putting in your payment info will be the only thing you have to do once the clock strikes 4pm EST. </p>",
             "page": ""
           }
         },
         "collapsible_row_iHiQNJ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "What happens if I'm late?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>SORRY! This sale will last one minute. From 4:00est to 4:01est. If you miss your chance, hate to tell you but your SOL. </p>",
             "page": ""
           }
         },
         "collapsible_row_69nfG7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Is there a limit on what you can buy?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>No limit! Buy however many of whatever you want! The more the merrier! </p>",
             "page": ""
           }
         }
@@ -255,8 +255,8 @@
         "collapsible_row_69nfG7"
       ],
       "settings": {
-        "caption": "",
-        "heading": "Collapsible content",
+        "caption": "Please read before March 20th @ 4pm EST",
+        "heading": "Minute Sale FAQs",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
