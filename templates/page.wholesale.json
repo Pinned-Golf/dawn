@@ -22,7 +22,7 @@
         "text_fKtgxU": {
           "type": "text",
           "settings": {
-            "text": "<em>Create an unforgettable experience using our beautiful products.</em>",
+            "text": "<em>Let us help you redefine your event, gifts or proshop with our beautifully crafted products.</em>",
             "text_style": "body"
           }
         }
@@ -41,8 +41,8 @@
         "color_scheme": "scheme-4",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "main": {
