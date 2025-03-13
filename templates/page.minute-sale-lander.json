@@ -12,7 +12,7 @@
     "image_banner_ETfWpw": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify://shop_images/holidaty_dale_7.jpg",
+        "image": "shopify://shop_images/holidaty_dale_5.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -85,36 +85,6 @@
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "rich_text_jG9fRy": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_EKKfBV": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>60 seconds...</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_h7NKrM": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Don't miss your chance to get 50% off all rangefinder & speakers! </p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_EKKfBV",
-        "text_h7NKrM"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "multirow_gPeRfh": {
@@ -235,12 +205,38 @@
         "padding_bottom": 16
       }
     },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
+    "multirow_cGRfqD": {
+      "type": "multirow",
+      "blocks": {
+        "row_twF3Ja": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/1_3.png",
+            "caption": "",
+            "heading": "",
+            "text": "<h3><strong>Don't Forget About Time Zones!</strong></h3><h2><strong>4PM EST</strong></h2><h2><strong>3PM CST</strong></h2><h2><strong>2PM MST</strong></h2><h2><strong>1PM PST</strong></h2>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_twF3Ja"
+      ],
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 0
       }
     },
     "collapsible_content_7BzCwr": {
@@ -313,6 +309,14 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
     }
   },
   "order": [
@@ -320,9 +324,9 @@
     "rich_text_NX7JDe",
     "course_search_fhadpy",
     "video_H6ej3g",
-    "rich_text_jG9fRy",
     "multirow_gPeRfh",
-    "main",
-    "collapsible_content_7BzCwr"
+    "multirow_cGRfqD",
+    "collapsible_content_7BzCwr",
+    "main"
   ]
 }
