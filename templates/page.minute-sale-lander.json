@@ -87,6 +87,15 @@
         "padding_bottom": 36
       }
     },
+    "custom_liquid_zVWXyB": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-YjnwzK\"></div>",
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 24
+      }
+    },
     "multirow_gPeRfh": {
       "type": "multirow",
       "blocks": {
@@ -203,15 +212,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 4,
         "padding_bottom": 16
-      }
-    },
-    "custom_liquid_zVWXyB": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-YjnwzK\"></div>",
-        "color_scheme": "",
-        "padding_top": 20,
-        "padding_bottom": 24
       }
     },
     "multirow_cGRfqD": {
@@ -333,8 +333,8 @@
     "rich_text_NX7JDe",
     "course_search_fhadpy",
     "video_H6ej3g",
-    "multirow_gPeRfh",
     "custom_liquid_zVWXyB",
+    "multirow_gPeRfh",
     "multirow_cGRfqD",
     "collapsible_content_7BzCwr",
     "main"
