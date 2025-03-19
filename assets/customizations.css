@@ -48,6 +48,7 @@ product-info .giveaway-entries h3 button {
   align-items: center;
   /* justify-content: space-between; */
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card__giveaway-entries {
