@@ -124,7 +124,7 @@
     "cart_type": "page",
     "show_vendor": false,
     "show_cart_note": false,
-    "cart_drawer_collection": "early-access-black-friday",
+    "cart_drawer_collection": "",
     "giveaway_active": true,
     "giveaway_multiplier": 1,
     "giveaway_help": "golf-trip-giveaway-rules",
