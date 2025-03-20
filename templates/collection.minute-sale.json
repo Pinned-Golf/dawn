@@ -60,7 +60,7 @@
         "caption_AYeewy": {
           "type": "caption",
           "settings": {
-            "caption": "All sales are final during our Minute Sale—no returns, exchanges, or cancellations. This exclusive sale is your chance to score unbeatable deals, but once you purchase, it’s yours to keep. Please double-check your order before completing checkout, as all sales are final!",
+            "caption": "All sales are final during our Minute Sale—no returns, exchanges, or cancellations. This exclusive sale is your chance to score unbeatable deals, but once you purchase, it’s yours to keep. Please double-check your order before checking out.",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
