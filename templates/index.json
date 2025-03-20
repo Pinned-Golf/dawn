@@ -12,21 +12,58 @@
     "image_banner_QMgQCn": {
       "type": "image-banner",
       "blocks": {
-        "heading_Afgqdy": {
+        "buttons_pVniPM": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP THE MINUTE SALE",
+            "button_link_1": "shopify://collections/minute-sale",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "buttons_pVniPM"
+      ],
+      "custom_css": [
+        "@media only screen and (max-width: 749px) {.banner {min-height: 70vh; /* Adjust this height as needed */ } .banner__media {height: 100%; width: 100%; object-fit: cover; }}",
+        ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50rem;}",
+        "@media screen and (min-width: 750px) {.banner--large:not(.banner--adapt) {min-height: 90rem; }"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_6.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "image_banner_7BXd3H": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_CHMAFd": {
           "type": "heading",
           "settings": {
             "heading": "<strong>The </strong><em><strong>future </strong></em><strong>of golf is </strong><em><strong>here</strong></em><strong>. </strong>",
             "heading_size": "h0"
           }
         },
-        "text_eeiHnW": {
+        "text_mWLmWw": {
           "type": "text",
           "settings": {
             "text": "<strong>2025 PGA SHOW NEW PRODUCT OF THE YEAR</strong>",
             "text_style": "caption-with-letter-spacing"
           }
         },
-        "buttons_pVniPM": {
+        "buttons_7aQWYe": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Caddie",
@@ -39,15 +76,11 @@
         }
       },
       "block_order": [
-        "heading_Afgqdy",
-        "text_eeiHnW",
-        "buttons_pVniPM"
+        "heading_CHMAFd",
+        "text_mWLmWw",
+        "buttons_7aQWYe"
       ],
-      "custom_css": [
-        "@media only screen and (max-width: 749px) {.banner {min-height: 70vh; /* Adjust this height as needed */ } .banner__media {height: 100%; width: 100%; object-fit: cover; }}",
-        ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50rem;}",
-        "@media screen and (min-width: 750px) {.banner--large:not(.banner--adapt) {min-height: 90rem; }"
-      ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/UP_2048_x_1365_px_2048_x_1080_px_9.jpg",
         "image_overlay_opacity": 10,
@@ -653,6 +686,7 @@
   },
   "order": [
     "image_banner_QMgQCn",
+    "image_banner_7BXd3H",
     "image_banner_iWr6ta",
     "rich_text_DABeqg",
     "image_banner_4ac4Cg",
