@@ -12,7 +12,7 @@
     "image_banner_Rmjip3": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify://shop_images/holidaty_dale_5.png",
+        "image": "shopify://shop_images/holidaty_dale_9.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "bottom-center",
@@ -53,11 +53,36 @@
         "padding_top": 16,
         "padding_bottom": 16
       }
+    },
+    "rich_text_kqHQqP": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_AYeewy": {
+          "type": "caption",
+          "settings": {
+            "caption": "All sales are final during our Minute Sale—no returns, exchanges, or cancellations. This exclusive sale is your chance to score unbeatable deals, but once you purchase, it’s yours to keep. Please double-check your order before completing checkout, as all sales are final!",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "caption_AYeewy"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "image_banner_Rmjip3",
     "banner",
-    "product-grid"
+    "product-grid",
+    "rich_text_kqHQqP"
   ]
 }
