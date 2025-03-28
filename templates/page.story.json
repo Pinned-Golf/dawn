@@ -95,22 +95,10 @@
           "settings": {
             "text": "<p>Join us in making golf more enjoyable and play your best. Explore our products and start elevating your game today!</p>"
           }
-        },
-        "button_giXKzN": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop Black Friday Sale",
-            "button_link": "shopify://collections/early-access-black-friday",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
-        "text_mL3Aeh",
-        "button_giXKzN"
+        "text_mL3Aeh"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -183,7 +171,63 @@
         "column_KH8cKV"
       ],
       "settings": {
-        "title": "5 Years. 5 Models.",
+        "title": "Rangefinders.",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Shop Prism+ Rangefinder",
+        "button_link": "shopify://products/prism-rangefinder-blackfriday-bundle",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_fNbHbx": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_984bth": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/6_29ec73d6-1b48-4c3c-89b9-dd12ee632ad9.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JKw8Pn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3_2b2ea8b0-159d-4e09-a707-02e18e0162b5.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jgVjGh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2025-03-28T115306.540.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_984bth",
+        "column_JKw8Pn",
+        "column_jgVjGh"
+      ],
+      "settings": {
+        "title": "Speakers",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -204,6 +248,7 @@
     "multirow_qpAPhg",
     "main",
     "rich_text_RRWUdQ",
-    "multicolumn_wKUCUF"
+    "multicolumn_wKUCUF",
+    "multicolumn_fNbHbx"
   ]
 }
