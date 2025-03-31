@@ -45,28 +45,6 @@
         "show_text_below": false
       }
     },
-    "rich_text_NX7JDe": {
-      "type": "rich-text",
-      "blocks": {
-        "text_RcNdYg": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>Be sure to spell the full course name. </em></p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_RcNdYg"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 16,
-        "padding_bottom": 16
-      }
-    },
     "course_search_fhadpy": {
       "type": "course-search",
       "custom_css": [
@@ -77,7 +55,7 @@
       "settings": {
         "title": "<strong>45,000+ Courses</strong>",
         "heading_size": "h1",
-        "description": "<p><em>Ssee if your course is one of the 45,000+ you'll have access to on the Caddie.</em></p>",
+        "description": "<p><em>See if your course is one of the 45,000+ you'll have access to on the Caddie. </em></p><p><em><strong>Be sure to spell the full course name. </strong></em></p>",
         "additional_text": "",
         "border_radius": 34,
         "results_border_width": 2,
@@ -321,7 +299,6 @@
   "order": [
     "main",
     "image_banner_ETfWpw",
-    "rich_text_NX7JDe",
     "course_search_fhadpy",
     "image_banner_rJDpmL",
     "featured_product_mF8xGC",
