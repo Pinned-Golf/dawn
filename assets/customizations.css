@@ -49,9 +49,9 @@ product-info .giveaway-entries h3 button {
   flex-wrap: wrap;
 }
 
-.product .price {
-  justify-content: space-between;
-}
+/* .product .price { */
+/*   justify-content: space-between; */
+/* } */
 
 .card-information .price {
   justify-content: center;
