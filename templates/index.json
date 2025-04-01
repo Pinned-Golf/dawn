@@ -188,7 +188,7 @@
         ".banner__content {align-items: flex-end;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Website_Hero_18.jpg",
+        "image": "shopify://shop_images/Website_Hero_22.jpg",
         "image_overlay_opacity": 10,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -433,7 +433,7 @@
         "heading_CFjm3m": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>By golfers, for golfers.</strong>",
+            "heading": "<strong>Better golf, better vibes.</strong>",
             "heading_size": "h0"
           }
         },
