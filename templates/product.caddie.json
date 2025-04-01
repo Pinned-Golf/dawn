@@ -240,6 +240,7 @@
         },
         "row_dHXDxk": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Frame_924_a6c4cc3b-9fbc-4c61-b57f-f6a90fe70506.jpg",
             "caption": "Smart",
