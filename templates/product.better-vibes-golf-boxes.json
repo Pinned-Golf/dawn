@@ -112,7 +112,7 @@
             "heading": "What could be in the box?",
             "default_open": false,
             "icon": "none",
-            "content": "<ul><li>Prism Rangefinders</li><li>Prism+ Rangefinders</li><li>Dart 2.0 Speakers</li><li>Sound Stick Speakers</li><li>Strapped Case</li><li>Hats, hats, hats</li><li>Ball Markers</li><li>Portable Chargers<br/></li></ul>",
+            "content": "<ul><li>Prism Rangefinders</li><li>Prism+ Rangefinders</li><li>Dart 2.0 Speakers</li><li>Sound Stick Speakers</li><li>Strapped Case</li><li>Hats</li><li>Ball Markers</li><li>Portable Chargers<br/></li></ul>",
             "page": ""
           }
         },
@@ -172,7 +172,7 @@
         "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 36,
-        "padding_bottom": 12
+        "padding_bottom": 36
       }
     },
     "collage_NkgDJE": {
@@ -210,18 +210,16 @@
             "heading_size": "h1"
           }
         },
-        "caption_MByQ6c": {
-          "type": "caption",
+        "text_AqiDgb": {
+          "type": "text",
           "settings": {
-            "caption": "Boxes are filled with any of these products",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
+            "text": "<p>Boxes can be filled with any of these products!</p>"
           }
         }
       },
       "block_order": [
         "heading_D6zKQf",
-        "caption_MByQ6c"
+        "text_AqiDgb"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -241,7 +239,7 @@
             "image": "shopify://shop_images/11_03b32129-a4e3-4376-91e4-3bca5384dd6e.jpg",
             "caption": "",
             "heading": "Prism+ Rangefinders",
-            "text": "<p>No more batteries. One 45 minute charge will have your Prism+ dialed in for 70+ rounds. So long are the days of a dead battery on the course.</p>",
+            "text": "<p>The best rangefinder we have ever created. Word on the course is that it is the most user friendly rangefinder ever created. It's packed with new cutting edge software, a dialed in performance aesthetic and never before seen features.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -252,7 +250,7 @@
             "image": "shopify://shop_images/13_079fe409-6a33-4083-88b6-f26086472d45.jpg",
             "caption": "",
             "heading": "Prism Rangefinders",
-            "text": "<p>Distance to the flag every time. No more getting distances of the tree behind the flag. Be dialed in every single shot. </p>",
+            "text": "<p>From the nine beautiful colors to one of a kind features to countless five star reviews, The Prism rangefinder is the younger brother to the Prism+ but still will have you dialed in all round long! </p>",
             "button_label": "",
             "button_link": ""
           }
@@ -352,6 +350,7 @@
     },
     "image_banner_d7RLd3": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Frame_46.jpg",
         "image_overlay_opacity": 0,
@@ -368,6 +367,7 @@
     },
     "video_tmMjbU": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -426,6 +426,7 @@
       "blocks": {
         "button_JY4HTi": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Buy The Prism+",
             "button_link": "shopify://products/prism-plus-rangefinder",
@@ -439,6 +440,7 @@
       "block_order": [
         "button_JY4HTi"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "desktop_content_position": "center",
@@ -455,18 +457,18 @@
         "collapsible_row_qdXMcJ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Can I turn slope on and off?",
+            "heading": "Can I return my order?",
             "icon": "check_mark",
-            "row_content": "<p>Yes, The Prism+ golf rangefinder comes with a slope switch that allows you to turn the slope on and off. This means that our golf rangefinder is completely USGA tournament legal.</p>",
+            "row_content": "<p>No, all of our products in the Better Vibes, Better Golf boxes are final sale. This means that there will be no returning any item you receive.</p>",
             "page": ""
           }
         },
         "collapsible_row_EABUcy": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How do I know it's fully charged?",
+            "heading": "Can I exchange my color?",
             "icon": "check_mark",
-            "row_content": "<p>One 45 minute charge when you receive it and you will be good for the entire season! When fully charged, the green light will be lit.</p>",
+            "row_content": "<p>No, all of our products in the Better Vibes, Better Golf boxes are final sale. This means that there will be no returning any item you receive.</p>",
             "page": ""
           }
         },
@@ -487,36 +489,16 @@
             "row_content": "<p>Please head over to our tutorial section to learn how to use your device.</p>",
             "page": ""
           }
-        },
-        "collapsible_row_Nt36Ki": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Should I register my device?",
-            "icon": "check_mark",
-            "row_content": "<p>You do not have to but it is strongly encouraged to register your device once you have received it.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_fx4MhC": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How Strong are the magnets?",
-            "icon": "check_mark",
-            "row_content": "<p>The magnets have been tested by numerous 3rd party partners and never fell off the cart regardless of the landscape. They are N52 magnets which are the strongest magnet on the market.</p>",
-            "page": ""
-          }
         }
       },
       "block_order": [
         "collapsible_row_qdXMcJ",
         "collapsible_row_EABUcy",
         "collapsible_row_4VXbwM",
-        "collapsible_row_yG8QjR",
-        "collapsible_row_Nt36Ki",
-        "collapsible_row_fx4MhC"
+        "collapsible_row_yG8QjR"
       ],
       "settings": {
-        "caption": "What other GOlfers are asking",
+        "caption": "Better Vibes, Better Golf Boxes",
         "heading": "Frequently Asked Questions",
         "heading_size": "h2",
         "heading_alignment": "center",
@@ -557,6 +539,7 @@
         "image_iyagxd",
         "image_QJJyGn"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h2",
@@ -595,6 +578,7 @@
         "image_XbyAnh",
         "image_aPcjD7"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -627,6 +611,7 @@
     },
     "custom_liquid_PRJMPr": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         "div {text-align: center;}"
       ],
@@ -751,6 +736,7 @@
         "row_4VaWGg",
         "row_y3dgKc"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "adapt",
         "desktop_image_width": "medium",
