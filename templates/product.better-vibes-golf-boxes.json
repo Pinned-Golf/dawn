@@ -199,6 +199,73 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_RVpKEp": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_mKMPU9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Frame_1289.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RWYJ94": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Frame_1290.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iMPU4m": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Frame_1291.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KBT4NL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Frame_1292.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_mKMPU9",
+        "column_RWYJ94",
+        "column_iMPU4m",
+        "column_KBT4NL"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-af529a53-b94b-40d0-9746-399d6ccf1927",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_qHhfEC": {
       "type": "rich-text",
       "blocks": {
@@ -712,6 +779,7 @@
   "order": [
     "main",
     "collage_NkgDJE",
+    "multicolumn_RVpKEp",
     "rich_text_qHhfEC",
     "multirow_DgY64M",
     "image_banner_d7RLd3",
