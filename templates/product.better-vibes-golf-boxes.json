@@ -111,7 +111,7 @@
             "heading": "What could be in the box?",
             "default_open": false,
             "icon": "none",
-            "content": "<ul><li>Prism Rangefinders</li><li>Prism+ Rangefinders</li><li>Dart 2.0 Speakers</li><li>Sound Stick Speakers</li><li>Strapped Case</li><li>Hats</li><li>Ball Markers</li><li>Portable Chargers<br/></li></ul>",
+            "content": "<ul><li>Prism Rangefinders</li><li>Prism+ Rangefinders</li><li>Dart 2.0 Speakers</li><li>Sound Stick Speakers</li><li>Strapped Case</li><li>Hats</li><li>Ball Markers</li><li>Portable Chargers</li></ul>",
             "page": ""
           }
         },
@@ -212,7 +212,7 @@
         "text_AqiDgb": {
           "type": "text",
           "settings": {
-            "text": "<p>Boxes can be filled with any of these products!</p>"
+            "text": "<p>Boxes can be filled with any of these products! </p>"
           }
         }
       },
@@ -479,22 +479,12 @@
             "row_content": "<p>Some items in our Mystery Boxes may include open-box units or products featuring exclusive course logos. All items are fully functional and have passed our quality inspection — just with a little extra character. All sales are final.</p>",
             "page": ""
           }
-        },
-        "collapsible_row_yG8QjR": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I use my rangefinder?",
-            "icon": "check_mark",
-            "row_content": "<p>Please head over to our tutorial section to learn how to use your device.</p>",
-            "page": ""
-          }
         }
       },
       "block_order": [
         "collapsible_row_qdXMcJ",
         "collapsible_row_EABUcy",
-        "collapsible_row_4VXbwM",
-        "collapsible_row_yG8QjR"
+        "collapsible_row_4VXbwM"
       ],
       "settings": {
         "caption": "Better Vibes, Better Golf Boxes",
