@@ -476,7 +476,16 @@
           "settings": {
             "heading": "Are these used products?",
             "icon": "check_mark",
-            "row_content": "<p>Some items in our Mystery Boxes may include open-box units or products featuring exclusive course logos. All items are fully functional and have passed our quality inspection — just with a little extra character. All sales are final.</p>",
+            "row_content": "<p>No, none of these products are used. They are all brand new. Although some boxes might have been opened, none of the units have been used. All items are fully functional and have passed our quality inspection. All sales are final.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_RtiGDD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What's the catch?",
+            "icon": "check_mark",
+            "row_content": "<p>No catch! Just an FYI though, some items in our Mystery Boxes may include open-box units or products featuring exclusive course logos. All items are fully functional and have passed our quality inspection — just with a little extra character. All sales are final.</p>",
             "page": ""
           }
         }
@@ -484,7 +493,8 @@
       "block_order": [
         "collapsible_row_qdXMcJ",
         "collapsible_row_EABUcy",
-        "collapsible_row_4VXbwM"
+        "collapsible_row_4VXbwM",
+        "collapsible_row_RtiGDD"
       ],
       "settings": {
         "caption": "Better Vibes, Better Golf Boxes",
@@ -683,65 +693,6 @@
         "padding_bottom": 36
       }
     },
-    "multirow_NgfLC4": {
-      "type": "multirow",
-      "blocks": {
-        "row_rmzLCR": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Untitled_design_29_18bf4a77-ef7c-4b5a-a6a3-9b7e8427c4dc.jpg",
-            "caption": "pga teacher of the year",
-            "heading": "Michael Breed",
-            "text": "<p><em>\"Pinned Rangefinders are by far my go to rangefinders and it's not even close. The accuracy is unmatched.\"</em></p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_4VaWGg": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Untitled_design_25_ee7c4ab6-f9dd-4164-a3c8-56733ac540fc.jpg",
-            "caption": "pga tour caddie",
-            "heading": "Jeff Hamley",
-            "text": "<p><em>\"When we prepare for each week’s PGA Tour event, I trust Pinned Golf’s range finger to help me dial in our strategy.\"</em></p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_y3dgKc": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Untitled_design_26_6d4bb793-1369-45f0-9f80-c4f0ebe2e697.jpg",
-            "caption": "PGA Class A Teacher",
-            "heading": "Jake Hutt",
-            "text": "<p><em>\"Have been rocking with Pinned's rangefinder for years now. They keep getting better and better every year.”</em></p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_rmzLCR",
-        "row_4VaWGg",
-        "row_y3dgKc"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_height": "adapt",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "171176697446b6f676": {
       "type": "apps",
       "blocks": {
@@ -755,65 +706,6 @@
       ],
       "settings": {
         "include_margins": true
-      }
-    },
-    "featured_collection_3mUgBK": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "<strong>Trending</strong>",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "pinned-golf-shop",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich_text_pYCHRX": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_frTUCi": {
-          "type": "heading",
-          "settings": {
-            "heading": "Just an FYI...",
-            "heading_size": "h1"
-          }
-        },
-        "text_GYJzCQ": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>Some items in our Mystery Boxes may include open-box units or products featuring exclusive course logos. All items are fully functional and have passed our quality inspection — just with a little extra character. All sales are final.</em></p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_frTUCi",
-        "text_GYJzCQ"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     }
   },
@@ -832,9 +724,6 @@
     "related-products",
     "custom_liquid_PRJMPr",
     "collapsible_content_j6wfqJ",
-    "multirow_NgfLC4",
-    "171176697446b6f676",
-    "featured_collection_3mUgBK",
-    "rich_text_pYCHRX"
+    "171176697446b6f676"
   ]
 }
