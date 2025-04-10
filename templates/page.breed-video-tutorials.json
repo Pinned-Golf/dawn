@@ -75,12 +75,27 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "video_tVAQ4n": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/-YxKTQireNs",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "image_banner_9WiDfQ",
     "custom_liquid_8e9nWQ",
-    "video_NrJnYK"
+    "video_NrJnYK",
+    "video_tVAQ4n"
   ]
 }
