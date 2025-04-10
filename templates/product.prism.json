@@ -220,6 +220,7 @@
     },
     "image_banner_AgN8Rt": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/holidaty_dale_2.png",
         "image_overlay_opacity": 0,
