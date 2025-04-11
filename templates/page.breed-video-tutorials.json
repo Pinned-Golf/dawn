@@ -23,8 +23,8 @@
         "heading_fDQnRc": {
           "type": "heading",
           "settings": {
-            "heading": "Michael Breed's Tuesday Tips",
-            "heading_size": "h1"
+            "heading": "Tips Tuesday",
+            "heading_size": "h0"
           }
         },
         "text_TC83DK": {
@@ -53,13 +53,50 @@
         "show_text_below": false
       }
     },
-    "custom_liquid_TBmay6": {
-      "type": "custom-liquid",
+    "image_with_text_HNFFyN": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_MpqzER": {
+          "type": "caption",
+          "settings": {
+            "caption": "PGA Teacher of the year",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_iGE9rz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Michael Breed",
+            "heading_size": "h1"
+          }
+        },
+        "text_QzNfBt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>One of the most sought-after golf instructors in the world. He’s known for his high-energy coaching style, deep knowledge of the game, and years of experience helping golfers of all skill levels improve their game.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_MpqzER",
+        "heading_iGE9rz",
+        "text_QzNfBt"
+      ],
       "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-XFU8B6\"></div>",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "video_NrJnYK": {
@@ -75,12 +112,22 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_liquid_TBmay6": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-XFU8B6\"></div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "image_banner_9WiDfQ",
-    "custom_liquid_TBmay6",
-    "video_NrJnYK"
+    "image_with_text_HNFFyN",
+    "video_NrJnYK",
+    "custom_liquid_TBmay6"
   ]
 }
