@@ -31,7 +31,7 @@
           "type": "text",
           "settings": {
             "text": "Get better every Tuesday with tips sent directly to your inbox.",
-            "text_style": "caption-with-letter-spacing"
+            "text_style": "body"
           }
         }
       },
