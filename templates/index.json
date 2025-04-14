@@ -104,48 +104,8 @@
         "show_text_below": false
       }
     },
-    "image_banner_iWr6ta": {
-      "type": "image-banner",
-      "blocks": {
-        "buttons_EJHyeW": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Learn More & Enter To Win!",
-            "button_link_2": "shopify://pages/golf-trip-giveaway-1",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "buttons_EJHyeW"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "@media only screen and (max-width: 749px) {.banner {min-height: 62vh; /* Adjust this height as needed */ } .banner__media {height: 100%; width: 100%; object-fit: cover; }}",
-        ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50rem;}",
-        "@media screen and (min-width: 750px) {.banner--large:not(.banner--adapt) {min-height: 90rem; }}",
-        ".banner__content {align-items: flex-end;}"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_1.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "rich_text_DABeqg": {
       "type": "rich-text",
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -226,7 +186,6 @@
     },
     "rich_text_GqENi6": {
       "type": "rich-text",
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -284,7 +243,6 @@
     },
     "rich_text_f8f3WF": {
       "type": "rich-text",
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -405,19 +363,6 @@
     },
     "rich_text_wR6TAa": {
       "type": "rich-text",
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 4,
-        "padding_bottom": 4
-      }
-    },
-    "rich_text_VdgCAW": {
-      "type": "rich-text",
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -473,6 +418,28 @@
         "show_text_below": false
       }
     },
+    "rich_text_VdgCAW": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "rich_text_BjXn6e": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
     "image_banner_j6YRq7": {
       "type": "image-banner",
       "blocks": {
@@ -517,34 +484,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
-      }
-    },
-    "rich_text_fFehrF": {
-      "type": "rich-text",
-      "blocks": {
-        "button_F7D4QM": {
-          "type": "button",
-          "settings": {
-            "button_label": "Pinned Family Reviews",
-            "button_link": "shopify://pages/reviews",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "button_F7D4QM"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 4,
-        "padding_bottom": 24
       }
     },
     "image_banner_zydXMz": {
@@ -709,7 +648,6 @@
   "order": [
     "image_banner_QMgQCn",
     "image_banner_7BXd3H",
-    "image_banner_iWr6ta",
     "rich_text_DABeqg",
     "image_banner_4ac4Cg",
     "image_banner_QJMVBf",
@@ -719,10 +657,10 @@
     "collapsible_content_rT76Q4",
     "image_banner_cmb9y7",
     "rich_text_wR6TAa",
-    "rich_text_VdgCAW",
     "image_banner_xTdKjF",
+    "rich_text_VdgCAW",
     "image_banner_j6YRq7",
-    "rich_text_fFehrF",
+    "rich_text_BjXn6e",
     "image_banner_zydXMz",
     "featured_collection_GTncrW",
     "1730301771a79b1aa4",
