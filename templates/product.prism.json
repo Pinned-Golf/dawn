@@ -141,16 +141,6 @@
             "content": "<p>We don't release a product unless it hits on these 4 core values... </p><ol><li>Elevates your game</li><li>Styled to turn heads</li><li>Pushes the envelop</li><li>Stands the test of time</li></ol>",
             "page": ""
           }
-        },
-        "collapsible_tab_AFYqcx": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "$10,000 Golf Trip Giveaway",
-            "default_open": false,
-            "icon": "none",
-            "content": "<p><em><strong>Receive 259 entries</strong></em> into our $10,0000 golf trip giveaway when you purchase a Prism+. </p>",
-            "page": ""
-          }
         }
       },
       "block_order": [
@@ -170,8 +160,7 @@
         "collapsible_tab_mFpMHC",
         "collapsible_tab_ULUXpP",
         "collapsible_tab_LEjyQf",
-        "collapsible_tab_ydzdBh",
-        "collapsible_tab_AFYqcx"
+        "collapsible_tab_ydzdBh"
       ],
       "custom_css": [
         "span[data-selected-swatch-value] {font-weight: 600;}",
@@ -704,7 +693,7 @@
         "row_4VaWGg": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_25_ee7c4ab6-f9dd-4164-a3c8-56733ac540fc.jpg",
+            "image": "shopify://shop_images/Untitled_design_-_2025-04-17T092443.526.png",
             "caption": "pga tour caddie",
             "heading": "Jeff Hamley",
             "text": "<p><em>\"When we prepare for each week’s PGA Tour event, I trust Pinned Golf’s range finger to help me dial in our strategy.\"</em></p>",
