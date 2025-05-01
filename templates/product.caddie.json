@@ -77,9 +77,9 @@
           "settings": {
             "layout": "horizontal",
             "icon_1": "truck",
-            "heading_1": "Shipping In May",
-            "icon_2": "price_tag",
-            "heading_2": "1k Units Available",
+            "heading_1": "Shipping May 15th",
+            "icon_2": "fire",
+            "heading_2": "Best New Product",
             "icon_3": "star",
             "heading_3": "First Ever Tablet"
           }

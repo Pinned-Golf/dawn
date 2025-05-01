@@ -14,6 +14,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_fXeqhB": {
+          "type": "announcement",
+          "settings": {
+            "text": "The Caddie wins best new product at 2025 PGA Show!",
+            "link": "shopify://products/the-caddie-golf-tablet"
+          }
+        },
         "announcement_xFKTDG": {
           "type": "announcement",
           "settings": {
@@ -28,13 +35,6 @@
             "link": "shopify://blogs/pinned-boys/pinned-golf-featured-in-forbes-magazine"
           }
         },
-        "announcement_fXeqhB": {
-          "type": "announcement",
-          "settings": {
-            "text": "The Caddie wins best new product at 2025 PGA Show!",
-            "link": "shopify://products/the-caddie-golf-tablet"
-          }
-        },
         "announcement_WhAXbB": {
           "type": "announcement",
           "settings": {
@@ -44,9 +44,9 @@
         }
       },
       "block_order": [
+        "announcement_fXeqhB",
         "announcement_xFKTDG",
         "announcement_tqPLEH",
-        "announcement_fXeqhB",
         "announcement_WhAXbB"
       ],
       "settings": {
