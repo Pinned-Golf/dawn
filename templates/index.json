@@ -57,15 +57,15 @@
         "heading_CHMAFd": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>The </strong><em><strong>future </strong></em><strong>of golf is </strong><em><strong>here</strong></em><strong>. </strong>",
+            "heading": "<strong>May 15th</strong>",
             "heading_size": "h0"
           }
         },
         "text_mWLmWw": {
           "type": "text",
           "settings": {
-            "text": "<strong>2025 PGA SHOW NEW PRODUCT OF THE YEAR</strong>",
-            "text_style": "caption-with-letter-spacing"
+            "text": "<strong>Caddie's Are Shipping! </strong>",
+            "text_style": "subtitle"
           }
         },
         "buttons_7aQWYe": {
@@ -91,12 +91,12 @@
         "@media screen and (min-width: 750px) {.banner--large:not(.banner--adapt) {min-height: 90rem; }"
       ],
       "settings": {
-        "image": "shopify://shop_images/UP_2048_x_1365_px_2048_x_1080_px_9.jpg",
+        "image": "shopify://shop_images/Frame_9561.png",
         "image_overlay_opacity": 10,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
@@ -429,17 +429,6 @@
         "padding_bottom": 4
       }
     },
-    "rich_text_BjXn6e": {
-      "type": "rich-text",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 4,
-        "padding_bottom": 4
-      }
-    },
     "image_banner_j6YRq7": {
       "type": "image-banner",
       "blocks": {
@@ -484,6 +473,17 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "rich_text_BjXn6e": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 4
       }
     },
     "image_banner_zydXMz": {
