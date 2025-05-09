@@ -183,8 +183,8 @@
         "button_3BUUfc": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "French Manual",
+            "button_link": "https://drive.google.com/file/d/1GzYmXDXnJDO6KnGvJLvRJlS9xNQoMFf-/view?usp=drive_link",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
