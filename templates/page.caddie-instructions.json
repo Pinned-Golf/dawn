@@ -238,6 +238,68 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collapsible_content_kx3c6m": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_Hy6cce": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_3KDDCd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_LEUJNB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_zqQXeN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_Hy6cce",
+        "collapsible_row_3KDDCd",
+        "collapsible_row_LEUJNB",
+        "collapsible_row_zqQXeN"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -247,6 +309,7 @@
     "multirow_ECKQkW",
     "rich_text_KMD7hC",
     "video_GKLNN9",
-    "video_jyrtkY"
+    "video_jyrtkY",
+    "collapsible_content_kx3c6m"
   ]
 }
