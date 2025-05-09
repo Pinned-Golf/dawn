@@ -222,6 +222,22 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "video_jyrtkY": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "Caddie Unboxing",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/Caddie Unboxing - HD 1080p.mov",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -230,6 +246,7 @@
     "image_banner_pB7jVD",
     "multirow_ECKQkW",
     "rich_text_KMD7hC",
-    "video_GKLNN9"
+    "video_GKLNN9",
+    "video_jyrtkY"
   ]
 }
