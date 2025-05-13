@@ -233,6 +233,7 @@
     },
     "image_banner_YTFPAp": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Compa9rison.jpg",
         "image_overlay_opacity": 0,
@@ -353,19 +354,19 @@
         "image_cENgTq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_6.jpg"
+            "image": "shopify://shop_images/2_e2b44780-20a7-4bc9-b218-2dbff45897b5.jpg"
           }
         },
         "image_XbyAnh": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/3_00a2e0e2-c596-4e5c-ac37-121b0e1b7d50.jpg"
+            "image": "shopify://shop_images/2_ad1858e0-b6ce-40bd-9169-8bb848b710a8.jpg"
           }
         },
         "image_aPcjD7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_36.png"
+            "image": "shopify://shop_images/1_074962d5-bc9e-4309-a735-5c087b827c4a.jpg"
           }
         }
       },
@@ -374,7 +375,6 @@
         "image_XbyAnh",
         "image_aPcjD7"
       ],
-      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
