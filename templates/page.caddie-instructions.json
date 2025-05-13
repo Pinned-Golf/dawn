@@ -64,6 +64,21 @@
         "show_text_below": false
       }
     },
+    "video_GKLNN9": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "Caddie Overview",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multirow_ECKQkW": {
       "type": "multirow",
       "blocks": {
@@ -219,21 +234,6 @@
         "padding_bottom": 52
       }
     },
-    "video_GKLNN9": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
-      "settings": {
-        "heading": "Caddie Overview",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "video_jyrtkY": {
       "type": "video",
       "name": "t:sections.video.presets.name",
@@ -327,9 +327,9 @@
     "main",
     "custom_liquid_U8YzU6",
     "image_banner_pB7jVD",
+    "video_GKLNN9",
     "multirow_ECKQkW",
     "rich_text_KMD7hC",
-    "video_GKLNN9",
     "video_jyrtkY",
     "collapsible_content_kx3c6m",
     "custom_liquid_FtTJDe"
