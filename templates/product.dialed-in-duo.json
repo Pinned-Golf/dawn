@@ -386,6 +386,22 @@
         "padding_bottom": 12
       }
     },
+    "video_rwVMLN": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/Pinned vs Bushnell - HD 720p.mov",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collage_DRwnGy": {
       "type": "collage",
       "blocks": {
@@ -560,6 +576,49 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "rich_text_LWkpmt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_reXBwP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_6WUGAN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_VNFDpE": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_reXBwP",
+        "text_6WUGAN",
+        "button_VNFDpE"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -572,6 +631,8 @@
     "rich_text_rk9B8n",
     "collage_tcaNLP",
     "collage_BckdEg",
+    "video_rwVMLN",
+    "rich_text_LWkpmt",
     "collage_DRwnGy",
     "collage_ygLr4W",
     "collapsible_content_3AyFLq",
