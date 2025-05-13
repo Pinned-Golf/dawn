@@ -126,6 +126,16 @@
             "button_label": "Watch Video",
             "button_link": "https://cdn.shopify.com/videos/c/o/v/de96132fa32142a8bbb4205f25f61bfc.mov"
           }
+        },
+        "row_6PCBWN": {
+          "type": "row",
+          "settings": {
+            "caption": "How to",
+            "heading": "Keep Score.",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Watch Video",
+            "button_link": "https://cdn.shopify.com/videos/c/o/v/de96132fa32142a8bbb4205f25f61bfc.mov"
+          }
         }
       },
       "block_order": [
@@ -134,7 +144,8 @@
         "row_bzNd6U",
         "row_xkfMmE",
         "row_PbLb8q",
-        "row_i6RQET"
+        "row_i6RQET",
+        "row_6PCBWN"
       ],
       "name": "t:sections.multirow.presets.name",
       "settings": {
