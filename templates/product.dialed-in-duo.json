@@ -386,6 +386,56 @@
         "padding_bottom": 12
       }
     },
+    "collage_DRwnGy": {
+      "type": "collage",
+      "blocks": {
+        "image_7raRzq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Features-_white.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_7raRzq"
+      ],
+      "name": "t:sections.collage.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_ygLr4W": {
+      "type": "collage",
+      "blocks": {
+        "image_TmmMtz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Features-_white1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_TmmMtz"
+      ],
+      "name": "t:sections.collage.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collapsible_content_3AyFLq": {
       "type": "collapsible-content",
       "blocks": {
@@ -509,56 +559,6 @@
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "collage_DRwnGy": {
-      "type": "collage",
-      "blocks": {
-        "image_7raRzq": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Features-_white.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "image_7raRzq"
-      ],
-      "name": "t:sections.collage.presets.name",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "none",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collage_ygLr4W": {
-      "type": "collage",
-      "blocks": {
-        "image_TmmMtz": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Features-_white1.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "image_TmmMtz"
-      ],
-      "name": "t:sections.collage.presets.name",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "none",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     }
   },
