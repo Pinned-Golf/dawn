@@ -99,7 +99,7 @@
       "type": "video",
       "name": "t:sections.video.presets.name",
       "settings": {
-        "heading": "<strong>Caddie Overview</strong>",
+        "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -114,7 +114,7 @@
       "type": "video",
       "name": "t:sections.video.presets.name",
       "settings": {
-        "heading": "<strong>Setting Up Your Caddie</strong>",
+        "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
         "video": "shopify://files/videos/copy_EE47F6A0-A733-4007-9F30-D70110AE7AB3.mov",
@@ -130,7 +130,7 @@
       "type": "video",
       "name": "t:sections.video.presets.name",
       "settings": {
-        "heading": "<strong>Downloading Courses</strong>",
+        "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
         "video": "shopify://files/videos/App Overview - HD 720p.mov",
@@ -146,7 +146,7 @@
       "type": "video",
       "name": "t:sections.video.presets.name",
       "settings": {
-        "heading": "<strong>Play Golf With Your Caddie</strong>",
+        "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
         "video": "shopify://files/videos/How To Download - HD 720p.mov",
