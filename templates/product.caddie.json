@@ -65,6 +65,13 @@
             "show_gift_card_recipient": true
           }
         },
+        "text_ExJaTM": {
+          "type": "text",
+          "settings": {
+            "text": "<em><strong>🔥 2,158 Sold In Last 30 Days</strong></em>",
+            "text_style": "body"
+          }
+        },
         "share": {
           "type": "share",
           "disabled": true,
@@ -135,6 +142,7 @@
         "variant_picker",
         "quantity_selector_a4gife",
         "buy_buttons",
+        "text_ExJaTM",
         "share",
         "icon_with_text_UWmnYD",
         "collapsible_tab_mFpMHC",
