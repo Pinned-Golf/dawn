@@ -273,7 +273,7 @@
       "type": "video",
       "name": "t:sections.video.presets.name",
       "settings": {
-        "heading": "Caddie Unboxing",
+        "heading": "<strong>Caddie Unboxing</strong>",
         "heading_size": "h1",
         "enable_video_looping": false,
         "video": "shopify://files/videos/Caddie Unboxing - HD 1080p.mov",
@@ -418,8 +418,8 @@
     "video_hzNzfC",
     "video_DxLHxy",
     "multirow_ECKQkW",
-    "rich_text_KMD7hC",
     "video_jyrtkY",
+    "rich_text_KMD7hC",
     "collapsible_content_kx3c6m",
     "custom_liquid_FtTJDe"
   ]
