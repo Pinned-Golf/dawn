@@ -64,11 +64,87 @@
         "show_text_below": false
       }
     },
+    "rich_text_rrzrRx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fwwnMK": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Tutorial Videos</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_6ReiQE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A few videos showing how to get the most out of your Caddie.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fwwnMK",
+        "text_6ReiQE"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 28
+      }
+    },
     "video_GKLNN9": {
       "type": "video",
       "name": "t:sections.video.presets.name",
       "settings": {
-        "heading": "Caddie Overview",
+        "heading": "<strong>Caddie Overview</strong>",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_BkRNJL": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "<strong>Setting Up Your Caddie</strong>",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_hzNzfC": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "<strong>Downloading Courses</strong>",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_DxLHxy": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "<strong>Play Golf With Your Caddie</strong>",
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -85,48 +161,9 @@
         "row_AKM9iM": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/2_aba3bb2b-f897-4f54-861b-edde484ba108.jpg",
             "caption": "How to",
-            "heading": "Set up Caddie.",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Watch Video",
-            "button_link": ""
-          }
-        },
-        "row_qm7TaM": {
-          "type": "row",
-          "settings": {
-            "caption": "How to",
-            "heading": "Start a round.",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Watch Video",
-            "button_link": ""
-          }
-        },
-        "row_bzNd6U": {
-          "type": "row",
-          "settings": {
-            "caption": "How to",
-            "heading": "Navigate app.",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Watch Video",
-            "button_link": "https://cdn.shopify.com/videos/c/o/v/bd1553d8e4474172b882b1a1ed4e4f7a.mov"
-          }
-        },
-        "row_xkfMmE": {
-          "type": "row",
-          "settings": {
-            "caption": "How to",
-            "heading": "Play a round.",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Watch Video",
-            "button_link": ""
-          }
-        },
-        "row_PbLb8q": {
-          "type": "row",
-          "settings": {
-            "caption": "How to",
-            "heading": "Charge Caddie.",
+            "heading": "Set up your Cadie.",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "button_label": "Watch Video",
             "button_link": ""
@@ -135,6 +172,7 @@
         "row_i6RQET": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/4_a0eef4cc-904a-45ac-ac83-ea5bae923c3f.jpg",
             "caption": "How to",
             "heading": "Download Courses.",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
@@ -142,26 +180,23 @@
             "button_link": "https://cdn.shopify.com/videos/c/o/v/de96132fa32142a8bbb4205f25f61bfc.mov"
           }
         },
-        "row_6PCBWN": {
+        "row_qm7TaM": {
           "type": "row",
           "settings": {
             "caption": "How to",
-            "heading": "Keep Score.",
+            "heading": "Play golf.",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "button_label": "Watch Video",
-            "button_link": "https://cdn.shopify.com/videos/c/o/v/de96132fa32142a8bbb4205f25f61bfc.mov"
+            "button_link": ""
           }
         }
       },
       "block_order": [
         "row_AKM9iM",
-        "row_qm7TaM",
-        "row_bzNd6U",
-        "row_xkfMmE",
-        "row_PbLb8q",
         "row_i6RQET",
-        "row_6PCBWN"
+        "row_qm7TaM"
       ],
+      "disabled": true,
       "name": "t:sections.multirow.presets.name",
       "settings": {
         "image_height": "medium",
@@ -377,7 +412,11 @@
     "main",
     "custom_liquid_U8YzU6",
     "image_banner_pB7jVD",
+    "rich_text_rrzrRx",
     "video_GKLNN9",
+    "video_BkRNJL",
+    "video_hzNzfC",
+    "video_DxLHxy",
     "multirow_ECKQkW",
     "rich_text_KMD7hC",
     "video_jyrtkY",
