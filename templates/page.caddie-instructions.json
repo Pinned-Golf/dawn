@@ -117,6 +117,7 @@
         "heading": "<strong>Setting Up Your Caddie</strong>",
         "heading_size": "h1",
         "enable_video_looping": false,
+        "video": "shopify://files/videos/copy_EE47F6A0-A733-4007-9F30-D70110AE7AB3.mov",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
@@ -132,6 +133,7 @@
         "heading": "<strong>Downloading Courses</strong>",
         "heading_size": "h1",
         "enable_video_looping": false,
+        "video": "shopify://files/videos/App Overview - HD 720p.mov",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
@@ -147,6 +149,7 @@
         "heading": "<strong>Play Golf With Your Caddie</strong>",
         "heading_size": "h1",
         "enable_video_looping": false,
+        "video": "shopify://files/videos/How To Download - HD 720p.mov",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
@@ -214,6 +217,22 @@
         "padding_bottom": 36
       }
     },
+    "video_jyrtkY": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "<strong>Caddie Unboxing</strong>",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/Caddie Unboxing - HD 1080p.mov",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_KMD7hC": {
       "type": "rich-text",
       "blocks": {
@@ -267,22 +286,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "video_jyrtkY": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
-      "settings": {
-        "heading": "<strong>Caddie Unboxing</strong>",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video": "shopify://files/videos/Caddie Unboxing - HD 1080p.mov",
-        "video_url": "",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "collapsible_content_kx3c6m": {
