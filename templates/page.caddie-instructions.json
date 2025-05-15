@@ -114,7 +114,7 @@
       "type": "video",
       "name": "t:sections.video.presets.name",
       "settings": {
-        "heading": "",
+        "heading": "Downloading a course.",
         "heading_size": "h1",
         "enable_video_looping": false,
         "video": "shopify://files/videos/copy_EE47F6A0-A733-4007-9F30-D70110AE7AB3.mov",
@@ -130,7 +130,7 @@
       "type": "video",
       "name": "t:sections.video.presets.name",
       "settings": {
-        "heading": "",
+        "heading": "Play a round.",
         "heading_size": "h1",
         "enable_video_looping": false,
         "video": "shopify://files/videos/App Overview - HD 720p.mov",
@@ -146,7 +146,7 @@
       "type": "video",
       "name": "t:sections.video.presets.name",
       "settings": {
-        "heading": "",
+        "heading": "Setting up your caddie",
         "heading_size": "h1",
         "enable_video_looping": false,
         "video": "shopify://files/videos/How To Download - HD 720p.mov",
@@ -417,9 +417,9 @@
     "image_banner_pB7jVD",
     "rich_text_rrzrRx",
     "video_GKLNN9",
+    "video_DxLHxy",
     "video_BkRNJL",
     "video_hzNzfC",
-    "video_DxLHxy",
     "multirow_ECKQkW",
     "video_jyrtkY",
     "rich_text_KMD7hC",
