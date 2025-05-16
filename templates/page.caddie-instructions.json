@@ -114,10 +114,10 @@
       "type": "video",
       "name": "t:sections.video.presets.name",
       "settings": {
-        "heading": "Setting up your caddie",
+        "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video": "shopify://files/videos/How To Download - HD 720p.mov",
+        "video": "shopify://files/videos/32f38be8fae14f42aa235a007463208f.mov",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
@@ -130,7 +130,7 @@
       "type": "video",
       "name": "t:sections.video.presets.name",
       "settings": {
-        "heading": "Downloading a course.",
+        "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
         "video": "shopify://files/videos/How to download course - HD 1080p.mov",
