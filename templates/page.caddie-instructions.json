@@ -97,6 +97,7 @@
     },
     "video_GKLNN9": {
       "type": "video",
+      "disabled": true,
       "name": "t:sections.video.presets.name",
       "settings": {
         "heading": "",
@@ -146,10 +147,10 @@
       "type": "video",
       "name": "t:sections.video.presets.name",
       "settings": {
-        "heading": "Play a round.",
+        "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video": "shopify://files/videos/App Overview - HD 720p.mov",
+        "video": "shopify://files/videos/Final- Play golf - HD 1080p.mov",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
