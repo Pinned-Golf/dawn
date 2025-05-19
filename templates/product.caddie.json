@@ -68,7 +68,7 @@
         "text_ExJaTM": {
           "type": "text",
           "settings": {
-            "text": "<em><strong>🔥 2,158 Sold In Last 30 Days</strong></em>",
+            "text": "<em><strong>🔥 3,188 Sold In Last 30 Days</strong></em>",
             "text_style": "body"
           }
         },
@@ -84,7 +84,7 @@
           "settings": {
             "layout": "horizontal",
             "icon_1": "truck",
-            "heading_1": "Shipping May 15th",
+            "heading_1": "Fast & Free Shipping",
             "icon_2": "fire",
             "heading_2": "Best New Product",
             "icon_3": "star",
@@ -888,6 +888,69 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_8P3cJa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BQtWhe": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tutorial Videos",
+            "heading_size": "h1"
+          }
+        },
+        "text_6TUBRj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A few videos showing how to get dialed in with your Caddie.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BQtWhe",
+        "text_6TUBRj"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "video_iErkPe": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/Final-Setting up your caddie - HD 1080p.mov",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 8,
+        "padding_bottom": 36
+      }
+    },
+    "video_nGX7J8": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/Final- Play golf - HD 1080p.mov",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_6GNVMD": {
       "type": "featured-collection",
       "settings": {
@@ -939,6 +1002,9 @@
     "rich_text_aQeAa3",
     "multicolumn_pHTL4n",
     "collapsible_content_K3TTNR",
+    "rich_text_8P3cJa",
+    "video_iErkPe",
+    "video_nGX7J8",
     "featured_collection_6GNVMD"
   ]
 }
