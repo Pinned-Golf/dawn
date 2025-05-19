@@ -67,7 +67,7 @@
         "text_xKqigH": {
           "type": "text",
           "settings": {
-            "text": "<p><em>With 45,000 courses in our database, it's tough to keep up with every little update out there. So, if you notice a course that needs to be updated, fill out the form below and we'll get it updated ASAP! </em></p>"
+            "text": "<p><em>With 45,000 courses in our database, it's very tough to keep up with every little course update. So, if you notice a course that needs to be updated, fill out the form below and we'll get it updated ASAP! </em></p>"
           }
         }
       },
@@ -85,12 +85,35 @@
         "padding_bottom": 8
       }
     },
+    "rich_text_zBkjYn": {
+      "type": "rich-text",
+      "blocks": {
+        "text_hK3qRP": {
+          "type": "text",
+          "settings": {
+            "text": "<ol><li><strong>Please include full street address, city, state, zip code & country.</strong></li><li><strong>For course layout, most up to date & easiest to use </strong><a href=\"https://www.golfpass.com/\" title=\"https://www.golfpass.com/\"><strong>GolfPass </strong></a><strong>or </strong><a href=\"https://www.bluegolf.com/\" title=\"https://www.bluegolf.com/\"><strong>Blue Golf.</strong></a></li></ol>"
+          }
+        }
+      },
+      "block_order": [
+        "text_hK3qRP"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 28
+      }
+    },
     "custom_liquid_7UWpL7": {
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<div class=\"klaviyo-form-UYegj9\"></div>",
         "color_scheme": "",
-        "padding_top": 4,
+        "padding_top": 0,
         "padding_bottom": 52
       }
     }
@@ -99,6 +122,7 @@
     "image_banner_MPMx7p",
     "main",
     "rich_text_YxdzY3",
+    "rich_text_zBkjYn",
     "custom_liquid_7UWpL7"
   ]
 }
