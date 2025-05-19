@@ -417,7 +417,7 @@
         "heading_NbGda6": {
           "type": "heading",
           "settings": {
-            "heading": "Does your course need to be updated on The Caddie?",
+            "heading": "<strong>Does your course need to be updated on The Caddie?</strong>",
             "heading_size": "h1"
           }
         },
