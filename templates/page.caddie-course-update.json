@@ -9,6 +9,43 @@
  */
 {
   "sections": {
+    "image_banner_MPMx7p": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_twWw6B": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Course Updates</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_p8wmWk": {
+          "type": "text",
+          "settings": {
+            "text": "Your course needs an update on The Caddie? You've come to the right place!",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_twWw6B",
+        "text_p8wmWk"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_7.png",
+        "image_overlay_opacity": 10,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -28,6 +65,7 @@
     }
   },
   "order": [
+    "image_banner_MPMx7p",
     "main",
     "custom_liquid_7UWpL7"
   ]
