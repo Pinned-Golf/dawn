@@ -62,11 +62,43 @@
         "padding_top": 4,
         "padding_bottom": 52
       }
+    },
+    "rich_text_YxdzY3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MECL68": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>How to update your course.</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_xKqigH": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>With 45,000 courses in our database, it's tough to keep up with every little update out there. So, if you notice a course that needs to be updated, fill out the form below and we'll get it updated ASAP! </em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MECL68",
+        "text_xKqigH"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "image_banner_MPMx7p",
     "main",
-    "custom_liquid_7UWpL7"
+    "custom_liquid_7UWpL7",
+    "rich_text_YxdzY3"
   ]
 }
