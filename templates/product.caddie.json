@@ -482,31 +482,6 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_W8aYrn": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_8cTYaX": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Your </strong><em><strong>personal </strong></em><strong>caddie.</strong>",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_8cTYaX"
-      ],
-      "disabled": true,
-      "custom_css": [],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 36,
-        "padding_bottom": 4
-      }
-    },
     "video_QGeh74": {
       "type": "video",
       "settings": {
@@ -535,31 +510,6 @@
       "block_order": [
         "image_h3zWMC"
       ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "none",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collage_cQzTeU": {
-      "type": "collage",
-      "blocks": {
-        "image_bVGqeP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Frame_9l525.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "image_bVGqeP"
-      ],
-      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -978,6 +928,23 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_banner_HbDtXQ": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Frame_46_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -990,10 +957,8 @@
     "related-products",
     "custom_liquid_PRJMPr",
     "collapsible_content_j6wfqJ",
-    "rich_text_W8aYrn",
     "video_QGeh74",
     "collage_RBkzxK",
-    "collage_cQzTeU",
     "collage_nciEHT",
     "collage_7xmBeb",
     "collage_WxqWfN",
@@ -1005,6 +970,7 @@
     "rich_text_8P3cJa",
     "video_iErkPe",
     "video_nGX7J8",
-    "featured_collection_6GNVMD"
+    "featured_collection_6GNVMD",
+    "image_banner_HbDtXQ"
   ]
 }
