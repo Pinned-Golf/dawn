@@ -91,7 +91,7 @@
         "text_hK3qRP": {
           "type": "text",
           "settings": {
-            "text": "<ol><li><strong>Please include full street address, city, state, zip code & country.</strong></li><li><strong>For course layout, most up to date & easiest to use </strong><a href=\"https://www.golfpass.com/\" title=\"https://www.golfpass.com/\"><strong>GolfPass </strong></a><strong>or </strong><a href=\"https://www.bluegolf.com/\" title=\"https://www.bluegolf.com/\"><strong>Blue Golf.</strong></a></li></ol>"
+            "text": "<ol><li><strong>Please include full street address, city, state, zip code & country.</strong></li><li><strong>If you have a picture of the scorecard, please convert it to a Google Drive Link.</strong></li><li><strong>For course layout, most up to date & easiest to use </strong><a href=\"https://www.golfpass.com/\" title=\"https://www.golfpass.com/\"><strong>GolfPass </strong></a><strong>or </strong><a href=\"https://www.bluegolf.com/\" title=\"https://www.bluegolf.com/\"><strong>Blue Golf.</strong></a></li></ol>"
           }
         }
       },
