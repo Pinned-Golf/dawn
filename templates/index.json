@@ -57,14 +57,14 @@
         "heading_CHMAFd": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Caddie Shipping</strong>",
+            "heading": "<strong>Caddies Are Shipping</strong>",
             "heading_size": "h0"
           }
         },
         "text_mWLmWw": {
           "type": "text",
           "settings": {
-            "text": "<em><strong>The Future Of Golf</strong></em><strong> Is Shipping!</strong>",
+            "text": "<em><strong>The Future Of Golf has arrived.</strong></em>",
             "text_style": "subtitle"
           }
         },
