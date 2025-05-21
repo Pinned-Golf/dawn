@@ -117,8 +117,8 @@
             "heading": "Shipping",
             "default_open": false,
             "icon": "none",
-            "content": "",
-            "page": "caddie-shipping"
+            "content": "<p>We ship <strong>FAST</strong>.<br/><br/>Fulfilled within 24 business hours. 90% of orders arrive early.<br/><br/>Expedited options if your next tee time is coming up.</p>",
+            "page": ""
           }
         },
         "collapsible_tab_ydzdBh": {
