@@ -57,14 +57,14 @@
         "heading_CHMAFd": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Father's Day Sale</strong>",
+            "heading": "<strong>Fathers Day Sale</strong>",
             "heading_size": "h0"
           }
         },
         "text_mWLmWw": {
           "type": "text",
           "settings": {
-            "text": "<em><strong>Up To 50% Off</strong></em>",
+            "text": "<em><strong>Up To 50% Off Sitewide</strong></em>",
             "text_style": "subtitle"
           }
         },
