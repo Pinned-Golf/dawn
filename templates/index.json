@@ -125,13 +125,6 @@
             "heading_size": "h0"
           }
         },
-        "text_gmGC9B": {
-          "type": "text",
-          "settings": {
-            "text": "<em><strong>The Future Of Golf has arrived.</strong></em>",
-            "text_style": "subtitle"
-          }
-        },
         "buttons_FdTLpQ": {
           "type": "buttons",
           "settings": {
@@ -146,7 +139,6 @@
       },
       "block_order": [
         "heading_6nE9Ud",
-        "text_gmGC9B",
         "buttons_FdTLpQ"
       ],
       "settings": {
