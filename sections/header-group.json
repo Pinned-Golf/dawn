@@ -24,8 +24,8 @@
         "announcement_xFKTDG": {
           "type": "announcement",
           "settings": {
-            "text": "Caddie Is Shipping!",
-            "link": ""
+            "text": "Father's Day Sale Is Live!",
+            "link": "shopify://collections/fathers-day-sale"
           }
         },
         "announcement_tqPLEH": {
