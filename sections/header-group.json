@@ -16,6 +16,7 @@
       "blocks": {
         "announcement_fXeqhB": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Best new product at PGA Show!",
             "link": "shopify://products/the-caddie-golf-tablet"
