@@ -165,11 +165,11 @@
         "button_AhdznL": {
           "type": "button",
           "settings": {
-            "button_label": "Digital Manual",
+            "button_label": "Sound Stick Digital Manual",
             "button_link": "https://cdn.shopify.com/s/files/1/0522/1734/8255/files/Sound_Stick_Manual.pdf?v=1748622104",
             "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_label_2": "Dart 2.0 Digital Manual",
+            "button_link_2": "https://cdn.shopify.com/s/files/1/0522/1734/8255/files/Dart_2.0_Speaker_Instructions_1.pdf?v=1748622189",
             "button_style_secondary_2": false
           }
         }
