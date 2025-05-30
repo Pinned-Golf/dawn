@@ -273,40 +273,58 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_F4KWwi": {
-      "type": "image-with-text",
+    "multirow_ykwtT7": {
+      "type": "multirow",
       "blocks": {
-        "heading_cfmeXJ": {
-          "type": "heading",
+        "row_pQXK69": {
+          "type": "row",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
           }
         },
-        "button_UtEcye": {
-          "type": "button",
+        "row_igFxcM": {
+          "type": "row",
           "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "button_link": ""
+          }
+        },
+        "row_Qd6Egz": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "heading_cfmeXJ",
-        "button_UtEcye"
+        "row_pQXK69",
+        "row_igFxcM",
+        "row_Qd6Egz"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "disabled": true,
+      "name": "t:sections.multirow.presets.name",
       "settings": {
-        "height": "adapt",
+        "image_height": "medium",
         "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "image_layout": "alternate-left",
         "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
+        "row_color_scheme": "",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
@@ -321,6 +339,6 @@
     "multirow_nYrCnq",
     "multicolumn_WPEKn4",
     "featured_collection_33RiJE",
-    "image_with_text_F4KWwi"
+    "multirow_ykwtT7"
   ]
 }
