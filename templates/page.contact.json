@@ -272,6 +272,29 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collage_MNReW8": {
+      "type": "collage",
+      "blocks": {
+        "image_9AR4ke": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "image_9AR4ke"
+      ],
+      "name": "t:sections.collage.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -281,6 +304,7 @@
     "collapsible_content_dwnXxx",
     "multirow_nYrCnq",
     "multicolumn_WPEKn4",
-    "featured_collection_33RiJE"
+    "featured_collection_33RiJE",
+    "collage_MNReW8"
   ]
 }
