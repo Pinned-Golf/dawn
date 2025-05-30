@@ -33,14 +33,14 @@
         "heading_GLHyhd": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Caddie Tutorials</strong>",
+            "heading": "<strong>Prism+ FAQ'S</strong>",
             "heading_size": "h1"
           }
         },
         "text_9xCe7t": {
           "type": "text",
           "settings": {
-            "text": "Below you will find instruction manuals & tutorial videos to help you get out on the course faster with your Caddie.",
+            "text": "Below you will find frequently asked questions and instruction manuals to get dialed in with your Prism+",
             "text_style": "body"
           }
         }
@@ -51,7 +51,7 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_7.jpg",
+        "image": "shopify://shop_images/Website_Hero_21.jpg",
         "image_overlay_opacity": 20,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -62,6 +62,118 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "collapsible_content_kx3c6m": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_Hy6cce": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "My display is blurry... what do I do?",
+            "icon": "check_mark",
+            "row_content": "<p><em>Simply turn the eye piece to adjust the focus. The eye piece was </em>accidentally<em> turned and the scope became out of focus. </em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7jriY6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why does it pick up objects behind the flag?",
+            "icon": "check_mark",
+            "row_content": "<p><em>With First Target Acquisition, the Prism+ will pick up on the first target that the laser comes in contact with. If you are not getting readings to the flag, that means you may have moved slightly and now the laser is picking up on the objects behind the flag. Since these are very sensitive pieces of technology, the smallest movement will disrupt the lasers path towards the flag.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3KDDCd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I know it's fully charged?",
+            "icon": "check_mark",
+            "row_content": "<p><em>One 45 minute charge when you receive it and you will be good for the entire season! When fully charged, the green light will be lit.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FcTLYw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": " What should I do if a course map looks outdated or incorrect?",
+            "icon": "check_mark",
+            "row_content": "<p><em>If you notice that a hole layout, yardage, or course detail looks off, shoot us a message at support@pinnedgolf.com with the course name and a quick description of the issue. Our team will review it and get the updated layout pushed live within a few days. We’ve got your back!</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yEency": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is The Caddie waterproof or weather-resistant?",
+            "icon": "check_mark",
+            "row_content": "<p><em>Yes — The Caddie is built to handle the elements with a rugged, weather-resistant design. Whether you’re playing in heat, wind, or light rain, it’s ready to go.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_LEUJNB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I keep score on The Caddie?",
+            "icon": "check_mark",
+            "row_content": "<p><em>After each hole, you’ll be prompted to enter your score. You can also track stats like fairways hit, greens in regulation, and putts for a more detailed view of your game.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_zqQXeN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What should I do if the GPS seems off or slow to load?",
+            "icon": "check_mark",
+            "row_content": "<p><em>Make sure you’re standing outside with a clear view of the sky. If the issue persists, please restart your device. </em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_mFXwJD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I end a round or save my scores?",
+            "icon": "check_mark",
+            "row_content": "<p><em>Tap “End Round” on the final hole, and everything will be saved! You then will be shown your end round summary highlighting your round. Everything will be stored on the device, and you’ll be able to view past rounds whenever you’d like.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_t6VmVE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I charge The Caddie and how long does it take?",
+            "icon": "check_mark",
+            "row_content": "<p><em>Use the included USB-C cable. A full charge takes about 2–3 hours and typically lasts 54 holes depending on screen brightness and usage.</em></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_Hy6cce",
+        "collapsible_row_7jriY6",
+        "collapsible_row_3KDDCd",
+        "collapsible_row_FcTLYw",
+        "collapsible_row_yEency",
+        "collapsible_row_LEUJNB",
+        "collapsible_row_zqQXeN",
+        "collapsible_row_mFXwJD",
+        "collapsible_row_t6VmVE"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "rich_text_rrzrRx": {
@@ -289,118 +401,6 @@
         "padding_bottom": 52
       }
     },
-    "collapsible_content_kx3c6m": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_Hy6cce": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Do I need to download the course before my round?",
-            "icon": "check_mark",
-            "row_content": "<p><em>Yes. The Caddie works 100% offline, due to the user downloading the course map on Wi-Fi before heading to the course. Once you’ve downloaded a course, it will stay saved on your Caddie forever.</em></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_7jriY6": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How often is course data updated?",
-            "icon": "check_mark",
-            "row_content": "<p><em>Our team regularly updates our course library to reflect new layouts, renovations, and GPS enhancements. Updates are downloaded whenever you connect to Wi-Fi, keeping your data fresh. </em></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_3KDDCd": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I get yardages during a round?",
-            "icon": "check_mark",
-            "row_content": "<p><em>The Caddie automatically shows your distance to the center, front, and back of the green. You also have the ability to tap the screen and receive distances anywhere on the course. Just glance at the screen, tap, and you’ll see real-time yardages based on your GPS location.</em></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_FcTLYw": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": " What should I do if a course map looks outdated or incorrect?",
-            "icon": "check_mark",
-            "row_content": "<p><em>If you notice that a hole layout, yardage, or course detail looks off, shoot us a message at support@pinnedgolf.com with the course name and a quick description of the issue. Our team will review it and get the updated layout pushed live within a few days. We’ve got your back!</em></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_yEency": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Is The Caddie waterproof or weather-resistant?",
-            "icon": "check_mark",
-            "row_content": "<p><em>Yes — The Caddie is built to handle the elements with a rugged, weather-resistant design. Whether you’re playing in heat, wind, or light rain, it’s ready to go.</em></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_LEUJNB": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I keep score on The Caddie?",
-            "icon": "check_mark",
-            "row_content": "<p><em>After each hole, you’ll be prompted to enter your score. You can also track stats like fairways hit, greens in regulation, and putts for a more detailed view of your game.</em></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_zqQXeN": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What should I do if the GPS seems off or slow to load?",
-            "icon": "check_mark",
-            "row_content": "<p><em>Make sure you’re standing outside with a clear view of the sky. If the issue persists, please restart your device. </em></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_mFXwJD": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I end a round or save my scores?",
-            "icon": "check_mark",
-            "row_content": "<p><em>Tap “End Round” on the final hole, and everything will be saved! You then will be shown your end round summary highlighting your round. Everything will be stored on the device, and you’ll be able to view past rounds whenever you’d like.</em></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_t6VmVE": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I charge The Caddie and how long does it take?",
-            "icon": "check_mark",
-            "row_content": "<p><em>Use the included USB-C cable. A full charge takes about 2–3 hours and typically lasts 54 holes depending on screen brightness and usage.</em></p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_Hy6cce",
-        "collapsible_row_7jriY6",
-        "collapsible_row_3KDDCd",
-        "collapsible_row_FcTLYw",
-        "collapsible_row_yEency",
-        "collapsible_row_LEUJNB",
-        "collapsible_row_zqQXeN",
-        "collapsible_row_mFXwJD",
-        "collapsible_row_t6VmVE"
-      ],
-      "name": "t:sections.collapsible_content.presets.name",
-      "settings": {
-        "caption": "",
-        "heading": "Frequently Asked Questions",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "custom_liquid_FtTJDe": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
@@ -459,6 +459,7 @@
     "main",
     "custom_liquid_U8YzU6",
     "image_banner_pB7jVD",
+    "collapsible_content_kx3c6m",
     "rich_text_rrzrRx",
     "video_GKLNN9",
     "video_DxLHxy",
@@ -467,7 +468,6 @@
     "multirow_ECKQkW",
     "video_jyrtkY",
     "rich_text_KMD7hC",
-    "collapsible_content_kx3c6m",
     "custom_liquid_FtTJDe",
     "rich_text_EYyDfE"
   ]
