@@ -76,89 +76,59 @@
             "page": ""
           }
         },
-        "collapsible_row_7jriY6": {
+        "collapsible_row_LEUJNB": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How do they sound?",
+            "heading": "How do I connect two speakers?",
             "icon": "check_mark",
-            "row_content": "<p>Amazing. Simply put. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_3KDDCd": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I get yardages during a round?",
-            "icon": "check_mark",
-            "row_content": "<p><em>The Caddie automatically shows your distance to the center, front, and back of the green. You also have the ability to tap the screen and receive distances anywhere on the course. Just glance at the screen, tap, and you’ll see real-time yardages based on your GPS location.</em></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_FcTLYw": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": " What should I do if a course map looks outdated or incorrect?",
-            "icon": "check_mark",
-            "row_content": "<p><em>If you notice that a hole layout, yardage, or course detail looks off, shoot us a message at support@pinnedgolf.com with the course name and a quick description of the issue. Our team will review it and get the updated layout pushed live within a few days. We’ve got your back!</em></p>",
+            "row_content": "<p><em>Turn the first one on. Connect to bluetooth. Turn the second one on and hit play on the first one. </em></p>",
             "page": ""
           }
         },
         "collapsible_row_yEency": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Is The Caddie waterproof or weather-resistant?",
+            "heading": "Why isn't my speaker charging?",
             "icon": "check_mark",
-            "row_content": "<p><em>Yes — The Caddie is built to handle the elements with a rugged, weather-resistant design. Whether you’re playing in heat, wind, or light rain, it’s ready to go.</em></p>",
+            "row_content": "<p><em>Please be sure to use the cord that the speaker came with as those are made specifically for the unit. </em></p>",
             "page": ""
           }
         },
-        "collapsible_row_LEUJNB": {
+        "collapsible_row_7jriY6": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How do I keep score on The Caddie?",
+            "heading": "How do they sound?",
             "icon": "check_mark",
-            "row_content": "<p><em>After each hole, you’ll be prompted to enter your score. You can also track stats like fairways hit, greens in regulation, and putts for a more detailed view of your game.</em></p>",
+            "row_content": "<p><em>Amazing. Simply put. </em></p>",
             "page": ""
           }
         },
-        "collapsible_row_zqQXeN": {
+        "collapsible_row_3KDDCd": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What should I do if the GPS seems off or slow to load?",
+            "heading": "How strong are the magnets?",
             "icon": "check_mark",
-            "row_content": "<p><em>Make sure you’re standing outside with a clear view of the sky. If the issue persists, please restart your device. </em></p>",
+            "row_content": "<p><em>The magnet has been tested by numerous 3rd party partners and never fell off the cart regardless of the landscape.</em></p>",
             "page": ""
           }
         },
-        "collapsible_row_mFXwJD": {
+        "collapsible_row_FcTLYw": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How do I end a round or save my scores?",
+            "heading": "Is it only for golf?",
             "icon": "check_mark",
-            "row_content": "<p><em>Tap “End Round” on the final hole, and everything will be saved! You then will be shown your end round summary highlighting your round. Everything will be stored on the device, and you’ll be able to view past rounds whenever you’d like.</em></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_t6VmVE": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I charge The Caddie and how long does it take?",
-            "icon": "check_mark",
-            "row_content": "<p><em>Use the included USB-C cable. A full charge takes about 2–3 hours and typically lasts 54 holes depending on screen brightness and usage.</em></p>",
+            "row_content": "<p><em>No! We have a number of customers who bring their Sound Stick on the boat, to the beach, in the pool and so many others activities off the course.</em></p>",
             "page": ""
           }
         }
       },
       "block_order": [
         "collapsible_row_Hy6cce",
+        "collapsible_row_LEUJNB",
+        "collapsible_row_yEency",
         "collapsible_row_7jriY6",
         "collapsible_row_3KDDCd",
-        "collapsible_row_FcTLYw",
-        "collapsible_row_yEency",
-        "collapsible_row_LEUJNB",
-        "collapsible_row_zqQXeN",
-        "collapsible_row_mFXwJD",
-        "collapsible_row_t6VmVE"
+        "collapsible_row_FcTLYw"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
@@ -195,8 +165,8 @@
         "button_AhdznL": {
           "type": "button",
           "settings": {
-            "button_label": "English Manual",
-            "button_link": "https://cdn.shopify.com/s/files/1/0522/1734/8255/files/English_Caddie_Instruction_Manual.pdf?v=1747184863",
+            "button_label": "Digital Manual",
+            "button_link": "https://cdn.shopify.com/s/files/1/0522/1734/8255/files/Sound_Stick_Manual.pdf?v=1748622104",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
