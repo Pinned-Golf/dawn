@@ -284,6 +284,79 @@
       "block_order": [
         "image_9AR4ke"
       ],
+      "disabled": true,
+      "name": "t:sections.collage.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_b6w8zh": {
+      "type": "collage",
+      "blocks": {
+        "image_Ydj6VX": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "image_Ydj6VX"
+      ],
+      "disabled": true,
+      "name": "t:sections.collage.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_tzCXbK": {
+      "type": "collage",
+      "blocks": {
+        "image_bULgLW": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "image_bULgLW"
+      ],
+      "disabled": true,
+      "name": "t:sections.collage.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_MGmP3q": {
+      "type": "collage",
+      "blocks": {
+        "image_QqYqEd": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "image_QqYqEd"
+      ],
+      "disabled": true,
       "name": "t:sections.collage.presets.name",
       "settings": {
         "heading": "",
@@ -305,6 +378,9 @@
     "multirow_nYrCnq",
     "multicolumn_WPEKn4",
     "featured_collection_33RiJE",
-    "collage_MNReW8"
+    "collage_MNReW8",
+    "collage_b6w8zh",
+    "collage_tzCXbK",
+    "collage_MGmP3q"
   ]
 }
