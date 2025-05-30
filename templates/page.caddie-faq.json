@@ -67,21 +67,12 @@
     "collapsible_content_kx3c6m": {
       "type": "collapsible-content",
       "blocks": {
-        "collapsible_row_wPKWWg": {
+        "collapsible_row_U7XX4P": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Why does my screen go dim after 5 minutes?",
+            "heading": "Why doesn't it automatically go to next hole?",
             "icon": "check_mark",
-            "row_content": "<p>We have set up an auto dim feature that will dim your screen if the Caddie goes 5+ minutes without being touched. This will become a feature that will be able to be turned off in the <strong>next two weeks.</strong></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_xkBHNm": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I edit my profile?",
-            "icon": "check_mark",
-            "row_content": "<p>As of right now, once you have submitted your profile, you do not have the ability to edit it. We wanted to make it easy for the golfers to get signed up. But, this will become a feature that will be able to be edit in the next two weeks.</p>",
+            "row_content": "<p>As of right now, the Caddie is set up for golfers to keep score. So, the auto advance feature is disabled so it doesn't move to the next hole without the score being added. This will become a feature that will be able to be turned off in the <strong>next two weeks.</strong></p>",
             "page": ""
           }
         },
@@ -94,12 +85,21 @@
             "page": ""
           }
         },
-        "collapsible_row_U7XX4P": {
+        "collapsible_row_xkBHNm": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Why doesn't it automatically go to next hole?",
+            "heading": "How do I edit my profile?",
             "icon": "check_mark",
-            "row_content": "<p>As of right now, the Caddie is set up for golfers to keep score. So, the auto advance feature is disabled so it doesn't move to the next hole without the score being added. This will become a feature that will be able to be turned off in the <strong>next two weeks.</strong></p>",
+            "row_content": "<p>As of right now, once you have submitted your profile, you do not have the ability to edit it. We wanted to make it easy for the golfers to get signed up. But, this will become a feature that will be able to be edit in the next two weeks.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_wPKWWg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why does my screen go dim after 5 minutes?",
+            "icon": "check_mark",
+            "row_content": "<p>We have set up an auto dim feature that will dim your screen if the Caddie goes 5+ minutes without being touched. This will become a feature that will be able to be turned off in the <strong>next two weeks.</strong></p>",
             "page": ""
           }
         },
@@ -123,6 +123,7 @@
         },
         "collapsible_row_3KDDCd": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "How do I get yardages during a round?",
             "icon": "check_mark",
@@ -150,6 +151,7 @@
         },
         "collapsible_row_LEUJNB": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "How do I keep score on The Caddie?",
             "icon": "check_mark",
@@ -168,6 +170,7 @@
         },
         "collapsible_row_mFXwJD": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "How do I end a round or save my scores?",
             "icon": "check_mark",
@@ -177,6 +180,7 @@
         },
         "collapsible_row_t6VmVE": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "How do I charge The Caddie and how long does it take?",
             "icon": "check_mark",
@@ -186,10 +190,10 @@
         }
       },
       "block_order": [
-        "collapsible_row_wPKWWg",
-        "collapsible_row_xkBHNm",
-        "collapsible_row_NXML6g",
         "collapsible_row_U7XX4P",
+        "collapsible_row_NXML6g",
+        "collapsible_row_xkBHNm",
+        "collapsible_row_wPKWWg",
         "collapsible_row_Hy6cce",
         "collapsible_row_7jriY6",
         "collapsible_row_3KDDCd",
