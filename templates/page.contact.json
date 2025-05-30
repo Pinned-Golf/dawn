@@ -188,62 +188,6 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_WPEKn4": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_zHWCdG": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/8_5817ab92-c16d-4046-bfdc-d4c15007cb3f.jpg",
-            "title": "The Prism+ Rangefinder",
-            "text": "",
-            "link_label": "Digital User Manual",
-            "link": "https://cdn.shopify.com/s/files/1/0522/1734/8255/files/Prism_User_Manual_2.pdf?v=1748621008"
-          }
-        },
-        "column_8JNhqN": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/The_Prism_4.jpg",
-            "title": "The Dart 2.0 Speaker",
-            "text": "",
-            "link_label": "Digital User Manual",
-            "link": "https://www.pinnedgolf.com/pages/dart-2-0-user-manual"
-          }
-        },
-        "column_7eErAg": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Untitled_design_16_c903dea4-78d6-40df-8dda-702403922615.jpg",
-            "title": "The Sound Stick Speaker",
-            "text": "",
-            "link_label": "Digital User Manual",
-            "link": "shopify://pages/sound-stick-manual"
-          }
-        }
-      },
-      "block_order": [
-        "column_zHWCdG",
-        "column_8JNhqN",
-        "column_7eErAg"
-      ],
-      "settings": {
-        "title": "User Manuals",
-        "heading_size": "h1",
-        "image_width": "half",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-af529a53-b94b-40d0-9746-399d6ccf1927",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_collection_33RiJE": {
       "type": "featured-collection",
       "disabled": true,
@@ -276,43 +220,57 @@
     "multirow_ykwtT7": {
       "type": "multirow",
       "blocks": {
+        "row_38VxQy": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/1_dac728d7-81e7-4801-9c47-4415995330ef.png",
+            "caption": "Digital Manual For",
+            "heading": "Caddie GPS Tablet",
+            "text": "",
+            "button_label": "Learn More",
+            "button_link": "https://cdn.shopify.com/s/files/1/0522/1734/8255/files/English_Caddie_Instruction_Manual.pdf?v=1747184863"
+          }
+        },
         "row_pQXK69": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "image": "shopify://shop_images/2_50306292-b2ef-4b2c-8567-2d5f0d9753d7.png",
+            "caption": "Digital Manual For",
+            "heading": "Prism+ Rangefinder",
+            "text": "",
+            "button_label": "Learn More",
+            "button_link": "https://cdn.shopify.com/s/files/1/0522/1734/8255/files/Prism_User_Manual_2.pdf?v=1748621008"
           }
         },
         "row_igFxcM": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "image": "shopify://shop_images/3_ddc6c42d-b3a1-4e1e-b233-b31d375433ad.png",
+            "caption": "Digital Manual For",
+            "heading": "Sound Stick Speaker",
+            "text": "",
+            "button_label": "Learn More",
+            "button_link": "https://cdn.shopify.com/s/files/1/0522/1734/8255/files/Sound_Stick_Manual.pdf?v=1748622104"
           }
         },
         "row_Qd6Egz": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "image": "shopify://shop_images/3_2b2ea8b0-159d-4e09-a707-02e18e0162b5.png",
+            "caption": "Digital Manual For",
+            "heading": "Dart 2.0 Speaker",
+            "text": "",
+            "button_label": "Learn More",
+            "button_link": "https://cdn.shopify.com/s/files/1/0522/1734/8255/files/Dart_2.0_Speaker_Instructions_1.pdf?v=1748622189"
           }
         }
       },
       "block_order": [
+        "row_38VxQy",
         "row_pQXK69",
         "row_igFxcM",
         "row_Qd6Egz"
       ],
-      "disabled": true,
       "name": "t:sections.multirow.presets.name",
       "settings": {
         "image_height": "medium",
@@ -337,7 +295,6 @@
     "rich_text_LgYhRC",
     "collapsible_content_dwnXxx",
     "multirow_nYrCnq",
-    "multicolumn_WPEKn4",
     "featured_collection_33RiJE",
     "multirow_ykwtT7"
   ]
