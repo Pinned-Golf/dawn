@@ -70,7 +70,7 @@
         "collapsible_row_Hy6cce": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "My display is blurry... what do I do?",
+            "heading": "My display is blurry... What do I do?",
             "icon": "check_mark",
             "row_content": "<p><em>Simply turn the eye piece to adjust the focus. The eye piece was </em>accidentally<em> turned and the scope became out of focus. </em></p>",
             "page": ""
@@ -188,59 +188,6 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "custom_liquid_FtTJDe": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-SsAMfY\"></div>",
-        "color_scheme": "",
-        "padding_top": 20,
-        "padding_bottom": 16
-      }
-    },
-    "rich_text_EYyDfE": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_NbGda6": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Does your course need to be updated on The Caddie?</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_tcU73i": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        },
-        "button_EX3aXy": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn How To Update",
-            "button_link": "shopify://pages/update-your-course",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_NbGda6",
-        "text_tcU73i",
-        "button_EX3aXy"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -248,8 +195,6 @@
     "custom_liquid_U8YzU6",
     "image_banner_pB7jVD",
     "collapsible_content_kx3c6m",
-    "rich_text_KMD7hC",
-    "custom_liquid_FtTJDe",
-    "rich_text_EYyDfE"
+    "rich_text_KMD7hC"
   ]
 }
