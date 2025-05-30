@@ -1,0 +1,474 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "custom_liquid_U8YzU6": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div style=\"position: relative; width: 100%; height: 0; padding-top: 134.6154%;\n padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;\n border-radius: 8px; will-change: transform;\">\n  <iframe loading=\"lazy\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;\"\n    src=\"https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF6ViKLXnc&#x2F;QQLMoHoP_2fiqP8HRmirvw&#x2F;view?embed\" allowfullscreen=\"allowfullscreen\" allow=\"fullscreen\">\n  </iframe>\n</div>\n<a href=\"https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF6ViKLXnc&#x2F;QQLMoHoP_2fiqP8HRmirvw&#x2F;view?utm_content=DAF6ViKLXnc&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link\" target=\"_blank\" rel=\"noopener\">",
+        "color_scheme": "",
+        "padding_top": 16,
+        "padding_bottom": 20
+      }
+    },
+    "image_banner_pB7jVD": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_GLHyhd": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Caddie Tutorials</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_9xCe7t": {
+          "type": "text",
+          "settings": {
+            "text": "Below you will find instruction manuals & tutorial videos to help you get out on the course faster with your Caddie.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GLHyhd",
+        "text_9xCe7t"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_7.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "rich_text_rrzrRx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fwwnMK": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Tutorial Videos</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_6ReiQE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A few videos showing how to get the most out of your Caddie.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fwwnMK",
+        "text_6ReiQE"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 28
+      }
+    },
+    "video_GKLNN9": {
+      "type": "video",
+      "disabled": true,
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 16,
+        "padding_bottom": 36
+      }
+    },
+    "video_DxLHxy": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/Final-Setting up your caddie - HD 1080p.mov",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_BkRNJL": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/How to download course - HD 1080p.mov",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_hzNzfC": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/Final- Play golf - HD 1080p.mov",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_ECKQkW": {
+      "type": "multirow",
+      "blocks": {
+        "row_AKM9iM": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/2_aba3bb2b-f897-4f54-861b-edde484ba108.jpg",
+            "caption": "How to",
+            "heading": "Set up your Cadie.",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Watch Video",
+            "button_link": ""
+          }
+        },
+        "row_i6RQET": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/4_a0eef4cc-904a-45ac-ac83-ea5bae923c3f.jpg",
+            "caption": "How to",
+            "heading": "Download Courses.",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Watch Video",
+            "button_link": "https://cdn.shopify.com/videos/c/o/v/de96132fa32142a8bbb4205f25f61bfc.mov"
+          }
+        },
+        "row_qm7TaM": {
+          "type": "row",
+          "settings": {
+            "caption": "How to",
+            "heading": "Play golf.",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Watch Video",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_AKM9iM",
+        "row_i6RQET",
+        "row_qm7TaM"
+      ],
+      "disabled": true,
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_jyrtkY": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/Caddie Unboxing - HD 1080p.mov",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_KMD7hC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BBzzwG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Instruction Manuals",
+            "heading_size": "h1"
+          }
+        },
+        "text_zF38eE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Looking for more help? Read through our digital instruction manuals.</p>"
+          }
+        },
+        "button_AhdznL": {
+          "type": "button",
+          "settings": {
+            "button_label": "English Manual",
+            "button_link": "https://cdn.shopify.com/s/files/1/0522/1734/8255/files/English_Caddie_Instruction_Manual.pdf?v=1747184863",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "button_3BUUfc": {
+          "type": "button",
+          "settings": {
+            "button_label": "French Manual",
+            "button_link": "https://cdn.shopify.com/s/files/1/0522/1734/8255/files/French_Caddie_Instruction.pdf?v=1747184863",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_BBzzwG",
+        "text_zF38eE",
+        "button_AhdznL",
+        "button_3BUUfc"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collapsible_content_kx3c6m": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_Hy6cce": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do I need to download the course before my round?",
+            "icon": "check_mark",
+            "row_content": "<p><em>Yes. The Caddie works 100% offline, due to the user downloading the course map on Wi-Fi before heading to the course. Once you’ve downloaded a course, it will stay saved on your Caddie forever.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7jriY6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How often is course data updated?",
+            "icon": "check_mark",
+            "row_content": "<p><em>Our team regularly updates our course library to reflect new layouts, renovations, and GPS enhancements. Updates are downloaded whenever you connect to Wi-Fi, keeping your data fresh. </em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3KDDCd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I get yardages during a round?",
+            "icon": "check_mark",
+            "row_content": "<p><em>The Caddie automatically shows your distance to the center, front, and back of the green. You also have the ability to tap the screen and receive distances anywhere on the course. Just glance at the screen, tap, and you’ll see real-time yardages based on your GPS location.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FcTLYw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": " What should I do if a course map looks outdated or incorrect?",
+            "icon": "check_mark",
+            "row_content": "<p><em>If you notice that a hole layout, yardage, or course detail looks off, shoot us a message at support@pinnedgolf.com with the course name and a quick description of the issue. Our team will review it and get the updated layout pushed live within a few days. We’ve got your back!</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yEency": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is The Caddie waterproof or weather-resistant?",
+            "icon": "check_mark",
+            "row_content": "<p><em>Yes — The Caddie is built to handle the elements with a rugged, weather-resistant design. Whether you’re playing in heat, wind, or light rain, it’s ready to go.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_LEUJNB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I keep score on The Caddie?",
+            "icon": "check_mark",
+            "row_content": "<p><em>After each hole, you’ll be prompted to enter your score. You can also track stats like fairways hit, greens in regulation, and putts for a more detailed view of your game.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_zqQXeN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What should I do if the GPS seems off or slow to load?",
+            "icon": "check_mark",
+            "row_content": "<p><em>Make sure you’re standing outside with a clear view of the sky. If the issue persists, please restart your device. </em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_mFXwJD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I end a round or save my scores?",
+            "icon": "check_mark",
+            "row_content": "<p><em>Tap “End Round” on the final hole, and everything will be saved! You then will be shown your end round summary highlighting your round. Everything will be stored on the device, and you’ll be able to view past rounds whenever you’d like.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_t6VmVE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I charge The Caddie and how long does it take?",
+            "icon": "check_mark",
+            "row_content": "<p><em>Use the included USB-C cable. A full charge takes about 2–3 hours and typically lasts 54 holes depending on screen brightness and usage.</em></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_Hy6cce",
+        "collapsible_row_7jriY6",
+        "collapsible_row_3KDDCd",
+        "collapsible_row_FcTLYw",
+        "collapsible_row_yEency",
+        "collapsible_row_LEUJNB",
+        "collapsible_row_zqQXeN",
+        "collapsible_row_mFXwJD",
+        "collapsible_row_t6VmVE"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_FtTJDe": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-SsAMfY\"></div>",
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 16
+      }
+    },
+    "rich_text_EYyDfE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NbGda6": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Does your course need to be updated on The Caddie?</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_tcU73i": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "button_EX3aXy": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn How To Update",
+            "button_link": "shopify://pages/update-your-course",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_NbGda6",
+        "text_tcU73i",
+        "button_EX3aXy"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_U8YzU6",
+    "image_banner_pB7jVD",
+    "rich_text_rrzrRx",
+    "video_GKLNN9",
+    "video_DxLHxy",
+    "video_BkRNJL",
+    "video_hzNzfC",
+    "multirow_ECKQkW",
+    "video_jyrtkY",
+    "rich_text_KMD7hC",
+    "collapsible_content_kx3c6m",
+    "custom_liquid_FtTJDe",
+    "rich_text_EYyDfE"
+  ]
+}
