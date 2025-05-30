@@ -497,7 +497,7 @@
           "settings": {
             "heading": "Does it read you yardages?",
             "icon": "check_mark",
-            "row_content": "<p>No. The Sound Stick is strictly a speaker that plays music. No need to complicate things.</p>",
+            "row_content": "<p><em>No. The Sound Stick is strictly a speaker that plays music. No need to complicate things.</em></p>",
             "page": ""
           }
         },
@@ -506,7 +506,7 @@
           "settings": {
             "heading": "How does it sound?",
             "icon": "check_mark",
-            "row_content": "<p>Amazing. Simply put. </p>",
+            "row_content": "<p><em>Amazing. Simply put. </em></p>",
             "page": ""
           }
         },
@@ -515,7 +515,7 @@
           "settings": {
             "heading": "How strong is the magnet?",
             "icon": "check_mark",
-            "row_content": "<p>The magnet has been tested by numerous 3rd party partners and never fell off the cart regardless of the landscape.</p>",
+            "row_content": "<p><em>The magnet has been tested by numerous 3rd party partners and never fell off the cart regardless of the landscape.</em></p>",
             "page": ""
           }
         },
