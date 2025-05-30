@@ -392,6 +392,15 @@
             "row_content": "<p><em>Use the included USB-C cable. A full charge takes about 2–3 hours and typically lasts 54 holes depending on screen brightness and usage.</em></p>",
             "page": ""
           }
+        },
+        "collapsible_row_y4CBXV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I edit my profile?",
+            "icon": "check_mark",
+            "row_content": "<p>As of right now, once you have submitted your profile, you do not have the ability to edit it. We wanted to make it easy for the golfers to get signed up. But, this will become a feature that will be able to be edit in the next two weeks.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -405,7 +414,8 @@
         "collapsible_row_LEUJNB",
         "collapsible_row_zqQXeN",
         "collapsible_row_mFXwJD",
-        "collapsible_row_t6VmVE"
+        "collapsible_row_t6VmVE",
+        "collapsible_row_y4CBXV"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
