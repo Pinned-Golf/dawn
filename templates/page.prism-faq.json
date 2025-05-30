@@ -97,54 +97,27 @@
         "collapsible_row_FcTLYw": {
           "type": "collapsible_row",
           "settings": {
-            "heading": " What should I do if a course map looks outdated or incorrect?",
+            "heading": "Why isn't my rangefinder charging?",
             "icon": "check_mark",
-            "row_content": "<p><em>If you notice that a hole layout, yardage, or course detail looks off, shoot us a message at support@pinnedgolf.com with the course name and a quick description of the issue. Our team will review it and get the updated layout pushed live within a few days. We’ve got your back!</em></p>",
+            "row_content": "<p><em>Please be sure to use the USB-C charging cord that comes with your Prism+. </em></p>",
             "page": ""
           }
         },
         "collapsible_row_yEency": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Is The Caddie waterproof or weather-resistant?",
+            "heading": "When when playing in rain do I only getting 7-10 yard readings?",
             "icon": "check_mark",
-            "row_content": "<p><em>Yes — The Caddie is built to handle the elements with a rugged, weather-resistant design. Whether you’re playing in heat, wind, or light rain, it’s ready to go.</em></p>",
+            "row_content": "<p><em>In rainy conditions, the laser can reflect off water droplets in the air, causing inaccurate or shortened readings. This is because the beam gets interrupted before it reaches the target.</em></p>",
             "page": ""
           }
         },
         "collapsible_row_LEUJNB": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How do I keep score on The Caddie?",
+            "heading": "Why is the screen so faint?",
             "icon": "check_mark",
-            "row_content": "<p><em>After each hole, you’ll be prompted to enter your score. You can also track stats like fairways hit, greens in regulation, and putts for a more detailed view of your game.</em></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_zqQXeN": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What should I do if the GPS seems off or slow to load?",
-            "icon": "check_mark",
-            "row_content": "<p><em>Make sure you’re standing outside with a clear view of the sky. If the issue persists, please restart your device. </em></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_mFXwJD": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I end a round or save my scores?",
-            "icon": "check_mark",
-            "row_content": "<p><em>Tap “End Round” on the final hole, and everything will be saved! You then will be shown your end round summary highlighting your round. Everything will be stored on the device, and you’ll be able to view past rounds whenever you’d like.</em></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_t6VmVE": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I charge The Caddie and how long does it take?",
-            "icon": "check_mark",
-            "row_content": "<p><em>Use the included USB-C cable. A full charge takes about 2–3 hours and typically lasts 54 holes depending on screen brightness and usage.</em></p>",
+            "row_content": "<p><em>If the screen looks faint, it’s likely on a lower brightness setting. Press and hold the target button before turning the unit on to cycle through BRT1–BRT5 and select the brightest display.</em></p>",
             "page": ""
           }
         }
@@ -155,10 +128,7 @@
         "collapsible_row_3KDDCd",
         "collapsible_row_FcTLYw",
         "collapsible_row_yEency",
-        "collapsible_row_LEUJNB",
-        "collapsible_row_zqQXeN",
-        "collapsible_row_mFXwJD",
-        "collapsible_row_t6VmVE"
+        "collapsible_row_LEUJNB"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
@@ -172,176 +142,6 @@
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich_text_rrzrRx": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_fwwnMK": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Tutorial Videos</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_6ReiQE": {
-          "type": "text",
-          "settings": {
-            "text": "<p>A few videos showing how to get the most out of your Caddie.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_fwwnMK",
-        "text_6ReiQE"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 28
-      }
-    },
-    "video_GKLNN9": {
-      "type": "video",
-      "disabled": true,
-      "name": "t:sections.video.presets.name",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 16,
-        "padding_bottom": 36
-      }
-    },
-    "video_DxLHxy": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video": "shopify://files/videos/Final-Setting up your caddie - HD 1080p.mov",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video_BkRNJL": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video": "shopify://files/videos/How to download course - HD 1080p.mov",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video_hzNzfC": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video": "shopify://files/videos/Final- Play golf - HD 1080p.mov",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multirow_ECKQkW": {
-      "type": "multirow",
-      "blocks": {
-        "row_AKM9iM": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/2_aba3bb2b-f897-4f54-861b-edde484ba108.jpg",
-            "caption": "How to",
-            "heading": "Set up your Cadie.",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Watch Video",
-            "button_link": ""
-          }
-        },
-        "row_i6RQET": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/4_a0eef4cc-904a-45ac-ac83-ea5bae923c3f.jpg",
-            "caption": "How to",
-            "heading": "Download Courses.",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Watch Video",
-            "button_link": "https://cdn.shopify.com/videos/c/o/v/de96132fa32142a8bbb4205f25f61bfc.mov"
-          }
-        },
-        "row_qm7TaM": {
-          "type": "row",
-          "settings": {
-            "caption": "How to",
-            "heading": "Play golf.",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Watch Video",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_AKM9iM",
-        "row_i6RQET",
-        "row_qm7TaM"
-      ],
-      "disabled": true,
-      "name": "t:sections.multirow.presets.name",
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video_jyrtkY": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video": "shopify://files/videos/Caddie Unboxing - HD 1080p.mov",
-        "video_url": "",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -365,19 +165,8 @@
         "button_AhdznL": {
           "type": "button",
           "settings": {
-            "button_label": "English Manual",
+            "button_label": "Digital Manual",
             "button_link": "https://cdn.shopify.com/s/files/1/0522/1734/8255/files/English_Caddie_Instruction_Manual.pdf?v=1747184863",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "button_3BUUfc": {
-          "type": "button",
-          "settings": {
-            "button_label": "French Manual",
-            "button_link": "https://cdn.shopify.com/s/files/1/0522/1734/8255/files/French_Caddie_Instruction.pdf?v=1747184863",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -388,8 +177,7 @@
       "block_order": [
         "heading_BBzzwG",
         "text_zF38eE",
-        "button_AhdznL",
-        "button_3BUUfc"
+        "button_AhdznL"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -460,13 +248,6 @@
     "custom_liquid_U8YzU6",
     "image_banner_pB7jVD",
     "collapsible_content_kx3c6m",
-    "rich_text_rrzrRx",
-    "video_GKLNN9",
-    "video_DxLHxy",
-    "video_BkRNJL",
-    "video_hzNzfC",
-    "multirow_ECKQkW",
-    "video_jyrtkY",
     "rich_text_KMD7hC",
     "custom_liquid_FtTJDe",
     "rich_text_EYyDfE"
