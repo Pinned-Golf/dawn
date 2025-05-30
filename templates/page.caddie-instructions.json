@@ -292,6 +292,24 @@
     "collapsible_content_kx3c6m": {
       "type": "collapsible-content",
       "blocks": {
+        "collapsible_row_c7GU3f": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why doesn't it automatically go to next hole?",
+            "icon": "check_mark",
+            "row_content": "<p>As of right now, the Caddie is set up for golfers to keep score. So, the auto advance feature is disabled so it doesn't move to the next hole without the score being added. This will become a feature that will be able to be turned off in the <strong>next two weeks.</strong></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jGrFJn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why does my screen go dim after 5 minutes?",
+            "icon": "check_mark",
+            "row_content": "<p>We have set up an auto dim feature that will dim your screen if the Caddie goes 5+ minutes without being touched. This will become a feature that will be able to be turned off in the <strong>next two weeks.</strong></p>",
+            "page": ""
+          }
+        },
         "collapsible_row_Hy6cce": {
           "type": "collapsible_row",
           "settings": {
@@ -339,6 +357,7 @@
         },
         "collapsible_row_LEUJNB": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "How do I keep score on The Caddie?",
             "icon": "check_mark",
@@ -366,6 +385,7 @@
         },
         "collapsible_row_t6VmVE": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "How do I charge The Caddie and how long does it take?",
             "icon": "check_mark",
@@ -375,6 +395,8 @@
         }
       },
       "block_order": [
+        "collapsible_row_c7GU3f",
+        "collapsible_row_jGrFJn",
         "collapsible_row_Hy6cce",
         "collapsible_row_7jriY6",
         "collapsible_row_3KDDCd",
