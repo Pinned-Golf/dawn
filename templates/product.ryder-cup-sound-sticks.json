@@ -1,0 +1,642 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "judge_me_reviews_preview_badge_tAHRwe": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "text_zBzBye": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<strong>New Years Sale</strong>",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "text_8pA7Hq": {
+          "type": "text",
+          "settings": {
+            "text": "Our speakers are trusted by 50,000+ golfers.",
+            "text_style": "uppercase"
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "swatch",
+            "swatch_shape": "square"
+          }
+        },
+        "quantity_selector_a4gife": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "text_tnYkBM": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>🔥</strong><em><strong> 1,067 bought in last 30 days</strong></em>",
+            "text_style": "body"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "collapsible_tab_mFpMHC": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Features",
+            "default_open": true,
+            "icon": "none",
+            "content": "",
+            "page": "sound-stick-features"
+          }
+        },
+        "collapsible_tab_ULUXpP": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What's in the box?",
+            "default_open": false,
+            "icon": "none",
+            "content": "<ul><li>Sound Stick Speaker</li><li>USB-C Charging Cord</li><li>Pinned Sticker</li><li>Instruction Manual</li><li>Device Registration Guide</li><li>Pinned Playlist QR Code</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_LEjyQf": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "default_open": false,
+            "icon": "none",
+            "content": "<p>We ship <strong>FAST</strong>.<br/><br/>Fulfilled within 24 business hours. 90% of orders arrive early.<br/><br/>Expedited options if your next tee time is coming up.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_ydzdBh": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "The Pinned Promise",
+            "default_open": false,
+            "icon": "none",
+            "content": "<p>We don't release a product unless it hits on these 4 core values... </p><ol><li>Elevates your game</li><li>Styled to turn heads</li><li>Pushes the envelop</li><li>Stands the test of time</li></ol>",
+            "page": ""
+          }
+        },
+        "icon_with_text_UWmnYD": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "none",
+            "image_1": "shopify://shop_images/1_f566ca30-628a-4dec-9858-da70ead17dd2.jpg",
+            "heading_1": "Free Shipping",
+            "icon_2": "none",
+            "image_2": "shopify://shop_images/2_c0b7a380-c7d2-4ff6-8e2b-0fe2df48f4de.jpg",
+            "heading_2": "60 Day Returns",
+            "icon_3": "none",
+            "image_3": "shopify://shop_images/5_d31e8e02-3601-4ba7-810d-96c7ca29ad75.jpg",
+            "heading_3": "Top Tier Support"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_preview_badge_tAHRwe",
+        "text_zBzBye",
+        "title",
+        "text_8pA7Hq",
+        "caption",
+        "price",
+        "variant_picker",
+        "quantity_selector_a4gife",
+        "buy_buttons",
+        "text_tnYkBM",
+        "description",
+        "collapsible_tab_mFpMHC",
+        "collapsible_tab_ULUXpP",
+        "collapsible_tab_LEjyQf",
+        "collapsible_tab_ydzdBh",
+        "icon_with_text_UWmnYD"
+      ],
+      "custom_css": [
+        ".swatch {aspect-ratio: 1 / 1;}",
+        "span[data-selected-swatch-value] {font-weight: 600;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "collage_QDBHRt": {
+      "type": "collage",
+      "blocks": {
+        "image_JaACBq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/UP_2048_x_1365_px_2048_x_1080_px_12.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_JaACBq"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_DgY64M": {
+      "type": "multirow",
+      "blocks": {
+        "row_xyYV8h": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/19_1c48e10b-af98-48b5-937b-6424aa7500e4.jpg",
+            "caption": "Super Strong",
+            "heading": "Built-In Magnet",
+            "text": "<p>Easily attach your Sound Stick to the cart bar for easy access to turn up the volume on your round!</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_dHXDxk": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/20_d3e1be42-122f-4fe8-bc88-0d6348f82c24.jpg",
+            "caption": "Connect",
+            "heading": "Two Speakers",
+            "text": "<p>Party mode or surround sound... your choice! Connect two Sound Sticks and turn up the vibes during your round.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_i6JpJg": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Sound_Stick_Launch_9.png",
+            "caption": "150 Foot",
+            "heading": "Connection Range",
+            "text": "<p>You'll never be out of bounds with the super far 150 range of our Sound Sticks. Jam out on the fairway, on the green, or in the woods! </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_hqhrD3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/21_e368e284-b8af-4a2d-a9ec-6cd6fc8626bf.jpg",
+            "caption": "15+ Hour",
+            "heading": "Battery Life",
+            "text": "<p>The tunes never have to stop. Packed with an incredible 15+ hours of battery life, one charge will keep you jamming out for multiple rounds!</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_6YCPxg": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_30_21b07f88-4482-4132-a43b-6b1cf49780eb.jpg",
+            "caption": "Unmatched",
+            "heading": "Sound Quality",
+            "text": "<p>Crystal clear sound quality all round long. The dual driver bass system will have the vibes at an all time high.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_xyYV8h",
+        "row_dHXDxk",
+        "row_i6JpJg",
+        "row_hqhrD3",
+        "row_6YCPxg"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_3y34GA": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Frame_46.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_banner_YTFPAp": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/kko_25c00ce4-e6ee-4321-aceb-33e28132bfa3.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_rk9B8n": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xJ6wMB": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Better </strong><em><strong>Music</strong></em><strong>. Better </strong><em><strong>Vibes</strong></em><strong>. Better </strong><em><strong>Golf</strong></em><strong>.</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "button_JY4HTi": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy The Sound Stick",
+            "button_link": "#top",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_xJ6wMB",
+        "button_JY4HTi"
+      ],
+      "custom_css": [],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "collage_tcaNLP": {
+      "type": "collage",
+      "blocks": {
+        "image_tNhy4d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/UP_2048_x_1365_px_2048_x_1080_px_2_f0a72536-c980-4084-b28c-29184158537c.png"
+          }
+        },
+        "image_iyagxd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC09417_1.jpg"
+          }
+        },
+        "image_QJJyGn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/8_d369d6a9-32ca-44ff-a9ab-24a7c1013f16.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_tNhy4d",
+        "image_iyagxd",
+        "image_QJJyGn"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 16,
+        "padding_bottom": 4
+      }
+    },
+    "collage_BckdEg": {
+      "type": "collage",
+      "blocks": {
+        "image_cENgTq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9_d8ddf339-fd39-4b16-a513-6485a754d064.jpg"
+          }
+        },
+        "image_XbyAnh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_Instagram_Post.jpg"
+          }
+        },
+        "image_aPcjD7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_20_23ec1b7c-62fb-47ae-b987-4488d7dc1ad2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_cENgTq",
+        "image_XbyAnh",
+        "image_aPcjD7"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "video_HGqgQW": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video": "shopify://files/videos/Untitled design (2).mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify://shop_images/UP_2048_x_1365_px_2048_x_1080_px_1.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 4,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_EDRhQ4": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_C4xyht": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>It’s simple.</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_eYc9Ny": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Send us any rangefinder.</p><p>The brand does not matter.</p><p>We’ll refurbish & clean it up.</p><p>We’ll donate it to First Tee.</p><p>You’ll receive a massive discount. </p><p>The Prism+ Rangefinder for $199.</p><p><em>A win, win. </em></p>",
+            "text_style": "body"
+          }
+        },
+        "button_KzeyAE": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify://pages/forethekids",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_C4xyht",
+        "text_eYc9Ny",
+        "button_KzeyAE"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Fore_The_Kids_Final_nobackground_2_2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-af529a53-b94b-40d0-9746-399d6ccf1927",
+        "color_scheme": "scheme-af529a53-b94b-40d0-9746-399d6ccf1927",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_3AyFLq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_qdXMcJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does it read you yardages?",
+            "icon": "check_mark",
+            "row_content": "<p><em>No. The Sound Stick is strictly a speaker that plays music. No need to complicate things.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EABUcy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does it sound?",
+            "icon": "check_mark",
+            "row_content": "<p><em>Amazing. Simply put. </em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4VXbwM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How strong is the magnet?",
+            "icon": "check_mark",
+            "row_content": "<p><em>The magnet has been tested by numerous 3rd party partners and never fell off the cart regardless of the landscape.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yG8QjR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is it only for golf?",
+            "icon": "check_mark",
+            "row_content": "<p>No! We have a number of customers who bring their Sound Stick on the boat, to the beach, in the pool and so many others activities off the course.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_qdXMcJ",
+        "collapsible_row_EABUcy",
+        "collapsible_row_4VXbwM",
+        "collapsible_row_yG8QjR"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "171176697446b6f676": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_MqhpFj": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_MqhpFj"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "Trending",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "featured_collection_8nTe6c": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Trending",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "early-access-black-friday",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_PRJMPr": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script>\nArray.from(document.getElementsByTagName('a')).filter((a) => a.hash === '#top').forEach((a) => a.addEventListener('click', (e) => {e.preventDefault(); document.body.scrollIntoView({block: 'start', behavior: 'smooth'}); }))\n</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collage_QDBHRt",
+    "multirow_DgY64M",
+    "image_banner_3y34GA",
+    "image_banner_YTFPAp",
+    "rich_text_rk9B8n",
+    "collage_tcaNLP",
+    "collage_BckdEg",
+    "video_HGqgQW",
+    "image_with_text_EDRhQ4",
+    "collapsible_content_3AyFLq",
+    "171176697446b6f676",
+    "related-products",
+    "featured_collection_8nTe6c",
+    "custom_liquid_PRJMPr"
+  ]
+}
