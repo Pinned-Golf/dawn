@@ -19,7 +19,7 @@
         "text_WpWmM3": {
           "type": "text",
           "settings": {
-            "text": "<strong>Early Access Black Friday Sale</strong>",
+            "text": "<strong>Official 2025 Ryder cup</strong>",
             "text_style": "uppercase"
           }
         },
@@ -64,13 +64,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "text_FhqQ3r": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>🔥</strong><em><strong> </strong></em><strong>1,149 bought in last 30 days</strong>",
-            "text_style": "body"
-          }
-        },
         "description": {
           "type": "description",
           "settings": {}
@@ -92,9 +85,8 @@
             "icon_2": "none",
             "image_2": "shopify://shop_images/2_c0b7a380-c7d2-4ff6-8e2b-0fe2df48f4de.jpg",
             "heading_2": "60 Day Returns",
-            "icon_3": "none",
-            "image_3": "shopify://shop_images/5_d31e8e02-3601-4ba7-810d-96c7ca29ad75.jpg",
-            "heading_3": "Top Tier Support"
+            "icon_3": "star",
+            "heading_3": "Limited Edition"
           }
         },
         "collapsible_tab_mFpMHC": {
@@ -148,7 +140,6 @@
         "variant_picker",
         "quantity_selector_a4gife",
         "buy_buttons",
-        "text_FhqQ3r",
         "description",
         "share",
         "icon_with_text_UWmnYD",
