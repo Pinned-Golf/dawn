@@ -16,13 +16,6 @@
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
-        "text_WpWmM3": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>Early Access Black Friday Sale</strong>",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {}
@@ -140,7 +133,6 @@
       },
       "block_order": [
         "judge_me_reviews_preview_badge_tAHRwe",
-        "text_WpWmM3",
         "title",
         "text_8pA7Hq",
         "caption",
