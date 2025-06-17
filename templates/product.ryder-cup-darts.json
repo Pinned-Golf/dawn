@@ -1,0 +1,531 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "judge_me_reviews_preview_badge_tAHRwe": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "text_WpWmM3": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Early Access Black Friday Sale</strong>",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "text_8pA7Hq": {
+          "type": "text",
+          "settings": {
+            "text": "Our speakers are trusted by 50,000+ golfers.",
+            "text_style": "uppercase"
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "swatch",
+            "swatch_shape": "square"
+          }
+        },
+        "quantity_selector_a4gife": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "text_FhqQ3r": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>🔥</strong><em><strong> </strong></em><strong>1,149 bought in last 30 days</strong>",
+            "text_style": "body"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "icon_with_text_UWmnYD": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "none",
+            "image_1": "shopify://shop_images/1_f566ca30-628a-4dec-9858-da70ead17dd2.jpg",
+            "heading_1": "Free Shipping",
+            "icon_2": "none",
+            "image_2": "shopify://shop_images/2_c0b7a380-c7d2-4ff6-8e2b-0fe2df48f4de.jpg",
+            "heading_2": "60 Day Returns",
+            "icon_3": "none",
+            "image_3": "shopify://shop_images/5_d31e8e02-3601-4ba7-810d-96c7ca29ad75.jpg",
+            "heading_3": "Top Tier Support"
+          }
+        },
+        "collapsible_tab_mFpMHC": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Features",
+            "default_open": false,
+            "icon": "none",
+            "content": "",
+            "page": "dart-features"
+          }
+        },
+        "collapsible_tab_ULUXpP": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What's in the box?",
+            "default_open": false,
+            "icon": "none",
+            "content": "<ul><li>Dart 2.0 Speaker</li><li>Bag Clip Carabiner</li><li>USB-C Charging Cord</li><li>Pinned Playlist Flyer</li><li>Instruction Manual</li><li>Device Registration Guide</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_LEjyQf": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "default_open": false,
+            "icon": "none",
+            "content": "<p>We ship <strong>FAST</strong>.<br/><br/>Fulfilled within 24 business hours. 90% of orders arrive early.<br/><br/>Expedited options if your next tee time is coming up.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_ydzdBh": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "The Pinned Promise",
+            "default_open": false,
+            "icon": "none",
+            "content": "<p>We don't release a product unless it hits on these 4 core values... </p><ol><li>Elevates your game</li><li>Styled to turn heads</li><li>Pushes the envelop</li><li>Stands the test of time</li></ol>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_preview_badge_tAHRwe",
+        "text_WpWmM3",
+        "title",
+        "text_8pA7Hq",
+        "caption",
+        "price",
+        "variant_picker",
+        "quantity_selector_a4gife",
+        "buy_buttons",
+        "text_FhqQ3r",
+        "description",
+        "share",
+        "icon_with_text_UWmnYD",
+        "collapsible_tab_mFpMHC",
+        "collapsible_tab_ULUXpP",
+        "collapsible_tab_LEjyQf",
+        "collapsible_tab_ydzdBh"
+      ],
+      "custom_css": [
+        "span[data-selected-swatch-value] {font-weight: 600;}",
+        ".product-form__input--swatch .swatch-input__input + .swatch-input__label {margin: 0.7rem 2.3rem 0.2rem 0;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "show",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "image_banner_AgN8Rt": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Frame_46.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "multirow_DgY64M": {
+      "type": "multirow",
+      "blocks": {
+        "row_hqhrD3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/8_42d6f6ea-dc3e-4490-a7fa-5b1a6ba50ede.png",
+            "caption": "Detachable",
+            "heading": "Bag Carabiner",
+            "text": "<p>Easily attach your speaker to any type of bag or take the clip off and toss it on your cart with the built-in magnet.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_xyYV8h": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_37.png",
+            "caption": "Super Strong",
+            "heading": "Built-In Magnet",
+            "text": "<p>Super strong built-in magnet that allows you to easily attach your speaker to any cart car and know it will never fall off.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_dHXDxk": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/7_cdfc1d2f-023e-46a2-80f1-8a9158b688d7.png",
+            "caption": "10+ Hours",
+            "heading": "Battery Life",
+            "text": "<p>A long lasting battery will allow you to jam out on the course for multiple rounds!</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_i6JpJg": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/9_fd9c9392-1f75-403a-8dec-218ff75d0359.png",
+            "caption": "Connect",
+            "heading": "Two Speakers",
+            "text": "<p>We all know, two is better than one. So, pair up another Dart 2.0 speaker and have cart surround sound out on the course.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_hqhrD3",
+        "row_xyYV8h",
+        "row_dHXDxk",
+        "row_i6JpJg"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "image_banner_YTFPAp": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/dart_comparison.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_rk9B8n": {
+      "type": "rich-text",
+      "blocks": {
+        "button_JY4HTi": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy The Dart 2.0",
+            "button_link": "#top",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_JY4HTi"
+      ],
+      "custom_css": [],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "collage_tcaNLP": {
+      "type": "collage",
+      "blocks": {
+        "image_tNhy4d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Pinned_9_of_11.png"
+          }
+        },
+        "image_iyagxd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_9.jpg"
+          }
+        },
+        "image_QJJyGn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_32.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_tNhy4d",
+        "image_iyagxd",
+        "image_QJJyGn"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 16,
+        "padding_bottom": 8
+      }
+    },
+    "video_QEMecD": {
+      "type": "video",
+      "settings": {
+        "heading": "<strong>Better </strong><em><strong>Music</strong></em><strong>. Better </strong><em><strong>Vibes</strong></em><strong>. Better </strong><em><strong>Golf</strong></em><strong>.</strong>",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video": "shopify://files/videos/Untitled design.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_BckdEg": {
+      "type": "collage",
+      "blocks": {
+        "image_cENgTq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC00742.jpg"
+          }
+        },
+        "image_XbyAnh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Pinned_1.png"
+          }
+        },
+        "image_aPcjD7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_32.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_cENgTq",
+        "image_XbyAnh",
+        "image_aPcjD7"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 8,
+        "padding_bottom": 12
+      }
+    },
+    "collapsible_content_3AyFLq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_qdXMcJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can you remove the bag clip?",
+            "icon": "none",
+            "row_content": "<p>Yes! Our bag clip is completely detachable.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EABUcy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can you pair two Dart speakers together?",
+            "icon": "none",
+            "row_content": "<p>Yes! Our Dual Dart Pairing feature allows you to connect two Darts together to amplify your own tunes or share with the other cart.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4VXbwM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is the magnet strong?",
+            "icon": "none",
+            "row_content": "<p>Yes! Our Dart 2.0 golf speakers are built with N52 magnets, which are the strongest grade magnet you can find. It's not falling off!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yG8QjR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is it waterproof?",
+            "icon": "none",
+            "row_content": "<p>Yes! Our Dart 2.0 golf speaker is completely waterproof and can even be submerged for 30 minutes. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Nt36Ki": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I use any USB-C cord to charge?",
+            "icon": "none",
+            "row_content": "<p>Please use the USB-C charging cord that comes with your Dart 2.0 golf speaker.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_qdXMcJ",
+        "collapsible_row_EABUcy",
+        "collapsible_row_4VXbwM",
+        "collapsible_row_yG8QjR",
+        "collapsible_row_Nt36Ki"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "171176697446b6f676": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_MqhpFj": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_MqhpFj"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "Trending",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "custom_liquid_PRJMPr": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script>\nArray.from(document.getElementsByTagName('a')).filter((a) => a.hash === '#top').forEach((a) => a.addEventListener('click', (e) => {e.preventDefault(); document.body.scrollIntoView({block: 'start', behavior: 'smooth'}); }))\n</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_AgN8Rt",
+    "multirow_DgY64M",
+    "image_banner_YTFPAp",
+    "rich_text_rk9B8n",
+    "collage_tcaNLP",
+    "video_QEMecD",
+    "collage_BckdEg",
+    "collapsible_content_3AyFLq",
+    "171176697446b6f676",
+    "related-products",
+    "custom_liquid_PRJMPr"
+  ]
+}
