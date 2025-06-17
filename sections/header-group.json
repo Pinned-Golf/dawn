@@ -24,6 +24,7 @@
         },
         "announcement_xFKTDG": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Father's Day Sale Is Live!",
             "link": "shopify://collections/fathers-day-sale"
