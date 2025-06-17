@@ -18,9 +18,8 @@
         },
         "text_3TMaQ3": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<strong>2024 HOLIDAY SALE </strong>",
+            "text": "<strong>Official 2025 Ryder Cup</strong>",
             "text_style": "uppercase"
           }
         },
@@ -75,6 +74,7 @@
         },
         "text_q4QtEN": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>🔥 </strong><em><strong>1,218 bought in last 30 days</strong></em>",
             "text_style": "body"
@@ -503,19 +503,19 @@
         "image_tNhy4d": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_23_f8b9554d-5fd7-476f-8efd-11d4a39bb608.jpg"
+            "image": "shopify://shop_images/Untitled_design_-_2025-06-17T085209.001.png"
           }
         },
         "image_iyagxd": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_19_bcd822d0-0b11-4cbd-ada0-3efff49f964b.jpg"
+            "image": "shopify://shop_images/26.png"
           }
         },
         "image_QJJyGn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/1_32459041-d9e7-41d2-84ad-39805a31f154.jpg"
+            "image": "shopify://shop_images/Untitled_design_-_2025-06-17T085526.709.png"
           }
         }
       },
@@ -541,19 +541,19 @@
         "image_cENgTq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Frame_492.jpg"
+            "image": "shopify://shop_images/25.png"
           }
         },
         "image_XbyAnh": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/3_27467522-cad6-446b-9c67-5d0ecb14ea6f.jpg"
+            "image": "shopify://shop_images/Official_License_Of_2.png"
           }
         },
         "image_aPcjD7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_70_0d79e6f6-0998-44a1-bcb6-50736d6ce324.png"
+            "image": "shopify://shop_images/Official_License_Of_1.png"
           }
         }
       },
