@@ -57,21 +57,21 @@
         "heading_CHMAFd": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Fathers Day Sale</strong>",
+            "heading": "<strong>Ryder Cup Collection</strong>",
             "heading_size": "h0"
           }
         },
         "text_mWLmWw": {
           "type": "text",
           "settings": {
-            "text": "<em><strong>Up To 50% Off Sitewide</strong></em>",
+            "text": "<strong>Official 2025 Ryder Cup Partner</strong>",
             "text_style": "subtitle"
           }
         },
         "buttons_7aQWYe": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Sale",
+            "button_label_1": "Shop Collection",
             "button_link_1": "shopify://collections/fathers-day-sale",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -86,12 +86,12 @@
         "buttons_7aQWYe"
       ],
       "custom_css": [
-        "@media only screen and (max-width: 749px) {.banner {min-height: 70vh; /* Adjust this height as needed */ } .banner__media {height: 100%; width: 100%; object-fit: cover; }}",
+        "@media only screen and (max-width: 749px) {.banner {min-height: 70vh; } .banner__box.content-container {margin-bottom: 28rem; } .banner__media {height: 100%; width: 100%; object-fit: cover; }}",
         ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50rem;}",
-        "@media screen and (min-width: 750px) {.banner--large:not(.banner--adapt) {min-height: 90rem; }"
+        "@media screen and (min-width: 750px) {.banner--large:not(.banner--adapt) {min-height: 90rem; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/2_a9bc1e31-1be9-4713-b9ae-35407f52298a.jpg",
+        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_12.jpg",
         "image_overlay_opacity": 10,
         "image_height": "adapt",
         "desktop_content_position": "bottom-center",
