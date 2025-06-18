@@ -225,11 +225,22 @@
     },
     "custom_liquid_YeVTxQ": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"klaviyo-form-WfCKt7\"></div>",
         "color_scheme": "",
         "padding_top": 12,
         "padding_bottom": 24
+      }
+    },
+    "custom_liquid_fVBTQU": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div data-tf-live=\"01JY1HECSHZYYFN63XTTJTSGMD\"></div><script src=\"//embed.typeform.com/next/embed.js\"></script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "collage_AqAPzR": {
@@ -369,6 +380,7 @@
     "rich_text_Pj7kmL",
     "multirow_b7bWFd",
     "custom_liquid_YeVTxQ",
+    "custom_liquid_fVBTQU",
     "collage_AqAPzR",
     "collapsible_content_dYUQTh"
   ]
