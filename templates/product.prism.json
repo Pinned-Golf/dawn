@@ -320,7 +320,7 @@
     "image_banner_d7RLd3": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify://shop_images/Frame_46.jpg",
+        "image": "shopify://shop_images/Frame_46f.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
