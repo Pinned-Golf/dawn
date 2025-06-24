@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner_rcmgpM": {
@@ -15,14 +15,14 @@
         "heading_BnHkQh": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Pinned Junior Elites<\/strong>",
+            "heading": "<strong>Show us your swing</strong>",
             "heading_size": "h0"
           }
         },
         "text_DRjxia": {
           "type": "text",
           "settings": {
-            "text": "On the hunt for the next generation of golfers.",
+            "text": "Let's see what junior has the best looking swing",
             "text_style": "body"
           }
         }
@@ -32,7 +32,7 @@
         "text_DRjxia"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_4a89.jpg",
+        "image": "shopify://shop_images/Frame_4a89.jpg",
         "image_overlay_opacity": 20,
         "image_height": "large",
         "desktop_content_position": "middle-center",
@@ -51,14 +51,14 @@
         "heading_mANrLp": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>PJE Benefits<\/strong>",
+            "heading": "<strong>PJE Benefits</strong>",
             "heading_size": "h0"
           }
         },
         "text_wXATLw": {
           "type": "text",
           "settings": {
-            "text": "<h3>1. Pinned Golf welcome package. <\/h3><h3>2. Access to exclusive free products.<\/h3><h3>3. Special PJE discounts.<\/h3><h3>4. Social Media shoutouts.<\/h3><h3>5. Junior Golfer of the Month entries.<\/h3><h3>6. Connect with PJE members all around the world.<\/h3><h3>7. Introduction to other partner golf brands.<\/h3><h3><\/h3><p>Interested in becoming a Pinned Junior Elite? Fill out form below. <\/p>",
+            "text": "<h3>1. Pinned Golf welcome package. </h3><h3>2. Access to exclusive free products.</h3><h3>3. Special PJE discounts.</h3><h3>4. Social Media shoutouts.</h3><h3>5. Junior Golfer of the Month entries.</h3><h3>6. Connect with PJE members all around the world.</h3><h3>7. Introduction to other partner golf brands.</h3><h3></h3><p>Interested in becoming a Pinned Junior Elite? Fill out form below. </p>",
             "text_style": "body"
           }
         }
@@ -68,7 +68,7 @@
         "text_wXATLw"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/THRILLLLY.png",
+        "image": "shopify://shop_images/THRILLLLY.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -96,7 +96,7 @@
         "text_cjPPxz": {
           "type": "text",
           "settings": {
-            "text": "<ol><li>Pinned Golf welcome package. <\/li><li>Access to exclusive free products.<\/li><li>Special PJE discounts.<\/li><li>Social Media shoutouts.<\/li><li>Junior Golfer of the Month entries.<\/li><li>Connect with PJE members all around the world.<\/li><li>Introduction to other partner golf brands.<\/li><\/ol>"
+            "text": "<ol><li>Pinned Golf welcome package. </li><li>Access to exclusive free products.</li><li>Special PJE discounts.</li><li>Social Media shoutouts.</li><li>Junior Golfer of the Month entries.</li><li>Connect with PJE members all around the world.</li><li>Introduction to other partner golf brands.</li></ol>"
           }
         }
       },
@@ -124,8 +124,9 @@
     },
     "custom_liquid_cXUd3q": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-REdpSi\"><\/div>",
+        "custom_liquid": "<div class=\"klaviyo-form-REdpSi\"></div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 20
@@ -144,7 +145,7 @@
         "text_zWYQtg": {
           "type": "text",
           "settings": {
-            "text": "<p>Please email parker@pinnedgolf.com and she will be able to help!<\/p>"
+            "text": "<p>Please email parker@pinnedgolf.com and she will be able to help!</p>"
           }
         }
       },
