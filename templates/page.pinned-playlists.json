@@ -1,7 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -28,17 +38,17 @@
         "column_dfMBcV": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_6.png",
+            "image": "shopify://shop_images/Instagram_post_-_6.png",
             "title": "Bump & Run",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/pages\/device-registration"
+            "link": ""
           }
         },
         "column_M8x7Xf": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_6.png",
+            "image": "shopify://shop_images/Instagram_post_-_6.png",
             "title": "Fore The Gals",
             "text": "",
             "link_label": "",
@@ -48,7 +58,7 @@
         "column_GNDUzf": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_6.png",
+            "image": "shopify://shop_images/Instagram_post_-_6.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -58,7 +68,7 @@
         "column_HWPyBB": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_6.png",
+            "image": "shopify://shop_images/Instagram_post_-_6.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -68,7 +78,7 @@
         "column_MBKNaC": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_6.png",
+            "image": "shopify://shop_images/Instagram_post_-_6.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -78,7 +88,7 @@
         "column_jdCE6K": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_6.png",
+            "image": "shopify://shop_images/Instagram_post_-_6.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -117,17 +127,17 @@
         "column_KXB9cV": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_6.png",
+            "image": "shopify://shop_images/Instagram_post_-_6.png",
             "title": "Bump & Run",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/pages\/device-registration"
+            "link": "shopify://pages/device-registration"
           }
         },
         "column_rqyjDC": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_6.png",
+            "image": "shopify://shop_images/Instagram_post_-_6.png",
             "title": "Fore The Gals",
             "text": "",
             "link_label": "",
@@ -137,7 +147,7 @@
         "column_fTL7xG": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_6.png",
+            "image": "shopify://shop_images/Instagram_post_-_6.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -147,7 +157,7 @@
         "column_MW7gNK": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_6.png",
+            "image": "shopify://shop_images/Instagram_post_-_6.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -157,7 +167,7 @@
         "column_fBbkdY": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_6.png",
+            "image": "shopify://shop_images/Instagram_post_-_6.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -167,7 +177,7 @@
         "column_V6tLN3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_6.png",
+            "image": "shopify://shop_images/Instagram_post_-_6.png",
             "title": "",
             "text": "",
             "link_label": "",
