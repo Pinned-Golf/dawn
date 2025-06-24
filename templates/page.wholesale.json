@@ -238,7 +238,7 @@
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<div data-tf-live=\"01JY1HECSHZYYFN63XTTJTSGMD\"></div><script src=\"//embed.typeform.com/next/embed.js\"></script>",
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "padding_top": 100,
         "padding_bottom": 100
       }
