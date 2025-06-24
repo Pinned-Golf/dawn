@@ -17,19 +17,35 @@
         "padding_bottom": 28
       }
     },
-    "image_banner_dATh83": {
-      "type": "image-banner",
+    "rich_text_wbcxxf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BkNTMP": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>PINNED PLAYLISTS</strong>",
+            "heading_size": "hxl"
+          }
+        },
+        "text_HEHUhi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’ve built the perfect golf playlists to level up your round. Whether you're golfing with strangers or teeing off with your friends, there's a soundtrack for every swing. From country club country to turn shack throwbacks, we’ve got your vibe covered.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BkNTMP",
+        "text_HEHUhi"
+      ],
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "multicolumn_MBJ6Di": {
@@ -38,61 +54,91 @@
         "column_dfMBcV": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Instagram_post_-_6.png",
-            "title": "Bump & Run",
+            "image": "shopify://shop_images/Bump_and_Run.png",
+            "title": "<strong>Bump & Run</strong>",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "https://open.spotify.com/playlist/1NvGucxQyaxEVzFIEK2cTT?si=225213c1180942d5"
           }
         },
         "column_M8x7Xf": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Instagram_post_-_6.png",
-            "title": "Fore The Gals",
+            "image": "shopify://shop_images/Fore_the_Ladies.png",
+            "title": "<strong>Fore The Ladies</strong>",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "https://open.spotify.com/playlist/4FbccmyOgIuhg3BjmLWRJ9?si=16f3a9b146eb4949"
           }
         },
         "column_GNDUzf": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Instagram_post_-_6.png",
-            "title": "",
+            "image": "shopify://shop_images/Country_Club_Country.png",
+            "title": "<strong>Country Club Country</strong>",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "https://open.spotify.com/playlist/3FWRU7lanT9TN0gcQtMqIb?si=bd5ffdd75e1149b2"
           }
         },
         "column_HWPyBB": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Instagram_post_-_6.png",
-            "title": "",
+            "image": "shopify://shop_images/Golfing_with_Strangers.png",
+            "title": "<strong>Golfing With Strangers</strong>",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "https://open.spotify.com/playlist/4C8uRrj7nI3hCBmGJepX9x?si=eb3056813b52452b"
           }
         },
         "column_MBKNaC": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Instagram_post_-_6.png",
-            "title": "",
+            "image": "shopify://shop_images/Turn_Shack_Throwbacks.png",
+            "title": "<strong>Turn Shack Throwback</strong>",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "https://open.spotify.com/playlist/7vJuGnZ6xAaZKSHMGPl4hs?si=450185c9a59542a9"
           }
         },
         "column_jdCE6K": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Instagram_post_-_6.png",
-            "title": "",
+            "image": "shopify://shop_images/Breaking_90_in_the_90s.png",
+            "title": "<strong>Breaking 90 In The 90's</strong>",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "https://open.spotify.com/playlist/3yxCdX2aa5iyUCtAIRnqq4?si=d2c62fa0f50041f7"
+          }
+        },
+        "column_q4c4G4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Rock_Rolling_Putts.png",
+            "title": "<strong>Rock & Rolling Putts</strong>",
+            "text": "",
+            "link_label": "",
+            "link": "https://open.spotify.com/playlist/1Gm8nISIOCRA0zr2tzpatN?si=df8d0ee7a62e4abb"
+          }
+        },
+        "column_DpKXAB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Breakfast_Balls_and_Beats.png",
+            "title": "<strong>Breakfast Balls & Beats</strong>",
+            "text": "",
+            "link_label": "",
+            "link": "https://open.spotify.com/playlist/5wFY74Y03JPRoW8Hb3KIvU?si=72257a1edc05472b"
+          }
+        },
+        "column_GthQae": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Better_Vibes_Lower_Scores.png",
+            "title": "<strong>Better Vibes Lower Scores</strong>",
+            "text": "",
+            "link_label": "",
+            "link": "https://open.spotify.com/playlist/2MrJy9za5sbpYRLOh2hvNS?si=32560c7a86824b3f"
           }
         }
       },
@@ -102,7 +148,10 @@
         "column_GNDUzf",
         "column_HWPyBB",
         "column_MBKNaC",
-        "column_jdCE6K"
+        "column_jdCE6K",
+        "column_q4c4G4",
+        "column_DpKXAB",
+        "column_GthQae"
       ],
       "settings": {
         "title": "Spotify",
@@ -112,9 +161,9 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "",
+        "button_label": "Check Out Our Spotify",
+        "button_link": "https://open.spotify.com/user/31g76xjjf5e7q7yi5jez43nemd34?si=d1810700cb7c4305",
+        "color_scheme": "scheme-1",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 36,
@@ -127,8 +176,8 @@
         "column_KXB9cV": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Instagram_post_-_6.png",
-            "title": "Bump & Run",
+            "image": "shopify://shop_images/Bump_and_Run.png",
+            "title": "<strong>Bump & Run</strong>",
             "text": "",
             "link_label": "",
             "link": "shopify://pages/device-registration"
@@ -137,8 +186,8 @@
         "column_rqyjDC": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Instagram_post_-_6.png",
-            "title": "Fore The Gals",
+            "image": "shopify://shop_images/Fore_the_Ladies.png",
+            "title": "<strong>Fore The Ladies</strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -147,8 +196,8 @@
         "column_fTL7xG": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Instagram_post_-_6.png",
-            "title": "",
+            "image": "shopify://shop_images/Country_Club_Country.png",
+            "title": "<strong>Country Club Country</strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -157,8 +206,8 @@
         "column_MW7gNK": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Instagram_post_-_6.png",
-            "title": "",
+            "image": "shopify://shop_images/Golfing_with_Strangers.png",
+            "title": "<strong>Golfing With Strangers</strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -167,8 +216,8 @@
         "column_fBbkdY": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Instagram_post_-_6.png",
-            "title": "",
+            "image": "shopify://shop_images/Turn_Shack_Throwbacks.png",
+            "title": "<strong>Turn Shack Throwback</strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -177,8 +226,38 @@
         "column_V6tLN3": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Instagram_post_-_6.png",
-            "title": "",
+            "image": "shopify://shop_images/Breaking_90_in_the_90s.png",
+            "title": "<strong>Breaking 90 in the 90's</strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pNh3cp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Rock_Rolling_Putts.png",
+            "title": "<strong>Rock & Rolling Putts</strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YiYdEF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Breakfast_Balls_and_Beats.png",
+            "title": "<strong>Breakfast Balls & Beats</strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3mnkNY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Better_Vibes_Lower_Scores.png",
+            "title": "<strong>Better Vibes Lower Scores</strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -191,7 +270,10 @@
         "column_fTL7xG",
         "column_MW7gNK",
         "column_fBbkdY",
-        "column_V6tLN3"
+        "column_V6tLN3",
+        "column_pNh3cp",
+        "column_YiYdEF",
+        "column_3mnkNY"
       ],
       "settings": {
         "title": "Apple Music",
@@ -213,7 +295,7 @@
   },
   "order": [
     "main",
-    "image_banner_dATh83",
+    "rich_text_wbcxxf",
     "multicolumn_MBJ6Di",
     "multicolumn_zGVWdx"
   ]
