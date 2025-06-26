@@ -81,7 +81,7 @@
           "settings": {
             "heading": "How do I edit/delete a round?",
             "icon": "check_mark",
-            "row_content": "<p>As of right now, once you have submitted your round, you do not have the ability to edit/delete it. We wanted to make sure that all of your data was saved on your Caddie to keep accurate stats. But, this will become a feature that will be able to be edit in the next <strong>two weeks.</strong></p>",
+            "row_content": "<p>As of right now, once you have submitted your round, you do not have the ability to edit/delete it. We wanted to make sure that all of your data was saved on your Caddie to keep accurate stats. But, this will become a feature that will be available via a software update by the end of July.</p>",
             "page": ""
           }
         },
@@ -90,16 +90,7 @@
           "settings": {
             "heading": "How do I edit my profile?",
             "icon": "check_mark",
-            "row_content": "<p>As of right now, once you have submitted your profile, you do not have the ability to edit it. We wanted to make it easy for the golfers to get signed up. But, this will become a feature that will be able to be edit in the next two weeks.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_wPKWWg": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Why does my screen go dim after 5 minutes?",
-            "icon": "check_mark",
-            "row_content": "<p>We have set up an auto dim feature that will dim your screen if the Caddie goes 5+ minutes without being touched. This will become a feature that will be able to be turned off in the <strong>next two weeks.</strong></p>",
+            "row_content": "<p>As of right now, once you have submitted your profile, you do not have the ability to edit it. We wanted to make it easy for the golfers to get signed up. But, this will become a feature that will be available via a software update by the end of July.</p>",
             "page": ""
           }
         },
@@ -193,7 +184,6 @@
         "collapsible_row_U7XX4P",
         "collapsible_row_NXML6g",
         "collapsible_row_xkBHNm",
-        "collapsible_row_wPKWWg",
         "collapsible_row_Hy6cce",
         "collapsible_row_7jriY6",
         "collapsible_row_3KDDCd",
