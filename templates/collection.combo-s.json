@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner_Rmjip3": {
@@ -15,14 +15,14 @@
         "heading_8yFyfc": {
           "type": "heading",
           "settings": {
-            "heading": "Combo's",
+            "heading": "<strong>Bundles</strong>",
             "heading_size": "h1"
           }
         },
         "text_ReHTTx": {
           "type": "text",
           "settings": {
-            "text": "<strong>Get dialed in while jamming to your favorite tunes!<\/strong>",
+            "text": "<strong>Buy & Save more!</strong>",
             "text_style": "caption-with-letter-spacing"
           }
         }
@@ -32,12 +32,12 @@
         "text_ReHTTx"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Untitled_design_14_e9804a05-ef7e-4815-b8c1-8301a73d073e.jpg",
+        "image": "shopify://shop_images/Untitled_design_14_e9804a05-ef7e-4815-b8c1-8301a73d073e.jpg",
         "image_overlay_opacity": 30,
-        "image_height": "medium",
-        "desktop_content_position": "middle-left",
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
