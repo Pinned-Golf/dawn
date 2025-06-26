@@ -72,7 +72,7 @@
           "settings": {
             "heading": "Why doesn't it automatically go to next hole?",
             "icon": "check_mark",
-            "row_content": "<p>As of right now, the Caddie is set up for golfers to keep score. So, the auto advance feature is disabled so it doesn't move to the next hole without the score being added. This will become a feature that will be able to be turned off in the <strong>next two weeks.</strong></p>",
+            "row_content": "<p>As of right now, the Caddie is set up for golfers to keep score. So, the auto advance feature is disabled so it doesn't move to the next hole without the score being added. Auto Advance will be available via a software update week of July 7th. </p>",
             "page": ""
           }
         },
