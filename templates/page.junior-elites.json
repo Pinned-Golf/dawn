@@ -15,14 +15,14 @@
         "heading_BnHkQh": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Show us your swing</strong>",
+            "heading": "<strong>Show Us Your Swing</strong>",
             "heading_size": "h0"
           }
         },
         "text_DRjxia": {
           "type": "text",
           "settings": {
-            "text": "Let's see what junior has the best looking swing",
+            "text": "Let's see what junior has the best swing video!",
             "text_style": "body"
           }
         }
@@ -34,7 +34,7 @@
       "settings": {
         "image": "shopify://shop_images/Frame_4a89.jpg",
         "image_overlay_opacity": 20,
-        "image_height": "large",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -45,20 +45,51 @@
         "show_text_below": false
       }
     },
+    "rich_text_jRCz3W": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Gnwnb9": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Win the Ultimate Pinned Prize Pack!</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "text_JDRKFG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Calling all junior golfers! Show us your best swing for a chance to win a CUSTOM Pinned Golf rangefinder and speaker! Whether it's on the course, in your backyard, or even at the beach, get creative and swing away! </p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Gnwnb9",
+        "text_JDRKFG"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_with_text_gKXHcd": {
       "type": "image-with-text",
       "blocks": {
         "heading_mANrLp": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>PJE Benefits</strong>",
-            "heading_size": "h0"
+            "heading": "<strong>How to Particiapte  </strong>",
+            "heading_size": "h2"
           }
         },
         "text_wXATLw": {
           "type": "text",
           "settings": {
-            "text": "<h3>1. Pinned Golf welcome package. </h3><h3>2. Access to exclusive free products.</h3><h3>3. Special PJE discounts.</h3><h3>4. Social Media shoutouts.</h3><h3>5. Junior Golfer of the Month entries.</h3><h3>6. Connect with PJE members all around the world.</h3><h3>7. Introduction to other partner golf brands.</h3><h3></h3><p>Interested in becoming a Pinned Junior Elite? Fill out form below. </p>",
+            "text": "<h4>1. Take a video of your best golf swing. It doesn't have to be the best form. Be creative with it! Film on the course, in the yard, or even at the beach! Bonus points if you have Pinned products to show off. </h4><h4>2. Post on Instagram with the hashtag #ShowUsYourSwing and tag @pinnedgolf</h4><h4>3. Share your post with your friends and followers.</h4><h4>4. On July 7th, we will post the top 5 videos with the most engagement to our stories. Our followers to vote on which junior golfer had the best video!</h4><h4>5. The winner will be gifted a CUSTOM Prism+ Rangefinder, Sound Stick Speaker, and Dart 2.0 Speaker!</h4><h4>Good luck! Post your video and share with friends & family for a chance to win!</h4>",
             "text_style": "body"
           }
         }
@@ -165,6 +196,7 @@
   },
   "order": [
     "image_banner_rcmgpM",
+    "rich_text_jRCz3W",
     "image_with_text_gKXHcd",
     "rich_text_YNn6GN",
     "main",
