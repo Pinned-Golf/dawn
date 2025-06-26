@@ -15,14 +15,14 @@
         "heading_pdWbzD": {
           "type": "heading",
           "settings": {
-            "heading": "Speakers",
+            "heading": "<strong>Speakers</strong>",
             "heading_size": "h1"
           }
         },
         "text_AjNKcK": {
           "type": "text",
           "settings": {
-            "text": "Better Music. Better Vibes. Better Golf.",
+            "text": "<strong>Better Music. Better Vibes. Better Golf.</strong>",
             "text_style": "caption-with-letter-spacing"
           }
         }
@@ -32,9 +32,9 @@
         "text_AjNKcK"
       ],
       "settings": {
-        "image": "shopify://shop_images/Frame_6166_247f9633-e7c5-4428-ae15-a6539917d4f8.jpg",
+        "image": "shopify://shop_images/holidaty_dale_12.png",
         "image_overlay_opacity": 10,
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
