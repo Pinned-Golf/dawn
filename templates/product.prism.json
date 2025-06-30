@@ -676,6 +676,22 @@
         "padding_bottom": 36
       }
     },
+    "video_R4zBwG": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/Project 14_Prism+ Rangefinder, Hype Video.mp4",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multirow_NgfLC4": {
       "type": "multirow",
       "blocks": {
@@ -777,22 +793,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "video_R4zBwG": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video": "shopify://files/videos/Project 14_Prism+ Rangefinder, Hype Video.mp4",
-        "video_url": "",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -811,9 +811,9 @@
     "related-products",
     "custom_liquid_PRJMPr",
     "collapsible_content_j6wfqJ",
+    "video_R4zBwG",
     "multirow_NgfLC4",
     "171176697446b6f676",
-    "featured_collection_3mUgBK",
-    "video_R4zBwG"
+    "featured_collection_3mUgBK"
   ]
 }
