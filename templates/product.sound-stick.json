@@ -294,6 +294,22 @@
         "show_text_below": false
       }
     },
+    "video_YRk8j4": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/Project 14_Sound Stick-Hype Video.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner_YTFPAp": {
       "type": "image-banner",
       "disabled": true,
@@ -314,13 +330,6 @@
     "rich_text_rk9B8n": {
       "type": "rich-text",
       "blocks": {
-        "heading_xJ6wMB": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Better </strong><em><strong>Music</strong></em><strong>. Better </strong><em><strong>Vibes</strong></em><strong>. Better </strong><em><strong>Golf</strong></em><strong>.</strong>",
-            "heading_size": "h1"
-          }
-        },
         "button_JY4HTi": {
           "type": "button",
           "settings": {
@@ -334,7 +343,6 @@
         }
       },
       "block_order": [
-        "heading_xJ6wMB",
         "button_JY4HTi"
       ],
       "custom_css": [],
@@ -627,6 +635,7 @@
     "collage_QDBHRt",
     "multirow_DgY64M",
     "image_banner_3y34GA",
+    "video_YRk8j4",
     "image_banner_YTFPAp",
     "rich_text_rk9B8n",
     "collage_tcaNLP",
