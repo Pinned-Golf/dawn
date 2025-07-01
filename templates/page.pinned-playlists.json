@@ -275,7 +275,6 @@
         "column_YiYdEF",
         "column_3mnkNY"
       ],
-      "disabled": true,
       "settings": {
         "title": "Apple Music",
         "heading_size": "h1",
@@ -284,8 +283,8 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
-        "button_label": "Button label",
-        "button_link": "",
+        "button_label": "Check out our Apple Music",
+        "button_link": "https://music.apple.com/profile/pinnedgolf",
         "color_scheme": "",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
