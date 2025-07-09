@@ -45,6 +45,16 @@
         "show_text_below": false
       }
     },
+    "custom_liquid_4Ea3kQ": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div data-tf-live=\"01JZQW6SF3QBCH29DCSHP8Q9C8\"></div><script src=\"//embed.typeform.com/next/embed.js\"></script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_jRCz3W": {
       "type": "rich-text",
       "blocks": {
@@ -196,6 +206,7 @@
   },
   "order": [
     "image_banner_rcmgpM",
+    "custom_liquid_4Ea3kQ",
     "rich_text_jRCz3W",
     "image_with_text_gKXHcd",
     "rich_text_YNn6GN",
