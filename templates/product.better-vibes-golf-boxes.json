@@ -525,7 +525,7 @@
           "settings": {
             "heading": "Can I return my order?",
             "icon": "check_mark",
-            "row_content": "<p>No, all of our products in the Major Mystery Boxes are final sale. This means that there will be no returning any item you receive.</p>",
+            "row_content": "<p><em>No, all of our products in the Major Mystery Boxes are final sale. This means that there will be no returning any item you receive.</em></p>",
             "page": ""
           }
         },
@@ -534,7 +534,7 @@
           "settings": {
             "heading": "Can I exchange my color?",
             "icon": "check_mark",
-            "row_content": "<p>No, all of our products in the Major Mystery Boxes are final sale. This means that there will be no returning any item you receive.</p>",
+            "row_content": "<p><em>No, all of our products in the Major Mystery Boxes are final sale. This means that there will be no returning any item you receive.</em></p>",
             "page": ""
           }
         },
@@ -543,7 +543,7 @@
           "settings": {
             "heading": "Are these used products?",
             "icon": "check_mark",
-            "row_content": "<p>No, none of these products are used. They are all brand new. Although some boxes might have been opened, none of the units have been used. All items are fully functional and have passed our quality inspection. All sales are final.</p>",
+            "row_content": "<p><em>No, none of these products are used. They are all brand new. Although some boxes might have been opened, none of the units have been used. All items are fully functional and have passed our quality inspection. All sales are final.</em></p>",
             "page": ""
           }
         },
@@ -552,7 +552,7 @@
           "settings": {
             "heading": "What's the catch?",
             "icon": "check_mark",
-            "row_content": "<p>No catch! Just an FYI though, some items in our Major Mystery Boxes may include open-box units or products featuring exclusive course logos. All items are fully functional and have passed our quality inspection — just with a little extra character. All sales are final.</p>",
+            "row_content": "<p><em>No catch! Just an FYI though, some items in our Major Mystery Boxes may include open-box units or products featuring exclusive course logos. All items are fully functional and have passed our quality inspection — just with a little extra character. All sales are final.</em></p>",
             "page": ""
           }
         }
