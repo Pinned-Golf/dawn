@@ -102,6 +102,16 @@
             "content": "<p>We don't release a product unless it hits on these 4 core values... </p><ol><li>Elevates your game</li><li>Styled to turn heads</li><li>Pushes the envelop</li><li>Stands the test of time</li></ol>",
             "page": ""
           }
+        },
+        "collapsible_tab_xV7ecm": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Caddie Protection",
+            "default_open": false,
+            "icon": "none",
+            "content": "<p>This screen protector is designed to help guard against everyday scratches and minor impact to the display. It does not provide full-body protection for your Caddie and may not prevent damage from drops or severe impact.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -117,7 +127,8 @@
         "share",
         "icon_with_text_UWmnYD",
         "collapsible_tab_LEjyQf",
-        "collapsible_tab_ydzdBh"
+        "collapsible_tab_ydzdBh",
+        "collapsible_tab_xV7ecm"
       ],
       "custom_css": [
         "span[data-selected-swatch-value] {font-weight: 600;}"
