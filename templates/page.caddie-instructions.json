@@ -451,6 +451,7 @@
     },
     "custom_liquid_FtTJDe": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<div class=\"klaviyo-form-SsAMfY\"></div>",
@@ -479,7 +480,7 @@
           "type": "button",
           "settings": {
             "button_label": "Learn How To Update",
-            "button_link": "shopify://pages/update-your-course",
+            "button_link": "https://cdn.shopify.com/s/files/1/0522/1734/8255/files/Course_Update.pdf?v=1754078207",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
