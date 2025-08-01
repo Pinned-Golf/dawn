@@ -95,11 +95,21 @@
         "collapsible_tab_mFpMHC": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Features",
+            "heading": "Caddie Features",
             "default_open": true,
             "icon": "none",
             "content": "",
             "page": "caddie-features"
+          }
+        },
+        "collapsible_tab_VfDBpz": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Sound Stick Features",
+            "default_open": false,
+            "icon": "none",
+            "content": "",
+            "page": "sound-stick-features"
           }
         },
         "collapsible_tab_ULUXpP": {
@@ -147,6 +157,7 @@
         "share",
         "icon_with_text_UWmnYD",
         "collapsible_tab_mFpMHC",
+        "collapsible_tab_VfDBpz",
         "collapsible_tab_ULUXpP",
         "collapsible_tab_LEjyQf",
         "collapsible_tab_ydzdBh"
