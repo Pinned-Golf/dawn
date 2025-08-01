@@ -363,6 +363,113 @@
         "padding_bottom": 12
       }
     },
+    "multirow_6KANFb": {
+      "type": "multirow",
+      "blocks": {
+        "row_gBFqtU": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_64.png",
+            "caption": "Super Strong",
+            "heading": "<strong>Built-In Magnet</strong>",
+            "text": "<p>Easily attach your Sound Stick to the cart bar for easy access to turn up the volume on your round!</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_KfXDj7": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Frame_929_deb7eadf-64ad-4768-bdb3-215e7e3f9430.jpg",
+            "caption": "Connect",
+            "heading": "<strong>Two Speakers</strong>",
+            "text": "<p>Get live front, back, and center distances from anywhere on the course.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_zrtq4n": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Frame_924_a6c4cc3b-9fbc-4c61-b57f-f6a90fe70506.jpg",
+            "caption": "Smart",
+            "heading": "<strong>Hazard Distances</strong>",
+            "text": "<p>Quickly and accurately measure distances to hazards on the golf course, so you can hit every shot with confidence.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_9T6FYV": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Frame_95348.jpg",
+            "caption": "Maps From",
+            "heading": "<strong>45,000+ Courses</strong>",
+            "text": "<p>With maps from over 45,000 courses worldwide, bring the Caddie anywhere your game takes you. Search your course below. </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_bh6dTP": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Frame_927.jpg",
+            "caption": "Super Strong",
+            "heading": "<strong>Built-In Magnet</strong>",
+            "text": "<p>The Caddie is built with a strong magnet that securely sticks to the golf cart, keeping it within easy reach throughout your round.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_CkDGeF": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2025-05-21T110622.989.png",
+            "caption": "Extremely",
+            "heading": "<strong>Portable</strong>",
+            "text": "<p>From the tee box to the fairway, bring the Caddie anywhere to get the distances you need.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_TABtdz": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Frame_928.jpg",
+            "caption": "Battle Tested",
+            "heading": "<strong>Weatherproof</strong>",
+            "text": "<p>Play with confidence rain or shine. The Caddie is weather-tested, durable, and ready for any shot you take.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_gBFqtU",
+        "row_KfXDj7",
+        "row_zrtq4n",
+        "row_9T6FYV",
+        "row_bh6dTP",
+        "row_CkDGeF",
+        "row_TABtdz"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
     "course_search_QWVePx": {
       "type": "course-search",
       "custom_css": [
@@ -830,6 +937,7 @@
     "image_banner_3a4yrc",
     "rich_text_Pzp6bP",
     "multirow_DgY64M",
+    "multirow_6KANFb",
     "course_search_QWVePx",
     "related-products",
     "video_QGeh74",
