@@ -67,6 +67,7 @@
         },
         "text_ExJaTM": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<em><strong>🔥 2,658 Sold In Last 30 Days</strong></em>",
             "text_style": "body"
