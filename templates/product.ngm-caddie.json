@@ -239,21 +239,30 @@
         "heading_XRfijK": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>The Caddie. The </strong><em><strong>future</strong></em><strong> of golf.</strong>",
+            "heading": "<strong>The Caddie</strong>",
             "heading_size": "h1"
+          }
+        },
+        "caption_hhWHnA": {
+          "type": "caption",
+          "settings": {
+            "caption": "The future of golf.",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
           }
         }
       },
       "block_order": [
-        "heading_XRfijK"
+        "heading_XRfijK",
+        "caption_hhWHnA"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 32,
-        "padding_bottom": 32
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "multirow_DgY64M": {
@@ -373,24 +382,26 @@
             "heading_size": "h1"
           }
         },
-        "text_YTpRnX": {
-          "type": "text",
+        "caption_EVWPBy": {
+          "type": "caption",
           "settings": {
-            "text": "<h4><em><strong>Better Vibes. Better Golf.</strong></em></h4>"
+            "caption": "Better Vibes. Better Golf.",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
           }
         }
       },
       "block_order": [
         "heading_t6c4EF",
-        "text_YTpRnX"
+        "caption_EVWPBy"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 28
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "multirow_6KANFb": {
