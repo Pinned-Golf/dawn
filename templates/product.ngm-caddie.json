@@ -363,13 +363,36 @@
         "padding_bottom": 12
       }
     },
+    "rich_text_H4HULt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_t6c4EF": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Better Vibes With The Sound Stick</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_t6c4EF"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
     "multirow_6KANFb": {
       "type": "multirow",
       "blocks": {
         "row_gBFqtU": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_64.png",
+            "image": "shopify://shop_images/19_dae028fd-ada3-482a-b0a4-9dfc17ad7cf1.jpg",
             "caption": "Super Strong",
             "heading": "<strong>Built-In Magnet</strong>",
             "text": "<p>Easily attach your Sound Stick to the cart bar for easy access to turn up the volume on your round!</p>",
@@ -380,7 +403,7 @@
         "row_KfXDj7": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Frame_929_deb7eadf-64ad-4768-bdb3-215e7e3f9430.jpg",
+            "image": "shopify://shop_images/20_d6f39dbe-fccf-4a55-8279-4d5e94cdcf05.jpg",
             "caption": "Connect",
             "heading": "<strong>Two Speakers</strong>",
             "text": "<p>Get live front, back, and center distances from anywhere on the course.</p>",
@@ -388,58 +411,24 @@
             "button_link": ""
           }
         },
-        "row_zrtq4n": {
-          "type": "row",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Frame_924_a6c4cc3b-9fbc-4c61-b57f-f6a90fe70506.jpg",
-            "caption": "Smart",
-            "heading": "<strong>Hazard Distances</strong>",
-            "text": "<p>Quickly and accurately measure distances to hazards on the golf course, so you can hit every shot with confidence.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "row_9T6FYV": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Frame_95348.jpg",
-            "caption": "Maps From",
-            "heading": "<strong>45,000+ Courses</strong>",
-            "text": "<p>With maps from over 45,000 courses worldwide, bring the Caddie anywhere your game takes you. Search your course below. </p>",
+            "image": "shopify://shop_images/Untitled_design_30_91d51fb2-06b3-42b2-a30e-4e3d6ca57d3d.jpg",
+            "caption": "15+ Hour",
+            "heading": "<strong>Battery Life</strong>",
+            "text": "<p>The tunes never have to stop. Packed with an incredible 15+ hours of battery life, one charge will keep you jamming out for multiple rounds!</p>",
             "button_label": "",
             "button_link": ""
           }
         },
-        "row_bh6dTP": {
+        "row_zrtq4n": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Frame_927.jpg",
-            "caption": "Super Strong",
-            "heading": "<strong>Built-In Magnet</strong>",
-            "text": "<p>The Caddie is built with a strong magnet that securely sticks to the golf cart, keeping it within easy reach throughout your round.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_CkDGeF": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Untitled_design_-_2025-05-21T110622.989.png",
-            "caption": "Extremely",
-            "heading": "<strong>Portable</strong>",
-            "text": "<p>From the tee box to the fairway, bring the Caddie anywhere to get the distances you need.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_TABtdz": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Frame_928.jpg",
-            "caption": "Battle Tested",
-            "heading": "<strong>Weatherproof</strong>",
-            "text": "<p>Play with confidence rain or shine. The Caddie is weather-tested, durable, and ready for any shot you take.</p>",
+            "image": "shopify://shop_images/21_dd36f8aa-a8b0-4b48-8e1d-682f0e186b8e.jpg",
+            "caption": "Unmatched",
+            "heading": "<strong>Sound Quality</strong>",
+            "text": "<p>Quickly and accurately measure distances to hazards on the golf course, so you can hit every shot with confidence.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -448,11 +437,8 @@
       "block_order": [
         "row_gBFqtU",
         "row_KfXDj7",
-        "row_zrtq4n",
         "row_9T6FYV",
-        "row_bh6dTP",
-        "row_CkDGeF",
-        "row_TABtdz"
+        "row_zrtq4n"
       ],
       "settings": {
         "image_height": "adapt",
@@ -937,6 +923,7 @@
     "image_banner_3a4yrc",
     "rich_text_Pzp6bP",
     "multirow_DgY64M",
+    "rich_text_H4HULt",
     "multirow_6KANFb",
     "course_search_QWVePx",
     "related-products",
