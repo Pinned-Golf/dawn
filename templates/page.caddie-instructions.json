@@ -294,6 +294,7 @@
       "blocks": {
         "collapsible_row_c7GU3f": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "Why doesn't it automatically go to next hole?",
             "icon": "check_mark",
@@ -303,6 +304,7 @@
         },
         "collapsible_row_znCp6Y": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "How do I edit/delete a round?",
             "icon": "check_mark",
@@ -312,6 +314,7 @@
         },
         "collapsible_row_y4CBXV": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "How do I edit my profile?",
             "icon": "check_mark",
@@ -321,6 +324,7 @@
         },
         "collapsible_row_jGrFJn": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "Why does my screen go dim after 5 minutes?",
             "icon": "check_mark",
