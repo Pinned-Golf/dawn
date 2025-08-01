@@ -281,6 +281,22 @@
     "image_banner_3y34GA": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify://shop_images/holidaty_dale_15.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_banner_jyCCBc": {
+      "type": "image-banner",
+      "settings": {
         "image": "shopify://shop_images/Frame_46f.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
@@ -635,6 +651,7 @@
     "collage_QDBHRt",
     "multirow_DgY64M",
     "image_banner_3y34GA",
+    "image_banner_jyCCBc",
     "video_YRk8j4",
     "image_banner_YTFPAp",
     "rich_text_rk9B8n",
