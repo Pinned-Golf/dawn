@@ -384,35 +384,6 @@
         "image_drop_shadow": "none"
       }
     },
-    "rich_text_rk9B8n": {
-      "type": "rich-text",
-      "blocks": {
-        "button_JY4HTi": {
-          "type": "button",
-          "settings": {
-            "button_label": "Buy The Prism+",
-            "button_link": "shopify://products/prism-plus-rangefinder",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "button_JY4HTi"
-      ],
-      "disabled": true,
-      "custom_css": [],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -430,91 +401,6 @@
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 28
-      }
-    },
-    "custom_liquid_PRJMPr": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "custom_css": [
-        "div {text-align: center;}"
-      ],
-      "settings": {
-        "custom_liquid": "<a id=\"scroll-to-top\" class=\"button button--primary\" href=\"#\">Buy The {{product.title}}</a>\n<script>\n  document.getElementById('scroll-to-top').addEventListener('click', (evt) => {\n    evt.preventDefault();\n    evt.stopPropagation();\n    document.querySelector('form[data-type=\"add-to-cart-form\"]').scrollIntoView({ behavior: \"smooth\", block: \"end\", inline: \"nearest\" })\n  });\n</script>",
-        "color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "collapsible_content_j6wfqJ": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_LgaRjn": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Best Price Ever",
-            "icon": "price_tag",
-            "row_content": "<p>If you're looking for a rangefinder, you won't find a better deal. This is the lowest price we have ever offered on our Prism+ rangefinder.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_n9qCA6": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Thousands Of Reviews",
-            "icon": "star",
-            "row_content": "<p>Trusted by 150,000+ golfers all over the world. From PGA Professionals to Collegiate Golfers to the Weekend Warrior to everyone in between. Golfers love our products because they are made by golfers for golfers. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_APan9x": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Our Pinned Family",
-            "icon": "heart",
-            "row_content": "<p>When you buy one of our products, you become family. More specifically, you join our Pinned Family. and we treat everyone like an actual member of our family. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_X9eV6U": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "As Good As It Gets",
-            "icon": "fire",
-            "row_content": "<p>Countless tests against the competition and let me tell you, we're just as good... if not better. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_3RTHwb": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Love It Or Return It",
-            "icon": "return",
-            "row_content": "<p>With our extended holiday return window, they will essentially be able to try the rangefinder on before they buy it. </p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_LgaRjn",
-        "collapsible_row_n9qCA6",
-        "collapsible_row_APan9x",
-        "collapsible_row_X9eV6U",
-        "collapsible_row_3RTHwb"
-      ],
-      "disabled": true,
-      "settings": {
-        "caption": "the perfect gift for your golfer and here are",
-        "heading": "Five Reasons Why.",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "video_QGeh74": {
@@ -935,34 +821,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "featured_collection_6GNVMD": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Trending",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "pinned-golf-shop",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -973,10 +831,7 @@
     "rich_text_Pzp6bP",
     "multirow_DgY64M",
     "course_search_QWVePx",
-    "rich_text_rk9B8n",
     "related-products",
-    "custom_liquid_PRJMPr",
-    "collapsible_content_j6wfqJ",
     "video_QGeh74",
     "collage_RBkzxK",
     "collage_nciEHT",
@@ -989,7 +844,6 @@
     "collapsible_content_K3TTNR",
     "rich_text_8P3cJa",
     "video_iErkPe",
-    "video_nGX7J8",
-    "featured_collection_6GNVMD"
+    "video_nGX7J8"
   ]
 }
