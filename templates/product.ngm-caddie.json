@@ -233,6 +233,43 @@
         "show_text_below": true
       }
     },
+    "image_banner_L6gJFz": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_gWyDLT": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>The Caddie</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "text_t7etWY": {
+          "type": "text",
+          "settings": {
+            "text": "The Future Of Golf",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gWyDLT",
+        "text_t7etWY"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_13.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "rich_text_Pzp6bP": {
       "type": "rich-text",
       "blocks": {
@@ -256,6 +293,7 @@
         "heading_XRfijK",
         "caption_hhWHnA"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -368,7 +406,7 @@
         "section_color_scheme": "",
         "row_color_scheme": "",
         "mobile_content_alignment": "left",
-        "padding_top": 0,
+        "padding_top": 40,
         "padding_bottom": 0
       }
     },
@@ -939,6 +977,7 @@
     "image_banner_AgN8Rt",
     "image_banner_HbDtXQ",
     "image_banner_3a4yrc",
+    "image_banner_L6gJFz",
     "rich_text_Pzp6bP",
     "multirow_DgY64M",
     "rich_text_H4HULt",
