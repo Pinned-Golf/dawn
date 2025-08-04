@@ -65,7 +65,7 @@
           "type": "text",
           "settings": {
             "text": "<strong>Free gift with every purchase.</strong>",
-            "text_style": "subtitle"
+            "text_style": "caption-with-letter-spacing"
           }
         },
         "buttons_7aQWYe": {
