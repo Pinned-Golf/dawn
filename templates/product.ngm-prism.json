@@ -19,7 +19,7 @@
         "text_wgmkd6": {
           "type": "text",
           "settings": {
-            "text": "<strong>New Years BOGO Sale 🎄</strong>",
+            "text": "<strong>National Golf Month Sale</strong>",
             "text_style": "uppercase"
           }
         },
@@ -30,7 +30,7 @@
         "text_8pA7Hq": {
           "type": "text",
           "settings": {
-            "text": "FREE SPEAKER WITH RANGEFINDER PURCHASE",
+            "text": "<strong>FREE SPEAKER WITH RANGEFINDER PURCHASE</strong>",
             "text_style": "uppercase"
           }
         },
@@ -126,6 +126,16 @@
           "type": "description",
           "settings": {}
         },
+        "collapsible_tab_CfjwmT": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Prism+ Features",
+            "default_open": false,
+            "icon": "none",
+            "content": "",
+            "page": "features"
+          }
+        },
         "collapsible_tab_qR8n9A": {
           "type": "collapsible_tab",
           "settings": {
@@ -155,16 +165,6 @@
             "content": "<p>We don't release a product unless it hits on these 4 core values... </p><ol><li>Elevates your game</li><li>Styled to turn heads</li><li>Pushes the envelop</li><li>Stands the test of time</li></ol>",
             "page": ""
           }
-        },
-        "collapsible_tab_CfjwmT": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Prism+ Features",
-            "default_open": false,
-            "icon": "none",
-            "content": "",
-            "page": "features"
-          }
         }
       },
       "block_order": [
@@ -183,10 +183,10 @@
         "collapsible_tab_ULUXpP",
         "collapsible_tab_9njXHr",
         "description_VXQGyf",
+        "collapsible_tab_CfjwmT",
         "collapsible_tab_qR8n9A",
         "collapsible_tab_LEjyQf",
-        "collapsible_tab_ydzdBh",
-        "collapsible_tab_CfjwmT"
+        "collapsible_tab_ydzdBh"
       ],
       "custom_css": [
         "span[data-selected-swatch-value] {font-weight: 600;}"
@@ -672,7 +672,7 @@
         "image_QJJyGn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_20_23ec1b7c-62fb-47ae-b987-4488d7dc1ad2.jpg"
+            "image": "shopify://shop_images/3_2b2ea8b0-159d-4e09-a707-02e18e0162b5.png"
           }
         }
       },
