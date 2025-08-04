@@ -69,6 +69,7 @@
         },
         "text_7Kmaaf": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>🔥 </strong><em><strong>2,998 bought in last 30 days</strong></em>",
             "text_style": "body"
