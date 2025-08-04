@@ -57,14 +57,14 @@
         "heading_CHMAFd": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Ryder Cup Collection</strong>",
+            "heading": "<strong>National Golf Month Sale</strong>",
             "heading_size": "h0"
           }
         },
         "text_mWLmWw": {
           "type": "text",
           "settings": {
-            "text": "<strong>Official 2025 Ryder Cup Partner</strong>",
+            "text": "<strong>Free gift with every purchase.</strong>",
             "text_style": "subtitle"
           }
         },
@@ -72,7 +72,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Collection",
-            "button_link_1": "shopify://collections/the-ryder-cup-collection",
+            "button_link_1": "shopify://collections/national-golf-month",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -91,12 +91,12 @@
         "@media screen and (min-width: 750px) {.banner--large:not(.banner--adapt) {min-height: 90rem; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_12.jpg",
+        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_15.jpg",
         "image_overlay_opacity": 10,
         "image_height": "adapt",
-        "desktop_content_position": "top-center",
+        "desktop_content_position": "bottom-left",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
@@ -121,15 +121,22 @@
         "heading_6nE9Ud": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Future of golf awaits.</strong>",
+            "heading": "<strong>Caddie Bundle</strong>",
             "heading_size": "h0"
+          }
+        },
+        "text_tGiMr6": {
+          "type": "text",
+          "settings": {
+            "text": "Caddie + Free Sound Stick Speaker",
+            "text_style": "body"
           }
         },
         "buttons_FdTLpQ": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Caddie",
-            "button_link_1": "shopify://products/the-caddie-golf-tablet",
+            "button_label_1": "Shop Bundle",
+            "button_link_1": "shopify://products/ngm-caddie-bundle",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -139,6 +146,7 @@
       },
       "block_order": [
         "heading_6nE9Ud",
+        "text_tGiMr6",
         "buttons_FdTLpQ"
       ],
       "custom_css": [
@@ -148,7 +156,7 @@
         ".banner__content {align-items: flex-end;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/7_1516b8fb-c5c4-4ac4-aacc-2be559d945d1.jpg",
+        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_13.png",
         "image_overlay_opacity": 10,
         "image_height": "adapt",
         "desktop_content_position": "bottom-center",
@@ -178,15 +186,22 @@
         "heading_EEx7x3": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Lower scores await.</strong>",
+            "heading": "<strong>Prism+ Bundle</strong>",
             "heading_size": "h0"
+          }
+        },
+        "text_3UMrKK": {
+          "type": "text",
+          "settings": {
+            "text": "Rangefinder + Free Dart 2.0 Speaker",
+            "text_style": "body"
           }
         },
         "buttons_LBnm4e": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Rangefinders",
-            "button_link_1": "shopify://products/prism-plus-rangefinder",
+            "button_label_1": "Shop Bundle",
+            "button_link_1": "shopify://products/ngm-prism-bundle",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -196,6 +211,7 @@
       },
       "block_order": [
         "heading_EEx7x3",
+        "text_3UMrKK",
         "buttons_LBnm4e"
       ],
       "custom_css": [
@@ -258,15 +274,22 @@
         "heading_xmxqFF": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Better vibes await.</strong>",
+            "heading": "<strong>Sound Stick Bundle</strong>",
             "heading_size": "h0"
+          }
+        },
+        "text_BNfJBr": {
+          "type": "text",
+          "settings": {
+            "text": "Sound Stick + Free Ball Marker",
+            "text_style": "body"
           }
         },
         "buttons_JjRAMK": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Speakers",
-            "button_link_1": "shopify://collections/speakers",
+            "button_label_1": "Shop Bundle",
+            "button_link_1": "shopify://products/ngm-sound-stick-speaker",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -276,6 +299,7 @@
       },
       "block_order": [
         "heading_xmxqFF",
+        "text_BNfJBr",
         "buttons_JjRAMK"
       ],
       "custom_css": [
@@ -378,15 +402,22 @@
         "heading_cJ3FfT": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Better swag awaits.</strong>",
+            "heading": "<strong>Dart 2.0 Bundle</strong>",
             "heading_size": "h0"
+          }
+        },
+        "text_mRaHPf": {
+          "type": "text",
+          "settings": {
+            "text": "Dart 2.0 + Free Ball Marker",
+            "text_style": "body"
           }
         },
         "buttons_ATTNUc": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Accessories",
-            "button_link_1": "shopify://collections/accessories",
+            "button_label_1": "Shop Bundle",
+            "button_link_1": "shopify://products/ngm-dart-2-0-speaker",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -396,6 +427,7 @@
       },
       "block_order": [
         "heading_cJ3FfT",
+        "text_mRaHPf",
         "buttons_ATTNUc"
       ],
       "custom_css": [
@@ -405,7 +437,7 @@
         ".banner__content {align-items: flex-end;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/4_525315e4-a570-4bf5-9665-881985e53b16.png",
+        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_14.png",
         "image_overlay_opacity": 10,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -512,6 +544,7 @@
         "heading_HBVKqz",
         "buttons_FNxefD"
       ],
+      "disabled": true,
       "custom_css": [
         "@media only screen and (max-width: 749px) {.banner {min-height: 70vh; /* Adjust this height as needed */ } .banner__media {height: 100%; width: 100%; object-fit: cover; }}",
         ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50rem;}",
