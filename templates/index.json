@@ -129,8 +129,8 @@
         "text_tGiMr6": {
           "type": "text",
           "settings": {
-            "text": "Caddie + Free Sound Stick Speaker",
-            "text_style": "body"
+            "text": "<strong>Caddie + Free Sound Stick Speaker</strong>",
+            "text_style": "caption-with-letter-spacing"
           }
         },
         "buttons_FdTLpQ": {
@@ -194,8 +194,8 @@
         "text_3UMrKK": {
           "type": "text",
           "settings": {
-            "text": "Rangefinder + Free Dart 2.0 Speaker",
-            "text_style": "body"
+            "text": "<strong>Rangefinder + Free Dart 2.0 Speaker</strong>",
+            "text_style": "caption-with-letter-spacing"
           }
         },
         "buttons_LBnm4e": {
@@ -282,8 +282,8 @@
         "text_BNfJBr": {
           "type": "text",
           "settings": {
-            "text": "Sound Stick + Free Ball Marker",
-            "text_style": "body"
+            "text": "<strong>Sound Stick + Free Ball Marker</strong>",
+            "text_style": "caption-with-letter-spacing"
           }
         },
         "buttons_JjRAMK": {
@@ -410,8 +410,8 @@
         "text_mRaHPf": {
           "type": "text",
           "settings": {
-            "text": "Dart 2.0 + Free Ball Marker",
-            "text_style": "body"
+            "text": "<strong>Dart 2.0 + Free Ball Marker</strong>",
+            "text_style": "caption-with-letter-spacing"
           }
         },
         "buttons_ATTNUc": {
