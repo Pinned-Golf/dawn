@@ -14,6 +14,20 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_xFKTDG": {
+          "type": "announcement",
+          "settings": {
+            "text": "National Golf Month Sale!",
+            "link": "shopify://collections/national-golf-month"
+          }
+        },
+        "announcement_eyPMVn": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Gift With Every Purchase!",
+            "link": "shopify://collections/national-golf-month"
+          }
+        },
         "announcement_fXeqhB": {
           "type": "announcement",
           "disabled": true,
@@ -22,16 +36,9 @@
             "link": "shopify://products/the-caddie-golf-tablet"
           }
         },
-        "announcement_xFKTDG": {
-          "type": "announcement",
-          "disabled": true,
-          "settings": {
-            "text": "National Golf Month Sale!",
-            "link": "shopify://collections/national-golf-month"
-          }
-        },
         "announcement_tqPLEH": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "The Caddie In Forbes",
             "link": "shopify://blogs/pinned-boys/pinned-golf-featured-in-forbes-magazine"
@@ -46,8 +53,9 @@
         }
       },
       "block_order": [
-        "announcement_fXeqhB",
         "announcement_xFKTDG",
+        "announcement_eyPMVn",
+        "announcement_fXeqhB",
         "announcement_tqPLEH",
         "announcement_WhAXbB"
       ],
