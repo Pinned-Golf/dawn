@@ -16,11 +16,10 @@
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
-        "text_zBzBye": {
+        "text_LYDpka": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<strong>New Years Sale</strong>",
+            "text": "<strong>National Golf Month Sale</strong>",
             "text_style": "uppercase"
           }
         },
@@ -31,7 +30,7 @@
         "text_8pA7Hq": {
           "type": "text",
           "settings": {
-            "text": "Free Ball Marker with Speaker Purchase",
+            "text": "<strong>Free Ball Marker with Speaker Purchase</strong>",
             "text_style": "uppercase"
           }
         },
@@ -134,7 +133,7 @@
       },
       "block_order": [
         "judge_me_reviews_preview_badge_tAHRwe",
-        "text_zBzBye",
+        "text_LYDpka",
         "title",
         "text_8pA7Hq",
         "caption",
@@ -168,6 +167,22 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
+      }
+    },
+    "image_banner_3y34GA": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/5_1cab45a6-4c6b-488c-b79a-9342b62f636a.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
       }
     },
     "collage_QDBHRt": {
@@ -276,22 +291,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 0
-      }
-    },
-    "image_banner_3y34GA": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify://shop_images/5_1cab45a6-4c6b-488c-b79a-9342b62f636a.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
       }
     },
     "image_banner_jLCNxM": {
@@ -648,9 +647,9 @@
   },
   "order": [
     "main",
+    "image_banner_3y34GA",
     "collage_QDBHRt",
     "multirow_DgY64M",
-    "image_banner_3y34GA",
     "image_banner_jLCNxM",
     "video_YRk8j4",
     "image_banner_YTFPAp",
