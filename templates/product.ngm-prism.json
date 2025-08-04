@@ -129,7 +129,7 @@
         "collapsible_tab_qR8n9A": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Dart 2.0 Overview",
+            "heading": "Dart 2.0 Features",
             "default_open": false,
             "icon": "none",
             "content": "",
@@ -155,6 +155,16 @@
             "content": "<p>We don't release a product unless it hits on these 4 core values... </p><ol><li>Elevates your game</li><li>Styled to turn heads</li><li>Pushes the envelop</li><li>Stands the test of time</li></ol>",
             "page": ""
           }
+        },
+        "collapsible_tab_CfjwmT": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Prism+ Features",
+            "default_open": false,
+            "icon": "none",
+            "content": "",
+            "page": "features"
+          }
         }
       },
       "block_order": [
@@ -175,7 +185,8 @@
         "description_VXQGyf",
         "collapsible_tab_qR8n9A",
         "collapsible_tab_LEjyQf",
-        "collapsible_tab_ydzdBh"
+        "collapsible_tab_ydzdBh",
+        "collapsible_tab_CfjwmT"
       ],
       "custom_css": [
         "span[data-selected-swatch-value] {font-weight: 600;}"
