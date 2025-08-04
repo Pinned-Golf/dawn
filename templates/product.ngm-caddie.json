@@ -270,43 +270,6 @@
         "show_text_below": false
       }
     },
-    "image_banner_wgEH9N": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_mfyw6W": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Sound Stick</strong>",
-            "heading_size": "h0"
-          }
-        },
-        "text_phEemV": {
-          "type": "text",
-          "settings": {
-            "text": "Better Vibes, Better Golf.",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_mfyw6W",
-        "text_phEemV"
-      ],
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_12.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-4",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "rich_text_Pzp6bP": {
       "type": "rich-text",
       "blocks": {
@@ -447,36 +410,41 @@
         "padding_bottom": 0
       }
     },
-    "rich_text_H4HULt": {
-      "type": "rich-text",
+    "image_banner_wgEH9N": {
+      "type": "image-banner",
       "blocks": {
-        "heading_t6c4EF": {
+        "heading_mfyw6W": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>The Sound Stick</strong>",
-            "heading_size": "h1"
+            "heading": "<strong>Sound Stick</strong>",
+            "heading_size": "h0"
           }
         },
-        "caption_EVWPBy": {
-          "type": "caption",
+        "text_phEemV": {
+          "type": "text",
           "settings": {
-            "caption": "Better Vibes. Better Golf.",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "large"
+            "text": "Better Vibes, Better Golf.",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_t6c4EF",
-        "caption_EVWPBy"
+        "heading_mfyw6W",
+        "text_phEemV"
       ],
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40
+        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_12.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "multirow_6KANFb": {
@@ -545,7 +513,7 @@
         "section_color_scheme": "",
         "row_color_scheme": "",
         "mobile_content_alignment": "left",
-        "padding_top": 0,
+        "padding_top": 40,
         "padding_bottom": 12
       }
     },
@@ -1015,10 +983,9 @@
     "image_banner_HbDtXQ",
     "image_banner_3a4yrc",
     "image_banner_L6gJFz",
-    "image_banner_wgEH9N",
     "rich_text_Pzp6bP",
     "multirow_DgY64M",
-    "rich_text_H4HULt",
+    "image_banner_wgEH9N",
     "multirow_6KANFb",
     "course_search_QWVePx",
     "related-products",
