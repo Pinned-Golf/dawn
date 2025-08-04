@@ -769,78 +769,6 @@
         "padding_bottom": 36
       }
     },
-    "collapsible_content_mEfG3e": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_y7dHWn": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Biggest Sale Ever",
-            "icon": "price_tag",
-            "row_content": "<p>If you're looking for a rangefinder, you won't find a better deal. Please, go ahead and look around but you simply will not find a better one. You get <strong>TWO</strong> gifts for the price of <strong>ONE</strong>!</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_xY6tmU": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Thousands Of Reviews",
-            "icon": "star",
-            "row_content": "<p>Trusted by golfers all over the world. From PGA Professionals to Collegiate Golfers to the Weekend Warrior to everyone in between. Golfers love our products because they are made by golfers for golfers. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_CpaGaa": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Our Pinned Family",
-            "icon": "heart",
-            "row_content": "<p>When you buy one of our products, you become family. More specifically, you join our Pinned Family. and we treat everyone like an actual member of our family. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_a4NhM4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "As Good As It Gets",
-            "icon": "fire",
-            "row_content": "<p>Countless tests against the competition and let me tell you, we're just as good... if not better. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_tAtXCK": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Love It Or Return It",
-            "icon": "return",
-            "row_content": "<p>With our extended holiday return window, they will essentially be able to try the rangefinder on before they buy it. </p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_y7dHWn",
-        "collapsible_row_xY6tmU",
-        "collapsible_row_CpaGaa",
-        "collapsible_row_a4NhM4",
-        "collapsible_row_tAtXCK"
-      ],
-      "disabled": true,
-      "settings": {
-        "caption": "the perfect gift for your golfer and here are",
-        "heading": "Five Reasons Why.",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": true,
-        "image_ratio": "small",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "rich_text_HFfnaL": {
       "type": "rich-text",
       "blocks": {
@@ -1054,7 +982,6 @@
     "collage_tcaNLP",
     "collage_BckdEg",
     "collage_LVp4JP",
-    "collapsible_content_mEfG3e",
     "rich_text_HFfnaL",
     "related-products",
     "custom_liquid_PRJMPr",
