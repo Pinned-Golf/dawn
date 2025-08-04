@@ -129,11 +129,11 @@
         "collapsible_tab_qR8n9A": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Sound Stick Overview",
+            "heading": "Dart 2.0 Overview",
             "default_open": false,
             "icon": "none",
             "content": "",
-            "page": "sound-stick-features"
+            "page": "dart-features"
           }
         },
         "collapsible_tab_LEjyQf": {
@@ -153,16 +153,6 @@
             "default_open": false,
             "icon": "none",
             "content": "<p>We don't release a product unless it hits on these 4 core values... </p><ol><li>Elevates your game</li><li>Styled to turn heads</li><li>Pushes the envelop</li><li>Stands the test of time</li></ol>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_BG7CiE": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Black Friday Sale",
-            "default_open": false,
-            "icon": "none",
-            "content": "<p>This is the best deal in the history of Pinned Golf. </p><p>We are giving away a <strong>FREE</strong> Sound Stick Speaker <em>($150 Value)</em> when you buy a Prism+ rangefinder. To say our CFO isn't thrilled would be an understatement.</p><p>This is a limited time offer so please do not wait as sell out risk is very high.</p>",
             "page": ""
           }
         }
@@ -185,8 +175,7 @@
         "description_VXQGyf",
         "collapsible_tab_qR8n9A",
         "collapsible_tab_LEjyQf",
-        "collapsible_tab_ydzdBh",
-        "collapsible_tab_BG7CiE"
+        "collapsible_tab_ydzdBh"
       ],
       "custom_css": [
         "span[data-selected-swatch-value] {font-weight: 600;}"
@@ -265,10 +254,10 @@
         "row_dHXDxk": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/2_70090878-c1a5-4826-b073-6eee04932964.jpg",
+            "image": "shopify://shop_images/14_cffa2978-f3ef-41bd-9d50-269b49ef9a42.png",
             "caption": "Turn up the vibes with",
-            "heading": "Sound Stick Speaker",
-            "text": "<p>Turn your golf experience up a notch with The Sound Stick! The perfect speaker for golf lovers looking to unleash their inner DJ out on the course. The Sound Stick comes in 6 different colors, has a built-in magnet and a battery that lasts 15+ hours! Better Music. Better Vibes. Better Golf.</p>",
+            "heading": "Dart 2.0 Speaker",
+            "text": "<p>The Dart 2.0 is our upgraded portable golf speaker, built to deliver richer sound, longer battery life, and a sleeker, more durable design. It’s the ultimate course companion—keeping the music loud, the vibes high, whether you're walking or riding. </p>",
             "button_label": "",
             "button_link": ""
           }
@@ -824,6 +813,7 @@
         "collapsible_row_a4NhM4",
         "collapsible_row_tAtXCK"
       ],
+      "disabled": true,
       "settings": {
         "caption": "the perfect gift for your golfer and here are",
         "heading": "Five Reasons Why.",
