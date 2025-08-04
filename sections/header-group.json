@@ -26,8 +26,8 @@
           "type": "announcement",
           "disabled": true,
           "settings": {
-            "text": "Father's Day Sale Is Live!",
-            "link": "shopify://collections/fathers-day-sale"
+            "text": "National Golf Month Sale!",
+            "link": "shopify://collections/national-golf-month"
           }
         },
         "announcement_tqPLEH": {
