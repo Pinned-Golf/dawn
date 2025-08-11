@@ -194,6 +194,7 @@
         "collapsible_row_mFXwJD",
         "collapsible_row_t6VmVE"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
@@ -231,6 +232,7 @@
         "heading_fwwnMK",
         "text_6ReiQE"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -259,6 +261,7 @@
     },
     "video_DxLHxy": {
       "type": "video",
+      "disabled": true,
       "name": "t:sections.video.presets.name",
       "settings": {
         "heading": "",
@@ -275,6 +278,7 @@
     },
     "video_BkRNJL": {
       "type": "video",
+      "disabled": true,
       "name": "t:sections.video.presets.name",
       "settings": {
         "heading": "",
@@ -291,6 +295,7 @@
     },
     "video_hzNzfC": {
       "type": "video",
+      "disabled": true,
       "name": "t:sections.video.presets.name",
       "settings": {
         "heading": "",
@@ -366,6 +371,7 @@
     },
     "video_jyrtkY": {
       "type": "video",
+      "disabled": true,
       "name": "t:sections.video.presets.name",
       "settings": {
         "heading": "",
@@ -380,112 +386,145 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_KMD7hC": {
-      "type": "rich-text",
+    "image_with_text_Bz7pJA": {
+      "type": "image-with-text",
       "blocks": {
-        "heading_BBzzwG": {
+        "heading_yxTHjY": {
           "type": "heading",
           "settings": {
-            "heading": "Instruction Manuals",
+            "heading": "Caddie",
             "heading_size": "h1"
           }
         },
-        "text_zF38eE": {
+        "text_fDYh9A": {
           "type": "text",
           "settings": {
-            "text": "<p>Looking for more help? Read through our digital instruction manuals.</p>"
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
           }
         },
-        "button_AhdznL": {
+        "button_gh9hLn": {
           "type": "button",
           "settings": {
-            "button_label": "English Manual",
-            "button_link": "https://cdn.shopify.com/s/files/1/0522/1734/8255/files/English_Caddie_Instruction_Manual.pdf?v=1747184863",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "button_3BUUfc": {
-          "type": "button",
-          "settings": {
-            "button_label": "French Manual",
-            "button_link": "https://cdn.shopify.com/s/files/1/0522/1734/8255/files/French_Caddie_Instruction.pdf?v=1747184863",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label": "Read FAQ's",
+            "button_link": "shopify://pages/caddie-faqs",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_BBzzwG",
-        "text_zF38eE",
-        "button_AhdznL",
-        "button_3BUUfc"
+        "heading_yxTHjY",
+        "text_fDYh9A",
+        "button_gh9hLn"
       ],
-      "name": "t:sections.rich-text.presets.name",
+      "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
-    "custom_liquid_FtTJDe": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-SsAMfY\"></div>",
-        "color_scheme": "",
-        "padding_top": 20,
-        "padding_bottom": 16
-      }
-    },
-    "rich_text_EYyDfE": {
-      "type": "rich-text",
+    "image_with_text_QBthwi": {
+      "type": "image-with-text",
       "blocks": {
-        "heading_NbGda6": {
+        "heading_appWCG": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Does your course need to be updated on The Caddie?</strong>",
+            "heading": "Prism+",
             "heading_size": "h1"
           }
         },
-        "text_tcU73i": {
+        "text_C84w4T": {
           "type": "text",
           "settings": {
-            "text": ""
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
           }
         },
-        "button_EX3aXy": {
+        "button_e8jDkP": {
           "type": "button",
           "settings": {
-            "button_label": "Learn How To Update",
-            "button_link": "shopify://pages/update-your-course",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label": "Read FAQ's",
+            "button_link": "shopify://pages/prism-faqs",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_NbGda6",
-        "text_tcU73i",
-        "button_EX3aXy"
+        "heading_appWCG",
+        "text_C84w4T",
+        "button_e8jDkP"
       ],
-      "name": "t:sections.rich-text.presets.name",
+      "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_QfrXL3": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_rqXWxi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Speakers",
+            "heading_size": "h1"
+          }
+        },
+        "text_DH3UtA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_DqdAhK": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read FAQ's",
+            "button_link": "shopify://pages/speaker-faqs",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rqXWxi",
+        "text_DH3UtA",
+        "button_DqdAhK"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -501,8 +540,8 @@
     "video_hzNzfC",
     "multirow_ECKQkW",
     "video_jyrtkY",
-    "rich_text_KMD7hC",
-    "custom_liquid_FtTJDe",
-    "rich_text_EYyDfE"
+    "image_with_text_Bz7pJA",
+    "image_with_text_QBthwi",
+    "image_with_text_QfrXL3"
   ]
 }
