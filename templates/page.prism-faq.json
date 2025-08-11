@@ -106,7 +106,7 @@
         "collapsible_row_yEency": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "When when playing in rain do I only getting 7-10 yard readings?",
+            "heading": "Why when playing in rain do I only getting 7-10 yard readings?",
             "icon": "check_mark",
             "row_content": "<p><em>In rainy conditions, the laser can reflect off water droplets in the air, causing inaccurate or shortened readings. This is because the beam gets interrupted before it reaches the target.</em></p>",
             "page": ""
