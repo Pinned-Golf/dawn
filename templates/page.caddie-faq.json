@@ -437,6 +437,7 @@
     },
     "custom_liquid_FtTJDe": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<div class=\"klaviyo-form-SsAMfY\"></div>",
@@ -494,6 +495,7 @@
     "custom_liquid_U8YzU6",
     "image_banner_pB7jVD",
     "collapsible_content_kx3c6m",
+    "rich_text_KMD7hC",
     "rich_text_rrzrRx",
     "video_GKLNN9",
     "video_DxLHxy",
@@ -501,7 +503,6 @@
     "video_hzNzfC",
     "multirow_ECKQkW",
     "video_jyrtkY",
-    "rich_text_KMD7hC",
     "custom_liquid_FtTJDe",
     "rich_text_EYyDfE"
   ]
