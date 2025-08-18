@@ -420,6 +420,17 @@
         "padding_bottom": 4
       }
     },
+    "rich_text_HwK8ye": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
     "image_banner_xLmpqr": {
       "type": "image-banner",
       "blocks": {
@@ -756,11 +767,12 @@
     "image_banner_cmb9y7",
     "rich_text_wR6TAa",
     "image_banner_xLmpqr",
+    "rich_text_HwK8ye",
     "image_banner_xTdKjF",
     "rich_text_VdgCAW",
     "image_banner_j6YRq7",
-    "rich_text_BjXn6e",
     "image_banner_zydXMz",
+    "rich_text_BjXn6e",
     "featured_collection_GTncrW",
     "1730301771a79b1aa4",
     "featured_collection_UNUabC",
