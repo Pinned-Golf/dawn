@@ -9,48 +9,6 @@
  */
 {
   "sections": {
-    "image_banner_QMgQCn": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_kBxM9e": {
-          "type": "heading",
-          "settings": {
-            "heading": "Better Vibes, Better Golf.",
-            "heading_size": "h0"
-          }
-        },
-        "buttons_pVniPM": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "SHOP THE MINUTE SALE",
-            "button_link_1": "shopify://collections/minute-sale",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_kBxM9e",
-        "buttons_pVniPM"
-      ],
-      "disabled": true,
-      "custom_css": [],
-      "settings": {
-        "image": "shopify://shop_images/1_5b811637-c54d-4fe1-9ba3-7d5e52ba6b1e.png",
-        "image_overlay_opacity": 10,
-        "image_height": "large",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "image_banner_7BXd3H": {
       "type": "image-banner",
       "blocks": {
@@ -462,6 +420,54 @@
         "padding_bottom": 4
       }
     },
+    "image_banner_xLmpqr": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_d6mGCm": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Ryder Cup Collection</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "text_dNqhzr": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "buttons_hdNB6H": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Collection",
+            "button_link_1": "shopify://collections/the-ryder-cup-collection",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_d6mGCm",
+        "text_dNqhzr",
+        "buttons_hdNB6H"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_12.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "image_banner_xTdKjF": {
       "type": "image-banner",
       "blocks": {
@@ -737,7 +743,6 @@
     }
   },
   "order": [
-    "image_banner_QMgQCn",
     "image_banner_7BXd3H",
     "rich_text_DABeqg",
     "image_banner_qEr3ez",
@@ -750,6 +755,7 @@
     "collapsible_content_rT76Q4",
     "image_banner_cmb9y7",
     "rich_text_wR6TAa",
+    "image_banner_xLmpqr",
     "image_banner_xTdKjF",
     "rich_text_VdgCAW",
     "image_banner_j6YRq7",
