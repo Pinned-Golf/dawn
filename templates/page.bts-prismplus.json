@@ -23,14 +23,14 @@
         "heading_ATAptY": {
           "type": "heading",
           "settings": {
-            "heading": "<strong> From an idea to new product of the year...</strong>",
+            "heading": "<strong> From an idea to a PGA Tour winner</strong>",
             "heading_size": "h0"
           }
         },
         "text_AiLWE3": {
           "type": "text",
           "settings": {
-            "text": "The story behind how The Caddie came to life.",
+            "text": "The story behind how The Prism+ was created.",
             "text_style": "body"
           }
         }
@@ -40,7 +40,7 @@
         "text_AiLWE3"
       ],
       "settings": {
-        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_3.jpg",
+        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_16.png",
         "image_overlay_opacity": 30,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
