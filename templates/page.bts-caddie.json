@@ -452,6 +452,7 @@
     },
     "featured_collection_9PYXfa": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Other trending products",
         "heading_size": "h1",
