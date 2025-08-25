@@ -15,7 +15,7 @@
         "heading_CHMAFd": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>National Golf Month Sale</strong>",
+            "heading": "<strong>National Golf Month Sale Ending Soon!</strong>",
             "heading_size": "h0"
           }
         },
@@ -420,17 +420,6 @@
         "padding_bottom": 4
       }
     },
-    "rich_text_HwK8ye": {
-      "type": "rich-text",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 4,
-        "padding_bottom": 4
-      }
-    },
     "image_banner_xLmpqr": {
       "type": "image-banner",
       "blocks": {
@@ -477,6 +466,17 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "rich_text_HwK8ye": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 4
       }
     },
     "image_banner_xTdKjF": {
@@ -583,17 +583,6 @@
         "show_text_below": false
       }
     },
-    "rich_text_BjXn6e": {
-      "type": "rich-text",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 4,
-        "padding_bottom": 4
-      }
-    },
     "image_banner_zydXMz": {
       "type": "image-banner",
       "blocks": {
@@ -638,6 +627,17 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "rich_text_BjXn6e": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 4
       }
     },
     "featured_collection_GTncrW": {
