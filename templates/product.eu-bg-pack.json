@@ -30,7 +30,7 @@
         "text_8pA7Hq": {
           "type": "text",
           "settings": {
-            "text": "<strong>Prism+ Rangefinder with Sound Stick Speaker</strong>",
+            "text": "<strong>Includes Prism+, Sound Stick & Dart 2.0</strong>",
             "text_style": "uppercase"
           }
         },
@@ -147,6 +147,16 @@
             "page": "sound-stick-features"
           }
         },
+        "collapsible_tab_dK36kK": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Dart 2.0 Features",
+            "default_open": false,
+            "icon": "none",
+            "content": "",
+            "page": "dart-features"
+          }
+        },
         "collapsible_tab_LEjyQf": {
           "type": "collapsible_tab",
           "settings": {
@@ -186,6 +196,7 @@
         "description_VXQGyf",
         "collapsible_tab_CfjwmT",
         "collapsible_tab_qR8n9A",
+        "collapsible_tab_dK36kK",
         "collapsible_tab_LEjyQf",
         "collapsible_tab_ydzdBh"
       ],
