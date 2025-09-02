@@ -1,0 +1,997 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "judge_me_reviews_preview_badge_tAHRwe": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "text_wgmkd6": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>National Golf MOnth Sale Ends Sunday!</strong>",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "text_8pA7Hq": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>FREE SPEAKER WITH RANGEFINDER PURCHASE</strong>",
+            "text_style": "uppercase"
+          }
+        },
+        "caption": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "swatch",
+            "swatch_shape": "square"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "text_7Kmaaf": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<strong>🔥 </strong><em><strong>2,998 bought in last 30 days</strong></em>",
+            "text_style": "body"
+          }
+        },
+        "icon_with_text_UWmnYD": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "none",
+            "image_1": "shopify://shop_images/1_f566ca30-628a-4dec-9858-da70ead17dd2.jpg",
+            "heading_1": "Fast & Free Shipping",
+            "icon_2": "none",
+            "image_2": "shopify://shop_images/2_c0b7a380-c7d2-4ff6-8e2b-0fe2df48f4de.jpg",
+            "heading_2": "Extended Returns",
+            "icon_3": "none",
+            "image_3": "shopify://shop_images/Untitled_design_18_d6c8bb06-f325-4fe5-bff4-f3d0b734ec0b.jpg",
+            "heading_3": "150,000+ Golfers"
+          }
+        },
+        "collapsible_tab_mFpMHC": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Features",
+            "default_open": false,
+            "icon": "none",
+            "content": "",
+            "page": "features"
+          }
+        },
+        "collapsible_tab_ULUXpP": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "What's included?",
+            "default_open": false,
+            "icon": "none",
+            "content": "<ul><li>Prism+ Rangefinder</li><li><strong>FREE</strong> Sound Stick Speaker ($150 Value)</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_9njXHr": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Prism+ Overview",
+            "default_open": false,
+            "icon": "none",
+            "content": "",
+            "page": "features"
+          }
+        },
+        "description_VXQGyf": {
+          "type": "description",
+          "settings": {}
+        },
+        "collapsible_tab_CfjwmT": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Prism+ Features",
+            "default_open": false,
+            "icon": "none",
+            "content": "",
+            "page": "features"
+          }
+        },
+        "collapsible_tab_qR8n9A": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Dart 2.0 Features",
+            "default_open": false,
+            "icon": "none",
+            "content": "",
+            "page": "dart-features"
+          }
+        },
+        "collapsible_tab_LEjyQf": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "default_open": false,
+            "icon": "none",
+            "content": "<p>We ship <strong>FAST</strong>.<br/><br/>Fulfilled within 24 business hours. 90% of orders arrive early.<br/><br/>Expedited options if your next tee time is coming up.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_ydzdBh": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "The Pinned Promise",
+            "default_open": false,
+            "icon": "none",
+            "content": "<p>We don't release a product unless it hits on these 4 core values... </p><ol><li>Elevates your game</li><li>Styled to turn heads</li><li>Pushes the envelop</li><li>Stands the test of time</li></ol>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_preview_badge_tAHRwe",
+        "text_wgmkd6",
+        "title",
+        "text_8pA7Hq",
+        "caption",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "share",
+        "text_7Kmaaf",
+        "icon_with_text_UWmnYD",
+        "collapsible_tab_mFpMHC",
+        "collapsible_tab_ULUXpP",
+        "collapsible_tab_9njXHr",
+        "description_VXQGyf",
+        "collapsible_tab_CfjwmT",
+        "collapsible_tab_qR8n9A",
+        "collapsible_tab_LEjyQf",
+        "collapsible_tab_ydzdBh"
+      ],
+      "custom_css": [
+        "span[data-selected-swatch-value] {font-weight: 600;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "image_banner_w8Rjbn": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/3_3d77bd69-54e0-42de-8b99-23b3f6d2c190.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "collage_aPVTyi": {
+      "type": "collage",
+      "blocks": {
+        "image_xye64H": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/UP_2048_x_1365_px_2048_x_1080_px_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_xye64H"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "multirow_DgY64M": {
+      "type": "multirow",
+      "blocks": {
+        "row_hqhrD3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/3_e086adca-9d53-4466-a810-cd369f74b68b.jpg",
+            "caption": "Get Dialed in with the",
+            "heading": "Prism+ Rangefinder",
+            "text": "<p>This laser rangefinder is packed with new cutting edge software, a dialed in performance aesthetic and never before seen features. The Prism+ is a stylish testament to our commitment to innovation and making the game of golf more fun. </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_dHXDxk": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/14_cffa2978-f3ef-41bd-9d50-269b49ef9a42.png",
+            "caption": "Turn up the vibes with",
+            "heading": "Dart 2.0 Speaker",
+            "text": "<p>The Dart 2.0 is our upgraded portable golf speaker, built to deliver richer sound, longer battery life, and a sleeker, more durable design. It’s the ultimate course companion—keeping the music loud, the vibes high, whether you're walking or riding. </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_hqhrD3",
+        "row_dHXDxk"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 44,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_M39P4x": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Frame_46.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "multicolumn_qeyTb3": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_3ttzn9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Pinned_Prism_pink.20_c5e0e743-b567-4d71-b159-2f463387c36b.jpg",
+            "title": "Rechargeable Battery",
+            "text": "<p>No more batteries. One short charge will have your Prism+ dialed in for 70+ rounds. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_aCLHDH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1_94608931-91fe-4657-98e1-e007981bd409.jpg",
+            "title": "Built-In Magnet",
+            "text": "<p>Getting dialed in is always within reach. Sticking your Prism+ to the cart bar or a club will allow for easy and quick access.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8Y3CKb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Pinned_Prism_white.2_d0999fa3-e6ae-43a1-8bc0-01f7a9cd0e2e.jpg",
+            "title": "First Target Acquisition",
+            "text": "<p>Distance to the flag every time. No more getting distances of the tree behind the flag. Be dialed in every single shot.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_V8EnRB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PinnedPrism_USA.83_2.jpg",
+            "title": "Slope Technology",
+            "text": "<p>Play the true playing distance every shot. Club up or down with confidence.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_3ttzn9",
+        "column_aCLHDH",
+        "column_8Y3CKb",
+        "column_V8EnRB"
+      ],
+      "settings": {
+        "title": "Explore Prism+",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "shopify://products/black-friday-prism-bundle",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 16,
+        "padding_bottom": 8
+      }
+    },
+    "multicolumn_Ehkjba": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_nyJBKT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2_0e1078dc-5cea-4933-95fd-cb63ebafac3d.png",
+            "title": "Built-In Magnet",
+            "text": "<p>Easily attach your Sound Stick to the cart bar for easy access to turn up the volume on your round!</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_g3xmfK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Dart_speakers_-_Combinations_-_Black_Gray_a1f9a4cd-6c89-41ea-ad8c-2c1889e0c063.jpg",
+            "title": "Party Mode",
+            "text": "<p>Connect two Darts and turn up the vibes during your round.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mHKUPB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/5_140ece06-b6a0-404b-85c5-cc981ba9ba35.png",
+            "title": "10 Hr Battery Life",
+            "text": "<p>The tunes never have to stop. One charge will keep you jamming out for multiple rounds!</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KjrRdR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3_1abc86bd-58e3-4550-b198-ffc1767d4f57.png",
+            "title": "A+ Sound Quality",
+            "text": "<p>Crystal clear sound quality on and off the course. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_nyJBKT",
+        "column_g3xmfK",
+        "column_mHKUPB",
+        "column_KjrRdR"
+      ],
+      "settings": {
+        "title": "Explore Dart 2.0",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_rk9B8n": {
+      "type": "rich-text",
+      "blocks": {
+        "button_JY4HTi": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Prism+ Early Access",
+            "button_link": "shopify://products/black-friday-prism-bundle",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_JY4HTi"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_banner_YTFPAp": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Compa9rison.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "collapsible_content_3AyFLq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_qdXMcJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can you turn slope on and off?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes, The Prism+ golf rangefinder comes with a slope switch that allows you to turn the slope on and off. This means that our golf rangefinder is completely tournament legal.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EABUcy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I know they're fully charged?",
+            "icon": "check_mark",
+            "row_content": "<p>One 45 minute charge when you receive it and you will be good for the entire season! When fully charged, the green light will be lit.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4VXbwM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I use any USB-C charger?",
+            "icon": "check_mark",
+            "row_content": "<p>Please use the USB-C charging cord that comes with your Prism+ or Sound Stick.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Nt36Ki": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Should I register my devices?",
+            "icon": "check_mark",
+            "row_content": "<p>You do not have to but it is strongly encouraged to register your device once you have received it.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yG8QjR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does the speaker give yardages?",
+            "icon": "check_mark",
+            "row_content": "<p>No. The Sound Stick is strictly a speaker that plays music. No need to complicate things.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9UCtJm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does the speaker sound?",
+            "icon": "check_mark",
+            "row_content": "<p>Amazing. Simply put.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_N6KwrL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How strong are the magnets?",
+            "icon": "check_mark",
+            "row_content": "<p>The magnets have been tested by numerous 3rd party partners and never fell off the cart regardless of the landscape. They are N52 magnets which are the strongest magnet on the market.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_qdXMcJ",
+        "collapsible_row_EABUcy",
+        "collapsible_row_4VXbwM",
+        "collapsible_row_Nt36Ki",
+        "collapsible_row_yG8QjR",
+        "collapsible_row_9UCtJm",
+        "collapsible_row_N6KwrL"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_6zJBWr": {
+      "type": "rich-text",
+      "blocks": {
+        "button_4YExzn": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Prism+",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_4YExzn"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "rich_text_JPzbER": {
+      "type": "rich-text",
+      "blocks": {
+        "button_rLk4KG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Prism+ Rangefinder",
+            "button_link": "#top",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_rLk4KG"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "image_banner_RhUHFT": {
+      "type": "image-banner",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/UP_2048_x_1365_px_6.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "collage_tcaNLP": {
+      "type": "collage",
+      "blocks": {
+        "image_tNhy4d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_23_42c79a1a-af72-4925-8800-f7c152e01dcf.jpg"
+          }
+        },
+        "image_iyagxd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_76587910-63eb-4298-87f3-0b8ac6ff77f0.jpg"
+          }
+        },
+        "image_QJJyGn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_2b2ea8b0-159d-4e09-a707-02e18e0162b5.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_tNhy4d",
+        "image_iyagxd",
+        "image_QJJyGn"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 16,
+        "padding_bottom": 4
+      }
+    },
+    "collage_BckdEg": {
+      "type": "collage",
+      "blocks": {
+        "image_cENgTq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_24_04a6ced1-38a5-4bd8-b583-3e7904a17f7d.jpg"
+          }
+        },
+        "image_XbyAnh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/7_cdfc1d2f-023e-46a2-80f1-8a9158b688d7.png"
+          }
+        },
+        "image_aPcjD7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_36.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_cENgTq",
+        "image_XbyAnh",
+        "image_aPcjD7"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "collage_LVp4JP": {
+      "type": "collage",
+      "blocks": {
+        "image_FTbYVB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Comparison-1.png"
+          }
+        },
+        "image_jQqepX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Comparisoklln.png"
+          }
+        },
+        "image_H3kRPT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Comparisonmiddle.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_FTbYVB",
+        "image_jQqepX",
+        "image_H3kRPT"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_HFfnaL": {
+      "type": "rich-text",
+      "blocks": {
+        "button_w9hfRb": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Prism+ Rangefinder",
+            "button_link": "#top",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_w9hfRb"
+      ],
+      "custom_css": [],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "Trending",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "custom_liquid_PRJMPr": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<a id=\"scroll-to-top\" href=\"#\">Buy The Prism</a>\n<script>\n  document.getElementById('scroll-to-top').addEventListener('click', (evt) => {\n    evt.preventDefault();\n    evt.stopPropagation();\n    document.querySelector('form[data-type=\"add-to-cart-form\"]').scrollIntoView({ behavior: \"smooth\", block: \"end\", inline: \"nearest\" })\n  });\n</script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_yJVCJc": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_khaUAm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Michael_Breed_1000_x_800_px_1080_x_1080_px.jpg",
+            "title": "Michael Breed",
+            "text": "<p><em><strong>PGA Teacher Of  Year </strong></em><em><br/>\"Pinned Rangefinders are by far my go to rangefinder and it's not even close. The accuracy is unmatched.\"</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Ty8qTc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_25_dd27095e-3aeb-48f1-8a27-0d013812acbe.jpg",
+            "title": "Jeff Hamley",
+            "text": "<p><em><strong>PGA Tour Caddie</strong></em></p><p><em>\"When we prepare for each week’s PGA Tour event, I trust Pinned Golf’s rangefinder to help me dial in our strategy.\"</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NaA3DW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_26_a4b30e45-7b4f-4465-9a8a-8eff20dccc98.jpg",
+            "title": "Jake Hutt",
+            "text": "<p><em><strong>PGA Class A Teacher</strong></em></p><p><em>\"Have been rocking with Pinned's rangefinder for years now. They keep getting better and better every year.”</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_khaUAm",
+        "column_Ty8qTc",
+        "column_NaA3DW"
+      ],
+      "settings": {
+        "title": "<strong>Trusted By</strong>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_7XNfat": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yRD3eY": {
+          "type": "heading",
+          "settings": {
+            "heading": "ChatGPT summarized every Prism+ review and here is what it said...",
+            "heading_size": "h2"
+          }
+        },
+        "text_dgdUkp": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Here’s what people are saying about the Prism+ rangefinder:</em></p><p><strong>Performance</strong>: Most users rave about its accuracy, mentioning that distances are “spot on” and reliable.<br/><strong>Ease of Use</strong>: A frequent highlight is how easy and intuitive the rangefinder is to use, especially when quickly locking onto the target or pin.<br/><strong>Value for Money</strong>: Many are impressed with the quality relative to its price, often comparing it favorably to higher-end models but at a fraction of the cost.<br/><strong>Design and Build</strong>: Users appreciate the sleek and durable build, mentioning that the product feels high-end and solid in hand.<br/><strong>Specific Features</strong>: The “Prism” functionality stands out, with many customers finding it effective in various conditions.</p><p>Overall, the rangefinder receives praise for being a well-rounded, cost-effective tool for golfers, with performance and reliability as standout features. If you’re looking for a high-quality rangefinder without breaking the bank, this seems to be a solid choice.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yRD3eY",
+        "text_dgdUkp"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "171176697446b6f676": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_MqhpFj": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_MqhpFj"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text_W893Fz": {
+      "type": "rich-text",
+      "blocks": {
+        "button_QpPNgQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Prism+ Rangefinder",
+            "button_link": "#top",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_QpPNgQ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "custom_liquid_wPWb9N": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script>\nArray.from(document.getElementsByTagName('a')).filter((a) => a.hash === '#top').forEach((a) => a.addEventListener('click', (e) => {e.preventDefault(); document.body.scrollIntoView({block: 'start', behavior: 'smooth'}); }))\n</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_w8Rjbn",
+    "collage_aPVTyi",
+    "multirow_DgY64M",
+    "image_banner_M39P4x",
+    "multicolumn_qeyTb3",
+    "multicolumn_Ehkjba",
+    "rich_text_rk9B8n",
+    "image_banner_YTFPAp",
+    "collapsible_content_3AyFLq",
+    "rich_text_6zJBWr",
+    "rich_text_JPzbER",
+    "image_banner_RhUHFT",
+    "collage_tcaNLP",
+    "collage_BckdEg",
+    "collage_LVp4JP",
+    "rich_text_HFfnaL",
+    "related-products",
+    "custom_liquid_PRJMPr",
+    "multicolumn_yJVCJc",
+    "rich_text_7XNfat",
+    "171176697446b6f676",
+    "rich_text_W893Fz",
+    "custom_liquid_wPWb9N"
+  ]
+}
