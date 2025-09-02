@@ -19,6 +19,13 @@
             "heading_size": "h0"
           }
         },
+        "text_8qpygH": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Limited Edition Collection Inspired By The 45th Ryder Cup.</strong>",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
         "buttons_7aQWYe": {
           "type": "buttons",
           "settings": {
@@ -33,6 +40,7 @@
       },
       "block_order": [
         "heading_CHMAFd",
+        "text_8qpygH",
         "buttons_7aQWYe"
       ],
       "custom_css": [
