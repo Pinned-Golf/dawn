@@ -15,14 +15,14 @@
         "heading_CHMAFd": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "<strong>Ryder Cup Collection</strong>",
             "heading_size": "h2"
           }
         },
         "text_mWLmWw": {
           "type": "text",
           "settings": {
-            "text": "<strong>RYDER CUP COLLECTION</strong>",
+            "text": "",
             "text_style": "caption-with-letter-spacing"
           }
         },
@@ -46,11 +46,10 @@
       "custom_css": [
         "@media only screen and (max-width: 749px) {.banner {min-height: 70vh; /* Adjust this height as needed */ } .banner__media {height: 100%; width: 100%; object-fit: cover; }}",
         ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50rem;}",
-        "@media screen and (min-width: 750px) {.banner--large:not(.banner--adapt) {min-height: 90rem; }}",
-        ".banner__content {align-items: flex-end;}"
+        "@media screen and (min-width: 750px) {.banner--large:not(.banner--adapt) {min-height: 90rem; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Website_Hero_8.png",
+        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_17.png",
         "image_overlay_opacity": 10,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
