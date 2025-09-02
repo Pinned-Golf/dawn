@@ -284,11 +284,23 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "row_wVBME8": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/EUSS.png",
+            "caption": "Riders & Walkers approved",
+            "heading": "Sound Stick Speaker",
+            "text": "<p>Our most portable golf speaker yet. With a stronger magnet, detachable carabiner, and over 10 hours of battery life, it’s built to clip, stick, and play wherever your round takes you. Dialed-in audio meets all-day durability, because good vibes should last 18 holes and beyond.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "row_hqhrD3",
-        "row_dHXDxk"
+        "row_dHXDxk",
+        "row_wVBME8"
       ],
       "settings": {
         "image_height": "adapt",
