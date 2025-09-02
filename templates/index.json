@@ -145,22 +145,22 @@
         "heading_EEx7x3": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Prism+ Bundle</strong>",
+            "heading": "<strong>Lower score awaits.</strong>",
             "heading_size": "h0"
           }
         },
         "text_3UMrKK": {
           "type": "text",
           "settings": {
-            "text": "<strong>Rangefinder + Free Dart 2.0 Speaker</strong>",
+            "text": "",
             "text_style": "caption-with-letter-spacing"
           }
         },
         "buttons_LBnm4e": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Bundle",
-            "button_link_1": "shopify://products/ngm-prism-bundle",
+            "button_label_1": "Shop Prism+",
+            "button_link_1": "",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -233,14 +233,14 @@
         "heading_xmxqFF": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Sound Stick Bundle</strong>",
+            "heading": "<strong>Better vibes await.</strong>",
             "heading_size": "h0"
           }
         },
         "text_BNfJBr": {
           "type": "text",
           "settings": {
-            "text": "<strong>Sound Stick + Free Ball Marker</strong>",
+            "text": "",
             "text_style": "caption-with-letter-spacing"
           }
         },
