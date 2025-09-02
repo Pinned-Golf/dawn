@@ -21,13 +21,6 @@
             "link": "shopify://collections/the-ryder-cup-collection"
           }
         },
-        "announcement_eyPMVn": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free Gift With Every Purchase!",
-            "link": "shopify://collections/national-golf-month"
-          }
-        },
         "announcement_fXeqhB": {
           "type": "announcement",
           "disabled": true,
@@ -54,7 +47,6 @@
       },
       "block_order": [
         "announcement_xFKTDG",
-        "announcement_eyPMVn",
         "announcement_fXeqhB",
         "announcement_tqPLEH",
         "announcement_WhAXbB"
