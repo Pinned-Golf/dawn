@@ -317,7 +317,7 @@
         "column_3ttzn9": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Pinned_Prism_pink.20_c5e0e743-b567-4d71-b159-2f463387c36b.jpg",
+            "image": "shopify://shop_images/10_3fc17e8d-9261-4310-a6d6-b5d9eea941fa.png",
             "title": "Rechargeable Battery",
             "text": "<p>No more batteries. One short charge will have your Prism+ dialed in for 70+ rounds. </p>",
             "link_label": "",
@@ -327,7 +327,7 @@
         "column_aCLHDH": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/1_94608931-91fe-4657-98e1-e007981bd409.jpg",
+            "image": "shopify://shop_images/13_c9cafd9b-4406-4650-a2b2-d08f8b31e1d6.png",
             "title": "Built-In Magnet",
             "text": "<p>Getting dialed in is always within reach. Sticking your Prism+ to the cart bar or a club will allow for easy and quick access.</p>",
             "link_label": "",
@@ -337,7 +337,7 @@
         "column_8Y3CKb": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Pinned_Prism_white.2_d0999fa3-e6ae-43a1-8bc0-01f7a9cd0e2e.jpg",
+            "image": "shopify://shop_images/PUSA.png",
             "title": "First Target Acquisition",
             "text": "<p>Distance to the flag every time. No more getting distances of the tree behind the flag. Be dialed in every single shot.</p>",
             "link_label": "",
@@ -347,7 +347,7 @@
         "column_V8EnRB": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/PinnedPrism_USA.83_2.jpg",
+            "image": "shopify://shop_images/8_01d3940a-0230-47f2-a02c-d0ff1796c525.png",
             "title": "Slope Technology",
             "text": "<p>Play the true playing distance every shot. Club up or down with confidence.</p>",
             "link_label": "",
@@ -384,19 +384,9 @@
         "column_nyJBKT": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/2_0e1078dc-5cea-4933-95fd-cb63ebafac3d.png",
+            "image": "shopify://shop_images/2_9ca17136-67e3-44d0-a7a2-38e5bba77044.png",
             "title": "Built-In Magnet",
             "text": "<p>Easily attach your Sound Stick to the cart bar for easy access to turn up the volume on your round!</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_g3xmfK": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Dart_speakers_-_Combinations_-_Black_Gray_a1f9a4cd-6c89-41ea-ad8c-2c1889e0c063.jpg",
-            "title": "Party Mode",
-            "text": "<p>Connect two Sound Sticks and turn up the vibes during your round.</p>",
             "link_label": "",
             "link": ""
           }
@@ -404,9 +394,19 @@
         "column_mHKUPB": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/5_140ece06-b6a0-404b-85c5-cc981ba9ba35.png",
+            "image": "shopify://shop_images/CloseEUSS.png",
             "title": "15+ Hr Battery Life",
             "text": "<p>The tunes never have to stop. One charge will keep you jamming out for multiple rounds!</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_g3xmfK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/5_d3e94e8d-cb2b-4609-94fd-bfebe3417b5e.png",
+            "title": "Party Mode",
+            "text": "<p>Connect two Sound Sticks and turn up the vibes during your round.</p>",
             "link_label": "",
             "link": ""
           }
@@ -414,7 +414,7 @@
         "column_KjrRdR": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/3_1abc86bd-58e3-4550-b198-ffc1767d4f57.png",
+            "image": "shopify://shop_images/Untitled_design_-_2025-09-02T094047.156.png",
             "title": "A+ Sound Quality",
             "text": "<p>Crystal clear sound quality on and off the course. </p>",
             "link_label": "",
@@ -424,8 +424,8 @@
       },
       "block_order": [
         "column_nyJBKT",
-        "column_g3xmfK",
         "column_mHKUPB",
+        "column_g3xmfK",
         "column_KjrRdR"
       ],
       "settings": {
