@@ -144,7 +144,7 @@
         "heading_EEx7x3": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Lower score awaits.</strong>",
+            "heading": "<strong>Lower scores awaits.</strong>",
             "heading_size": "h0"
           }
         },
