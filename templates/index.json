@@ -29,7 +29,7 @@
         "buttons_7aQWYe": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Sale",
+            "button_label_1": "Shop Ryder Cup",
             "button_link_1": "shopify://collections/the-ryder-cup-collection",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -160,7 +160,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Prism+",
-            "button_link_1": "",
+            "button_link_1": "shopify://products/prism-plus-rangefinder",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -247,8 +247,8 @@
         "buttons_JjRAMK": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Bundle",
-            "button_link_1": "shopify://products/ngm-sound-stick-speaker",
+            "button_label_1": "Shop Speakers",
+            "button_link_1": "shopify://collections/speakers",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -279,17 +279,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
-      }
-    },
-    "rich_text_f8f3WF": {
-      "type": "rich-text",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 4,
-        "padding_bottom": 4
       }
     },
     "collapsible_content_rT76Q4": {
@@ -389,6 +378,7 @@
         "text_mRaHPf",
         "buttons_ATTNUc"
       ],
+      "disabled": true,
       "custom_css": [
         "@media only screen and (max-width: 749px) {.banner {min-height: 70vh; /* Adjust this height as needed */ } .banner__media {height: 100%; width: 100%; object-fit: cover; }}",
         ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50rem;}",
@@ -454,6 +444,7 @@
         "text_dNqhzr",
         "buttons_hdNB6H"
       ],
+      "disabled": true,
       "custom_css": [
         "@media only screen and (max-width: 749px) {.banner {min-height: 70vh; /* Adjust this height as needed */ } .banner__media {height: 100%; width: 100%; object-fit: cover; }}",
         ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50rem;}",
@@ -472,17 +463,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
-      }
-    },
-    "rich_text_HwK8ye": {
-      "type": "rich-text",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 4,
-        "padding_bottom": 4
       }
     },
     "image_banner_xTdKjF": {
@@ -768,12 +748,10 @@
     "image_banner_QJMVBf",
     "rich_text_GqENi6",
     "image_banner_rft3CR",
-    "rich_text_f8f3WF",
     "collapsible_content_rT76Q4",
     "image_banner_cmb9y7",
     "rich_text_wR6TAa",
     "image_banner_xLmpqr",
-    "rich_text_HwK8ye",
     "image_banner_xTdKjF",
     "rich_text_VdgCAW",
     "image_banner_j6YRq7",
