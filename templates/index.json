@@ -594,6 +594,7 @@
         "heading_LVDk3m",
         "buttons_UjE4at"
       ],
+      "disabled": true,
       "custom_css": [
         "@media only screen and (max-width: 749px) {.banner {min-height: 70vh; /* Adjust this height as needed */ } .banner__media {height: 100%; width: 100%; object-fit: cover; }}",
         ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50rem;}",
@@ -612,17 +613,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
-      }
-    },
-    "rich_text_BjXn6e": {
-      "type": "rich-text",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 4,
-        "padding_bottom": 4
       }
     },
     "featured_collection_GTncrW": {
@@ -755,7 +745,6 @@
     "rich_text_VdgCAW",
     "image_banner_j6YRq7",
     "image_banner_zydXMz",
-    "rich_text_BjXn6e",
     "featured_collection_GTncrW",
     "1730301771a79b1aa4",
     "featured_collection_UNUabC",
