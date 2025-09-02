@@ -661,19 +661,19 @@
         "image_tNhy4d": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_23_42c79a1a-af72-4925-8800-f7c152e01dcf.jpg"
+            "image": "shopify://shop_images/10_3fc17e8d-9261-4310-a6d6-b5d9eea941fa.png"
           }
         },
         "image_iyagxd": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/1_76587910-63eb-4298-87f3-0b8ac6ff77f0.jpg"
+            "image": "shopify://shop_images/CloseEUSS.png"
           }
         },
         "image_QJJyGn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/3_2b2ea8b0-159d-4e09-a707-02e18e0162b5.png"
+            "image": "shopify://shop_images/EUP_SS.png"
           }
         }
       },
@@ -699,7 +699,7 @@
         "image_cENgTq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_24_04a6ced1-38a5-4bd8-b583-3e7904a17f7d.jpg"
+            "image": "shopify://shop_images/14_d477abe9-3e98-437a-a68e-400b5fbc35f7.png"
           }
         },
         "image_XbyAnh": {
@@ -711,7 +711,7 @@
         "image_aPcjD7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_36.png"
+            "image": "shopify://shop_images/Untitled_design_-_2025-09-02T094047.156.png"
           }
         }
       },
@@ -729,44 +729,6 @@
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 12
-      }
-    },
-    "collage_LVp4JP": {
-      "type": "collage",
-      "blocks": {
-        "image_FTbYVB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Comparison-1.png"
-          }
-        },
-        "image_jQqepX": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Comparisoklln.png"
-          }
-        },
-        "image_H3kRPT": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Comparisonmiddle.png"
-          }
-        }
-      },
-      "block_order": [
-        "image_FTbYVB",
-        "image_jQqepX",
-        "image_H3kRPT"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "desktop_layout": "right",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "rich_text_HFfnaL": {
@@ -984,7 +946,6 @@
     "image_banner_RhUHFT",
     "collage_tcaNLP",
     "collage_BckdEg",
-    "collage_LVp4JP",
     "rich_text_HFfnaL",
     "related-products",
     "custom_liquid_PRJMPr",
