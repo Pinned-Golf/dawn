@@ -140,11 +140,11 @@
         "collapsible_tab_qR8n9A": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Dart 2.0 Features",
+            "heading": "Sound Stick Features",
             "default_open": false,
             "icon": "none",
             "content": "",
-            "page": "dart-features"
+            "page": "sound-stick-features"
           }
         },
         "collapsible_tab_LEjyQf": {
