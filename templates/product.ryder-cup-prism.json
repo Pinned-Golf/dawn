@@ -208,9 +208,8 @@
     },
     "image_banner_AgN8Rt": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/holidaty_dale_2.png",
+        "image": "shopify://shop_images/Website_Hero_8.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -240,7 +239,7 @@
         "row_hqhrD3": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/1_074962d5-bc9e-4309-a735-5c087b827c4a.jpg",
+            "image": "shopify://shop_images/10_3fc17e8d-9261-4310-a6d6-b5d9eea941fa.png",
             "caption": "70 Round",
             "heading": "Rechargeable Battery",
             "text": "<p>No more batteries. One 45 minute charge will have your Prism+ dialed in for 70+ rounds. So long are the days of a dead battery on the course.</p>",
@@ -251,7 +250,7 @@
         "row_dHXDxk": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_36_1.png",
+            "image": "shopify://shop_images/Official_License_Of_11.png",
             "caption": "Never before seen",
             "heading": "First Target Acquisition",
             "text": "<p>Distance to the flag every time. No more getting distances of the tree behind the flag. Be dialed in every single shot. </p>",
@@ -262,7 +261,7 @@
         "row_xyYV8h": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_66.png",
+            "image": "shopify://shop_images/13_c9cafd9b-4406-4650-a2b2-d08f8b31e1d6.png",
             "caption": "Super Strong",
             "heading": "Built-In Magnet",
             "text": "<p>Getting dialed in is always within reach. Sticking your Prism+ to the cart bar or a club will allow for easy and quick access. </p>",
@@ -273,7 +272,7 @@
         "row_i6JpJg": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_28_09cfd54f-7c34-411b-bec3-1e25ece92930.jpg",
+            "image": "shopify://shop_images/PUSA.png",
             "caption": "True playing distance",
             "heading": "Slope Technology",
             "text": "<p>Play the true playing distance every shot. We'll do the math for you regardless of your lie and tell you how far your next shot truly is. Club up or down with confidence. </p>",
@@ -284,7 +283,7 @@
         "row_6YCPxg": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_69_55995d19-0496-4e58-b4c5-a01418e09293.png",
+            "image": "shopify://shop_images/EU_button.png",
             "caption": "Extremely",
             "heading": "Easy To Use",
             "text": "<p>Combining one click readings, first target acquisition on a 4K OLED screen, some are saying this is the easiest rangefinder to use regardless of your handicap.</p>",
@@ -514,7 +513,7 @@
         "image_QJJyGn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_-_2025-06-17T085526.709.png"
+            "image": "shopify://shop_images/8_01d3940a-0230-47f2-a02c-d0ff1796c525.png"
           }
         }
       },
@@ -540,7 +539,7 @@
         "image_cENgTq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/25.png"
+            "image": "shopify://shop_images/RCBUNDLE_1.png"
           }
         },
         "image_XbyAnh": {
@@ -738,7 +737,10 @@
       "blocks": {
         "judge_me_reviews_review_widget_MqhpFj": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
         }
       },
       "block_order": [
