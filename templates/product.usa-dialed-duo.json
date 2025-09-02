@@ -788,62 +788,6 @@
         "padding_bottom": 52
       }
     },
-    "multicolumn_yJVCJc": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_khaUAm": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Michael_Breed_1000_x_800_px_1080_x_1080_px.jpg",
-            "title": "Michael Breed",
-            "text": "<p><em><strong>PGA Teacher Of  Year </strong></em><em><br/>\"Pinned Rangefinders are by far my go to rangefinder and it's not even close. The accuracy is unmatched.\"</em></p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_Ty8qTc": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Untitled_design_25_dd27095e-3aeb-48f1-8a27-0d013812acbe.jpg",
-            "title": "Jeff Hamley",
-            "text": "<p><em><strong>PGA Tour Caddie</strong></em></p><p><em>\"When we prepare for each week’s PGA Tour event, I trust Pinned Golf’s rangefinder to help me dial in our strategy.\"</em></p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_NaA3DW": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Untitled_design_26_a4b30e45-7b4f-4465-9a8a-8eff20dccc98.jpg",
-            "title": "Jake Hutt",
-            "text": "<p><em><strong>PGA Class A Teacher</strong></em></p><p><em>\"Have been rocking with Pinned's rangefinder for years now. They keep getting better and better every year.”</em></p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_khaUAm",
-        "column_Ty8qTc",
-        "column_NaA3DW"
-      ],
-      "settings": {
-        "title": "<strong>Trusted By</strong>",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "rich_text_7XNfat": {
       "type": "rich-text",
       "blocks": {
@@ -873,60 +817,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "171176697446b6f676": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_MqhpFj": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "review_data": "sample_data",
-            "max_width": 1200
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_MqhpFj"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "rich_text_W893Fz": {
-      "type": "rich-text",
-      "blocks": {
-        "button_QpPNgQ": {
-          "type": "button",
-          "settings": {
-            "button_label": "Buy Prism+ Rangefinder",
-            "button_link": "#top",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "button_QpPNgQ"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 20
-      }
-    },
-    "custom_liquid_wPWb9N": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<script>\nArray.from(document.getElementsByTagName('a')).filter((a) => a.hash === '#top').forEach((a) => a.addEventListener('click', (e) => {e.preventDefault(); document.body.scrollIntoView({block: 'start', behavior: 'smooth'}); }))\n</script>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "multirow_K3tH73": {
@@ -987,6 +877,60 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_W893Fz": {
+      "type": "rich-text",
+      "blocks": {
+        "button_QpPNgQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Prism+ Rangefinder",
+            "button_link": "#top",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_QpPNgQ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "custom_liquid_wPWb9N": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script>\nArray.from(document.getElementsByTagName('a')).filter((a) => a.hash === '#top').forEach((a) => a.addEventListener('click', (e) => {e.preventDefault(); document.body.scrollIntoView({block: 'start', behavior: 'smooth'}); }))\n</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "171176697446b6f676": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_MqhpFj": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_MqhpFj"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -1008,11 +952,10 @@
     "rich_text_HFfnaL",
     "related-products",
     "custom_liquid_PRJMPr",
-    "multicolumn_yJVCJc",
     "rich_text_7XNfat",
-    "171176697446b6f676",
+    "multirow_K3tH73",
     "rich_text_W893Fz",
     "custom_liquid_wPWb9N",
-    "multirow_K3tH73"
+    "171176697446b6f676"
   ]
 }
