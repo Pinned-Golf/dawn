@@ -211,7 +211,7 @@
     "image_banner_w8Rjbn": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify://shop_images/3_3d77bd69-54e0-42de-8b99-23b3f6d2c190.png",
+        "image": "shopify://shop_images/Website_Hero_8.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -255,7 +255,7 @@
         "row_hqhrD3": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/3_e086adca-9d53-4466-a810-cd369f74b68b.jpg",
+            "image": "shopify://shop_images/Instagram_post_-_62.png",
             "caption": "Get Dialed in with the",
             "heading": "Prism+ Rangefinder",
             "text": "<p>This laser rangefinder is packed with new cutting edge software, a dialed in performance aesthetic and never before seen features. The Prism+ is a stylish testament to our commitment to innovation and making the game of golf more fun. </p>",
@@ -266,10 +266,10 @@
         "row_dHXDxk": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/14_cffa2978-f3ef-41bd-9d50-269b49ef9a42.png",
+            "image": "shopify://shop_images/2_9ca17136-67e3-44d0-a7a2-38e5bba77044.png",
             "caption": "Turn up the vibes with",
-            "heading": "Dart 2.0 Speaker",
-            "text": "<p>The Dart 2.0 is our upgraded portable golf speaker, built to deliver richer sound, longer battery life, and a sleeker, more durable design. It’s the ultimate course companion—keeping the music loud, the vibes high, whether you're walking or riding. </p>",
+            "heading": "Sound Stick Speaker",
+            "text": "<p>Turn your golf experience up a notch with The Sound Stick! The perfect speaker for golf lovers looking to unleash their inner DJ out on the course. The Sound Stick comes in 6 different colors, has a built-in magnet and a battery that lasts 15+ hours! Better Music. Better Vibes. Better Golf.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -396,7 +396,7 @@
           "settings": {
             "image": "shopify://shop_images/Dart_speakers_-_Combinations_-_Black_Gray_a1f9a4cd-6c89-41ea-ad8c-2c1889e0c063.jpg",
             "title": "Party Mode",
-            "text": "<p>Connect two Darts and turn up the vibes during your round.</p>",
+            "text": "<p>Connect two Sound Sticks and turn up the vibes during your round.</p>",
             "link_label": "",
             "link": ""
           }
@@ -405,7 +405,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/5_140ece06-b6a0-404b-85c5-cc981ba9ba35.png",
-            "title": "10 Hr Battery Life",
+            "title": "15+ Hr Battery Life",
             "text": "<p>The tunes never have to stop. One charge will keep you jamming out for multiple rounds!</p>",
             "link_label": "",
             "link": ""
@@ -429,7 +429,7 @@
         "column_KjrRdR"
       ],
       "settings": {
-        "title": "Explore Dart 2.0",
+        "title": "Explore Sound Stick",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
