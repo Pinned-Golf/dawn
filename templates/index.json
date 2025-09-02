@@ -15,15 +15,8 @@
         "heading_CHMAFd": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Ryder Cup Collection</strong>",
+            "heading": "Ryder Cup Collection",
             "heading_size": "h2"
-          }
-        },
-        "text_mWLmWw": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "caption-with-letter-spacing"
           }
         },
         "buttons_7aQWYe": {
@@ -40,21 +33,21 @@
       },
       "block_order": [
         "heading_CHMAFd",
-        "text_mWLmWw",
         "buttons_7aQWYe"
       ],
       "custom_css": [
         "@media only screen and (max-width: 749px) {.banner {min-height: 70vh; /* Adjust this height as needed */ } .banner__media {height: 100%; width: 100%; object-fit: cover; }}",
         ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50rem;}",
-        "@media screen and (min-width: 750px) {.banner--large:not(.banner--adapt) {min-height: 90rem; }}"
+        "@media screen and (min-width: 750px) {.banner--large:not(.banner--adapt) {min-height: 90rem; }}",
+        ".banner__content {align-items: flex-end;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_17.png",
+        "image": "shopify://shop_images/Website_Hero_9.png",
         "image_overlay_opacity": 10,
         "image_height": "adapt",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "bottom-left",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
