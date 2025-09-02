@@ -497,7 +497,7 @@
         ".banner__content {align-items: flex-end;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Website_Hero_20.jpg",
+        "image": "shopify://shop_images/Website_Hero_12.png",
         "image_overlay_opacity": 10,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
