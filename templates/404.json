@@ -34,7 +34,7 @@
           "type": "button",
           "settings": {
             "button_label": "Return To Shop",
-            "button_link": "shopify://collections/fathers-day-sale",
+            "button_link": "shopify://collections/pinned-golf-shop",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
