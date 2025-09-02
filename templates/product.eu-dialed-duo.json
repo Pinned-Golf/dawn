@@ -928,6 +928,65 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "multirow_KBfXXX": {
+      "type": "multirow",
+      "blocks": {
+        "row_Nm4Hi6": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_29_05b7695b-986f-4890-888e-4a1ca373b3c3.jpg",
+            "caption": "PGA Teacher of the year",
+            "heading": "Michael Breed",
+            "text": "<p><em>\"Pinned Rangefinders are by far my go to rangefinders and it's not even close. The accuracy is unmatched.\"</em></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_8D4jXU": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_26_e2f53763-c20a-4125-b3c8-897c963611b6.jpg",
+            "caption": "PGA Class A Teacher",
+            "heading": "Jake Hutt",
+            "text": "<p><em>\"Have been rocking with Pinned's rangefinder for years now. They keep getting better and better every year.”</em></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_nbinbK": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2025-04-17T092443.526_e5331bb3-2c8b-4125-850b-d2c4a0603281.png",
+            "caption": "PGA Tour Caddie",
+            "heading": "Jeff Hamley",
+            "text": "<p><em>\"When we prepare for each week’s PGA Tour event, I trust Pinned Golf’s range finger to help me dial in our strategy.\"</em></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_Nm4Hi6",
+        "row_8D4jXU",
+        "row_nbinbK"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -953,6 +1012,7 @@
     "rich_text_7XNfat",
     "171176697446b6f676",
     "rich_text_W893Fz",
-    "custom_liquid_wPWb9N"
+    "custom_liquid_wPWb9N",
+    "multirow_KBfXXX"
   ]
 }
