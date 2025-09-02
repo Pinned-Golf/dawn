@@ -254,22 +254,6 @@
         "padding_bottom": 12
       }
     },
-    "image_banner_YTFPAp": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify://shop_images/dart_comparison.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "rich_text_rk9B8n": {
       "type": "rich-text",
       "blocks": {
@@ -466,7 +450,10 @@
       "blocks": {
         "judge_me_reviews_review_widget_MqhpFj": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
         }
       },
       "block_order": [
@@ -509,7 +496,6 @@
     "main",
     "image_banner_AgN8Rt",
     "multirow_DgY64M",
-    "image_banner_YTFPAp",
     "rich_text_rk9B8n",
     "collage_tcaNLP",
     "video_QEMecD",
