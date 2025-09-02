@@ -30,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Sale",
-            "button_link_1": "shopify://collections/national-golf-month",
+            "button_link_1": "shopify://collections/the-ryder-cup-collection",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -80,22 +80,22 @@
         "heading_6nE9Ud": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Caddie Bundle</strong>",
+            "heading": "<strong>Future of golf awaits.</strong>",
             "heading_size": "h0"
           }
         },
         "text_tGiMr6": {
           "type": "text",
           "settings": {
-            "text": "<strong>Caddie + Free Sound Stick Speaker</strong>",
+            "text": "",
             "text_style": "caption-with-letter-spacing"
           }
         },
         "buttons_FdTLpQ": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Bundle",
-            "button_link_1": "shopify://products/ngm-caddie-bundle",
+            "button_label_1": "Shop Caddie",
+            "button_link_1": "",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
