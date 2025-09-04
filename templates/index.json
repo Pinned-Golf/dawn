@@ -192,29 +192,6 @@
         "show_text_below": false
       }
     },
-    "image_banner_QJMVBf": {
-      "type": "image-banner",
-      "disabled": true,
-      "custom_css": [
-        "@media only screen and (max-width: 749px) {.banner {min-height: 70vh; /* Adjust this height as needed */ } .banner__media {height: 100%; width: 100%; object-fit: cover; }}",
-        ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50rem;}",
-        "@media screen and (min-width: 750px) {.banner--large:not(.banner--adapt) {min-height: 90rem; }}",
-        ".banner__content {align-items: flex-end;}"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/UP_2048_x_1365_px_2048_x_1080_px_5.jpg",
-        "image_overlay_opacity": 10,
-        "image_height": "large",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-4",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "rich_text_GqENi6": {
       "type": "rich-text",
       "settings": {
@@ -734,7 +711,6 @@
     "image_banner_qEr3ez",
     "rich_text_4CKN8R",
     "image_banner_4ac4Cg",
-    "image_banner_QJMVBf",
     "rich_text_GqENi6",
     "image_banner_rft3CR",
     "collapsible_content_rT76Q4",
