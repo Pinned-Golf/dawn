@@ -209,7 +209,7 @@
         "heading_xmxqFF": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Better swag await.</strong>",
+            "heading": "<strong>Better vibes await.</strong>",
             "heading_size": "h0"
           }
         },
@@ -223,8 +223,8 @@
         "buttons_JjRAMK": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Accessories",
-            "button_link_1": "shopify://collections/accessories",
+            "button_label_1": "Shop Speakers",
+            "button_link_1": "shopify://collections/speakers",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -331,15 +331,15 @@
         "heading_HBVKqz": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Trade-In Your Rangefinder.</strong>",
+            "heading": "<strong>Better swag awaits.</strong>",
             "heading_size": "h0"
           }
         },
         "buttons_FNxefD": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Fore The Kids Program",
-            "button_link_1": "shopify://pages/forethekids",
+            "button_label_1": "Shop Accessories",
+            "button_link_1": "shopify://collections/accessories",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -351,7 +351,6 @@
         "heading_HBVKqz",
         "buttons_FNxefD"
       ],
-      "disabled": true,
       "custom_css": [
         "@media only screen and (max-width: 749px) {.banner {min-height: 70vh; /* Adjust this height as needed */ } .banner__media {height: 100%; width: 100%; object-fit: cover; }}",
         ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50rem;}",
