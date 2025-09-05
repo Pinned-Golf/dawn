@@ -268,6 +268,17 @@
         "padding_bottom": 4
       }
     },
+    "rich_text_PUFE4m": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
     "image_banner_xTdKjF": {
       "type": "image-banner",
       "blocks": {
@@ -545,6 +556,7 @@
     "image_banner_j6YRq7",
     "image_banner_zydXMz",
     "featured_collection_GTncrW",
+    "rich_text_PUFE4m",
     "1730301771a79b1aa4",
     "featured_collection_UNUabC",
     "newsletter_qzCyW7"
