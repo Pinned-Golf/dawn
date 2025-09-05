@@ -209,7 +209,7 @@
         "heading_xmxqFF": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Better vibes await.</strong>",
+            "heading": "<strong>Better swag await.</strong>",
             "heading_size": "h0"
           }
         },
@@ -223,8 +223,8 @@
         "buttons_JjRAMK": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Speakers",
-            "button_link_1": "shopify://collections/speakers",
+            "button_label_1": "Shop Accessories",
+            "button_link_1": "shopify://collections/accessories",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -257,124 +257,6 @@
         "show_text_below": false
       }
     },
-    "collapsible_content_rT76Q4": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_q8xcaM": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Elevate Your Game",
-            "icon": "heart",
-            "row_content": "<p>Whether you’re an avid golf addict or just getting started, our products aim to impress. They're accurate, user-friendly, and packed with top-of-the-line features.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_CtrEpK": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Style That Turns Heads",
-            "icon": "fire",
-            "row_content": "<p>Golf gear doesn't have to be boring. We've focused on creating products with vibrant colors, captivating designs, and a modern, sleek style guaranteed to turn heads on the course.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_hFPCH8": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Push The Envelop",
-            "icon": "lightning_bolt",
-            "row_content": "<p>Innovation fuels us. We're constantly exploring new frontiers in golf technology to give you a competitive edge. When you choose a Pinned product, you're investing in the latest and greatest the industry has to offer.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_CnpitJ": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Stand The Test Of Time",
-            "icon": "stopwatch",
-            "row_content": "<p>We're committed to durability and longevity. Pinned products are crafted with the toughest materials and rigorous testing to withstand any battle they face on the course. This ensures they're on the course with you round after round, season after season.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_q8xcaM",
-        "collapsible_row_CtrEpK",
-        "collapsible_row_hFPCH8",
-        "collapsible_row_CnpitJ"
-      ],
-      "disabled": true,
-      "settings": {
-        "caption": "All our products live up to the",
-        "heading": "Pinned Promise.",
-        "heading_size": "h0",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": true,
-        "image": "shopify://shop_images/Frame_2a5.jpg",
-        "image_ratio": "adapt",
-        "desktop_layout": "image_first",
-        "padding_top": 28,
-        "padding_bottom": 32
-      }
-    },
-    "image_banner_cmb9y7": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_cJ3FfT": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Dart 2.0 Bundle</strong>",
-            "heading_size": "h0"
-          }
-        },
-        "text_mRaHPf": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>Dart 2.0 + Free Ball Marker</strong>",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "buttons_ATTNUc": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Bundle",
-            "button_link_1": "shopify://products/ngm-dart-2-0-speaker",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_cJ3FfT",
-        "text_mRaHPf",
-        "buttons_ATTNUc"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "@media only screen and (max-width: 749px) {.banner {min-height: 70vh; /* Adjust this height as needed */ } .banner__media {height: 100%; width: 100%; object-fit: cover; }}",
-        ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50rem;}",
-        "@media screen and (min-width: 750px) {.banner--large:not(.banner--adapt) {min-height: 90rem; }}",
-        ".banner__content {align-items: flex-end;}"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_14.png",
-        "image_overlay_opacity": 10,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "rich_text_wR6TAa": {
       "type": "rich-text",
       "settings": {
@@ -384,61 +266,6 @@
         "full_width": true,
         "padding_top": 4,
         "padding_bottom": 4
-      }
-    },
-    "image_banner_xLmpqr": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_d6mGCm": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Ryder Cup Collection</strong>",
-            "heading_size": "h0"
-          }
-        },
-        "text_dNqhzr": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "buttons_hdNB6H": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Collection",
-            "button_link_1": "shopify://collections/the-ryder-cup-collection",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_d6mGCm",
-        "text_dNqhzr",
-        "buttons_hdNB6H"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "@media only screen and (max-width: 749px) {.banner {min-height: 70vh; /* Adjust this height as needed */ } .banner__media {height: 100%; width: 100%; object-fit: cover; }}",
-        ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50rem;}",
-        "@media screen and (min-width: 750px) {.banner--large:not(.banner--adapt) {min-height: 90rem; }}",
-        ".banner__content {align-items: flex-end;}"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_17.png",
-        "image_overlay_opacity": 10,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
       }
     },
     "image_banner_xTdKjF": {
@@ -532,7 +359,7 @@
         ".banner__content {align-items: flex-end;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Website_Hero_21.jpg",
+        "image": "shopify://shop_images/Website_Hero_14.png",
         "image_overlay_opacity": 10,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -713,10 +540,7 @@
     "image_banner_4ac4Cg",
     "rich_text_GqENi6",
     "image_banner_rft3CR",
-    "collapsible_content_rT76Q4",
-    "image_banner_cmb9y7",
     "rich_text_wR6TAa",
-    "image_banner_xLmpqr",
     "image_banner_xTdKjF",
     "rich_text_VdgCAW",
     "image_banner_j6YRq7",
