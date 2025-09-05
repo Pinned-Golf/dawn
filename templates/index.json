@@ -268,15 +268,50 @@
         "padding_bottom": 4
       }
     },
-    "rich_text_PUFE4m": {
-      "type": "rich-text",
+    "image_banner_j6YRq7": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_HBVKqz": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Better swag awaits.</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "buttons_FNxefD": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Accessories",
+            "button_link_1": "shopify://collections/accessories",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_HBVKqz",
+        "buttons_FNxefD"
+      ],
+      "custom_css": [
+        "@media only screen and (max-width: 749px) {.banner {min-height: 70vh; /* Adjust this height as needed */ } .banner__media {height: 100%; width: 100%; object-fit: cover; }}",
+        ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50rem;}",
+        "@media screen and (min-width: 750px) {.banner--large:not(.banner--adapt) {min-height: 90rem; }}",
+        ".banner__content {align-items: flex-end;}"
+      ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 4,
-        "padding_bottom": 4
+        "image": "shopify://shop_images/Website_Hero_14.png",
+        "image_overlay_opacity": 10,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "image_banner_xTdKjF": {
@@ -334,52 +369,6 @@
         "full_width": true,
         "padding_top": 4,
         "padding_bottom": 4
-      }
-    },
-    "image_banner_j6YRq7": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_HBVKqz": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Better swag awaits.</strong>",
-            "heading_size": "h0"
-          }
-        },
-        "buttons_FNxefD": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Accessories",
-            "button_link_1": "shopify://collections/accessories",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_HBVKqz",
-        "buttons_FNxefD"
-      ],
-      "custom_css": [
-        "@media only screen and (max-width: 749px) {.banner {min-height: 70vh; /* Adjust this height as needed */ } .banner__media {height: 100%; width: 100%; object-fit: cover; }}",
-        ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50rem;}",
-        "@media screen and (min-width: 750px) {.banner--large:not(.banner--adapt) {min-height: 90rem; }}",
-        ".banner__content {align-items: flex-end;}"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Website_Hero_14.png",
-        "image_overlay_opacity": 10,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
       }
     },
     "image_banner_zydXMz": {
@@ -459,6 +448,17 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "rich_text_PUFE4m": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 4
       }
     },
     "1730301771a79b1aa4": {
@@ -551,9 +551,9 @@
     "rich_text_GqENi6",
     "image_banner_rft3CR",
     "rich_text_wR6TAa",
-    "image_banner_xTdKjF",
-    "rich_text_VdgCAW",
     "image_banner_j6YRq7",
+    "rich_text_VdgCAW",
+    "image_banner_xTdKjF",
     "image_banner_zydXMz",
     "featured_collection_GTncrW",
     "rich_text_PUFE4m",
