@@ -648,6 +648,7 @@
       "block_order": [
         "image_cKdbHM"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
