@@ -877,6 +877,7 @@
         "heading_BQtWhe",
         "text_6TUBRj"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -889,6 +890,7 @@
     },
     "video_iErkPe": {
       "type": "video",
+      "disabled": true,
       "name": "t:sections.video.presets.name",
       "settings": {
         "heading": "",
@@ -905,6 +907,7 @@
     },
     "video_nGX7J8": {
       "type": "video",
+      "disabled": true,
       "name": "t:sections.video.presets.name",
       "settings": {
         "heading": "",
