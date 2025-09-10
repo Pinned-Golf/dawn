@@ -130,6 +130,16 @@
             "content": "",
             "page": "4-core-product-values"
           }
+        },
+        "collapsible_tab_KLpdBw": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "default_open": false,
+            "icon": "check_mark",
+            "content": "",
+            "page": "course-search"
+          }
         }
       },
       "block_order": [
@@ -148,7 +158,8 @@
         "collapsible_tab_mFpMHC",
         "collapsible_tab_ULUXpP",
         "collapsible_tab_LEjyQf",
-        "collapsible_tab_ydzdBh"
+        "collapsible_tab_ydzdBh",
+        "collapsible_tab_KLpdBw"
       ],
       "custom_css": [
         "span[data-selected-swatch-value] {font-weight: 600;}",
