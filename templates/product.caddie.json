@@ -707,8 +707,8 @@
         "column_7E8hdq": {
           "type": "column",
           "settings": {
-            "title": "Game Changer",
-            "text": "<p><em>“The Caddie has completely changed how I play. It’s like having a personal caddie every round. Accurate yardages and an easy interface—love it!”</em></p><p><strong>Eddie, Delray Beach, FL</strong></p>",
+            "title": "Love It!!!",
+            "text": "<p><em>\"The Caddie from Pinned Golf has been a game-changer. The GPS is spot on, easy to use, and gives me confidence on every shot.\"</em></p><p><strong>Bill W. </strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -716,8 +716,8 @@
         "column_34PWE7": {
           "type": "column",
           "settings": {
-            "title": "Effortless and Accurate",
-            "text": "<p><em>“This tablet is so simple to use yet packed with features. Knowing yardages to every spot on the course has been a game-changer for my club selection.”</em></p><p><strong>Chris, Scottsdale, AZ</strong></p>",
+            "title": "I love it!",
+            "text": "<p><em>\"Really great if yoou are playing a coarse that you’re not familiar with. You can see the layout and mark distance…It’s great!\"</em></p><p><strong>Jason C.</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -726,7 +726,7 @@
           "type": "column",
           "settings": {
             "title": "Worth Every Penny",
-            "text": "<p><em>“The Caddie is now a must-have in my bag. It’s reliable, lightweight, and has saved me strokes with precise distances every round.”</em></p><p><strong>Emily, Palm Beach, FL</strong></p>",
+            "text": "<p><em>“The Caddie is now a must-have in my bag. It’s reliable, lightweight, and has saved me strokes with precise distances every round.”</em></p><p><strong>Emily</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -734,8 +734,8 @@
         "column_LLaAj4": {
           "type": "column",
           "settings": {
-            "title": "Confidence at new courses",
-            "text": "<p><em>“The Caddie tablet has given me the confidence I need when playing a new course. I know exactly where everything on the course is like i've played it 100 times before.”</em></p><p><strong>Morgan, San Diego, CA</strong></p>",
+            "title": "Better than expected",
+            "text": "<p><em>\"I love my new Pinned Caddie. Easy to use and easy to keep score. The magnet is very strong too!\"</em></p><p><strong>Michael B.</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -949,6 +949,62 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multirow_qEcfUq": {
+      "type": "multirow",
+      "blocks": {
+        "row_m8zDpE": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_h96TF6": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_EFV7Qe": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_m8zDpE",
+        "row_h96TF6",
+        "row_EFV7Qe"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -975,6 +1031,7 @@
     "rich_text_8P3cJa",
     "video_iErkPe",
     "video_nGX7J8",
-    "featured_collection_6GNVMD"
+    "featured_collection_6GNVMD",
+    "multirow_qEcfUq"
   ]
 }
