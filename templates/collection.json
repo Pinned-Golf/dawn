@@ -9,34 +9,6 @@
  */
 {
   "sections": {
-    "image_banner_Rmjip3": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_H6g6RQ": {
-          "type": "heading",
-          "settings": {
-            "heading": "The Shop",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_H6g6RQ"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_10.png",
-        "image_overlay_opacity": 10,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "right",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -65,11 +37,54 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_DEMehe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_heYChY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pinned Golf Shop",
+            "heading_size": "h1"
+          }
+        },
+        "text_7af9qV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Products built with precision, durability, and performance in mind, delivering the kind of quality golfers can trust round after round. Every detail is designed to not just meet expectations, but to exceed them on and off the course.</p>"
+          }
+        },
+        "button_BxgdUd": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_heYChY",
+        "text_7af9qV",
+        "button_BxgdUd"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "image_banner_Rmjip3",
     "banner",
-    "product-grid"
+    "product-grid",
+    "rich_text_DEMehe"
   ]
 }
