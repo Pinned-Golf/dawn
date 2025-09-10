@@ -990,6 +990,7 @@
         "row_h96TF6",
         "row_EFV7Qe"
       ],
+      "disabled": true,
       "name": "t:sections.multirow.presets.name",
       "settings": {
         "image_height": "medium",
