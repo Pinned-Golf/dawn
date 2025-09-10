@@ -11,8 +11,28 @@
   "sections": {
     "image_banner_Rmjip3": {
       "type": "image-banner",
+      "blocks": {
+        "heading_wqfPjw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rangefinders",
+            "heading_size": "h1"
+          }
+        },
+        "text_PTEJHx": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Always dialed in.</strong>",
+            "text_style": "caption-with-letter-spacing"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wqfPjw",
+        "text_PTEJHx"
+      ],
       "settings": {
-        "image": "shopify://shop_images/holidaty_dale.png",
+        "image": "shopify://shop_images/Website_Hero_17.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-left",
