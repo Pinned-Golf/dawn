@@ -32,7 +32,7 @@
         "heading_ATAptY"
       ],
       "settings": {
-        "image": "shopify://shop_images/Website_Hero_15.jpg",
+        "image": "shopify://shop_images/Website_Hero_18.png",
         "image_overlay_opacity": 10,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -57,9 +57,9 @@
         "heading_size": "h1",
         "description": "<p><em>See if your course is one of the 45,000+ you'll have access to on the Caddie. </em></p><p><em><strong>Be sure to spell the full course name. </strong></em></p>",
         "additional_text": "",
-        "border_radius": 34,
+        "border_radius": 14,
         "results_border_width": 2,
-        "results_border_radius": 7,
+        "results_border_radius": 2,
         "title_alignment": "center",
         "description_alignment": "center",
         "additional_text_alignment": "center",
@@ -91,7 +91,7 @@
         "text_GwLXbB": {
           "type": "text",
           "settings": {
-            "text": "<strong>PRESALE | </strong>Shipping in May",
+            "text": "",
             "text_style": "uppercase"
           }
         },
