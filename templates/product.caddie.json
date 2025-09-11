@@ -72,13 +72,6 @@
             "text_style": "body"
           }
         },
-        "share": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "icon_with_text_UWmnYD": {
           "type": "icon-with-text",
           "settings": {
@@ -92,6 +85,19 @@
             "icon_3": "none",
             "image_3": "shopify://shop_images/5_9808a1fa-eaea-4906-a090-0721f22132a4.jpg",
             "heading_3": "Top Tier Support"
+          }
+        },
+        "complementary_Cg46r7": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 3,
+            "products_per_page": 1,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true
           }
         },
         "collapsible_tab_mFpMHC": {
@@ -146,8 +152,8 @@
         "quantity_selector_a4gife",
         "buy_buttons",
         "text_ExJaTM",
-        "share",
         "icon_with_text_UWmnYD",
+        "complementary_Cg46r7",
         "collapsible_tab_mFpMHC",
         "collapsible_tab_ULUXpP",
         "collapsible_tab_LEjyQf",
