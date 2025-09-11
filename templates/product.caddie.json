@@ -635,31 +635,6 @@
         "padding_bottom": 36
       }
     },
-    "collage_346tEm": {
-      "type": "collage",
-      "blocks": {
-        "image_cKdbHM": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Frame_93k64.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "image_cKdbHM"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "none",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "rich_text_aQeAa3": {
       "type": "rich-text",
       "blocks": {
@@ -1026,7 +1001,6 @@
     "collage_7xmBeb",
     "collage_WxqWfN",
     "collage_fgFDfL",
-    "collage_346tEm",
     "rich_text_aQeAa3",
     "multicolumn_pHTL4n",
     "collapsible_content_K3TTNR",
