@@ -367,35 +367,6 @@
         "image_drop_shadow": "none"
       }
     },
-    "rich_text_rk9B8n": {
-      "type": "rich-text",
-      "blocks": {
-        "button_JY4HTi": {
-          "type": "button",
-          "settings": {
-            "button_label": "Buy The Prism+",
-            "button_link": "shopify://products/prism-plus-rangefinder",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "button_JY4HTi"
-      ],
-      "disabled": true,
-      "custom_css": [],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -417,7 +388,6 @@
     },
     "custom_liquid_PRJMPr": {
       "type": "custom-liquid",
-      "disabled": true,
       "custom_css": [
         "div {text-align: center;}"
       ],
@@ -982,6 +952,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_liquid_4JtByn": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<a id=\"scroll-to-top\" class=\"button button--primary\" href=\"#\">Buy The {{product.title}}</a>\n<script>\n  document.getElementById('scroll-to-top').addEventListener('click', (evt) => {\n    evt.preventDefault();\n    evt.stopPropagation();\n    document.querySelector('form[data-type=\"add-to-cart-form\"]').scrollIntoView({ behavior: \"smooth\", block: \"end\", inline: \"nearest\" })\n  });\n</script>",
+        "color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -991,7 +970,6 @@
     "rich_text_Pzp6bP",
     "multirow_DgY64M",
     "course_search_QWVePx",
-    "rich_text_rk9B8n",
     "related-products",
     "custom_liquid_PRJMPr",
     "collapsible_content_j6wfqJ",
@@ -1008,6 +986,7 @@
     "video_iErkPe",
     "video_nGX7J8",
     "featured_collection_6GNVMD",
-    "multirow_qEcfUq"
+    "multirow_qEcfUq",
+    "custom_liquid_4JtByn"
   ]
 }
