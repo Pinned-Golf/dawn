@@ -386,18 +386,6 @@
         "padding_bottom": 28
       }
     },
-    "custom_liquid_PRJMPr": {
-      "type": "custom-liquid",
-      "custom_css": [
-        "div {text-align: center;}"
-      ],
-      "settings": {
-        "custom_liquid": "<a id=\"scroll-to-top\" class=\"button button--primary\" href=\"#\">Buy {{product.title}}</a>\n<script>\n  document.getElementById('scroll-to-top').addEventListener('click', (evt) => {\n    evt.preventDefault();\n    evt.stopPropagation();\n    document.querySelector('form[data-type=\"add-to-cart-form\"]').scrollIntoView({ behavior: \"smooth\", block: \"end\", inline: \"nearest\" })\n  });\n</script>",
-        "color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "collapsible_content_j6wfqJ": {
       "type": "collapsible-content",
       "blocks": {
@@ -903,30 +891,33 @@
         "row_m8zDpE": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "image": "shopify://shop_images/2_b86464b4-cb6b-41ec-a873-1bbb7955662f.png",
+            "caption": "Golf Influencer",
+            "heading": "Hailey Ostrom",
+            "text": "<p><em>“The Caddie has completely changed how I approach my rounds. Having all the yardages and course details right in front of me lets me focus on my swing instead of my phone. It’s like having a tour-level caddie by my side every hole.”</em></p>",
+            "button_label": "",
             "button_link": ""
           }
         },
         "row_h96TF6": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "image": "shopify://shop_images/6_0b1b77a8-bd2c-4abc-a584-01ca09c7e83e.png",
+            "caption": "Division 1 golfer",
+            "heading": "Conner Beakey",
+            "text": "<p><em>“As a competitive golfer, I rely on precision, and The Caddie delivers exactly that. It’s fast, easy to use, and keeps me locked in on the course without distractions.”</em></p>",
+            "button_label": "",
             "button_link": ""
           }
         },
         "row_EFV7Qe": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/4_6e087067-11f3-4379-bdf3-eaff0606b5b6.png",
             "caption": "Caption",
             "heading": "Row",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         }
@@ -936,7 +927,6 @@
         "row_h96TF6",
         "row_EFV7Qe"
       ],
-      "disabled": true,
       "name": "t:sections.multirow.presets.name",
       "settings": {
         "image_height": "medium",
@@ -952,6 +942,18 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "custom_liquid_PRJMPr": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div {text-align: center;}"
+      ],
+      "settings": {
+        "custom_liquid": "<a id=\"scroll-to-top\" class=\"button button--primary\" href=\"#\">Buy {{product.title}}</a>\n<script>\n  document.getElementById('scroll-to-top').addEventListener('click', (evt) => {\n    evt.preventDefault();\n    evt.stopPropagation();\n    document.querySelector('form[data-type=\"add-to-cart-form\"]').scrollIntoView({ behavior: \"smooth\", block: \"end\", inline: \"nearest\" })\n  });\n</script>",
+        "color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
