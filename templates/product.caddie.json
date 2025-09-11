@@ -87,10 +87,6 @@
             "heading_3": "Top Tier Support"
           }
         },
-        "one_click_upsell_on_page_Wqrahb": {
-          "type": "shopify://apps/one-click-upsell/blocks/on-page/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
-          "settings": {}
-        },
         "complementary_Cg46r7": {
           "type": "complementary",
           "disabled": true,
@@ -144,6 +140,10 @@
             "content": "",
             "page": "4-core-product-values"
           }
+        },
+        "one_click_upsell_on_page_Wqrahb": {
+          "type": "shopify://apps/one-click-upsell/blocks/on-page/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
+          "settings": {}
         }
       },
       "block_order": [
@@ -158,12 +158,12 @@
         "buy_buttons",
         "text_ExJaTM",
         "icon_with_text_UWmnYD",
-        "one_click_upsell_on_page_Wqrahb",
         "complementary_Cg46r7",
         "collapsible_tab_mFpMHC",
         "collapsible_tab_ULUXpP",
         "collapsible_tab_LEjyQf",
-        "collapsible_tab_ydzdBh"
+        "collapsible_tab_ydzdBh",
+        "one_click_upsell_on_page_Wqrahb"
       ],
       "custom_css": [
         "span[data-selected-swatch-value] {font-weight: 600;}",
