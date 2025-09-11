@@ -982,6 +982,12 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1757550508103bb664": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -1008,6 +1014,7 @@
     "video_iErkPe",
     "video_nGX7J8",
     "featured_collection_6GNVMD",
-    "multirow_qEcfUq"
+    "multirow_qEcfUq",
+    "1757550508103bb664"
   ]
 }
