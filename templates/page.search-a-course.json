@@ -45,29 +45,6 @@
         "show_text_below": false
       }
     },
-    "course_search_fhadpy": {
-      "type": "course-search",
-      "custom_css": [
-        "h1 {display: block; text-align: center; margin-bottom: 0;}",
-        "input {margin: 10px auto; height: 60px; display: block; width: 60%; min-width: 200px; padding: 1rem;}",
-        "#results {width: 50%; max-height: 400px; overflow-y: scroll; min-width: 200px; padding: 1rem; margin: 0 auto;}"
-      ],
-      "settings": {
-        "title": "<strong>45,000+ Courses</strong>",
-        "heading_size": "h1",
-        "description": "<p><em>See if your course is one of the 45,000+ you'll have access to on the Caddie. </em></p><p><em><strong>Be sure to spell the full course name. </strong></em></p>",
-        "additional_text": "",
-        "border_radius": 14,
-        "results_border_width": 2,
-        "results_border_radius": 2,
-        "title_alignment": "center",
-        "description_alignment": "center",
-        "additional_text_alignment": "center",
-        "image_behavior": "none",
-        "image_border_radius": 6,
-        "image_drop_shadow": "none"
-      }
-    },
     "image_banner_rJDpmL": {
       "type": "image-banner",
       "disabled": true,
@@ -294,17 +271,36 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "course_search_TbTRW3": {
+      "type": "course-search",
+      "name": "Course Search",
+      "settings": {
+        "title": "<strong>45,000+ Courses</strong>",
+        "heading_size": "h1",
+        "description": "<p><em>See if your course is one of the 45,000+ you'll have access to on the Caddie. </em></p>",
+        "additional_text": "<h6><em>TYPE FULL COURSE NAME & HIT SEARCH</em></h6>",
+        "border_radius": 5,
+        "results_border_width": 1,
+        "results_border_radius": 5,
+        "title_alignment": "center",
+        "description_alignment": "center",
+        "additional_text_alignment": "center",
+        "image_behavior": "none",
+        "image_border_radius": 5,
+        "image_drop_shadow": "none"
+      }
     }
   },
   "order": [
     "main",
     "image_banner_ETfWpw",
-    "course_search_fhadpy",
     "image_banner_rJDpmL",
     "featured_product_mF8xGC",
     "rich_text_CFaJgd",
     "video_nc4gFV",
     "multirow_gPeRfh",
-    "image_banner_TemCme"
+    "image_banner_TemCme",
+    "course_search_TbTRW3"
   ]
 }
