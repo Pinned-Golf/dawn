@@ -392,7 +392,7 @@
         "div {text-align: center;}"
       ],
       "settings": {
-        "custom_liquid": "<a id=\"scroll-to-top\" class=\"button button--primary\" href=\"#\">Buy The {{product.title}}</a>\n<script>\n  document.getElementById('scroll-to-top').addEventListener('click', (evt) => {\n    evt.preventDefault();\n    evt.stopPropagation();\n    document.querySelector('form[data-type=\"add-to-cart-form\"]').scrollIntoView({ behavior: \"smooth\", block: \"end\", inline: \"nearest\" })\n  });\n</script>",
+        "custom_liquid": "<a id=\"scroll-to-top\" class=\"button button--primary\" href=\"#\">Buy {{product.title}}</a>\n<script>\n  document.getElementById('scroll-to-top').addEventListener('click', (evt) => {\n    evt.preventDefault();\n    evt.stopPropagation();\n    document.querySelector('form[data-type=\"add-to-cart-form\"]').scrollIntoView({ behavior: \"smooth\", block: \"end\", inline: \"nearest\" })\n  });\n</script>",
         "color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -870,6 +870,7 @@
     },
     "featured_collection_6GNVMD": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Trending",
         "heading_size": "h1",
@@ -952,15 +953,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "custom_liquid_4JtByn": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<a id=\"scroll-to-top\" class=\"button button--primary\" href=\"#\">Buy The {{product.title}}</a>\n<script>\n  document.getElementById('scroll-to-top').addEventListener('click', (evt) => {\n    evt.preventDefault();\n    evt.stopPropagation();\n    document.querySelector('form[data-type=\"add-to-cart-form\"]').scrollIntoView({ behavior: \"smooth\", block: \"end\", inline: \"nearest\" })\n  });\n</script>",
-        "color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -971,7 +963,6 @@
     "multirow_DgY64M",
     "course_search_QWVePx",
     "related-products",
-    "custom_liquid_PRJMPr",
     "collapsible_content_j6wfqJ",
     "video_QGeh74",
     "collage_RBkzxK",
@@ -987,6 +978,6 @@
     "video_nGX7J8",
     "featured_collection_6GNVMD",
     "multirow_qEcfUq",
-    "custom_liquid_4JtByn"
+    "custom_liquid_PRJMPr"
   ]
 }
