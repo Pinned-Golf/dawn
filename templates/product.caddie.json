@@ -355,7 +355,7 @@
         "title": "<strong>Search your course</strong>",
         "heading_size": "h1",
         "description": "<p><em>Check to see if it's one of our 45,000+</em></p>",
-        "additional_text": "<h6><em>TYPE FULL COURSE NAME & HIT ENTER</em></h6>",
+        "additional_text": "<h6><em>TYPE FULL COURSE NAME & HIT SEARCH</em></h6>",
         "border_radius": 8,
         "results_border_width": 1,
         "results_border_radius": 5,
