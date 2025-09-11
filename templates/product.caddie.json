@@ -90,12 +90,12 @@
         "complementary_Cg46r7": {
           "type": "complementary",
           "settings": {
-            "block_heading": "Pairs well with",
-            "make_collapsible_row": false,
-            "icon": "price_tag",
-            "product_list_limit": 3,
-            "products_per_page": 1,
-            "pagination_style": "counter",
+            "block_heading": "",
+            "make_collapsible_row": true,
+            "icon": "none",
+            "product_list_limit": 2,
+            "products_per_page": 2,
+            "pagination_style": "dots",
             "image_ratio": "square",
             "enable_quick_add": true
           }
@@ -139,6 +139,10 @@
             "content": "",
             "page": "4-core-product-values"
           }
+        },
+        "one_click_upsell_on_page_Wqrahb": {
+          "type": "shopify://apps/one-click-upsell/blocks/on-page/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
+          "settings": {}
         }
       },
       "block_order": [
@@ -157,7 +161,8 @@
         "collapsible_tab_mFpMHC",
         "collapsible_tab_ULUXpP",
         "collapsible_tab_LEjyQf",
-        "collapsible_tab_ydzdBh"
+        "collapsible_tab_ydzdBh",
+        "one_click_upsell_on_page_Wqrahb"
       ],
       "custom_css": [
         "span[data-selected-swatch-value] {font-weight: 600;}",
