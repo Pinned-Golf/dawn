@@ -124,11 +124,10 @@
         },
         "collapsible_row_LEUJNB": {
           "type": "collapsible_row",
-          "disabled": true,
           "settings": {
-            "heading": "How do I keep score on The Caddie?",
+            "heading": "How do I update my software version?",
             "icon": "check_mark",
-            "row_content": "<p><em>After each hole, you’ll be prompted to enter your score. You can also track stats like fairways hit, greens in regulation, and putts for a more detailed view of your game.</em></p>",
+            "row_content": "<ol><li><strong>Connect Caddie to Wifi</strong></li><li><strong>Automatic Update Prompt</strong></li></ol><ul><li>If your device is on an older version, you’ll see a pop-up with instructions to update. Follow the steps shown (or skip to the next step for more details).</li></ul><p>3. <strong>No Prompt? </strong>Let’s do it manually</p><ul><li>Go to the home screen</li><li>Tap the More tab in the bottom right corner (Insert Icon)</li><li>Look for <strong>“ Check for Software Update”</strong> button as shown below</li><li>This screen will also show the current version of your device</li><li>If you’re not seeing this, click here:  <a href=\"https://youtu.be/mVXQOQ6DLYM?si=azVbxrWQO8L0qH3i\"><span style=\"text-decoration:underline\">Unlocking Caddie update #2</span></a> </li></ul>",
             "page": ""
           }
         },
@@ -459,6 +458,7 @@
         "text_tcU73i",
         "button_EX3aXy"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
