@@ -98,9 +98,9 @@
           "type": "collapsible_row",
           "disabled": true,
           "settings": {
-            "heading": "How do I get yardages during a round?",
+            "heading": "What if my course isn't on the Caddie?",
             "icon": "check_mark",
-            "row_content": "<p><em>The Caddie automatically shows your distance to the center, front, and back of the green. You also have the ability to tap the screen and receive distances anywhere on the course. Just glance at the screen, tap, and you’ll see real-time yardages based on your GPS location.</em></p>",
+            "row_content": "<ol><li><em>Email </em><a href=\"mailto:Support@pinnedgolf.com\"><span style=\"text-decoration:underline\"><em>Support@pinnedgolf.com</em></span></a></li><li><em>Let us know we need to get your course added and include the following information:</em></li></ol><ul><li><em>Course Name & Address</em></li><li><em>Attach an image of the scorecard </em></li><li><em>Include an image of the course layout if you have one</em></li></ul>",
             "page": ""
           }
         },
