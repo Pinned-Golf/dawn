@@ -67,6 +67,15 @@
     "collapsible_content_kx3c6m": {
       "type": "collapsible-content",
       "blocks": {
+        "collapsible_row_Hy6cce": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do I need to download the course before my round?",
+            "icon": "check_mark",
+            "row_content": "<p><em>Yes. The Caddie works 100% offline, due to the user downloading the course map on Wi-Fi before heading to the course. Once you’ve downloaded a course, it will stay saved on your Caddie forever.</em></p>",
+            "page": ""
+          }
+        },
         "collapsible_row_YeeG3d": {
           "type": "collapsible_row",
           "settings": {
@@ -76,12 +85,12 @@
             "page": ""
           }
         },
-        "collapsible_row_Hy6cce": {
+        "collapsible_row_LEUJNB": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Do I need to download the course before my round?",
+            "heading": "How do I update my software version?",
             "icon": "check_mark",
-            "row_content": "<p><em>Yes. The Caddie works 100% offline, due to the user downloading the course map on Wi-Fi before heading to the course. Once you’ve downloaded a course, it will stay saved on your Caddie forever.</em></p>",
+            "row_content": "<ol><li><strong>Connect Caddie to Wifi</strong></li><li><strong>Automatic Update Prompt</strong></li></ol><ul><li>If your device is on an older version, you’ll see a pop-up with instructions to update. Follow the steps shown (or skip to the next step for more details).</li></ul><p>3. <strong>No Prompt? </strong>Let’s do it manually</p><ul><li>Go to the home screen</li><li>Tap the More tab in the bottom right corner (Insert Icon)</li><li>Look for <strong>“ Check for Software Update”</strong> button as shown below</li><li>This screen will also show the current version of your device</li><li>If you’re not seeing this, click here:  <a href=\"https://youtu.be/mVXQOQ6DLYM?si=azVbxrWQO8L0qH3i\"><span style=\"text-decoration:underline\">Unlocking Caddie update #2</span></a> </li></ul>",
             "page": ""
           }
         },
@@ -122,15 +131,6 @@
             "page": ""
           }
         },
-        "collapsible_row_LEUJNB": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I update my software version?",
-            "icon": "check_mark",
-            "row_content": "<ol><li><strong>Connect Caddie to Wifi</strong></li><li><strong>Automatic Update Prompt</strong></li></ol><ul><li>If your device is on an older version, you’ll see a pop-up with instructions to update. Follow the steps shown (or skip to the next step for more details).</li></ul><p>3. <strong>No Prompt? </strong>Let’s do it manually</p><ul><li>Go to the home screen</li><li>Tap the More tab in the bottom right corner (Insert Icon)</li><li>Look for <strong>“ Check for Software Update”</strong> button as shown below</li><li>This screen will also show the current version of your device</li><li>If you’re not seeing this, click here:  <a href=\"https://youtu.be/mVXQOQ6DLYM?si=azVbxrWQO8L0qH3i\"><span style=\"text-decoration:underline\">Unlocking Caddie update #2</span></a> </li></ul>",
-            "page": ""
-          }
-        },
         "collapsible_row_zqQXeN": {
           "type": "collapsible_row",
           "settings": {
@@ -162,13 +162,13 @@
         }
       },
       "block_order": [
-        "collapsible_row_YeeG3d",
         "collapsible_row_Hy6cce",
+        "collapsible_row_YeeG3d",
+        "collapsible_row_LEUJNB",
         "collapsible_row_7jriY6",
         "collapsible_row_3KDDCd",
         "collapsible_row_FcTLYw",
         "collapsible_row_yEency",
-        "collapsible_row_LEUJNB",
         "collapsible_row_zqQXeN",
         "collapsible_row_mFXwJD",
         "collapsible_row_t6VmVE"
