@@ -67,6 +67,15 @@
     "collapsible_content_kx3c6m": {
       "type": "collapsible-content",
       "blocks": {
+        "collapsible_row_YeeG3d": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I adjust the brightness?",
+            "icon": "check_mark",
+            "row_content": "<ol><li><em>If you’re on the home screen, click the more icon. Scroll down to the settings and you’ll see an adjust brightness toggle bar. </em></li><li><em>If you’re in a game, click the in game menu  in the top left and slide the brightness scale to the brightness you'd like. </em></li><li><em>We also released an anti-glare screen protector that dramatically help with the screen brightness. </em><a href=\"https://pinnedgolf.com/products/caddie-screen-protector\" title=\"https://pinnedgolf.com/products/caddie-screen-protector\"><em><strong>You can buy one here! </strong></em></a></li></ol>",
+            "page": ""
+          }
+        },
         "collapsible_row_Hy6cce": {
           "type": "collapsible_row",
           "settings": {
@@ -154,6 +163,7 @@
         }
       },
       "block_order": [
+        "collapsible_row_YeeG3d",
         "collapsible_row_Hy6cce",
         "collapsible_row_7jriY6",
         "collapsible_row_3KDDCd",
