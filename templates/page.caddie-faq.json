@@ -109,7 +109,7 @@
           "settings": {
             "heading": " What should I do if a course map looks outdated or incorrect?",
             "icon": "check_mark",
-            "row_content": "<p><em>If you notice that a hole layout, yardage, or course detail looks off, shoot us a message at support@pinnedgolf.com with the course name and a quick description of the issue. Our team will review it and get the updated layout pushed live within a few days. We’ve got your back!</em></p>",
+            "row_content": "<p><em>If you notice that a hole layout, yardage, or course detail looks off or outdated, please click here to learn how to get this updated. </em></p>",
             "page": ""
           }
         },
