@@ -115,7 +115,7 @@
         "collapsible_row_LEUJNB": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Why is the screen so faint?",
+            "heading": "How do I change the brightness of my screen?",
             "icon": "check_mark",
             "row_content": "<p><em>If the screen looks faint, it’s likely on a lower brightness setting. Press and hold the target button before turning the unit on to cycle through BRT1–BRT5 and select the brightest display.</em></p>",
             "page": ""
