@@ -67,33 +67,6 @@
     "collapsible_content_kx3c6m": {
       "type": "collapsible-content",
       "blocks": {
-        "collapsible_row_U7XX4P": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Why doesn't it automatically go to next hole?",
-            "icon": "check_mark",
-            "row_content": "<p><em>As of right now, the Caddie is set up for golfers to keep score. So, the auto advance feature is disabled so it doesn't move to the next hole without the score being added. Auto Advance will be available via a software update week of July 7th. </em></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_NXML6g": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I edit/delete a round?",
-            "icon": "check_mark",
-            "row_content": "<p><em>As of right now, once you have submitted your round, you do not have the ability to edit/delete it. We wanted to make sure that all of your data was saved on your Caddie to keep accurate stats. But, this will become a feature that will be available via a software update by the end of July.</em></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_xkBHNm": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I edit my profile?",
-            "icon": "check_mark",
-            "row_content": "<p><em>As of right now, once you have submitted your profile, you do not have the ability to edit it. We wanted to make it easy for the golfers to get signed up. But, this will become a feature that will be available via a software update by the end of July.</em></p>",
-            "page": ""
-          }
-        },
         "collapsible_row_Hy6cce": {
           "type": "collapsible_row",
           "settings": {
@@ -181,9 +154,6 @@
         }
       },
       "block_order": [
-        "collapsible_row_U7XX4P",
-        "collapsible_row_NXML6g",
-        "collapsible_row_xkBHNm",
         "collapsible_row_Hy6cce",
         "collapsible_row_7jriY6",
         "collapsible_row_3KDDCd",
@@ -208,6 +178,61 @@
         "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "rich_text_KMD7hC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BBzzwG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Instruction Manuals",
+            "heading_size": "h1"
+          }
+        },
+        "text_zF38eE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Looking for more help? Read through our digital instruction manuals.</p>"
+          }
+        },
+        "button_AhdznL": {
+          "type": "button",
+          "settings": {
+            "button_label": "English Manual",
+            "button_link": "https://cdn.shopify.com/s/files/1/0522/1734/8255/files/English_Caddie_Instruction_Manual.pdf?v=1747184863",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "button_3BUUfc": {
+          "type": "button",
+          "settings": {
+            "button_label": "French Manual",
+            "button_link": "https://cdn.shopify.com/s/files/1/0522/1734/8255/files/French_Caddie_Instruction.pdf?v=1747184863",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_BBzzwG",
+        "text_zF38eE",
+        "button_AhdznL",
+        "button_3BUUfc"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "rich_text_rrzrRx": {
@@ -378,61 +403,6 @@
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "rich_text_KMD7hC": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_BBzzwG": {
-          "type": "heading",
-          "settings": {
-            "heading": "Instruction Manuals",
-            "heading_size": "h1"
-          }
-        },
-        "text_zF38eE": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Looking for more help? Read through our digital instruction manuals.</p>"
-          }
-        },
-        "button_AhdznL": {
-          "type": "button",
-          "settings": {
-            "button_label": "English Manual",
-            "button_link": "https://cdn.shopify.com/s/files/1/0522/1734/8255/files/English_Caddie_Instruction_Manual.pdf?v=1747184863",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "button_3BUUfc": {
-          "type": "button",
-          "settings": {
-            "button_label": "French Manual",
-            "button_link": "https://cdn.shopify.com/s/files/1/0522/1734/8255/files/French_Caddie_Instruction.pdf?v=1747184863",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_BBzzwG",
-        "text_zF38eE",
-        "button_AhdznL",
-        "button_3BUUfc"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "custom_liquid_FtTJDe": {
