@@ -1,41 +1,49 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "image_with_text_xnRN9M": {
-      "type": "image-with-text",
+    "image_banner_kXUgRb": {
+      "type": "image-banner",
       "blocks": {
-        "heading_twyk4y": {
+        "heading_GyWDFT": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Register Your Device<\/strong>",
-            "heading_size": "h0"
+            "heading": "Device Registration",
+            "heading_size": "h1"
           }
         },
-        "text_D9zGMT": {
+        "text_6Ri9b7": {
           "type": "text",
           "settings": {
-            "text": "<p>Please fill out form below.<\/p>",
-            "text_style": "body"
+            "text": "<strong>Please fill out form below.</strong>",
+            "text_style": "caption-with-letter-spacing"
           }
         }
       },
       "block_order": [
-        "heading_twyk4y",
-        "text_D9zGMT"
+        "heading_GyWDFT",
+        "text_6Ri9b7"
       ],
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Untitled_design_31_e675dd8c-1f81-4642-b1e5-f004c9843f0c.jpg",
-        "height": "medium",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_11.png",
+        "image_overlay_opacity": 10,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 0
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "main": {
@@ -49,7 +57,7 @@
     "custom_liquid_7UWpL7": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-XaEurT\"><\/div>",
+        "custom_liquid": "<div class=\"klaviyo-form-XaEurT\"></div>",
         "color_scheme": "",
         "padding_top": 4,
         "padding_bottom": 52
@@ -57,7 +65,7 @@
     }
   },
   "order": [
-    "image_with_text_xnRN9M",
+    "image_banner_kXUgRb",
     "main",
     "custom_liquid_7UWpL7"
   ]
