@@ -290,6 +290,7 @@
     },
     "custom_liquid_aQCU9Y": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<div class=\"klaviyo-form-Wt8iXk\"></div>",
@@ -346,11 +347,11 @@
     "main",
     "form",
     "rich_text_LgYhRC",
+    "rich_text_gY7bC9",
     "collapsible_content_dwnXxx",
     "multirow_nYrCnq",
     "featured_collection_33RiJE",
     "multirow_ykwtT7",
-    "custom_liquid_aQCU9Y",
-    "rich_text_gY7bC9"
+    "custom_liquid_aQCU9Y"
   ]
 }
