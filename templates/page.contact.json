@@ -61,9 +61,53 @@
         "text_3pcGdD",
         "button_Xpibq9"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_gY7bC9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hEXXD6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Need to return?",
+            "heading_size": "h1"
+          }
+        },
+        "text_63xzPH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Click weather you are returning the product you bought or that was gifted to you.</p>"
+          }
+        },
+        "button_xzFwtw": {
+          "type": "button",
+          "settings": {
+            "button_label": "Standard Return Portal",
+            "button_link": "https://pinned-golf.myshopify.com/apps/redo/returns-portal/login?referralId=68751176a1aea687c5fbc738",
+            "button_style_secondary": false,
+            "button_label_2": "Gift Return Portal",
+            "button_link_2": "https://pinned-golf.myshopify.com/apps/redo/returns-portal/login?referralId=68751176a1aea687c5fbc738&start_gift_return=true",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hEXXD6",
+        "text_63xzPH",
+        "button_xzFwtw"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
@@ -295,49 +339,6 @@
       "settings": {
         "custom_liquid": "<div class=\"klaviyo-form-Wt8iXk\"></div>",
         "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "rich_text_gY7bC9": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_hEXXD6": {
-          "type": "heading",
-          "settings": {
-            "heading": "Need to return?",
-            "heading_size": "h1"
-          }
-        },
-        "text_63xzPH": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Click weather you are returning the product you bought or that was gifted to you.</p>"
-          }
-        },
-        "button_xzFwtw": {
-          "type": "button",
-          "settings": {
-            "button_label": "Standard Return Portal",
-            "button_link": "https://pinned-golf.myshopify.com/apps/redo/returns-portal/login?referralId=68751176a1aea687c5fbc738",
-            "button_style_secondary": false,
-            "button_label_2": "Gift Return Portal",
-            "button_link_2": "https://pinned-golf.myshopify.com/apps/redo/returns-portal/login?referralId=68751176a1aea687c5fbc738&start_gift_return=true",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_hEXXD6",
-        "text_63xzPH",
-        "button_xzFwtw"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
