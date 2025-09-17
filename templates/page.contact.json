@@ -93,7 +93,7 @@
             "button_label": "Standard Return Portal",
             "button_link": "https://pinned-golf.myshopify.com/apps/redo/returns-portal/login?referralId=68751176a1aea687c5fbc738",
             "button_style_secondary": false,
-            "button_label_2": "Gift Return Portal",
+            "button_label_2": "",
             "button_link_2": "https://pinned-golf.myshopify.com/apps/redo/returns-portal/login?referralId=68751176a1aea687c5fbc738&start_gift_return=true",
             "button_style_secondary_2": false
           }
