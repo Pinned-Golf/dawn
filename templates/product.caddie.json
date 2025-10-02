@@ -264,7 +264,7 @@
             "image": "shopify://shop_images/Caddie_Ads_6.png",
             "caption": "Make Any Cart a",
             "heading": "<strong>Smart Cart</strong>",
-            "text": "<p>Using a screen to get your yardages isn't reserved for fancy country clubs anymore. Get your distances when you need them, your way, regardless of how old the carts are.</p>",
+            "text": "<p>Using a screen to get your yardages isn't reserved for fancy country clubs anymore.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -282,12 +282,11 @@
         },
         "row_dHXDxk": {
           "type": "row",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Frame_924_a6c4cc3b-9fbc-4c61-b57f-f6a90fe70506.jpg",
-            "caption": "Smart",
-            "heading": "<strong>Hazard Distances</strong>",
-            "text": "<p>Quickly and accurately measure distances to hazards on the golf course, so you can hit every shot with confidence.</p>",
+            "image": "shopify://shop_images/Caddie_Ads_7.png",
+            "caption": "Tap for",
+            "heading": "<strong>Dynamic Distances</strong>",
+            "text": "<p>Get your distances when you need them, your way, regardless of where you are on the course.</p>",
             "button_label": "",
             "button_link": ""
           }
