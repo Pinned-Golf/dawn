@@ -361,6 +361,113 @@
         "padding_bottom": 12
       }
     },
+    "multirow_q4FtTN": {
+      "type": "multirow",
+      "blocks": {
+        "row_TLfqDU": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Caddie_Ads_6.png",
+            "caption": "Make Any Cart a",
+            "heading": "<strong>Smart Cart</strong>",
+            "text": "<p>Using a screen to get your yardages isn't reserved for fancy country clubs anymore.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_k3tLk9": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/2_dbeb2765-5aff-4098-8865-2661cc90ea8f.png",
+            "caption": "Smart",
+            "heading": "<strong>FCB Distances</strong>",
+            "text": "<p>Get live front, back, and center distances from anywhere on the course.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_QzhphV": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Caddie_Ads_7.png",
+            "caption": "Tap for",
+            "heading": "<strong>Dynamic Distances</strong>",
+            "text": "<p>Get your distances when you need them, your way, regardless of where you are on the course.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_6CzPGD": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Frame_9f538.jpg",
+            "caption": "Maps From",
+            "heading": "<strong>45,000+ Courses</strong>",
+            "text": "<p>With maps from over 45,000 courses worldwide, bring the Caddie anywhere your game takes you. Search your course below. </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_dJ7RiF": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Frame_927.jpg",
+            "caption": "Super Strong",
+            "heading": "<strong>Built-In Magnet</strong>",
+            "text": "<p>The Caddie is built with a strong magnet that securely sticks to the golf cart, keeping it within easy reach throughout your round.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_WhXL4G": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/CaddiePDP05.png",
+            "caption": "Extremely",
+            "heading": "<strong>Portable</strong>",
+            "text": "<p>From the tee box to the fairway, bring the Caddie anywhere to get the distances you need.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_DKEeaJ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Frame_928.jpg",
+            "caption": "Battle Tested",
+            "heading": "<strong>Weatherproof</strong>",
+            "text": "<p>Play with confidence rain or shine. The Caddie is weather-tested, durable, and ready for any shot you take.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_TLfqDU",
+        "row_k3tLk9",
+        "row_QzhphV",
+        "row_6CzPGD",
+        "row_dJ7RiF",
+        "row_WhXL4G",
+        "row_DKEeaJ"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
     "course_search_QWVePx": {
       "type": "course-search",
       "custom_css": [
@@ -978,6 +1085,7 @@
     "image_banner_HbDtXQ",
     "rich_text_Pzp6bP",
     "multirow_DgY64M",
+    "multirow_q4FtTN",
     "course_search_QWVePx",
     "related-products",
     "collapsible_content_j6wfqJ",
