@@ -9,6 +9,17 @@
  */
 {
   "sections": {
+    "custom_liquid_aQCU9Y": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-Tf8nwC\"></div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -69,6 +80,21 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "1759442292f13621e6": {
+      "type": "apps",
+      "blocks": {
+        "redo_free_return_automation_redo_contact_form_TVHKN6": {
+          "type": "shopify://apps/redo-free-return-automation/blocks/redo_contact_form/c613644b-6df4-4d11-b336-43a5c06745a1",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "redo_free_return_automation_redo_contact_form_TVHKN6"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "rich_text_gY7bC9": {
@@ -331,16 +357,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "custom_liquid_aQCU9Y": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-Tf8nwC\"></div>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -348,6 +364,7 @@
     "main",
     "form",
     "rich_text_LgYhRC",
+    "1759442292f13621e6",
     "rich_text_gY7bC9",
     "collapsible_content_dwnXxx",
     "multirow_nYrCnq",
