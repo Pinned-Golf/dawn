@@ -235,6 +235,25 @@
         "padding_bottom": 8
       }
     },
+    "1759512154a0942e07": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_552fb05_CjaaU7": {
+          "type": "ai_gen_block_552fb05",
+          "settings": {
+            "video": "shopify://files/videos/Project 14_Prism+ Rangefinder, Hype Video.mp4",
+            "video_description": "",
+            "aspect_ratio": "56.25",
+            "border_radius": 16
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_552fb05_CjaaU7"
+      ],
+      "settings": {}
+    },
     "multirow_DgY64M": {
       "type": "multirow",
       "blocks": {
@@ -803,6 +822,7 @@
     "collage_NkgDJE",
     "image_banner_AgN8Rt",
     "rich_text_qHhfEC",
+    "1759512154a0942e07",
     "multirow_DgY64M",
     "image_banner_d7RLd3",
     "video_tmMjbU",
