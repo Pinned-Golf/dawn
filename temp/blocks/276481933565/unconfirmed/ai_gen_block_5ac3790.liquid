@@ -1,6 +1,652 @@
+{% doc %}
+  @prompt
+    Build me a multirow section of 5 rows where it is identical to the current shopify set up but instead of just pictures, you can use GIFs and videos as the media.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-multirow-{{ ai_gen_id }} {
+    width: 100%;
+    max-width: {{ settings.page_width }}px;
+    margin: 0 auto;
+    padding: 0 {{ settings.spacing_grid_horizontal }}px;
+  }
+
+  .ai-multirow-container-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: {{ block.settings.row_spacing }}px;
+  }
+
+  .ai-multirow-row-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    gap: {{ settings.spacing_grid_horizontal | times: 2 }}px;
+    min-height: {{ block.settings.row_height }}px;
+    border-radius: {{ settings.media_radius }}px;
+    overflow: hidden;
+    {% if settings.media_shadow_opacity > 0 %}
+      box-shadow: {{ settings.media_shadow_horizontal_offset }}px {{ settings.media_shadow_vertical_offset }}px {{ settings.media_shadow_blur }}px rgba({{ settings.color_schemes[block.settings.color_scheme].settings.shadow | color_extract: 'red' }}, {{ settings.color_schemes[block.settings.color_scheme].settings.shadow | color_extract: 'green' }}, {{ settings.color_schemes[block.settings.color_scheme].settings.shadow | color_extract: 'blue' }}, {{ settings.media_shadow_opacity | divided_by: 100.0 }});
+    {% endif %}
+    background: {{ settings.color_schemes[block.settings.color_scheme].settings.background }};
+    {% if settings.color_schemes[block.settings.color_scheme].settings.background_gradient != blank %}
+      background: {{ settings.color_schemes[block.settings.color_scheme].settings.background_gradient }};
+    {% endif %}
+  }
+
+  .ai-multirow-row-{{ ai_gen_id }}--reverse {
+    flex-direction: row-reverse;
+  }
+
+  .ai-multirow-media-{{ ai_gen_id }} {
+    flex: 1;
+    position: relative;
+    height: {{ block.settings.row_height }}px;
+    overflow: hidden;
+    border-radius: {{ settings.media_radius }}px;
+    {% if settings.media_border_thickness > 0 %}
+      border: {{ settings.media_border_thickness }}px solid rgba({{ settings.color_schemes[block.settings.color_scheme].settings.text | color_extract: 'red' }}, {{ settings.color_schemes[block.settings.color_scheme].settings.text | color_extract: 'green' }}, {{ settings.color_schemes[block.settings.color_scheme].settings.text | color_extract: 'blue' }}, {{ settings.media_border_opacity | divided_by: 100.0 }});
+    {% endif %}
+  }
+
+  .ai-multirow-media-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .ai-multirow-media-placeholder-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    opacity: 0.5;
+  }
+
+  .ai-multirow-empty-state-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 16px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    pointer-events: none;
+  }
+
+  .ai-multirow-media-{{ ai_gen_id }} img,
+  .ai-multirow-media-{{ ai_gen_id }} video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .ai-multirow-content-{{ ai_gen_id }} {
+    flex: 1;
+    padding: {{ settings.spacing_grid_horizontal | times: 2 }}px;
+    color: {{ settings.color_schemes[block.settings.color_scheme].settings.text }};
+  }
+
+  .ai-multirow-heading-{{ ai_gen_id }} {
+    font-family: {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
+    font-weight: {{ settings.type_header_font.weight }};
+    font-size: calc({{ block.settings.heading_size }}px * {{ settings.heading_scale | divided_by: 100.0 }});
+    line-height: 1.2;
+    margin: 0 0 16px 0;
+    color: {{ settings.color_schemes[block.settings.color_scheme].settings.text }};
+  }
+
+  .ai-multirow-text-{{ ai_gen_id }} {
+    font-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
+    font-weight: {{ settings.type_body_font.weight }};
+    font-size: calc({{ block.settings.text_size }}px * {{ settings.body_scale | divided_by: 100.0 }});
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+    color: {{ settings.color_schemes[block.settings.color_scheme].settings.text }};
+  }
+
+  .ai-multirow-button-{{ ai_gen_id }} {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    background-color: {{ settings.color_schemes[block.settings.color_scheme].settings.button }};
+    color: {{ settings.color_schemes[block.settings.color_scheme].settings.button_label }};
+    text-decoration: none;
+    border-radius: {{ settings.buttons_radius }}px;
+    font-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
+    font-weight: {{ settings.type_body_font.weight }};
+    font-size: calc(14px * {{ settings.body_scale | divided_by: 100.0 }});
+    transition: all 0.3s ease;
+    {% if settings.buttons_border_thickness > 0 %}
+      border: {{ settings.buttons_border_thickness }}px solid rgba({{ settings.color_schemes[block.settings.color_scheme].settings.button | color_extract: 'red' }}, {{ settings.color_schemes[block.settings.color_scheme].settings.button | color_extract: 'green' }}, {{ settings.color_schemes[block.settings.color_scheme].settings.button | color_extract: 'blue' }}, {{ settings.buttons_border_opacity | divided_by: 100.0 }});
+    {% else %}
+      border: none;
+    {% endif %}
+    {% if settings.buttons_shadow_opacity > 0 %}
+      box-shadow: {{ settings.buttons_shadow_horizontal_offset }}px {{ settings.buttons_shadow_vertical_offset }}px {{ settings.buttons_shadow_blur }}px rgba({{ settings.color_schemes[block.settings.color_scheme].settings.shadow | color_extract: 'red' }}, {{ settings.color_schemes[block.settings.color_scheme].settings.shadow | color_extract: 'green' }}, {{ settings.color_schemes[block.settings.color_scheme].settings.shadow | color_extract: 'blue' }}, {{ settings.buttons_shadow_opacity | divided_by: 100.0 }});
+    {% endif %}
+  }
+
+  .ai-multirow-button-{{ ai_gen_id }}:hover {
+    {% if settings.animations_hover_elements == 'vertical-lift' %}
+      transform: translateY(-2px);
+    {% elsif settings.animations_hover_elements == '3d-lift' %}
+      transform: translateY(-2px) scale(1.02);
+    {% endif %}
+    opacity: 0.9;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-multirow-row-{{ ai_gen_id }} {
+      flex-direction: column;
+      gap: {{ settings.spacing_grid_vertical }}px;
+      min-height: auto;
+    }
+
+    .ai-multirow-row-{{ ai_gen_id }}--reverse {
+      flex-direction: column;
+    }
+
+    .ai-multirow-media-{{ ai_gen_id }} {
+      width: 100%;
+      height: {{ block.settings.mobile_media_height }}px;
+    }
+
+    .ai-multirow-content-{{ ai_gen_id }} {
+      padding: {{ settings.spacing_grid_horizontal }}px;
+      text-align: center;
+    }
+
+    .ai-multirow-heading-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.heading_size | times: 0.8 }}px * {{ settings.heading_scale | divided_by: 100.0 }});
+    }
+
+    .ai-multirow-text-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.text_size | times: 0.9 }}px * {{ settings.body_scale | divided_by: 100.0 }});
+    }
+  }
+{% endstyle %}
+
+<div class="ai-multirow-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-multirow-container-{{ ai_gen_id }}">
+    {% for i in (1..5) %}
+      {% liquid
+        assign media_key = 'row_' | append: i | append: '_media'
+        assign media_type_key = 'row_' | append: i | append: '_media_type'
+        assign heading_key = 'row_' | append: i | append: '_heading'
+        assign text_key = 'row_' | append: i | append: '_text'
+        assign button_text_key = 'row_' | append: i | append: '_button_text'
+        assign button_link_key = 'row_' | append: i | append: '_button_link'
+        assign layout_key = 'row_' | append: i | append: '_layout'
+
+        assign media = block.settings[media_key]
+        assign media_type = block.settings[media_type_key]
+        assign heading = block.settings[heading_key]
+        assign text = block.settings[text_key]
+        assign button_text = block.settings[button_text_key]
+        assign button_link = block.settings[button_link_key]
+        assign layout = block.settings[layout_key]
+
+        assign has_content = false
+        if heading != blank or text != blank or button_text != blank
+          assign has_content = true
+        endif
+      %}
+
+      {% if media != blank or has_content %}
+        <div class="ai-multirow-row-{{ ai_gen_id }} {% if layout == 'media_right' %}ai-multirow-row-{{ ai_gen_id }}--reverse{% endif %}">
+          <div class="ai-multirow-media-{{ ai_gen_id }}">
+            {% if media != blank %}
+              {% if media_type == 'video' %}
+                <video
+                  autoplay
+                  muted
+                  loop
+                  playsinline
+                  preload="metadata"
+                  aria-label="{% if heading != blank %}{{ heading | strip_html }}{% else %}Row {{ i }} video{% endif %}"
+                >
+                  <source src="{{ media }}" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              {% else %}
+                <img
+                  src="{{ media | image_url: width: 1000 }}"
+                  alt="{% if heading != blank %}{{ heading | strip_html }}{% else %}Row {{ i }} image{% endif %}"
+                  loading="lazy"
+                  width="{{ media.width }}"
+                  height="{{ media.height }}"
+                >
+              {% endif %}
+            {% else %}
+              <div class="ai-multirow-media-placeholder-{{ ai_gen_id }}">
+                {{ 'image' | placeholder_svg_tag }}
+                <div class="ai-multirow-empty-state-{{ ai_gen_id }}">
+                  Add media for row {{ i }}
+                </div>
+              </div>
+            {% endif %}
+          </div>
+
+          {% if has_content %}
+            <div class="ai-multirow-content-{{ ai_gen_id }}">
+              {% if heading != blank %}
+                <h2 class="ai-multirow-heading-{{ ai_gen_id }}">{{ heading }}</h2>
+              {% endif %}
+
+              {% if text != blank %}
+                <div class="ai-multirow-text-{{ ai_gen_id }}">{{ text }}</div>
+              {% endif %}
+
+              {% if button_text != blank and button_link != blank %}
+                <a href="{{ button_link }}" class="ai-multirow-button-{{ ai_gen_id }}">
+                  {{ button_text }}
+                </a>
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Multirow media",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "range",
+      "id": "row_height",
+      "min": 200,
+      "max": 600,
+      "step": 20,
+      "unit": "px",
+      "label": "Row height",
+      "default": 400
+    },
+    {
+      "type": "range",
+      "id": "mobile_media_height",
+      "min": 150,
+      "max": 400,
+      "step": 10,
+      "unit": "px",
+      "label": "Mobile media height",
+      "default": 250
+    },
+    {
+      "type": "range",
+      "id": "row_spacing",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Space between rows",
+      "default": 32
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "min": 16,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "label": "Heading size",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Text size",
+      "default": 16
+    },
+    {
+      "type": "header",
+      "content": "Row 1"
+    },
+    {
+      "type": "select",
+      "id": "row_1_media_type",
+      "label": "Media type",
+      "options": [
+        {
+          "value": "image",
+          "label": "Image/GIF"
+        },
+        {
+          "value": "video",
+          "label": "Video"
+        }
+      ],
+      "default": "image"
+    },
+    {
+      "type": "image_picker",
+      "id": "row_1_media",
+      "label": "Media"
+    },
+    {
+      "type": "select",
+      "id": "row_1_layout",
+      "label": "Layout",
+      "options": [
+        {
+          "value": "media_left",
+          "label": "Media left"
+        },
+        {
+          "value": "media_right",
+          "label": "Media right"
+        }
+      ],
+      "default": "media_left"
+    },
+    {
+      "type": "text",
+      "id": "row_1_heading",
+      "label": "Heading",
+      "default": "Row 1 heading"
+    },
+    {
+      "type": "richtext",
+      "id": "row_1_text",
+      "label": "Text",
+      "default": "<p>Describe your product, collection, or brand story with rich text and media.</p>"
+    },
+    {
+      "type": "text",
+      "id": "row_1_button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "row_1_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Row 2"
+    },
+    {
+      "type": "select",
+      "id": "row_2_media_type",
+      "label": "Media type",
+      "options": [
+        {
+          "value": "image",
+          "label": "Image/GIF"
+        },
+        {
+          "value": "video",
+          "label": "Video"
+        }
+      ],
+      "default": "image"
+    },
+    {
+      "type": "image_picker",
+      "id": "row_2_media",
+      "label": "Media"
+    },
+    {
+      "type": "select",
+      "id": "row_2_layout",
+      "label": "Layout",
+      "options": [
+        {
+          "value": "media_left",
+          "label": "Media left"
+        },
+        {
+          "value": "media_right",
+          "label": "Media right"
+        }
+      ],
+      "default": "media_right"
+    },
+    {
+      "type": "text",
+      "id": "row_2_heading",
+      "label": "Heading",
+      "default": "Row 2 heading"
+    },
+    {
+      "type": "richtext",
+      "id": "row_2_text",
+      "label": "Text",
+      "default": "<p>Describe your product, collection, or brand story with rich text and media.</p>"
+    },
+    {
+      "type": "text",
+      "id": "row_2_button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "row_2_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Row 3"
+    },
+    {
+      "type": "select",
+      "id": "row_3_media_type",
+      "label": "Media type",
+      "options": [
+        {
+          "value": "image",
+          "label": "Image/GIF"
+        },
+        {
+          "value": "video",
+          "label": "Video"
+        }
+      ],
+      "default": "image"
+    },
+    {
+      "type": "image_picker",
+      "id": "row_3_media",
+      "label": "Media"
+    },
+    {
+      "type": "select",
+      "id": "row_3_layout",
+      "label": "Layout",
+      "options": [
+        {
+          "value": "media_left",
+          "label": "Media left"
+        },
+        {
+          "value": "media_right",
+          "label": "Media right"
+        }
+      ],
+      "default": "media_left"
+    },
+    {
+      "type": "text",
+      "id": "row_3_heading",
+      "label": "Heading",
+      "default": "Row 3 heading"
+    },
+    {
+      "type": "richtext",
+      "id": "row_3_text",
+      "label": "Text",
+      "default": "<p>Describe your product, collection, or brand story with rich text and media.</p>"
+    },
+    {
+      "type": "text",
+      "id": "row_3_button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "row_3_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Row 4"
+    },
+    {
+      "type": "select",
+      "id": "row_4_media_type",
+      "label": "Media type",
+      "options": [
+        {
+          "value": "image",
+          "label": "Image/GIF"
+        },
+        {
+          "value": "video",
+          "label": "Video"
+        }
+      ],
+      "default": "image"
+    },
+    {
+      "type": "image_picker",
+      "id": "row_4_media",
+      "label": "Media"
+    },
+    {
+      "type": "select",
+      "id": "row_4_layout",
+      "label": "Layout",
+      "options": [
+        {
+          "value": "media_left",
+          "label": "Media left"
+        },
+        {
+          "value": "media_right",
+          "label": "Media right"
+        }
+      ],
+      "default": "media_right"
+    },
+    {
+      "type": "text",
+      "id": "row_4_heading",
+      "label": "Heading",
+      "default": "Row 4 heading"
+    },
+    {
+      "type": "richtext",
+      "id": "row_4_text",
+      "label": "Text",
+      "default": "<p>Describe your product, collection, or brand story with rich text and media.</p>"
+    },
+    {
+      "type": "text",
+      "id": "row_4_button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "row_4_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Row 5"
+    },
+    {
+      "type": "select",
+      "id": "row_5_media_type",
+      "label": "Media type",
+      "options": [
+        {
+          "value": "image",
+          "label": "Image/GIF"
+        },
+        {
+          "value": "video",
+          "label": "Video"
+        }
+      ],
+      "default": "image"
+    },
+    {
+      "type": "image_picker",
+      "id": "row_5_media",
+      "label": "Media"
+    },
+    {
+      "type": "select",
+      "id": "row_5_layout",
+      "label": "Layout",
+      "options": [
+        {
+          "value": "media_left",
+          "label": "Media left"
+        },
+        {
+          "value": "media_right",
+          "label": "Media right"
+        }
+      ],
+      "default": "media_left"
+    },
+    {
+      "type": "text",
+      "id": "row_5_heading",
+      "label": "Heading",
+      "default": "Row 5 heading"
+    },
+    {
+      "type": "richtext",
+      "id": "row_5_text",
+      "label": "Text",
+      "default": "<p>Describe your product, collection, or brand story with rich text and media.</p>"
+    },
+    {
+      "type": "text",
+      "id": "row_5_button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "row_5_button_link",
+      "label": "Button link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Multirow media"
+    }
+  ]
+}
 {% endschema %}
