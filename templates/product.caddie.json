@@ -239,7 +239,7 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 32,
-        "padding_bottom": 12
+        "padding_bottom": 32
       }
     },
     "1759504596dc061c90": {
@@ -604,65 +604,6 @@
         "padding_bottom": 0
       }
     },
-    "multirow_qEcfUq": {
-      "type": "multirow",
-      "blocks": {
-        "row_EFV7Qe": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/4_6e087067-11f3-4379-bdf3-eaff0606b5b6.png",
-            "caption": "Golf Influencer",
-            "heading": "Jake Macchi",
-            "text": "<p><em>“The Caddie makes the game more fun and stress-free. I love how intuitive it is, whether I’m playing for practice or competition, it feels like the smartest piece of golf tech I’ve used.”</em></p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_h96TF6": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/6_0b1b77a8-bd2c-4abc-a584-01ca09c7e83e.png",
-            "caption": "Division 1 golfer",
-            "heading": "Conner Beakey",
-            "text": "<p><em>“As a competitive golfer, I rely on precision, and The Caddie delivers exactly that. It’s fast, easy to use, and keeps me locked in on the course without distractions.”</em></p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_m8zDpE": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/2_b86464b4-cb6b-41ec-a873-1bbb7955662f.png",
-            "caption": "Golf Influencer",
-            "heading": "Hailey Ostrom",
-            "text": "<p><em>“The Caddie has completely changed how I approach my rounds. Having all the yardages and course details right in front of me lets me focus on my swing instead of my phone. It’s like having a tour-level caddie by my side every hole.”</em></p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_EFV7Qe",
-        "row_h96TF6",
-        "row_m8zDpE"
-      ],
-      "name": "t:sections.multirow.presets.name",
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-right",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn_pHTL4n": {
       "type": "multicolumn",
       "blocks": {
@@ -743,6 +684,65 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 8,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_qEcfUq": {
+      "type": "multirow",
+      "blocks": {
+        "row_EFV7Qe": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/4_6e087067-11f3-4379-bdf3-eaff0606b5b6.png",
+            "caption": "Golf Influencer",
+            "heading": "Jake Macchi",
+            "text": "<p><em>“The Caddie makes the game more fun and stress-free. I love how intuitive it is, whether I’m playing for practice or competition, it feels like the smartest piece of golf tech I’ve used.”</em></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_h96TF6": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/6_0b1b77a8-bd2c-4abc-a584-01ca09c7e83e.png",
+            "caption": "Division 1 golfer",
+            "heading": "Conner Beakey",
+            "text": "<p><em>“As a competitive golfer, I rely on precision, and The Caddie delivers exactly that. It’s fast, easy to use, and keeps me locked in on the course without distractions.”</em></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_m8zDpE": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/2_b86464b4-cb6b-41ec-a873-1bbb7955662f.png",
+            "caption": "Golf Influencer",
+            "heading": "Hailey Ostrom",
+            "text": "<p><em>“The Caddie has completely changed how I approach my rounds. Having all the yardages and course details right in front of me lets me focus on my swing instead of my phone. It’s like having a tour-level caddie by my side every hole.”</em></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_EFV7Qe",
+        "row_h96TF6",
+        "row_m8zDpE"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
