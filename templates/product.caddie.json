@@ -402,6 +402,59 @@
         "padding_bottom": 12
       }
     },
+    "17595141920893d544": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_5ac3790_KTgqeX": {
+          "type": "ai_gen_block_5ac3790",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "row_height": 400,
+            "mobile_media_height": 250,
+            "row_spacing": 32,
+            "heading_size": 32,
+            "text_size": 16,
+            "row_1_media_type": "image",
+            "row_1_media": "shopify://shop_images/Caddie_Ads.gif",
+            "row_1_layout": "media_left",
+            "row_1_heading": "Row 1 heading",
+            "row_1_text": "<p>Describe your product, collection, or brand story with rich text and media.</p>",
+            "row_1_button_text": "",
+            "row_1_button_link": "",
+            "row_2_media_type": "image",
+            "row_2_layout": "media_right",
+            "row_2_heading": "Row 2 heading",
+            "row_2_text": "<p>Describe your product, collection, or brand story with rich text and media.</p>",
+            "row_2_button_text": "",
+            "row_2_button_link": "",
+            "row_3_media_type": "image",
+            "row_3_layout": "media_left",
+            "row_3_heading": "Row 3 heading",
+            "row_3_text": "<p>Describe your product, collection, or brand story with rich text and media.</p>",
+            "row_3_button_text": "",
+            "row_3_button_link": "",
+            "row_4_media_type": "image",
+            "row_4_layout": "media_right",
+            "row_4_heading": "Row 4 heading",
+            "row_4_text": "<p>Describe your product, collection, or brand story with rich text and media.</p>",
+            "row_4_button_text": "",
+            "row_4_button_link": "",
+            "row_5_media_type": "image",
+            "row_5_layout": "media_left",
+            "row_5_heading": "Row 5 heading",
+            "row_5_text": "<p>Describe your product, collection, or brand story with rich text and media.</p>",
+            "row_5_button_text": "",
+            "row_5_button_link": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_5ac3790_KTgqeX"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
     "course_search_QWVePx": {
       "type": "course-search",
       "custom_css": [
@@ -509,6 +562,48 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_aQeAa3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DKxnkA": {
+          "type": "heading",
+          "settings": {
+            "heading": "⭐️⭐️⭐️⭐️⭐️",
+            "heading_size": "h1"
+          }
+        },
+        "text_jmmE6i": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>Hundreds of five star reviews!</strong></em></p>"
+          }
+        },
+        "button_cm6bnd": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_DKxnkA",
+        "text_jmmE6i",
+        "button_cm6bnd"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "multirow_qEcfUq": {
       "type": "multirow",
       "blocks": {
@@ -566,48 +661,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "rich_text_aQeAa3": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_DKxnkA": {
-          "type": "heading",
-          "settings": {
-            "heading": "⭐️⭐️⭐️⭐️⭐️",
-            "heading_size": "h1"
-          }
-        },
-        "text_jmmE6i": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em><strong>Hundreds of five star reviews!</strong></em></p>"
-          }
-        },
-        "button_cm6bnd": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_DKxnkA",
-        "text_jmmE6i",
-        "button_cm6bnd"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
       }
     },
     "multicolumn_pHTL4n": {
@@ -912,6 +965,7 @@
     "1759504318d2b76803",
     "image_banner_HbDtXQ",
     "multirow_DgY64M",
+    "17595141920893d544",
     "course_search_QWVePx",
     "multirow_q4FtTN",
     "video_QGeh74",
