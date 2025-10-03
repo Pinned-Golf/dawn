@@ -1,6 +1,260 @@
+{% doc %}
+  @prompt
+    a video that autoplays and loops. it should be muted at first but with the option of the customer to turn on the volume. It must fit on the page and do not expand the margins of the page
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-video-player-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: {{ block.settings.border_radius }}px;
+    background-color: #000;
+  }
+
+  .ai-video-element-{{ ai_gen_id }} {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: {{ block.settings.border_radius }}px;
+  }
+
+  .ai-video-controls-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+  }
+
+  .ai-volume-button-{{ ai_gen_id }} {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  .ai-volume-button-{{ ai_gen_id }}:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    transform: scale(1.1);
+  }
+
+  .ai-volume-button-{{ ai_gen_id }}:focus {
+    outline: 2px solid white;
+    outline-offset: 2px;
+  }
+
+  .ai-volume-button-{{ ai_gen_id }} svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .ai-video-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    height: 400px;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: {{ block.settings.border_radius }}px;
+  }
+
+  .ai-video-empty-state-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    pointer-events: none;
+  }
+
+  .ai-video-placeholder-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    max-height: 300px;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-video-controls-{{ ai_gen_id }} {
+      bottom: 15px;
+      right: 15px;
+    }
+
+    .ai-volume-button-{{ ai_gen_id }} {
+      width: 40px;
+      height: 40px;
+    }
+
+    .ai-volume-button-{{ ai_gen_id }} svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    .ai-video-placeholder-{{ ai_gen_id }} {
+      height: 300px;
+    }
+  }
+{% endstyle %}
+
+<video-player-{{ ai_gen_id }}
+  class="ai-video-player-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+  {% if block.settings.video_file %}
+    <video
+      class="ai-video-element-{{ ai_gen_id }}"
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="metadata"
+      aria-label="{{ block.settings.video_description | default: 'Video content' | escape }}"
+    >
+      <source src="{{ block.settings.video_file }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="ai-video-controls-{{ ai_gen_id }}">
+      <button
+        class="ai-volume-button-{{ ai_gen_id }}"
+        aria-label="Toggle volume"
+        type="button"
+      >
+        <svg class="ai-volume-off-icon-{{ ai_gen_id }}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+          <line x1="23" y1="9" x2="17" y2="15"></line>
+          <line x1="17" y1="9" x2="23" y2="15"></line>
+        </svg>
+        <svg class="ai-volume-on-icon-{{ ai_gen_id }}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+          <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+        </svg>
+      </button>
+    </div>
+  {% else %}
+    <div class="ai-video-placeholder-{{ ai_gen_id }}">
+      {{ 'image' | placeholder_svg_tag }}
+      <div class="ai-video-empty-state-{{ ai_gen_id }}">
+        Next, add a video file
+      </div>
+    </div>
+  {% endif %}
+</video-player-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class VideoPlayer{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.video = null;
+        this.volumeButton = null;
+        this.volumeOffIcon = null;
+        this.volumeOnIcon = null;
+        this.isMuted = true;
+      }
+
+      connectedCallback() {
+        this.video = this.querySelector('.ai-video-element-{{ ai_gen_id }}');
+        this.volumeButton = this.querySelector('.ai-volume-button-{{ ai_gen_id }}');
+        this.volumeOffIcon = this.querySelector('.ai-volume-off-icon-{{ ai_gen_id }}');
+        this.volumeOnIcon = this.querySelector('.ai-volume-on-icon-{{ ai_gen_id }}');
+
+        if (this.video && this.volumeButton) {
+          this.setupEventListeners();
+          this.updateVolumeIcon();
+        }
+      }
+
+      setupEventListeners() {
+        this.volumeButton.addEventListener('click', () => {
+          this.toggleVolume();
+        });
+
+        this.video.addEventListener('loadedmetadata', () => {
+          this.video.muted = this.isMuted;
+        });
+      }
+
+      toggleVolume() {
+        this.isMuted = !this.isMuted;
+        this.video.muted = this.isMuted;
+        this.updateVolumeIcon();
+        this.updateAriaLabel();
+      }
+
+      updateVolumeIcon() {
+        if (this.isMuted) {
+          this.volumeOffIcon.style.display = 'block';
+          this.volumeOnIcon.style.display = 'none';
+        } else {
+          this.volumeOffIcon.style.display = 'none';
+          this.volumeOnIcon.style.display = 'block';
+        }
+      }
+
+      updateAriaLabel() {
+        const label = this.isMuted ? 'Unmute video' : 'Mute video';
+        this.volumeButton.setAttribute('aria-label', label);
+      }
+    }
+
+    customElements.define('video-player-{{ ai_gen_id }}', VideoPlayer{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Autoplay video",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Video"
+    },
+    {
+      "type": "video",
+      "id": "video_file",
+      "label": "Video file"
+    },
+    {
+      "type": "text",
+      "id": "video_description",
+      "label": "Video description",
+      "info": "Describe the video content for accessibility"
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Border radius",
+      "default": 16
+    }
+  ],
+  "presets": [
+    {
+      "name": "Autoplay video"
+    }
+  ]
+}
 {% endschema %}
