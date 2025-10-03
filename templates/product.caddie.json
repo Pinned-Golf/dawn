@@ -9,24 +9,6 @@
  */
 {
   "sections": {
-    "1759504318d2b76803": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_879b11f_QJBwLC": {
-          "type": "ai_gen_block_879b11f",
-          "settings": {
-            "video_file": "shopify://files/videos/Project 14_The Caddie_Hype Video.mp4",
-            "video_description": "",
-            "border_radius": 16
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_879b11f_QJBwLC"
-      ],
-      "settings": {}
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -249,6 +231,24 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "1759504318d2b76803": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_879b11f_QJBwLC": {
+          "type": "ai_gen_block_879b11f",
+          "settings": {
+            "video_file": "shopify://files/videos/Project 14_The Caddie_Hype Video.mp4",
+            "video_description": "",
+            "border_radius": 20
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_879b11f_QJBwLC"
+      ],
+      "settings": {}
     },
     "rich_text_Pzp6bP": {
       "type": "rich-text",
