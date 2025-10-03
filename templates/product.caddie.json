@@ -607,13 +607,13 @@
     "multirow_qEcfUq": {
       "type": "multirow",
       "blocks": {
-        "row_m8zDpE": {
+        "row_EFV7Qe": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/2_b86464b4-cb6b-41ec-a873-1bbb7955662f.png",
+            "image": "shopify://shop_images/4_6e087067-11f3-4379-bdf3-eaff0606b5b6.png",
             "caption": "Golf Influencer",
-            "heading": "Hailey Ostrom",
-            "text": "<p><em>“The Caddie has completely changed how I approach my rounds. Having all the yardages and course details right in front of me lets me focus on my swing instead of my phone. It’s like having a tour-level caddie by my side every hole.”</em></p>",
+            "heading": "Jake Macchi",
+            "text": "<p><em>“The Caddie makes the game more fun and stress-free. I love how intuitive it is, whether I’m playing for practice or competition, it feels like the smartest piece of golf tech I’ve used.”</em></p>",
             "button_label": "",
             "button_link": ""
           }
@@ -629,22 +629,22 @@
             "button_link": ""
           }
         },
-        "row_EFV7Qe": {
+        "row_m8zDpE": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/4_6e087067-11f3-4379-bdf3-eaff0606b5b6.png",
+            "image": "shopify://shop_images/2_b86464b4-cb6b-41ec-a873-1bbb7955662f.png",
             "caption": "Golf Influencer",
-            "heading": "Jake Macchi",
-            "text": "<p><em>“The Caddie makes the game more fun and stress-free. I love how intuitive it is, whether I’m playing for practice or competition, it feels like the smartest piece of golf tech I’ve used.”</em></p>",
+            "heading": "Hailey Ostrom",
+            "text": "<p><em>“The Caddie has completely changed how I approach my rounds. Having all the yardages and course details right in front of me lets me focus on my swing instead of my phone. It’s like having a tour-level caddie by my side every hole.”</em></p>",
             "button_label": "",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "row_m8zDpE",
+        "row_EFV7Qe",
         "row_h96TF6",
-        "row_EFV7Qe"
+        "row_m8zDpE"
       ],
       "name": "t:sections.multirow.presets.name",
       "settings": {
@@ -970,8 +970,8 @@
     "multirow_q4FtTN",
     "video_QGeh74",
     "rich_text_aQeAa3",
-    "multirow_qEcfUq",
     "multicolumn_pHTL4n",
+    "multirow_qEcfUq",
     "collapsible_content_K3TTNR",
     "video_iErkPe",
     "video_nGX7J8",
