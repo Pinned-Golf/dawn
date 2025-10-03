@@ -361,113 +361,6 @@
         "padding_bottom": 12
       }
     },
-    "multirow_q4FtTN": {
-      "type": "multirow",
-      "blocks": {
-        "row_TLfqDU": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Caddie_Ads_6.png",
-            "caption": "Make Any Cart a",
-            "heading": "<strong>Smart Cart</strong>",
-            "text": "<p>Using a screen to get your yardages isn't reserved for fancy country clubs anymore.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_k3tLk9": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/2_dbeb2765-5aff-4098-8865-2661cc90ea8f.png",
-            "caption": "Smart",
-            "heading": "<strong>FCB Distances</strong>",
-            "text": "<p>Get live front, back, and center distances from anywhere on the course.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_QzhphV": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Caddie_Ads_7.png",
-            "caption": "Tap for",
-            "heading": "<strong>Dynamic Distances</strong>",
-            "text": "<p>Get your distances when you need them, your way, regardless of where you are on the course.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_6CzPGD": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Frame_9f538.jpg",
-            "caption": "Maps From",
-            "heading": "<strong>45,000+ Courses</strong>",
-            "text": "<p>With maps from over 45,000 courses worldwide, bring the Caddie anywhere your game takes you. Search your course below. </p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_dJ7RiF": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Frame_927.jpg",
-            "caption": "Super Strong",
-            "heading": "<strong>Built-In Magnet</strong>",
-            "text": "<p>The Caddie is built with a strong magnet that securely sticks to the golf cart, keeping it within easy reach throughout your round.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_WhXL4G": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/CaddiePDP05.png",
-            "caption": "Extremely",
-            "heading": "<strong>Portable</strong>",
-            "text": "<p>From the tee box to the fairway, bring the Caddie anywhere to get the distances you need.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_DKEeaJ": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Frame_928.jpg",
-            "caption": "Battle Tested",
-            "heading": "<strong>Weatherproof</strong>",
-            "text": "<p>Play with confidence rain or shine. The Caddie is weather-tested, durable, and ready for any shot you take.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_TLfqDU",
-        "row_k3tLk9",
-        "row_QzhphV",
-        "row_6CzPGD",
-        "row_dJ7RiF",
-        "row_WhXL4G",
-        "row_DKEeaJ"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_height": "adapt",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 12
-      }
-    },
     "course_search_QWVePx": {
       "type": "course-search",
       "custom_css": [
@@ -489,76 +382,74 @@
         "image_drop_shadow": "none"
       }
     },
-    "collapsible_content_j6wfqJ": {
-      "type": "collapsible-content",
+    "multirow_q4FtTN": {
+      "type": "multirow",
       "blocks": {
-        "collapsible_row_LgaRjn": {
-          "type": "collapsible_row",
+        "row_TLfqDU": {
+          "type": "row",
           "settings": {
-            "heading": "Best Price Ever",
-            "icon": "price_tag",
-            "row_content": "<p>If you're looking for a rangefinder, you won't find a better deal. This is the lowest price we have ever offered on our Prism+ rangefinder.</p>",
-            "page": ""
+            "image": "shopify://shop_images/4_9fe9908d-4d8f-4dc7-bef6-8f139e2d421f.png",
+            "caption": "Multiplayer",
+            "heading": "<strong>Games</strong>",
+            "text": "<p>Play head-to-head or in teams with real-time scoring and built-in match support. The Caddie makes it easy to keep competition fun and fair from the first tee to the 18th green.</p>",
+            "button_label": "",
+            "button_link": ""
           }
         },
-        "collapsible_row_n9qCA6": {
-          "type": "collapsible_row",
+        "row_k3tLk9": {
+          "type": "row",
           "settings": {
-            "heading": "Thousands Of Reviews",
-            "icon": "star",
-            "row_content": "<p>Trusted by 150,000+ golfers all over the world. From PGA Professionals to Collegiate Golfers to the Weekend Warrior to everyone in between. Golfers love our products because they are made by golfers for golfers. </p>",
-            "page": ""
+            "image": "shopify://shop_images/5_50042114-ae55-4444-83c3-089d15a6f1c6.png",
+            "caption": "Easy One Tap",
+            "heading": "<strong>Scoring</strong>",
+            "text": "<p>Log your score in seconds with a simple tap. No clutter, no distractions, just quick, intuitive scoring that keeps you focused on the next swing. </p>",
+            "button_label": "",
+            "button_link": ""
           }
         },
-        "collapsible_row_APan9x": {
-          "type": "collapsible_row",
+        "row_QzhphV": {
+          "type": "row",
           "settings": {
-            "heading": "Our Pinned Family",
-            "icon": "heart",
-            "row_content": "<p>When you buy one of our products, you become family. More specifically, you join our Pinned Family. and we treat everyone like an actual member of our family. </p>",
-            "page": ""
+            "image": "shopify://shop_images/1_f0355d7d-4560-400b-a43d-7a228f946af6.png",
+            "caption": "Dialed In",
+            "heading": "<strong>Analytics</strong>",
+            "text": "<p>Unlock a clear picture of your game with detailed stats and round-by-round insights. From fairways hit to putts per hole, The Caddie helps you find exactly where to improve.</p>",
+            "button_label": "",
+            "button_link": ""
           }
         },
-        "collapsible_row_X9eV6U": {
-          "type": "collapsible_row",
+        "row_6CzPGD": {
+          "type": "row",
           "settings": {
-            "heading": "As Good As It Gets",
-            "icon": "fire",
-            "row_content": "<p>Countless tests against the competition and let me tell you, we're just as good... if not better. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_3RTHwb": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Love It Or Return It",
-            "icon": "return",
-            "row_content": "<p>With our extended holiday return window, they will essentially be able to try the rangefinder on before they buy it. </p>",
-            "page": ""
+            "image": "shopify://shop_images/3_335ffa9a-ecde-4166-a3bc-3277d4154b18.png",
+            "caption": "Innovative",
+            "heading": "<strong>Auto-Dot Technology</strong>",
+            "text": "<p>Level the playing field with automatic handicap adjustments. The Caddie applies strokes where they’re earned so every match is fair and every hole counts.</p>",
+            "button_label": "",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "collapsible_row_LgaRjn",
-        "collapsible_row_n9qCA6",
-        "collapsible_row_APan9x",
-        "collapsible_row_X9eV6U",
-        "collapsible_row_3RTHwb"
+        "row_TLfqDU",
+        "row_k3tLk9",
+        "row_QzhphV",
+        "row_6CzPGD"
       ],
-      "disabled": true,
       "settings": {
-        "caption": "the perfect gift for your golfer and here are",
-        "heading": "Five Reasons Why.",
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
         "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 16,
+        "padding_bottom": 12
       }
     },
     "video_QGeh74": {
@@ -571,126 +462,6 @@
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collage_RBkzxK": {
-      "type": "collage",
-      "blocks": {
-        "image_h3zWMC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Frame_935_8a1486df-cc3d-4a84-96e1-ffc650ec401a.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "image_h3zWMC"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "none",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collage_nciEHT": {
-      "type": "collage",
-      "blocks": {
-        "image_NgpKVA": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Frame_9262.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "image_NgpKVA"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "none",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collage_7xmBeb": {
-      "type": "collage",
-      "blocks": {
-        "image_8imWGp": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Frame_9363f.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "image_8imWGp"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "none",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collage_WxqWfN": {
-      "type": "collage",
-      "blocks": {
-        "image_MKy6ma": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Frame_9260f.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "image_MKy6ma"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "none",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collage_fgFDfL": {
-      "type": "collage",
-      "blocks": {
-        "image_tykbTx": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Frame_9165f.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "image_tykbTx"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "none",
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
@@ -998,6 +769,78 @@
         "padding_bottom": 52
       }
     },
+    "collapsible_content_j6wfqJ": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_LgaRjn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Best Price Ever",
+            "icon": "price_tag",
+            "row_content": "<p>If you're looking for a rangefinder, you won't find a better deal. This is the lowest price we have ever offered on our Prism+ rangefinder.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_n9qCA6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Thousands Of Reviews",
+            "icon": "star",
+            "row_content": "<p>Trusted by 150,000+ golfers all over the world. From PGA Professionals to Collegiate Golfers to the Weekend Warrior to everyone in between. Golfers love our products because they are made by golfers for golfers. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_APan9x": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Our Pinned Family",
+            "icon": "heart",
+            "row_content": "<p>When you buy one of our products, you become family. More specifically, you join our Pinned Family. and we treat everyone like an actual member of our family. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_X9eV6U": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "As Good As It Gets",
+            "icon": "fire",
+            "row_content": "<p>Countless tests against the competition and let me tell you, we're just as good... if not better. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3RTHwb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Love It Or Return It",
+            "icon": "return",
+            "row_content": "<p>With our extended holiday return window, they will essentially be able to try the rangefinder on before they buy it. </p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_LgaRjn",
+        "collapsible_row_n9qCA6",
+        "collapsible_row_APan9x",
+        "collapsible_row_X9eV6U",
+        "collapsible_row_3RTHwb"
+      ],
+      "disabled": true,
+      "settings": {
+        "caption": "the perfect gift for your golfer and here are",
+        "heading": "Five Reasons Why.",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -1024,15 +867,9 @@
     "image_banner_HbDtXQ",
     "rich_text_Pzp6bP",
     "multirow_DgY64M",
-    "multirow_q4FtTN",
     "course_search_QWVePx",
-    "collapsible_content_j6wfqJ",
+    "multirow_q4FtTN",
     "video_QGeh74",
-    "collage_RBkzxK",
-    "collage_nciEHT",
-    "collage_7xmBeb",
-    "collage_WxqWfN",
-    "collage_fgFDfL",
     "multirow_qEcfUq",
     "rich_text_aQeAa3",
     "multicolumn_pHTL4n",
@@ -1040,6 +877,7 @@
     "video_iErkPe",
     "video_nGX7J8",
     "custom_liquid_PRJMPr",
+    "collapsible_content_j6wfqJ",
     "related-products"
   ]
 }
