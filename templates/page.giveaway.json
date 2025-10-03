@@ -60,7 +60,7 @@
         "row_VekkqX": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Caddie_Ads_8.png",
+            "image": "shopify://shop_images/Caddie_Ads_9.png",
             "caption": "Contest",
             "heading": "Rules",
             "text": "<ol><li><strong>One</strong> guess per person.</li><li>Distances are <strong>down to the decimal </strong>(<em>ex. 78.4</em>).</li><li><strong>No sharing </strong>distance if you guessed correct.</li></ol>",
@@ -143,10 +143,10 @@
         "color_scheme": "",
         "secondary_background": false,
         "media_size": "medium",
-        "constrain_to_viewport": true,
+        "constrain_to_viewport": false,
         "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
+        "media_position": "right",
+        "image_zoom": "none",
         "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 36,
