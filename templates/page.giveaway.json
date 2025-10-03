@@ -19,16 +19,28 @@
     },
     "custom_liquid_fUdMJC": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"klaviyo-form-WkMnsP\"></div>",
         "color_scheme": "",
         "padding_top": 4,
         "padding_bottom": 52
       }
+    },
+    "custom_liquid_c6hQfC": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-RSBQWg\"></div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "custom_liquid_fUdMJC"
+    "custom_liquid_fUdMJC",
+    "custom_liquid_c6hQfC"
   ]
 }
