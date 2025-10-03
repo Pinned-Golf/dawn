@@ -816,12 +816,56 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_gX3X9X": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4AfRqY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Time to get dialed in.",
+            "heading_size": "h1"
+          }
+        },
+        "text_cEWGdr": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>The Prism+ was designed to be bold and engineered to amaze.</em></p>"
+          }
+        },
+        "button_mGRcPA": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_4AfRqY",
+        "text_cEWGdr",
+        "button_mGRcPA"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "17595122722710b7c6",
     "collage_NkgDJE",
+    "rich_text_gX3X9X",
     "image_banner_AgN8Rt",
     "rich_text_qHhfEC",
     "multirow_DgY64M",
