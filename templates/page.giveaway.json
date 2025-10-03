@@ -75,7 +75,7 @@
             "image": "shopify://shop_images/Caddie_Ads_9.png",
             "caption": "Contest",
             "heading": "Rules",
-            "text": "<ol><li><strong>One</strong> guess per person.</li><li>Distances are <strong>down to the decimal </strong>(<em>ex. 78.4</em>).</li><li><strong>No sharing </strong>distance if you guessed correct.</li></ol>",
+            "text": "<ol><li><strong>One</strong> guess per person.</li><li>Distances are <strong>down to the decimal </strong>(<em>ex. 78.4</em>) and in yards.</li><li><strong>No sharing </strong>distance if you guess correct.</li><li>Participants must be in the US.</li></ol>",
             "button_label": "",
             "button_link": ""
           }
