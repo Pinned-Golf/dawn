@@ -66,10 +66,10 @@
             "link": ""
           }
         },
-        "column_GBjHXK": {
+        "column_q6pK78": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/NYGC-2_LINE_STACKED.jpg",
+            "image": "shopify://shop_images/Untitled_design_-_2025-10-03T080106.035.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -80,16 +80,6 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/9_c785eb5d-c3ac-4ca3-be78-612bd05c0ede.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_q6pK78": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/10_69b33460-463f-415a-afd4-5241b1260246.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -109,7 +99,17 @@
         "column_z44XiF": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/13_c7748b64-cf9c-416a-83ae-7da6eccd4661.png",
+            "image": "shopify://shop_images/Untitled_design_-_2025-10-03T080312.102.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GBjHXK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/NYGC-2_LINE_STACKED.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -119,11 +119,11 @@
       },
       "block_order": [
         "column_FH3PUm",
-        "column_GBjHXK",
-        "column_dKFmXa",
         "column_q6pK78",
+        "column_dKFmXa",
         "column_Tghnff",
-        "column_z44XiF"
+        "column_z44XiF",
+        "column_GBjHXK"
       ],
       "settings": {
         "title": "",
