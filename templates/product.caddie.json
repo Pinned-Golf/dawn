@@ -1016,6 +1016,66 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "17594966909657176a": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_1567220_maDRxP": {
+          "type": "ai_gen_block_1567220",
+          "settings": {
+            "carousel_height": 500,
+            "border_radius": 16,
+            "overlay_opacity": 30,
+            "text_horizontal_alignment": "center",
+            "text_vertical_alignment": "center",
+            "text_alignment": "center",
+            "content_max_width": 600,
+            "text_color": "#ffffff",
+            "heading_size": 36,
+            "text_size": 16,
+            "button_color": "#000000",
+            "button_text_color": "#ffffff",
+            "button_hover_color": "#333333",
+            "button_hover_text_color": "#ffffff",
+            "button_border_radius": 10,
+            "show_navigation": false,
+            "show_dots": true,
+            "autoplay": true,
+            "autoplay_speed": 5,
+            "slide_1_enabled": true,
+            "slide_1_heading": "Welcome to our store",
+            "slide_1_text": "Discover our amazing products and special offers",
+            "slide_1_button_text": "Shop now",
+            "slide_1_button_link": "",
+            "slide_2_enabled": true,
+            "slide_2_heading": "New arrivals",
+            "slide_2_text": "Check out our latest collection",
+            "slide_2_button_text": "Explore",
+            "slide_2_button_link": "",
+            "slide_3_enabled": false,
+            "slide_3_heading": "",
+            "slide_3_text": "",
+            "slide_3_button_text": "",
+            "slide_3_button_link": "",
+            "slide_4_enabled": false,
+            "slide_4_heading": "",
+            "slide_4_text": "",
+            "slide_4_button_text": "",
+            "slide_4_button_link": "",
+            "slide_5_enabled": false,
+            "slide_5_heading": "",
+            "slide_5_text": "",
+            "slide_5_button_text": "",
+            "slide_5_button_link": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_1567220_maDRxP"
+      ],
+      "disabled": true,
+      "settings": {}
     }
   },
   "order": [
@@ -1040,6 +1100,7 @@
     "collapsible_content_K3TTNR",
     "video_iErkPe",
     "video_nGX7J8",
-    "custom_liquid_PRJMPr"
+    "custom_liquid_PRJMPr",
+    "17594966909657176a"
   ]
 }
