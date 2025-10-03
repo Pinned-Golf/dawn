@@ -23,9 +23,8 @@
         },
         "announcement_fXeqhB": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "Best new product at PGA Show!",
+            "text": "Bethpage Black Friday!",
             "link": "shopify://products/the-caddie-golf-tablet"
           }
         },
