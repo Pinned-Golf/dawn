@@ -42,6 +42,13 @@
             "text_style": "subtitle"
           }
         },
+        "text_ExJaTM": {
+          "type": "text",
+          "settings": {
+            "text": "<em><strong>🔥 3,108 Sold In Last 30 Days</strong></em>",
+            "text_style": "body"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -63,13 +70,6 @@
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
-          }
-        },
-        "text_ExJaTM": {
-          "type": "text",
-          "settings": {
-            "text": "<em><strong>🔥 3,108 Sold In Last 30 Days</strong></em>",
-            "text_style": "body"
           }
         },
         "icon_with_text_UWmnYD": {
@@ -153,11 +153,11 @@
         "title",
         "text_8pA7Hq",
         "caption",
+        "text_ExJaTM",
         "price",
         "variant_picker",
         "quantity_selector_a4gife",
         "buy_buttons",
-        "text_ExJaTM",
         "icon_with_text_UWmnYD",
         "complementary_Cg46r7",
         "collapsible_tab_mFpMHC",
