@@ -182,6 +182,42 @@
         "padding_bottom": 12
       }
     },
+    "17595122722710b7c6": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_85abb30_mpnJAT": {
+          "type": "ai_gen_block_85abb30",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/47867b0e348d446e9cbe66071907fd91.mp4",
+            "aspect_ratio": "75",
+            "border_radius": 16,
+            "control_background_color": "#ffffff",
+            "control_hover_color": "#f0f0f0",
+            "control_icon_color": "#000000",
+            "show_content": false,
+            "show_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 0.3,
+            "title": "",
+            "description": "",
+            "text_color": "#ffffff",
+            "title_size": 32,
+            "description_size": 16,
+            "button_text": "",
+            "button_url": "",
+            "button_background_color": "#000000",
+            "button_text_color": "#ffffff",
+            "button_hover_color": "#333333",
+            "button_border_radius": 10
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_85abb30_mpnJAT"
+      ],
+      "settings": {}
+    },
     "collage_NkgDJE": {
       "type": "collage",
       "blocks": {
@@ -234,25 +270,6 @@
         "padding_top": 8,
         "padding_bottom": 8
       }
-    },
-    "1759512154a0942e07": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_552fb05_CjaaU7": {
-          "type": "ai_gen_block_552fb05",
-          "settings": {
-            "video": "shopify://files/videos/Project 14_Prism+ Rangefinder, Hype Video.mp4",
-            "video_description": "",
-            "aspect_ratio": "56.25",
-            "border_radius": 16
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_552fb05_CjaaU7"
-      ],
-      "settings": {}
     },
     "multirow_DgY64M": {
       "type": "multirow",
@@ -695,22 +712,6 @@
         "padding_bottom": 36
       }
     },
-    "video_R4zBwG": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video": "shopify://files/videos/Project 14_Prism+ Rangefinder, Hype Video.mp4",
-        "video_url": "",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multirow_NgfLC4": {
       "type": "multirow",
       "blocks": {
@@ -819,10 +820,10 @@
   },
   "order": [
     "main",
+    "17595122722710b7c6",
     "collage_NkgDJE",
     "image_banner_AgN8Rt",
     "rich_text_qHhfEC",
-    "1759512154a0942e07",
     "multirow_DgY64M",
     "image_banner_d7RLd3",
     "video_tmMjbU",
@@ -834,7 +835,6 @@
     "related-products",
     "custom_liquid_PRJMPr",
     "collapsible_content_j6wfqJ",
-    "video_R4zBwG",
     "multirow_NgfLC4",
     "171176697446b6f676",
     "featured_collection_3mUgBK"
