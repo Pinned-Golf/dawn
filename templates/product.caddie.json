@@ -317,9 +317,9 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/Caddie_Ads_12.png",
-            "caption": "Extremely",
-            "heading": "<strong>Portable</strong>",
-            "text": "<p>From the tee box to the fairway, bring the Caddie anywhere to get the distances you need.</p>",
+            "caption": "No",
+            "heading": "<strong>Subscription Fees</strong>",
+            "text": "<p>Buy your Caddie and that'll be the only time you will have to pay for it. Get dialed in without a monthly payment! </p>",
             "button_label": "",
             "button_link": ""
           }
@@ -489,25 +489,6 @@
         "image_drop_shadow": "none"
       }
     },
-    "related-products": {
-      "type": "related-products",
-      "disabled": true,
-      "settings": {
-        "heading": "Trending",
-        "heading_size": "h2",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 28
-      }
-    },
     "collapsible_content_j6wfqJ": {
       "type": "collapsible-content",
       "blocks": {
@@ -564,7 +545,6 @@
         "collapsible_row_X9eV6U",
         "collapsible_row_3RTHwb"
       ],
-      "disabled": true,
       "settings": {
         "caption": "the perfect gift for your golfer and here are",
         "heading": "Five Reasons Why.",
@@ -594,6 +574,51 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1759497565006aadb9": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_7168ee6_7pKPxr": {
+          "type": "ai_gen_block_7168ee6",
+          "settings": {
+            "desktop_slides": 2,
+            "slide_height": 500,
+            "slide_gap": 16,
+            "border_radius": 16,
+            "show_navigation": true,
+            "show_dots": true,
+            "autoplay": false,
+            "autoplay_speed": 3000,
+            "slide_1_image": "shopify://shop_images/4_9fe9908d-4d8f-4dc7-bef6-8f139e2d421f.png",
+            "slide_1_title": "Multiplayer Games",
+            "slide_1_description": "",
+            "slide_1_link": "",
+            "slide_2_image": "shopify://shop_images/1_f0355d7d-4560-400b-a43d-7a228f946af6.png",
+            "slide_2_title": "Dialed In Analytics",
+            "slide_2_description": "",
+            "slide_2_link": "",
+            "slide_3_image": "shopify://shop_images/5_50042114-ae55-4444-83c3-089d15a6f1c6.png",
+            "slide_3_title": "Easy Scoring",
+            "slide_3_description": "",
+            "slide_3_link": "",
+            "slide_4_image": "shopify://shop_images/3_335ffa9a-ecde-4166-a3bc-3277d4154b18.png",
+            "slide_4_title": "Auto-Dot Technology",
+            "slide_4_description": "",
+            "slide_4_link": "",
+            "slide_5_title": "",
+            "slide_5_description": "",
+            "slide_5_link": "",
+            "slide_6_title": "",
+            "slide_6_description": "",
+            "slide_6_link": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_7168ee6_7pKPxr"
+      ],
+      "settings": {}
     },
     "collage_RBkzxK": {
       "type": "collage",
@@ -1074,7 +1099,27 @@
       "block_order": [
         "ai_gen_block_1567220_maDRxP"
       ],
+      "disabled": true,
       "settings": {}
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "Trending",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
     }
   },
   "order": [
@@ -1085,9 +1130,9 @@
     "multirow_DgY64M",
     "multirow_q4FtTN",
     "course_search_QWVePx",
-    "related-products",
     "collapsible_content_j6wfqJ",
     "video_QGeh74",
+    "1759497565006aadb9",
     "collage_RBkzxK",
     "collage_nciEHT",
     "collage_7xmBeb",
@@ -1100,6 +1145,7 @@
     "video_iErkPe",
     "video_nGX7J8",
     "custom_liquid_PRJMPr",
-    "17594966909657176a"
+    "17594966909657176a",
+    "related-products"
   ]
 }
