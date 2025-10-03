@@ -1,6 +1,731 @@
+{% doc %}
+  @prompt
+    Hero video that auto plays when they land on the page. It should be muted with the option for the customer to unmute it. It needs to fit in the margins. Do not change the margins. Need the ability to put a headline & subheader with a button. , need the ability to edit the text and fonts., I want to be able to move the content up, down, left and right.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-hero-video-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    height: {{ block.settings.video_height }}vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-hero-video-container-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .ai-hero-video-element-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .ai-hero-video-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .ai-hero-video-placeholder-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    opacity: 0.5;
+  }
+
+  .ai-hero-video-empty-state-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    pointer-events: none;
+  }
+
+  .ai-hero-video-overlay-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      {{ block.settings.overlay_direction }},
+      rgba(0, 0, 0, {{ block.settings.overlay_opacity | divided_by: 100.0 }}) 0%,
+      rgba(0, 0, 0, {{ block.settings.overlay_opacity | divided_by: 200.0 }}) 100%
+    );
+    z-index: 2;
+  }
+
+  .ai-hero-video-content-wrapper-{{ ai_gen_id }} {
+    position: absolute;
+    top: {{ block.settings.content_position_vertical }}%;
+    left: {{ block.settings.content_position_horizontal }}%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    width: 100%;
+    max-width: {{ block.settings.content_max_width }}px;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .ai-hero-video-content-{{ ai_gen_id }} {
+    text-align: {{ block.settings.text_alignment }};
+    color: {{ block.settings.text_color }};
+  }
+
+  .ai-hero-video-heading-{{ ai_gen_id }} {
+    font-family: {{ block.settings.heading_font.family }}, {{ block.settings.heading_font.fallback_families }};
+    font-weight: {{ block.settings.heading_font.weight }};
+    font-size: {{ block.settings.heading_size }}px;
+    line-height: 1.2;
+    margin: 0 0 {{ block.settings.heading_margin }}px 0;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .ai-hero-video-subheading-{{ ai_gen_id }} {
+    font-family: {{ block.settings.subheading_font.family }}, {{ block.settings.subheading_font.fallback_families }};
+    font-weight: {{ block.settings.subheading_font.weight }};
+    font-size: {{ block.settings.subheading_size }}px;
+    line-height: 1.4;
+    margin: 0 0 {{ block.settings.subheading_margin }}px 0;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  }
+
+  .ai-hero-video-button-{{ ai_gen_id }} {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: {{ block.settings.button_padding_vertical }}px {{ block.settings.button_padding_horizontal }}px;
+    background-color: {{ block.settings.button_bg_color }};
+    color: {{ block.settings.button_text_color }};
+    text-decoration: none;
+    border-radius: {{ block.settings.button_border_radius }}px;
+    font-size: {{ block.settings.button_font_size }}px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: {{ block.settings.button_border_width }}px solid {{ block.settings.button_border_color }};
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .ai-hero-video-button-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_hover_bg_color }};
+    color: {{ block.settings.button_hover_text_color }};
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .ai-hero-video-controls-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 4;
+    display: flex;
+    gap: 10px;
+  }
+
+  .ai-hero-video-control-btn-{{ ai_gen_id }} {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+  }
+
+  .ai-hero-video-control-btn-{{ ai_gen_id }}:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    transform: scale(1.1);
+  }
+
+  .ai-hero-video-control-btn-{{ ai_gen_id }} svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-hero-video-{{ ai_gen_id }} {
+      height: {{ block.settings.video_height_mobile }}vh;
+    }
+
+    .ai-hero-video-heading-{{ ai_gen_id }} {
+      font-size: {{ block.settings.heading_size | times: 0.8 }}px;
+    }
+
+    .ai-hero-video-subheading-{{ ai_gen_id }} {
+      font-size: {{ block.settings.subheading_size | times: 0.9 }}px;
+    }
+
+    .ai-hero-video-content-wrapper-{{ ai_gen_id }} {
+      max-width: 100%;
+      padding: 0 16px;
+      top: {{ block.settings.content_position_vertical_mobile }}%;
+      left: {{ block.settings.content_position_horizontal_mobile }}%;
+    }
+
+    .ai-hero-video-controls-{{ ai_gen_id }} {
+      bottom: 16px;
+      right: 16px;
+    }
+
+    .ai-hero-video-control-btn-{{ ai_gen_id }} {
+      width: 40px;
+      height: 40px;
+    }
+  }
+{% endstyle %}
+
+<hero-video-{{ ai_gen_id }}
+  class="ai-hero-video-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+  <div class="ai-hero-video-container-{{ ai_gen_id }}">
+    {% if block.settings.video_url != blank %}
+      <video
+        class="ai-hero-video-element-{{ ai_gen_id }}"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="metadata"
+        data-video-id="{{ ai_gen_id }}"
+      >
+        <source src="{{ block.settings.video_url }}" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    {% else %}
+      <div class="ai-hero-video-placeholder-{{ ai_gen_id }}">
+        {{ 'hero-apparel-1' | placeholder_svg_tag }}
+        <div class="ai-hero-video-empty-state-{{ ai_gen_id }}">
+          Add a video to get started
+        </div>
+      </div>
+    {% endif %}
+  </div>
+
+  {% if block.settings.show_overlay %}
+    <div class="ai-hero-video-overlay-{{ ai_gen_id }}"></div>
+  {% endif %}
+
+  <div class="ai-hero-video-content-wrapper-{{ ai_gen_id }}">
+    <div class="ai-hero-video-content-{{ ai_gen_id }}">
+      {% if block.settings.heading != blank %}
+        <h1 class="ai-hero-video-heading-{{ ai_gen_id }}">
+          {{ block.settings.heading }}
+        </h1>
+      {% endif %}
+
+      {% if block.settings.subheading != blank %}
+        <div class="ai-hero-video-subheading-{{ ai_gen_id }}">
+          {{ block.settings.subheading }}
+        </div>
+      {% endif %}
+
+      {% if block.settings.button_text != blank and block.settings.button_url != blank %}
+        <a
+          href="{{ block.settings.button_url }}"
+          class="ai-hero-video-button-{{ ai_gen_id }}"
+        >
+          {{ block.settings.button_text }}
+        </a>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if block.settings.video_url != blank and block.settings.show_controls %}
+    <div class="ai-hero-video-controls-{{ ai_gen_id }}">
+      <button
+        class="ai-hero-video-control-btn-{{ ai_gen_id }}"
+        data-action="toggle-play"
+        aria-label="Play/Pause video"
+      >
+        <svg class="play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M8 5v14l11-7z"/>
+        </svg>
+        <svg class="pause-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+        </svg>
+      </button>
+      
+      <button
+        class="ai-hero-video-control-btn-{{ ai_gen_id }}"
+        data-action="toggle-mute"
+        aria-label="Mute/Unmute video"
+      >
+        <svg class="mute-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM19 12c0 2.76-2.24 5-5 5s-5-2.24-5-5 2.24-5 5-5 5 2.24 5 5zm-5 0c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3z"/>
+          <path d="M3 9v6h4l5 5V4L7 9H3z"/>
+        </svg>
+        <svg class="unmute-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+          <path d="M16.5 12c0 1.77-1.02 3.29-2.5 4.03V7.97c1.48.74 2.5 2.26 2.5 4.03z"/>
+        </svg>
+      </button>
+    </div>
+  {% endif %}
+</hero-video-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class HeroVideo{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.video = null;
+        this.playButton = null;
+        this.muteButton = null;
+        this.isPlaying = true;
+        this.isMuted = true;
+      }
+
+      connectedCallback() {
+        this.video = this.querySelector('.ai-hero-video-element-{{ ai_gen_id }}');
+        this.playButton = this.querySelector('[data-action="toggle-play"]');
+        this.muteButton = this.querySelector('[data-action="toggle-mute"]');
+
+        if (this.video) {
+          this.setupEventListeners();
+          this.updatePlayButton();
+          this.updateMuteButton();
+        }
+      }
+
+      setupEventListeners() {
+        if (this.playButton) {
+          this.playButton.addEventListener('click', () => this.togglePlay());
+        }
+
+        if (this.muteButton) {
+          this.muteButton.addEventListener('click', () => this.toggleMute());
+        }
+
+        this.video.addEventListener('play', () => {
+          this.isPlaying = true;
+          this.updatePlayButton();
+        });
+
+        this.video.addEventListener('pause', () => {
+          this.isPlaying = false;
+          this.updatePlayButton();
+        });
+
+        this.video.addEventListener('volumechange', () => {
+          this.isMuted = this.video.muted;
+          this.updateMuteButton();
+        });
+      }
+
+      togglePlay() {
+        if (this.video.paused) {
+          this.video.play();
+        } else {
+          this.video.pause();
+        }
+      }
+
+      toggleMute() {
+        this.video.muted = !this.video.muted;
+      }
+
+      updatePlayButton() {
+        if (!this.playButton) return;
+
+        const playIcon = this.playButton.querySelector('.play-icon');
+        const pauseIcon = this.playButton.querySelector('.pause-icon');
+
+        if (this.isPlaying) {
+          playIcon.style.display = 'none';
+          pauseIcon.style.display = 'block';
+        } else {
+          playIcon.style.display = 'block';
+          pauseIcon.style.display = 'none';
+        }
+      }
+
+      updateMuteButton() {
+        if (!this.muteButton) return;
+
+        const muteIcon = this.muteButton.querySelector('.mute-icon');
+        const unmuteIcon = this.muteButton.querySelector('.unmute-icon');
+
+        if (this.isMuted) {
+          muteIcon.style.display = 'block';
+          unmuteIcon.style.display = 'none';
+        } else {
+          muteIcon.style.display = 'none';
+          unmuteIcon.style.display = 'block';
+        }
+      }
+    }
+
+    customElements.define('hero-video-{{ ai_gen_id }}', HeroVideo{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Hero video",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Video"
+    },
+    {
+      "type": "url",
+      "id": "video_url",
+      "label": "Video URL"
+    },
+    {
+      "type": "range",
+      "id": "video_height",
+      "min": 30,
+      "max": 100,
+      "step": 5,
+      "unit": "vh",
+      "label": "Video height",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "video_height_mobile",
+      "min": 30,
+      "max": 100,
+      "step": 5,
+      "unit": "vh",
+      "label": "Video height on mobile",
+      "default": 60
+    },
+    {
+      "type": "checkbox",
+      "id": "show_controls",
+      "label": "Show video controls",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Overlay"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_overlay",
+      "label": "Show overlay",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "min": 0,
+      "max": 80,
+      "step": 5,
+      "unit": "%",
+      "label": "Overlay opacity",
+      "default": 30
+    },
+    {
+      "type": "select",
+      "id": "overlay_direction",
+      "label": "Overlay direction",
+      "options": [
+        {
+          "value": "to bottom",
+          "label": "Top to bottom"
+        },
+        {
+          "value": "to top",
+          "label": "Bottom to top"
+        },
+        {
+          "value": "to right",
+          "label": "Left to right"
+        },
+        {
+          "value": "to left",
+          "label": "Right to left"
+        }
+      ],
+      "default": "to bottom"
+    },
+    {
+      "type": "header",
+      "content": "Content positioning"
+    },
+    {
+      "type": "range",
+      "id": "content_position_horizontal",
+      "min": 10,
+      "max": 90,
+      "step": 5,
+      "unit": "%",
+      "label": "Horizontal position",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "content_position_vertical",
+      "min": 10,
+      "max": 90,
+      "step": 5,
+      "unit": "%",
+      "label": "Vertical position",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "content_position_horizontal_mobile",
+      "min": 10,
+      "max": 90,
+      "step": 5,
+      "unit": "%",
+      "label": "Horizontal position on mobile",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "content_position_vertical_mobile",
+      "min": 10,
+      "max": 90,
+      "step": 5,
+      "unit": "%",
+      "label": "Vertical position on mobile",
+      "default": 50
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Welcome to our store"
+    },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Discover amazing products and exceptional quality"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "content_max_width",
+      "min": 400,
+      "max": 1000,
+      "step": 50,
+      "unit": "px",
+      "label": "Content max width",
+      "default": 600
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Heading style"
+    },
+    {
+      "type": "font_picker",
+      "id": "heading_font",
+      "label": "Heading font",
+      "default": "poppins_n5"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "min": 24,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "label": "Heading size",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "heading_margin",
+      "min": 0,
+      "max": 40,
+      "step": 4,
+      "unit": "px",
+      "label": "Heading bottom margin",
+      "default": 16
+    },
+    {
+      "type": "header",
+      "content": "Subheading style"
+    },
+    {
+      "type": "font_picker",
+      "id": "subheading_font",
+      "label": "Subheading font",
+      "default": "poppins_n4"
+    },
+    {
+      "type": "range",
+      "id": "subheading_size",
+      "min": 14,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "label": "Subheading size",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "subheading_margin",
+      "min": 0,
+      "max": 40,
+      "step": 4,
+      "unit": "px",
+      "label": "Subheading bottom margin",
+      "default": 24
+    },
+    {
+      "type": "header",
+      "content": "Button"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text",
+      "default": "Shop now"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button link"
+    },
+    {
+      "type": "color",
+      "id": "button_bg_color",
+      "label": "Button background",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_bg_color",
+      "label": "Button hover background",
+      "default": "#333333"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_text_color",
+      "label": "Button hover text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_border_color",
+      "label": "Button border color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "button_border_width",
+      "min": 0,
+      "max": 4,
+      "step": 1,
+      "unit": "px",
+      "label": "Button border width",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Button border radius",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "button_font_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Button font size",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "button_padding_horizontal",
+      "min": 16,
+      "max": 48,
+      "step": 4,
+      "unit": "px",
+      "label": "Button horizontal padding",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "button_padding_vertical",
+      "min": 8,
+      "max": 24,
+      "step": 2,
+      "unit": "px",
+      "label": "Button vertical padding",
+      "default": 16
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero video"
+    }
+  ]
+}
 {% endschema %}
