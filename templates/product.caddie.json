@@ -9,6 +9,24 @@
  */
 {
   "sections": {
+    "1759504318d2b76803": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_879b11f_QJBwLC": {
+          "type": "ai_gen_block_879b11f",
+          "settings": {
+            "video_file": "shopify://files/videos/Project 14_The Caddie_Hype Video.mp4",
+            "video_description": "",
+            "border_radius": 16
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_879b11f_QJBwLC"
+      ],
+      "settings": {}
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -42,16 +60,16 @@
             "text_style": "subtitle"
           }
         },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
         "text_ExJaTM": {
           "type": "text",
           "settings": {
             "text": "<em><strong>🔥 3,108 Sold In Last 30 Days</strong></em>",
             "text_style": "body"
           }
-        },
-        "price": {
-          "type": "price",
-          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -153,8 +171,8 @@
         "title",
         "text_8pA7Hq",
         "caption",
-        "text_ExJaTM",
         "price",
+        "text_ExJaTM",
         "variant_picker",
         "quantity_selector_a4gife",
         "buy_buttons",
@@ -865,6 +883,7 @@
     "main",
     "image_banner_AgN8Rt",
     "image_banner_HbDtXQ",
+    "1759504318d2b76803",
     "rich_text_Pzp6bP",
     "multirow_DgY64M",
     "course_search_QWVePx",
