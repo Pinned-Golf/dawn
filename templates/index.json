@@ -14,6 +14,7 @@
       "blocks": {
         "ai_gen_block_6b19f02_miYfDB": {
           "type": "ai_gen_block_6b19f02",
+          "disabled": true,
           "settings": {
             "video_url": "https://cdn.shopify.com/videos/c/o/v/7a13743cbc544c769594c2b7c0fcca45.mp4",
             "video_height": 80,
