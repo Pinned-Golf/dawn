@@ -545,6 +545,7 @@
         "collapsible_row_X9eV6U",
         "collapsible_row_3RTHwb"
       ],
+      "disabled": true,
       "settings": {
         "caption": "the perfect gift for your golfer and here are",
         "heading": "Five Reasons Why.",
@@ -574,51 +575,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "1759497565006aadb9": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_7168ee6_7pKPxr": {
-          "type": "ai_gen_block_7168ee6",
-          "settings": {
-            "desktop_slides": 2,
-            "slide_height": 500,
-            "slide_gap": 16,
-            "border_radius": 16,
-            "show_navigation": true,
-            "show_dots": true,
-            "autoplay": false,
-            "autoplay_speed": 3000,
-            "slide_1_image": "shopify://shop_images/4_9fe9908d-4d8f-4dc7-bef6-8f139e2d421f.png",
-            "slide_1_title": "Multiplayer Games",
-            "slide_1_description": "",
-            "slide_1_link": "",
-            "slide_2_image": "shopify://shop_images/1_f0355d7d-4560-400b-a43d-7a228f946af6.png",
-            "slide_2_title": "Dialed In Analytics",
-            "slide_2_description": "",
-            "slide_2_link": "",
-            "slide_3_image": "shopify://shop_images/5_50042114-ae55-4444-83c3-089d15a6f1c6.png",
-            "slide_3_title": "Easy Scoring",
-            "slide_3_description": "",
-            "slide_3_link": "",
-            "slide_4_image": "shopify://shop_images/3_335ffa9a-ecde-4166-a3bc-3277d4154b18.png",
-            "slide_4_title": "Auto-Dot Technology",
-            "slide_4_description": "",
-            "slide_4_link": "",
-            "slide_5_title": "",
-            "slide_5_description": "",
-            "slide_5_link": "",
-            "slide_6_title": "",
-            "slide_6_description": "",
-            "slide_6_link": ""
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_7168ee6_7pKPxr"
-      ],
-      "settings": {}
     },
     "collage_RBkzxK": {
       "type": "collage",
@@ -1042,66 +998,6 @@
         "padding_bottom": 52
       }
     },
-    "17594966909657176a": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_1567220_maDRxP": {
-          "type": "ai_gen_block_1567220",
-          "settings": {
-            "carousel_height": 500,
-            "border_radius": 16,
-            "overlay_opacity": 30,
-            "text_horizontal_alignment": "center",
-            "text_vertical_alignment": "center",
-            "text_alignment": "center",
-            "content_max_width": 600,
-            "text_color": "#ffffff",
-            "heading_size": 36,
-            "text_size": 16,
-            "button_color": "#000000",
-            "button_text_color": "#ffffff",
-            "button_hover_color": "#333333",
-            "button_hover_text_color": "#ffffff",
-            "button_border_radius": 10,
-            "show_navigation": false,
-            "show_dots": true,
-            "autoplay": true,
-            "autoplay_speed": 5,
-            "slide_1_enabled": true,
-            "slide_1_heading": "Welcome to our store",
-            "slide_1_text": "Discover our amazing products and special offers",
-            "slide_1_button_text": "Shop now",
-            "slide_1_button_link": "",
-            "slide_2_enabled": true,
-            "slide_2_heading": "New arrivals",
-            "slide_2_text": "Check out our latest collection",
-            "slide_2_button_text": "Explore",
-            "slide_2_button_link": "",
-            "slide_3_enabled": false,
-            "slide_3_heading": "",
-            "slide_3_text": "",
-            "slide_3_button_text": "",
-            "slide_3_button_link": "",
-            "slide_4_enabled": false,
-            "slide_4_heading": "",
-            "slide_4_text": "",
-            "slide_4_button_text": "",
-            "slide_4_button_link": "",
-            "slide_5_enabled": false,
-            "slide_5_heading": "",
-            "slide_5_text": "",
-            "slide_5_button_text": "",
-            "slide_5_button_link": ""
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_1567220_maDRxP"
-      ],
-      "disabled": true,
-      "settings": {}
-    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -1132,7 +1028,6 @@
     "course_search_QWVePx",
     "collapsible_content_j6wfqJ",
     "video_QGeh74",
-    "1759497565006aadb9",
     "collage_RBkzxK",
     "collage_nciEHT",
     "collage_7xmBeb",
@@ -1145,7 +1040,6 @@
     "video_iErkPe",
     "video_nGX7J8",
     "custom_liquid_PRJMPr",
-    "17594966909657176a",
     "related-products"
   ]
 }
