@@ -1,14 +1,40 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "1759874185b009bf0d": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_f513632_c7NJWT": {
+          "type": "ai_gen_block_f513632",
+          "settings": {
+            "image_1": "shopify://shop_images/IMG_8418.heic",
+            "image_2": "shopify://shop_images/IMG_5315.jpg",
+            "image_3": "shopify://shop_images/IMG_5320.jpg",
+            "image_4": "shopify://shop_images/IMG_5345.jpg",
+            "aspect_ratio": "16/9",
+            "border_radius": 8,
+            "autoplay": true,
+            "autoplay_speed": 4,
+            "dot_size": 12,
+            "dot_active_color": "#000000",
+            "dot_inactive_color": "#cccccc"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_f513632_c7NJWT"
+      ],
+      "settings": {}
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -20,7 +46,7 @@
     "image_banner_TGGfCn": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_6141.jpg",
+        "image": "shopify://shop_images/Frame_6141.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -36,7 +62,7 @@
     "image_banner_aRChbf": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Welcomea_6.jpg",
+        "image": "shopify://shop_images/Welcomea_6.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -52,7 +78,7 @@
     "custom_liquid_cXUd3q": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-Rm2TJP\"><\/div>",
+        "custom_liquid": "<div class=\"klaviyo-form-Rm2TJP\"></div>",
         "color_scheme": "scheme-56b16015-6d34-44ab-a29d-927cd0bec0a3",
         "padding_top": 40,
         "padding_bottom": 52
@@ -61,7 +87,7 @@
     "image_banner_rcmgpM": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_4a42.jpg",
+        "image": "shopify://shop_images/Frame_4a42.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -77,7 +103,7 @@
     "image_banner_KkLTU7": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_4a43.jpg",
+        "image": "shopify://shop_images/Frame_4a43.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -97,6 +123,7 @@
     "image_banner_aRChbf",
     "custom_liquid_cXUd3q",
     "image_banner_rcmgpM",
-    "image_banner_KkLTU7"
+    "image_banner_KkLTU7",
+    "1759874185b009bf0d"
   ]
 }
