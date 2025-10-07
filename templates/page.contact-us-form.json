@@ -1,0 +1,374 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_liquid_aQCU9Y": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-Tf8nwC\"></div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_LgYhRC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AXFJR8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get in touch.",
+            "heading_size": "h1"
+          }
+        },
+        "text_3pcGdD": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Questions about a product? </strong></p><p><em>support@pinnedgolf.com</em> </p><p></p><p><strong>Looking to place a wholesale order? </strong></p><p><a href=\"/pages/wholesale\" title=\"Wholesale + Custom\">Get started here</a></p>"
+          }
+        },
+        "button_Xpibq9": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_AXFJR8",
+        "text_3pcGdD",
+        "button_Xpibq9"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_gY7bC9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hEXXD6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Need to return?",
+            "heading_size": "h1"
+          }
+        },
+        "text_63xzPH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Click into our portal below to start the return process.</p>"
+          }
+        },
+        "button_xzFwtw": {
+          "type": "button",
+          "settings": {
+            "button_label": "Return Portal",
+            "button_link": "https://pinned-golf.myshopify.com/apps/redo/returns-portal/login?referralId=68751176a1aea687c5fbc738",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "https://pinned-golf.myshopify.com/apps/redo/returns-portal/login?referralId=68751176a1aea687c5fbc738&start_gift_return=true",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hEXXD6",
+        "text_63xzPH",
+        "button_xzFwtw"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1759442292f13621e6": {
+      "type": "apps",
+      "blocks": {
+        "redo_free_return_automation_redo_contact_form_TVHKN6": {
+          "type": "shopify://apps/redo/blocks/redo_contact_form/c613644b-6df4-4d11-b336-43a5c06745a1",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "redo_free_return_automation_redo_contact_form_TVHKN6"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "collapsible_content_dwnXxx": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_bRQ78j": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_NDVcBt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_KWzJGU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_A7bgRN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_bRQ78j",
+        "collapsible_row_NDVcBt",
+        "collapsible_row_KWzJGU",
+        "collapsible_row_A7bgRN"
+      ],
+      "disabled": true,
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_nYrCnq": {
+      "type": "multirow",
+      "blocks": {
+        "row_tKXPUQ": {
+          "type": "row",
+          "settings": {
+            "caption": "How to use your",
+            "heading": "Prism+ Rangefinder",
+            "text": "<p>Here is a quick little tutorial video on how to use your Prism+ rangefinder. </p>",
+            "button_label": "Watch Tutorial",
+            "button_link": "shopify://pages/contact-us"
+          }
+        },
+        "row_QJHXCY": {
+          "type": "row",
+          "settings": {
+            "caption": "How to use your",
+            "heading": "Dart 2.0 Speaker",
+            "text": "<p>Here is a quick little tutorial video on how to use your Dart 2.0 speaker. </p>",
+            "button_label": "Watch Tutorial",
+            "button_link": "shopify://pages/caddy-combo"
+          }
+        },
+        "row_JrUFEw": {
+          "type": "row",
+          "settings": {
+            "caption": "How to use your",
+            "heading": "Sound Stick Speaker",
+            "text": "<p>Here is a quick little tutorial video on how to use your Sound Stick speaker. </p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_tKXPUQ",
+        "row_QJHXCY",
+        "row_JrUFEw"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-1",
+        "row_color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_33RiJE": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Trending",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "upsells",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-af529a53-b94b-40d0-9746-399d6ccf1927",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_ykwtT7": {
+      "type": "multirow",
+      "blocks": {
+        "row_38VxQy": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/1_dac728d7-81e7-4801-9c47-4415995330ef.png",
+            "caption": "Digital Manual For",
+            "heading": "Caddie GPS Tablet",
+            "text": "",
+            "button_label": "Learn More",
+            "button_link": "https://cdn.shopify.com/s/files/1/0522/1734/8255/files/English_Caddie_Instruction_Manual.pdf?v=1747184863"
+          }
+        },
+        "row_pQXK69": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/2_50306292-b2ef-4b2c-8567-2d5f0d9753d7.png",
+            "caption": "Digital Manual For",
+            "heading": "Prism+ Rangefinder",
+            "text": "",
+            "button_label": "Learn More",
+            "button_link": "https://cdn.shopify.com/s/files/1/0522/1734/8255/files/Prism_User_Manual_2.pdf?v=1748621008"
+          }
+        },
+        "row_igFxcM": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/3_ddc6c42d-b3a1-4e1e-b233-b31d375433ad.png",
+            "caption": "Digital Manual For",
+            "heading": "Sound Stick Speaker",
+            "text": "",
+            "button_label": "Learn More",
+            "button_link": "https://cdn.shopify.com/s/files/1/0522/1734/8255/files/Sound_Stick_Manual.pdf?v=1748622104"
+          }
+        },
+        "row_Qd6Egz": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/3_2b2ea8b0-159d-4e09-a707-02e18e0162b5.png",
+            "caption": "Digital Manual For",
+            "heading": "Dart 2.0 Speaker",
+            "text": "",
+            "button_label": "Learn More",
+            "button_link": "https://cdn.shopify.com/s/files/1/0522/1734/8255/files/Dart_2.0_Speaker_Instructions_1.pdf?v=1748622189"
+          }
+        }
+      },
+      "block_order": [
+        "row_38VxQy",
+        "row_pQXK69",
+        "row_igFxcM",
+        "row_Qd6Egz"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_aQCU9Y",
+    "main",
+    "form",
+    "rich_text_LgYhRC",
+    "rich_text_gY7bC9",
+    "1759442292f13621e6",
+    "collapsible_content_dwnXxx",
+    "multirow_nYrCnq",
+    "featured_collection_33RiJE",
+    "multirow_ykwtT7"
+  ]
+}
