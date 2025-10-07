@@ -16,6 +16,7 @@
       "blocks": {
         "announcement_xFKTDG": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Ryder Cup Collection 🏆",
             "link": "shopify://collections/the-ryder-cup-collection"
@@ -23,6 +24,7 @@
         },
         "announcement_fXeqhB": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Bethpage Black Friday!",
             "link": "shopify://products/the-caddie-golf-tablet"
