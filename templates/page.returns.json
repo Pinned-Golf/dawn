@@ -36,8 +36,8 @@
         "button_VJgRGP": {
           "type": "button",
           "settings": {
-            "button_label": "",
-            "button_link": "",
+            "button_label": "Visit Return Portal",
+            "button_link": "https://pinned-golf.myshopify.com/apps/redo/returns-portal/login?referralId=68751176a1aea687c5fbc738",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
