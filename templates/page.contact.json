@@ -117,12 +117,12 @@
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 24
       }
     },
     "rich_text_8yNWwm": {
@@ -160,8 +160,8 @@
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "desktop_content_position": "right",
+        "content_alignment": "right",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
@@ -182,6 +182,49 @@
       "disabled": true,
       "settings": {
         "include_margins": true
+      }
+    },
+    "rich_text_YferLR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UG889Q": {
+          "type": "heading",
+          "settings": {
+            "heading": "Instruction Manuals",
+            "heading_size": "h1"
+          }
+        },
+        "text_DEFbLL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Need help with one of our Pinned products? Take a look at our digital instruction manuals. </p>"
+          }
+        },
+        "button_RfLtcj": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UG889Q",
+        "text_DEFbLL",
+        "button_RfLtcj"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 24
       }
     },
     "collapsible_content_dwnXxx": {
@@ -411,6 +454,7 @@
     "rich_text_gY7bC9",
     "rich_text_8yNWwm",
     "1759442292f13621e6",
+    "rich_text_YferLR",
     "collapsible_content_dwnXxx",
     "multirow_nYrCnq",
     "featured_collection_33RiJE",
