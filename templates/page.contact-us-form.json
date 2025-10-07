@@ -115,6 +115,7 @@
         "text_63xzPH",
         "button_xzFwtw"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -341,6 +342,7 @@
         "row_igFxcM",
         "row_Qd6Egz"
       ],
+      "disabled": true,
       "name": "t:sections.multirow.presets.name",
       "settings": {
         "image_height": "medium",
