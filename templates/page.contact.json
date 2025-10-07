@@ -125,6 +125,49 @@
         "padding_bottom": 52
       }
     },
+    "rich_text_8yNWwm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rBEnXW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Got a question?",
+            "heading_size": "h1"
+          }
+        },
+        "text_ztg3cT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Click into our portal, fill out the form and a member of our team will get back to you asap!</p>"
+          }
+        },
+        "button_pRnHDi": {
+          "type": "button",
+          "settings": {
+            "button_label": "Support Portal",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "https://pinned-golf.myshopify.com/apps/redo/returns-portal/login?referralId=68751176a1aea687c5fbc738&start_gift_return=true",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rBEnXW",
+        "text_ztg3cT",
+        "button_pRnHDi"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1759442292f13621e6": {
       "type": "apps",
       "blocks": {
@@ -136,6 +179,7 @@
       "block_order": [
         "redo_free_return_automation_redo_contact_form_TVHKN6"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
@@ -365,6 +409,7 @@
     "form",
     "rich_text_LgYhRC",
     "rich_text_gY7bC9",
+    "rich_text_8yNWwm",
     "1759442292f13621e6",
     "collapsible_content_dwnXxx",
     "multirow_nYrCnq",
