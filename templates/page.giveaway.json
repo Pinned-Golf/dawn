@@ -17,9 +17,9 @@
           "settings": {
             "video_url": "https://cdn.shopify.com/videos/c/o/v/8c3308bdd50c4823a4438dbb25f6ae7a.mp4",
             "video_description": "",
-            "aspect_ratio": "56.25",
+            "aspect_ratio": "75",
             "show_play_pause": true,
-            "border_radius": 85
+            "border_radius": 60
           },
           "blocks": {}
         }
@@ -123,6 +123,7 @@
     },
     "video_nDibpy": {
       "type": "video",
+      "disabled": true,
       "name": "t:sections.video.presets.name",
       "settings": {
         "heading": "",
