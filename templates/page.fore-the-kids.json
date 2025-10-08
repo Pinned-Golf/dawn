@@ -114,31 +114,8 @@
       "block_order": [
         "ai_gen_block_f513632_c7NJWT"
       ],
+      "disabled": true,
       "settings": {}
-    },
-    "rich_text_mDQiLD": {
-      "type": "rich-text",
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 24,
-        "padding_bottom": 24
-      }
-    },
-    "rich_text_rm99bh": {
-      "type": "rich-text",
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 24,
-        "padding_bottom": 24
-      }
     }
   },
   "order": [
@@ -148,8 +125,6 @@
     "custom_liquid_cXUd3q",
     "image_banner_rcmgpM",
     "image_banner_KkLTU7",
-    "rich_text_mDQiLD",
-    "1759874185b009bf0d",
-    "rich_text_rm99bh"
+    "1759874185b009bf0d"
   ]
 }
