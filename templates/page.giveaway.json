@@ -9,6 +9,26 @@
  */
 {
   "sections": {
+    "1759935305b6bf618d": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_8ef89d9_n3wqNH": {
+          "type": "ai_gen_block_8ef89d9",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/8c3308bdd50c4823a4438dbb25f6ae7a.mp4",
+            "video_description": "",
+            "aspect_ratio": "56.25",
+            "show_play_pause": true,
+            "border_radius": 85
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_8ef89d9_n3wqNH"
+      ],
+      "settings": {}
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -183,6 +203,7 @@
     }
   },
   "order": [
+    "1759935305b6bf618d",
     "main",
     "image_banner_WxrqLL",
     "custom_liquid_fUdMJC",
