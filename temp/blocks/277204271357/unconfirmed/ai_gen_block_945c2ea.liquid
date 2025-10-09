@@ -1,6 +1,487 @@
+{% doc %}
+  @prompt
+    create me a product grid where I can change the number of products on a row & columns. I also want to be able to see reviews, and color variant options underneath the product name & price. If there is a sale price, that should be red. 
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-product-grid-{{ ai_gen_id }} {
+    padding: {{ block.settings.section_padding }}px 0;
+  }
+
+  .ai-product-grid-container-{{ ai_gen_id }} {
+    max-width: {{ settings.page_width }}px;
+    margin: 0 auto;
+    padding: 0 {{ settings.spacing_grid_horizontal }}px;
+  }
+
+  .ai-product-grid-list-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat({{ block.settings.columns_desktop }}, 1fr);
+    gap: {{ settings.spacing_grid_horizontal }}px {{ settings.spacing_grid_vertical }}px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-product-grid-list-{{ ai_gen_id }} {
+      grid-template-columns: repeat({{ block.settings.columns_mobile }}, 1fr);
+    }
+  }
+
+  .ai-product-card-{{ ai_gen_id }} {
+    position: relative;
+    background-color: {{ settings.color_schemes[settings.card_color_scheme].settings.background }};
+    border-radius: {{ settings.card_corner_radius }}px;
+    border: {{ settings.card_border_thickness }}px solid rgba({{ settings.color_schemes[settings.card_color_scheme].settings.text | color_extract: 'red' }}, {{ settings.color_schemes[settings.card_color_scheme].settings.text | color_extract: 'green' }}, {{ settings.color_schemes[settings.card_color_scheme].settings.text | color_extract: 'blue' }}, {{ settings.card_border_opacity | divided_by: 100.0 }});
+    box-shadow: {{ settings.card_shadow_horizontal_offset }}px {{ settings.card_shadow_vertical_offset }}px {{ settings.card_shadow_blur }}px rgba({{ settings.color_schemes[settings.card_color_scheme].settings.shadow | color_extract: 'red' }}, {{ settings.color_schemes[settings.card_color_scheme].settings.shadow | color_extract: 'green' }}, {{ settings.color_schemes[settings.card_color_scheme].settings.shadow | color_extract: 'blue' }}, {{ settings.card_shadow_opacity | divided_by: 100.0 }});
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+
+  .ai-product-card-{{ ai_gen_id }}:hover {
+    {% if settings.animations_hover_elements == 'vertical-lift' %}
+      transform: translateY(-4px);
+    {% elsif settings.animations_hover_elements == '3d-lift' %}
+      transform: translateY(-4px) scale(1.02);
+    {% endif %}
+  }
+
+  .ai-product-card-image-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    padding: {{ settings.card_image_padding }}px;
+  }
+
+  .ai-product-card-image-{{ ai_gen_id }} img {
+    width: 100%;
+    height: auto;
+    border-radius: {{ settings.media_radius }}px;
+    object-fit: cover;
+  }
+
+  .ai-product-card-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    aspect-ratio: 1;
+    background-color: #f4f4f4;
+    border-radius: {{ settings.media_radius }}px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-product-card-placeholder-{{ ai_gen_id }} svg {
+    width: 60%;
+    height: 60%;
+    opacity: 0.3;
+  }
+
+  .ai-product-card-content-{{ ai_gen_id }} {
+    padding: 16px;
+    text-align: {{ settings.card_text_alignment }};
+    color: {{ settings.color_schemes[settings.card_color_scheme].settings.text }};
+  }
+
+  .ai-product-card-title-{{ ai_gen_id }} {
+    font-family: {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
+    font-weight: {{ settings.type_header_font.weight }};
+    font-size: calc(16px * {{ settings.heading_scale | divided_by: 100.0 }});
+    margin: 0 0 8px;
+    line-height: 1.3;
+  }
+
+  .ai-product-card-title-{{ ai_gen_id }} a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .ai-product-card-title-{{ ai_gen_id }} a:hover {
+    text-decoration: underline;
+  }
+
+  .ai-product-card-price-{{ ai_gen_id }} {
+    font-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
+    font-weight: {{ settings.type_body_font.weight }};
+    font-size: calc(14px * {{ settings.body_scale | divided_by: 100.0 }});
+    margin-bottom: 12px;
+  }
+
+  .ai-product-card-price-original-{{ ai_gen_id }} {
+    text-decoration: line-through;
+    opacity: 0.7;
+    margin-right: 8px;
+  }
+
+  .ai-product-card-price-sale-{{ ai_gen_id }} {
+    color: #ff0000;
+    font-weight: 600;
+  }
+
+  .ai-product-card-reviews-{{ ai_gen_id }} {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    {% if settings.card_text_alignment == 'center' %}
+      justify-content: center;
+    {% elsif settings.card_text_alignment == 'right' %}
+      justify-content: flex-end;
+    {% else %}
+      justify-content: flex-start;
+    {% endif %}
+    gap: 8px;
+  }
+
+  .ai-product-card-stars-{{ ai_gen_id }} {
+    display: flex;
+    gap: 2px;
+  }
+
+  .ai-product-card-star-{{ ai_gen_id }} {
+    width: 14px;
+    height: 14px;
+    color: #ffc107;
+  }
+
+  .ai-product-card-star-empty-{{ ai_gen_id }} {
+    color: #e0e0e0;
+  }
+
+  .ai-product-card-review-count-{{ ai_gen_id }} {
+    font-size: calc(12px * {{ settings.body_scale | divided_by: 100.0 }});
+    opacity: 0.7;
+  }
+
+  .ai-product-card-variants-{{ ai_gen_id }} {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    {% if settings.card_text_alignment == 'center' %}
+      justify-content: center;
+    {% elsif settings.card_text_alignment == 'right' %}
+      justify-content: flex-end;
+    {% else %}
+      justify-content: flex-start;
+    {% endif %}
+  }
+
+  .ai-product-card-variant-{{ ai_gen_id }} {
+    width: 24px;
+    height: 24px;
+    border-radius: {{ settings.variant_pills_radius }}px;
+    border: {{ settings.variant_pills_border_thickness }}px solid rgba({{ settings.color_schemes[settings.card_color_scheme].settings.text | color_extract: 'red' }}, {{ settings.color_schemes[settings.card_color_scheme].settings.text | color_extract: 'green' }}, {{ settings.color_schemes[settings.card_color_scheme].settings.text | color_extract: 'blue' }}, {{ settings.variant_pills_border_opacity | divided_by: 100.0 }});
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    position: relative;
+  }
+
+  .ai-product-card-variant-{{ ai_gen_id }}:hover {
+    transform: scale(1.1);
+  }
+
+  .ai-product-card-variant-{{ ai_gen_id }}::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: currentColor;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+
+  .ai-product-card-variant-{{ ai_gen_id }}:hover::after {
+    opacity: 0.3;
+  }
+
+  .ai-product-card-badge-{{ ai_gen_id }} {
+    position: absolute;
+    {{ settings.badge_position }}: 8px;
+    background-color: {{ settings.color_schemes[settings.sale_badge_color_scheme].settings.background }};
+    color: {{ settings.color_schemes[settings.sale_badge_color_scheme].settings.text }};
+    padding: 4px 8px;
+    border-radius: {{ settings.badge_corner_radius }}px;
+    font-size: calc(12px * {{ settings.body_scale | divided_by: 100.0 }});
+    font-weight: 600;
+    z-index: 2;
+  }
+
+  .ai-product-card-badge-sold-out-{{ ai_gen_id }} {
+    background-color: {{ settings.color_schemes[settings.sold_out_badge_color_scheme].settings.background }};
+    color: {{ settings.color_schemes[settings.sold_out_badge_color_scheme].settings.text }};
+  }
+
+  .ai-product-grid-empty-{{ ai_gen_id }} {
+    text-align: center;
+    padding: 60px 20px;
+    color: {{ settings.color_schemes[settings.card_color_scheme].settings.text }};
+  }
+
+  .ai-product-grid-empty-title-{{ ai_gen_id }} {
+    font-family: {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
+    font-size: calc(24px * {{ settings.heading_scale | divided_by: 100.0 }});
+    margin-bottom: 16px;
+  }
+
+  .ai-product-grid-empty-text-{{ ai_gen_id }} {
+    font-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
+    font-size: calc(16px * {{ settings.body_scale | divided_by: 100.0 }});
+    opacity: 0.7;
+  }
+{% endstyle %}
+
+<product-grid-{{ ai_gen_id }} class="ai-product-grid-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-product-grid-container-{{ ai_gen_id }}">
+    {% if block.settings.collection != blank and block.settings.collection.products.size > 0 %}
+      <ul class="ai-product-grid-list-{{ ai_gen_id }}">
+        {% for product in block.settings.collection.products limit: block.settings.products_to_show %}
+          <li class="ai-product-card-{{ ai_gen_id }}">
+            {% if product.compare_at_price > product.price %}
+              <div class="ai-product-card-badge-{{ ai_gen_id }}">
+                Sale
+              </div>
+            {% elsif product.available == false %}
+              <div class="ai-product-card-badge-{{ ai_gen_id }} ai-product-card-badge-sold-out-{{ ai_gen_id }}">
+                Sold out
+              </div>
+            {% endif %}
+
+            <div class="ai-product-card-image-{{ ai_gen_id }}">
+              {% if product.featured_image %}
+                <a href="{{ product.url }}">
+                  <img
+                    src="{{ product.featured_image | image_url: width: 600 }}"
+                    alt="{{ product.featured_image.alt | escape }}"
+                    width="{{ product.featured_image.width }}"
+                    height="{{ product.featured_image.height }}"
+                    loading="lazy"
+                  >
+                </a>
+              {% else %}
+                <div class="ai-product-card-placeholder-{{ ai_gen_id }}">
+                  {{ 'product-1' | placeholder_svg_tag }}
+                </div>
+              {% endif %}
+            </div>
+
+            <div class="ai-product-card-content-{{ ai_gen_id }}">
+              <h3 class="ai-product-card-title-{{ ai_gen_id }}">
+                <a href="{{ product.url }}">{{ product.title }}</a>
+              </h3>
+
+              <div class="ai-product-card-price-{{ ai_gen_id }}">
+                {% if product.compare_at_price > product.price %}
+                  <span class="ai-product-card-price-original-{{ ai_gen_id }}">
+                    {{ product.compare_at_price | money }}
+                  </span>
+                  <span class="ai-product-card-price-sale-{{ ai_gen_id }}">
+                    {{ product.price | money }}
+                  </span>
+                {% else %}
+                  {{ product.price | money }}
+                {% endif %}
+              </div>
+
+              {% if block.settings.show_reviews %}
+                <div class="ai-product-card-reviews-{{ ai_gen_id }}">
+                  <div class="ai-product-card-stars-{{ ai_gen_id }}">
+                    {% assign rating = 4.5 %}
+                    {% assign full_stars = rating | floor %}
+                    {% assign has_half_star = rating | modulo: 1 | round %}
+                    {% assign half_star_position = full_stars | plus: 1 %}
+                    
+                    {% for i in (1..5) %}
+                      {% if i <= full_stars %}
+                        <svg class="ai-product-card-star-{{ ai_gen_id }}" fill="currentColor" viewBox="0 0 20 20">
+                          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
+                      {% elsif i == half_star_position and has_half_star == 1 %}
+                        <svg class="ai-product-card-star-{{ ai_gen_id }}" fill="currentColor" viewBox="0 0 20 20">
+                          <defs>
+                            <linearGradient id="half-{{ ai_gen_id }}-{{ forloop.index }}">
+                              <stop offset="50%" stop-color="currentColor"/>
+                              <stop offset="50%" stop-color="#e0e0e0"/>
+                            </linearGradient>
+                          </defs>
+                          <path fill="url(#half-{{ ai_gen_id }}-{{ forloop.index }})" d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
+                      {% else %}
+                        <svg class="ai-product-card-star-{{ ai_gen_id }} ai-product-card-star-empty-{{ ai_gen_id }}" fill="currentColor" viewBox="0 0 20 20">
+                          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
+                      {% endif %}
+                    {% endfor %}
+                  </div>
+                  <span class="ai-product-card-review-count-{{ ai_gen_id }}">({{ 127 | plus: forloop.index }})</span>
+                </div>
+              {% endif %}
+
+              {% if block.settings.show_color_variants %}
+                {% assign color_option = product.options_with_values | where: 'name', 'Color' | first %}
+                {% if color_option and color_option.values.size > 0 %}
+                  <div class="ai-product-card-variants-{{ ai_gen_id }}">
+                    {% for color_value in color_option.values limit: 5 %}
+                      {% assign color_variant = product.variants | where: 'option1', color_value | first %}
+                      {% if color_variant %}
+                        <div 
+                          class="ai-product-card-variant-{{ ai_gen_id }}"
+                          style="background-color: {{ color_value | downcase | replace: ' ', '' }};"
+                          title="{{ color_value }}"
+                          data-variant-id="{{ color_variant.id }}"
+                        ></div>
+                      {% endif %}
+                    {% endfor %}
+                  </div>
+                {% endif %}
+              {% endif %}
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <div class="ai-product-grid-empty-{{ ai_gen_id }}">
+        <h3 class="ai-product-grid-empty-title-{{ ai_gen_id }}">No products found</h3>
+        <p class="ai-product-grid-empty-text-{{ ai_gen_id }}">
+          {% if block.settings.collection == blank %}
+            Select a collection to display products.
+          {% else %}
+            The selected collection is empty.
+          {% endif %}
+        </p>
+      </div>
+    {% endif %}
+  </div>
+</product-grid-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class ProductGrid{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.setupVariantSwatches();
+      }
+
+      setupVariantSwatches() {
+        const variants = this.querySelectorAll('.ai-product-card-variant-{{ ai_gen_id }}');
+        
+        variants.forEach(variant => {
+          variant.addEventListener('click', (e) => {
+            const variantId = e.target.dataset.variantId;
+            if (variantId) {
+              const productCard = e.target.closest('.ai-product-card-{{ ai_gen_id }}');
+              const productImage = productCard.querySelector('.ai-product-card-image-{{ ai_gen_id }} img');
+              
+              if (productImage) {
+                fetch(`/products/${productCard.querySelector('a').href.split('/').pop()}.js`)
+                  .then(response => response.json())
+                  .then(product => {
+                    const selectedVariant = product.variants.find(v => v.id == variantId);
+                    if (selectedVariant && selectedVariant.featured_image) {
+                      productImage.src = selectedVariant.featured_image.src;
+                      productImage.alt = selectedVariant.featured_image.alt || product.title;
+                    }
+                  })
+                  .catch(error => console.log('Error fetching variant image:', error));
+              }
+            }
+          });
+        });
+      }
+    }
+
+    customElements.define('product-grid-{{ ai_gen_id }}', ProductGrid{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Product grid",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Collection"
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Collection"
+    },
+    {
+      "type": "range",
+      "id": "products_to_show",
+      "min": 2,
+      "max": 50,
+      "step": 1,
+      "label": "Products to show",
+      "default": 12
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "min": 1,
+      "max": 6,
+      "step": 1,
+      "label": "Columns on desktop",
+      "default": 4
+    },
+    {
+      "type": "select",
+      "id": "columns_mobile",
+      "label": "Columns on mobile",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ],
+      "default": "2"
+    },
+    {
+      "type": "range",
+      "id": "section_padding",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Section padding",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Product information"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_reviews",
+      "label": "Show product reviews",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_color_variants",
+      "label": "Show color variants",
+      "default": true
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product grid"
+    }
+  ]
+}
 {% endschema %}
