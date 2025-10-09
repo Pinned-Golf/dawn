@@ -1,6 +1,906 @@
+{% doc %}
+  @prompt
+    “Create a modern, high-converting collection page layout inspired by Beats by Dre. Each product card should:
+    	•	Display the main product image along with color swatches (showing all available variants without clicking in).
+    	•	Include the product name, short feature subtitle, and price.
+    	•	Show star ratings and review counts underneath the title.
+    	•	Add small badges for things like ‘New’, ‘Bestseller’, or ‘Limited Edition’ if tagged that way in Shopify.
+    	•	When a user hovers over the card, swap the product image to the next variant color image.
+    	•	Maintain a clean, premium design with large product imagery, rounded corners, and generous spacing similar to Apple/Beats.
+    
+    Layout preferences:
+    	•	3 or 4 products per row (depending on screen width).
+    	•	Sticky filter bar at top (filter by color, price, type).
+    	•	Keep text minimal and focus on the visuals.
+    
+    Use Shopify dynamic data fields:
+    	•	{{ product.title }}
+    	•	{{ product.price }}
+    	•	{{ product.metafields.reviews.rating }}
+    	•	{{ product.metafields.reviews.count }}
+    	•	{{ product.tags }}
+    	•	{{ product.options_with_values }}
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-collection-grid-{{ ai_gen_id }} {
+    max-width: {{ settings.page_width }}px;
+    margin: 0 auto;
+    padding: 0 {{ settings.spacing_grid_horizontal }}px;
+  }
+
+  .ai-collection-filters-{{ ai_gen_id }} {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: {{ block.settings.filter_bg_color }};
+    padding: 20px 0;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+  }
+
+  .ai-collection-filters-content-{{ ai_gen_id }} {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .ai-collection-filter-group-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .ai-collection-filter-label-{{ ai_gen_id }} {
+    font-size: 14px;
+    font-weight: 600;
+    color: {{ block.settings.filter_text_color }};
+    white-space: nowrap;
+  }
+
+  .ai-collection-filter-select-{{ ai_gen_id }} {
+    padding: 8px 16px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: {{ settings.inputs_radius }}px;
+    background: white;
+    font-size: 14px;
+    min-width: 120px;
+  }
+
+  .ai-collection-products-grid-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax({{ block.settings.min_card_width }}px, 1fr));
+    gap: {{ block.settings.grid_gap }}px;
+    margin-bottom: 60px;
+  }
+
+  .ai-collection-product-card-{{ ai_gen_id }} {
+    background: {{ block.settings.card_bg_color }};
+    border-radius: {{ block.settings.card_border_radius }}px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    position: relative;
+    box-shadow: 0 {{ settings.card_shadow_vertical_offset }}px {{ settings.card_shadow_blur }}px rgba(0, 0, 0, {{ settings.card_shadow_opacity | divided_by: 100.0 }});
+  }
+
+  .ai-collection-product-card-{{ ai_gen_id }}:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+  }
+
+  .ai-collection-product-image-wrapper-{{ ai_gen_id }} {
+    position: relative;
+    aspect-ratio: {{ block.settings.image_aspect_ratio }};
+    overflow: hidden;
+    background: #f8f8f8;
+  }
+
+  .ai-collection-product-image-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+  }
+
+  .ai-collection-product-image-hover-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .ai-collection-product-card-{{ ai_gen_id }}:hover .ai-collection-product-image-hover-{{ ai_gen_id }} {
+    opacity: 1;
+  }
+
+  .ai-collection-product-badges-{{ ai_gen_id }} {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    z-index: 2;
+  }
+
+  .ai-collection-product-badge-{{ ai_gen_id }} {
+    padding: 4px 12px;
+    border-radius: {{ settings.badge_corner_radius }}px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .ai-collection-product-badge-new-{{ ai_gen_id }} {
+    background: {{ block.settings.new_badge_color }};
+    color: {{ block.settings.new_badge_text_color }};
+  }
+
+  .ai-collection-product-badge-bestseller-{{ ai_gen_id }} {
+    background: {{ block.settings.bestseller_badge_color }};
+    color: {{ block.settings.bestseller_badge_text_color }};
+  }
+
+  .ai-collection-product-badge-limited-{{ ai_gen_id }} {
+    background: {{ block.settings.limited_badge_color }};
+    color: {{ block.settings.limited_badge_text_color }};
+  }
+
+  .ai-collection-product-content-{{ ai_gen_id }} {
+    padding: {{ block.settings.card_padding }}px;
+    text-align: {{ settings.card_text_alignment }};
+  }
+
+  .ai-collection-product-title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.title_font_size }}px;
+    font-weight: 600;
+    color: {{ block.settings.title_color }};
+    margin: 0 0 8px;
+    line-height: 1.3;
+    text-decoration: none;
+  }
+
+  .ai-collection-product-title-{{ ai_gen_id }}:hover {
+    color: {{ block.settings.title_hover_color }};
+  }
+
+  .ai-collection-product-subtitle-{{ ai_gen_id }} {
+    font-size: {{ block.settings.subtitle_font_size }}px;
+    color: {{ block.settings.subtitle_color }};
+    margin: 0 0 12px;
+    line-height: 1.4;
+  }
+
+  .ai-collection-product-rating-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    justify-content: {{ settings.card_text_alignment }};
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  .ai-collection-product-stars-{{ ai_gen_id }} {
+    display: flex;
+    gap: 2px;
+  }
+
+  .ai-collection-product-star-{{ ai_gen_id }} {
+    width: 16px;
+    height: 16px;
+    fill: {{ block.settings.star_color }};
+  }
+
+  .ai-collection-product-star-empty-{{ ai_gen_id }} {
+    fill: {{ block.settings.star_empty_color }};
+  }
+
+  .ai-collection-product-review-count-{{ ai_gen_id }} {
+    font-size: 14px;
+    color: {{ block.settings.review_count_color }};
+  }
+
+  .ai-collection-product-price-{{ ai_gen_id }} {
+    font-size: {{ block.settings.price_font_size }}px;
+    font-weight: 700;
+    color: {{ block.settings.price_color }};
+    margin-bottom: 16px;
+  }
+
+  .ai-collection-product-variants-{{ ai_gen_id }} {
+    display: flex;
+    gap: 8px;
+    justify-content: {{ settings.card_text_alignment }};
+    flex-wrap: wrap;
+  }
+
+  .ai-collection-product-variant-swatch-{{ ai_gen_id }} {
+    width: {{ block.settings.swatch_size }}px;
+    height: {{ block.settings.swatch_size }}px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+  }
+
+  .ai-collection-product-variant-swatch-{{ ai_gen_id }}:hover {
+    border-color: {{ block.settings.swatch_border_color }};
+    transform: scale(1.1);
+  }
+
+  .ai-collection-product-variant-swatch-active-{{ ai_gen_id }} {
+    border-color: {{ block.settings.swatch_active_border_color }};
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+  }
+
+  .ai-collection-empty-state-{{ ai_gen_id }} {
+    text-align: center;
+    padding: 80px 20px;
+    color: #666;
+  }
+
+  .ai-collection-empty-state-{{ ai_gen_id }} h3 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    color: #333;
+  }
+
+  @media screen and (max-width: 990px) {
+    .ai-collection-products-grid-{{ ai_gen_id }} {
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: {{ block.settings.grid_gap | times: 0.8 }}px;
+    }
+
+    .ai-collection-filters-content-{{ ai_gen_id }} {
+      gap: 16px;
+    }
+
+    .ai-collection-filter-group-{{ ai_gen_id }} {
+      gap: 8px;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-collection-products-grid-{{ ai_gen_id }} {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: {{ block.settings.grid_gap | times: 0.6 }}px;
+    }
+
+    .ai-collection-filters-content-{{ ai_gen_id }} {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 12px;
+    }
+
+    .ai-collection-filter-group-{{ ai_gen_id }} {
+      justify-content: space-between;
+    }
+
+    .ai-collection-filter-select-{{ ai_gen_id }} {
+      min-width: 140px;
+    }
+  }
+{% endstyle %}
+
+<collection-grid-{{ ai_gen_id }}
+  class="ai-collection-grid-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+  data-collection-handle="{{ collection.handle }}"
+>
+  {% if block.settings.show_filters %}
+    <div class="ai-collection-filters-{{ ai_gen_id }}">
+      <div class="ai-collection-filters-content-{{ ai_gen_id }}">
+        {% if block.settings.show_color_filter %}
+          <div class="ai-collection-filter-group-{{ ai_gen_id }}">
+            <label class="ai-collection-filter-label-{{ ai_gen_id }}">Color:</label>
+            <select class="ai-collection-filter-select-{{ ai_gen_id }}" data-filter="color">
+              <option value="">All Colors</option>
+            </select>
+          </div>
+        {% endif %}
+
+        {% if block.settings.show_price_filter %}
+          <div class="ai-collection-filter-group-{{ ai_gen_id }}">
+            <label class="ai-collection-filter-label-{{ ai_gen_id }}">Price:</label>
+            <select class="ai-collection-filter-select-{{ ai_gen_id }}" data-filter="price">
+              <option value="">All Prices</option>
+              <option value="0-50">Under $50</option>
+              <option value="50-100">$50 - $100</option>
+              <option value="100-200">$100 - $200</option>
+              <option value="200-999999">Over $200</option>
+            </select>
+          </div>
+        {% endif %}
+
+        {% if block.settings.show_type_filter %}
+          <div class="ai-collection-filter-group-{{ ai_gen_id }}">
+            <label class="ai-collection-filter-label-{{ ai_gen_id }}">Type:</label>
+            <select class="ai-collection-filter-select-{{ ai_gen_id }}" data-filter="type">
+              <option value="">All Types</option>
+            </select>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endif %}
+
+  <div class="ai-collection-products-grid-{{ ai_gen_id }}" data-products-container>
+    {% if collection.products.size > 0 %}
+      {% for product in collection.products %}
+        <div class="ai-collection-product-card-{{ ai_gen_id }}" data-product-card data-product-type="{{ product.type }}" data-product-price="{{ product.price }}">
+          <a href="{{ product.url }}" class="ai-collection-product-image-wrapper-{{ ai_gen_id }}">
+            {% if product.featured_image %}
+              <img
+                src="{{ product.featured_image | image_url: width: 600 }}"
+                alt="{{ product.featured_image.alt | escape }}"
+                class="ai-collection-product-image-{{ ai_gen_id }}"
+                loading="lazy"
+                width="600"
+                height="{{ 600 | divided_by: product.featured_image.aspect_ratio | round }}"
+              >
+              {% if product.images.size > 1 %}
+                <img
+                  src="{{ product.images[1] | image_url: width: 600 }}"
+                  alt="{{ product.images[1].alt | escape }}"
+                  class="ai-collection-product-image-hover-{{ ai_gen_id }}"
+                  loading="lazy"
+                  width="600"
+                  height="{{ 600 | divided_by: product.images[1].aspect_ratio | round }}"
+                >
+              {% endif %}
+            {% else %}
+              <div class="ai-collection-product-image-placeholder-{{ ai_gen_id }}">
+                {{ 'product-1' | placeholder_svg_tag }}
+              </div>
+            {% endif %}
+
+            {% if product.tags.size > 0 %}
+              <div class="ai-collection-product-badges-{{ ai_gen_id }}">
+                {% for tag in product.tags %}
+                  {% case tag %}
+                    {% when 'new' or 'New' %}
+                      <span class="ai-collection-product-badge-{{ ai_gen_id }} ai-collection-product-badge-new-{{ ai_gen_id }}">New</span>
+                    {% when 'bestseller' or 'Bestseller' or 'best-seller' %}
+                      <span class="ai-collection-product-badge-{{ ai_gen_id }} ai-collection-product-badge-bestseller-{{ ai_gen_id }}">Bestseller</span>
+                    {% when 'limited' or 'Limited' or 'limited-edition' %}
+                      <span class="ai-collection-product-badge-{{ ai_gen_id }} ai-collection-product-badge-limited-{{ ai_gen_id }}">Limited</span>
+                  {% endcase %}
+                {% endfor %}
+              </div>
+            {% endif %}
+          </a>
+
+          <div class="ai-collection-product-content-{{ ai_gen_id }}">
+            <a href="{{ product.url }}" class="ai-collection-product-title-{{ ai_gen_id }}">
+              {{ product.title }}
+            </a>
+
+            {% if block.settings.show_subtitle and product.metafields.custom.subtitle %}
+              <div class="ai-collection-product-subtitle-{{ ai_gen_id }}">
+                {{ product.metafields.custom.subtitle }}
+              </div>
+            {% endif %}
+
+            {% if block.settings.show_ratings %}
+              <div class="ai-collection-product-rating-{{ ai_gen_id }}">
+                {% assign rating = product.metafields.reviews.rating.value | default: 0 %}
+                {% assign review_count = product.metafields.reviews.count.value | default: 0 %}
+                
+                {% if rating > 0 %}
+                  <div class="ai-collection-product-stars-{{ ai_gen_id }}">
+                    {% for i in (1..5) %}
+                      <svg class="ai-collection-product-star-{{ ai_gen_id }} {% if i > rating %}ai-collection-product-star-empty-{{ ai_gen_id }}{% endif %}" viewBox="0 0 24 24">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                      </svg>
+                    {% endfor %}
+                  </div>
+                  {% if review_count > 0 %}
+                    <span class="ai-collection-product-review-count-{{ ai_gen_id }}">({{ review_count }})</span>
+                  {% endif %}
+                {% endif %}
+              </div>
+            {% endif %}
+
+            <div class="ai-collection-product-price-{{ ai_gen_id }}">
+              {% if product.compare_at_price > product.price %}
+                <span style="text-decoration: line-through; color: #999; margin-right: 8px;">{{ product.compare_at_price | money }}</span>
+              {% endif %}
+              {{ product.price | money }}
+            </div>
+
+            {% if block.settings.show_color_swatches %}
+              {% assign color_option = product.options_with_values | where: 'name', 'Color' | first %}
+              {% if color_option %}
+                <div class="ai-collection-product-variants-{{ ai_gen_id }}" data-color-swatches data-product-id="{{ product.id }}">
+                  {% for value in color_option.values %}
+                    {% assign color_handle = value | handle %}
+                    {% assign swatch_color = value | downcase %}
+                    <div
+                      class="ai-collection-product-variant-swatch-{{ ai_gen_id }} {% if forloop.first %}ai-collection-product-variant-swatch-active-{{ ai_gen_id }}{% endif %}"
+                      style="background-color: {{ swatch_color }};"
+                      data-color="{{ value }}"
+                      data-color-handle="{{ color_handle }}"
+                      title="{{ value }}"
+                    ></div>
+                  {% endfor %}
+                </div>
+              {% endif %}
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    {% else %}
+      <div class="ai-collection-empty-state-{{ ai_gen_id }}">
+        <h3>No products found</h3>
+        <p>Try adjusting your filters or browse our other collections.</p>
+      </div>
+    {% endif %}
+  </div>
+</collection-grid-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class CollectionGrid{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.filters = {};
+        this.allProducts = [];
+        this.colorOptions = new Set();
+        this.typeOptions = new Set();
+      }
+
+      connectedCallback() {
+        this.initializeFilters();
+        this.setupEventListeners();
+        this.setupColorSwatches();
+        this.collectFilterOptions();
+      }
+
+      initializeFilters() {
+        this.filterSelects = this.querySelectorAll('[data-filter]');
+        this.productsContainer = this.querySelector('[data-products-container]');
+        this.productCards = this.querySelectorAll('[data-product-card]');
+        
+        this.allProducts = Array.from(this.productCards);
+      }
+
+      collectFilterOptions() {
+        this.allProducts.forEach(card => {
+          const type = card.dataset.productType;
+          if (type) this.typeOptions.add(type);
+
+          const colorSwatches = card.querySelectorAll('[data-color]');
+          colorSwatches.forEach(swatch => {
+            this.colorOptions.add(swatch.dataset.color);
+          });
+        });
+
+        this.populateFilterOptions();
+      }
+
+      populateFilterOptions() {
+        const colorSelect = this.querySelector('[data-filter="color"]');
+        const typeSelect = this.querySelector('[data-filter="type"]');
+
+        if (colorSelect) {
+          this.colorOptions.forEach(color => {
+            const option = document.createElement('option');
+            option.value = color;
+            option.textContent = color;
+            colorSelect.appendChild(option);
+          });
+        }
+
+        if (typeSelect) {
+          this.typeOptions.forEach(type => {
+            const option = document.createElement('option');
+            option.value = type;
+            option.textContent = type;
+            typeSelect.appendChild(option);
+          });
+        }
+      }
+
+      setupEventListeners() {
+        this.filterSelects.forEach(select => {
+          select.addEventListener('change', (e) => {
+            this.filters[e.target.dataset.filter] = e.target.value;
+            this.applyFilters();
+          });
+        });
+      }
+
+      setupColorSwatches() {
+        this.querySelectorAll('[data-color-swatches]').forEach(swatchContainer => {
+          const swatches = swatchContainer.querySelectorAll('[data-color]');
+          const productCard = swatchContainer.closest('[data-product-card]');
+          const mainImage = productCard.querySelector('.ai-collection-product-image-{{ ai_gen_id }}');
+          const hoverImage = productCard.querySelector('.ai-collection-product-image-hover-{{ ai_gen_id }}');
+
+          swatches.forEach(swatch => {
+            swatch.addEventListener('click', (e) => {
+              e.preventDefault();
+              
+              swatches.forEach(s => s.classList.remove('ai-collection-product-variant-swatch-active-{{ ai_gen_id }}'));
+              swatch.classList.add('ai-collection-product-variant-swatch-active-{{ ai_gen_id }}');
+
+              this.updateProductImages(productCard, swatch.dataset.color);
+            });
+
+            swatch.addEventListener('mouseenter', () => {
+              this.updateProductImages(productCard, swatch.dataset.color);
+            });
+          });
+
+          swatchContainer.addEventListener('mouseleave', () => {
+            const activeSwatch = swatchContainer.querySelector('.ai-collection-product-variant-swatch-active-{{ ai_gen_id }}');
+            if (activeSwatch) {
+              this.updateProductImages(productCard, activeSwatch.dataset.color);
+            }
+          });
+        });
+      }
+
+      updateProductImages(productCard, color) {
+        const mainImage = productCard.querySelector('.ai-collection-product-image-{{ ai_gen_id }}');
+        const hoverImage = productCard.querySelector('.ai-collection-product-image-hover-{{ ai_gen_id }}');
+        
+        if (mainImage && hoverImage) {
+          const colorHandle = color.toLowerCase().replace(/\s+/g, '-');
+          const currentSrc = mainImage.src;
+          const newSrc = currentSrc.replace(/(_\w+)?(\.\w+)$/, `_${colorHandle}$2`);
+          
+          if (newSrc !== currentSrc) {
+            mainImage.src = newSrc;
+            hoverImage.src = newSrc.replace(/(_\w+)?(\.\w+)$/, `_${colorHandle}_hover$2`);
+          }
+        }
+      }
+
+      applyFilters() {
+        this.allProducts.forEach(card => {
+          let show = true;
+
+          if (this.filters.color && this.filters.color !== '') {
+            const hasColor = card.querySelector(`[data-color="${this.filters.color}"]`);
+            if (!hasColor) show = false;
+          }
+
+          if (this.filters.type && this.filters.type !== '') {
+            if (card.dataset.productType !== this.filters.type) show = false;
+          }
+
+          if (this.filters.price && this.filters.price !== '') {
+            const price = parseInt(card.dataset.productPrice) / 100;
+            const [min, max] = this.filters.price.split('-').map(Number);
+            if (price < min || (max !== 999999 && price > max)) show = false;
+          }
+
+          card.style.display = show ? 'block' : 'none';
+        });
+
+        this.updateEmptyState();
+      }
+
+      updateEmptyState() {
+        const visibleProducts = this.allProducts.filter(card => card.style.display !== 'none');
+        const emptyState = this.querySelector('.ai-collection-empty-state-{{ ai_gen_id }}');
+        
+        if (visibleProducts.length === 0 && !emptyState) {
+          const emptyDiv = document.createElement('div');
+          emptyDiv.className = 'ai-collection-empty-state-{{ ai_gen_id }}';
+          emptyDiv.innerHTML = '<h3>No products found</h3><p>Try adjusting your filters or browse our other collections.</p>';
+          this.productsContainer.appendChild(emptyDiv);
+        } else if (visibleProducts.length > 0 && emptyState) {
+          emptyState.remove();
+        }
+      }
+    }
+
+    customElements.define('collection-grid-{{ ai_gen_id }}', CollectionGrid{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Collection grid",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "min_card_width",
+      "min": 200,
+      "max": 400,
+      "step": 20,
+      "unit": "px",
+      "label": "Minimum card width",
+      "default": 320
+    },
+    {
+      "type": "range",
+      "id": "grid_gap",
+      "min": 16,
+      "max": 48,
+      "step": 4,
+      "unit": "px",
+      "label": "Grid gap",
+      "default": 24
+    },
+    {
+      "type": "select",
+      "id": "image_aspect_ratio",
+      "label": "Image aspect ratio",
+      "options": [
+        {
+          "value": "1/1",
+          "label": "Square (1:1)"
+        },
+        {
+          "value": "4/3",
+          "label": "Landscape (4:3)"
+        },
+        {
+          "value": "3/4",
+          "label": "Portrait (3:4)"
+        },
+        {
+          "value": "16/9",
+          "label": "Wide (16:9)"
+        }
+      ],
+      "default": "4/3"
+    },
+    {
+      "type": "header",
+      "content": "Filters"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_filters",
+      "label": "Show filter bar",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_color_filter",
+      "label": "Show color filter",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_price_filter",
+      "label": "Show price filter",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_type_filter",
+      "label": "Show type filter",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "filter_bg_color",
+      "label": "Filter background color",
+      "default": "rgba(255, 255, 255, 0.95)"
+    },
+    {
+      "type": "color",
+      "id": "filter_text_color",
+      "label": "Filter text color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Product cards"
+    },
+    {
+      "type": "color",
+      "id": "card_bg_color",
+      "label": "Card background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "card_border_radius",
+      "min": 0,
+      "max": 24,
+      "step": 2,
+      "unit": "px",
+      "label": "Card border radius",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "card_padding",
+      "min": 16,
+      "max": 32,
+      "step": 4,
+      "unit": "px",
+      "label": "Card padding",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Product information"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_subtitle",
+      "label": "Show product subtitle",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_ratings",
+      "label": "Show star ratings",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_color_swatches",
+      "label": "Show color swatches",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "title_font_size",
+      "min": 14,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Title font size",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "subtitle_font_size",
+      "min": 12,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "label": "Subtitle font size",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "price_font_size",
+      "min": 14,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Price font size",
+      "default": 20
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "title_hover_color",
+      "label": "Title hover color",
+      "default": "#666666"
+    },
+    {
+      "type": "color",
+      "id": "subtitle_color",
+      "label": "Subtitle color",
+      "default": "#666666"
+    },
+    {
+      "type": "color",
+      "id": "price_color",
+      "label": "Price color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Ratings"
+    },
+    {
+      "type": "color",
+      "id": "star_color",
+      "label": "Star color",
+      "default": "#ffd700"
+    },
+    {
+      "type": "color",
+      "id": "star_empty_color",
+      "label": "Empty star color",
+      "default": "#e0e0e0"
+    },
+    {
+      "type": "color",
+      "id": "review_count_color",
+      "label": "Review count color",
+      "default": "#666666"
+    },
+    {
+      "type": "header",
+      "content": "Color swatches"
+    },
+    {
+      "type": "range",
+      "id": "swatch_size",
+      "min": 20,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Swatch size",
+      "default": 28
+    },
+    {
+      "type": "color",
+      "id": "swatch_border_color",
+      "label": "Swatch border color",
+      "default": "#cccccc"
+    },
+    {
+      "type": "color",
+      "id": "swatch_active_border_color",
+      "label": "Active swatch border color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Badges"
+    },
+    {
+      "type": "color",
+      "id": "new_badge_color",
+      "label": "New badge color",
+      "default": "#00c851"
+    },
+    {
+      "type": "color",
+      "id": "new_badge_text_color",
+      "label": "New badge text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "bestseller_badge_color",
+      "label": "Bestseller badge color",
+      "default": "#ff4444"
+    },
+    {
+      "type": "color",
+      "id": "bestseller_badge_text_color",
+      "label": "Bestseller badge text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "limited_badge_color",
+      "label": "Limited edition badge color",
+      "default": "#ffbb33"
+    },
+    {
+      "type": "color",
+      "id": "limited_badge_text_color",
+      "label": "Limited edition badge text color",
+      "default": "#000000"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection grid"
+    }
+  ]
+}
 {% endschema %}
