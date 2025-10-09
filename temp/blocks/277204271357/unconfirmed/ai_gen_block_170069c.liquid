@@ -1,6 +1,705 @@
+{% doc %}
+  @prompt
+    You are a Shopify theme engineer. Build a collection page product-card pattern that matches this spec:
+    
+    Goal: Show variant color swatches and reviews on the collection grid, similar to Beats.
+    
+    For each product card, render (in this order):
+    	1.	Main product image
+    	2.	Product title → {{ product.title }}
+    	3.	Short subtitle (use first 6–10 words of {{ product.description | strip_html }})
+    	4.	Price → {{ product.price | money }} (use compare-at price if on sale)
+    	5.	Review stars + count using aggregate review metafields.
+    	6.	Merch badges for tags: “New”, “Bestseller”, “Limited Edition”.
+    
+    Variant color swatches (critical):
+    	•	Assume Option name “Color” (handle case-insensitive).
+    	•	Build a unique list of color values from product.variants.
+    	•	Render circular swatches; selected state has a 2px ring.
+    	•	Show up to 6 swatches; if more, show “+N”.
+    	•	On swatch click/hover, update the main image to the first image of that color variant (no page load).
+    	•	Map color text to a visual swatch:
+    	1.	If product.metafields.custom.swatch_hex (or variant metafield custom.swatch_hex) exists, use it.
+    	2.	Else try a CSS color from the value (e.g., “Red”, “Black”).
+    	3.	Else render a mini thumbnail of that variant’s image.
+    
+    Reviews (critical):
+    	•	Use Shopify’s aggregate review metafields if present:
+    	•	rating value → {{ product.metafields.reviews.rating.value | default: 0 }}
+    	•	rating count → {{ product.metafields.reviews.rating_count | default: 0 }}
+    	•	Render 5 star icons filled by rating (half-star allowed). Show “(123)” after stars.
+    	•	If metafields are missing, render a snippet hook placeholder:
+    <div class="reviews-app-slot" data-product-id="{{ product.id }}"></div>
+    
+    Badges:
+    	•	If product has tag “New”, show badge “New”.
+    	•	If tag “Bestseller”, show badge “Bestseller”.
+    	•	If tag “Limited Edition”, show badge “Limited Edition”.
+    
+    Hover behavior:
+    	•	Swap the main image to the second media item (or next color) on hover.
+    	•	Keep layout height fixed to avoid reflow.
+    
+    Layout:
+    	•	3–4 cards per row
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-product-card-{{ ai_gen_id }} {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: rgb(var(--color-background));
+    border-radius: {{ settings.card_corner_radius }}px;
+    border: {{ settings.card_border_thickness }}px solid rgba(var(--color-foreground), {{ settings.card_border_opacity | divided_by: 100.0 }});
+    box-shadow: 
+      {{ settings.card_shadow_horizontal_offset }}px 
+      {{ settings.card_shadow_vertical_offset }}px 
+      {{ settings.card_shadow_blur }}px 
+      rgba(var(--color-shadow), {{ settings.card_shadow_opacity | divided_by: 100.0 }});
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+  }
+
+  .ai-product-card-{{ ai_gen_id }}:hover {
+    {% if settings.animations_hover_elements == 'vertical-lift' %}
+      transform: translateY(-4px);
+    {% elsif settings.animations_hover_elements == '3d-lift' %}
+      transform: translateY(-4px) rotateX(2deg);
+    {% endif %}
+    box-shadow: 
+      {{ settings.card_shadow_horizontal_offset }}px 
+      {{ settings.card_shadow_vertical_offset | plus: 4 }}px 
+      {{ settings.card_shadow_blur | plus: 5 }}px 
+      rgba(var(--color-shadow), {{ settings.card_shadow_opacity | divided_by: 100.0 | plus: 0.1 }});
+  }
+
+  .ai-product-card-image-wrapper-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1;
+    overflow: hidden;
+    border-radius: {{ settings.card_corner_radius }}px {{ settings.card_corner_radius }}px 0 0;
+  }
+
+  .ai-product-card-image-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+  }
+
+  .ai-product-card-image-hover-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .ai-product-card-{{ ai_gen_id }}:hover .ai-product-card-image-hover-{{ ai_gen_id }} {
+    opacity: 1;
+  }
+
+  .ai-product-card-badges-{{ ai_gen_id }} {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    z-index: 2;
+  }
+
+  .ai-product-card-badge-{{ ai_gen_id }} {
+    padding: 4px 8px;
+    border-radius: {{ settings.badge_corner_radius }}px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .ai-product-card-badge-new-{{ ai_gen_id }} {
+    background: rgb(var(--color-button));
+    color: rgb(var(--color-button-text));
+  }
+
+  .ai-product-card-badge-bestseller-{{ ai_gen_id }} {
+    background: #ff6b35;
+    color: white;
+  }
+
+  .ai-product-card-badge-limited-{{ ai_gen_id }} {
+    background: #8b5cf6;
+    color: white;
+  }
+
+  .ai-product-card-content-{{ ai_gen_id }} {
+    padding: {{ block.settings.card_padding }}px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: {{ block.settings.content_spacing }}px;
+    text-align: {{ settings.card_text_alignment }};
+  }
+
+  .ai-product-card-title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.title_size }}px;
+    font-weight: 600;
+    color: rgb(var(--color-foreground));
+    margin: 0;
+    line-height: 1.3;
+    text-decoration: none;
+  }
+
+  .ai-product-card-title-{{ ai_gen_id }}:hover {
+    color: rgb(var(--color-button));
+  }
+
+  .ai-product-card-subtitle-{{ ai_gen_id }} {
+    font-size: {{ block.settings.subtitle_size }}px;
+    color: rgba(var(--color-foreground), 0.7);
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  .ai-product-card-price-{{ ai_gen_id }} {
+    font-size: {{ block.settings.price_size }}px;
+    font-weight: 600;
+    color: rgb(var(--color-foreground));
+    margin: 0;
+  }
+
+  .ai-product-card-price-compare-{{ ai_gen_id }} {
+    text-decoration: line-through;
+    color: rgba(var(--color-foreground), 0.6);
+    margin-right: 8px;
+  }
+
+  .ai-product-card-price-sale-{{ ai_gen_id }} {
+    color: #dc2626;
+  }
+
+  .ai-product-card-reviews-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: {{ settings.card_text_alignment }};
+  }
+
+  .ai-product-card-stars-{{ ai_gen_id }} {
+    display: flex;
+    gap: 2px;
+  }
+
+  .ai-product-card-star-{{ ai_gen_id }} {
+    width: 16px;
+    height: 16px;
+    fill: #fbbf24;
+  }
+
+  .ai-product-card-star-empty-{{ ai_gen_id }} {
+    fill: #e5e7eb;
+  }
+
+  .ai-product-card-review-count-{{ ai_gen_id }} {
+    font-size: 14px;
+    color: rgba(var(--color-foreground), 0.7);
+  }
+
+  .ai-product-card-swatches-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: {{ settings.card_text_alignment }};
+    flex-wrap: wrap;
+  }
+
+  .ai-product-card-swatch-{{ ai_gen_id }} {
+    width: {{ block.settings.swatch_size }}px;
+    height: {{ block.settings.swatch_size }}px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .ai-product-card-swatch-{{ ai_gen_id }}:hover,
+  .ai-product-card-swatch-{{ ai_gen_id }}.active {
+    border-color: rgb(var(--color-button));
+    transform: scale(1.1);
+  }
+
+  .ai-product-card-swatch-image-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ai-product-card-swatch-more-{{ ai_gen_id }} {
+    background: rgba(var(--color-foreground), 0.1);
+    color: rgb(var(--color-foreground));
+    font-size: 10px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-product-card-reviews-app-slot-{{ ai_gen_id }} {
+    min-height: 20px;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-product-card-{{ ai_gen_id }} {
+      margin-bottom: 20px;
+    }
+    
+    .ai-product-card-content-{{ ai_gen_id }} {
+      padding: {{ block.settings.card_padding | times: 0.8 }}px;
+    }
+    
+    .ai-product-card-title-{{ ai_gen_id }} {
+      font-size: {{ block.settings.title_size | times: 0.9 }}px;
+    }
+    
+    .ai-product-card-swatch-{{ ai_gen_id }} {
+      width: {{ block.settings.swatch_size | times: 0.8 }}px;
+      height: {{ block.settings.swatch_size | times: 0.8 }}px;
+    }
+  }
+{% endstyle %}
+
+<product-card-{{ ai_gen_id }}
+  class="ai-product-card-{{ ai_gen_id }}"
+  data-product-id="{{ product.id }}"
+  {{ block.shopify_attributes }}
+>
+  <div class="ai-product-card-image-wrapper-{{ ai_gen_id }}">
+    {% if product.featured_image %}
+      <img
+        src="{{ product.featured_image | image_url: width: 600 }}"
+        alt="{{ product.featured_image.alt | escape }}"
+        class="ai-product-card-image-{{ ai_gen_id }}"
+        loading="lazy"
+        width="600"
+        height="600"
+      >
+      
+      {% if product.media.size > 1 %}
+        <img
+          src="{{ product.media[1] | image_url: width: 600 }}"
+          alt="{{ product.media[1].alt | escape }}"
+          class="ai-product-card-image-hover-{{ ai_gen_id }}"
+          loading="lazy"
+          width="600"
+          height="600"
+        >
+      {% endif %}
+    {% else %}
+      <div class="ai-product-card-image-placeholder-{{ ai_gen_id }}">
+        {{ 'product-1' | placeholder_svg_tag }}
+      </div>
+    {% endif %}
+
+    <div class="ai-product-card-badges-{{ ai_gen_id }}">
+      {% if product.tags contains 'New' %}
+        <span class="ai-product-card-badge-{{ ai_gen_id }} ai-product-card-badge-new-{{ ai_gen_id }}">New</span>
+      {% endif %}
+      {% if product.tags contains 'Bestseller' %}
+        <span class="ai-product-card-badge-{{ ai_gen_id }} ai-product-card-badge-bestseller-{{ ai_gen_id }}">Bestseller</span>
+      {% endif %}
+      {% if product.tags contains 'Limited Edition' %}
+        <span class="ai-product-card-badge-{{ ai_gen_id }} ai-product-card-badge-limited-{{ ai_gen_id }}">Limited Edition</span>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="ai-product-card-content-{{ ai_gen_id }}">
+    <a href="{{ product.url }}" class="ai-product-card-title-{{ ai_gen_id }}">
+      {{ product.title }}
+    </a>
+
+    {% if block.settings.show_subtitle and product.description != blank %}
+      {% assign subtitle_words = product.description | strip_html | split: ' ' %}
+      {% assign subtitle_text = '' %}
+      {% for word in subtitle_words limit: block.settings.subtitle_word_limit %}
+        {% assign subtitle_text = subtitle_text | append: word | append: ' ' %}
+      {% endfor %}
+      <p class="ai-product-card-subtitle-{{ ai_gen_id }}">{{ subtitle_text | strip }}...</p>
+    {% endif %}
+
+    <div class="ai-product-card-price-{{ ai_gen_id }}">
+      {% if product.compare_at_price > product.price %}
+        <span class="ai-product-card-price-compare-{{ ai_gen_id }}">{{ product.compare_at_price | money }}</span>
+        <span class="ai-product-card-price-sale-{{ ai_gen_id }}">{{ product.price | money }}</span>
+      {% else %}
+        {{ product.price | money }}
+      {% endif %}
+    </div>
+
+    {% if block.settings.show_reviews %}
+      {% assign rating_value = product.metafields.reviews.rating.value | default: 0 %}
+      {% assign rating_count = product.metafields.reviews.rating_count.value | default: 0 %}
+      
+      {% if rating_value > 0 and rating_count > 0 %}
+        <div class="ai-product-card-reviews-{{ ai_gen_id }}">
+          <div class="ai-product-card-stars-{{ ai_gen_id }}">
+            {% for i in (1..5) %}
+              {% assign star_threshold = i | minus: 1 %}
+              {% if rating_value >= i %}
+                <svg class="ai-product-card-star-{{ ai_gen_id }}" viewBox="0 0 20 20">
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                </svg>
+              {% elsif rating_value > star_threshold %}
+                <svg class="ai-product-card-star-{{ ai_gen_id }}" viewBox="0 0 20 20">
+                  <defs>
+                    <linearGradient id="half-star-{{ ai_gen_id }}-{{ i }}">
+                      <stop offset="50%" stop-color="#fbbf24"/>
+                      <stop offset="50%" stop-color="#e5e7eb"/>
+                    </linearGradient>
+                  </defs>
+                  <path fill="url(#half-star-{{ ai_gen_id }}-{{ i }})" d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                </svg>
+              {% else %}
+                <svg class="ai-product-card-star-{{ ai_gen_id }} ai-product-card-star-empty-{{ ai_gen_id }}" viewBox="0 0 20 20">
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                </svg>
+              {% endif %}
+            {% endfor %}
+          </div>
+          <span class="ai-product-card-review-count-{{ ai_gen_id }}">({{ rating_count }})</span>
+        </div>
+      {% else %}
+        <div class="ai-product-card-reviews-app-slot-{{ ai_gen_id }} reviews-app-slot" data-product-id="{{ product.id }}"></div>
+      {% endif %}
+    {% endif %}
+
+    {% if block.settings.show_color_swatches %}
+      {% assign color_option = null %}
+      {% for option in product.options_with_values %}
+        {% assign option_name_downcase = option.name | downcase %}
+        {% if option_name_downcase contains 'color' or option_name_downcase contains 'colour' %}
+          {% assign color_option = option %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+
+      {% if color_option %}
+        {% assign unique_colors = '' %}
+        {% assign color_variants = '' %}
+        
+        {% for variant in product.variants %}
+          {% assign variant_color = variant.options[color_option.position] %}
+          {% unless unique_colors contains variant_color %}
+            {% assign unique_colors = unique_colors | append: variant_color | append: ',' %}
+            {% assign color_variants = color_variants | append: variant.id | append: ':' | append: variant_color | append: ',' %}
+          {% endunless %}
+        {% endfor %}
+        
+        {% assign colors_array = unique_colors | split: ',' %}
+        {% assign variants_array = color_variants | split: ',' %}
+        
+        {% if colors_array.size > 1 %}
+          <div class="ai-product-card-swatches-{{ ai_gen_id }}">
+            {% for color in colors_array limit: block.settings.max_swatches %}
+              {% if color != blank %}
+                {% assign variant_info = variants_array[forloop.index0] | split: ':' %}
+                {% assign variant_id = variant_info[0] %}
+                {% assign color_name = variant_info[1] %}
+                {% assign variant = product.variants | where: 'id', variant_id | first %}
+                
+                {% assign swatch_color = null %}
+                {% assign swatch_image = null %}
+                
+                {% if product.metafields.custom.swatch_hex %}
+                  {% assign swatch_color = product.metafields.custom.swatch_hex %}
+                {% elsif variant.metafields.custom.swatch_hex %}
+                  {% assign swatch_color = variant.metafields.custom.swatch_hex %}
+                {% else %}
+                  {% assign color_downcase = color_name | downcase %}
+                  {% case color_downcase %}
+                    {% when 'red' %}
+                      {% assign swatch_color = '#dc2626' %}
+                    {% when 'blue' %}
+                      {% assign swatch_color = '#2563eb' %}
+                    {% when 'green' %}
+                      {% assign swatch_color = '#16a34a' %}
+                    {% when 'yellow' %}
+                      {% assign swatch_color = '#eab308' %}
+                    {% when 'purple' %}
+                      {% assign swatch_color = '#9333ea' %}
+                    {% when 'pink' %}
+                      {% assign swatch_color = '#ec4899' %}
+                    {% when 'orange' %}
+                      {% assign swatch_color = '#ea580c' %}
+                    {% when 'black' %}
+                      {% assign swatch_color = '#000000' %}
+                    {% when 'white' %}
+                      {% assign swatch_color = '#ffffff' %}
+                    {% when 'gray' or 'grey' %}
+                      {% assign swatch_color = '#6b7280' %}
+                    {% when 'brown' %}
+                      {% assign swatch_color = '#92400e' %}
+                    {% else %}
+                      {% if variant.featured_image %}
+                        {% assign swatch_image = variant.featured_image %}
+                      {% endif %}
+                  {% endcase %}
+                {% endif %}
+                
+                <div
+                  class="ai-product-card-swatch-{{ ai_gen_id }}"
+                  data-variant-id="{{ variant_id }}"
+                  data-color="{{ color_name | escape }}"
+                  title="{{ color_name | escape }}"
+                  {% if swatch_color %}
+                    style="background-color: {{ swatch_color }};"
+                  {% endif %}
+                >
+                  {% if swatch_image %}
+                    <img
+                      src="{{ swatch_image | image_url: width: 50 }}"
+                      alt="{{ color_name | escape }}"
+                      class="ai-product-card-swatch-image-{{ ai_gen_id }}"
+                      loading="lazy"
+                    >
+                  {% endif %}
+                </div>
+              {% endif %}
+            {% endfor %}
+            
+            {% if colors_array.size > block.settings.max_swatches %}
+              <div class="ai-product-card-swatch-{{ ai_gen_id }} ai-product-card-swatch-more-{{ ai_gen_id }}">
+                +{{ colors_array.size | minus: block.settings.max_swatches }}
+              </div>
+            {% endif %}
+          </div>
+        {% endif %}
+      {% endif %}
+    {% endif %}
+  </div>
+</product-card-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class ProductCard{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.productId = this.dataset.productId;
+        this.mainImage = this.querySelector('.ai-product-card-image-{{ ai_gen_id }}');
+        this.hoverImage = this.querySelector('.ai-product-card-image-hover-{{ ai_gen_id }}');
+        this.swatches = this.querySelectorAll('.ai-product-card-swatch-{{ ai_gen_id }}[data-variant-id]');
+        this.variantImages = new Map();
+        this.originalImageSrc = this.mainImage ? this.mainImage.src : null;
+      }
+
+      connectedCallback() {
+        this.loadVariantImages();
+        this.setupSwatchListeners();
+      }
+
+      async loadVariantImages() {
+        if (!this.productId) return;
+        
+        try {
+          const response = await fetch(`/products/${this.productId}.js`);
+          const product = await response.json();
+          
+          product.variants.forEach(variant => {
+            if (variant.featured_image) {
+              this.variantImages.set(variant.id.toString(), variant.featured_image.src);
+            }
+          });
+        } catch (error) {
+          console.error('Failed to load variant images:', error);
+        }
+      }
+
+      setupSwatchListeners() {
+        this.swatches.forEach(swatch => {
+          swatch.addEventListener('click', (e) => {
+            e.preventDefault();
+            this.handleSwatchClick(swatch);
+          });
+          
+          swatch.addEventListener('mouseenter', () => {
+            this.handleSwatchHover(swatch);
+          });
+        });
+
+        this.addEventListener('mouseleave', () => {
+          this.resetToOriginalImage();
+        });
+      }
+
+      handleSwatchClick(swatch) {
+        this.swatches.forEach(s => s.classList.remove('active'));
+        swatch.classList.add('active');
+        this.updateMainImage(swatch);
+      }
+
+      handleSwatchHover(swatch) {
+        this.updateMainImage(swatch);
+      }
+
+      updateMainImage(swatch) {
+        const variantId = swatch.dataset.variantId;
+        const variantImageSrc = this.variantImages.get(variantId);
+        
+        if (variantImageSrc && this.mainImage) {
+          this.mainImage.src = variantImageSrc;
+          if (this.hoverImage) {
+            this.hoverImage.style.opacity = '0';
+          }
+        }
+      }
+
+      resetToOriginalImage() {
+        if (this.originalImageSrc && this.mainImage) {
+          this.mainImage.src = this.originalImageSrc;
+          if (this.hoverImage) {
+            this.hoverImage.style.opacity = '';
+          }
+        }
+        this.swatches.forEach(s => s.classList.remove('active'));
+      }
+    }
+
+    customElements.define('product-card-{{ ai_gen_id }}', ProductCard{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Product card",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "card_padding",
+      "min": 8,
+      "max": 32,
+      "step": 4,
+      "unit": "px",
+      "label": "Card padding",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "content_spacing",
+      "min": 4,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Content spacing",
+      "default": 8
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Title size",
+      "default": 16
+    },
+    {
+      "type": "checkbox",
+      "id": "show_subtitle",
+      "label": "Show subtitle",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "subtitle_size",
+      "min": 10,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "label": "Subtitle size",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "subtitle_word_limit",
+      "min": 4,
+      "max": 15,
+      "step": 1,
+      "label": "Subtitle word limit",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "price_size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Price size",
+      "default": 16
+    },
+    {
+      "type": "header",
+      "content": "Reviews"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_reviews",
+      "label": "Show reviews",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Color swatches"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_color_swatches",
+      "label": "Show color swatches",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "swatch_size",
+      "min": 16,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "label": "Swatch size",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "max_swatches",
+      "min": 3,
+      "max": 8,
+      "step": 1,
+      "label": "Maximum swatches to show",
+      "default": 6
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product card"
+    }
+  ]
+}
 {% endschema %}
