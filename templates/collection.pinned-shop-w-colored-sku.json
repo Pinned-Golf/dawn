@@ -9,6 +9,28 @@
  */
 {
   "sections": {
+    "17600178780be0d929": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_945c2ea_iGkFxV": {
+          "type": "ai_gen_block_945c2ea",
+          "settings": {
+            "collection": "pinned-golf-shop",
+            "products_to_show": 12,
+            "columns_desktop": 4,
+            "columns_mobile": "2",
+            "section_padding": 40,
+            "show_reviews": true,
+            "show_color_variants": true
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_945c2ea_iGkFxV"
+      ],
+      "settings": {}
+    },
     "image_banner_fVaJNK": {
       "type": "image-banner",
       "blocks": {
@@ -77,6 +99,7 @@
     }
   },
   "order": [
+    "17600178780be0d929",
     "image_banner_fVaJNK",
     "banner",
     "product-grid"
