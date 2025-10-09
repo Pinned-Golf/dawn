@@ -9,28 +9,33 @@
  */
 {
   "sections": {
-    "17600182125f423958": {
+    "17600453125c5acf11": {
       "type": "_blocks",
       "blocks": {
-        "ai_gen_block_c5f7f57_qdPnC4": {
-          "type": "ai_gen_block_c5f7f57",
+        "ai_gen_block_30906fc_Q7Rdcc": {
+          "type": "ai_gen_block_30906fc",
           "settings": {
+            "heading": "Featured products",
+            "heading_alignment": "center",
             "collection": "pinned-golf-shop",
-            "products_to_show": 12,
+            "products_to_show": 8,
             "columns_desktop": 4,
+            "columns_tablet": 3,
             "columns_mobile": "2",
-            "show_reviews": true,
             "show_variants": true,
-            "show_sale_badge": true,
-            "sale_badge_position": "top-left",
-            "section_padding_top": 36,
-            "section_padding_bottom": 36
+            "show_reviews": true,
+            "sale_badge_text": "Sale",
+            "badge_position": "top left",
+            "heading_color": "#000000",
+            "heading_size": 32,
+            "section_padding_top": 40,
+            "section_padding_bottom": 40
           },
           "blocks": {}
         }
       },
       "block_order": [
-        "ai_gen_block_c5f7f57_qdPnC4"
+        "ai_gen_block_30906fc_Q7Rdcc"
       ],
       "settings": {}
     },
@@ -102,6 +107,31 @@
         "color_scheme": "scheme-1"
       }
     },
+    "17600182125f423958": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_c5f7f57_qdPnC4": {
+          "type": "ai_gen_block_c5f7f57",
+          "settings": {
+            "collection": "pinned-golf-shop",
+            "products_to_show": 12,
+            "columns_desktop": 4,
+            "columns_mobile": "2",
+            "show_reviews": true,
+            "show_variants": true,
+            "show_sale_badge": true,
+            "sale_badge_position": "top-left",
+            "section_padding_top": 36,
+            "section_padding_bottom": 36
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_c5f7f57_qdPnC4"
+      ],
+      "settings": {}
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -124,6 +154,7 @@
     }
   },
   "order": [
+    "17600453125c5acf11",
     "17600178780be0d929",
     "image_banner_fVaJNK",
     "banner",
