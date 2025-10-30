@@ -23,9 +23,8 @@
       "blocks": {
         "heading_PzHrx7": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Products made for you.",
+            "heading": "Shop",
             "heading_size": "h1"
           }
         },
