@@ -205,7 +205,7 @@
         "column_mKMPU9": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/mysterybox204.png",
+            "image": "shopify://shop_images/mysterybox204.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -215,7 +215,7 @@
         "column_RWYJ94": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/mysterybox201.png",
+            "image": "shopify://shop_images/mysterybox201.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -225,7 +225,7 @@
         "column_iMPU4m": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/mysterybox202.png",
+            "image": "shopify://shop_images/mysterybox202.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -235,7 +235,7 @@
         "column_KBT4NL": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/mysterybox203.png",
+            "image": "shopify://shop_images/mysterybox203.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -312,6 +312,7 @@
         },
         "row_dHXDxk": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/13_079fe409-6a33-4083-88b6-f26086472d45.jpg",
             "caption": "",
@@ -765,7 +766,12 @@
       "blocks": {
         "judge_me_reviews_review_widget_MqhpFj": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
         }
       },
       "block_order": [
