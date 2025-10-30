@@ -261,7 +261,7 @@
         "button_link": "",
         "color_scheme": "scheme-af529a53-b94b-40d0-9746-399d6ccf1927",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
