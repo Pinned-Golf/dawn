@@ -527,7 +527,7 @@
           "settings": {
             "heading": "Can I return my order?",
             "icon": "check_mark",
-            "row_content": "<p><em>No, all of our products in the Major Mystery Boxes are final sale. This means that there will be no returning any item you receive.</em></p>",
+            "row_content": "<p><em>No, all of our products in the Major Mystery Boxes are </em><em><strong>final sale</strong></em><em>. This means that there will be no returning any item you receive.</em></p>",
             "page": ""
           }
         },
