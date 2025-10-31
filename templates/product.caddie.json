@@ -91,20 +91,6 @@
             "heading_3": "Top Tier Support"
           }
         },
-        "complementary_Cg46r7": {
-          "type": "complementary",
-          "disabled": true,
-          "settings": {
-            "block_heading": "",
-            "make_collapsible_row": true,
-            "icon": "none",
-            "product_list_limit": 2,
-            "products_per_page": 2,
-            "pagination_style": "dots",
-            "image_ratio": "square",
-            "enable_quick_add": true
-          }
-        },
         "collapsible_tab_mFpMHC": {
           "type": "collapsible_tab",
           "settings": {
@@ -144,11 +130,6 @@
             "content": "",
             "page": "4-core-product-values"
           }
-        },
-        "one_click_upsell_on_page_Wqrahb": {
-          "type": "shopify://apps/one-click-upsell/blocks/on-page/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
-          "disabled": true,
-          "settings": {}
         }
       },
       "block_order": [
@@ -163,12 +144,10 @@
         "quantity_selector_a4gife",
         "buy_buttons",
         "icon_with_text_UWmnYD",
-        "complementary_Cg46r7",
         "collapsible_tab_mFpMHC",
         "collapsible_tab_ULUXpP",
         "collapsible_tab_LEjyQf",
-        "collapsible_tab_ydzdBh",
-        "one_click_upsell_on_page_Wqrahb"
+        "collapsible_tab_ydzdBh"
       ],
       "custom_css": [
         "span[data-selected-swatch-value] {font-weight: 600;}",
@@ -188,35 +167,6 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
-      }
-    },
-    "image_banner_AgN8Rt": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_MzYnVf": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>The Caddie</strong>",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_MzYnVf"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/UP_2048_x_1365_px_2048_x_1080_px_11.jpg",
-        "image_overlay_opacity": 10,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-right",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-4",
-        "image_behavior": "none",
-        "mobile_content_alignment": "right",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
       }
     },
     "rich_text_Pzp6bP": {
@@ -544,22 +494,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 16,
         "padding_bottom": 12
-      }
-    },
-    "video_QGeh74": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": true,
-        "video": "shopify://files/videos/Project 14_The Caddie_Hype Video.mp4",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "rich_text_aQeAa3": {
@@ -959,7 +893,6 @@
   "order": [
     "175950530492a01c83",
     "main",
-    "image_banner_AgN8Rt",
     "rich_text_Pzp6bP",
     "1759504596dc061c90",
     "1759504318d2b76803",
@@ -968,7 +901,6 @@
     "17595141920893d544",
     "course_search_QWVePx",
     "multirow_q4FtTN",
-    "video_QGeh74",
     "rich_text_aQeAa3",
     "multicolumn_pHTL4n",
     "multirow_qEcfUq",
