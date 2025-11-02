@@ -184,6 +184,7 @@
     },
     "image_banner_AgN8Rt": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/2_81aaea9e-9da4-4b63-8489-5d0c8eed3033.png",
         "image_overlay_opacity": 10,
@@ -255,6 +256,7 @@
         "heading_gWyDLT",
         "text_t7etWY"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_13.png",
@@ -311,7 +313,7 @@
           "settings": {
             "image": "shopify://shop_images/Untitled_design_64.png",
             "caption": "Make Any",
-            "heading": "<strong>Cart, Smart</strong>",
+            "heading": "Cart, Smart",
             "text": "<p>Using a screen to get your yardages isn't reserved for fancy country clubs anymore. Get your distances when you need them, your way, regardless of how old the carts are.</p>",
             "button_label": "",
             "button_link": ""
@@ -322,7 +324,7 @@
           "settings": {
             "image": "shopify://shop_images/Frame_929_deb7eadf-64ad-4768-bdb3-215e7e3f9430.jpg",
             "caption": "Smart",
-            "heading": "<strong>FCB Distances</strong>",
+            "heading": "FCB Distances",
             "text": "<p>Get live front, back, and center distances from anywhere on the course.</p>",
             "button_label": "",
             "button_link": ""
@@ -345,7 +347,7 @@
           "settings": {
             "image": "shopify://shop_images/Frame_95348.jpg",
             "caption": "Maps From",
-            "heading": "<strong>45,000+ Courses</strong>",
+            "heading": "45,000+ Courses",
             "text": "<p>With maps from over 45,000 courses worldwide, bring the Caddie anywhere your game takes you. Search your course below. </p>",
             "button_label": "",
             "button_link": ""
@@ -356,7 +358,7 @@
           "settings": {
             "image": "shopify://shop_images/Frame_927.jpg",
             "caption": "Super Strong",
-            "heading": "<strong>Built-In Magnet</strong>",
+            "heading": "Built-In Magnet",
             "text": "<p>The Caddie is built with a strong magnet that securely sticks to the golf cart, keeping it within easy reach throughout your round.</p>",
             "button_label": "",
             "button_link": ""
@@ -367,7 +369,7 @@
           "settings": {
             "image": "shopify://shop_images/Untitled_design_-_2025-05-21T110622.989.png",
             "caption": "Extremely",
-            "heading": "<strong>Portable</strong>",
+            "heading": "Portable",
             "text": "<p>From the tee box to the fairway, bring the Caddie anywhere to get the distances you need.</p>",
             "button_label": "",
             "button_link": ""
@@ -378,7 +380,7 @@
           "settings": {
             "image": "shopify://shop_images/Frame_928.jpg",
             "caption": "Battle Tested",
-            "heading": "<strong>Weatherproof</strong>",
+            "heading": "Weatherproof",
             "text": "<p>Play with confidence rain or shine. The Caddie is weather-tested, durable, and ready for any shot you take.</p>",
             "button_label": "",
             "button_link": ""
@@ -432,6 +434,7 @@
         "heading_mfyw6W",
         "text_phEemV"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Website_Hero_1620_x_1080_px_3600_x_1800_px_12.png",
@@ -455,7 +458,7 @@
           "settings": {
             "image": "shopify://shop_images/19_dae028fd-ada3-482a-b0a4-9dfc17ad7cf1.jpg",
             "caption": "Super Strong",
-            "heading": "<strong>Built-In Magnet</strong>",
+            "heading": "Built-In Magnet",
             "text": "<p>Easily attach your Sound Stick to the cart bar for easy access to turn up the volume on your round!</p>",
             "button_label": "",
             "button_link": ""
@@ -466,7 +469,7 @@
           "settings": {
             "image": "shopify://shop_images/20_d6f39dbe-fccf-4a55-8279-4d5e94cdcf05.jpg",
             "caption": "Connect",
-            "heading": "<strong>Two Speakers</strong>",
+            "heading": "Two Speakers",
             "text": "<p>Get live front, back, and center distances from anywhere on the course.</p>",
             "button_label": "",
             "button_link": ""
@@ -477,7 +480,7 @@
           "settings": {
             "image": "shopify://shop_images/Untitled_design_30_91d51fb2-06b3-42b2-a30e-4e3d6ca57d3d.jpg",
             "caption": "15+ Hour",
-            "heading": "<strong>Battery Life</strong>",
+            "heading": "Battery Life",
             "text": "<p>The tunes never have to stop. Packed with an incredible 15+ hours of battery life, one charge will keep you jamming out for multiple rounds!</p>",
             "button_label": "",
             "button_link": ""
@@ -488,7 +491,7 @@
           "settings": {
             "image": "shopify://shop_images/21_dd36f8aa-a8b0-4b48-8e1d-682f0e186b8e.jpg",
             "caption": "Unmatched",
-            "heading": "<strong>Sound Quality</strong>",
+            "heading": "Sound Quality",
             "text": "<p>Quickly and accurately measure distances to hazards on the golf course, so you can hit every shot with confidence.</p>",
             "button_label": "",
             "button_link": ""
