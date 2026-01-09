@@ -175,7 +175,7 @@
         "heading_XRfijK": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>The </strong><em><strong>future</strong></em><strong> of golf is </strong><em><strong>here</strong></em><strong>.</strong>",
+            "heading": "<strong>The new standard.</strong>",
             "heading_size": "h1"
           }
         }
@@ -249,28 +249,6 @@
     "multirow_DgY64M": {
       "type": "multirow",
       "blocks": {
-        "row_ABLBeb": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Caddie_Ads_6.png",
-            "caption": "Make Any Cart a",
-            "heading": "<strong>Smart Cart</strong>",
-            "text": "<p>Using a screen to get your yardages isn't reserved for fancy country clubs anymore.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_dHXDxk": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Caddie_Ads_7.png",
-            "caption": "Tap for",
-            "heading": "<strong>Dynamic Distances</strong>",
-            "text": "<p>Get your distances when you need them, your way, regardless of where you are on the course.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "row_hqhrD3": {
           "type": "row",
           "settings": {
@@ -282,11 +260,33 @@
             "button_link": ""
           }
         },
+        "row_ABLBeb": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Caddie_Ads_6.png",
+            "caption": "Always have an eye on",
+            "heading": "<strong>Live Leaderboard</strong>",
+            "text": "<p>Using a screen to get your yardages isn't reserved for fancy country clubs anymore.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_dHXDxk": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Caddie_Ads_7.png",
+            "caption": "Unlock",
+            "heading": "<strong>Golf Performance</strong>",
+            "text": "<p>Get your distances when you need them, your way, regardless of where you are on the course.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
         "row_xyYV8h": {
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/Caddie_Ads_10.png",
-            "caption": "Maps From",
+            "caption": "Distances from",
             "heading": "<strong>45,000+ Courses</strong>",
             "text": "<p>With maps from over 45,000 courses worldwide, bring the Caddie anywhere your game takes you. Search your course below. </p>",
             "button_label": "",
@@ -328,9 +328,9 @@
         }
       },
       "block_order": [
+        "row_hqhrD3",
         "row_ABLBeb",
         "row_dHXDxk",
-        "row_hqhrD3",
         "row_xyYV8h",
         "row_i6JpJg",
         "row_6YCPxg",
@@ -407,6 +407,7 @@
     },
     "course_search_QWVePx": {
       "type": "course-search",
+      "disabled": true,
       "custom_css": [
         ".results {z-index: 999;}"
       ],
