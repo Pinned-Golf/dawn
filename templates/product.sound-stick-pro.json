@@ -1,0 +1,914 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "175950530492a01c83": {
+      "type": "_blocks",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "judge_me_reviews_preview_badge_tAHRwe": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {}
+        },
+        "text_3TMaQ3": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>PRESALE ONLY - SHIPPING 2/2</strong>",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "text_8pA7Hq": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Best New Product 2025 PGA Show</strong>",
+            "text_style": "uppercase"
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "text_ExJaTM": {
+          "type": "text",
+          "settings": {
+            "text": "<em><strong>🔥 2,697 Sold In Last 30 Days</strong></em>",
+            "text_style": "body"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "swatch",
+            "swatch_shape": "square"
+          }
+        },
+        "quantity_selector_a4gife": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "icon_with_text_UWmnYD": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "none",
+            "image_1": "shopify://shop_images/2_8a1c3e60-f916-4183-bf80-9de889d8946f.png",
+            "heading_1": "Free Shipping",
+            "icon_2": "none",
+            "image_2": "shopify://shop_images/P_3.png",
+            "heading_2": "Best New Product",
+            "icon_3": "none",
+            "image_3": "shopify://shop_images/5_9808a1fa-eaea-4906-a090-0721f22132a4.jpg",
+            "heading_3": "Top Tier Support"
+          }
+        },
+        "collapsible_tab_mFpMHC": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Features",
+            "default_open": true,
+            "icon": "none",
+            "content": "",
+            "page": "caddie-features"
+          }
+        },
+        "collapsible_tab_ULUXpP": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What's in the box?",
+            "default_open": false,
+            "icon": "none",
+            "content": "",
+            "page": "caddie-whats-in-box"
+          }
+        },
+        "collapsible_tab_LEjyQf": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "default_open": false,
+            "icon": "none",
+            "content": "<p>We ship <strong>FAST</strong>.<br/><br/>Fulfilled within 24 business hours. 90% of orders arrive early.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_ydzdBh": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "The Pinned Promise",
+            "default_open": false,
+            "icon": "none",
+            "content": "",
+            "page": "4-core-product-values"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_preview_badge_tAHRwe",
+        "text_3TMaQ3",
+        "title",
+        "text_8pA7Hq",
+        "caption",
+        "price",
+        "text_ExJaTM",
+        "variant_picker",
+        "quantity_selector_a4gife",
+        "buy_buttons",
+        "icon_with_text_UWmnYD",
+        "collapsible_tab_mFpMHC",
+        "collapsible_tab_ULUXpP",
+        "collapsible_tab_LEjyQf",
+        "collapsible_tab_ydzdBh"
+      ],
+      "custom_css": [
+        "span[data-selected-swatch-value] {font-weight: 600;}",
+        "p.product__text.inline-richtext.subtitle + p {color: red;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
+        "media_size": "small",
+        "constrain_to_viewport": false,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail",
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "show",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "rich_text_Pzp6bP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XRfijK": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>The </strong><em><strong>future</strong></em><strong> of golf is </strong><em><strong>here</strong></em><strong>.</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XRfijK"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "1759504596dc061c90": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_6f48049_GGyjMU": {
+          "type": "ai_gen_block_6f48049",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/8c3308bdd50c4823a4438dbb25f6ae7a.mp4",
+            "video_height": 400,
+            "border_radius": 16
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_6f48049_GGyjMU"
+      ],
+      "settings": {}
+    },
+    "1759504318d2b76803": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_879b11f_QJBwLC": {
+          "type": "ai_gen_block_879b11f",
+          "settings": {
+            "video_file": "shopify://files/videos/Project 14_The Caddie_Hype Video.mp4",
+            "video_description": "The Caddie",
+            "border_radius": 20
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_879b11f_QJBwLC"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "image_banner_HbDtXQ": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Frame_46f.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multirow_DgY64M": {
+      "type": "multirow",
+      "blocks": {
+        "row_ABLBeb": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Caddie_Ads_6.png",
+            "caption": "Make Any Cart a",
+            "heading": "<strong>Smart Cart</strong>",
+            "text": "<p>Using a screen to get your yardages isn't reserved for fancy country clubs anymore.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_dHXDxk": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Caddie_Ads_7.png",
+            "caption": "Tap for",
+            "heading": "<strong>Dynamic Distances</strong>",
+            "text": "<p>Get your distances when you need them, your way, regardless of where you are on the course.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_hqhrD3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/2_dbeb2765-5aff-4098-8865-2661cc90ea8f.png",
+            "caption": "Smart",
+            "heading": "<strong>FCB Distances</strong>",
+            "text": "<p>Get live front, back, and center distances from anywhere on the course.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_xyYV8h": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Caddie_Ads_10.png",
+            "caption": "Maps From",
+            "heading": "<strong>45,000+ Courses</strong>",
+            "text": "<p>With maps from over 45,000 courses worldwide, bring the Caddie anywhere your game takes you. Search your course below. </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_i6JpJg": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Frame_927.jpg",
+            "caption": "Super Strong",
+            "heading": "<strong>Built-In Magnet</strong>",
+            "text": "<p>The Caddie is built with a strong magnet that securely sticks to the golf cart, keeping it within easy reach throughout your round.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_6YCPxg": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Caddie_Ads_12.png",
+            "caption": "Absolutely No",
+            "heading": "<strong>Subscription Fees</strong>",
+            "text": "<p>Buy your Caddie and that will be the only time you will have to pay for it. Get dialed in without a monthly payment! </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_9Df9ib": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Frame_928.jpg",
+            "caption": "Battle Tested",
+            "heading": "<strong>Weatherproof</strong>",
+            "text": "<p>Play with confidence rain or shine. The Caddie is weather-tested, durable, and ready for any shot you take.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_ABLBeb",
+        "row_dHXDxk",
+        "row_hqhrD3",
+        "row_xyYV8h",
+        "row_i6JpJg",
+        "row_6YCPxg",
+        "row_9Df9ib"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "17595141920893d544": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_5ac3790_KTgqeX": {
+          "type": "ai_gen_block_5ac3790",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "row_height": 400,
+            "mobile_media_height": 250,
+            "row_spacing": 32,
+            "heading_size": 32,
+            "text_size": 16,
+            "row_1_media_type": "image",
+            "row_1_media": "shopify://shop_images/Caddie_Ads.gif",
+            "row_1_layout": "media_left",
+            "row_1_heading": "Row 1 heading",
+            "row_1_text": "<p>Describe your product, collection, or brand story with rich text and media.</p>",
+            "row_1_button_text": "",
+            "row_1_button_link": "",
+            "row_2_media_type": "image",
+            "row_2_layout": "media_right",
+            "row_2_heading": "Row 2 heading",
+            "row_2_text": "<p>Describe your product, collection, or brand story with rich text and media.</p>",
+            "row_2_button_text": "",
+            "row_2_button_link": "",
+            "row_3_media_type": "image",
+            "row_3_layout": "media_left",
+            "row_3_heading": "Row 3 heading",
+            "row_3_text": "<p>Describe your product, collection, or brand story with rich text and media.</p>",
+            "row_3_button_text": "",
+            "row_3_button_link": "",
+            "row_4_media_type": "image",
+            "row_4_layout": "media_right",
+            "row_4_heading": "Row 4 heading",
+            "row_4_text": "<p>Describe your product, collection, or brand story with rich text and media.</p>",
+            "row_4_button_text": "",
+            "row_4_button_link": "",
+            "row_5_media_type": "image",
+            "row_5_layout": "media_left",
+            "row_5_heading": "Row 5 heading",
+            "row_5_text": "<p>Describe your product, collection, or brand story with rich text and media.</p>",
+            "row_5_button_text": "",
+            "row_5_button_link": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_5ac3790_KTgqeX"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "course_search_QWVePx": {
+      "type": "course-search",
+      "custom_css": [
+        ".results {z-index: 999;}"
+      ],
+      "settings": {
+        "title": "<strong>Search your course</strong>",
+        "heading_size": "h1",
+        "description": "<p><em>Check to see if it's one of our 45,000+</em></p>",
+        "additional_text": "<h6><em>TYPE FULL COURSE NAME & HIT SEARCH</em></h6>",
+        "border_radius": 8,
+        "results_border_width": 1,
+        "results_border_radius": 5,
+        "title_alignment": "center",
+        "description_alignment": "center",
+        "additional_text_alignment": "center",
+        "image_behavior": "none",
+        "image_border_radius": 5,
+        "image_drop_shadow": "none"
+      }
+    },
+    "multirow_q4FtTN": {
+      "type": "multirow",
+      "blocks": {
+        "row_TLfqDU": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/4_9fe9908d-4d8f-4dc7-bef6-8f139e2d421f.png",
+            "caption": "Multiplayer",
+            "heading": "<strong>Games</strong>",
+            "text": "<p>Play head-to-head or in teams with real-time scoring and built-in match support. The Caddie makes it easy to keep competition fun and fair from the first tee to the 18th green.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_k3tLk9": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/5_50042114-ae55-4444-83c3-089d15a6f1c6.png",
+            "caption": "Easy One Tap",
+            "heading": "<strong>Scoring</strong>",
+            "text": "<p>Log your score in seconds with a simple tap. No clutter, no distractions, just quick, intuitive scoring that keeps you focused on the next swing. </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_QzhphV": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/1_f0355d7d-4560-400b-a43d-7a228f946af6.png",
+            "caption": "Dialed In",
+            "heading": "<strong>Analytics</strong>",
+            "text": "<p>Unlock a clear picture of your game with detailed stats and round-by-round insights. From fairways hit to putts per hole, The Caddie helps you find exactly where to improve.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_6CzPGD": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/3_335ffa9a-ecde-4166-a3bc-3277d4154b18.png",
+            "caption": "Innovative",
+            "heading": "<strong>Auto-Dot Technology</strong>",
+            "text": "<p>Level the playing field with automatic handicap adjustments. The Caddie applies strokes where they’re earned so every match is fair and every hole counts.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_TLfqDU",
+        "row_k3tLk9",
+        "row_QzhphV",
+        "row_6CzPGD"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 16,
+        "padding_bottom": 12
+      }
+    },
+    "rich_text_aQeAa3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DKxnkA": {
+          "type": "heading",
+          "settings": {
+            "heading": "⭐️⭐️⭐️⭐️⭐️",
+            "heading_size": "h1"
+          }
+        },
+        "text_jmmE6i": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>Hundreds of five star reviews!</strong></em></p>"
+          }
+        },
+        "button_cm6bnd": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_DKxnkA",
+        "text_jmmE6i",
+        "button_cm6bnd"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_pHTL4n": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_7E8hdq": {
+          "type": "column",
+          "settings": {
+            "title": "Love It!!!",
+            "text": "<p><em>\"The Caddie from Pinned Golf has been a game-changer. The GPS is spot on, easy to use, and gives me confidence on every shot.\"</em></p><p><strong>Bill W. </strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_34PWE7": {
+          "type": "column",
+          "settings": {
+            "title": "I love it!",
+            "text": "<p><em>\"Really great if yoou are playing a coarse that you’re not familiar with. You can see the layout and mark distance…It’s great!\"</em></p><p><strong>Jason C.</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iRQ3Vx": {
+          "type": "column",
+          "settings": {
+            "title": "Worth Every Penny",
+            "text": "<p><em>“The Caddie is now a must-have in my bag. It’s reliable, lightweight, and has saved me strokes with precise distances every round.”</em></p><p><strong>Emily C.</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LLaAj4": {
+          "type": "column",
+          "settings": {
+            "title": "Better than expected",
+            "text": "<p><em>\"I love my new Pinned Caddie. Easy to use and easy to keep score. The magnet is very strong too! Highly recommend.\"</em></p><p><strong>Michael B.</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7j9MNE": {
+          "type": "column",
+          "settings": {
+            "title": "Great Investment",
+            "text": "<p><em>“This thing is awesome! Easily one of the best golf investments i've ever made. It's everything I wanted and more”</em></p><p><strong>Bryan S.</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LxCaqB": {
+          "type": "column",
+          "settings": {
+            "title": "Must Have",
+            "text": "<p><em>\"The size of the screen alone makes it worth it! Select where you want to be with how far you hit it and how much left. No better product on the market\"</em></p><p><strong>Lloyd R.</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_7E8hdq",
+        "column_34PWE7",
+        "column_iRQ3Vx",
+        "column_LLaAj4",
+        "column_7j9MNE",
+        "column_LxCaqB"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_qEcfUq": {
+      "type": "multirow",
+      "blocks": {
+        "row_EFV7Qe": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/4_6e087067-11f3-4379-bdf3-eaff0606b5b6.png",
+            "caption": "Golf Influencer",
+            "heading": "Jake Macchi",
+            "text": "<p><em>“The Caddie makes the game more fun and stress-free. I love how intuitive it is, whether I’m playing for practice or competition, it feels like the smartest piece of golf tech I’ve used.”</em></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_h96TF6": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/6_0b1b77a8-bd2c-4abc-a584-01ca09c7e83e.png",
+            "caption": "Division 1 golfer",
+            "heading": "Conner Beakey",
+            "text": "<p><em>“As a competitive golfer, I rely on precision, and The Caddie delivers exactly that. It’s fast, easy to use, and keeps me locked in on the course without distractions.”</em></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_m8zDpE": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/2_b86464b4-cb6b-41ec-a873-1bbb7955662f.png",
+            "caption": "Golf Influencer",
+            "heading": "Hailey Ostrom",
+            "text": "<p><em>“The Caddie has completely changed how I approach my rounds. Having all the yardages and course details right in front of me lets me focus on my swing instead of my phone. It’s like having a tour-level caddie by my side every hole.”</em></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_EFV7Qe",
+        "row_h96TF6",
+        "row_m8zDpE"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_K3TTNR": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_KTrHDj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Size Matters",
+            "icon": "check_mark",
+            "row_content": "<p>This 8\" screen provides a crystal clear view, yet compact enough to stay out of your way. The Caddie’s slim design and built-in magnet make it the perfect on-course companion. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_G8tpyb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "360° Hole View",
+            "icon": "check_mark",
+            "row_content": "<p>Get a complete picture of the hole, not just distances. Plan your shots with a bird’s-eye view and identify hazards, bunkers, and safe zones with ease.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_HBqL4e": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Advances Stats",
+            "icon": "check_mark",
+            "row_content": "<p>Track your game like never before. From driving accuracy to greens in regulation, the Caddie’s stats give you actionable insights to improve your play.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xHJXEJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Multiple Game Mode",
+            "icon": "check_mark",
+            "row_content": "<p>Whether you’re playing stroke play, match play, or even a scramble, the Caddie has modes to enhance every format and keep things fun.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Jp9gi4": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "USGA GHIN Integration",
+            "icon": "check_mark",
+            "row_content": "<p>Say goodbye to manual score entry. The Caddie syncs directly with your USGA GHIN account, automatically uploading your scores after each round. It’s effortless, accurate, and keeps your handicap up to date without any extra work.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_KTrHDj",
+        "collapsible_row_G8tpyb",
+        "collapsible_row_HBqL4e",
+        "collapsible_row_xHJXEJ",
+        "collapsible_row_Jp9gi4"
+      ],
+      "settings": {
+        "caption": "4 REASONS WHY THE CADDIE IS",
+        "heading": "Better Than A Handheld GPS.",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_iErkPe": {
+      "type": "video",
+      "disabled": true,
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/Final-Setting up your caddie - HD 1080p.mov",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 8,
+        "padding_bottom": 36
+      }
+    },
+    "video_nGX7J8": {
+      "type": "video",
+      "disabled": true,
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/Final- Play golf - HD 1080p.mov",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_PRJMPr": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div {text-align: center;}"
+      ],
+      "settings": {
+        "custom_liquid": "<a id=\"scroll-to-top\" class=\"button button--primary\" href=\"#\">Buy {{product.title}}</a>\n<script>\n  document.getElementById('scroll-to-top').addEventListener('click', (evt) => {\n    evt.preventDefault();\n    evt.stopPropagation();\n    document.querySelector('form[data-type=\"add-to-cart-form\"]').scrollIntoView({ behavior: \"smooth\", block: \"end\", inline: \"nearest\" })\n  });\n</script>",
+        "color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collapsible_content_j6wfqJ": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_LgaRjn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Best Price Ever",
+            "icon": "price_tag",
+            "row_content": "<p>If you're looking for a rangefinder, you won't find a better deal. This is the lowest price we have ever offered on our Prism+ rangefinder.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_n9qCA6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Thousands Of Reviews",
+            "icon": "star",
+            "row_content": "<p>Trusted by 150,000+ golfers all over the world. From PGA Professionals to Collegiate Golfers to the Weekend Warrior to everyone in between. Golfers love our products because they are made by golfers for golfers. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_APan9x": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Our Pinned Family",
+            "icon": "heart",
+            "row_content": "<p>When you buy one of our products, you become family. More specifically, you join our Pinned Family. and we treat everyone like an actual member of our family. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_X9eV6U": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "As Good As It Gets",
+            "icon": "fire",
+            "row_content": "<p>Countless tests against the competition and let me tell you, we're just as good... if not better. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3RTHwb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Love It Or Return It",
+            "icon": "return",
+            "row_content": "<p>With our extended holiday return window, they will essentially be able to try the rangefinder on before they buy it. </p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_LgaRjn",
+        "collapsible_row_n9qCA6",
+        "collapsible_row_APan9x",
+        "collapsible_row_X9eV6U",
+        "collapsible_row_3RTHwb"
+      ],
+      "disabled": true,
+      "settings": {
+        "caption": "the perfect gift for your golfer and here are",
+        "heading": "Five Reasons Why.",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "Trending",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "175950530492a01c83",
+    "main",
+    "rich_text_Pzp6bP",
+    "1759504596dc061c90",
+    "1759504318d2b76803",
+    "image_banner_HbDtXQ",
+    "multirow_DgY64M",
+    "17595141920893d544",
+    "course_search_QWVePx",
+    "multirow_q4FtTN",
+    "rich_text_aQeAa3",
+    "multicolumn_pHTL4n",
+    "multirow_qEcfUq",
+    "collapsible_content_K3TTNR",
+    "video_iErkPe",
+    "video_nGX7J8",
+    "custom_liquid_PRJMPr",
+    "collapsible_content_j6wfqJ",
+    "related-products"
+  ]
+}
