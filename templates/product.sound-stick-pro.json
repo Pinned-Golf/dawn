@@ -735,79 +735,6 @@
         "padding_bottom": 36
       }
     },
-    "collapsible_content_K3TTNR": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_KTrHDj": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Size Matters",
-            "icon": "check_mark",
-            "row_content": "<p>This 8\" screen provides a crystal clear view, yet compact enough to stay out of your way. The Caddie’s slim design and built-in magnet make it the perfect on-course companion. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_G8tpyb": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "360° Hole View",
-            "icon": "check_mark",
-            "row_content": "<p>Get a complete picture of the hole, not just distances. Plan your shots with a bird’s-eye view and identify hazards, bunkers, and safe zones with ease.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_HBqL4e": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Advances Stats",
-            "icon": "check_mark",
-            "row_content": "<p>Track your game like never before. From driving accuracy to greens in regulation, the Caddie’s stats give you actionable insights to improve your play.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_xHJXEJ": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Multiple Game Mode",
-            "icon": "check_mark",
-            "row_content": "<p>Whether you’re playing stroke play, match play, or even a scramble, the Caddie has modes to enhance every format and keep things fun.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_Jp9gi4": {
-          "type": "collapsible_row",
-          "disabled": true,
-          "settings": {
-            "heading": "USGA GHIN Integration",
-            "icon": "check_mark",
-            "row_content": "<p>Say goodbye to manual score entry. The Caddie syncs directly with your USGA GHIN account, automatically uploading your scores after each round. It’s effortless, accurate, and keeps your handicap up to date without any extra work.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_KTrHDj",
-        "collapsible_row_G8tpyb",
-        "collapsible_row_HBqL4e",
-        "collapsible_row_xHJXEJ",
-        "collapsible_row_Jp9gi4"
-      ],
-      "disabled": true,
-      "settings": {
-        "caption": "4 REASONS WHY THE CADDIE IS",
-        "heading": "Better Than A Handheld GPS.",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": true,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "video_iErkPe": {
       "type": "video",
       "disabled": true,
@@ -961,7 +888,6 @@
     "rich_text_aQeAa3",
     "multicolumn_pHTL4n",
     "multirow_qEcfUq",
-    "collapsible_content_K3TTNR",
     "video_iErkPe",
     "video_nGX7J8",
     "custom_liquid_PRJMPr",
