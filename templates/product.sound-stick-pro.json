@@ -172,15 +172,24 @@
     "rich_text_Pzp6bP": {
       "type": "rich-text",
       "blocks": {
+        "caption_PTNjmg": {
+          "type": "caption",
+          "settings": {
+            "caption": "The definition of",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "heading_XRfijK": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>The new standard.</strong>",
+            "heading": "<strong>better golf, better vibes.</strong>",
             "heading_size": "h1"
           }
         }
       },
       "block_order": [
+        "caption_PTNjmg",
         "heading_XRfijK"
       ],
       "settings": {
