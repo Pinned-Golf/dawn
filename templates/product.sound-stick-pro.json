@@ -346,7 +346,7 @@
           "settings": {
             "image": "shopify://shop_images/4_c9fb8d46-dc4d-4b8d-a0f9-c76ffd8918e9.jpg",
             "caption": "Super Strong",
-            "heading": "<strong>Built-In Magnet</strong>",
+            "heading": "Built-In Magnet",
             "text": "<p>The Caddie is built with a strong magnet that securely sticks to the golf cart, keeping it within easy reach throughout your round.</p>",
             "button_label": "",
             "button_link": ""
@@ -357,7 +357,7 @@
           "settings": {
             "image": "shopify://shop_images/SSProPDP.jpg",
             "caption": "Dialed In",
-            "heading": "<strong>Green Heat Maps</strong>",
+            "heading": "Green Heat Maps",
             "text": "<p>Buy your Caddie and that will be the only time you will have to pay for it. Get dialed in without a monthly payment! </p>",
             "button_label": "",
             "button_link": ""
@@ -368,7 +368,7 @@
           "settings": {
             "image": "shopify://shop_images/SSProPDP_3.jpg",
             "caption": "Turn up the vibes with",
-            "heading": "<strong>Party Mode</strong>",
+            "heading": "Party Mode",
             "text": "<p>Pair up to 100 speakers to turn up the vibes while all listening to the same tunes.</p>",
             "button_label": "",
             "button_link": ""
@@ -529,6 +529,7 @@
         "row_QzhphV",
         "row_6CzPGD"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "adapt",
         "desktop_image_width": "medium",
