@@ -323,8 +323,8 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/1_3d1aa1f2-efc8-481c-862d-c69218e8ce20.jpg",
-            "caption": "Unlock",
-            "heading": "Golf Performance",
+            "caption": "Unlock Intuitive",
+            "heading": "Performance Metrics",
             "text": "<p>Get a complete picture of your game through our proprietary Pinned Pulse insights. </p>",
             "button_label": "",
             "button_link": ""
@@ -336,7 +336,7 @@
             "image": "shopify://shop_images/SSProPDP_8.jpg",
             "caption": "Distances from",
             "heading": "45,000+ Courses",
-            "text": "<p>With maps from over 45,000 courses worldwide, bring your Sound Stick PRO anywhere your game takes you.</p>",
+            "text": "<p>Play anywhere with confidence. With 45,000 courses worldwide, so your distances are dialed wherever you tee it up.</p>",
             "button_label": "",
             "button_link": ""
           }
