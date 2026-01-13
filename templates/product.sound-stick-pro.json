@@ -84,9 +84,8 @@
             "icon_1": "none",
             "image_1": "shopify://shop_images/2_8a1c3e60-f916-4183-bf80-9de889d8946f.png",
             "heading_1": "Free Shipping",
-            "icon_2": "none",
-            "image_2": "shopify://shop_images/P_3.png",
-            "heading_2": "Best New Product",
+            "icon_2": "lightning_bolt",
+            "heading_2": "Exclusive Presale",
             "icon_3": "none",
             "image_3": "shopify://shop_images/5_9808a1fa-eaea-4906-a090-0721f22132a4.jpg",
             "heading_3": "Top Tier Support"
