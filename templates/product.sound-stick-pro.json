@@ -52,6 +52,7 @@
         },
         "text_ExJaTM": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<em><strong>🔥 2,697 Sold In Last 30 Days</strong></em>",
             "text_style": "body"
@@ -366,7 +367,7 @@
         "row_9Df9ib": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/SSProPDP_3.jpg",
+            "image": "shopify://shop_images/SSProPDP_4.jpg",
             "caption": "Turn up the vibes with",
             "heading": "Party Mode",
             "text": "<p>Pair up to 100 speakers to turn up the vibes while all listening to the same tunes.</p>",
