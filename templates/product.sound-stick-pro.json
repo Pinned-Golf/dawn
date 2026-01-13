@@ -109,7 +109,7 @@
             "default_open": false,
             "icon": "none",
             "content": "",
-            "page": "caddie-whats-in-box"
+            "page": "sound-stick-pro-whats-in-box"
           }
         },
         "collapsible_tab_LEjyQf": {
@@ -118,7 +118,7 @@
             "heading": "Shipping",
             "default_open": false,
             "icon": "none",
-            "content": "<p>We ship <strong>FAST</strong>.<br/><br/>Fulfilled within 24 business hours. 90% of orders arrive early.</p>",
+            "content": "<p>This product is on presale and well ship April 1st.</p>",
             "page": ""
           }
         },
@@ -184,7 +184,7 @@
         "heading_XRfijK": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>better golf, better vibes.</strong>",
+            "heading": "<strong>better vibes, better golf.</strong>",
             "heading_size": "h1"
           }
         }
