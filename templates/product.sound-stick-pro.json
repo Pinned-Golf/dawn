@@ -247,7 +247,7 @@
           "type": "ai_gen_block_85d833a",
           "settings": {
             "desktop_image": "shopify://shop_images/Website_Hero_50.jpg",
-            "banner_height_desktop": 500,
+            "banner_height_desktop": 600,
             "mobile_image": "shopify://shop_images/Untitled_design_42.jpg",
             "banner_height_mobile": 500,
             "image_fit": "cover",
@@ -313,9 +313,9 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/3_2b176528-c7b7-4a96-80cd-3cdbe588071b.jpg",
-            "caption": "Always have an eye on",
+            "caption": "Always have eyes on",
             "heading": "Live Leaderboard",
-            "text": "<p>Using a screen to get your yardages isn't reserved for fancy country clubs anymore.</p>",
+            "text": "<p>Keep track of your scores, games and wagers all round long. </p>",
             "button_label": "",
             "button_link": ""
           }
@@ -326,7 +326,7 @@
             "image": "shopify://shop_images/1_3d1aa1f2-efc8-481c-862d-c69218e8ce20.jpg",
             "caption": "Unlock",
             "heading": "Golf Performance",
-            "text": "<p>Get your distances when you need them, your way, regardless of where you are on the course.</p>",
+            "text": "<p>Get a complete picture of your game through our proprietary Pinned Pulse analytics.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -337,7 +337,7 @@
             "image": "shopify://shop_images/SSProPDP_2.jpg",
             "caption": "Distances from",
             "heading": "45,000+ Courses",
-            "text": "<p>With maps from over 45,000 courses worldwide, bring the Caddie anywhere your game takes you. Search your course below. </p>",
+            "text": "<p>With maps from over 45,000 courses worldwide, bring your Sound Stick PRO anywhere your game takes you.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -348,7 +348,7 @@
             "image": "shopify://shop_images/4_c9fb8d46-dc4d-4b8d-a0f9-c76ffd8918e9.jpg",
             "caption": "Super Strong",
             "heading": "Built-In Magnet",
-            "text": "<p>The Caddie is built with a strong magnet that securely sticks to the golf cart, keeping it within easy reach throughout your round.</p>",
+            "text": "<p>The Sound Stick PRO is built with a strong magnet that securely sticks to the golf cart, keeping it within easy reach throughout your round.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -359,7 +359,7 @@
             "image": "shopify://shop_images/SSProPDP.jpg",
             "caption": "Dialed In",
             "heading": "Green Heat Maps",
-            "text": "<p>Buy your Caddie and that will be the only time you will have to pay for it. Get dialed in without a monthly payment! </p>",
+            "text": "<p>Know the lay of the land when you're rolling up to the green. </p>",
             "button_label": "",
             "button_link": ""
           }
@@ -370,7 +370,7 @@
             "image": "shopify://shop_images/SSProPDP_4.jpg",
             "caption": "Turn up the vibes with",
             "heading": "Party Mode",
-            "text": "<p>Pair up to 100 speakers to turn up the vibes while all listening to the same tunes.</p>",
+            "text": "<p>Pair up to 100 speakers at once to turn up the vibes during your round. No more country & hip hop playing at the same time.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -552,6 +552,7 @@
       "blocks": {
         "heading_DKxnkA": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "⭐️⭐️⭐️⭐️⭐️",
             "heading_size": "h1"
@@ -580,6 +581,7 @@
         "text_jmmE6i",
         "button_cm6bnd"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -655,6 +657,7 @@
         "column_7j9MNE",
         "column_LxCaqB"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -714,6 +717,7 @@
         "row_h96TF6",
         "row_m8zDpE"
       ],
+      "disabled": true,
       "name": "t:sections.multirow.presets.name",
       "settings": {
         "image_height": "medium",
@@ -788,6 +792,7 @@
         "collapsible_row_xHJXEJ",
         "collapsible_row_Jp9gi4"
       ],
+      "disabled": true,
       "settings": {
         "caption": "4 REASONS WHY THE CADDIE IS",
         "heading": "Better Than A Handheld GPS.",
