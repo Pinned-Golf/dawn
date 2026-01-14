@@ -756,18 +756,6 @@
         "padding_bottom": 36
       }
     },
-    "custom_liquid_PRJMPr": {
-      "type": "custom-liquid",
-      "custom_css": [
-        "div {text-align: center;}"
-      ],
-      "settings": {
-        "custom_liquid": "<a id=\"scroll-to-top\" class=\"button button--primary\" href=\"#\">Buy {{product.title}}</a>\n<script>\n  document.getElementById('scroll-to-top').addEventListener('click', (evt) => {\n    evt.preventDefault();\n    evt.stopPropagation();\n    document.querySelector('form[data-type=\"add-to-cart-form\"]').scrollIntoView({ behavior: \"smooth\", block: \"end\", inline: \"nearest\" })\n  });\n</script>",
-        "color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "collapsible_content_j6wfqJ": {
       "type": "collapsible-content",
       "blocks": {
@@ -859,6 +847,72 @@
         "padding_bottom": 28
       }
     },
+    "176835528098ddf14f": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_41821d2_chfRGX": {
+          "type": "ai_gen_block_41821d2",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Website_Hero_48.png",
+            "desktop_height": 600,
+            "mobile_image": "shopify://shop_images/SSProPDP_14.jpg",
+            "mobile_height": 400,
+            "desktop_width_percent": 100,
+            "mobile_width_percent": 100,
+            "image_fit": "cover",
+            "corner_radius": 16
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_41821d2_chfRGX"
+      ],
+      "settings": {}
+    },
+    "rich_text_Tw3VFE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AyGCw7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pinned Golf App",
+            "heading_size": "h1"
+          }
+        },
+        "text_dTnpbG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your digital caddie for every round. From live leaderboards and wager tracking to proprietary Pinned Pulse, multiplayer games, and real course reviews, it’s built to make every round more competitive, more social, and more fun. Designed to work seamlessly with Pinned devices, the app brings your data, your crew, and your game together so every round is dialed in.</p><p><em><strong>Coming in March 2026</strong></em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AyGCw7",
+        "text_dTnpbG"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 32
+      }
+    },
+    "custom_liquid_PRJMPr": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div {text-align: center;}"
+      ],
+      "settings": {
+        "custom_liquid": "<a id=\"scroll-to-top\" class=\"button button--primary\" href=\"#\">Buy {{product.title}}</a>\n<script>\n  document.getElementById('scroll-to-top').addEventListener('click', (evt) => {\n    evt.preventDefault();\n    evt.stopPropagation();\n    document.querySelector('form[data-type=\"add-to-cart-form\"]').scrollIntoView({ behavior: \"smooth\", block: \"end\", inline: \"nearest\" })\n  });\n</script>",
+        "color_scheme": "scheme-508114c0-af9e-4a6c-a276-9b721f57c5a1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multirow_PpPxgp": {
       "type": "multirow",
       "blocks": {
@@ -917,72 +971,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "176835528098ddf14f": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_41821d2_chfRGX": {
-          "type": "ai_gen_block_41821d2",
-          "settings": {
-            "desktop_image": "shopify://shop_images/Website_Hero_48.png",
-            "desktop_height": 600,
-            "mobile_image": "shopify://shop_images/SSProPDP_14.jpg",
-            "mobile_height": 400,
-            "desktop_width_percent": 100,
-            "mobile_width_percent": 100,
-            "image_fit": "cover",
-            "corner_radius": 16
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_41821d2_chfRGX"
-      ],
-      "settings": {}
-    },
-    "rich_text_Tw3VFE": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_AyGCw7": {
-          "type": "heading",
-          "settings": {
-            "heading": "Pinned Golf App",
-            "heading_size": "h1"
-          }
-        },
-        "text_dTnpbG": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Your digital caddie for every round. From live leaderboards and wager tracking to proprietary Pinned Pulse, multiplayer games, and real course reviews, it’s built to make every round more competitive, more social, and more fun. Designed to work seamlessly with Pinned devices, the app brings your data, your crew, and your game together so every round is dialed in.</p><p><em><strong>Coming in March 2026</strong></em></p>"
-          }
-        },
-        "button_DMmiFK": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_AyGCw7",
-        "text_dTnpbG",
-        "button_DMmiFK"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 16,
-        "padding_bottom": 32
-      }
     }
   },
   "order": [
@@ -1002,11 +990,11 @@
     "multirow_qEcfUq",
     "video_iErkPe",
     "video_nGX7J8",
-    "custom_liquid_PRJMPr",
     "collapsible_content_j6wfqJ",
     "related-products",
     "176835528098ddf14f",
     "rich_text_Tw3VFE",
+    "custom_liquid_PRJMPr",
     "multirow_PpPxgp"
   ]
 }
