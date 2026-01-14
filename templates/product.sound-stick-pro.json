@@ -859,29 +859,10 @@
         "padding_bottom": 28
       }
     },
-    "multirow_TDJ3Xp": {
-      "type": "multirow",
-      "name": "t:sections.multirow.presets.name",
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multirow_wdqxaq": {
+    "multirow_PpPxgp": {
       "type": "multirow",
       "blocks": {
-        "row_Tnn9RN": {
+        "row_nfQhDG": {
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/4_c9fb8d46-dc4d-4b8d-a0f9-c76ffd8918e9.jpg",
@@ -892,42 +873,6 @@
             "button_link": ""
           }
         },
-        "row_Yk6yYR": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/SSProPDP_10.jpg",
-            "caption": "All powered by the",
-            "heading": "Pinned App",
-            "text": "<p>Your digital caddie for every round. From live leaderboards and wager tracking to proprietary Pinned Pulse, multiplayer games, and real course reviews, it’s built to make every round more competitive, more social, and more fun. Designed to work seamlessly with Pinned devices, the app brings your data, your crew, and your game together so every round is dialed in.</p><p><em><strong>Coming in March 2026</strong></em></p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_Tnn9RN",
-        "row_Yk6yYR"
-      ],
-      "name": "t:sections.multirow.presets.name",
-      "settings": {
-        "image_height": "adapt",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multirow_PpPxgp": {
-      "type": "multirow",
-      "blocks": {
         "row_Kn8FDT": {
           "type": "row",
           "settings": {
@@ -949,23 +894,12 @@
             "button_label": "",
             "button_link": ""
           }
-        },
-        "row_FUAXTy": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/4_c9fb8d46-dc4d-4b8d-a0f9-c76ffd8918e9.jpg",
-            "caption": "Super Strong",
-            "heading": "Built-In Magnet",
-            "text": "<p>Always within reach. The built-in magnet attaches securely to your cart so your device is ready whenever you are.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
+        "row_nfQhDG",
         "row_Kn8FDT",
-        "row_PkKD96",
-        "row_FUAXTy"
+        "row_PkKD96"
       ],
       "name": "t:sections.multirow.presets.name",
       "settings": {
@@ -984,52 +918,70 @@
         "padding_bottom": 36
       }
     },
-    "image_banner_QKJRDT": {
-      "type": "image-banner",
+    "176835528098ddf14f": {
+      "type": "_blocks",
       "blocks": {
-        "heading_k8AVU4": {
+        "ai_gen_block_41821d2_chfRGX": {
+          "type": "ai_gen_block_41821d2",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Website_Hero_48.png",
+            "desktop_height": 600,
+            "mobile_image": "shopify://shop_images/SSProPDP_14.jpg",
+            "mobile_height": 400,
+            "desktop_width_percent": 100,
+            "mobile_width_percent": 100,
+            "image_fit": "cover",
+            "corner_radius": 16
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_41821d2_chfRGX"
+      ],
+      "settings": {}
+    },
+    "rich_text_Tw3VFE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AyGCw7": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Pinned Golf App",
             "heading_size": "h1"
           }
         },
-        "text_7akbR8": {
+        "text_dTnpbG": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "text": "<p>Your digital caddie for every round. From live leaderboards and wager tracking to proprietary Pinned Pulse, multiplayer games, and real course reviews, it’s built to make every round more competitive, more social, and more fun. Designed to work seamlessly with Pinned devices, the app brings your data, your crew, and your game together so every round is dialed in.</p><p><em><strong>Coming in March 2026</strong></em></p>"
           }
         },
-        "buttons_4tER9M": {
-          "type": "buttons",
+        "button_DMmiFK": {
+          "type": "button",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_k8AVU4",
-        "text_7akbR8",
-        "buttons_4tER9M"
+        "heading_AyGCw7",
+        "text_dTnpbG",
+        "button_DMmiFK"
       ],
-      "name": "t:sections.image-banner.presets.name",
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 32
       }
     }
   },
@@ -1053,9 +1005,8 @@
     "custom_liquid_PRJMPr",
     "collapsible_content_j6wfqJ",
     "related-products",
-    "multirow_TDJ3Xp",
-    "multirow_wdqxaq",
-    "multirow_PpPxgp",
-    "image_banner_QKJRDT"
+    "176835528098ddf14f",
+    "rich_text_Tw3VFE",
+    "multirow_PpPxgp"
   ]
 }
