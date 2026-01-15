@@ -936,9 +936,9 @@
         "collapsible_row_zwFEL3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Can I pair multiple Sound Stick PRO's?",
+            "icon": "none",
+            "row_content": "<p>Yes! Our Sound Stick PRO is built with Party Mode that allows you to connect up to 100 speakers. </p>",
             "page": ""
           }
         },
