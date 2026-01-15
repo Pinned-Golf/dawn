@@ -945,9 +945,9 @@
         "collapsible_row_T7pyVA": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "What is Pinned Pulse?",
+            "icon": "none",
+            "row_content": "<p>Pinned Pulse is our proprietary all-in-one performance score, turning every round into a clear snapshot of how dialed in your game really was. It analyzes your scoring, consistency, and key on-course metrics to generate a single, easy-to-understand number. Track it over time to spot trends, measure improvement, and know exactly when you’re playing your best. </p>",
             "page": ""
           }
         }
