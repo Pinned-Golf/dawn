@@ -117,7 +117,7 @@
             "heading": "Shipping",
             "default_open": false,
             "icon": "none",
-            "content": "<p>This product is on presale and well ship April 1st.</p>",
+            "content": "<p>This product is on presale and will ship April 1st.</p>",
             "page": ""
           }
         },
@@ -129,6 +129,16 @@
             "icon": "none",
             "content": "",
             "page": "4-core-product-values"
+          }
+        },
+        "collapsible_tab_KKmBQW": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Pinned Golf App",
+            "default_open": false,
+            "icon": "none",
+            "content": "<p><strong>Do I NEED a subscription? </strong></p><p><strong>Nope!</strong> FCB distances, scorekeeping, Pinned Pulse Overview Scores, Pulse Consistency Scores, and touchscreen GPS access on the app <strong>are all free</strong>.</p><p>Our <strong>Premium Membership</strong> unlocks advanced Pulse metrics, green views, hazard views, and many more features coming soon. </p><p><em><strong>But don't worry all pre-orders come with 1 year free! </strong></em></p><p><strong>When can I download the app?</strong></p><p>The app will go live <strong>in March</strong>, so you’ll be ready to play as soon as your speaker arrives.</p>",
+            "page": ""
           }
         }
       },
@@ -147,7 +157,8 @@
         "collapsible_tab_mFpMHC",
         "collapsible_tab_ULUXpP",
         "collapsible_tab_LEjyQf",
-        "collapsible_tab_ydzdBh"
+        "collapsible_tab_ydzdBh",
+        "collapsible_tab_KKmBQW"
       ],
       "custom_css": [
         "span[data-selected-swatch-value] {font-weight: 600;}",
@@ -901,6 +912,68 @@
         "padding_bottom": 32
       }
     },
+    "collapsible_content_PyDbd4": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_gVfnPw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do I need a membership?",
+            "icon": "none",
+            "row_content": "<p><strong>Nope!</strong> <strong>FCB distances</strong>, <strong>scorekeeping</strong>, <strong>Pinned Pulse Overview Scores</strong>, <strong>Pulse Consistency Scores</strong>, and <strong>touchscreen GPS access</strong> on the app are all <strong>free</strong>.</p><p>A <strong>Premium Membership</strong> unlocks <strong>advanced Pulse metrics</strong>, <strong>green views</strong>, <strong>hazard views</strong>, and even <strong>more features coming soon</strong>. But don't worry all pre-orders come with 1 year free!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YhaPWr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When can I download the app?",
+            "icon": "none",
+            "row_content": "<p>The app will go live <strong>when the speakers ship</strong>, so you’ll be ready to play as soon as your gear arrives.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_zwFEL3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_T7pyVA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_gVfnPw",
+        "collapsible_row_YhaPWr",
+        "collapsible_row_zwFEL3",
+        "collapsible_row_T7pyVA"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "Be sure to check out our",
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "custom_liquid_PRJMPr": {
       "type": "custom-liquid",
       "custom_css": [
@@ -994,6 +1067,7 @@
     "related-products",
     "176835528098ddf14f",
     "rich_text_Tw3VFE",
+    "collapsible_content_PyDbd4",
     "custom_liquid_PRJMPr",
     "multirow_PpPxgp"
   ]
