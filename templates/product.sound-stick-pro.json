@@ -859,7 +859,7 @@
             "mobile_height": 400,
             "desktop_width_percent": 100,
             "mobile_width_percent": 100,
-            "image_fit": "cover",
+            "image_fit": "contain",
             "corner_radius": 16
           },
           "blocks": {}
