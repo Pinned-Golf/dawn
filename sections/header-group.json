@@ -23,7 +23,6 @@
         },
         "announcement_fXeqhB": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "Sound Stick PRO Pre-Sale",
             "link": "shopify://products/sound-stick-pro"
