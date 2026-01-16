@@ -16,7 +16,6 @@
       "blocks": {
         "announcement_xFKTDG": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "Caddie Sold Out! Shipping 2/2",
             "link": "shopify://products/the-caddie-golf-tablet"
@@ -26,8 +25,8 @@
           "type": "announcement",
           "disabled": true,
           "settings": {
-            "text": "Bethpage Black Friday!",
-            "link": "shopify://products/the-caddie-golf-tablet"
+            "text": "Sound Stick PRO Pre-Sale",
+            "link": "shopify://products/sound-stick-pro"
           }
         },
         "announcement_tqPLEH": {
