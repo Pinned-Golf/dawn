@@ -43,7 +43,6 @@
         "heading_6nE9Ud",
         "buttons_FdTLpQ"
       ],
-      "disabled": true,
       "custom_css": [
         "@media only screen and (max-width: 749px) {.banner {min-height: 70vh; /* Adjust this height as needed */ } .banner__media {height: 100%; width: 100%; object-fit: cover; }}",
         ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50rem;}",
