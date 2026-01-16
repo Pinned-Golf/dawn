@@ -9,49 +9,70 @@
  */
 {
   "sections": {
-    "17618348684e60901d": {
-      "type": "_blocks",
+    "image_banner_qEr3ez": {
+      "type": "image-banner",
       "blocks": {
-        "ai_gen_block_ec366d0_6i9yGk": {
-          "type": "ai_gen_block_ec366d0",
-          "disabled": true,
+        "text_tGiMr6": {
+          "type": "text",
           "settings": {
-            "desktop_height": 500,
-            "mobile_height": 400,
-            "show_overlay": true,
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "heading": "Image banner",
-            "subheading": "Add your promotional text here",
-            "text_color": "#ffffff",
-            "heading_size": 48,
-            "subheading_size": 18,
-            "content_max_width": 600,
-            "horizontal_alignment": "center",
-            "vertical_alignment": "center",
-            "text_alignment": "center",
-            "primary_button_label": "Shop now",
-            "primary_button_link": "",
-            "primary_button_bg": "#000000",
-            "primary_button_bg_hover": "#333333",
-            "primary_button_text": "#ffffff",
-            "secondary_button_label": "",
-            "secondary_button_link": "",
-            "secondary_button_bg": "rgba(0,0,0,0)",
-            "secondary_button_bg_hover": "#ffffff1a",
-            "secondary_button_text": "#ffffff",
-            "secondary_button_border": "#ffffff",
-            "secondary_button_border_hover": "#ffffff",
-            "button_font_size": 16,
-            "button_border_radius": 4
-          },
-          "blocks": {}
+            "text": "The definition of better vibes, better golf",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "heading_6nE9Ud": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Sound Stick PRO</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "buttons_FdTLpQ": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Caddie",
+            "button_link_1": "shopify://products/the-caddie-golf-tablet",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
-        "ai_gen_block_ec366d0_6i9yGk"
+        "text_tGiMr6",
+        "heading_6nE9Ud",
+        "buttons_FdTLpQ"
       ],
-      "settings": {}
+      "custom_css": [
+        "@media only screen and (max-width: 749px) {.banner {min-height: 70vh; /* Adjust this height as needed */ } .banner__media {height: 100%; width: 100%; object-fit: cover; }}",
+        ".banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50rem;}",
+        "@media screen and (min-width: 750px) {.banner--large:not(.banner--adapt) {min-height: 90rem; }}",
+        ".banner__content {align-items: flex-end;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/8_f5254c62-6cb3-418e-b8a1-be316cd4532c.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "rich_text_4RTmkd": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
     },
     "17595165653b53e9cb": {
       "type": "_blocks",
@@ -167,24 +188,24 @@
         "show_text_below": false
       }
     },
-    "image_banner_qEr3ez": {
+    "image_banner_fctqXH": {
       "type": "image-banner",
       "blocks": {
-        "heading_6nE9Ud": {
+        "heading_VG7RDg": {
           "type": "heading",
           "settings": {
             "heading": "<strong>Future of golf awaits.</strong>",
             "heading_size": "h0"
           }
         },
-        "text_tGiMr6": {
+        "text_RY7HwJ": {
           "type": "text",
           "settings": {
             "text": "",
             "text_style": "caption-with-letter-spacing"
           }
         },
-        "buttons_FdTLpQ": {
+        "buttons_jkz6y9": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Caddie",
@@ -197,9 +218,9 @@
         }
       },
       "block_order": [
-        "heading_6nE9Ud",
-        "text_tGiMr6",
-        "buttons_FdTLpQ"
+        "heading_VG7RDg",
+        "text_RY7HwJ",
+        "buttons_jkz6y9"
       ],
       "custom_css": [
         "@media only screen and (max-width: 749px) {.banner {min-height: 70vh; /* Adjust this height as needed */ } .banner__media {height: 100%; width: 100%; object-fit: cover; }}",
@@ -637,11 +658,12 @@
     }
   },
   "order": [
-    "17618348684e60901d",
+    "image_banner_qEr3ez",
+    "rich_text_4RTmkd",
     "17595165653b53e9cb",
     "rich_text_FcUQpN",
     "image_banner_7BXd3H",
-    "image_banner_qEr3ez",
+    "image_banner_fctqXH",
     "rich_text_4CKN8R",
     "image_banner_4ac4Cg",
     "rich_text_GqENi6",
