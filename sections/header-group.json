@@ -30,10 +30,9 @@
         },
         "announcement_tqPLEH": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "The Caddie In Forbes",
-            "link": "shopify://blogs/pinned-boys/pinned-golf-featured-in-forbes-magazine"
+            "text": "Sound Stick PRO Wins Best New Product",
+            "link": "shopify://products/sound-stick-pro"
           }
         },
         "announcement_WhAXbB": {
