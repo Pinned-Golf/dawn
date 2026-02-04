@@ -9,10 +9,6 @@
  */
 {
   "sections": {
-    "175950530492a01c83": {
-      "type": "_blocks",
-      "settings": {}
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -1048,7 +1044,6 @@
     }
   },
   "order": [
-    "175950530492a01c83",
     "main",
     "rich_text_Pzp6bP",
     "1759504596dc061c90",
