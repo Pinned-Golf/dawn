@@ -243,6 +243,49 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_gX3X9X": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4AfRqY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Time to get dialed in.",
+            "heading_size": "h1"
+          }
+        },
+        "text_cEWGdr": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>The Prism+ was designed to be bold and engineered to amaze.</em></p>"
+          }
+        },
+        "button_mGRcPA": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_4AfRqY",
+        "text_cEWGdr",
+        "button_mGRcPA"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_banner_AgN8Rt": {
       "type": "image-banner",
       "disabled": true,
@@ -278,7 +321,7 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/1_074962d5-bc9e-4309-a735-5c087b827c4a.jpg",
-            "caption": "70 Round",
+            "caption": "65 Round",
             "heading": "Rechargeable Battery",
             "text": "<p>No more batteries. One 45 minute charge will have your Prism+ dialed in for 70+ rounds. So long are the days of a dead battery on the course.</p>",
             "button_label": "",
@@ -777,7 +820,9 @@
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "review_data": "sample_data",
-            "max_width": 1200
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
           }
         }
       },
@@ -815,49 +860,6 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "rich_text_gX3X9X": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_4AfRqY": {
-          "type": "heading",
-          "settings": {
-            "heading": "Time to get dialed in.",
-            "heading_size": "h1"
-          }
-        },
-        "text_cEWGdr": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>The Prism+ was designed to be bold and engineered to amaze.</em></p>"
-          }
-        },
-        "button_mGRcPA": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_4AfRqY",
-        "text_cEWGdr",
-        "button_mGRcPA"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     }
   },
